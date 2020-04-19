@@ -9,14 +9,11 @@ let serie = $char(parseInt(now().format("d")) + 96)  # Do 1 "serie" per day of m
 
 var errors = "exitCode, name\n"
 
-var i = 0
 for item in parseJson(jsn).items:
   let name = item.getOrDefault("name").getStr.toLowerAscii
   let letter = $name[0]
   if unlikely(letter == serie):
     let audit = execCmdEx(checkCmd & name)
-    inc i
-    if i > 3: break
     if audit.exitCode == 0:
       discard existsOrCreateDir(letter)
       let resultxt = letter / name & ".log"
