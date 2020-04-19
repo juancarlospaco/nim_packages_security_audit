@@ -1,0 +1,255 @@
+    Reading official package list
+Downloading https://github.com/FedericoCeratto/nim-statsd-client using git
+    Cloning latest tagged version: 0.1.1
+       Info /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/statsd_client_8474.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/statsd_client_8474.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+   Warning: Package 'statsd_client' has an incorrect structure. The top level of the package source directory should contain at most one module, named 'statsd_client.nim', but a file named 'statsd_demo.nim' was found. This will be an error in the future.
+      Hint: If this is the primary source file in the package, rename it to 'statsd_client.nim'. If it's a source file required by the main module, or if it is one of several modules exposed by 'statsd_client', then move it into a 'statsd_client/' subdirectory. If it's a test file or otherwise not required to build the the package 'statsd_client.nim', prevent its installation by adding `skipFiles = @["statsd_demo.nim"]` to the .nimble file. See https://github.com/nim-lang/nimble#libraries for more info.
+  Verifying dependencies for statsd_client@0.1.1
+ Installing statsd_client@0.1.1
+    Copying file /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/src/statsd_demo.nim to /home/runner/.nimble/pkgs/statsd_client-0.1.1/statsd_demo.nim
+    Copying file /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/src/statsd_client.nim to /home/runner/.nimble/pkgs/statsd_client-0.1.1/statsd_client.nim
+    Copying file /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/statsd_client.nimble to /home/runner/.nimble/pkgs/statsd_client-0.1.1/statsd_client.nimble
+   Success: statsd_client installed successfully.
+       Info /home/runner/.nimble/pkgs/statsd_client-0.1.1/statsd_client_8474.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /home/runner/.nimble/pkgs/statsd_client-0.1.1/statsd_client_8474.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_8474', 0x00000000000001ff)
+mkdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient', 0x00000000000001ff)
+rmdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient')
+mkdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient', 0x00000000000001ff)
+mkdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/HEAD.lock', '/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/HEAD')
+rename('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config.lock', '/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config')
+chmod('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config.lock', '/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config')
+chmod('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config.lock', '/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config')
+chmod('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config.lock', '/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/twRm5kq')
+symlink('testing', '/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/twRm5kq')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/twRm5kq')
+mkdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config.lock', '/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config')
+chmod('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config.lock', '/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config')
+chmod('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config.lock', '/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config')
+link('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects/pack/tmp_pack_OCIhsF', '/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects/pack/pack-6e198ecbe2b0daf8a1c9ad78b5a4d4231fd0142f.pack')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects/pack/tmp_pack_OCIhsF')
+link('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects/pack/tmp_idx_2JQ5XH', '/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects/pack/pack-6e198ecbe2b0daf8a1c9ad78b5a4d4231fd0142f.idx')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects/pack/tmp_idx_2JQ5XH')
+rename('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/shallow.lock', '/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/shallow')
+rename('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/packed-refs.new', '/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/packed-refs')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/packed-refs.lock')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/refs/tags/0.1.1.lock')
+mkdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/HEAD.lock', '/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/HEAD')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects/pack/pack-6e198ecbe2b0daf8a1c9ad78b5a4d4231fd0142f.keep')
+mkdir('src', 0x00000000000001ff)
+rename('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/index.lock', '/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/index')
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/statsd_client_1011206038', 0x00000000000001ff)
+unlink('/tmp/nimblecache/statsd_client_1011206038/statsd_client.ini')
+unlink('/tmp/nimble_8474.out')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/statsd_client_8474.nims')
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/statsd_client-0.1.1', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/statsd_client-0.1.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/statsd_client-0.1.1/statsd_demo.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/statsd_client-0.1.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/statsd_client-0.1.1/statsd_client.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/statsd_client-0.1.1/statsd_client.nimble', 0x00000000000001a4)
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/statsd_client_3031004271', 0x00000000000001ff)
+unlink('/tmp/nimblecache/statsd_client_3031004271/statsd_client.ini')
+unlink('/tmp/nimble_8474.out')
+unlink('/home/runner/.nimble/pkgs/statsd_client-0.1.1/statsd_client_8474.nims')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/README.adoc')
+rmdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/refs/heads')
+rmdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/refs/tags')
+rmdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/refs')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/logs/HEAD')
+rmdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/logs')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/packed-refs')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/HEAD')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/description')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks/update.sample')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks/post-update.sample')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks/pre-merge-commit.sample')
+rmdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects/pack/pack-6e198ecbe2b0daf8a1c9ad78b5a4d4231fd0142f.idx')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects/pack/pack-6e198ecbe2b0daf8a1c9ad78b5a4d4231fd0142f.pack')
+rmdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects/pack')
+rmdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects/info')
+rmdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects')
+rmdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/branches')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/index')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/info/exclude')
+rmdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/info')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/shallow')
+rmdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/statsd_client.nimble')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.gitignore')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/LICENSE')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/src/statsd_demo.nim')
+unlink('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/src/statsd_client.nim')
+rmdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/src')
+rmdir('/tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient')
+rmdir('/tmp/nimble_8474')
+  create directory /tmp
+  create directory /tmp/nimble_8474
+  create directory /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient
+  create directory /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient
+  create directory /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git
+  create directory /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git
+  create directory /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks
+  create directory /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/branches
+  create directory /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/info
+  create directory /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/refs
+  create directory /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/refs/heads
+  create directory /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/refs/tags
+  rename /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config.lock to config
+  change permissions of /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config.lock to config
+  change permissions of /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config.lock to config
+  change permissions of /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config.lock to config
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/twRm5kq
+  create symbolic link from /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/twRm5kq to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/twRm5kq
+  create directory /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects
+  create directory /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects/pack
+  create directory /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects/info
+  change permissions of /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config.lock to config
+  change permissions of /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config.lock to config
+  change permissions of /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config.lock to config
+  create hard link from /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects/pack/pack-6e198ecbe2b0daf8a1c9ad78b5a4d4231fd0142f.pack to /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects/pack/tmp_pack_OCIhsF
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects/pack/tmp_pack_OCIhsF
+  create hard link from /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects/pack/pack-6e198ecbe2b0daf8a1c9ad78b5a4d4231fd0142f.idx to /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects/pack/tmp_idx_2JQ5XH
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects/pack/tmp_idx_2JQ5XH
+  rename /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/shallow.lock to shallow
+  rename /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/packed-refs.lock
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/refs/tags/0.1.1.lock
+  create directory /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/logs
+  rename /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/HEAD.lock to HEAD
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects/pack/pack-6e198ecbe2b0daf8a1c9ad78b5a4d4231fd0142f.keep
+  create directory /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/src
+  rename /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/index.lock to index
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/statsd_client_1011206038
+  delete /tmp/nimblecache/statsd_client_1011206038/statsd_client.ini
+  delete /tmp/nimble_8474.out
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/statsd_client_8474.nims
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/statsd_client-0.1.1
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/statsd_client-0.1.1
+  change permissions of /home/runner/.nimble/pkgs/statsd_client-0.1.1/statsd_demo.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/statsd_client-0.1.1
+  change permissions of /home/runner/.nimble/pkgs/statsd_client-0.1.1/statsd_client.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/statsd_client-0.1.1/statsd_client.nimble to rw-r--r--
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/statsd_client_3031004271
+  delete /tmp/nimblecache/statsd_client_3031004271/statsd_client.ini
+  delete /tmp/nimble_8474.out
+  delete /home/runner/.nimble/pkgs/statsd_client-0.1.1/statsd_client_8474.nims
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/README.adoc
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/refs/heads
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/refs/tags
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/refs
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/config
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/logs/HEAD
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/logs
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/packed-refs
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/HEAD
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/description
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks/update.sample
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks/pre-push.sample
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks/post-update.sample
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/hooks
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects/pack/pack-6e198ecbe2b0daf8a1c9ad78b5a4d4231fd0142f.idx
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects/pack/pack-6e198ecbe2b0daf8a1c9ad78b5a4d4231fd0142f.pack
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects/pack
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects/info
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/objects
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/branches
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/index
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/info/exclude
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/info
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git/shallow
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.git
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/statsd_client.nimble
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/.gitignore
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/LICENSE
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/src/statsd_demo.nim
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/src/statsd_client.nim
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient/src
+  delete /tmp/nimble_8474/githubcom_FedericoCerattonimstatsdclient
+  delete /tmp/nimble_8474

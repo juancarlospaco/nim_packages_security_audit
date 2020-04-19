@@ -1,0 +1,740 @@
+    Reading official package list
+Downloading https://github.com/nimscale/spdk.git using git
+   Warning: Package 'spdk' has an incorrect structure. The top level of the package source directory should contain at most one module, named 'spdk.nim', but a file named 'net.nim' was found. This will be an error in the future.
+      Hint: If this is the primary source file in the package, rename it to 'spdk.nim'. If it's a source file required by the main module, or if it is one of several modules exposed by 'spdk', then move it into a 'spdk/' subdirectory. If it's a test file or otherwise not required to build the the package 'spdk.nim', prevent its installation by adding `skipFiles = @["net.nim"]` to the .nimble file. See https://github.com/nim-lang/nimble#libraries for more info.
+  Verifying dependencies for spdk@16.08
+ Installing spdk@16.08
+    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/api/net.nim to /home/runner/.nimble/pkgs/spdk-16.08/net.nim
+    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/api/scsi.nim to /home/runner/.nimble/pkgs/spdk-16.08/scsi.nim
+    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/api/string.nim to /home/runner/.nimble/pkgs/spdk-16.08/string.nim
+    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/api/conf.nim to /home/runner/.nimble/pkgs/spdk-16.08/conf.nim
+    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/api/ioat.nim to /home/runner/.nimble/pkgs/spdk-16.08/ioat.nim
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_8704', 0x00000000000001ff)
+mkdir('/tmp/nimble_8704/githubcom_nimscalespdkgit', 0x00000000000001ff)
+rmdir('/tmp/nimble_8704/githubcom_nimscalespdkgit')
+mkdir('/tmp/nimble_8704/githubcom_nimscalespdkgit', 0x00000000000001ff)
+mkdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/HEAD.lock', '/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/HEAD')
+rename('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock', '/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config')
+chmod('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock', '/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config')
+chmod('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock', '/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config')
+chmod('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock', '/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/ttKhISb')
+symlink('testing', '/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/ttKhISb')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/ttKhISb')
+mkdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock', '/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config')
+chmod('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock', '/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config')
+chmod('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock', '/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config')
+link('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects/pack/tmp_pack_XkNj3T', '/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects/pack/pack-daa834d3ae8012162a32f0e25a51e59434e17467.pack')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects/pack/tmp_pack_XkNj3T')
+link('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects/pack/tmp_idx_OmSElg', '/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects/pack/pack-daa834d3ae8012162a32f0e25a51e59434e17467.idx')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects/pack/tmp_idx_OmSElg')
+rename('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/shallow.lock', '/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/shallow')
+rename('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/packed-refs.new', '/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/packed-refs')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/packed-refs.lock')
+mkdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/HEAD.lock', '/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/HEAD')
+mkdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs/heads/master.lock', '/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs/heads/master')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/HEAD.lock')
+chmod('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock', '/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config')
+chmod('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock', '/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects/pack/pack-daa834d3ae8012162a32f0e25a51e59434e17467.keep')
+mkdir('api', 0x00000000000001ff)
+mkdir('doc', 0x00000000000001ff)
+mkdir('doc/spdk', 0x00000000000001ff)
+mkdir('examples', 0x00000000000001ff)
+mkdir('examples/hello_world', 0x00000000000001ff)
+rename('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/index.lock', '/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/index')
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/spdk_3447991558', 0x00000000000001ff)
+unlink('/tmp/nimblecache/spdk_3447991558/spdk.ini')
+unlink('/tmp/nimble_8704.out')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/spdk_8704.nims')
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/net.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/scsi.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/string.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/conf.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/ioat.nim', 0x00000000000001a4)    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/api/copy_engine.nim to /home/runner/.nimble/pkgs/spdk-16.08/copy_engine.nim
+    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/api/json.nim to /home/runner/.nimble/pkgs/spdk-16.08/json.nim
+    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/api/endian.nim to /home/runner/.nimble/pkgs/spdk-16.08/endian.nim
+    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/api/ioat_spec.nim to /home/runner/.nimble/pkgs/spdk-16.08/ioat_spec.nim
+    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/api/vtophys.nim to /home/runner/.nimble/pkgs/spdk-16.08/vtophys.nim
+    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/api/event.nim to /home/runner/.nimble/pkgs/spdk-16.08/event.nim
+    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/api/jsonrpc.nim to /home/runner/.nimble/pkgs/spdk-16.08/jsonrpc.nim
+    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/api/file.nim to /home/runner/.nimble/pkgs/spdk-16.08/file.nim
+    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/api/nvme_spec.nim to /home/runner/.nimble/pkgs/spdk-16.08/nvme_spec.nim
+    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/api/rpc.nim to /home/runner/.nimble/pkgs/spdk-16.08/rpc.nim
+    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/api/trace.nim to /home/runner/.nimble/pkgs/spdk-16.08/trace.nim
+    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/api/nvme_intel.nim to /home/runner/.nimble/pkgs/spdk-16.08/nvme_intel.nim
+    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/api/iscsi_spec.nim to /home/runner/.nimble/pkgs/spdk-16.08/iscsi_spec.nim
+    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/api/scsi_spec.nim to /home/runner/.nimble/pkgs/spdk-16.08/scsi_spec.nim
+    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/api/log.nim to /home/runner/.nimble/pkgs/spdk-16.08/log.nim
+    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/api/pci_ids.nim to /home/runner/.nimble/pkgs/spdk-16.08/pci_ids.nim
+    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/api/nvmf_spec.nim to /home/runner/.nimble/pkgs/spdk-16.08/nvmf_spec.nim
+    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/api/mmio.nim to /home/runner/.nimble/pkgs/spdk-16.08/mmio.nim
+    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/api/bdev.nim to /home/runner/.nimble/pkgs/spdk-16.08/bdev.nim
+    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/api/pci.nim to /home/runner/.nimble/pkgs/spdk-16.08/pci.nim
+    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/api/nvme.nim to /home/runner/.nimble/pkgs/spdk-16.08/nvme.nim
+    Copying file /tmp/nimble_8704/githubcom_nimscalespdkgit/spdk.nimble to /home/runner/.nimble/pkgs/spdk-16.08/spdk.nimble
+   Success: spdk installed successfully.
+
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/copy_engine.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/json.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/endian.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/ioat_spec.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/vtophys.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/event.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/jsonrpc.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/file.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/nvme_spec.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/rpc.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/trace.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/nvme_intel.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/iscsi_spec.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/scsi_spec.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/log.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/pci_ids.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/nvmf_spec.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/mmio.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/bdev.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/pci.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/spdk-16.08', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/nvme.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/spdk-16.08/spdk.nimble', 0x00000000000001a4)
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/spdk_1675117193', 0x00000000000001ff)
+unlink('/tmp/nimblecache/spdk_1675117193/spdk.ini')
+unlink('/tmp/nimble_8704.out')
+unlink('/home/runner/.nimble/pkgs/spdk-16.08/spdk_8704.nims')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/Build_example.sh')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/run_start.sh')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/examples/hello_world/hello_world.nim')
+rmdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/examples/hello_world')
+rmdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/examples')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/run_orgEx.sh')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/README.md')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/build.nims')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs/remotes')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs/heads/master')
+rmdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs/heads')
+rmdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs/tags')
+rmdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/logs/refs/remotes')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/logs/refs/heads')
+rmdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/logs/refs')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/logs/HEAD')
+rmdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/logs')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/packed-refs')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/HEAD')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/description')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks/update.sample')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks/post-update.sample')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks/pre-merge-commit.sample')
+rmdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects/pack/pack-daa834d3ae8012162a32f0e25a51e59434e17467.pack')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects/pack/pack-daa834d3ae8012162a32f0e25a51e59434e17467.idx')
+rmdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects/pack')
+rmdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects/info')
+rmdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects')
+rmdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/branches')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/index')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/info/exclude')
+rmdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/info')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git/shallow')
+rmdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/.git')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/gendoc.sh')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/.gitignore')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/spdk.nimble')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/run_nimEx.sh')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/LICENSE')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/api/net.nim')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/api/scsi.nim')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/api/string.nim')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/api/conf.nim')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/api/ioat.nim')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/api/copy_engine.nim')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/api/json.nim')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/api/endian.nim')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/api/ioat_spec.nim')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/api/vtophys.nim')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/api/event.nim')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/api/jsonrpc.nim')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/api/file.nim')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/api/nvme_spec.nim')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/api/rpc.nim')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/api/trace.nim')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/api/nvme_intel.nim')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/api/iscsi_spec.nim')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/api/scsi_spec.nim')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/api/log.nim')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/api/pci_ids.nim')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/api/nvmf_spec.nim')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/api/mmio.nim')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/api/bdev.nim')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/api/pci.nim')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/api/nvme.nim')
+rmdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/api')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk_report.xlsx')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/pci_ids.html')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/vtophys.html')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/endian.html')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/pci.html')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/jsonrpc.html')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/scsi.html')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/event.html')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/nvme.html')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/index.html')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/nvme_spec.html')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/iscsi_spec.html')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/ioat.html')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/trace.html')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/bdev.html')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/file.html')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/net.html')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/nvmf_spec.html')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/nvme_intel.html')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/conf.html')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/json.html')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/log.html')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/rpc.html')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/string.html')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/scsi_spec.html')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/mmio.html')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/ioat_spec.html')
+unlink('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/copy_engine.html')
+rmdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk')
+rmdir('/tmp/nimble_8704/githubcom_nimscalespdkgit/doc')
+rmdir('/tmp/nimble_8704/githubcom_nimscalespdkgit')
+rmdir('/tmp/nimble_8704')
+  create directory /tmp
+  create directory /tmp/nimble_8704
+  create directory /tmp/nimble_8704/githubcom_nimscalespdkgit
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit
+  create directory /tmp/nimble_8704/githubcom_nimscalespdkgit
+  create directory /tmp/nimble_8704/githubcom_nimscalespdkgit/.git
+  create directory /tmp/nimble_8704/githubcom_nimscalespdkgit/.git
+  create directory /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks
+  create directory /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/branches
+  create directory /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/info
+  create directory /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs
+  create directory /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs/heads
+  create directory /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs/tags
+  rename /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock to config
+  change permissions of /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock to config
+  change permissions of /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock to config
+  change permissions of /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock to config
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/ttKhISb
+  create symbolic link from /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/ttKhISb to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/ttKhISb
+  create directory /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects
+  create directory /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects/pack
+  create directory /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects/info
+  change permissions of /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock to config
+  change permissions of /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock to config
+  change permissions of /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock to config
+  create hard link from /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects/pack/pack-daa834d3ae8012162a32f0e25a51e59434e17467.pack to /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects/pack/tmp_pack_XkNj3T
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects/pack/tmp_pack_XkNj3T
+  create hard link from /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects/pack/pack-daa834d3ae8012162a32f0e25a51e59434e17467.idx to /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects/pack/tmp_idx_OmSElg
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects/pack/tmp_idx_OmSElg
+  rename /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/shallow.lock to shallow
+  rename /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/packed-refs.lock
+  create directory /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs/remotes
+  create directory /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs/remotes/origin
+  create directory /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/logs
+  create directory /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/logs/refs
+  create directory /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/logs/refs/remotes
+  create directory /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/logs/refs/heads
+  rename /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/HEAD.lock
+  change permissions of /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock to config
+  change permissions of /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config.lock to config
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects/pack/pack-daa834d3ae8012162a32f0e25a51e59434e17467.keep
+  create directory /tmp/nimble_8704/githubcom_nimscalespdkgit/api
+  create directory /tmp/nimble_8704/githubcom_nimscalespdkgit/doc
+  create directory /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk
+  create directory /tmp/nimble_8704/githubcom_nimscalespdkgit/examples
+  create directory /tmp/nimble_8704/githubcom_nimscalespdkgit/examples/hello_world
+  rename /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/index.lock to index
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/spdk_3447991558
+  delete /tmp/nimblecache/spdk_3447991558/spdk.ini
+  delete /tmp/nimble_8704.out
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/spdk_8704.nims
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/net.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/scsi.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/string.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/conf.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/ioat.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/copy_engine.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/json.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/endian.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/ioat_spec.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/vtophys.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/event.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/jsonrpc.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/file.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/nvme_spec.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/rpc.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/trace.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/nvme_intel.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/iscsi_spec.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/scsi_spec.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/log.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/pci_ids.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/nvmf_spec.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/mmio.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/bdev.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/pci.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/spdk-16.08
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/nvme.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/spdk-16.08/spdk.nimble to rw-r--r--
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/spdk_1675117193
+  delete /tmp/nimblecache/spdk_1675117193/spdk.ini
+  delete /tmp/nimble_8704.out
+  delete /home/runner/.nimble/pkgs/spdk-16.08/spdk_8704.nims
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/Build_example.sh
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/run_start.sh
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/examples/hello_world/hello_world.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/examples/hello_world
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/examples
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/run_orgEx.sh
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/README.md
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/build.nims
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs/remotes/origin
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs/remotes
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs/heads/master
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs/heads
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs/tags
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/refs
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/config
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/logs/refs/remotes
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/logs/refs/heads/master
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/logs/refs/heads
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/logs/refs
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/logs/HEAD
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/logs
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/packed-refs
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/HEAD
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/description
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks/update.sample
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks/pre-push.sample
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks/post-update.sample
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/hooks
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects/pack/pack-daa834d3ae8012162a32f0e25a51e59434e17467.pack
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects/pack/pack-daa834d3ae8012162a32f0e25a51e59434e17467.idx
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects/pack
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects/info
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/objects
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/branches
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/index
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/info/exclude
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/info
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git/shallow
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.git
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/gendoc.sh
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/.gitignore
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/spdk.nimble
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/run_nimEx.sh
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/LICENSE
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api/net.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api/scsi.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api/string.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api/conf.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api/ioat.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api/copy_engine.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api/json.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api/endian.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api/ioat_spec.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api/vtophys.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api/event.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api/jsonrpc.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api/file.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api/nvme_spec.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api/rpc.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api/trace.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api/nvme_intel.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api/iscsi_spec.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api/scsi_spec.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api/log.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api/pci_ids.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api/nvmf_spec.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api/mmio.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api/bdev.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api/pci.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api/nvme.nim
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/api
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk_report.xlsx
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/pci_ids.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/vtophys.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/endian.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/pci.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/jsonrpc.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/scsi.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/event.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/nvme.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/index.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/nvme_spec.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/iscsi_spec.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/ioat.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/trace.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/bdev.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/file.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/net.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/nvmf_spec.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/nvme_intel.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/conf.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/json.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/log.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/rpc.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/string.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/scsi_spec.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/mmio.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/ioat_spec.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk/copy_engine.html
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc/spdk
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit/doc
+  delete /tmp/nimble_8704/githubcom_nimscalespdkgit
+  delete /tmp/nimble_8704
