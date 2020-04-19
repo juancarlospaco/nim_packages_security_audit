@@ -1,6 +1,6 @@
 # Fully Automated Nim Packages Security Audit
 
-- Security Audit on all [Nim](http://nim-lang.org) packages, "Bot" powered by [GitHub Actions](https://github.com/features/actions), runs all days per Category, [PTrace-based](https://en.wikipedia.org/wiki/Ptrace).
+- Security Audit on all [Nim](http://nim-lang.org) packages, "Bot" powered by [GitHub Actions](https://github.com/features/actions) + [PTrace](https://en.wikipedia.org/wiki/Ptrace), runs all days per Category.
 
 ![](https://img.shields.io/github/languages/top/juancarlospaco/nim_packages_security_audit?style=for-the-badge)
 ![](https://img.shields.io/github/stars/juancarlospaco/nim_packages_security_audit?style=for-the-badge "Star webgui on GitHub!")
