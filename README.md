@@ -1,6 +1,6 @@
 # Fully Automated Nim Packages Security Audit
 
-- Security Audit on all [Nim](http://nim-lang.org) packages, "Bot" powered by GitHub Actions.
+- Security Audit on all [Nim](http://nim-lang.org) packages, "Bot" powered by GitHub Actions, runs all days per Category.
 
 ![](https://img.shields.io/github/languages/top/juancarlospaco/nim_packages_security_audit?style=for-the-badge)
 ![](https://img.shields.io/github/stars/juancarlospaco/nim_packages_security_audit?style=for-the-badge "Star webgui on GitHub!")
