@@ -6,8 +6,6 @@
 ![](https://img.shields.io/github/stars/juancarlospaco/nim_packages_security_audit?style=for-the-badge "Star webgui on GitHub!")
 ![](https://img.shields.io/maintenance/yes/2020?style=for-the-badge "2020")
 ![](https://img.shields.io/github/languages/code-size/juancarlospaco/nim_packages_security_audit?style=for-the-badge)
-![](https://img.shields.io/github/issues-raw/juancarlospaco/nim_packages_security_audit?style=for-the-badge "Bugs")
-![](https://img.shields.io/github/issues-pr-raw/juancarlospaco/nim_packages_security_audit?style=for-the-badge "PRs")
 ![](https://img.shields.io/github/last-commit/juancarlospaco/nim_packages_security_audit?style=for-the-badge "Commits")
 
 
