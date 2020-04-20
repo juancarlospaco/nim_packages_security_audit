@@ -1,7 +1,7 @@
 import os, strutils, json, osproc, times
 
 const
-  checkCmd = "timeout 30m python3 tracexec.py nimble --noColor --verbose --accept install "
+  checkCmd = "python3 tracexec.py nimble --noColor --verbose --accept install "
   packages = "https://raw.githubusercontent.com/nim-lang/packages/master/packages.json"
   jsn = staticExec("curl -s " & packages)
 
