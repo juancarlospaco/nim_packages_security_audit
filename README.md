@@ -1,12 +1,13 @@
 # Fully Automated Nim Packages Security Audit
 
-- Security Audit on all [Nim](http://nim-lang.org) packages, "Bot" powered by [GitHub Actions](https://github.com/features/actions) + [PTrace](https://en.wikipedia.org/wiki/Ptrace), runs all days by Cron per category.
+- Security Audit on all [Nim](http://nim-lang.org) packages, ["Bot"](https://github.com/juancarlospaco/nim_packages_security_audit/actions?query=workflow%3A%22Nimble+Security+Audit%22) powered by [GitHub Actions](https://github.com/features/actions) + [PTrace](https://en.wikipedia.org/wiki/Ptrace), runs all days by Cron per category.
 
 ![](https://img.shields.io/github/languages/top/juancarlospaco/nim_packages_security_audit?style=for-the-badge)
 ![](https://img.shields.io/github/stars/juancarlospaco/nim_packages_security_audit?style=for-the-badge "Star webgui on GitHub!")
 ![](https://img.shields.io/maintenance/yes/2020?style=for-the-badge "2020")
 ![](https://img.shields.io/github/languages/code-size/juancarlospaco/nim_packages_security_audit?style=for-the-badge)
 ![](https://img.shields.io/github/last-commit/juancarlospaco/nim_packages_security_audit?style=for-the-badge "Commits")
+![](https://github.com/juancarlospaco/nim_packages_security_audit/workflows/Nimble%20Security%20Audit/badge.svg?branch=master)
 
 
 # Categories
@@ -43,3 +44,10 @@
 # Stars
 
 ![](https://starchart.cc/juancarlospaco/nim_packages_security_audit.svg)
+
+
+# Badge
+
+```markdown
+![](https://github.com/juancarlospaco/nim_packages_security_audit/workflows/Nimble%20Security%20Audit/badge.svg?branch=master)
+```
