@@ -8,7 +8,7 @@
 ![](https://img.shields.io/github/last-commit/juancarlospaco/nim_packages_security_audit?style=for-the-badge "Commits")
 ![](https://github.com/juancarlospaco/nim_packages_security_audit/workflows/Nimble%20Security%20Audit/badge.svg?branch=master)
 
-![](robot-nim.png)
+![](https://raw.githubusercontent.com/juancarlospaco/nim_packages_security_audit/master/robot-nim.png)
 
 
 # Categories
