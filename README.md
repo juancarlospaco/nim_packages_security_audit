@@ -61,6 +61,10 @@
 
 # FAQ
 
+- How to use?.
+
+[Click on 1 Category](#categories), click on [1 package](https://github.com/juancarlospaco/nim_packages_security_audit/blob/master/z/zip.log) [you are interested.](https://github.com/juancarlospaco/nim_packages_security_audit/blob/master/s/sass.log)
+
 - How to install this?.
 
 You dont, is a repo bot.
