@@ -49,5 +49,5 @@
 # Badge
 
 ```markdown
-![](https://github.com/juancarlospaco/nim_packages_security_audit/workflows/Nimble%20Security%20Audit/badge.svg?branch=master)
+[![](https://github.com/juancarlospaco/nim_packages_security_audit/workflows/Nimble%20Security%20Audit/badge.svg?branch=master)](https://github.com/juancarlospaco/nim_packages_security_audit#categories)
 ```
