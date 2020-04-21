@@ -1,9 +1,8 @@
 name: Nimble Security Audit
 
 on:
-  push
-  # schedule:
-  #   - cron: '0 0 * * *'
+  schedule:
+    - cron: '0 0 * * *'
 
 jobs:
   build:
