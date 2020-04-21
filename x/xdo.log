@@ -1,0 +1,309 @@
+    Reading official package list
+Downloading https://github.com/juancarlospaco/nim-xdo using git
+   Warning: Package 'xdo' has an incorrect structure. The top level of the package source directory should contain at most one module, named 'xdo.nim', but a file named 'deps.nim' was found. This will be an error in the future.
+      Hint: If this is the primary source file in the package, rename it to 'xdo.nim'. If it's a source file required by the main module, or if it is one of several modules exposed by 'xdo', then move it into a 'xdo/' subdirectory. If it's a test file or otherwise not required to build the the package 'xdo.nim', prevent its installation by adding `skipFiles = @["deps.nim"]` to the .nimble file. See https://github.com/nim-lang/nimble#libraries for more info.
+ Attempting to execute hook installBefore in /tmp/nimble_5019/githubcom_juancarlospaconimxdo/xdo.nimble
+  Verifying dependencies for xdo@0.2.2
+ Installing xdo@0.2.2
+    Copying file /tmp/nimble_5019/githubcom_juancarlospaconimxdo/src/deps.nim to /home/runner/.nimble/pkgs/xdo-0.2.2/deps.nim
+    Copying file /tmp/nimble_5019/githubcom_juancarlospaconimxdo/src/xdo.nim to /home/runner/.nimble/pkgs/xdo-0.2.2/xdo.nim
+    Copying file /tmp/nimble_5019/githubcom_juancarlospaconimxdo/xdo.nimble to /home/runner/.nimble/pkgs/xdo-0.2.2/xdo.nimble
+   Success: xdo installed successfully.
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_5019', 0x00000000000001ff)
+mkdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo', 0x00000000000001ff)
+rmdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo')
+mkdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo', 0x00000000000001ff)
+mkdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/HEAD.lock', '/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/HEAD')
+rename('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock', '/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config')
+chmod('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock', '/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config')
+chmod('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock', '/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config')
+chmod('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock', '/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/tTmgLsZ')
+symlink('testing', '/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/tTmgLsZ')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/tTmgLsZ')
+mkdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock', '/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config')
+chmod('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock', '/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config')
+chmod('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock', '/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config')
+link('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects/pack/tmp_pack_GjaUFh', '/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects/pack/pack-c8de4fcbd414345242a92b153d4af461c73bbf86.pack')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects/pack/tmp_pack_GjaUFh')
+link('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects/pack/tmp_idx_OjGRdw', '/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects/pack/pack-c8de4fcbd414345242a92b153d4af461c73bbf86.idx')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects/pack/tmp_idx_OjGRdw')
+rename('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/shallow.lock', '/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/shallow')
+rename('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/packed-refs.new', '/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/packed-refs')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/packed-refs.lock')
+mkdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/HEAD.lock', '/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/HEAD')
+mkdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs/heads/master.lock', '/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs/heads/master')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/HEAD.lock')
+chmod('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock', '/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config')
+chmod('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock', '/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects/pack/pack-c8de4fcbd414345242a92b153d4af461c73bbf86.keep')
+mkdir('.github', 0x00000000000001ff)
+mkdir('src', 0x00000000000001ff)
+rename('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/index.lock', '/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/index')
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/xdo_700498020', 0x00000000000001ff)
+unlink('/tmp/nimblecache/xdo_700498020/xdo.ini')
+unlink('/tmp/nimble_5019.out')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/xdo_5019.nims')
+unlink('/tmp/nimble_5019.out')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/xdo_5019.nims')
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/xdo-0.2.2', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/xdo-0.2.2', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/xdo-0.2.2/deps.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/xdo-0.2.2', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/xdo-0.2.2/xdo.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/xdo-0.2.2/xdo.nimble', 0x00000000000001a4)
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/xdo_1370679169', 0x00000000000001ff)
+unlink('/tmp/nimblecache/xdo_1370679169/xdo.ini')
+unlink('/tmp/nimble_5019.out')
+unlink('/home/runner/.nimble/pkgs/xdo-0.2.2/xdo_5019.nims')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/keyboard_kitten.jpg')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/xdo.nimble')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/README.md')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs/remotes')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs/heads/master')
+rmdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs/heads')
+rmdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs/tags')
+rmdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/logs/refs/remotes')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/logs/refs/heads')
+rmdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/logs/refs')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/logs/HEAD')
+rmdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/logs')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/packed-refs')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/HEAD')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/description')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks/update.sample')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks/post-update.sample')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks/pre-merge-commit.sample')
+rmdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects/pack/pack-c8de4fcbd414345242a92b153d4af461c73bbf86.idx')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects/pack/pack-c8de4fcbd414345242a92b153d4af461c73bbf86.pack')
+rmdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects/pack')
+rmdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects/info')
+rmdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects')
+rmdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/branches')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/index')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/info/exclude')
+rmdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/info')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/shallow')
+rmdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.github/FUNDING.yml')
+rmdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.github')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/check_deps.sh')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/.gitignore')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/LICENSE')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/src/deps.nim')
+unlink('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/src/xdo.nim')
+rmdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo/src')
+rmdir('/tmp/nimble_5019/githubcom_juancarlospaconimxdo')
+rmdir('/tmp/nimble_5019')
+  create directory /tmp
+  create directory /tmp/nimble_5019
+  create directory /tmp/nimble_5019/githubcom_juancarlospaconimxdo
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo
+  create directory /tmp/nimble_5019/githubcom_juancarlospaconimxdo
+  create directory /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git
+  create directory /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git
+  create directory /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks
+  create directory /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/branches
+  create directory /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/info
+  create directory /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs
+  create directory /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs/heads
+  create directory /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs/tags
+  rename /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock to config
+  change permissions of /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock to config
+  change permissions of /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock to config
+  change permissions of /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock to config
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/tTmgLsZ
+  create symbolic link from /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/tTmgLsZ to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/tTmgLsZ
+  create directory /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects
+  create directory /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects/pack
+  create directory /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects/info
+  change permissions of /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock to config
+  change permissions of /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock to config
+  change permissions of /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock to config
+  create hard link from /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects/pack/pack-c8de4fcbd414345242a92b153d4af461c73bbf86.pack to /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects/pack/tmp_pack_GjaUFh
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects/pack/tmp_pack_GjaUFh
+  create hard link from /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects/pack/pack-c8de4fcbd414345242a92b153d4af461c73bbf86.idx to /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects/pack/tmp_idx_OjGRdw
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects/pack/tmp_idx_OjGRdw
+  rename /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/shallow.lock to shallow
+  rename /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/packed-refs.lock
+  create directory /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs/remotes
+  create directory /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs/remotes/origin
+  create directory /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/logs
+  create directory /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/logs/refs
+  create directory /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/logs/refs/remotes
+  create directory /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/logs/refs/heads
+  rename /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/HEAD.lock
+  change permissions of /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock to config
+  change permissions of /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config.lock to config
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects/pack/pack-c8de4fcbd414345242a92b153d4af461c73bbf86.keep
+  create directory /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.github
+  create directory /tmp/nimble_5019/githubcom_juancarlospaconimxdo/src
+  rename /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/index.lock to index
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/xdo_700498020
+  delete /tmp/nimblecache/xdo_700498020/xdo.ini
+  delete /tmp/nimble_5019.out
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/xdo_5019.nims
+  delete /tmp/nimble_5019.out
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/xdo_5019.nims
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/xdo-0.2.2
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/xdo-0.2.2
+  change permissions of /home/runner/.nimble/pkgs/xdo-0.2.2/deps.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/xdo-0.2.2
+  change permissions of /home/runner/.nimble/pkgs/xdo-0.2.2/xdo.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/xdo-0.2.2/xdo.nimble to rw-r--r--
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/xdo_1370679169
+  delete /tmp/nimblecache/xdo_1370679169/xdo.ini
+  delete /tmp/nimble_5019.out
+  delete /home/runner/.nimble/pkgs/xdo-0.2.2/xdo_5019.nims
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/keyboard_kitten.jpg
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/xdo.nimble
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/README.md
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs/remotes/origin
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs/remotes
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs/heads/master
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs/heads
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs/tags
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/refs
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/config
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/logs/refs/remotes
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/logs/refs/heads/master
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/logs/refs/heads
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/logs/refs
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/logs/HEAD
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/logs
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/packed-refs
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/HEAD
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/description
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks/update.sample
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks/pre-push.sample
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks/post-update.sample
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/hooks
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects/pack/pack-c8de4fcbd414345242a92b153d4af461c73bbf86.idx
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects/pack/pack-c8de4fcbd414345242a92b153d4af461c73bbf86.pack
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects/pack
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects/info
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/objects
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/branches
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/index
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/info/exclude
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/info
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git/shallow
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.git
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.github/FUNDING.yml
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.github
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/check_deps.sh
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/.gitignore
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/LICENSE
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/src/deps.nim
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/src/xdo.nim
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo/src
+  delete /tmp/nimble_5019/githubcom_juancarlospaconimxdo
+  delete /tmp/nimble_5019
