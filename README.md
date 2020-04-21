@@ -57,3 +57,14 @@
 ```rst
 .. image:: https://github.com/juancarlospaco/nim_packages_security_audit/workflows/Nimble%20Security%20Audit/badge.svg?branch=master
 ```
+
+
+# FAQ
+
+- How to install this?.
+
+You dont, is a repo bot.
+
+- I Forked it and wont work?.
+
+You dont, is a repo bot.
