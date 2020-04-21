@@ -5,7 +5,7 @@ const
   packages = "https://raw.githubusercontent.com/nim-lang/packages/master/packages.json"
   jsn = staticExec("curl -s " & packages)
 
-let serie = "z" # $char(parseInt(now().format("d")) + 96)  # Do 1 "serie" per day of month.
+let serie = $char(parseInt(now().format("d")) + 96)  # Do 1 "serie" per day of month.
 
 var errors = "exitCode, name\n"
 
