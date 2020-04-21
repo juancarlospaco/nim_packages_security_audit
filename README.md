@@ -68,8 +68,8 @@ Every day you have fresh data.
 
 - How to install this?.
 
-You dont, is a repo bot.
+You dont, is a *repo bot*.
 
 - I Forked it and wont work?.
 
-You dont, is a repo bot.
+You dont, is a *repo bot*.
