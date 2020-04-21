@@ -5,7 +5,6 @@
 ![](https://img.shields.io/github/languages/top/juancarlospaco/nim_packages_security_audit?style=for-the-badge)
 ![](https://img.shields.io/github/stars/juancarlospaco/nim_packages_security_audit?style=for-the-badge "Star webgui on GitHub!")
 ![](https://img.shields.io/maintenance/yes/2020?style=for-the-badge "2020")
-![](https://img.shields.io/github/languages/code-size/juancarlospaco/nim_packages_security_audit?style=for-the-badge)
 ![](https://img.shields.io/github/last-commit/juancarlospaco/nim_packages_security_audit?style=for-the-badge "Commits")
 ![](https://github.com/juancarlospaco/nim_packages_security_audit/workflows/Nimble%20Security%20Audit/badge.svg?branch=master)
 
@@ -50,4 +49,9 @@
 
 ```markdown
 [![](https://github.com/juancarlospaco/nim_packages_security_audit/workflows/Nimble%20Security%20Audit/badge.svg?branch=master)](https://github.com/juancarlospaco/nim_packages_security_audit#categories)
+```
+
+
+```rst
+.. image:: https://github.com/juancarlospaco/nim_packages_security_audit/workflows/Nimble%20Security%20Audit/badge.svg?branch=master
 ```
