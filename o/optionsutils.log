@@ -1,0 +1,263 @@
+    Reading official package list
+Downloading https://github.com/PMunch/nim-optionsutils using git
+    Cloning latest tagged version: v1.1.2
+       Info /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/optionsutils_3242.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/optionsutils_3242.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+   Warning: Package 'optionsutils' has an incorrect structure. The top level of the package source directory should contain at most one module, named 'optionsutils.nim', but a file named 'safeoptions.nim' was found. This will be an error in the future.
+      Hint: If this is the primary source file in the package, rename it to 'optionsutils.nim'. If it's a source file required by the main module, or if it is one of several modules exposed by 'optionsutils', then move it into a 'optionsutils/' subdirectory. If it's a test file or otherwise not required to build the the package 'optionsutils.nim', prevent its installation by adding `skipFiles = @["safeoptions.nim"]` to the .nimble file. See https://github.com/nim-lang/nimble#libraries for more info.
+  Verifying dependencies for optionsutils@1.1.2
+ Installing optionsutils@1.1.2
+    Copying file /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/src/optionsutils.nim to /home/runner/.nimble/pkgs/optionsutils-1.1.2/optionsutils.nim
+    Copying file /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/src/safeoptions.nim to /home/runner/.nimble/pkgs/optionsutils-1.1.2/safeoptions.nim
+    Copying file /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/optionsutils.nimble to /home/runner/.nimble/pkgs/optionsutils-1.1.2/optionsutils.nimble
+   Success: optionsutils installed successfully.
+       Info /home/runner/.nimble/pkgs/optionsutils-1.1.2/optionsutils_3242.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /home/runner/.nimble/pkgs/optionsutils-1.1.2/optionsutils_3242.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_3242', 0x00000000000001ff)
+mkdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils', 0x00000000000001ff)
+rmdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils')
+mkdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils', 0x00000000000001ff)
+mkdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/HEAD.lock', '/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/HEAD')
+rename('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config.lock', '/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config')
+chmod('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config.lock', '/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config')
+chmod('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config.lock', '/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config')
+chmod('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config.lock', '/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/tWlJhRf')
+symlink('testing', '/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/tWlJhRf')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/tWlJhRf')
+mkdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config.lock', '/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config')
+chmod('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config.lock', '/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config')
+chmod('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config.lock', '/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config')
+link('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects/pack/tmp_pack_cT5Buc', '/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects/pack/pack-4053f86b225b815dfb80c690ed2512553a942ed7.pack')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects/pack/tmp_pack_cT5Buc')
+link('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects/pack/tmp_idx_Br7qTc', '/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects/pack/pack-4053f86b225b815dfb80c690ed2512553a942ed7.idx')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects/pack/tmp_idx_Br7qTc')
+rename('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/shallow.lock', '/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/shallow')
+rename('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/packed-refs.new', '/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/packed-refs')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/packed-refs.lock')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/refs/tags/v1.1.2.lock')
+mkdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/HEAD.lock', '/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/HEAD')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects/pack/pack-4053f86b225b815dfb80c690ed2512553a942ed7.keep')
+mkdir('src', 0x00000000000001ff)
+mkdir('tests', 0x00000000000001ff)
+rename('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/index.lock', '/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/index')
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/optionsutils_809753084', 0x00000000000001ff)
+unlink('/tmp/nimblecache/optionsutils_809753084/optionsutils.ini')
+unlink('/tmp/nimble_3242.out')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/optionsutils_3242.nims')
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/optionsutils-1.1.2', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/optionsutils-1.1.2', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/optionsutils-1.1.2/optionsutils.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/optionsutils-1.1.2', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/optionsutils-1.1.2/safeoptions.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/optionsutils-1.1.2/optionsutils.nimble', 0x00000000000001a4)
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/optionsutils_4270569357', 0x00000000000001ff)
+unlink('/tmp/nimblecache/optionsutils_4270569357/optionsutils.ini')
+unlink('/tmp/nimble_3242.out')
+unlink('/home/runner/.nimble/pkgs/optionsutils-1.1.2/optionsutils_3242.nims')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/src/optionsutils.nim')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/src/safeoptions.nim')
+rmdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/src')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/optionsutils.nimble')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/HEAD')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/logs/HEAD')
+rmdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/logs')
+rmdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/branches')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/packed-refs')
+rmdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/refs/heads')
+rmdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/refs/tags')
+rmdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/refs')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks/update.sample')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/index')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/info/exclude')
+rmdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/info')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/shallow')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/description')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects/pack/pack-4053f86b225b815dfb80c690ed2512553a942ed7.idx')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects/pack/pack-4053f86b225b815dfb80c690ed2512553a942ed7.pack')
+rmdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects/pack')
+rmdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects/info')
+rmdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects')
+rmdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/README.md')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/tests/config.nims')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/tests/tsafeoptions.nim')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/tests/toptionsutils.nim')
+unlink('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/tests/test2.nim')
+rmdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils/tests')
+rmdir('/tmp/nimble_3242/githubcom_PMunchnimoptionsutils')
+rmdir('/tmp/nimble_3242')
+  create directory /tmp
+  create directory /tmp/nimble_3242
+  create directory /tmp/nimble_3242/githubcom_PMunchnimoptionsutils
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils
+  create directory /tmp/nimble_3242/githubcom_PMunchnimoptionsutils
+  create directory /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git
+  create directory /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git
+  create directory /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/branches
+  create directory /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks
+  create directory /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/info
+  create directory /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/refs
+  create directory /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/refs/heads
+  create directory /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/refs/tags
+  rename /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config.lock to config
+  change permissions of /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config.lock to config
+  change permissions of /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config.lock to config
+  change permissions of /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config.lock to config
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/tWlJhRf
+  create symbolic link from /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/tWlJhRf to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/tWlJhRf
+  create directory /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects
+  create directory /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects/pack
+  create directory /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects/info
+  change permissions of /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config.lock to config
+  change permissions of /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config.lock to config
+  change permissions of /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config.lock to config
+  create hard link from /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects/pack/pack-4053f86b225b815dfb80c690ed2512553a942ed7.pack to /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects/pack/tmp_pack_cT5Buc
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects/pack/tmp_pack_cT5Buc
+  create hard link from /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects/pack/pack-4053f86b225b815dfb80c690ed2512553a942ed7.idx to /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects/pack/tmp_idx_Br7qTc
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects/pack/tmp_idx_Br7qTc
+  rename /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/shallow.lock to shallow
+  rename /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/packed-refs.lock
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/refs/tags/v1.1.2.lock
+  create directory /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/logs
+  rename /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/HEAD.lock to HEAD
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects/pack/pack-4053f86b225b815dfb80c690ed2512553a942ed7.keep
+  create directory /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/src
+  create directory /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/tests
+  rename /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/index.lock to index
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/optionsutils_809753084
+  delete /tmp/nimblecache/optionsutils_809753084/optionsutils.ini
+  delete /tmp/nimble_3242.out
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/optionsutils_3242.nims
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/optionsutils-1.1.2
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/optionsutils-1.1.2
+  change permissions of /home/runner/.nimble/pkgs/optionsutils-1.1.2/optionsutils.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/optionsutils-1.1.2
+  change permissions of /home/runner/.nimble/pkgs/optionsutils-1.1.2/safeoptions.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/optionsutils-1.1.2/optionsutils.nimble to rw-r--r--
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/optionsutils_4270569357
+  delete /tmp/nimblecache/optionsutils_4270569357/optionsutils.ini
+  delete /tmp/nimble_3242.out
+  delete /home/runner/.nimble/pkgs/optionsutils-1.1.2/optionsutils_3242.nims
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/src/optionsutils.nim
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/src/safeoptions.nim
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/src
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/optionsutils.nimble
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/HEAD
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/config
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/logs/HEAD
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/logs
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/branches
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/packed-refs
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/refs/heads
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/refs/tags
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/refs
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks/pre-push.sample
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks/update.sample
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks/post-update.sample
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/hooks
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/index
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/info/exclude
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/info
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/shallow
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/description
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects/pack/pack-4053f86b225b815dfb80c690ed2512553a942ed7.idx
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects/pack/pack-4053f86b225b815dfb80c690ed2512553a942ed7.pack
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects/pack
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects/info
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git/objects
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/.git
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/README.md
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/tests/config.nims
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/tests/tsafeoptions.nim
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/tests/toptionsutils.nim
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/tests/test2.nim
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils/tests
+  delete /tmp/nimble_3242/githubcom_PMunchnimoptionsutils
+  delete /tmp/nimble_3242

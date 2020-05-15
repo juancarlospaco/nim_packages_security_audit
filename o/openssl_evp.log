@@ -1,0 +1,300 @@
+    Reading official package list
+Downloading https://github.com/cowboy-coders/nim-openssl-evp using git
+   Warning: Package 'openssl_evp' has an incorrect structure. The top level of the package source directory should contain at most one module, named 'openssl_evp.nim', but a file named 'openssl_crypto.nim' was found. This will be an error in the future.
+      Hint: If this is the primary source file in the package, rename it to 'openssl_evp.nim'. If it's a source file required by the main module, or if it is one of several modules exposed by 'openssl_evp', then move it into a 'openssl_evp/' subdirectory. If it's a test file or otherwise not required to build the the package 'openssl_evp.nim', prevent its installation by adding `skipFiles = @["openssl_crypto.nim"]` to the .nimble file. See https://github.com/nim-lang/nimble#libraries for more info.
+  Verifying dependencies for openssl_evp@0.1.2
+ Installing openssl_evp@0.1.2
+    Copying file /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/src/openssl_crypto.nim to /home/runner/.nimble/pkgs/openssl_evp-0.1.2/openssl_crypto.nim
+    Copying file /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/src/openssl_evp.nim to /home/runner/.nimble/pkgs/openssl_evp-0.1.2/openssl_evp.nim
+    Copying file /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/openssl_evp.nimble to /home/runner/.nimble/pkgs/openssl_evp-0.1.2/openssl_evp.nimble
+   Success: openssl_evp installed successfully.
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_3466', 0x00000000000001ff)
+mkdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp', 0x00000000000001ff)
+rmdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp')
+mkdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp', 0x00000000000001ff)
+mkdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/HEAD.lock', '/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/HEAD')
+rename('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock', '/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config')
+chmod('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock', '/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config')
+chmod('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock', '/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config')
+chmod('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock', '/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/t6nXBAY')
+symlink('testing', '/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/t6nXBAY')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/t6nXBAY')
+mkdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock', '/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config')
+chmod('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock', '/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config')
+chmod('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock', '/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config')
+link('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects/pack/tmp_pack_dvWxy2', '/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects/pack/pack-80db42c09ca757b5338996e62d97aad5bd9dffb6.pack')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects/pack/tmp_pack_dvWxy2')
+link('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects/pack/tmp_idx_2oY27m', '/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects/pack/pack-80db42c09ca757b5338996e62d97aad5bd9dffb6.idx')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects/pack/tmp_idx_2oY27m')
+rename('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/shallow.lock', '/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/shallow')
+rename('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/packed-refs.new', '/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/packed-refs')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/packed-refs.lock')
+mkdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/HEAD.lock', '/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/HEAD')
+mkdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs/heads/master.lock', '/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs/heads/master')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/HEAD.lock')
+chmod('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock', '/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config')
+chmod('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock', '/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects/pack/pack-80db42c09ca757b5338996e62d97aad5bd9dffb6.keep')
+mkdir('examples', 0x00000000000001ff)
+mkdir('src', 0x00000000000001ff)
+rename('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/index.lock', '/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/index')
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/openssl_evp-0.1.2', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/openssl_evp-0.1.2', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/openssl_evp-0.1.2/openssl_crypto.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/openssl_evp-0.1.2', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/openssl_evp-0.1.2/openssl_evp.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/openssl_evp-0.1.2/openssl_evp.nimble', 0x00000000000001a4)
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/examples/Makefile.am')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/examples/evp_ex1.c')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/examples/evp_ex1.nim')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/examples/evp_ex1.nimrod.cfg')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/examples/Makefile.in')
+rmdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/examples')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/configure.ac')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/missing')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/README')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/src/openssl_crypto.nim')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/src/openssl_evp.nim')
+rmdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/src')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/compile')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/Makefile.am')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/configure')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/depcomp')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/install-sh')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/HEAD')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/logs/HEAD')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/logs/refs/heads')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/logs/refs/remotes')
+rmdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/logs/refs')
+rmdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/logs')
+rmdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/branches')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/packed-refs')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs/heads/master')
+rmdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs/heads')
+rmdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs/tags')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs/remotes')
+rmdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks/update.sample')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/index')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/info/exclude')
+rmdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/info')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/shallow')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/description')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects/pack/pack-80db42c09ca757b5338996e62d97aad5bd9dffb6.pack')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects/pack/pack-80db42c09ca757b5338996e62d97aad5bd9dffb6.idx')
+rmdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects/pack')
+rmdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects/info')
+rmdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects')
+rmdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/openssl_evp.nimble')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/aclocal.m4')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/Makefile.in')
+unlink('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/config.h.in')
+rmdir('/tmp/nimble_3466/githubcom_cowboycodersnimopensslevp')
+rmdir('/tmp/nimble_3466')
+  create directory /tmp
+  create directory /tmp/nimble_3466
+  create directory /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp
+  create directory /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp
+  create directory /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git
+  create directory /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git
+  create directory /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/branches
+  create directory /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks
+  create directory /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/info
+  create directory /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs
+  create directory /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs/heads
+  create directory /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs/tags
+  rename /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock to config
+  change permissions of /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock to config
+  change permissions of /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock to config
+  change permissions of /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock to config
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/t6nXBAY
+  create symbolic link from /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/t6nXBAY to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/t6nXBAY
+  create directory /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects
+  create directory /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects/pack
+  create directory /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects/info
+  change permissions of /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock to config
+  change permissions of /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock to config
+  change permissions of /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock to config
+  create hard link from /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects/pack/pack-80db42c09ca757b5338996e62d97aad5bd9dffb6.pack to /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects/pack/tmp_pack_dvWxy2
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects/pack/tmp_pack_dvWxy2
+  create hard link from /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects/pack/pack-80db42c09ca757b5338996e62d97aad5bd9dffb6.idx to /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects/pack/tmp_idx_2oY27m
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects/pack/tmp_idx_2oY27m
+  rename /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/shallow.lock to shallow
+  rename /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/packed-refs.lock
+  create directory /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs/remotes
+  create directory /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs/remotes/origin
+  create directory /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/logs
+  create directory /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/logs/refs
+  create directory /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/logs/refs/remotes
+  create directory /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/logs/refs/heads
+  rename /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/HEAD.lock
+  change permissions of /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock to config
+  change permissions of /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config.lock to config
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects/pack/pack-80db42c09ca757b5338996e62d97aad5bd9dffb6.keep
+  create directory /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/examples
+  create directory /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/src
+  rename /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/index.lock to index
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/openssl_evp-0.1.2
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/openssl_evp-0.1.2
+  change permissions of /home/runner/.nimble/pkgs/openssl_evp-0.1.2/openssl_crypto.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/openssl_evp-0.1.2
+  change permissions of /home/runner/.nimble/pkgs/openssl_evp-0.1.2/openssl_evp.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/openssl_evp-0.1.2/openssl_evp.nimble to rw-r--r--
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/examples/Makefile.am
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/examples/evp_ex1.c
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/examples/evp_ex1.nim
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/examples/evp_ex1.nimrod.cfg
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/examples/Makefile.in
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/examples
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/configure.ac
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/missing
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/README
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/src/openssl_crypto.nim
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/src/openssl_evp.nim
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/src
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/compile
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/Makefile.am
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/configure
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/depcomp
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/install-sh
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/HEAD
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/config
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/logs/HEAD
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/logs/refs/heads/master
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/logs/refs/heads
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/logs/refs/remotes
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/logs/refs
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/logs
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/branches
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/packed-refs
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs/heads/master
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs/heads
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs/tags
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs/remotes/origin
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs/remotes
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/refs
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks/pre-push.sample
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks/update.sample
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks/post-update.sample
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/hooks
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/index
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/info/exclude
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/info
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/shallow
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/description
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects/pack/pack-80db42c09ca757b5338996e62d97aad5bd9dffb6.pack
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects/pack/pack-80db42c09ca757b5338996e62d97aad5bd9dffb6.idx
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects/pack
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects/info
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git/objects
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/.git
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/openssl_evp.nimble
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/aclocal.m4
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/Makefile.in
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp/config.h.in
+  delete /tmp/nimble_3466/githubcom_cowboycodersnimopensslevp
+  delete /tmp/nimble_3466
