@@ -1,0 +1,311 @@
+    Reading official package list
+Downloading https://github.com/jxy/primme using git
+    Cloning latest tagged version: v3.0.0
+  Verifying dependencies for primme@3.0.0
+ Installing primme@3.0.0
+    Copying file /tmp/nimble_9985/githubcom_jxyprimme/src/primme.nim to /home/runner/.nimble/pkgs/primme-3.0.0/primme.nim
+    Copying file /tmp/nimble_9985/githubcom_jxyprimme/src/primme/primme_eigs.nim to /home/runner/.nimble/pkgs/primme-3.0.0/primme/primme_eigs.nim
+    Copying file /tmp/nimble_9985/githubcom_jxyprimme/src/primme/complex.nim to /home/runner/.nimble/pkgs/primme-3.0.0/primme/complex.nim
+    Copying file /tmp/nimble_9985/githubcom_jxyprimme/src/primme/primme_svds.nim to /home/runner/.nimble/pkgs/primme-3.0.0/primme/primme_svds.nim
+    Copying file /tmp/nimble_9985/githubcom_jxyprimme/primme.nimble to /home/runner/.nimble/pkgs/primme-3.0.0/primme.nimble
+   Success: primme installed successfully.
+ Attempting to execute hook installAfter in /home/runner/.nimble/pkgs/primme-3.0.0/primme.nimble
+#
+#     To compile and link against PRIMME, define `primmeDir' and `lapackLib' properly.
+#     For example:
+#        nim c -d:primmeDir='/path/to/primme' \
+#              -d:lapackLib='-L/path/to/lapack/lib -llapack -lblas' \
+#              -d:release \
+#              YourApp
+#     Check the beginning of the file `primme.nim' for details.
+#
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_9985', 0x00000000000001ff)
+mkdir('/tmp/nimble_9985/githubcom_jxyprimme', 0x00000000000001ff)
+rmdir('/tmp/nimble_9985/githubcom_jxyprimme')
+mkdir('/tmp/nimble_9985/githubcom_jxyprimme', 0x00000000000001ff)
+mkdir('/tmp/nimble_9985/githubcom_jxyprimme/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_9985/githubcom_jxyprimme/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_9985/githubcom_jxyprimme/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_9985/githubcom_jxyprimme/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_9985/githubcom_jxyprimme/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_9985/githubcom_jxyprimme/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_9985/githubcom_jxyprimme/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_9985/githubcom_jxyprimme/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_9985/githubcom_jxyprimme/.git/HEAD.lock', '/tmp/nimble_9985/githubcom_jxyprimme/.git/HEAD')
+rename('/tmp/nimble_9985/githubcom_jxyprimme/.git/config.lock', '/tmp/nimble_9985/githubcom_jxyprimme/.git/config')
+chmod('/tmp/nimble_9985/githubcom_jxyprimme/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_9985/githubcom_jxyprimme/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_9985/githubcom_jxyprimme/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_9985/githubcom_jxyprimme/.git/config.lock', '/tmp/nimble_9985/githubcom_jxyprimme/.git/config')
+chmod('/tmp/nimble_9985/githubcom_jxyprimme/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_9985/githubcom_jxyprimme/.git/config.lock', '/tmp/nimble_9985/githubcom_jxyprimme/.git/config')
+chmod('/tmp/nimble_9985/githubcom_jxyprimme/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_9985/githubcom_jxyprimme/.git/config.lock', '/tmp/nimble_9985/githubcom_jxyprimme/.git/config')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/tVapnFd')
+symlink('testing', '/tmp/nimble_9985/githubcom_jxyprimme/.git/tVapnFd')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/tVapnFd')
+mkdir('/tmp/nimble_9985/githubcom_jxyprimme/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_9985/githubcom_jxyprimme/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_9985/githubcom_jxyprimme/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_9985/githubcom_jxyprimme/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_9985/githubcom_jxyprimme/.git/config.lock', '/tmp/nimble_9985/githubcom_jxyprimme/.git/config')
+chmod('/tmp/nimble_9985/githubcom_jxyprimme/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_9985/githubcom_jxyprimme/.git/config.lock', '/tmp/nimble_9985/githubcom_jxyprimme/.git/config')
+chmod('/tmp/nimble_9985/githubcom_jxyprimme/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_9985/githubcom_jxyprimme/.git/config.lock', '/tmp/nimble_9985/githubcom_jxyprimme/.git/config')
+link('/tmp/nimble_9985/githubcom_jxyprimme/.git/objects/pack/tmp_pack_fESHFM', '/tmp/nimble_9985/githubcom_jxyprimme/.git/objects/pack/pack-70765d4109fb558dade748a4e6214fcd33d8bcaa.pack')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/objects/pack/tmp_pack_fESHFM')
+link('/tmp/nimble_9985/githubcom_jxyprimme/.git/objects/pack/tmp_idx_9s0jA1', '/tmp/nimble_9985/githubcom_jxyprimme/.git/objects/pack/pack-70765d4109fb558dade748a4e6214fcd33d8bcaa.idx')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/objects/pack/tmp_idx_9s0jA1')
+rename('/tmp/nimble_9985/githubcom_jxyprimme/.git/shallow.lock', '/tmp/nimble_9985/githubcom_jxyprimme/.git/shallow')
+rename('/tmp/nimble_9985/githubcom_jxyprimme/.git/packed-refs.new', '/tmp/nimble_9985/githubcom_jxyprimme/.git/packed-refs')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/packed-refs.lock')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/refs/tags/v3.0.0.lock')
+mkdir('/tmp/nimble_9985/githubcom_jxyprimme/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_9985/githubcom_jxyprimme/.git/HEAD.lock', '/tmp/nimble_9985/githubcom_jxyprimme/.git/HEAD')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/objects/pack/pack-70765d4109fb558dade748a4e6214fcd33d8bcaa.keep')
+mkdir('src', 0x00000000000001ff)
+mkdir('src/primme', 0x00000000000001ff)
+mkdir('test', 0x00000000000001ff)
+rename('/tmp/nimble_9985/githubcom_jxyprimme/.git/index.lock', '/tmp/nimble_9985/githubcom_jxyprimme/.git/index')
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/primme_1800857282', 0x00000000000001ff)
+unlink('/tmp/nimblecache/primme_1800857282/primme.ini')
+unlink('/tmp/nimble_9985.out')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/primme_9985.nims')
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/primme-3.0.0', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/primme-3.0.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/primme-3.0.0/primme.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/primme-3.0.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/primme-3.0.0/primme', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/primme-3.0.0/primme/primme_eigs.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/primme-3.0.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/primme-3.0.0/primme', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/primme-3.0.0/primme/complex.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/primme-3.0.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/primme-3.0.0/primme', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/primme-3.0.0/primme/primme_svds.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/primme-3.0.0/primme.nimble', 0x00000000000001a4)
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/primme_3023236388', 0x00000000000001ff)
+unlink('/tmp/nimblecache/primme_3023236388/primme.ini')
+unlink('/tmp/nimble_9985.out')
+unlink('/home/runner/.nimble/pkgs/primme-3.0.0/primme_9985.nims')
+unlink('/tmp/nimble_9985.out')
+unlink('/home/runner/.nimble/pkgs/primme-3.0.0/primme_9985.nims')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/README')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/src/primme.nim')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/src/primme/primme_eigs.nim')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/src/primme/complex.nim')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/src/primme/primme_svds.nim')
+rmdir('/tmp/nimble_9985/githubcom_jxyprimme/src/primme')
+rmdir('/tmp/nimble_9985/githubcom_jxyprimme/src')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.gitignore')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/primme.nimble')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/LICENSE')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/HEAD')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/config')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/logs/HEAD')
+rmdir('/tmp/nimble_9985/githubcom_jxyprimme/.git/logs')
+rmdir('/tmp/nimble_9985/githubcom_jxyprimme/.git/branches')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/packed-refs')
+rmdir('/tmp/nimble_9985/githubcom_jxyprimme/.git/refs/heads')
+rmdir('/tmp/nimble_9985/githubcom_jxyprimme/.git/refs/tags')
+rmdir('/tmp/nimble_9985/githubcom_jxyprimme/.git/refs')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/hooks/update.sample')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_9985/githubcom_jxyprimme/.git/hooks')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/index')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/info/exclude')
+rmdir('/tmp/nimble_9985/githubcom_jxyprimme/.git/info')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/shallow')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/description')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/objects/pack/pack-70765d4109fb558dade748a4e6214fcd33d8bcaa.idx')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/.git/objects/pack/pack-70765d4109fb558dade748a4e6214fcd33d8bcaa.pack')
+rmdir('/tmp/nimble_9985/githubcom_jxyprimme/.git/objects/pack')
+rmdir('/tmp/nimble_9985/githubcom_jxyprimme/.git/objects/info')
+rmdir('/tmp/nimble_9985/githubcom_jxyprimme/.git/objects')
+rmdir('/tmp/nimble_9985/githubcom_jxyprimme/.git')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/test/t.nim')
+unlink('/tmp/nimble_9985/githubcom_jxyprimme/test/config.nims')
+rmdir('/tmp/nimble_9985/githubcom_jxyprimme/test')
+rmdir('/tmp/nimble_9985/githubcom_jxyprimme')
+rmdir('/tmp/nimble_9985')
+  create directory /tmp
+  create directory /tmp/nimble_9985
+  create directory /tmp/nimble_9985/githubcom_jxyprimme
+  delete /tmp/nimble_9985/githubcom_jxyprimme
+  create directory /tmp/nimble_9985/githubcom_jxyprimme
+  create directory /tmp/nimble_9985/githubcom_jxyprimme/.git
+  create directory /tmp/nimble_9985/githubcom_jxyprimme/.git
+  create directory /tmp/nimble_9985/githubcom_jxyprimme/.git/branches
+  create directory /tmp/nimble_9985/githubcom_jxyprimme/.git/hooks
+  create directory /tmp/nimble_9985/githubcom_jxyprimme/.git/info
+  create directory /tmp/nimble_9985/githubcom_jxyprimme/.git/refs
+  create directory /tmp/nimble_9985/githubcom_jxyprimme/.git/refs/heads
+  create directory /tmp/nimble_9985/githubcom_jxyprimme/.git/refs/tags
+  rename /tmp/nimble_9985/githubcom_jxyprimme/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_9985/githubcom_jxyprimme/.git/config.lock to config
+  change permissions of /tmp/nimble_9985/githubcom_jxyprimme/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_9985/githubcom_jxyprimme/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_9985/githubcom_jxyprimme/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_9985/githubcom_jxyprimme/.git/config.lock to config
+  change permissions of /tmp/nimble_9985/githubcom_jxyprimme/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_9985/githubcom_jxyprimme/.git/config.lock to config
+  change permissions of /tmp/nimble_9985/githubcom_jxyprimme/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_9985/githubcom_jxyprimme/.git/config.lock to config
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/tVapnFd
+  create symbolic link from /tmp/nimble_9985/githubcom_jxyprimme/.git/tVapnFd to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/tVapnFd
+  create directory /tmp/nimble_9985/githubcom_jxyprimme/.git/objects
+  create directory /tmp/nimble_9985/githubcom_jxyprimme/.git/objects/pack
+  create directory /tmp/nimble_9985/githubcom_jxyprimme/.git/objects/info
+  change permissions of /tmp/nimble_9985/githubcom_jxyprimme/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_9985/githubcom_jxyprimme/.git/config.lock to config
+  change permissions of /tmp/nimble_9985/githubcom_jxyprimme/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_9985/githubcom_jxyprimme/.git/config.lock to config
+  change permissions of /tmp/nimble_9985/githubcom_jxyprimme/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_9985/githubcom_jxyprimme/.git/config.lock to config
+  create hard link from /tmp/nimble_9985/githubcom_jxyprimme/.git/objects/pack/pack-70765d4109fb558dade748a4e6214fcd33d8bcaa.pack to /tmp/nimble_9985/githubcom_jxyprimme/.git/objects/pack/tmp_pack_fESHFM
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/objects/pack/tmp_pack_fESHFM
+  create hard link from /tmp/nimble_9985/githubcom_jxyprimme/.git/objects/pack/pack-70765d4109fb558dade748a4e6214fcd33d8bcaa.idx to /tmp/nimble_9985/githubcom_jxyprimme/.git/objects/pack/tmp_idx_9s0jA1
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/objects/pack/tmp_idx_9s0jA1
+  rename /tmp/nimble_9985/githubcom_jxyprimme/.git/shallow.lock to shallow
+  rename /tmp/nimble_9985/githubcom_jxyprimme/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/packed-refs.lock
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/refs/tags/v3.0.0.lock
+  create directory /tmp/nimble_9985/githubcom_jxyprimme/.git/logs
+  rename /tmp/nimble_9985/githubcom_jxyprimme/.git/HEAD.lock to HEAD
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/objects/pack/pack-70765d4109fb558dade748a4e6214fcd33d8bcaa.keep
+  create directory /tmp/nimble_9985/githubcom_jxyprimme/src
+  create directory /tmp/nimble_9985/githubcom_jxyprimme/src/primme
+  create directory /tmp/nimble_9985/githubcom_jxyprimme/test
+  rename /tmp/nimble_9985/githubcom_jxyprimme/.git/index.lock to index
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/primme_1800857282
+  delete /tmp/nimblecache/primme_1800857282/primme.ini
+  delete /tmp/nimble_9985.out
+  delete /tmp/nimble_9985/githubcom_jxyprimme/primme_9985.nims
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/primme-3.0.0
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/primme-3.0.0
+  change permissions of /home/runner/.nimble/pkgs/primme-3.0.0/primme.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/primme-3.0.0
+  create directory /home/runner/.nimble/pkgs/primme-3.0.0/primme
+  change permissions of /home/runner/.nimble/pkgs/primme-3.0.0/primme/primme_eigs.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/primme-3.0.0
+  create directory /home/runner/.nimble/pkgs/primme-3.0.0/primme
+  change permissions of /home/runner/.nimble/pkgs/primme-3.0.0/primme/complex.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/primme-3.0.0
+  create directory /home/runner/.nimble/pkgs/primme-3.0.0/primme
+  change permissions of /home/runner/.nimble/pkgs/primme-3.0.0/primme/primme_svds.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/primme-3.0.0/primme.nimble to rw-r--r--
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/primme_3023236388
+  delete /tmp/nimblecache/primme_3023236388/primme.ini
+  delete /tmp/nimble_9985.out
+  delete /home/runner/.nimble/pkgs/primme-3.0.0/primme_9985.nims
+  delete /tmp/nimble_9985.out
+  delete /home/runner/.nimble/pkgs/primme-3.0.0/primme_9985.nims
+  delete /tmp/nimble_9985/githubcom_jxyprimme/README
+  delete /tmp/nimble_9985/githubcom_jxyprimme/src/primme.nim
+  delete /tmp/nimble_9985/githubcom_jxyprimme/src/primme/primme_eigs.nim
+  delete /tmp/nimble_9985/githubcom_jxyprimme/src/primme/complex.nim
+  delete /tmp/nimble_9985/githubcom_jxyprimme/src/primme/primme_svds.nim
+  delete /tmp/nimble_9985/githubcom_jxyprimme/src/primme
+  delete /tmp/nimble_9985/githubcom_jxyprimme/src
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.gitignore
+  delete /tmp/nimble_9985/githubcom_jxyprimme/primme.nimble
+  delete /tmp/nimble_9985/githubcom_jxyprimme/LICENSE
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/HEAD
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/config
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/logs/HEAD
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/logs
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/branches
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/packed-refs
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/refs/heads
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/refs/tags
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/refs
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/hooks/pre-push.sample
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/hooks/update.sample
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/hooks/post-update.sample
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/hooks
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/index
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/info/exclude
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/info
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/shallow
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/description
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/objects/pack/pack-70765d4109fb558dade748a4e6214fcd33d8bcaa.idx
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/objects/pack/pack-70765d4109fb558dade748a4e6214fcd33d8bcaa.pack
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/objects/pack
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/objects/info
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git/objects
+  delete /tmp/nimble_9985/githubcom_jxyprimme/.git
+  delete /tmp/nimble_9985/githubcom_jxyprimme/test/t.nim
+  delete /tmp/nimble_9985/githubcom_jxyprimme/test/config.nims
+  delete /tmp/nimble_9985/githubcom_jxyprimme/test
+  delete /tmp/nimble_9985/githubcom_jxyprimme
+  delete /tmp/nimble_9985

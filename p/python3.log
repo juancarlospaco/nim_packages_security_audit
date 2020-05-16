@@ -1,0 +1,305 @@
+    Reading official package list
+Downloading https://github.com/matkuki/python3 using git
+   Warning: Package 'python3' has an incorrect structure. It should contain a single directory hierarchy for source files, named 'python3', but file 'python3_static.nim' is in a directory named 'static' instead. This will be an error in the future.
+      Hint: If 'static' contains source files for building 'python3', rename it to 'python3'. Otherwise, prevent its installation by adding `skipDirs = @["static"]` to the .nimble file.
+  Verifying dependencies for python3@1.4
+ Installing python3@1.4
+    Copying file /tmp/nimble_7244/githubcom_matkukipython3/src/static/python3_static.nim to /home/runner/.nimble/pkgs/python3-1.4/static/python3_static.nim
+    Copying file /tmp/nimble_7244/githubcom_matkukipython3/src/dynamic/python3_dynamic.nim to /home/runner/.nimble/pkgs/python3-1.4/dynamic/python3_dynamic.nim
+    Copying file /tmp/nimble_7244/githubcom_matkukipython3/src/python3.nim to /home/runner/.nimble/pkgs/python3-1.4/python3.nim
+    Copying file /tmp/nimble_7244/githubcom_matkukipython3/python3.nimble to /home/runner/.nimble/pkgs/python3-1.4/python3.nimble
+   Success: python3 installed successfully.
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_7244', 0x00000000000001ff)
+mkdir('/tmp/nimble_7244/githubcom_matkukipython3', 0x00000000000001ff)
+rmdir('/tmp/nimble_7244/githubcom_matkukipython3')
+mkdir('/tmp/nimble_7244/githubcom_matkukipython3', 0x00000000000001ff)
+mkdir('/tmp/nimble_7244/githubcom_matkukipython3/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_7244/githubcom_matkukipython3/.git/HEAD.lock', '/tmp/nimble_7244/githubcom_matkukipython3/.git/HEAD')
+rename('/tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock', '/tmp/nimble_7244/githubcom_matkukipython3/.git/config')
+chmod('/tmp/nimble_7244/githubcom_matkukipython3/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_7244/githubcom_matkukipython3/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock', '/tmp/nimble_7244/githubcom_matkukipython3/.git/config')
+chmod('/tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock', '/tmp/nimble_7244/githubcom_matkukipython3/.git/config')
+chmod('/tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock', '/tmp/nimble_7244/githubcom_matkukipython3/.git/config')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/tiOzSQj')
+symlink('testing', '/tmp/nimble_7244/githubcom_matkukipython3/.git/tiOzSQj')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/tiOzSQj')
+mkdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock', '/tmp/nimble_7244/githubcom_matkukipython3/.git/config')
+chmod('/tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock', '/tmp/nimble_7244/githubcom_matkukipython3/.git/config')
+chmod('/tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock', '/tmp/nimble_7244/githubcom_matkukipython3/.git/config')
+link('/tmp/nimble_7244/githubcom_matkukipython3/.git/objects/pack/tmp_pack_pGK9HJ', '/tmp/nimble_7244/githubcom_matkukipython3/.git/objects/pack/pack-577cf47b251693a7e5e2023fc72006759649ee19.pack')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/objects/pack/tmp_pack_pGK9HJ')
+link('/tmp/nimble_7244/githubcom_matkukipython3/.git/objects/pack/tmp_idx_LJqzR1', '/tmp/nimble_7244/githubcom_matkukipython3/.git/objects/pack/pack-577cf47b251693a7e5e2023fc72006759649ee19.idx')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/objects/pack/tmp_idx_LJqzR1')
+rename('/tmp/nimble_7244/githubcom_matkukipython3/.git/shallow.lock', '/tmp/nimble_7244/githubcom_matkukipython3/.git/shallow')
+rename('/tmp/nimble_7244/githubcom_matkukipython3/.git/packed-refs.new', '/tmp/nimble_7244/githubcom_matkukipython3/.git/packed-refs')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/packed-refs.lock')
+mkdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_7244/githubcom_matkukipython3/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_7244/githubcom_matkukipython3/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_7244/githubcom_matkukipython3/.git/HEAD.lock', '/tmp/nimble_7244/githubcom_matkukipython3/.git/HEAD')
+mkdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_7244/githubcom_matkukipython3/.git/refs/heads/master.lock', '/tmp/nimble_7244/githubcom_matkukipython3/.git/refs/heads/master')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/HEAD.lock')
+chmod('/tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock', '/tmp/nimble_7244/githubcom_matkukipython3/.git/config')
+chmod('/tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock', '/tmp/nimble_7244/githubcom_matkukipython3/.git/config')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/objects/pack/pack-577cf47b251693a7e5e2023fc72006759649ee19.keep')
+mkdir('examples', 0x00000000000001ff)
+mkdir('src', 0x00000000000001ff)
+mkdir('src/dynamic', 0x00000000000001ff)
+mkdir('src/static', 0x00000000000001ff)
+rename('/tmp/nimble_7244/githubcom_matkukipython3/.git/index.lock', '/tmp/nimble_7244/githubcom_matkukipython3/.git/index')
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/python3-1.4', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/python3-1.4', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/python3-1.4/static', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/python3-1.4/static/python3_static.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/python3-1.4', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/python3-1.4/dynamic', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/python3-1.4/dynamic/python3_dynamic.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/python3-1.4', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/python3-1.4/python3.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/python3-1.4/python3.nimble', 0x00000000000001a4)
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/examples/script_example2.py')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/examples/examples.nim')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/examples/script_example1.py')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/examples/example_module.py')
+rmdir('/tmp/nimble_7244/githubcom_matkukipython3/examples')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/src/static/python3_static.nim')
+rmdir('/tmp/nimble_7244/githubcom_matkukipython3/src/static')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/src/dynamic/python3_dynamic.nim')
+rmdir('/tmp/nimble_7244/githubcom_matkukipython3/src/dynamic')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/src/python3.nim')
+rmdir('/tmp/nimble_7244/githubcom_matkukipython3/src')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/python3.nimble')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/HEAD')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/config')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/logs/HEAD')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/logs/refs/heads')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/logs/refs/remotes')
+rmdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/logs/refs')
+rmdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/logs')
+rmdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/branches')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/packed-refs')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/refs/heads/master')
+rmdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/refs/heads')
+rmdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/refs/tags')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/refs/remotes')
+rmdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/refs')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/hooks/update.sample')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/hooks')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/index')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/info/exclude')
+rmdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/info')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/shallow')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/description')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/objects/pack/pack-577cf47b251693a7e5e2023fc72006759649ee19.pack')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/.git/objects/pack/pack-577cf47b251693a7e5e2023fc72006759649ee19.idx')
+rmdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/objects/pack')
+rmdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/objects/info')
+rmdir('/tmp/nimble_7244/githubcom_matkukipython3/.git/objects')
+rmdir('/tmp/nimble_7244/githubcom_matkukipython3/.git')
+unlink('/tmp/nimble_7244/githubcom_matkukipython3/README.md')
+rmdir('/tmp/nimble_7244/githubcom_matkukipython3')
+rmdir('/tmp/nimble_7244')
+  create directory /tmp
+  create directory /tmp/nimble_7244
+  create directory /tmp/nimble_7244/githubcom_matkukipython3
+  delete /tmp/nimble_7244/githubcom_matkukipython3
+  create directory /tmp/nimble_7244/githubcom_matkukipython3
+  create directory /tmp/nimble_7244/githubcom_matkukipython3/.git
+  create directory /tmp/nimble_7244/githubcom_matkukipython3/.git
+  create directory /tmp/nimble_7244/githubcom_matkukipython3/.git/branches
+  create directory /tmp/nimble_7244/githubcom_matkukipython3/.git/hooks
+  create directory /tmp/nimble_7244/githubcom_matkukipython3/.git/info
+  create directory /tmp/nimble_7244/githubcom_matkukipython3/.git/refs
+  create directory /tmp/nimble_7244/githubcom_matkukipython3/.git/refs/heads
+  create directory /tmp/nimble_7244/githubcom_matkukipython3/.git/refs/tags
+  rename /tmp/nimble_7244/githubcom_matkukipython3/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock to config
+  change permissions of /tmp/nimble_7244/githubcom_matkukipython3/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_7244/githubcom_matkukipython3/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock to config
+  change permissions of /tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock to config
+  change permissions of /tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock to config
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/tiOzSQj
+  create symbolic link from /tmp/nimble_7244/githubcom_matkukipython3/.git/tiOzSQj to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/tiOzSQj
+  create directory /tmp/nimble_7244/githubcom_matkukipython3/.git/objects
+  create directory /tmp/nimble_7244/githubcom_matkukipython3/.git/objects/pack
+  create directory /tmp/nimble_7244/githubcom_matkukipython3/.git/objects/info
+  change permissions of /tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock to config
+  change permissions of /tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock to config
+  change permissions of /tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock to config
+  create hard link from /tmp/nimble_7244/githubcom_matkukipython3/.git/objects/pack/pack-577cf47b251693a7e5e2023fc72006759649ee19.pack to /tmp/nimble_7244/githubcom_matkukipython3/.git/objects/pack/tmp_pack_pGK9HJ
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/objects/pack/tmp_pack_pGK9HJ
+  create hard link from /tmp/nimble_7244/githubcom_matkukipython3/.git/objects/pack/pack-577cf47b251693a7e5e2023fc72006759649ee19.idx to /tmp/nimble_7244/githubcom_matkukipython3/.git/objects/pack/tmp_idx_LJqzR1
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/objects/pack/tmp_idx_LJqzR1
+  rename /tmp/nimble_7244/githubcom_matkukipython3/.git/shallow.lock to shallow
+  rename /tmp/nimble_7244/githubcom_matkukipython3/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/packed-refs.lock
+  create directory /tmp/nimble_7244/githubcom_matkukipython3/.git/refs/remotes
+  create directory /tmp/nimble_7244/githubcom_matkukipython3/.git/refs/remotes/origin
+  create directory /tmp/nimble_7244/githubcom_matkukipython3/.git/logs
+  create directory /tmp/nimble_7244/githubcom_matkukipython3/.git/logs/refs
+  create directory /tmp/nimble_7244/githubcom_matkukipython3/.git/logs/refs/remotes
+  create directory /tmp/nimble_7244/githubcom_matkukipython3/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_7244/githubcom_matkukipython3/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_7244/githubcom_matkukipython3/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_7244/githubcom_matkukipython3/.git/logs/refs/heads
+  rename /tmp/nimble_7244/githubcom_matkukipython3/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/HEAD.lock
+  change permissions of /tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock to config
+  change permissions of /tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7244/githubcom_matkukipython3/.git/config.lock to config
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/objects/pack/pack-577cf47b251693a7e5e2023fc72006759649ee19.keep
+  create directory /tmp/nimble_7244/githubcom_matkukipython3/examples
+  create directory /tmp/nimble_7244/githubcom_matkukipython3/src
+  create directory /tmp/nimble_7244/githubcom_matkukipython3/src/dynamic
+  create directory /tmp/nimble_7244/githubcom_matkukipython3/src/static
+  rename /tmp/nimble_7244/githubcom_matkukipython3/.git/index.lock to index
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/python3-1.4
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/python3-1.4
+  create directory /home/runner/.nimble/pkgs/python3-1.4/static
+  change permissions of /home/runner/.nimble/pkgs/python3-1.4/static/python3_static.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/python3-1.4
+  create directory /home/runner/.nimble/pkgs/python3-1.4/dynamic
+  change permissions of /home/runner/.nimble/pkgs/python3-1.4/dynamic/python3_dynamic.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/python3-1.4
+  change permissions of /home/runner/.nimble/pkgs/python3-1.4/python3.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/python3-1.4/python3.nimble to rw-r--r--
+  delete /tmp/nimble_7244/githubcom_matkukipython3/examples/script_example2.py
+  delete /tmp/nimble_7244/githubcom_matkukipython3/examples/examples.nim
+  delete /tmp/nimble_7244/githubcom_matkukipython3/examples/script_example1.py
+  delete /tmp/nimble_7244/githubcom_matkukipython3/examples/example_module.py
+  delete /tmp/nimble_7244/githubcom_matkukipython3/examples
+  delete /tmp/nimble_7244/githubcom_matkukipython3/src/static/python3_static.nim
+  delete /tmp/nimble_7244/githubcom_matkukipython3/src/static
+  delete /tmp/nimble_7244/githubcom_matkukipython3/src/dynamic/python3_dynamic.nim
+  delete /tmp/nimble_7244/githubcom_matkukipython3/src/dynamic
+  delete /tmp/nimble_7244/githubcom_matkukipython3/src/python3.nim
+  delete /tmp/nimble_7244/githubcom_matkukipython3/src
+  delete /tmp/nimble_7244/githubcom_matkukipython3/python3.nimble
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/HEAD
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/config
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/logs/HEAD
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/logs/refs/heads/master
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/logs/refs/heads
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/logs/refs/remotes
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/logs/refs
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/logs
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/branches
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/packed-refs
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/refs/heads/master
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/refs/heads
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/refs/tags
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/refs/remotes/origin
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/refs/remotes
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/refs
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/hooks/pre-push.sample
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/hooks/update.sample
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/hooks/post-update.sample
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/hooks
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/index
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/info/exclude
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/info
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/shallow
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/description
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/objects/pack/pack-577cf47b251693a7e5e2023fc72006759649ee19.pack
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/objects/pack/pack-577cf47b251693a7e5e2023fc72006759649ee19.idx
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/objects/pack
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/objects/info
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git/objects
+  delete /tmp/nimble_7244/githubcom_matkukipython3/.git
+  delete /tmp/nimble_7244/githubcom_matkukipython3/README.md
+  delete /tmp/nimble_7244/githubcom_matkukipython3
+  delete /tmp/nimble_7244
