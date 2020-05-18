@@ -1,0 +1,22 @@
+    Reading official package list
+Downloading git@github.com:megawac/RingBuffer.nim.git using git
+download.nim(93)         getTagsListRemote
+Error: unhandled exception: Unable to query remote tags for git@github.com:megawac/RingBuffer.nim.git. Git returned: Warning: Permanently added the RSA host key for IP address '140.82.113.3' to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ [OSError]
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_4298', 0x00000000000001ff)
+mkdir('/tmp/nimble_4298/_gitgithubcommegawacRingBuffernimgit', 0x00000000000001ff)
+rmdir('/tmp/nimble_4298/_gitgithubcommegawacRingBuffernimgit')
+mkdir('/home/runner/.ssh', 0x00000000000001c0)
+rmdir('/tmp/nimble_4298')
+  create directory /tmp
+  create directory /tmp/nimble_4298
+  create directory /tmp/nimble_4298/_gitgithubcommegawacRingBuffernimgit
+  delete /tmp/nimble_4298/_gitgithubcommegawacRingBuffernimgit
+  create directory /home/runner/.ssh
+  delete /tmp/nimble_4298
