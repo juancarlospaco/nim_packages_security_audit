@@ -1,483 +1,256 @@
     Reading official package list
 Downloading https://github.com/treeform/vmath using git
-    Cloning latest tagged version: v0.3.0
-       Info /tmp/nimble_4422/githubcom_treeformvmath/vmath_4422.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /tmp/nimble_4422/githubcom_treeformvmath/vmath_4422.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
-  Verifying dependencies for vmath@0.3.0
-    Reading official package list
-   Checking for mddoc@>= 0.0.2
- Installing mddoc@>= 0.0.2
-    Reading official package list
-Downloading https://github.com/treeform/mddoc using git
-    Cloning latest tagged version: v0.0.4
+    Cloning latest tagged version: 0.3.1
+       Info /tmp/nimble_4344/githubcom_treeformvmath/vmath_4344.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /tmp/nimble_4344/githubcom_treeformvmath/vmath_4344.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+  Verifying dependencies for vmath@0.3.1
+ Installing vmath@0.3.1
+    Copying file /tmp/nimble_4344/githubcom_treeformvmath/src/vmath.nim to /home/runner/.nimble/pkgs/vmath-0.3.1/vmath.nim
+    Copying file /tmp/nimble_4344/githubcom_treeformvmath/vmath.nimble to /home/runner/.nimble/pkgs/vmath-0.3.1/vmath.nimble
+   Success: vmath installed successfully.
+       Info /home/runner/.nimble/pkgs/vmath-0.3.1/vmath_4344.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /home/runner/.nimble/pkgs/vmath-0.3.1/vmath_4344.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_4422', 0x00000000000001ff)
-mkdir('/tmp/nimble_4422/githubcom_treeformvmath', 0x00000000000001ff)
-rmdir('/tmp/nimble_4422/githubcom_treeformvmath')
-mkdir('/tmp/nimble_4422/githubcom_treeformvmath', 0x00000000000001ff)
-mkdir('/tmp/nimble_4422/githubcom_treeformvmath/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_4422/githubcom_treeformvmath/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4422/githubcom_treeformvmath/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4422/githubcom_treeformvmath/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4422/githubcom_treeformvmath/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4422/githubcom_treeformvmath/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_4422/githubcom_treeformvmath/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_4422/githubcom_treeformvmath/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_4422/githubcom_treeformvmath/.git/HEAD.lock', '/tmp/nimble_4422/githubcom_treeformvmath/.git/HEAD')
-rename('/tmp/nimble_4422/githubcom_treeformvmath/.git/config.lock', '/tmp/nimble_4422/githubcom_treeformvmath/.git/config')
-chmod('/tmp/nimble_4422/githubcom_treeformvmath/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_4422/githubcom_treeformvmath/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_4422/githubcom_treeformvmath/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4422/githubcom_treeformvmath/.git/config.lock', '/tmp/nimble_4422/githubcom_treeformvmath/.git/config')
-chmod('/tmp/nimble_4422/githubcom_treeformvmath/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4422/githubcom_treeformvmath/.git/config.lock', '/tmp/nimble_4422/githubcom_treeformvmath/.git/config')
-chmod('/tmp/nimble_4422/githubcom_treeformvmath/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4422/githubcom_treeformvmath/.git/config.lock', '/tmp/nimble_4422/githubcom_treeformvmath/.git/config')
-unlink('/tmp/nimble_4422/githubcom_treeformvmath/.git/tjjpq7h')
-symlink('testing', '/tmp/nimble_4422/githubcom_treeformvmath/.git/tjjpq7h')
-unlink('/tmp/nimble_4422/githubcom_treeformvmath/.git/tjjpq7h')
-mkdir('/tmp/nimble_4422/githubcom_treeformvmath/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_4422/githubcom_treeformvmath/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_4422/githubcom_treeformvmath/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_4422/githubcom_treeformvmath/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4422/githubcom_treeformvmath/.git/config.lock', '/tmp/nimble_4422/githubcom_treeformvmath/.git/config')
-chmod('/tmp/nimble_4422/githubcom_treeformvmath/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4422/githubcom_treeformvmath/.git/config.lock', '/tmp/nimble_4422/githubcom_treeformvmath/.git/config')
-chmod('/tmp/nimble_4422/githubcom_treeformvmath/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4422/githubcom_treeformvmath/.git/config.lock', '/tmp/nimble_4422/githubcom_treeformvmath/.git/config')
-link('/tmp/nimble_4422/githubcom_treeformvmath/.git/objects/pack/tmp_pack_hFb0Zj', '/tmp/nimble_4422/githubcom_treeformvmath/.git/objects/pack/pack-51272eeb70b35986f2abaa006dcbc3633da7fc90.pack')
-unlink('/tmp/nimble_4422/githubcom_treeformvmath/.git/objects/pack/tmp_pack_hFb0Zj')
-link('/tmp/nimble_4422/githubcom_treeformvmath/.git/objects/pack/tmp_idx_CJ8BTk', '/tmp/nimble_4422/githubcom_treeformvmath/.git/objects/pack/pack-51272eeb70b35986f2abaa006dcbc3633da7fc90.idx')
-unlink('/tmp/nimble_4422/githubcom_treeformvmath/.git/objects/pack/tmp_idx_CJ8BTk')
-rename('/tmp/nimble_4422/githubcom_treeformvmath/.git/shallow.lock', '/tmp/nimble_4422/githubcom_treeformvmath/.git/shallow')
-rename('/tmp/nimble_4422/githubcom_treeformvmath/.git/packed-refs.new', '/tmp/nimble_4422/githubcom_treeformvmath/.git/packed-refs')
-unlink('/tmp/nimble_4422/githubcom_treeformvmath/.git/packed-refs.lock')
-unlink('/tmp/nimble_4422/githubcom_treeformvmath/.git/refs/tags/v0.3.0.lock')
-mkdir('/tmp/nimble_4422/githubcom_treeformvmath/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_4422/githubcom_treeformvmath/.git/HEAD.lock', '/tmp/nimble_4422/githubcom_treeformvmath/.git/HEAD')
-unlink('/tmp/nimble_4422/githubcom_treeformvmath/.git/objects/pack/pack-51272eeb70b35986f2abaa006dcbc3633da7fc90.keep')
+mkdir('/tmp/nimble_4344', 0x00000000000001ff)
+mkdir('/tmp/nimble_4344/githubcom_treeformvmath', 0x00000000000001ff)
+rmdir('/tmp/nimble_4344/githubcom_treeformvmath')
+mkdir('/tmp/nimble_4344/githubcom_treeformvmath', 0x00000000000001ff)
+mkdir('/tmp/nimble_4344/githubcom_treeformvmath/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_4344/githubcom_treeformvmath/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4344/githubcom_treeformvmath/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4344/githubcom_treeformvmath/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4344/githubcom_treeformvmath/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4344/githubcom_treeformvmath/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_4344/githubcom_treeformvmath/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_4344/githubcom_treeformvmath/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_4344/githubcom_treeformvmath/.git/HEAD.lock', '/tmp/nimble_4344/githubcom_treeformvmath/.git/HEAD')
+rename('/tmp/nimble_4344/githubcom_treeformvmath/.git/config.lock', '/tmp/nimble_4344/githubcom_treeformvmath/.git/config')
+chmod('/tmp/nimble_4344/githubcom_treeformvmath/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_4344/githubcom_treeformvmath/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_4344/githubcom_treeformvmath/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4344/githubcom_treeformvmath/.git/config.lock', '/tmp/nimble_4344/githubcom_treeformvmath/.git/config')
+chmod('/tmp/nimble_4344/githubcom_treeformvmath/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4344/githubcom_treeformvmath/.git/config.lock', '/tmp/nimble_4344/githubcom_treeformvmath/.git/config')
+chmod('/tmp/nimble_4344/githubcom_treeformvmath/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4344/githubcom_treeformvmath/.git/config.lock', '/tmp/nimble_4344/githubcom_treeformvmath/.git/config')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/t5AEvK4')
+symlink('testing', '/tmp/nimble_4344/githubcom_treeformvmath/.git/t5AEvK4')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/t5AEvK4')
+mkdir('/tmp/nimble_4344/githubcom_treeformvmath/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_4344/githubcom_treeformvmath/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_4344/githubcom_treeformvmath/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_4344/githubcom_treeformvmath/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4344/githubcom_treeformvmath/.git/config.lock', '/tmp/nimble_4344/githubcom_treeformvmath/.git/config')
+chmod('/tmp/nimble_4344/githubcom_treeformvmath/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4344/githubcom_treeformvmath/.git/config.lock', '/tmp/nimble_4344/githubcom_treeformvmath/.git/config')
+chmod('/tmp/nimble_4344/githubcom_treeformvmath/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4344/githubcom_treeformvmath/.git/config.lock', '/tmp/nimble_4344/githubcom_treeformvmath/.git/config')
+link('/tmp/nimble_4344/githubcom_treeformvmath/.git/objects/pack/tmp_pack_9RZisG', '/tmp/nimble_4344/githubcom_treeformvmath/.git/objects/pack/pack-dee3ec8102cb99201908d7a099e55495b2e008d5.pack')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/objects/pack/tmp_pack_9RZisG')
+link('/tmp/nimble_4344/githubcom_treeformvmath/.git/objects/pack/tmp_idx_tYnUQQ', '/tmp/nimble_4344/githubcom_treeformvmath/.git/objects/pack/pack-dee3ec8102cb99201908d7a099e55495b2e008d5.idx')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/objects/pack/tmp_idx_tYnUQQ')
+rename('/tmp/nimble_4344/githubcom_treeformvmath/.git/shallow.lock', '/tmp/nimble_4344/githubcom_treeformvmath/.git/shallow')
+rename('/tmp/nimble_4344/githubcom_treeformvmath/.git/packed-refs.new', '/tmp/nimble_4344/githubcom_treeformvmath/.git/packed-refs')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/packed-refs.lock')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/refs/tags/0.3.1.lock')
+mkdir('/tmp/nimble_4344/githubcom_treeformvmath/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_4344/githubcom_treeformvmath/.git/HEAD.lock', '/tmp/nimble_4344/githubcom_treeformvmath/.git/HEAD')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/objects/pack/pack-dee3ec8102cb99201908d7a099e55495b2e008d5.keep')
 mkdir('.github', 0x00000000000001ff)
 mkdir('.github/workflows', 0x00000000000001ff)
 mkdir('src', 0x00000000000001ff)
 mkdir('tests', 0x00000000000001ff)
-rename('/tmp/nimble_4422/githubcom_treeformvmath/.git/index.lock', '/tmp/nimble_4422/githubcom_treeformvmath/.git/index')
+rename('/tmp/nimble_4344/githubcom_treeformvmath/.git/index.lock', '/tmp/nimble_4344/githubcom_treeformvmath/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/vmath_2749221883', 0x00000000000001ff)
-unlink('/tmp/nimblecache/vmath_2749221883/vmath.ini')
-unlink('/tmp/nimble_4422.out')
-unlink('/tmp/nimble_4422/githubcom_treeformvmath/vmath_4422.nims')
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_4422', 0x00000000000001ff)
-mkdir('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2', 0x00000000000001ff)
-rmdir('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2')
-mkdir('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2', 0x00000000000001ff)
-mkdir('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/HEAD.lock', '/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/HEAD')
-rename('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/config.lock', '/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/config')
-chmod('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/config.lock', '/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/config')
-chmod('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/config.lock', '/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/config')
-chmod('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/config.lock', '/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/config')
-unlink('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/t4mLH6H')
-symlink('testing', '/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/t4mLH6H')
-unlink('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/t4mLH6H')
-mkdir('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/config.lock', '/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/config')
-chmod('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/config.lock', '/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/config')
-chmod('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/config.lock', '/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/config')       Info /tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/mddoc_4422.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
-  Verifying dependencies for mddoc@0.0.4
- Installing mddoc@0.0.4
-   Building mddoc/mddoc using c backend
-
-link('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/objects/pack/tmp_pack_HHPZ87', '/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/objects/pack/pack-d8b241529b10e44a105f9303c84d5e76891b79d3.pack')
-unlink('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/objects/pack/tmp_pack_HHPZ87')
-link('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/objects/pack/tmp_idx_Veh9dc', '/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/objects/pack/pack-d8b241529b10e44a105f9303c84d5e76891b79d3.idx')
-unlink('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/objects/pack/tmp_idx_Veh9dc')
-rename('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/shallow.lock', '/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/shallow')
-rename('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/packed-refs.new', '/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/packed-refs')
-unlink('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/packed-refs.lock')
-rename('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/refs/tags/0.0.4.lock', '/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/refs/tags/0.0.4')
-unlink('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/refs/tags/v0.0.4.lock')
-mkdir('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/HEAD.lock', '/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/HEAD')
-unlink('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/objects/pack/pack-d8b241529b10e44a105f9303c84d5e76891b79d3.keep')
-mkdir('src', 0x00000000000001ff)
-rename('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/index.lock', '/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/.git/index')
+mkdir('/tmp/nimblecache/vmath_819184488', 0x00000000000001ff)
+unlink('/tmp/nimblecache/vmath_819184488/vmath.ini')
+unlink('/tmp/nimble_4344.out')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/vmath_4344.nims')
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/vmath-0.3.1', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/vmath-0.3.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/vmath-0.3.1/vmath.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/vmath-0.3.1/vmath.nimble', 0x00000000000001a4)
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/mddoc_954406980', 0x00000000000001ff)
-unlink('/tmp/nimblecache/mddoc_954406980/mddoc.ini')
-unlink('/tmp/nimble_4422.out')
-unlink('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2/mddoc_4422.nims')
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.cache', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
-mkdir('/home/runner/.cache/nim/mddoc_r', 0x00000000000001ff)
-unlink('/tmp/ccv0djZN.s')
-unlink('/tmp/ccGPfHCR.s')
-unlink('/tmp/ccbuWZha.s')
-unlink('/tmp/ccxIHLJa.s')
-unlink('/tmp/ccyRxRLM.s')
-unlink('/tmp/cc611eUv.s')
-unlink('/tmp/ccvPOVLQ.s')
-unlink('/tmp/cczqjzeE.s')
-unlink('/tmp/ccF6dLaz.s')
-unlink('/tmp/ccyo2HoF.s')
-unlink('/tmp/ccYCRhRo.s')
-unlink('/tmp/ccmYe98P.s')
-unlink('/tmp/ccZnj8wT.s')
-unlink('/tmp/ccF6lYcK.s')
-unlink('/tmp/ccECYVIR.s')
-unlink('/tmp/cc5qWxep.s')
-unlink('/tmp/cchSLUtW.s')
-unlink('/tmp/ccwXUEA6.s')
-unlink('/tmp/ccVCZyhD.s')
-unlink('/tmp/cclA5PTL.s')
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_4422', 0x00000000000001ff)
-mkdir('/tmp/nimble_4422/githubcom_treeformmddoc_0.0.2', 0x00000000000001ff)
-chmod(94280794353840, 0x00000000000001ed)
-Error tracing process: readBytes(0x000055bf7541b0b0, 256) error: [Errno 5] Input/output error.
+mkdir('/tmp/nimblecache/vmath_1856158166', 0x00000000000001ff)
+unlink('/tmp/nimblecache/vmath_1856158166/vmath.ini')
+unlink('/tmp/nimble_4344.out')
+unlink('/home/runner/.nimble/pkgs/vmath-0.3.1/vmath_4344.nims')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/src/vmath.nim')
+rmdir('/tmp/nimble_4344/githubcom_treeformvmath/src')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.gitignore')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.github/workflows/build.yml')
+rmdir('/tmp/nimble_4344/githubcom_treeformvmath/.github/workflows')
+rmdir('/tmp/nimble_4344/githubcom_treeformvmath/.github')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/vmath.nimble')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/HEAD')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/config')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/logs/HEAD')
+rmdir('/tmp/nimble_4344/githubcom_treeformvmath/.git/logs')
+rmdir('/tmp/nimble_4344/githubcom_treeformvmath/.git/branches')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/packed-refs')
+rmdir('/tmp/nimble_4344/githubcom_treeformvmath/.git/refs/heads')
+rmdir('/tmp/nimble_4344/githubcom_treeformvmath/.git/refs/tags')
+rmdir('/tmp/nimble_4344/githubcom_treeformvmath/.git/refs')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/hooks/update.sample')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_4344/githubcom_treeformvmath/.git/hooks')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/index')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/info/exclude')
+rmdir('/tmp/nimble_4344/githubcom_treeformvmath/.git/info')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/shallow')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/description')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/objects/pack/pack-dee3ec8102cb99201908d7a099e55495b2e008d5.idx')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/.git/objects/pack/pack-dee3ec8102cb99201908d7a099e55495b2e008d5.pack')
+rmdir('/tmp/nimble_4344/githubcom_treeformvmath/.git/objects/pack')
+rmdir('/tmp/nimble_4344/githubcom_treeformvmath/.git/objects/info')
+rmdir('/tmp/nimble_4344/githubcom_treeformvmath/.git/objects')
+rmdir('/tmp/nimble_4344/githubcom_treeformvmath/.git')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/README.md')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/tests/test-output.txt')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/tests/test.nim')
+unlink('/tmp/nimble_4344/githubcom_treeformvmath/tests/config.nims')
+rmdir('/tmp/nimble_4344/githubcom_treeformvmath/tests')
+rmdir('/tmp/nimble_4344/githubcom_treeformvmath')
+rmdir('/tmp/nimble_4344')
+  create directory /tmp
+  create directory /tmp/nimble_4344
+  create directory /tmp/nimble_4344/githubcom_treeformvmath
+  delete /tmp/nimble_4344/githubcom_treeformvmath
+  create directory /tmp/nimble_4344/githubcom_treeformvmath
+  create directory /tmp/nimble_4344/githubcom_treeformvmath/.git
+  create directory /tmp/nimble_4344/githubcom_treeformvmath/.git
+  create directory /tmp/nimble_4344/githubcom_treeformvmath/.git/branches
+  create directory /tmp/nimble_4344/githubcom_treeformvmath/.git/hooks
+  create directory /tmp/nimble_4344/githubcom_treeformvmath/.git/info
+  create directory /tmp/nimble_4344/githubcom_treeformvmath/.git/refs
+  create directory /tmp/nimble_4344/githubcom_treeformvmath/.git/refs/heads
+  create directory /tmp/nimble_4344/githubcom_treeformvmath/.git/refs/tags
+  rename /tmp/nimble_4344/githubcom_treeformvmath/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_4344/githubcom_treeformvmath/.git/config.lock to config
+  change permissions of /tmp/nimble_4344/githubcom_treeformvmath/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_4344/githubcom_treeformvmath/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_4344/githubcom_treeformvmath/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4344/githubcom_treeformvmath/.git/config.lock to config
+  change permissions of /tmp/nimble_4344/githubcom_treeformvmath/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4344/githubcom_treeformvmath/.git/config.lock to config
+  change permissions of /tmp/nimble_4344/githubcom_treeformvmath/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4344/githubcom_treeformvmath/.git/config.lock to config
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/t5AEvK4
+  create symbolic link from /tmp/nimble_4344/githubcom_treeformvmath/.git/t5AEvK4 to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/t5AEvK4
+  create directory /tmp/nimble_4344/githubcom_treeformvmath/.git/objects
+  create directory /tmp/nimble_4344/githubcom_treeformvmath/.git/objects/pack
+  create directory /tmp/nimble_4344/githubcom_treeformvmath/.git/objects/info
+  change permissions of /tmp/nimble_4344/githubcom_treeformvmath/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4344/githubcom_treeformvmath/.git/config.lock to config
+  change permissions of /tmp/nimble_4344/githubcom_treeformvmath/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4344/githubcom_treeformvmath/.git/config.lock to config
+  change permissions of /tmp/nimble_4344/githubcom_treeformvmath/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4344/githubcom_treeformvmath/.git/config.lock to config
+  create hard link from /tmp/nimble_4344/githubcom_treeformvmath/.git/objects/pack/pack-dee3ec8102cb99201908d7a099e55495b2e008d5.pack to /tmp/nimble_4344/githubcom_treeformvmath/.git/objects/pack/tmp_pack_9RZisG
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/objects/pack/tmp_pack_9RZisG
+  create hard link from /tmp/nimble_4344/githubcom_treeformvmath/.git/objects/pack/pack-dee3ec8102cb99201908d7a099e55495b2e008d5.idx to /tmp/nimble_4344/githubcom_treeformvmath/.git/objects/pack/tmp_idx_tYnUQQ
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/objects/pack/tmp_idx_tYnUQQ
+  rename /tmp/nimble_4344/githubcom_treeformvmath/.git/shallow.lock to shallow
+  rename /tmp/nimble_4344/githubcom_treeformvmath/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/packed-refs.lock
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/refs/tags/0.3.1.lock
+  create directory /tmp/nimble_4344/githubcom_treeformvmath/.git/logs
+  rename /tmp/nimble_4344/githubcom_treeformvmath/.git/HEAD.lock to HEAD
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/objects/pack/pack-dee3ec8102cb99201908d7a099e55495b2e008d5.keep
+  create directory /tmp/nimble_4344/githubcom_treeformvmath/.github
+  create directory /tmp/nimble_4344/githubcom_treeformvmath/.github/workflows
+  create directory /tmp/nimble_4344/githubcom_treeformvmath/src
+  create directory /tmp/nimble_4344/githubcom_treeformvmath/tests
+  rename /tmp/nimble_4344/githubcom_treeformvmath/.git/index.lock to index
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/vmath_819184488
+  delete /tmp/nimblecache/vmath_819184488/vmath.ini
+  delete /tmp/nimble_4344.out
+  delete /tmp/nimble_4344/githubcom_treeformvmath/vmath_4344.nims
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/vmath-0.3.1
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/vmath-0.3.1
+  change permissions of /home/runner/.nimble/pkgs/vmath-0.3.1/vmath.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/vmath-0.3.1/vmath.nimble to rw-r--r--
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/vmath_1856158166
+  delete /tmp/nimblecache/vmath_1856158166/vmath.ini
+  delete /tmp/nimble_4344.out
+  delete /home/runner/.nimble/pkgs/vmath-0.3.1/vmath_4344.nims
+  delete /tmp/nimble_4344/githubcom_treeformvmath/src/vmath.nim
+  delete /tmp/nimble_4344/githubcom_treeformvmath/src
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.gitignore
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.github/workflows/build.yml
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.github/workflows
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.github
+  delete /tmp/nimble_4344/githubcom_treeformvmath/vmath.nimble
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/HEAD
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/config
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/logs/HEAD
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/logs
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/branches
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/packed-refs
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/refs/heads
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/refs/tags
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/refs
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/hooks/pre-push.sample
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/hooks/update.sample
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/hooks/post-update.sample
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/hooks
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/index
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/info/exclude
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/info
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/shallow
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/description
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/objects/pack/pack-dee3ec8102cb99201908d7a099e55495b2e008d5.idx
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/objects/pack/pack-dee3ec8102cb99201908d7a099e55495b2e008d5.pack
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/objects/pack
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/objects/info
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git/objects
+  delete /tmp/nimble_4344/githubcom_treeformvmath/.git
+  delete /tmp/nimble_4344/githubcom_treeformvmath/README.md
+  delete /tmp/nimble_4344/githubcom_treeformvmath/tests/test-output.txt
+  delete /tmp/nimble_4344/githubcom_treeformvmath/tests/test.nim
+  delete /tmp/nimble_4344/githubcom_treeformvmath/tests/config.nims
+  delete /tmp/nimble_4344/githubcom_treeformvmath/tests
+  delete /tmp/nimble_4344/githubcom_treeformvmath
+  delete /tmp/nimble_4344
