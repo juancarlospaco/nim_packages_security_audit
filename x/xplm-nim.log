@@ -5,65 +5,65 @@ Downloading https://github.com/jpoirier/XPLM-Nim using git
       Hint: If this is the primary source file in the package, rename it to 'xplm.nim'. If it's a source file required by the main module, or if it is one of several modules exposed by 'xplm', then move it into a 'xplm/' subdirectory. If it's a test file or otherwise not required to build the the package 'xplm.nim', prevent its installation by adding `skipFiles = @["XPLMUtilities.nim"]` to the .nimble file. See https://github.com/nim-lang/nimble#libraries for more info.
   Verifying dependencies for xplm@0.2.4
  Installing xplm@0.2.4
-    Copying file /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMUtilities.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMUtilities.nim
-    Copying file /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMMenus.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMMenus.nim
-    Copying file /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPUIGraphics.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPUIGraphics.nim
-    Copying file /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPWidgetUtils.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPWidgetUtils.nim
-    Copying file /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMPlanes.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMPlanes.nim
-    Copying file /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMDefs.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMDefs.nim
-    Copying file /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPWidgets.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPWidgets.nim
-    Copying file /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMPlugin.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMPlugin.nim
-    Copying file /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/xplm.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/xplm.nim
-    Copying file /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMScenery.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMScenery.nim
+    Copying file /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMUtilities.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMUtilities.nim
+    Copying file /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMDefs.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMDefs.nim
+    Copying file /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMScenery.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMScenery.nim
+    Copying file /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPWidgets.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPWidgets.nim
+    Copying file /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPStandardWidgets.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPStandardWidgets.nim
+    Copying file /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMNavigation.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMNavigation.nim
+    Copying file /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/xplm.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/xplm.nim
+    Copying file /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMProcessing.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMProcessing.nim
+    Copying file /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMPlugin.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMPlugin.nim
+    Copying file /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMCamera.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMCamera.nim
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_3131', 0x00000000000001ff)
-mkdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim', 0x00000000000001ff)
-rmdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim')
-mkdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim', 0x00000000000001ff)
-mkdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/HEAD.lock', '/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/HEAD')
-rename('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config.lock', '/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config')
-chmod('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config.lock', '/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config')
-chmod('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config.lock', '/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config')
-chmod('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config.lock', '/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/t0OyR23')
-symlink('testing', '/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/t0OyR23')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/t0OyR23')
-mkdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config.lock', '/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config')
-chmod('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config.lock', '/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config')
-chmod('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config.lock', '/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config')
-link('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects/pack/tmp_pack_A8UAsf', '/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects/pack/pack-0244fad7954ac391668afd95ac141a7d2fb3f6cd.pack')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects/pack/tmp_pack_A8UAsf')
-link('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects/pack/tmp_idx_etT1oC', '/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects/pack/pack-0244fad7954ac391668afd95ac141a7d2fb3f6cd.idx')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects/pack/tmp_idx_etT1oC')
-rename('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/shallow.lock', '/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/shallow')
-rename('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/packed-refs.new', '/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/packed-refs')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/packed-refs.lock')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/refs/tags/v0.2.5.lock')
-mkdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/HEAD.lock', '/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/HEAD')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects/pack/pack-0244fad7954ac391668afd95ac141a7d2fb3f6cd.keep')
+mkdir('/tmp/nimble_7194', 0x00000000000001ff)
+mkdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim', 0x00000000000001ff)
+rmdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim')
+mkdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim', 0x00000000000001ff)
+mkdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/HEAD.lock', '/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/HEAD')
+rename('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config.lock', '/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config')
+chmod('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config.lock', '/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config')
+chmod('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config.lock', '/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config')
+chmod('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config.lock', '/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/tDYM0bU')
+symlink('testing', '/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/tDYM0bU')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/tDYM0bU')
+mkdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config.lock', '/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config')
+chmod('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config.lock', '/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config')
+chmod('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config.lock', '/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config')
+link('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects/pack/tmp_pack_uSBh5d', '/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects/pack/pack-0244fad7954ac391668afd95ac141a7d2fb3f6cd.pack')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects/pack/tmp_pack_uSBh5d')
+link('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects/pack/tmp_idx_BBtEEu', '/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects/pack/pack-0244fad7954ac391668afd95ac141a7d2fb3f6cd.idx')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects/pack/tmp_idx_BBtEEu')
+rename('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/shallow.lock', '/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/shallow')
+rename('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/packed-refs.new', '/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/packed-refs')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/packed-refs.lock')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/refs/tags/v0.2.5.lock')
+mkdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/HEAD.lock', '/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/HEAD')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects/pack/pack-0244fad7954ac391668afd95ac141a7d2fb3f6cd.keep')
 mkdir('examples', 0x00000000000001ff)
 mkdir('src', 0x00000000000001ff)
-rename('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/index.lock', '/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/index')
+rename('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/index.lock', '/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/index')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -80,31 +80,13 @@ mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/xplm-0.2.4', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/XPLMMenus.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/xplm-0.2.4', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/XPUIGraphics.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/xplm-0.2.4', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/XPWidgetUtils.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/xplm-0.2.4', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/XPLMPlanes.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/xplm-0.2.4', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/XPLMDefs.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/xplm-0.2.4', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/XPLMScenery.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -116,35 +98,7 @@ mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/xplm-0.2.4', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/XPLMPlugin.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/xplm-0.2.4', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/xplm.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/xplm-0.2.4', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/XPLMScenery.nim', 0x00000000000001a4)    Copying file /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMDisplay.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMDisplay.nim
-    Copying file /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMNavigation.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMNavigation.nim
-    Copying file /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPWidgetDefs.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPWidgetDefs.nim
-    Copying file /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMCamera.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMCamera.nim
-    Copying file /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPStandardWidgets.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPStandardWidgets.nim
-    Copying file /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMDataAccess.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMDataAccess.nim
-    Copying file /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMProcessing.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMProcessing.nim
-    Copying file /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMGraphics.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMGraphics.nim
-    Copying file /tmp/nimble_3131/githubcom_jpoirierXPLMNim/xplm.nimble to /home/runner/.nimble/pkgs/xplm-0.2.4/xplm.nimble
-   Success: xplm installed successfully.
-
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/xplm-0.2.4', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/XPLMDisplay.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/XPStandardWidgets.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -156,25 +110,7 @@ mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/xplm-0.2.4', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/XPWidgetDefs.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/xplm-0.2.4', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/XPLMCamera.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/xplm-0.2.4', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/XPStandardWidgets.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/xplm-0.2.4', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/XPLMDataAccess.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/xplm.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -186,118 +122,182 @@ mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/xplm-0.2.4', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/XPLMPlugin.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/xplm-0.2.4', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/XPLMCamera.nim', 0x00000000000001a4)    Copying file /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMPlanes.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMPlanes.nim
+    Copying file /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMDataAccess.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMDataAccess.nim
+    Copying file /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMGraphics.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMGraphics.nim
+    Copying file /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPWidgetUtils.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPWidgetUtils.nim
+    Copying file /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPUIGraphics.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPUIGraphics.nim
+    Copying file /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMDisplay.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMDisplay.nim
+    Copying file /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMMenus.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMMenus.nim
+    Copying file /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPWidgetDefs.nim to /home/runner/.nimble/pkgs/xplm-0.2.4/XPWidgetDefs.nim
+    Copying file /tmp/nimble_7194/githubcom_jpoirierXPLMNim/xplm.nimble to /home/runner/.nimble/pkgs/xplm-0.2.4/xplm.nimble
+   Success: xplm installed successfully.
+
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/xplm-0.2.4', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/XPLMPlanes.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/xplm-0.2.4', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/XPLMDataAccess.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/xplm-0.2.4', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/XPLMGraphics.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/xplm-0.2.4', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/XPWidgetUtils.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/xplm-0.2.4', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/XPUIGraphics.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/xplm-0.2.4', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/XPLMDisplay.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/xplm-0.2.4', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/XPLMMenus.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/xplm-0.2.4', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/XPWidgetDefs.nim', 0x00000000000001a4)
 chmod('/home/runner/.nimble/pkgs/xplm-0.2.4/xplm.nimble', 0x00000000000001a4)
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/examples/XPLM_Test.nim.cfg')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/examples/XPLM_Test.nim')
-rmdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/examples')
-rmdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/refs/heads')
-rmdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/refs/tags')
-rmdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/refs')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/logs/HEAD')
-rmdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/logs')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/packed-refs')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/HEAD')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/description')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks/update.sample')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks/post-update.sample')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks/pre-merge-commit.sample')
-rmdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects/pack/pack-0244fad7954ac391668afd95ac141a7d2fb3f6cd.idx')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects/pack/pack-0244fad7954ac391668afd95ac141a7d2fb3f6cd.pack')
-rmdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects/pack')
-rmdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects/info')
-rmdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects')
-rmdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/branches')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/index')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/info/exclude')
-rmdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/info')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/shallow')
-rmdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/readme.md')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/.gitignore')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/xplm.nimble')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/license.txt')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMUtilities.nim')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMMenus.nim')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPUIGraphics.nim')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPWidgetUtils.nim')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMPlanes.nim')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMDefs.nim')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPWidgets.nim')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMPlugin.nim')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/xplm.nim')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMScenery.nim')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMDisplay.nim')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMNavigation.nim')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPWidgetDefs.nim')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMCamera.nim')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPStandardWidgets.nim')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMDataAccess.nim')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMProcessing.nim')
-unlink('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMGraphics.nim')
-rmdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim/src')
-rmdir('/tmp/nimble_3131/githubcom_jpoirierXPLMNim')
-rmdir('/tmp/nimble_3131')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/examples/XPLM_Test.nim')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/examples/XPLM_Test.nim.cfg')
+rmdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/examples')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/xplm.nimble')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMUtilities.nim')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMDefs.nim')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMScenery.nim')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPWidgets.nim')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPStandardWidgets.nim')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMNavigation.nim')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/xplm.nim')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMProcessing.nim')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMPlugin.nim')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMCamera.nim')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMPlanes.nim')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMDataAccess.nim')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMGraphics.nim')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPWidgetUtils.nim')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPUIGraphics.nim')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMDisplay.nim')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMMenus.nim')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPWidgetDefs.nim')
+rmdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/src')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.gitignore')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/HEAD')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/logs/HEAD')
+rmdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/logs')
+rmdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/branches')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/packed-refs')
+rmdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/refs/heads')
+rmdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/refs/tags')
+rmdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/refs')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks/update.sample')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/index')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/info/exclude')
+rmdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/info')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/shallow')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/description')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects/pack/pack-0244fad7954ac391668afd95ac141a7d2fb3f6cd.pack')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects/pack/pack-0244fad7954ac391668afd95ac141a7d2fb3f6cd.idx')
+rmdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects/pack')
+rmdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects/info')
+rmdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects')
+rmdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/license.txt')
+unlink('/tmp/nimble_7194/githubcom_jpoirierXPLMNim/readme.md')
+rmdir('/tmp/nimble_7194/githubcom_jpoirierXPLMNim')
+rmdir('/tmp/nimble_7194')
   create directory /tmp
-  create directory /tmp/nimble_3131
-  create directory /tmp/nimble_3131/githubcom_jpoirierXPLMNim
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim
-  create directory /tmp/nimble_3131/githubcom_jpoirierXPLMNim
-  create directory /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git
-  create directory /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git
-  create directory /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks
-  create directory /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/branches
-  create directory /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/info
-  create directory /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/refs
-  create directory /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/refs/heads
-  create directory /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/refs/tags
-  rename /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config.lock to config
-  change permissions of /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config.lock to config
-  change permissions of /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config.lock to config
-  change permissions of /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config.lock to config
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/t0OyR23
-  create symbolic link from /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/t0OyR23 to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/t0OyR23
-  create directory /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects
-  create directory /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects/pack
-  create directory /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects/info
-  change permissions of /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config.lock to config
-  change permissions of /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config.lock to config
-  change permissions of /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config.lock to config
-  create hard link from /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects/pack/pack-0244fad7954ac391668afd95ac141a7d2fb3f6cd.pack to /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects/pack/tmp_pack_A8UAsf
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects/pack/tmp_pack_A8UAsf
-  create hard link from /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects/pack/pack-0244fad7954ac391668afd95ac141a7d2fb3f6cd.idx to /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects/pack/tmp_idx_etT1oC
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects/pack/tmp_idx_etT1oC
-  rename /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/shallow.lock to shallow
-  rename /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/packed-refs.lock
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/refs/tags/v0.2.5.lock
-  create directory /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/logs
-  rename /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects/pack/pack-0244fad7954ac391668afd95ac141a7d2fb3f6cd.keep
-  create directory /tmp/nimble_3131/githubcom_jpoirierXPLMNim/examples
-  create directory /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src
-  rename /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/index.lock to index
+  create directory /tmp/nimble_7194
+  create directory /tmp/nimble_7194/githubcom_jpoirierXPLMNim
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim
+  create directory /tmp/nimble_7194/githubcom_jpoirierXPLMNim
+  create directory /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git
+  create directory /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git
+  create directory /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/branches
+  create directory /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks
+  create directory /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/info
+  create directory /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/refs
+  create directory /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/refs/heads
+  create directory /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/refs/tags
+  rename /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config.lock to config
+  change permissions of /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config.lock to config
+  change permissions of /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config.lock to config
+  change permissions of /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config.lock to config
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/tDYM0bU
+  create symbolic link from /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/tDYM0bU to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/tDYM0bU
+  create directory /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects
+  create directory /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects/pack
+  create directory /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects/info
+  change permissions of /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config.lock to config
+  change permissions of /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config.lock to config
+  change permissions of /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config.lock to config
+  create hard link from /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects/pack/pack-0244fad7954ac391668afd95ac141a7d2fb3f6cd.pack to /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects/pack/tmp_pack_uSBh5d
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects/pack/tmp_pack_uSBh5d
+  create hard link from /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects/pack/pack-0244fad7954ac391668afd95ac141a7d2fb3f6cd.idx to /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects/pack/tmp_idx_BBtEEu
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects/pack/tmp_idx_BBtEEu
+  rename /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/shallow.lock to shallow
+  rename /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/packed-refs.lock
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/refs/tags/v0.2.5.lock
+  create directory /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/logs
+  rename /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/HEAD.lock to HEAD
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects/pack/pack-0244fad7954ac391668afd95ac141a7d2fb3f6cd.keep
+  create directory /tmp/nimble_7194/githubcom_jpoirierXPLMNim/examples
+  create directory /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src
+  rename /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/index.lock to index
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -314,49 +314,7 @@ rmdir('/tmp/nimble_3131')
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/xplm-0.2.4
-  change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMMenus.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/xplm-0.2.4
-  change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/XPUIGraphics.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/xplm-0.2.4
-  change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/XPWidgetUtils.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/xplm-0.2.4
-  change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMPlanes.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/xplm-0.2.4
   change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMDefs.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/xplm-0.2.4
-  change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/XPWidgets.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/xplm-0.2.4
-  change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMPlugin.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/xplm-0.2.4
-  change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/xplm.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -368,25 +326,7 @@ rmdir('/tmp/nimble_3131')
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/xplm-0.2.4
-  change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMDisplay.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/xplm-0.2.4
-  change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMNavigation.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/xplm-0.2.4
-  change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/XPWidgetDefs.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/xplm-0.2.4
-  change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMCamera.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/XPWidgets.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -398,7 +338,13 @@ rmdir('/tmp/nimble_3131')
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/xplm-0.2.4
-  change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMDataAccess.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMNavigation.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/xplm-0.2.4
+  change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/xplm.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -410,66 +356,120 @@ rmdir('/tmp/nimble_3131')
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/xplm-0.2.4
+  change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMPlugin.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/xplm-0.2.4
+  change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMCamera.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/xplm-0.2.4
+  change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMPlanes.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/xplm-0.2.4
+  change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMDataAccess.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/xplm-0.2.4
   change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMGraphics.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/xplm-0.2.4
+  change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/XPWidgetUtils.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/xplm-0.2.4
+  change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/XPUIGraphics.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/xplm-0.2.4
+  change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMDisplay.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/xplm-0.2.4
+  change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/XPLMMenus.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/xplm-0.2.4
+  change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/XPWidgetDefs.nim to rw-r--r--
   change permissions of /home/runner/.nimble/pkgs/xplm-0.2.4/xplm.nimble to rw-r--r--
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/examples/XPLM_Test.nim.cfg
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/examples/XPLM_Test.nim
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/examples
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/refs/heads
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/refs/tags
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/refs
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/config
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/logs/HEAD
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/logs
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/packed-refs
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/HEAD
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/description
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks/update.sample
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks/pre-push.sample
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks/post-update.sample
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/hooks
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects/pack/pack-0244fad7954ac391668afd95ac141a7d2fb3f6cd.idx
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects/pack/pack-0244fad7954ac391668afd95ac141a7d2fb3f6cd.pack
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects/pack
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects/info
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/objects
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/branches
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/index
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/info/exclude
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/info
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git/shallow
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.git
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/readme.md
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/.gitignore
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/xplm.nimble
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/license.txt
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMUtilities.nim
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMMenus.nim
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPUIGraphics.nim
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPWidgetUtils.nim
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMPlanes.nim
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMDefs.nim
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPWidgets.nim
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMPlugin.nim
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/xplm.nim
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMScenery.nim
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMDisplay.nim
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMNavigation.nim
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPWidgetDefs.nim
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMCamera.nim
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPStandardWidgets.nim
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMDataAccess.nim
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMProcessing.nim
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src/XPLMGraphics.nim
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim/src
-  delete /tmp/nimble_3131/githubcom_jpoirierXPLMNim
-  delete /tmp/nimble_3131
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/examples/XPLM_Test.nim
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/examples/XPLM_Test.nim.cfg
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/examples
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/xplm.nimble
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMUtilities.nim
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMDefs.nim
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMScenery.nim
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPWidgets.nim
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPStandardWidgets.nim
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMNavigation.nim
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/xplm.nim
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMProcessing.nim
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMPlugin.nim
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMCamera.nim
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMPlanes.nim
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMDataAccess.nim
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMGraphics.nim
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPWidgetUtils.nim
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPUIGraphics.nim
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMDisplay.nim
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPLMMenus.nim
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src/XPWidgetDefs.nim
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/src
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.gitignore
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/HEAD
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/config
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/logs/HEAD
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/logs
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/branches
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/packed-refs
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/refs/heads
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/refs/tags
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/refs
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks/pre-push.sample
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks/update.sample
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks/post-update.sample
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/hooks
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/index
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/info/exclude
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/info
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/shallow
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/description
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects/pack/pack-0244fad7954ac391668afd95ac141a7d2fb3f6cd.pack
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects/pack/pack-0244fad7954ac391668afd95ac141a7d2fb3f6cd.idx
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects/pack
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects/info
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git/objects
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/.git
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/license.txt
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim/readme.md
+  delete /tmp/nimble_7194/githubcom_jpoirierXPLMNim
+  delete /tmp/nimble_7194
