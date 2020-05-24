@@ -38,7 +38,7 @@ jobs:
         nim c --panics:on nimble_security_checker.nim
 
     - name: Run
-      timeout-minutes: 240  # 360
+      timeout-minutes: 360  # 360 max
       run: |
         export PATH=$HOME/.nimble/bin:$PATH
         ./nimble_security_checker
