@@ -1,4 +1,24 @@
 choosenim-init: Downloading choosenim-0.6.0_linux_amd64
-choosenim-init: Error: Unable to run interactively. Run with -y to accept defaults.
+[36m[1m      Info: [0m[36m[0mVersion 1.2.0 already selected
+choosenim-init: ChooseNim installed in /home/runner/.nimble/bin
+choosenim-init: You must now ensure that the Nimble bin dir is in your PATH.
+choosenim-init: Place the following line in the ~/.profile or ~/.bashrc file.
+choosenim-init:     export PATH=/home/runner/.nimble/bin:$PATH
 fchmodat(-100, '/tmp/choosenim-0.6.0_linux_amd64', 0x00000000000001ed)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.choosenim', 0x00000000000001ff)
+rmdir('/tmp/nimble_3095')
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.choosenim', 0x00000000000001ff)
+mkdir('/home/runner/.choosenim/channels', 0x00000000000001ff)
   change permissions of /tmp/choosenim-0.6.0_linux_amd64 to rwxr-xr-x
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.choosenim
+  delete /tmp/nimble_3095
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.choosenim
+  create directory /home/runner/.choosenim/channels
