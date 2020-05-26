@@ -11,7 +11,7 @@ var errors = "exitCode, name\n"
 
 
 if serie >= 'z':  # if no packages to check, check Choosenim and init.sh
-  if gorgeEx("curl -LOks https://nim-lang.org/choosenim/init.sh").exitCode == 0:
+  if gorgeEx("curl -LOks https://nim-lang.org/choosenim/init.sh ; chmod +x init.sh").exitCode == 0:
     let audit = execCmdEx(nimInstallCmd)
     if audit.exitCode == 0: writeFile("nim_install.log", audit.output)
 else:
