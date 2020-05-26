@@ -1,7 +1,7 @@
 import os, strutils, json, osproc, times
 
 const
-  nimInstallCmd = "python3 tracexec.py /bin/bash init.sh"
+  nimInstallCmd = "python3 tracexec.py /bin/bash init.sh -y"
   checkCmd = "python3 tracexec.py nimble --noColor --verbose --accept install "
   packages = "https://raw.githubusercontent.com/nim-lang/packages/master/packages.json"
   jsn = staticExec("curl -s " & packages)
