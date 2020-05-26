@@ -2,92 +2,85 @@
 Downloading https://github.com/nim-lang/zip using git
   Verifying dependencies for zip@0.2.1
  Installing zip@0.2.1
-    Copying file /tmp/nimble_3483/githubcom_nimlangzip/zip/libzip.nim to /home/runner/.nimble/pkgs/zip-0.2.1/zip/libzip.nim
-    Copying file /tmp/nimble_3483/githubcom_nimlangzip/zip/gzipfiles.nim to /home/runner/.nimble/pkgs/zip-0.2.1/zip/gzipfiles.nim
-    Copying file /tmp/nimble_3483/githubcom_nimlangzip/zip/zzip.nim to /home/runner/.nimble/pkgs/zip-0.2.1/zip/zzip.nim
-    Copying file /tmp/nimble_3483/githubcom_nimlangzip/zip/zipfiles.nim to /home/runner/.nimble/pkgs/zip-0.2.1/zip/zipfiles.nim
-    Copying file /tmp/nimble_3483/githubcom_nimlangzip/zip/private/libzip_all.c to /home/runner/.nimble/pkgs/zip-0.2.1/zip/private/libzip_all.c
+    Copying file /tmp/nimble_3061/githubcom_nimlangzip/zip/gzipfiles.nim to /home/runner/.nimble/pkgs/zip-0.2.1/zip/gzipfiles.nim
+    Copying file /tmp/nimble_3061/githubcom_nimlangzip/zip/private/libzip_all.c to /home/runner/.nimble/pkgs/zip-0.2.1/zip/private/libzip_all.c
+    Copying file /tmp/nimble_3061/githubcom_nimlangzip/zip/libzip.nim to /home/runner/.nimble/pkgs/zip-0.2.1/zip/libzip.nim
+    Copying file /tmp/nimble_3061/githubcom_nimlangzip/zip/zlib.nim to /home/runner/.nimble/pkgs/zip-0.2.1/zip/zlib.nim
+    Copying file /tmp/nimble_3061/githubcom_nimlangzip/zip/zzip.nim to /home/runner/.nimble/pkgs/zip-0.2.1/zip/zzip.nim
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_3483', 0x00000000000001ff)
-mkdir('/tmp/nimble_3483/githubcom_nimlangzip', 0x00000000000001ff)
-rmdir('/tmp/nimble_3483/githubcom_nimlangzip')
-mkdir('/tmp/nimble_3483/githubcom_nimlangzip', 0x00000000000001ff)
-mkdir('/tmp/nimble_3483/githubcom_nimlangzip/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_3483/githubcom_nimlangzip/.git/HEAD.lock', '/tmp/nimble_3483/githubcom_nimlangzip/.git/HEAD')
-rename('/tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock', '/tmp/nimble_3483/githubcom_nimlangzip/.git/config')
-chmod('/tmp/nimble_3483/githubcom_nimlangzip/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_3483/githubcom_nimlangzip/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock', '/tmp/nimble_3483/githubcom_nimlangzip/.git/config')
-chmod('/tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock', '/tmp/nimble_3483/githubcom_nimlangzip/.git/config')
-chmod('/tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock', '/tmp/nimble_3483/githubcom_nimlangzip/.git/config')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/tAuULaA')
-symlink('testing', '/tmp/nimble_3483/githubcom_nimlangzip/.git/tAuULaA')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/tAuULaA')
-mkdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock', '/tmp/nimble_3483/githubcom_nimlangzip/.git/config')
-chmod('/tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock', '/tmp/nimble_3483/githubcom_nimlangzip/.git/config')
-chmod('/tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock', '/tmp/nimble_3483/githubcom_nimlangzip/.git/config')
-link('/tmp/nimble_3483/githubcom_nimlangzip/.git/objects/pack/tmp_pack_khPrN4', '/tmp/nimble_3483/githubcom_nimlangzip/.git/objects/pack/pack-3a67506eb316fc4db9bdb6a7837cddd05119011f.pack')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/objects/pack/tmp_pack_khPrN4')
-link('/tmp/nimble_3483/githubcom_nimlangzip/.git/objects/pack/tmp_idx_hrHAXf', '/tmp/nimble_3483/githubcom_nimlangzip/.git/objects/pack/pack-3a67506eb316fc4db9bdb6a7837cddd05119011f.idx')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/objects/pack/tmp_idx_hrHAXf')
-rename('/tmp/nimble_3483/githubcom_nimlangzip/.git/shallow.lock', '/tmp/nimble_3483/githubcom_nimlangzip/.git/shallow')
-rename('/tmp/nimble_3483/githubcom_nimlangzip/.git/packed-refs.new', '/tmp/nimble_3483/githubcom_nimlangzip/.git/packed-refs')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/packed-refs.lock')
-mkdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/refs/remotes/origin', 0x00000000000001ff)
-mkdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/logs', 0x00000000000001ff)
-mkdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/logs/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/logs/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/logs/refs/remotes/origin', 0x00000000000001ff)
-rename('/tmp/nimble_3483/githubcom_nimlangzip/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_3483/githubcom_nimlangzip/.git/refs/remotes/origin/HEAD')
-rename('/tmp/nimble_3483/githubcom_nimlangzip/.git/HEAD.lock', '/tmp/nimble_3483/githubcom_nimlangzip/.git/HEAD')
-mkdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/logs/refs/heads', 0x00000000000001ff)
-rename('/tmp/nimble_3483/githubcom_nimlangzip/.git/refs/heads/master.lock', '/tmp/nimble_3483/githubcom_nimlangzip/.git/refs/heads/master')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/HEAD.lock')
-chmod('/tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock', '/tmp/nimble_3483/githubcom_nimlangzip/.git/config')
-chmod('/tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock', '/tmp/nimble_3483/githubcom_nimlangzip/.git/config')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/objects/pack/pack-3a67506eb316fc4db9bdb6a7837cddd05119011f.keep')
+mkdir('/tmp/nimble_3061', 0x00000000000001ff)
+mkdir('/tmp/nimble_3061/githubcom_nimlangzip', 0x00000000000001ff)
+rmdir('/tmp/nimble_3061/githubcom_nimlangzip')
+mkdir('/tmp/nimble_3061/githubcom_nimlangzip', 0x00000000000001ff)
+mkdir('/tmp/nimble_3061/githubcom_nimlangzip/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_3061/githubcom_nimlangzip/.git/HEAD.lock', '/tmp/nimble_3061/githubcom_nimlangzip/.git/HEAD')
+rename('/tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock', '/tmp/nimble_3061/githubcom_nimlangzip/.git/config')
+chmod('/tmp/nimble_3061/githubcom_nimlangzip/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_3061/githubcom_nimlangzip/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock', '/tmp/nimble_3061/githubcom_nimlangzip/.git/config')
+chmod('/tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock', '/tmp/nimble_3061/githubcom_nimlangzip/.git/config')
+chmod('/tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock', '/tmp/nimble_3061/githubcom_nimlangzip/.git/config')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/tcvSRg6')
+symlink('testing', '/tmp/nimble_3061/githubcom_nimlangzip/.git/tcvSRg6')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/tcvSRg6')
+mkdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock', '/tmp/nimble_3061/githubcom_nimlangzip/.git/config')
+chmod('/tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock', '/tmp/nimble_3061/githubcom_nimlangzip/.git/config')
+chmod('/tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock', '/tmp/nimble_3061/githubcom_nimlangzip/.git/config')
+link('/tmp/nimble_3061/githubcom_nimlangzip/.git/objects/pack/tmp_pack_DQxWvI', '/tmp/nimble_3061/githubcom_nimlangzip/.git/objects/pack/pack-cba4246ba66043fad4470166222f4def685d42df.pack')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/objects/pack/tmp_pack_DQxWvI')
+link('/tmp/nimble_3061/githubcom_nimlangzip/.git/objects/pack/tmp_idx_3vGXP1', '/tmp/nimble_3061/githubcom_nimlangzip/.git/objects/pack/pack-cba4246ba66043fad4470166222f4def685d42df.idx')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/objects/pack/tmp_idx_3vGXP1')
+rename('/tmp/nimble_3061/githubcom_nimlangzip/.git/shallow.lock', '/tmp/nimble_3061/githubcom_nimlangzip/.git/shallow')
+rename('/tmp/nimble_3061/githubcom_nimlangzip/.git/packed-refs.new', '/tmp/nimble_3061/githubcom_nimlangzip/.git/packed-refs')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/packed-refs.lock')
+mkdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_3061/githubcom_nimlangzip/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_3061/githubcom_nimlangzip/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_3061/githubcom_nimlangzip/.git/HEAD.lock', '/tmp/nimble_3061/githubcom_nimlangzip/.git/HEAD')
+mkdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_3061/githubcom_nimlangzip/.git/refs/heads/master.lock', '/tmp/nimble_3061/githubcom_nimlangzip/.git/refs/heads/master')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/HEAD.lock')
+chmod('/tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock', '/tmp/nimble_3061/githubcom_nimlangzip/.git/config')
+chmod('/tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock', '/tmp/nimble_3061/githubcom_nimlangzip/.git/config')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/objects/pack/pack-cba4246ba66043fad4470166222f4def685d42df.keep')
 mkdir('tests', 0x00000000000001ff)
 mkdir('tests/files', 0x00000000000001ff)
 mkdir('zip', 0x00000000000001ff)
 mkdir('zip/private', 0x00000000000001ff)
-rename('/tmp/nimble_3483/githubcom_nimlangzip/.git/index.lock', '/tmp/nimble_3483/githubcom_nimlangzip/.git/index')
+rename('/tmp/nimble_3061/githubcom_nimlangzip/.git/index.lock', '/tmp/nimble_3061/githubcom_nimlangzip/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/zip_3072469994', 0x00000000000001ff)
-unlink('/tmp/nimblecache/zip_3072469994/zip.ini')
-unlink('/tmp/nimble_3483.out')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/zip_3483.nims')
+mkdir('/tmp/nimblecache/zip_1493333843', 0x00000000000001ff)
+unlink('/tmp/nimblecache/zip_1493333843/zip.ini')
+unlink('/tmp/nimble_3061.out')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/zip_3061.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/zip-0.2.1', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/zip-0.2.1', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/zip-0.2.1/zip', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/zip-0.2.1/zip/libzip.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -101,23 +94,30 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/zip-0.2.1', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/zip-0.2.1/zip', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/zip-0.2.1/zip/zzip.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/zip-0.2.1', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/zip-0.2.1/zip', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/zip-0.2.1/zip/zipfiles.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/zip-0.2.1', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/zip-0.2.1/zip', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/zip-0.2.1/zip/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/zip-0.2.1/zip/private/libzip_all.c', 0x00000000000001a4)    Copying file /tmp/nimble_3483/githubcom_nimlangzip/zip/zlib.nim to /home/runner/.nimble/pkgs/zip-0.2.1/zip/zlib.nim
-    Copying file /tmp/nimble_3483/githubcom_nimlangzip/zip.nimble to /home/runner/.nimble/pkgs/zip-0.2.1/zip.nimble
+chmod('/home/runner/.nimble/pkgs/zip-0.2.1/zip/private/libzip_all.c', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/zip-0.2.1', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/zip-0.2.1/zip', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/zip-0.2.1/zip/libzip.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/zip-0.2.1', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/zip-0.2.1/zip', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/zip-0.2.1/zip/zlib.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/zip-0.2.1', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/zip-0.2.1/zip', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/zip-0.2.1/zip/zzip.nim', 0x00000000000001a4)    Copying file /tmp/nimble_3061/githubcom_nimlangzip/zip/zipfiles.nim to /home/runner/.nimble/pkgs/zip-0.2.1/zip/zipfiles.nim
+    Copying file /tmp/nimble_3061/githubcom_nimlangzip/zip.nimble to /home/runner/.nimble/pkgs/zip-0.2.1/zip.nimble
    Success: zip installed successfully.
 
 mkdir('/home', 0x00000000000001ff)
@@ -126,162 +126,155 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/zip-0.2.1', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/zip-0.2.1/zip', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/zip-0.2.1/zip/zlib.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/zip-0.2.1/zip/zipfiles.nim', 0x00000000000001a4)
 chmod('/home/runner/.nimble/pkgs/zip-0.2.1/zip.nimble', 0x00000000000001a4)
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/zip_2908121960', 0x00000000000001ff)
 unlink('/tmp/nimblecache/zip_2908121960/zip.ini')
-unlink('/tmp/nimble_3483.out')
-unlink('/home/runner/.nimble/pkgs/zip-0.2.1/zip_3483.nims')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/tests/gziptests.nim')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/tests/zlibtests.nim')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/tests/.gitignore')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/tests/files/gzipfiletest.txt.gz')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/tests/files/.gitignore')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/tests/files/gzipfiletest.txt')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/tests/files/тест.xlsx')
-rmdir('/tmp/nimble_3483/githubcom_nimlangzip/tests/files')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/tests/ziptests.nim')
-rmdir('/tmp/nimble_3483/githubcom_nimlangzip/tests')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/README.md')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/refs/remotes/origin')
-rmdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/refs/remotes')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/refs/heads/master')
-rmdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/refs/heads')
-rmdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/refs/tags')
-rmdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/refs')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/config')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/logs/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/logs/refs/remotes/origin')
-rmdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/logs/refs/remotes')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/logs/refs/heads/master')
-rmdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/logs/refs/heads')
-rmdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/logs/refs')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/logs/HEAD')
-rmdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/logs')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/packed-refs')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/HEAD')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/description')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/hooks/update.sample')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/hooks/post-update.sample')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/hooks/pre-merge-commit.sample')
-rmdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/hooks')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/objects/pack/pack-3a67506eb316fc4db9bdb6a7837cddd05119011f.idx')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/objects/pack/pack-3a67506eb316fc4db9bdb6a7837cddd05119011f.pack')
-rmdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/objects/pack')
-rmdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/objects/info')
-rmdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/objects')
-rmdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/branches')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/index')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/info/exclude')
-rmdir('/tmp/nimble_3483/githubcom_nimlangzip/.git/info')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.git/shallow')
-rmdir('/tmp/nimble_3483/githubcom_nimlangzip/.git')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/.gitignore')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/zip/libzip.nim')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/zip/gzipfiles.nim')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/zip/zzip.nim')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/zip/zipfiles.nim')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/zip/private/libzip_all.c')
-rmdir('/tmp/nimble_3483/githubcom_nimlangzip/zip/private')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/zip/zlib.nim')
-rmdir('/tmp/nimble_3483/githubcom_nimlangzip/zip')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/zip.nimble')
-unlink('/tmp/nimble_3483/githubcom_nimlangzip/LICENSE')
-rmdir('/tmp/nimble_3483/githubcom_nimlangzip')
-rmdir('/tmp/nimble_3483')
+unlink('/tmp/nimble_3061.out')
+unlink('/home/runner/.nimble/pkgs/zip-0.2.1/zip_3061.nims')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/zip.nimble')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.gitignore')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/zip/gzipfiles.nim')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/zip/private/libzip_all.c')
+rmdir('/tmp/nimble_3061/githubcom_nimlangzip/zip/private')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/zip/libzip.nim')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/zip/zlib.nim')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/zip/zzip.nim')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/zip/zipfiles.nim')
+rmdir('/tmp/nimble_3061/githubcom_nimlangzip/zip')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/LICENSE')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/HEAD')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/config')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/logs/HEAD')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/logs/refs/heads')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/logs/refs/remotes')
+rmdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/logs/refs')
+rmdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/logs')
+rmdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/branches')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/packed-refs')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/refs/heads/master')
+rmdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/refs/heads')
+rmdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/refs/tags')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/refs/remotes')
+rmdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/refs')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/hooks/update.sample')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/hooks')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/index')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/info/exclude')
+rmdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/info')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/shallow')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/description')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/objects/pack/pack-cba4246ba66043fad4470166222f4def685d42df.idx')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/.git/objects/pack/pack-cba4246ba66043fad4470166222f4def685d42df.pack')
+rmdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/objects/pack')
+rmdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/objects/info')
+rmdir('/tmp/nimble_3061/githubcom_nimlangzip/.git/objects')
+rmdir('/tmp/nimble_3061/githubcom_nimlangzip/.git')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/README.md')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/tests/.gitignore')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/tests/zlibtests.nim')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/tests/gziptests.nim')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/tests/ziptests.nim')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/tests/files/.gitignore')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/tests/files/gzipfiletest.txt')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/tests/files/тест.xlsx')
+unlink('/tmp/nimble_3061/githubcom_nimlangzip/tests/files/gzipfiletest.txt.gz')
+rmdir('/tmp/nimble_3061/githubcom_nimlangzip/tests/files')
+rmdir('/tmp/nimble_3061/githubcom_nimlangzip/tests')
+rmdir('/tmp/nimble_3061/githubcom_nimlangzip')
+rmdir('/tmp/nimble_3061')
   create directory /tmp
-  create directory /tmp/nimble_3483
-  create directory /tmp/nimble_3483/githubcom_nimlangzip
-  delete /tmp/nimble_3483/githubcom_nimlangzip
-  create directory /tmp/nimble_3483/githubcom_nimlangzip
-  create directory /tmp/nimble_3483/githubcom_nimlangzip/.git
-  create directory /tmp/nimble_3483/githubcom_nimlangzip/.git
-  create directory /tmp/nimble_3483/githubcom_nimlangzip/.git/hooks
-  create directory /tmp/nimble_3483/githubcom_nimlangzip/.git/branches
-  create directory /tmp/nimble_3483/githubcom_nimlangzip/.git/info
-  create directory /tmp/nimble_3483/githubcom_nimlangzip/.git/refs
-  create directory /tmp/nimble_3483/githubcom_nimlangzip/.git/refs/heads
-  create directory /tmp/nimble_3483/githubcom_nimlangzip/.git/refs/tags
-  rename /tmp/nimble_3483/githubcom_nimlangzip/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock to config
-  change permissions of /tmp/nimble_3483/githubcom_nimlangzip/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_3483/githubcom_nimlangzip/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock to config
-  change permissions of /tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock to config
-  change permissions of /tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock to config
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/tAuULaA
-  create symbolic link from /tmp/nimble_3483/githubcom_nimlangzip/.git/tAuULaA to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/tAuULaA
-  create directory /tmp/nimble_3483/githubcom_nimlangzip/.git/objects
-  create directory /tmp/nimble_3483/githubcom_nimlangzip/.git/objects/pack
-  create directory /tmp/nimble_3483/githubcom_nimlangzip/.git/objects/info
-  change permissions of /tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock to config
-  change permissions of /tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock to config
-  change permissions of /tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock to config
-  create hard link from /tmp/nimble_3483/githubcom_nimlangzip/.git/objects/pack/pack-3a67506eb316fc4db9bdb6a7837cddd05119011f.pack to /tmp/nimble_3483/githubcom_nimlangzip/.git/objects/pack/tmp_pack_khPrN4
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/objects/pack/tmp_pack_khPrN4
-  create hard link from /tmp/nimble_3483/githubcom_nimlangzip/.git/objects/pack/pack-3a67506eb316fc4db9bdb6a7837cddd05119011f.idx to /tmp/nimble_3483/githubcom_nimlangzip/.git/objects/pack/tmp_idx_hrHAXf
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/objects/pack/tmp_idx_hrHAXf
-  rename /tmp/nimble_3483/githubcom_nimlangzip/.git/shallow.lock to shallow
-  rename /tmp/nimble_3483/githubcom_nimlangzip/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/packed-refs.lock
-  create directory /tmp/nimble_3483/githubcom_nimlangzip/.git/refs/remotes
-  create directory /tmp/nimble_3483/githubcom_nimlangzip/.git/refs/remotes/origin
-  create directory /tmp/nimble_3483/githubcom_nimlangzip/.git/logs
-  create directory /tmp/nimble_3483/githubcom_nimlangzip/.git/logs/refs
-  create directory /tmp/nimble_3483/githubcom_nimlangzip/.git/logs/refs/remotes
-  create directory /tmp/nimble_3483/githubcom_nimlangzip/.git/logs/refs/remotes/origin
-  rename /tmp/nimble_3483/githubcom_nimlangzip/.git/refs/remotes/origin/HEAD.lock to HEAD
-  rename /tmp/nimble_3483/githubcom_nimlangzip/.git/HEAD.lock to HEAD
-  create directory /tmp/nimble_3483/githubcom_nimlangzip/.git/logs/refs/heads
-  rename /tmp/nimble_3483/githubcom_nimlangzip/.git/refs/heads/master.lock to master
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/HEAD.lock
-  change permissions of /tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock to config
-  change permissions of /tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3483/githubcom_nimlangzip/.git/config.lock to config
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/objects/pack/pack-3a67506eb316fc4db9bdb6a7837cddd05119011f.keep
-  create directory /tmp/nimble_3483/githubcom_nimlangzip/tests
-  create directory /tmp/nimble_3483/githubcom_nimlangzip/tests/files
-  create directory /tmp/nimble_3483/githubcom_nimlangzip/zip
-  create directory /tmp/nimble_3483/githubcom_nimlangzip/zip/private
-  rename /tmp/nimble_3483/githubcom_nimlangzip/.git/index.lock to index
+  create directory /tmp/nimble_3061
+  create directory /tmp/nimble_3061/githubcom_nimlangzip
+  delete /tmp/nimble_3061/githubcom_nimlangzip
+  create directory /tmp/nimble_3061/githubcom_nimlangzip
+  create directory /tmp/nimble_3061/githubcom_nimlangzip/.git
+  create directory /tmp/nimble_3061/githubcom_nimlangzip/.git
+  create directory /tmp/nimble_3061/githubcom_nimlangzip/.git/branches
+  create directory /tmp/nimble_3061/githubcom_nimlangzip/.git/hooks
+  create directory /tmp/nimble_3061/githubcom_nimlangzip/.git/info
+  create directory /tmp/nimble_3061/githubcom_nimlangzip/.git/refs
+  create directory /tmp/nimble_3061/githubcom_nimlangzip/.git/refs/heads
+  create directory /tmp/nimble_3061/githubcom_nimlangzip/.git/refs/tags
+  rename /tmp/nimble_3061/githubcom_nimlangzip/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock to config
+  change permissions of /tmp/nimble_3061/githubcom_nimlangzip/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_3061/githubcom_nimlangzip/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock to config
+  change permissions of /tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock to config
+  change permissions of /tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock to config
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/tcvSRg6
+  create symbolic link from /tmp/nimble_3061/githubcom_nimlangzip/.git/tcvSRg6 to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/tcvSRg6
+  create directory /tmp/nimble_3061/githubcom_nimlangzip/.git/objects
+  create directory /tmp/nimble_3061/githubcom_nimlangzip/.git/objects/pack
+  create directory /tmp/nimble_3061/githubcom_nimlangzip/.git/objects/info
+  change permissions of /tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock to config
+  change permissions of /tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock to config
+  change permissions of /tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock to config
+  create hard link from /tmp/nimble_3061/githubcom_nimlangzip/.git/objects/pack/pack-cba4246ba66043fad4470166222f4def685d42df.pack to /tmp/nimble_3061/githubcom_nimlangzip/.git/objects/pack/tmp_pack_DQxWvI
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/objects/pack/tmp_pack_DQxWvI
+  create hard link from /tmp/nimble_3061/githubcom_nimlangzip/.git/objects/pack/pack-cba4246ba66043fad4470166222f4def685d42df.idx to /tmp/nimble_3061/githubcom_nimlangzip/.git/objects/pack/tmp_idx_3vGXP1
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/objects/pack/tmp_idx_3vGXP1
+  rename /tmp/nimble_3061/githubcom_nimlangzip/.git/shallow.lock to shallow
+  rename /tmp/nimble_3061/githubcom_nimlangzip/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/packed-refs.lock
+  create directory /tmp/nimble_3061/githubcom_nimlangzip/.git/refs/remotes
+  create directory /tmp/nimble_3061/githubcom_nimlangzip/.git/refs/remotes/origin
+  create directory /tmp/nimble_3061/githubcom_nimlangzip/.git/logs
+  create directory /tmp/nimble_3061/githubcom_nimlangzip/.git/logs/refs
+  create directory /tmp/nimble_3061/githubcom_nimlangzip/.git/logs/refs/remotes
+  create directory /tmp/nimble_3061/githubcom_nimlangzip/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_3061/githubcom_nimlangzip/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_3061/githubcom_nimlangzip/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_3061/githubcom_nimlangzip/.git/logs/refs/heads
+  rename /tmp/nimble_3061/githubcom_nimlangzip/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/HEAD.lock
+  change permissions of /tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock to config
+  change permissions of /tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3061/githubcom_nimlangzip/.git/config.lock to config
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/objects/pack/pack-cba4246ba66043fad4470166222f4def685d42df.keep
+  create directory /tmp/nimble_3061/githubcom_nimlangzip/tests
+  create directory /tmp/nimble_3061/githubcom_nimlangzip/tests/files
+  create directory /tmp/nimble_3061/githubcom_nimlangzip/zip
+  create directory /tmp/nimble_3061/githubcom_nimlangzip/zip/private
+  rename /tmp/nimble_3061/githubcom_nimlangzip/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/zip_3072469994
-  delete /tmp/nimblecache/zip_3072469994/zip.ini
-  delete /tmp/nimble_3483.out
-  delete /tmp/nimble_3483/githubcom_nimlangzip/zip_3483.nims
+  create directory /tmp/nimblecache/zip_1493333843
+  delete /tmp/nimblecache/zip_1493333843/zip.ini
+  delete /tmp/nimble_3061.out
+  delete /tmp/nimble_3061/githubcom_nimlangzip/zip_3061.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/zip-0.2.1
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/zip-0.2.1
-  create directory /home/runner/.nimble/pkgs/zip-0.2.1/zip
-  change permissions of /home/runner/.nimble/pkgs/zip-0.2.1/zip/libzip.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -289,20 +282,6 @@ rmdir('/tmp/nimble_3483')
   create directory /home/runner/.nimble/pkgs/zip-0.2.1
   create directory /home/runner/.nimble/pkgs/zip-0.2.1/zip
   change permissions of /home/runner/.nimble/pkgs/zip-0.2.1/zip/gzipfiles.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/zip-0.2.1
-  create directory /home/runner/.nimble/pkgs/zip-0.2.1/zip
-  change permissions of /home/runner/.nimble/pkgs/zip-0.2.1/zip/zzip.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/zip-0.2.1
-  create directory /home/runner/.nimble/pkgs/zip-0.2.1/zip
-  change permissions of /home/runner/.nimble/pkgs/zip-0.2.1/zip/zipfiles.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -317,78 +296,99 @@ rmdir('/tmp/nimble_3483')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/zip-0.2.1
   create directory /home/runner/.nimble/pkgs/zip-0.2.1/zip
+  change permissions of /home/runner/.nimble/pkgs/zip-0.2.1/zip/libzip.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/zip-0.2.1
+  create directory /home/runner/.nimble/pkgs/zip-0.2.1/zip
   change permissions of /home/runner/.nimble/pkgs/zip-0.2.1/zip/zlib.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/zip-0.2.1
+  create directory /home/runner/.nimble/pkgs/zip-0.2.1/zip
+  change permissions of /home/runner/.nimble/pkgs/zip-0.2.1/zip/zzip.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/zip-0.2.1
+  create directory /home/runner/.nimble/pkgs/zip-0.2.1/zip
+  change permissions of /home/runner/.nimble/pkgs/zip-0.2.1/zip/zipfiles.nim to rw-r--r--
   change permissions of /home/runner/.nimble/pkgs/zip-0.2.1/zip.nimble to rw-r--r--
   create directory /tmp
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/zip_2908121960
   delete /tmp/nimblecache/zip_2908121960/zip.ini
-  delete /tmp/nimble_3483.out
-  delete /home/runner/.nimble/pkgs/zip-0.2.1/zip_3483.nims
-  delete /tmp/nimble_3483/githubcom_nimlangzip/tests/gziptests.nim
-  delete /tmp/nimble_3483/githubcom_nimlangzip/tests/zlibtests.nim
-  delete /tmp/nimble_3483/githubcom_nimlangzip/tests/.gitignore
-  delete /tmp/nimble_3483/githubcom_nimlangzip/tests/files/gzipfiletest.txt.gz
-  delete /tmp/nimble_3483/githubcom_nimlangzip/tests/files/.gitignore
-  delete /tmp/nimble_3483/githubcom_nimlangzip/tests/files/gzipfiletest.txt
-  delete /tmp/nimble_3483/githubcom_nimlangzip/tests/files/тест.xlsx
-  delete /tmp/nimble_3483/githubcom_nimlangzip/tests/files
-  delete /tmp/nimble_3483/githubcom_nimlangzip/tests/ziptests.nim
-  delete /tmp/nimble_3483/githubcom_nimlangzip/tests
-  delete /tmp/nimble_3483/githubcom_nimlangzip/README.md
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/refs/remotes/origin/HEAD
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/refs/remotes/origin
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/refs/remotes
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/refs/heads/master
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/refs/heads
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/refs/tags
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/refs
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/config
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/logs/refs/remotes/origin/HEAD
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/logs/refs/remotes/origin
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/logs/refs/remotes
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/logs/refs/heads/master
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/logs/refs/heads
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/logs/refs
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/logs/HEAD
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/logs
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/packed-refs
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/HEAD
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/description
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/hooks/update.sample
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/hooks/pre-push.sample
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/hooks/post-update.sample
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/hooks
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/objects/pack/pack-3a67506eb316fc4db9bdb6a7837cddd05119011f.idx
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/objects/pack/pack-3a67506eb316fc4db9bdb6a7837cddd05119011f.pack
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/objects/pack
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/objects/info
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/objects
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/branches
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/index
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/info/exclude
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/info
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git/shallow
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.git
-  delete /tmp/nimble_3483/githubcom_nimlangzip/.gitignore
-  delete /tmp/nimble_3483/githubcom_nimlangzip/zip/libzip.nim
-  delete /tmp/nimble_3483/githubcom_nimlangzip/zip/gzipfiles.nim
-  delete /tmp/nimble_3483/githubcom_nimlangzip/zip/zzip.nim
-  delete /tmp/nimble_3483/githubcom_nimlangzip/zip/zipfiles.nim
-  delete /tmp/nimble_3483/githubcom_nimlangzip/zip/private/libzip_all.c
-  delete /tmp/nimble_3483/githubcom_nimlangzip/zip/private
-  delete /tmp/nimble_3483/githubcom_nimlangzip/zip/zlib.nim
-  delete /tmp/nimble_3483/githubcom_nimlangzip/zip
-  delete /tmp/nimble_3483/githubcom_nimlangzip/zip.nimble
-  delete /tmp/nimble_3483/githubcom_nimlangzip/LICENSE
-  delete /tmp/nimble_3483/githubcom_nimlangzip
-  delete /tmp/nimble_3483
+  delete /tmp/nimble_3061.out
+  delete /home/runner/.nimble/pkgs/zip-0.2.1/zip_3061.nims
+  delete /tmp/nimble_3061/githubcom_nimlangzip/zip.nimble
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.gitignore
+  delete /tmp/nimble_3061/githubcom_nimlangzip/zip/gzipfiles.nim
+  delete /tmp/nimble_3061/githubcom_nimlangzip/zip/private/libzip_all.c
+  delete /tmp/nimble_3061/githubcom_nimlangzip/zip/private
+  delete /tmp/nimble_3061/githubcom_nimlangzip/zip/libzip.nim
+  delete /tmp/nimble_3061/githubcom_nimlangzip/zip/zlib.nim
+  delete /tmp/nimble_3061/githubcom_nimlangzip/zip/zzip.nim
+  delete /tmp/nimble_3061/githubcom_nimlangzip/zip/zipfiles.nim
+  delete /tmp/nimble_3061/githubcom_nimlangzip/zip
+  delete /tmp/nimble_3061/githubcom_nimlangzip/LICENSE
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/HEAD
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/config
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/logs/HEAD
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/logs/refs/heads/master
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/logs/refs/heads
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/logs/refs/remotes
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/logs/refs
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/logs
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/branches
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/packed-refs
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/refs/heads/master
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/refs/heads
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/refs/tags
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/refs/remotes/origin
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/refs/remotes
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/refs
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/hooks/pre-push.sample
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/hooks/update.sample
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/hooks/post-update.sample
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/hooks
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/index
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/info/exclude
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/info
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/shallow
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/description
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/objects/pack/pack-cba4246ba66043fad4470166222f4def685d42df.idx
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/objects/pack/pack-cba4246ba66043fad4470166222f4def685d42df.pack
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/objects/pack
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/objects/info
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git/objects
+  delete /tmp/nimble_3061/githubcom_nimlangzip/.git
+  delete /tmp/nimble_3061/githubcom_nimlangzip/README.md
+  delete /tmp/nimble_3061/githubcom_nimlangzip/tests/.gitignore
+  delete /tmp/nimble_3061/githubcom_nimlangzip/tests/zlibtests.nim
+  delete /tmp/nimble_3061/githubcom_nimlangzip/tests/gziptests.nim
+  delete /tmp/nimble_3061/githubcom_nimlangzip/tests/ziptests.nim
+  delete /tmp/nimble_3061/githubcom_nimlangzip/tests/files/.gitignore
+  delete /tmp/nimble_3061/githubcom_nimlangzip/tests/files/gzipfiletest.txt
+  delete /tmp/nimble_3061/githubcom_nimlangzip/tests/files/тест.xlsx
+  delete /tmp/nimble_3061/githubcom_nimlangzip/tests/files/gzipfiletest.txt.gz
+  delete /tmp/nimble_3061/githubcom_nimlangzip/tests/files
+  delete /tmp/nimble_3061/githubcom_nimlangzip/tests
+  delete /tmp/nimble_3061/githubcom_nimlangzip
+  delete /tmp/nimble_3061
