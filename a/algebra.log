@@ -1,0 +1,16 @@
+    Reading official package list
+Downloading https://github.com/ijneb/nim-algebra using git
+download.nim(93)         getTagsListRemote
+Error: unhandled exception: Unable to query remote tags for https://github.com/ijneb/nim-algebra. Git returned: remote: Repository not found.
+fatal: repository 'https://github.com/ijneb/nim-algebra/' not found
+ [OSError]
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_13421', 0x00000000000001ff)
+mkdir('/tmp/nimble_13421/githubcom_ijnebnimalgebra', 0x00000000000001ff)
+rmdir('/tmp/nimble_13421/githubcom_ijnebnimalgebra')
+rmdir('/tmp/nimble_13421')
+  create directory /tmp
+  create directory /tmp/nimble_13421
+  create directory /tmp/nimble_13421/githubcom_ijnebnimalgebra
+  delete /tmp/nimble_13421/githubcom_ijnebnimalgebra
+  delete /tmp/nimble_13421

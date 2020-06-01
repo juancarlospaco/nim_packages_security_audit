@@ -1,0 +1,600 @@
+    Reading official package list
+Downloading https://github.com/greencardamom/awk using git
+       Info /tmp/nimble_5978/githubcom_greencardamomawk/awk_5978.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /tmp/nimble_5978/githubcom_greencardamomawk/awk_5978.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+   Warning: Package 'awk' has an incorrect structure. The top level of the package source directory should contain at most one module, named 'awk.nim', but a file named 'awknre.nim' was found. This will be an error in the future.
+      Hint: If this is the primary source file in the package, rename it to 'awk.nim'. If it's a source file required by the main module, or if it is one of several modules exposed by 'awk', then move it into a 'awk/' subdirectory. If it's a test file or otherwise not required to build the the package 'awk.nim', prevent its installation by adding `skipFiles = @["awknre.nim"]` to the .nimble file. See https://github.com/nim-lang/nimble#libraries for more info.
+  Verifying dependencies for awk@1.0
+    Reading official package list
+   Checking for nre@>= 1.0.0
+ Installing nre@>= 1.0.0
+    Reading official package list
+Downloading https://github.com/flaviut/nre.git using git
+    Cloning latest tagged version: 2.0.2
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_greencardamomawk', 0x00000000000001ff)
+rmdir('/tmp/nimble_5978/githubcom_greencardamomawk')
+mkdir('/tmp/nimble_5978/githubcom_greencardamomawk', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_5978/githubcom_greencardamomawk/.git/HEAD.lock', '/tmp/nimble_5978/githubcom_greencardamomawk/.git/HEAD')
+rename('/tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock', '/tmp/nimble_5978/githubcom_greencardamomawk/.git/config')
+chmod('/tmp/nimble_5978/githubcom_greencardamomawk/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_5978/githubcom_greencardamomawk/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock', '/tmp/nimble_5978/githubcom_greencardamomawk/.git/config')
+chmod('/tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock', '/tmp/nimble_5978/githubcom_greencardamomawk/.git/config')
+chmod('/tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock', '/tmp/nimble_5978/githubcom_greencardamomawk/.git/config')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/tlAWLr9')
+symlink('testing', '/tmp/nimble_5978/githubcom_greencardamomawk/.git/tlAWLr9')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/tlAWLr9')
+mkdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock', '/tmp/nimble_5978/githubcom_greencardamomawk/.git/config')
+chmod('/tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock', '/tmp/nimble_5978/githubcom_greencardamomawk/.git/config')
+chmod('/tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock', '/tmp/nimble_5978/githubcom_greencardamomawk/.git/config')
+link('/tmp/nimble_5978/githubcom_greencardamomawk/.git/objects/pack/tmp_pack_bhcgwB', '/tmp/nimble_5978/githubcom_greencardamomawk/.git/objects/pack/pack-f5cfa01e2c6ee56faceb48b4f26e96fbadc5f09c.pack')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/objects/pack/tmp_pack_bhcgwB')
+link('/tmp/nimble_5978/githubcom_greencardamomawk/.git/objects/pack/tmp_idx_RaM1hO', '/tmp/nimble_5978/githubcom_greencardamomawk/.git/objects/pack/pack-f5cfa01e2c6ee56faceb48b4f26e96fbadc5f09c.idx')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/objects/pack/tmp_idx_RaM1hO')
+rename('/tmp/nimble_5978/githubcom_greencardamomawk/.git/shallow.lock', '/tmp/nimble_5978/githubcom_greencardamomawk/.git/shallow')
+rename('/tmp/nimble_5978/githubcom_greencardamomawk/.git/packed-refs.new', '/tmp/nimble_5978/githubcom_greencardamomawk/.git/packed-refs')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/packed-refs.lock')
+mkdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_5978/githubcom_greencardamomawk/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_5978/githubcom_greencardamomawk/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_5978/githubcom_greencardamomawk/.git/HEAD.lock', '/tmp/nimble_5978/githubcom_greencardamomawk/.git/HEAD')
+mkdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_5978/githubcom_greencardamomawk/.git/refs/heads/master.lock', '/tmp/nimble_5978/githubcom_greencardamomawk/.git/refs/heads/master')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/HEAD.lock')
+chmod('/tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock', '/tmp/nimble_5978/githubcom_greencardamomawk/.git/config')
+chmod('/tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock', '/tmp/nimble_5978/githubcom_greencardamomawk/.git/config')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/objects/pack/pack-f5cfa01e2c6ee56faceb48b4f26e96fbadc5f09c.keep')
+mkdir('src', 0x00000000000001ff)
+mkdir('test', 0x00000000000001ff)
+rename('/tmp/nimble_5978/githubcom_greencardamomawk/.git/index.lock', '/tmp/nimble_5978/githubcom_greencardamomawk/.git/index')
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/awk_1657242228', 0x00000000000001ff)
+unlink('/tmp/nimblecache/awk_1657242228/awk.ini')
+unlink('/tmp/nimble_5978.out')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/awk_5978.nims')
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0', 0x00000000000001ff)
+rmdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0')
+mkdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/HEAD.lock', '/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/HEAD')
+rename('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config.lock', '/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config')
+chmod('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config.lock', '/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config')
+chmod('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config.lock', '/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config')  Verifying dependencies for nre@2.0.2
+ Installing nre@2.0.2
+    Copying file /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/src/nre/private/util.nim to /home/runner/.nimble/pkgs/nre-2.0.2/nre/private/util.nim
+    Copying file /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/src/nre.nim to /home/runner/.nimble/pkgs/nre-2.0.2/nre.nim
+    Copying file /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/nre.nimble to /home/runner/.nimble/pkgs/nre-2.0.2/nre.nimble
+   Success: nre installed successfully.
+ Installing awk@1.0
+    Copying file /tmp/nimble_5978/githubcom_greencardamomawk/src/awk.nim to /home/runner/.nimble/pkgs/awk-1.0/awk.nim
+    Copying file /tmp/nimble_5978/githubcom_greencardamomawk/src/awknre.nim to /home/runner/.nimble/pkgs/awk-1.0/awknre.nim
+    Copying file /tmp/nimble_5978/githubcom_greencardamomawk/awk.nimble to /home/runner/.nimble/pkgs/awk-1.0/awk.nimble
+   Success: awk installed successfully.
+       Info /home/runner/.nimble/pkgs/awk-1.0/awk_5978.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /home/runner/.nimble/pkgs/awk-1.0/awk_5978.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+
+chmod('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config.lock', '/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/t8hb16V')
+symlink('testing', '/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/t8hb16V')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/t8hb16V')
+mkdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config.lock', '/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config')
+chmod('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config.lock', '/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config')
+chmod('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config.lock', '/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config')
+link('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects/pack/tmp_pack_HmNYZe', '/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects/pack/pack-b4d3e6f6cf4476da582ba7bcfe34637944ecd070.pack')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects/pack/tmp_pack_HmNYZe')
+link('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects/pack/tmp_idx_FnkD6B', '/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects/pack/pack-b4d3e6f6cf4476da582ba7bcfe34637944ecd070.idx')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects/pack/tmp_idx_FnkD6B')
+rename('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/shallow.lock', '/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/shallow')
+rename('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/packed-refs.new', '/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/packed-refs')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/packed-refs.lock')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/refs/tags/2.0.2.lock')
+mkdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/HEAD.lock', '/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/HEAD')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects/pack/pack-b4d3e6f6cf4476da582ba7bcfe34637944ecd070.keep')
+mkdir('src', 0x00000000000001ff)
+mkdir('src/nre', 0x00000000000001ff)
+mkdir('src/nre/private', 0x00000000000001ff)
+mkdir('test', 0x00000000000001ff)
+mkdir('web', 0x00000000000001ff)
+rename('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/index.lock', '/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/index')
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/nre-2.0.2', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/nre-2.0.2', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/nre-2.0.2/nre', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/nre-2.0.2/nre/private', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/nre-2.0.2/nre/private/util.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/nre-2.0.2', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/nre-2.0.2/nre.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/nre-2.0.2/nre.nimble', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/awk-1.0', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/awk-1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/awk-1.0/awk.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/awk-1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/awk-1.0/awknre.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/awk-1.0/awk.nimble', 0x00000000000001a4)
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/awk_2156713986', 0x00000000000001ff)
+unlink('/tmp/nimblecache/awk_2156713986/awk.ini')
+unlink('/tmp/nimble_5978.out')
+unlink('/home/runner/.nimble/pkgs/awk-1.0/awk_5978.nims')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/web/logo.png')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/web/logo.svg')
+rmdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/web')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/src/.gitignore')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/src/nre/private/util.nim')
+rmdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/src/nre/private')
+rmdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/src/nre')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/src/nre.nim')
+rmdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/src')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.gitignore')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/circle.yml')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/LICENCE')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/README.rst')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/HEAD')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/logs/HEAD')
+rmdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/logs')
+rmdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/branches')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/packed-refs')
+rmdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/refs/heads')
+rmdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/refs/tags')
+rmdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/refs')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks/update.sample')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/index')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/info/exclude')
+rmdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/info')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/shallow')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/description')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects/pack/pack-b4d3e6f6cf4476da582ba7bcfe34637944ecd070.pack')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects/pack/pack-b4d3e6f6cf4476da582ba7bcfe34637944ecd070.idx')
+rmdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects/pack')
+rmdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects/info')
+rmdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects')
+rmdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/runtests.sh')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/test/misc.nim')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/test/testall.nim')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/test/replace.nim')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/test/captures.nim')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/test/init.nim')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/test/find.nim')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/test/match.nim')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/test/escape.nim')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/test/optional_nonstrict.nim')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/test/split.nim')
+rmdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/test')
+unlink('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/nre.nimble')
+rmdir('/tmp/nimble_5978/githubcom_flaviutnregit_1.0.0')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/src/awk.nim')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/src/awknre.nim')
+rmdir('/tmp/nimble_5978/githubcom_greencardamomawk/src')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/LICENSE')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/HEAD')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/config')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/logs/HEAD')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/logs/refs/heads')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/logs/refs/remotes')
+rmdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/logs/refs')
+rmdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/logs')
+rmdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/branches')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/packed-refs')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/refs/heads/master')
+rmdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/refs/heads')
+rmdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/refs/tags')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/refs/remotes')
+rmdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/refs')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks/update.sample')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/index')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/info/exclude')
+rmdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/info')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/shallow')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/description')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/objects/pack/pack-f5cfa01e2c6ee56faceb48b4f26e96fbadc5f09c.idx')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/.git/objects/pack/pack-f5cfa01e2c6ee56faceb48b4f26e96fbadc5f09c.pack')
+rmdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/objects/pack')
+rmdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/objects/info')
+rmdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git/objects')
+rmdir('/tmp/nimble_5978/githubcom_greencardamomawk/.git')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/runtests.sh')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/test/testall.nim')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/test/patsplit.nim')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/test/gsub.nim')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/test/match.nim')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/test/greater.nim')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/test/awksubstr.nim')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/test/tilde.nim')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/test/sub.nim')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/test/awksplit.nim')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/test/index.nim')
+rmdir('/tmp/nimble_5978/githubcom_greencardamomawk/test')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/CHANGELOG')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/README.md')
+unlink('/tmp/nimble_5978/githubcom_greencardamomawk/awk.nimble')
+rmdir('/tmp/nimble_5978/githubcom_greencardamomawk')
+rmdir('/tmp/nimble_5978')
+  create directory /tmp
+  create directory /tmp/nimble_5978
+  create directory /tmp/nimble_5978/githubcom_greencardamomawk
+  delete /tmp/nimble_5978/githubcom_greencardamomawk
+  create directory /tmp/nimble_5978/githubcom_greencardamomawk
+  create directory /tmp/nimble_5978/githubcom_greencardamomawk/.git
+  create directory /tmp/nimble_5978/githubcom_greencardamomawk/.git
+  create directory /tmp/nimble_5978/githubcom_greencardamomawk/.git/branches
+  create directory /tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks
+  create directory /tmp/nimble_5978/githubcom_greencardamomawk/.git/info
+  create directory /tmp/nimble_5978/githubcom_greencardamomawk/.git/refs
+  create directory /tmp/nimble_5978/githubcom_greencardamomawk/.git/refs/heads
+  create directory /tmp/nimble_5978/githubcom_greencardamomawk/.git/refs/tags
+  rename /tmp/nimble_5978/githubcom_greencardamomawk/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock to config
+  change permissions of /tmp/nimble_5978/githubcom_greencardamomawk/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_5978/githubcom_greencardamomawk/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock to config
+  change permissions of /tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock to config
+  change permissions of /tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock to config
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/tlAWLr9
+  create symbolic link from /tmp/nimble_5978/githubcom_greencardamomawk/.git/tlAWLr9 to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/tlAWLr9
+  create directory /tmp/nimble_5978/githubcom_greencardamomawk/.git/objects
+  create directory /tmp/nimble_5978/githubcom_greencardamomawk/.git/objects/pack
+  create directory /tmp/nimble_5978/githubcom_greencardamomawk/.git/objects/info
+  change permissions of /tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock to config
+  change permissions of /tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock to config
+  change permissions of /tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock to config
+  create hard link from /tmp/nimble_5978/githubcom_greencardamomawk/.git/objects/pack/pack-f5cfa01e2c6ee56faceb48b4f26e96fbadc5f09c.pack to /tmp/nimble_5978/githubcom_greencardamomawk/.git/objects/pack/tmp_pack_bhcgwB
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/objects/pack/tmp_pack_bhcgwB
+  create hard link from /tmp/nimble_5978/githubcom_greencardamomawk/.git/objects/pack/pack-f5cfa01e2c6ee56faceb48b4f26e96fbadc5f09c.idx to /tmp/nimble_5978/githubcom_greencardamomawk/.git/objects/pack/tmp_idx_RaM1hO
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/objects/pack/tmp_idx_RaM1hO
+  rename /tmp/nimble_5978/githubcom_greencardamomawk/.git/shallow.lock to shallow
+  rename /tmp/nimble_5978/githubcom_greencardamomawk/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/packed-refs.lock
+  create directory /tmp/nimble_5978/githubcom_greencardamomawk/.git/refs/remotes
+  create directory /tmp/nimble_5978/githubcom_greencardamomawk/.git/refs/remotes/origin
+  create directory /tmp/nimble_5978/githubcom_greencardamomawk/.git/logs
+  create directory /tmp/nimble_5978/githubcom_greencardamomawk/.git/logs/refs
+  create directory /tmp/nimble_5978/githubcom_greencardamomawk/.git/logs/refs/remotes
+  create directory /tmp/nimble_5978/githubcom_greencardamomawk/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_5978/githubcom_greencardamomawk/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_5978/githubcom_greencardamomawk/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_5978/githubcom_greencardamomawk/.git/logs/refs/heads
+  rename /tmp/nimble_5978/githubcom_greencardamomawk/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/HEAD.lock
+  change permissions of /tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock to config
+  change permissions of /tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5978/githubcom_greencardamomawk/.git/config.lock to config
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/objects/pack/pack-f5cfa01e2c6ee56faceb48b4f26e96fbadc5f09c.keep
+  create directory /tmp/nimble_5978/githubcom_greencardamomawk/src
+  create directory /tmp/nimble_5978/githubcom_greencardamomawk/test
+  rename /tmp/nimble_5978/githubcom_greencardamomawk/.git/index.lock to index
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/awk_1657242228
+  delete /tmp/nimblecache/awk_1657242228/awk.ini
+  delete /tmp/nimble_5978.out
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/awk_5978.nims
+  create directory /tmp
+  create directory /tmp/nimble_5978
+  create directory /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0
+  create directory /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0
+  create directory /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git
+  create directory /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git
+  create directory /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/branches
+  create directory /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks
+  create directory /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/info
+  create directory /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/refs
+  create directory /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/refs/heads
+  create directory /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/refs/tags
+  rename /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config.lock to config
+  change permissions of /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config.lock to config
+  change permissions of /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config.lock to config
+  change permissions of /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config.lock to config
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/t8hb16V
+  create symbolic link from /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/t8hb16V to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/t8hb16V
+  create directory /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects
+  create directory /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects/pack
+  create directory /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects/info
+  change permissions of /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config.lock to config
+  change permissions of /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config.lock to config
+  change permissions of /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config.lock to config
+  create hard link from /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects/pack/pack-b4d3e6f6cf4476da582ba7bcfe34637944ecd070.pack to /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects/pack/tmp_pack_HmNYZe
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects/pack/tmp_pack_HmNYZe
+  create hard link from /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects/pack/pack-b4d3e6f6cf4476da582ba7bcfe34637944ecd070.idx to /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects/pack/tmp_idx_FnkD6B
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects/pack/tmp_idx_FnkD6B
+  rename /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/shallow.lock to shallow
+  rename /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/packed-refs.lock
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/refs/tags/2.0.2.lock
+  create directory /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/logs
+  rename /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/HEAD.lock to HEAD
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects/pack/pack-b4d3e6f6cf4476da582ba7bcfe34637944ecd070.keep
+  create directory /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/src
+  create directory /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/src/nre
+  create directory /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/src/nre/private
+  create directory /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/test
+  create directory /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/web
+  rename /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/index.lock to index
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/nre-2.0.2
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/nre-2.0.2
+  create directory /home/runner/.nimble/pkgs/nre-2.0.2/nre
+  create directory /home/runner/.nimble/pkgs/nre-2.0.2/nre/private
+  change permissions of /home/runner/.nimble/pkgs/nre-2.0.2/nre/private/util.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/nre-2.0.2
+  change permissions of /home/runner/.nimble/pkgs/nre-2.0.2/nre.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/nre-2.0.2/nre.nimble to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/awk-1.0
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/awk-1.0
+  change permissions of /home/runner/.nimble/pkgs/awk-1.0/awk.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/awk-1.0
+  change permissions of /home/runner/.nimble/pkgs/awk-1.0/awknre.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/awk-1.0/awk.nimble to rw-r--r--
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/awk_2156713986
+  delete /tmp/nimblecache/awk_2156713986/awk.ini
+  delete /tmp/nimble_5978.out
+  delete /home/runner/.nimble/pkgs/awk-1.0/awk_5978.nims
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/web/logo.png
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/web/logo.svg
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/web
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/src/.gitignore
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/src/nre/private/util.nim
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/src/nre/private
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/src/nre
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/src/nre.nim
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/src
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.gitignore
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/circle.yml
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/LICENCE
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/README.rst
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/HEAD
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/config
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/logs/HEAD
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/logs
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/branches
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/packed-refs
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/refs/heads
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/refs/tags
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/refs
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks/pre-push.sample
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks/update.sample
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks/post-update.sample
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/hooks
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/index
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/info/exclude
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/info
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/shallow
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/description
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects/pack/pack-b4d3e6f6cf4476da582ba7bcfe34637944ecd070.pack
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects/pack/pack-b4d3e6f6cf4476da582ba7bcfe34637944ecd070.idx
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects/pack
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects/info
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git/objects
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/.git
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/runtests.sh
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/test/misc.nim
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/test/testall.nim
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/test/replace.nim
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/test/captures.nim
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/test/init.nim
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/test/find.nim
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/test/match.nim
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/test/escape.nim
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/test/optional_nonstrict.nim
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/test/split.nim
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/test
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0/nre.nimble
+  delete /tmp/nimble_5978/githubcom_flaviutnregit_1.0.0
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/src/awk.nim
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/src/awknre.nim
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/src
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/LICENSE
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/HEAD
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/config
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/logs/HEAD
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/logs/refs/heads/master
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/logs/refs/heads
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/logs/refs/remotes
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/logs/refs
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/logs
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/branches
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/packed-refs
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/refs/heads/master
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/refs/heads
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/refs/tags
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/refs/remotes/origin
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/refs/remotes
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/refs
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks/pre-push.sample
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks/update.sample
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks/post-update.sample
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/hooks
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/index
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/info/exclude
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/info
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/shallow
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/description
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/objects/pack/pack-f5cfa01e2c6ee56faceb48b4f26e96fbadc5f09c.idx
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/objects/pack/pack-f5cfa01e2c6ee56faceb48b4f26e96fbadc5f09c.pack
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/objects/pack
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/objects/info
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git/objects
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/.git
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/runtests.sh
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/test/testall.nim
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/test/patsplit.nim
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/test/gsub.nim
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/test/match.nim
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/test/greater.nim
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/test/awksubstr.nim
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/test/tilde.nim
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/test/sub.nim
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/test/awksplit.nim
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/test/index.nim
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/test
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/CHANGELOG
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/README.md
+  delete /tmp/nimble_5978/githubcom_greencardamomawk/awk.nimble
+  delete /tmp/nimble_5978/githubcom_greencardamomawk
+  delete /tmp/nimble_5978

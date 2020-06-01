@@ -1,0 +1,821 @@
+    Reading official package list
+Downloading https://github.com/c-blake/adix using git
+       Info /tmp/nimble_18341/githubcom_cblakeadix/adix_18341.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+   Warning: Package 'adix' has an incorrect structure. The top level of the package source directory should contain at most one module, named 'adix.nim', but a file named 'oitab.nim' was found. This will be an error in the future.
+      Hint: If this is the primary source file in the package, rename it to 'adix.nim'. If it's a source file required by the main module, or if it is one of several modules exposed by 'adix', then move it into a 'adix/' subdirectory. If it's a test file or otherwise not required to build the the package 'adix.nim', prevent its installation by adding `skipFiles = @["oitab.nim"]` to the .nimble file. See https://github.com/nim-lang/nimble#libraries for more info.
+  Verifying dependencies for adix@0.1
+ Installing adix@0.1
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/oitab.nim to /home/runner/.nimble/pkgs/adix-0.1/oitab.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/adix.nimble to /home/runner/.nimble/pkgs/adix-0.1/adix.nimble
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/bltab.nim to /home/runner/.nimble/pkgs/adix-0.1/bltab.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/oltab.nim to /home/runner/.nimble/pkgs/adix-0.1/oltab.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/ottab.nim to /home/runner/.nimble/pkgs/adix-0.1/ottab.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/iltab.nim to /home/runner/.nimble/pkgs/adix-0.1/iltab.nim
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_18341', 0x00000000000001ff)
+mkdir('/tmp/nimble_18341/githubcom_cblakeadix', 0x00000000000001ff)
+rmdir('/tmp/nimble_18341/githubcom_cblakeadix')
+mkdir('/tmp/nimble_18341/githubcom_cblakeadix', 0x00000000000001ff)
+mkdir('/tmp/nimble_18341/githubcom_cblakeadix/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_18341/githubcom_cblakeadix/.git/HEAD.lock', '/tmp/nimble_18341/githubcom_cblakeadix/.git/HEAD')
+rename('/tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock', '/tmp/nimble_18341/githubcom_cblakeadix/.git/config')
+chmod('/tmp/nimble_18341/githubcom_cblakeadix/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_18341/githubcom_cblakeadix/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock', '/tmp/nimble_18341/githubcom_cblakeadix/.git/config')
+chmod('/tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock', '/tmp/nimble_18341/githubcom_cblakeadix/.git/config')
+chmod('/tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock', '/tmp/nimble_18341/githubcom_cblakeadix/.git/config')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/tW9KsNB')
+symlink('testing', '/tmp/nimble_18341/githubcom_cblakeadix/.git/tW9KsNB')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/tW9KsNB')
+mkdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock', '/tmp/nimble_18341/githubcom_cblakeadix/.git/config')
+chmod('/tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock', '/tmp/nimble_18341/githubcom_cblakeadix/.git/config')
+chmod('/tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock', '/tmp/nimble_18341/githubcom_cblakeadix/.git/config')
+link('/tmp/nimble_18341/githubcom_cblakeadix/.git/objects/pack/tmp_pack_qoyZdl', '/tmp/nimble_18341/githubcom_cblakeadix/.git/objects/pack/pack-c16c272fa708171cf6cfec0cfde0bea045de508f.pack')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/objects/pack/tmp_pack_qoyZdl')
+link('/tmp/nimble_18341/githubcom_cblakeadix/.git/objects/pack/tmp_idx_gfamHN', '/tmp/nimble_18341/githubcom_cblakeadix/.git/objects/pack/pack-c16c272fa708171cf6cfec0cfde0bea045de508f.idx')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/objects/pack/tmp_idx_gfamHN')
+rename('/tmp/nimble_18341/githubcom_cblakeadix/.git/shallow.lock', '/tmp/nimble_18341/githubcom_cblakeadix/.git/shallow')
+rename('/tmp/nimble_18341/githubcom_cblakeadix/.git/packed-refs.new', '/tmp/nimble_18341/githubcom_cblakeadix/.git/packed-refs')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/packed-refs.lock')
+mkdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_18341/githubcom_cblakeadix/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_18341/githubcom_cblakeadix/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_18341/githubcom_cblakeadix/.git/HEAD.lock', '/tmp/nimble_18341/githubcom_cblakeadix/.git/HEAD')
+mkdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_18341/githubcom_cblakeadix/.git/refs/heads/master.lock', '/tmp/nimble_18341/githubcom_cblakeadix/.git/refs/heads/master')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/HEAD.lock')
+chmod('/tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock', '/tmp/nimble_18341/githubcom_cblakeadix/.git/config')
+chmod('/tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock', '/tmp/nimble_18341/githubcom_cblakeadix/.git/config')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/objects/pack/pack-c16c272fa708171cf6cfec0cfde0bea045de508f.keep')
+mkdir('tests', 0x00000000000001ff)
+rename('/tmp/nimble_18341/githubcom_cblakeadix/.git/index.lock', '/tmp/nimble_18341/githubcom_cblakeadix/.git/index')
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/adix_2625564510', 0x00000000000001ff)
+unlink('/tmp/nimblecache/adix_2625564510/adix.ini')
+unlink('/tmp/nimble_18341.out')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/adix_18341.nims')
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/oitab.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/adix.nimble', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/bltab.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/oltab.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/ottab.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/iltab.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)    Copying file /tmp/nimble_18341/githubcom_cblakeadix/tstab.nim to /home/runner/.nimble/pkgs/adix-0.1/tstab.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/tsset.nim to /home/runner/.nimble/pkgs/adix-0.1/tsset.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/bist.nim to /home/runner/.nimble/pkgs/adix-0.1/bist.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/althash.nim to /home/runner/.nimble/pkgs/adix-0.1/althash.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/lptab.nim to /home/runner/.nimble/pkgs/adix-0.1/lptab.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/metab.nim to /home/runner/.nimble/pkgs/adix-0.1/metab.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/bitop.nim to /home/runner/.nimble/pkgs/adix-0.1/bitop.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/diset.nim to /home/runner/.nimble/pkgs/adix-0.1/diset.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/LICENSE to /home/runner/.nimble/pkgs/adix-0.1/LICENSE
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/xlang.nim to /home/runner/.nimble/pkgs/adix-0.1/xlang.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/NOTES.md to /home/runner/.nimble/pkgs/adix-0.1/NOTES.md
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/sequint.nim to /home/runner/.nimble/pkgs/adix-0.1/sequint.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/lpset.nim to /home/runner/.nimble/pkgs/adix-0.1/lpset.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/btree.nim to /home/runner/.nimble/pkgs/adix-0.1/btree.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/ilset.nim to /home/runner/.nimble/pkgs/adix-0.1/ilset.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/olset.nim to /home/runner/.nimble/pkgs/adix-0.1/olset.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/deftaz.nim to /home/runner/.nimble/pkgs/adix-0.1/deftaz.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/setops.nim to /home/runner/.nimble/pkgs/adix-0.1/setops.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/ssset.nim to /home/runner/.nimble/pkgs/adix-0.1/ssset.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/oiset.nim to /home/runner/.nimble/pkgs/adix-0.1/oiset.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/sstab.nim to /home/runner/.nimble/pkgs/adix-0.1/sstab.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/tabkey.nim to /home/runner/.nimble/pkgs/adix-0.1/tabkey.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/otset.nim to /home/runner/.nimble/pkgs/adix-0.1/otset.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/README.md to /home/runner/.nimble/pkgs/adix-0.1/README.md
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/deftab.nim to /home/runner/.nimble/pkgs/adix-0.1/deftab.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/memutil.nim to /home/runner/.nimble/pkgs/adix-0.1/memutil.nim
+
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/tstab.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/tsset.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/bist.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/althash.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/lptab.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/metab.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/bitop.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/diset.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/LICENSE', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/xlang.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/NOTES.md', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/sequint.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/lpset.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/btree.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/ilset.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/olset.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/deftaz.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/setops.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/ssset.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/oiset.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/sstab.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/tabkey.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/otset.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/README.md', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/deftab.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/memutil.nim', 0x00000000000001a4)    Copying file /tmp/nimble_18341/githubcom_cblakeadix/ditab.nim to /home/runner/.nimble/pkgs/adix-0.1/ditab.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/setopz.nim to /home/runner/.nimble/pkgs/adix-0.1/setopz.nim
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/TODO.md to /home/runner/.nimble/pkgs/adix-0.1/TODO.md
+    Copying file /tmp/nimble_18341/githubcom_cblakeadix/adix.nimble to /home/runner/.nimble/pkgs/adix-0.1/adix.nimble
+   Success: adix installed successfully.
+       Info /home/runner/.nimble/pkgs/adix-0.1/adix_18341.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/ditab.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/setopz.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/adix-0.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/TODO.md', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/adix-0.1/adix.nimble', 0x00000000000001a4)
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/adix_1725584761', 0x00000000000001ff)
+unlink('/tmp/nimblecache/adix_1725584761/adix.ini')
+unlink('/tmp/nimble_18341.out')
+unlink('/home/runner/.nimble/pkgs/adix-0.1/adix_18341.nims')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/oitab.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/adix.nimble')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/bltab.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/oltab.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.gitignore')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/ottab.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/iltab.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/tstab.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/tsset.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/bist.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/althash.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/lptab.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/metab.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/bitop.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/diset.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/LICENSE')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/xlang.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/NOTES.md')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/sequint.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/lpset.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/btree.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/ilset.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/olset.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/HEAD')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/config')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/logs/HEAD')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/logs/refs/heads')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/logs/refs/remotes')
+rmdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/logs/refs')
+rmdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/logs')
+rmdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/branches')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/packed-refs')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/refs/heads/master')
+rmdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/refs/heads')
+rmdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/refs/tags')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/refs/remotes')
+rmdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/refs')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/hooks/update.sample')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/hooks')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/index')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/info/exclude')
+rmdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/info')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/shallow')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/description')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/objects/pack/pack-c16c272fa708171cf6cfec0cfde0bea045de508f.pack')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/.git/objects/pack/pack-c16c272fa708171cf6cfec0cfde0bea045de508f.idx')
+rmdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/objects/pack')
+rmdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/objects/info')
+rmdir('/tmp/nimble_18341/githubcom_cblakeadix/.git/objects')
+rmdir('/tmp/nimble_18341/githubcom_cblakeadix/.git')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/deftaz.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/setops.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/ssset.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/oiset.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/sstab.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/tabkey.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/otset.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/README.md')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/deftab.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/memutil.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/ditab.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/setopz.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/TODO.md')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/tests/tParams.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/tests/dtshell.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/tests/mvWinGen')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/tests/writeHash.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/tests/dshell.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/tests/repeats.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/tests/tSuperHigh.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/tests/anaPrime.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/tests/ppss.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/tests/tRandom.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/tests/sshell.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/tests/tBadHash.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/tests/btshell.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/tests/tHighTab.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/tests/tBadHash2.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/tests/testTab.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/tests/tshell.nim')
+unlink('/tmp/nimble_18341/githubcom_cblakeadix/tests/nim.cfg')
+rmdir('/tmp/nimble_18341/githubcom_cblakeadix/tests')
+rmdir('/tmp/nimble_18341/githubcom_cblakeadix')
+rmdir('/tmp/nimble_18341')
+  create directory /tmp
+  create directory /tmp/nimble_18341
+  create directory /tmp/nimble_18341/githubcom_cblakeadix
+  delete /tmp/nimble_18341/githubcom_cblakeadix
+  create directory /tmp/nimble_18341/githubcom_cblakeadix
+  create directory /tmp/nimble_18341/githubcom_cblakeadix/.git
+  create directory /tmp/nimble_18341/githubcom_cblakeadix/.git
+  create directory /tmp/nimble_18341/githubcom_cblakeadix/.git/branches
+  create directory /tmp/nimble_18341/githubcom_cblakeadix/.git/hooks
+  create directory /tmp/nimble_18341/githubcom_cblakeadix/.git/info
+  create directory /tmp/nimble_18341/githubcom_cblakeadix/.git/refs
+  create directory /tmp/nimble_18341/githubcom_cblakeadix/.git/refs/heads
+  create directory /tmp/nimble_18341/githubcom_cblakeadix/.git/refs/tags
+  rename /tmp/nimble_18341/githubcom_cblakeadix/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock to config
+  change permissions of /tmp/nimble_18341/githubcom_cblakeadix/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_18341/githubcom_cblakeadix/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock to config
+  change permissions of /tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock to config
+  change permissions of /tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock to config
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/tW9KsNB
+  create symbolic link from /tmp/nimble_18341/githubcom_cblakeadix/.git/tW9KsNB to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/tW9KsNB
+  create directory /tmp/nimble_18341/githubcom_cblakeadix/.git/objects
+  create directory /tmp/nimble_18341/githubcom_cblakeadix/.git/objects/pack
+  create directory /tmp/nimble_18341/githubcom_cblakeadix/.git/objects/info
+  change permissions of /tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock to config
+  change permissions of /tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock to config
+  change permissions of /tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock to config
+  create hard link from /tmp/nimble_18341/githubcom_cblakeadix/.git/objects/pack/pack-c16c272fa708171cf6cfec0cfde0bea045de508f.pack to /tmp/nimble_18341/githubcom_cblakeadix/.git/objects/pack/tmp_pack_qoyZdl
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/objects/pack/tmp_pack_qoyZdl
+  create hard link from /tmp/nimble_18341/githubcom_cblakeadix/.git/objects/pack/pack-c16c272fa708171cf6cfec0cfde0bea045de508f.idx to /tmp/nimble_18341/githubcom_cblakeadix/.git/objects/pack/tmp_idx_gfamHN
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/objects/pack/tmp_idx_gfamHN
+  rename /tmp/nimble_18341/githubcom_cblakeadix/.git/shallow.lock to shallow
+  rename /tmp/nimble_18341/githubcom_cblakeadix/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/packed-refs.lock
+  create directory /tmp/nimble_18341/githubcom_cblakeadix/.git/refs/remotes
+  create directory /tmp/nimble_18341/githubcom_cblakeadix/.git/refs/remotes/origin
+  create directory /tmp/nimble_18341/githubcom_cblakeadix/.git/logs
+  create directory /tmp/nimble_18341/githubcom_cblakeadix/.git/logs/refs
+  create directory /tmp/nimble_18341/githubcom_cblakeadix/.git/logs/refs/remotes
+  create directory /tmp/nimble_18341/githubcom_cblakeadix/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_18341/githubcom_cblakeadix/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_18341/githubcom_cblakeadix/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_18341/githubcom_cblakeadix/.git/logs/refs/heads
+  rename /tmp/nimble_18341/githubcom_cblakeadix/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/HEAD.lock
+  change permissions of /tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock to config
+  change permissions of /tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_18341/githubcom_cblakeadix/.git/config.lock to config
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/objects/pack/pack-c16c272fa708171cf6cfec0cfde0bea045de508f.keep
+  create directory /tmp/nimble_18341/githubcom_cblakeadix/tests
+  rename /tmp/nimble_18341/githubcom_cblakeadix/.git/index.lock to index
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/adix_2625564510
+  delete /tmp/nimblecache/adix_2625564510/adix.ini
+  delete /tmp/nimble_18341.out
+  delete /tmp/nimble_18341/githubcom_cblakeadix/adix_18341.nims
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/oitab.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/adix.nimble to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/bltab.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/oltab.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/ottab.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/iltab.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/tstab.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/tsset.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/bist.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/althash.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/lptab.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/metab.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/bitop.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/diset.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/LICENSE to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/xlang.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/NOTES.md to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/sequint.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/lpset.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/btree.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/ilset.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/olset.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/deftaz.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/setops.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/ssset.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/oiset.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/sstab.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/tabkey.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/otset.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/README.md to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/deftab.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/memutil.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/ditab.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/setopz.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/adix-0.1
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/TODO.md to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/adix-0.1/adix.nimble to rw-r--r--
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/adix_1725584761
+  delete /tmp/nimblecache/adix_1725584761/adix.ini
+  delete /tmp/nimble_18341.out
+  delete /home/runner/.nimble/pkgs/adix-0.1/adix_18341.nims
+  delete /tmp/nimble_18341/githubcom_cblakeadix/oitab.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/adix.nimble
+  delete /tmp/nimble_18341/githubcom_cblakeadix/bltab.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/oltab.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.gitignore
+  delete /tmp/nimble_18341/githubcom_cblakeadix/ottab.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/iltab.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/tstab.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/tsset.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/bist.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/althash.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/lptab.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/metab.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/bitop.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/diset.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/LICENSE
+  delete /tmp/nimble_18341/githubcom_cblakeadix/xlang.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/NOTES.md
+  delete /tmp/nimble_18341/githubcom_cblakeadix/sequint.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/lpset.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/btree.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/ilset.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/olset.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/HEAD
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/config
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/logs/HEAD
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/logs/refs/heads/master
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/logs/refs/heads
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/logs/refs/remotes
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/logs/refs
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/logs
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/branches
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/packed-refs
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/refs/heads/master
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/refs/heads
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/refs/tags
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/refs/remotes/origin
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/refs/remotes
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/refs
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/hooks/pre-push.sample
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/hooks/update.sample
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/hooks/post-update.sample
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/hooks
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/index
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/info/exclude
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/info
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/shallow
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/description
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/objects/pack/pack-c16c272fa708171cf6cfec0cfde0bea045de508f.pack
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/objects/pack/pack-c16c272fa708171cf6cfec0cfde0bea045de508f.idx
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/objects/pack
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/objects/info
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git/objects
+  delete /tmp/nimble_18341/githubcom_cblakeadix/.git
+  delete /tmp/nimble_18341/githubcom_cblakeadix/deftaz.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/setops.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/ssset.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/oiset.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/sstab.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/tabkey.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/otset.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/README.md
+  delete /tmp/nimble_18341/githubcom_cblakeadix/deftab.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/memutil.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/ditab.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/setopz.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/TODO.md
+  delete /tmp/nimble_18341/githubcom_cblakeadix/tests/tParams.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/tests/dtshell.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/tests/mvWinGen
+  delete /tmp/nimble_18341/githubcom_cblakeadix/tests/writeHash.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/tests/dshell.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/tests/repeats.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/tests/tSuperHigh.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/tests/anaPrime.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/tests/ppss.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/tests/tRandom.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/tests/sshell.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/tests/tBadHash.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/tests/btshell.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/tests/tHighTab.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/tests/tBadHash2.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/tests/testTab.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/tests/tshell.nim
+  delete /tmp/nimble_18341/githubcom_cblakeadix/tests/nim.cfg
+  delete /tmp/nimble_18341/githubcom_cblakeadix/tests
+  delete /tmp/nimble_18341/githubcom_cblakeadix
+  delete /tmp/nimble_18341
