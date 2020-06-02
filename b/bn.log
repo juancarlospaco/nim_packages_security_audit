@@ -1,0 +1,16 @@
+    Reading official package list
+Downloading https://github.com/MerosCrypto/BN using git
+download.nim(93)         getTagsListRemote
+Error: unhandled exception: Unable to query remote tags for https://github.com/MerosCrypto/BN. Git returned: remote: Repository not found.
+fatal: repository 'https://github.com/MerosCrypto/BN/' not found
+ [OSError]
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_10205', 0x00000000000001ff)
+mkdir('/tmp/nimble_10205/githubcom_MerosCryptoBN', 0x00000000000001ff)
+rmdir('/tmp/nimble_10205/githubcom_MerosCryptoBN')
+rmdir('/tmp/nimble_10205')
+  create directory /tmp
+  create directory /tmp/nimble_10205
+  create directory /tmp/nimble_10205/githubcom_MerosCryptoBN
+  delete /tmp/nimble_10205/githubcom_MerosCryptoBN
+  delete /tmp/nimble_10205
