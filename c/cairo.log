@@ -1,0 +1,374 @@
+    Reading official package list
+Downloading https://github.com/nim-lang/cairo using git
+    Cloning latest tagged version: 1.1.1
+   Warning: Package 'cairo' has an incorrect structure. The top level of the package source directory should contain at most one module, named 'cairo.nim', but a file named 'cairoxlib.nim' was found. This will be an error in the future.
+      Hint: If this is the primary source file in the package, rename it to 'cairo.nim'. If it's a source file required by the main module, or if it is one of several modules exposed by 'cairo', then move it into a 'cairo/' subdirectory. If it's a test file or otherwise not required to build the the package 'cairo.nim', prevent its installation by adding `skipFiles = @["cairoxlib.nim"]` to the .nimble file. See https://github.com/nim-lang/nimble#libraries for more info.
+  Verifying dependencies for cairo@1.1.1
+ Installing cairo@1.1.1
+    Copying file /tmp/nimble_4288/githubcom_nimlangcairo/src/cairoxlib.nim to /home/runner/.nimble/pkgs/cairo-1.1.1/cairoxlib.nim
+    Copying file /tmp/nimble_4288/githubcom_nimlangcairo/src/cairo_pragma.nim to /home/runner/.nimble/pkgs/cairo-1.1.1/cairo_pragma.nim
+    Copying file /tmp/nimble_4288/githubcom_nimlangcairo/src/cairo.nim to /home/runner/.nimble/pkgs/cairo-1.1.1/cairo.nim
+    Copying file /tmp/nimble_4288/githubcom_nimlangcairo/src/cairowin32.nim to /home/runner/.nimble/pkgs/cairo-1.1.1/cairowin32.nim
+    Copying file /tmp/nimble_4288/githubcom_nimlangcairo/src/cairoft.nim to /home/runner/.nimble/pkgs/cairo-1.1.1/cairoft.nim
+    Copying file /tmp/nimble_4288/githubcom_nimlangcairo/cairo.nimble to /home/runner/.nimble/pkgs/cairo-1.1.1/cairo.nimble
+   Success: cairo installed successfully.
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_4288', 0x00000000000001ff)
+mkdir('/tmp/nimble_4288/githubcom_nimlangcairo', 0x00000000000001ff)
+rmdir('/tmp/nimble_4288/githubcom_nimlangcairo')
+mkdir('/tmp/nimble_4288/githubcom_nimlangcairo', 0x00000000000001ff)
+mkdir('/tmp/nimble_4288/githubcom_nimlangcairo/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_4288/githubcom_nimlangcairo/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4288/githubcom_nimlangcairo/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4288/githubcom_nimlangcairo/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4288/githubcom_nimlangcairo/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_4288/githubcom_nimlangcairo/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_4288/githubcom_nimlangcairo/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_4288/githubcom_nimlangcairo/.git/HEAD.lock', '/tmp/nimble_4288/githubcom_nimlangcairo/.git/HEAD')
+rename('/tmp/nimble_4288/githubcom_nimlangcairo/.git/config.lock', '/tmp/nimble_4288/githubcom_nimlangcairo/.git/config')
+chmod('/tmp/nimble_4288/githubcom_nimlangcairo/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_4288/githubcom_nimlangcairo/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_4288/githubcom_nimlangcairo/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4288/githubcom_nimlangcairo/.git/config.lock', '/tmp/nimble_4288/githubcom_nimlangcairo/.git/config')
+chmod('/tmp/nimble_4288/githubcom_nimlangcairo/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4288/githubcom_nimlangcairo/.git/config.lock', '/tmp/nimble_4288/githubcom_nimlangcairo/.git/config')
+chmod('/tmp/nimble_4288/githubcom_nimlangcairo/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4288/githubcom_nimlangcairo/.git/config.lock', '/tmp/nimble_4288/githubcom_nimlangcairo/.git/config')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/tRWadPM')
+symlink('testing', '/tmp/nimble_4288/githubcom_nimlangcairo/.git/tRWadPM')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/tRWadPM')
+mkdir('/tmp/nimble_4288/githubcom_nimlangcairo/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_4288/githubcom_nimlangcairo/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_4288/githubcom_nimlangcairo/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_4288/githubcom_nimlangcairo/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4288/githubcom_nimlangcairo/.git/config.lock', '/tmp/nimble_4288/githubcom_nimlangcairo/.git/config')
+chmod('/tmp/nimble_4288/githubcom_nimlangcairo/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4288/githubcom_nimlangcairo/.git/config.lock', '/tmp/nimble_4288/githubcom_nimlangcairo/.git/config')
+chmod('/tmp/nimble_4288/githubcom_nimlangcairo/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4288/githubcom_nimlangcairo/.git/config.lock', '/tmp/nimble_4288/githubcom_nimlangcairo/.git/config')
+link('/tmp/nimble_4288/githubcom_nimlangcairo/.git/objects/pack/tmp_pack_SCig4F', '/tmp/nimble_4288/githubcom_nimlangcairo/.git/objects/pack/pack-39c0985574357c91f87502706347aaa70cc1a080.pack')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/objects/pack/tmp_pack_SCig4F')
+link('/tmp/nimble_4288/githubcom_nimlangcairo/.git/objects/pack/tmp_idx_k6nx2f', '/tmp/nimble_4288/githubcom_nimlangcairo/.git/objects/pack/pack-39c0985574357c91f87502706347aaa70cc1a080.idx')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/objects/pack/tmp_idx_k6nx2f')
+rename('/tmp/nimble_4288/githubcom_nimlangcairo/.git/shallow.lock', '/tmp/nimble_4288/githubcom_nimlangcairo/.git/shallow')
+rename('/tmp/nimble_4288/githubcom_nimlangcairo/.git/packed-refs.new', '/tmp/nimble_4288/githubcom_nimlangcairo/.git/packed-refs')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/packed-refs.lock')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/refs/tags/1.1.1.lock')
+mkdir('/tmp/nimble_4288/githubcom_nimlangcairo/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_4288/githubcom_nimlangcairo/.git/HEAD.lock', '/tmp/nimble_4288/githubcom_nimlangcairo/.git/HEAD')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/objects/pack/pack-39c0985574357c91f87502706347aaa70cc1a080.keep')
+mkdir('src', 0x00000000000001ff)
+mkdir('tests', 0x00000000000001ff)
+mkdir('tests/data', 0x00000000000001ff)
+rename('/tmp/nimble_4288/githubcom_nimlangcairo/.git/index.lock', '/tmp/nimble_4288/githubcom_nimlangcairo/.git/index')
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/cairo_930756537', 0x00000000000001ff)
+unlink('/tmp/nimblecache/cairo_930756537/cairo.ini')
+unlink('/tmp/nimble_4288.out')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/cairo_4288.nims')
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cairo-1.1.1', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cairo-1.1.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/cairo-1.1.1/cairoxlib.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cairo-1.1.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/cairo-1.1.1/cairo_pragma.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cairo-1.1.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/cairo-1.1.1/cairo.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cairo-1.1.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/cairo-1.1.1/cairowin32.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cairo-1.1.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/cairo-1.1.1/cairoft.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/cairo-1.1.1/cairo.nimble', 0x00000000000001a4)
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/cairo_861016986', 0x00000000000001ff)
+unlink('/tmp/nimblecache/cairo_861016986/cairo.ini')
+unlink('/tmp/nimble_4288.out')
+unlink('/home/runner/.nimble/pkgs/cairo-1.1.1/cairo_4288.nims')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/src/cairoxlib.nim')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/src/cairo_pragma.nim')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/src/cairo.nim')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/src/cairowin32.nim')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/src/cairoft.nim')
+rmdir('/tmp/nimble_4288/githubcom_nimlangcairo/src')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.gitignore')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/LICENSE')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/cairo.nimble')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/HEAD')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/config')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/logs/HEAD')
+rmdir('/tmp/nimble_4288/githubcom_nimlangcairo/.git/logs')
+rmdir('/tmp/nimble_4288/githubcom_nimlangcairo/.git/branches')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/packed-refs')
+rmdir('/tmp/nimble_4288/githubcom_nimlangcairo/.git/refs/heads')
+rmdir('/tmp/nimble_4288/githubcom_nimlangcairo/.git/refs/tags')
+rmdir('/tmp/nimble_4288/githubcom_nimlangcairo/.git/refs')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks/update.sample')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/index')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/info/exclude')
+rmdir('/tmp/nimble_4288/githubcom_nimlangcairo/.git/info')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/shallow')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/description')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/objects/pack/pack-39c0985574357c91f87502706347aaa70cc1a080.idx')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/.git/objects/pack/pack-39c0985574357c91f87502706347aaa70cc1a080.pack')
+rmdir('/tmp/nimble_4288/githubcom_nimlangcairo/.git/objects/pack')
+rmdir('/tmp/nimble_4288/githubcom_nimlangcairo/.git/objects/info')
+rmdir('/tmp/nimble_4288/githubcom_nimlangcairo/.git/objects')
+rmdir('/tmp/nimble_4288/githubcom_nimlangcairo/.git')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/README.md')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/dash.nim')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/clip.nim')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/gradient.nim')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/clip.png')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/arc.nim')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/dash.png')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/fill_and_stroke.nim')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/line_join.nim')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/realtime_glfw.nim')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/curve_to.nim')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/text_align.nim')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/realtime_sdl2.nim')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/arc.png')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/gen_readme.nim')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/clip_image.nim')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/text.png')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/rounded_rectangle.png')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/gradient.png')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/line_cap.nim')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/realtime.png')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/realtime_glut.nim')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/line_join.png')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/line_cap.png')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/image_pattern.png')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/image.png')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/fill_and_stroke.png')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/data/romedalen.png')
+rmdir('/tmp/nimble_4288/githubcom_nimlangcairo/tests/data')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/image.nim')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/curve_to.png')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/rounded_rectangle.nim')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/text_align.png')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/text.nim')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/clip_image.png')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/image_pattern.nim')
+unlink('/tmp/nimble_4288/githubcom_nimlangcairo/tests/nim.cfg')
+rmdir('/tmp/nimble_4288/githubcom_nimlangcairo/tests')
+rmdir('/tmp/nimble_4288/githubcom_nimlangcairo')
+rmdir('/tmp/nimble_4288')
+  create directory /tmp
+  create directory /tmp/nimble_4288
+  create directory /tmp/nimble_4288/githubcom_nimlangcairo
+  delete /tmp/nimble_4288/githubcom_nimlangcairo
+  create directory /tmp/nimble_4288/githubcom_nimlangcairo
+  create directory /tmp/nimble_4288/githubcom_nimlangcairo/.git
+  create directory /tmp/nimble_4288/githubcom_nimlangcairo/.git
+  create directory /tmp/nimble_4288/githubcom_nimlangcairo/.git/branches
+  create directory /tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks
+  create directory /tmp/nimble_4288/githubcom_nimlangcairo/.git/info
+  create directory /tmp/nimble_4288/githubcom_nimlangcairo/.git/refs
+  create directory /tmp/nimble_4288/githubcom_nimlangcairo/.git/refs/heads
+  create directory /tmp/nimble_4288/githubcom_nimlangcairo/.git/refs/tags
+  rename /tmp/nimble_4288/githubcom_nimlangcairo/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_4288/githubcom_nimlangcairo/.git/config.lock to config
+  change permissions of /tmp/nimble_4288/githubcom_nimlangcairo/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_4288/githubcom_nimlangcairo/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_4288/githubcom_nimlangcairo/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4288/githubcom_nimlangcairo/.git/config.lock to config
+  change permissions of /tmp/nimble_4288/githubcom_nimlangcairo/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4288/githubcom_nimlangcairo/.git/config.lock to config
+  change permissions of /tmp/nimble_4288/githubcom_nimlangcairo/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4288/githubcom_nimlangcairo/.git/config.lock to config
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/tRWadPM
+  create symbolic link from /tmp/nimble_4288/githubcom_nimlangcairo/.git/tRWadPM to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/tRWadPM
+  create directory /tmp/nimble_4288/githubcom_nimlangcairo/.git/objects
+  create directory /tmp/nimble_4288/githubcom_nimlangcairo/.git/objects/pack
+  create directory /tmp/nimble_4288/githubcom_nimlangcairo/.git/objects/info
+  change permissions of /tmp/nimble_4288/githubcom_nimlangcairo/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4288/githubcom_nimlangcairo/.git/config.lock to config
+  change permissions of /tmp/nimble_4288/githubcom_nimlangcairo/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4288/githubcom_nimlangcairo/.git/config.lock to config
+  change permissions of /tmp/nimble_4288/githubcom_nimlangcairo/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4288/githubcom_nimlangcairo/.git/config.lock to config
+  create hard link from /tmp/nimble_4288/githubcom_nimlangcairo/.git/objects/pack/pack-39c0985574357c91f87502706347aaa70cc1a080.pack to /tmp/nimble_4288/githubcom_nimlangcairo/.git/objects/pack/tmp_pack_SCig4F
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/objects/pack/tmp_pack_SCig4F
+  create hard link from /tmp/nimble_4288/githubcom_nimlangcairo/.git/objects/pack/pack-39c0985574357c91f87502706347aaa70cc1a080.idx to /tmp/nimble_4288/githubcom_nimlangcairo/.git/objects/pack/tmp_idx_k6nx2f
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/objects/pack/tmp_idx_k6nx2f
+  rename /tmp/nimble_4288/githubcom_nimlangcairo/.git/shallow.lock to shallow
+  rename /tmp/nimble_4288/githubcom_nimlangcairo/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/packed-refs.lock
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/refs/tags/1.1.1.lock
+  create directory /tmp/nimble_4288/githubcom_nimlangcairo/.git/logs
+  rename /tmp/nimble_4288/githubcom_nimlangcairo/.git/HEAD.lock to HEAD
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/objects/pack/pack-39c0985574357c91f87502706347aaa70cc1a080.keep
+  create directory /tmp/nimble_4288/githubcom_nimlangcairo/src
+  create directory /tmp/nimble_4288/githubcom_nimlangcairo/tests
+  create directory /tmp/nimble_4288/githubcom_nimlangcairo/tests/data
+  rename /tmp/nimble_4288/githubcom_nimlangcairo/.git/index.lock to index
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/cairo_930756537
+  delete /tmp/nimblecache/cairo_930756537/cairo.ini
+  delete /tmp/nimble_4288.out
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/cairo_4288.nims
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/cairo-1.1.1
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/cairo-1.1.1
+  change permissions of /home/runner/.nimble/pkgs/cairo-1.1.1/cairoxlib.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/cairo-1.1.1
+  change permissions of /home/runner/.nimble/pkgs/cairo-1.1.1/cairo_pragma.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/cairo-1.1.1
+  change permissions of /home/runner/.nimble/pkgs/cairo-1.1.1/cairo.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/cairo-1.1.1
+  change permissions of /home/runner/.nimble/pkgs/cairo-1.1.1/cairowin32.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/cairo-1.1.1
+  change permissions of /home/runner/.nimble/pkgs/cairo-1.1.1/cairoft.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/cairo-1.1.1/cairo.nimble to rw-r--r--
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/cairo_861016986
+  delete /tmp/nimblecache/cairo_861016986/cairo.ini
+  delete /tmp/nimble_4288.out
+  delete /home/runner/.nimble/pkgs/cairo-1.1.1/cairo_4288.nims
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/src/cairoxlib.nim
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/src/cairo_pragma.nim
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/src/cairo.nim
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/src/cairowin32.nim
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/src/cairoft.nim
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/src
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.gitignore
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/LICENSE
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/cairo.nimble
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/HEAD
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/config
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/logs/HEAD
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/logs
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/branches
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/packed-refs
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/refs/heads
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/refs/tags
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/refs
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks/pre-push.sample
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks/update.sample
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks/post-update.sample
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/hooks
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/index
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/info/exclude
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/info
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/shallow
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/description
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/objects/pack/pack-39c0985574357c91f87502706347aaa70cc1a080.idx
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/objects/pack/pack-39c0985574357c91f87502706347aaa70cc1a080.pack
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/objects/pack
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/objects/info
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git/objects
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/.git
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/README.md
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/dash.nim
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/clip.nim
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/gradient.nim
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/clip.png
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/arc.nim
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/dash.png
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/fill_and_stroke.nim
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/line_join.nim
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/realtime_glfw.nim
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/curve_to.nim
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/text_align.nim
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/realtime_sdl2.nim
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/arc.png
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/gen_readme.nim
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/clip_image.nim
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/text.png
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/rounded_rectangle.png
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/gradient.png
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/line_cap.nim
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/realtime.png
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/realtime_glut.nim
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/line_join.png
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/line_cap.png
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/image_pattern.png
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/image.png
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/fill_and_stroke.png
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/data/romedalen.png
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/data
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/image.nim
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/curve_to.png
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/rounded_rectangle.nim
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/text_align.png
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/text.nim
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/clip_image.png
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/image_pattern.nim
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests/nim.cfg
+  delete /tmp/nimble_4288/githubcom_nimlangcairo/tests
+  delete /tmp/nimble_4288/githubcom_nimlangcairo
+  delete /tmp/nimble_4288
