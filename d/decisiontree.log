@@ -1,0 +1,936 @@
+    Reading official package list
+Downloading https://github.com/Michedev/DecisionTreeNim using git
+       Info /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/DecisionTree_3256.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/DecisionTree_3256.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+   Warning: Package 'DecisionTree' has an incorrect structure. The top level of the package source directory should contain at most one module, named 'DecisionTree.nim', but a file named 'task.nim' was found. This will be an error in the future.
+      Hint: If this is the primary source file in the package, rename it to 'DecisionTree.nim'. If it's a source file required by the main module, or if it is one of several modules exposed by 'DecisionTree', then move it into a 'DecisionTree/' subdirectory. If it's a test file or otherwise not required to build the the package 'DecisionTree.nim', prevent its installation by adding `skipFiles = @["task.nim"]` to the .nimble file. See https://github.com/nim-lang/nimble#libraries for more info.
+  Verifying dependencies for DecisionTree@0.1.1
+    Reading official package list
+   Checking for sequtils2@>= 1.1.0
+ Installing sequtils2@>= 1.1.0
+    Reading official package list
+Downloading https://github.com/Michedev/sequtils2 using git
+    Cloning latest tagged version: 1.1.0
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim', 0x00000000000001ff)
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim')
+mkdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/HEAD.lock', '/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/HEAD')
+rename('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock', '/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config')
+chmod('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock', '/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config')
+chmod('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock', '/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config')
+chmod('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock', '/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/t7VwhIu')
+symlink('testing', '/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/t7VwhIu')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/t7VwhIu')
+mkdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock', '/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config')
+chmod('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock', '/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config')
+chmod('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock', '/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config')
+link('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects/pack/tmp_pack_JLe9Jj', '/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects/pack/pack-23711aa6003a04f0ea19c9e966ba5dbfe5d9a5ca.pack')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects/pack/tmp_pack_JLe9Jj')
+link('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects/pack/tmp_idx_JPMpEE', '/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects/pack/pack-23711aa6003a04f0ea19c9e966ba5dbfe5d9a5ca.idx')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects/pack/tmp_idx_JPMpEE')
+rename('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/shallow.lock', '/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/shallow')
+rename('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/packed-refs.new', '/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/packed-refs')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/packed-refs.lock')
+mkdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/HEAD.lock', '/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/HEAD')
+mkdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs/heads/master.lock', '/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs/heads/master')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/HEAD.lock')
+chmod('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock', '/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config')
+chmod('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock', '/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects/pack/pack-23711aa6003a04f0ea19c9e966ba5dbfe5d9a5ca.keep')
+mkdir('benchmark', 0x00000000000001ff)
+mkdir('src', 0x00000000000001ff)
+mkdir('src/node', 0x00000000000001ff)
+mkdir('src/random_forest', 0x00000000000001ff)
+mkdir('src/rule', 0x00000000000001ff)
+mkdir('src/train', 0x00000000000001ff)
+mkdir('tests', 0x00000000000001ff)
+mkdir('tests/data', 0x00000000000001ff)
+rename('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/index.lock', '/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/index')
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/DecisionTree_3242826384', 0x00000000000001ff)
+unlink('/tmp/nimblecache/DecisionTree_3242826384/DecisionTree.ini')
+unlink('/tmp/nimble_3256.out')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/DecisionTree_3256.nims')
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0', 0x00000000000001ff)
+rmdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0')
+mkdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/refs/tags', 0x00000000000001ff)       Info /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/sequtils2_3256.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+  Verifying dependencies for sequtils2@1.1.0
+ Installing sequtils2@1.1.0
+    Copying file /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/sequtils2.nim to /home/runner/.nimble/pkgs/sequtils2-1.1.0/sequtils2.nim
+    Copying file /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/sequtils2.nimble to /home/runner/.nimble/pkgs/sequtils2-1.1.0/sequtils2.nimble
+   Success: sequtils2 installed successfully.
+       Info /home/runner/.nimble/pkgs/sequtils2-1.1.0/sequtils2_3256.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+ Installing DecisionTree@0.1.1
+    Copying file /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/task.nim to /home/runner/.nimble/pkgs/DecisionTree-0.1.1/task.nim
+    Copying file /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/node/traverse.nim to /home/runner/.nimble/pkgs/DecisionTree-0.1.1/node/traverse.nim
+    Copying file /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/node/constructors.nim to /home/runner/.nimble/pkgs/DecisionTree-0.1.1/node/constructors.nim
+    Copying file /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/node/leaf.nim to /home/runner/.nimble/pkgs/DecisionTree-0.1.1/node/leaf.nim
+    Copying file /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/node/node.nim to /home/runner/.nimble/pkgs/DecisionTree-0.1.1/node/node.nim
+    Copying file /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/node/inode.nim to /home/runner/.nimble/pkgs/DecisionTree-0.1.1/node/inode.nim
+
+rename('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/HEAD.lock', '/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/HEAD')
+rename('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config.lock', '/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config')
+chmod('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config.lock', '/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config')
+chmod('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config.lock', '/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config')
+chmod('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config.lock', '/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/tQTevqL')
+symlink('testing', '/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/tQTevqL')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/tQTevqL')
+mkdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config.lock', '/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config')
+chmod('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config.lock', '/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config')
+chmod('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config.lock', '/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config')
+link('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects/pack/tmp_pack_m1DXQU', '/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects/pack/pack-ef7d4637d059da155e1b8db4deb9b2c44e78b7f7.pack')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects/pack/tmp_pack_m1DXQU')
+link('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects/pack/tmp_idx_S7kSDZ', '/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects/pack/pack-ef7d4637d059da155e1b8db4deb9b2c44e78b7f7.idx')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects/pack/tmp_idx_S7kSDZ')
+rename('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/shallow.lock', '/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/shallow')
+rename('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/packed-refs.new', '/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/packed-refs')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/packed-refs.lock')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/refs/tags/1.1.0.lock')
+mkdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/HEAD.lock', '/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/HEAD')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects/pack/pack-ef7d4637d059da155e1b8db4deb9b2c44e78b7f7.keep')
+mkdir('tests', 0x00000000000001ff)
+rename('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/index.lock', '/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/index')
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/sequtils2_151378267', 0x00000000000001ff)
+unlink('/tmp/nimblecache/sequtils2_151378267/sequtils2.ini')
+unlink('/tmp/nimble_3256.out')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/sequtils2_3256.nims')
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sequtils2-1.1.0', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sequtils2-1.1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sequtils2-1.1.0/sequtils2.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sequtils2-1.1.0/sequtils2.nimble', 0x00000000000001a4)
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/sequtils2_126400322', 0x00000000000001ff)
+unlink('/tmp/nimblecache/sequtils2_126400322/sequtils2.ini')
+unlink('/tmp/nimble_3256.out')
+unlink('/home/runner/.nimble/pkgs/sequtils2-1.1.0/sequtils2_3256.nims')
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/task.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/node', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/node/traverse.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/node', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/node/constructors.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/node', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/node/leaf.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/node', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/node/node.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/node', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/node/inode.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)    Copying file /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/utils.nim to /home/runner/.nimble/pkgs/DecisionTree-0.1.1/utils.nim
+    Copying file /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/impurity.nim to /home/runner/.nimble/pkgs/DecisionTree-0.1.1/impurity.nim
+    Copying file /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/rule/stop_rules.nim to /home/runner/.nimble/pkgs/DecisionTree-0.1.1/rule/stop_rules.nim
+    Copying file /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/rule/tree_rules.nim to /home/runner/.nimble/pkgs/DecisionTree-0.1.1/rule/tree_rules.nim
+    Copying file /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/rule/bagging.nim to /home/runner/.nimble/pkgs/DecisionTree-0.1.1/rule/bagging.nim
+    Copying file /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/tree.nim to /home/runner/.nimble/pkgs/DecisionTree-0.1.1/tree.nim
+    Copying file /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/train/train.nim to /home/runner/.nimble/pkgs/DecisionTree-0.1.1/train/train.nim
+    Copying file /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/train/splitresult.nim to /home/runner/.nimble/pkgs/DecisionTree-0.1.1/train/splitresult.nim
+    Copying file /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/train/stop.nim to /home/runner/.nimble/pkgs/DecisionTree-0.1.1/train/stop.nim
+    Copying file /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/train/sons_gen.nim to /home/runner/.nimble/pkgs/DecisionTree-0.1.1/train/sons_gen.nim
+    Copying file /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/train/split.nim to /home/runner/.nimble/pkgs/DecisionTree-0.1.1/train/split.nim
+    Copying file /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/train/values_selection.nim to /home/runner/.nimble/pkgs/DecisionTree-0.1.1/train/values_selection.nim
+    Copying file /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/hyperparams.nim to /home/runner/.nimble/pkgs/DecisionTree-0.1.1/hyperparams.nim
+    Copying file /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/random_forest/random_forest.nim to /home/runner/.nimble/pkgs/DecisionTree-0.1.1/random_forest/random_forest.nim
+    Copying file /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/random_forest/parallel_rf.nim to /home/runner/.nimble/pkgs/DecisionTree-0.1.1/random_forest/parallel_rf.nim
+    Copying file /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/DecisionTree.nim to /home/runner/.nimble/pkgs/DecisionTree-0.1.1/DecisionTree.nim
+    Copying file /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/view.nim to /home/runner/.nimble/pkgs/DecisionTree-0.1.1/view.nim
+    Copying file /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/DecisionTree.nimble to /home/runner/.nimble/pkgs/DecisionTree-0.1.1/DecisionTree.nimble
+   Success: DecisionTree installed successfully.
+       Info /home/runner/.nimble/pkgs/DecisionTree-0.1.1/DecisionTree_3256.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /home/runner/.nimble/pkgs/DecisionTree-0.1.1/DecisionTree_3256.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/utils.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/impurity.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/rule', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/rule/stop_rules.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/rule', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/rule/tree_rules.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/rule', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/rule/bagging.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/tree.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/train', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/train/train.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/train', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/train/splitresult.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/train', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/train/stop.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/train', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/train/sons_gen.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/train', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/train/split.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/train', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/train/values_selection.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/hyperparams.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/random_forest', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/random_forest/random_forest.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/random_forest', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/random_forest/parallel_rf.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/DecisionTree.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/DecisionTree-0.1.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/view.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/DecisionTree.nimble', 0x00000000000001a4)
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/DecisionTree_3121038989', 0x00000000000001ff)
+unlink('/tmp/nimblecache/DecisionTree_3121038989/DecisionTree.ini')
+unlink('/tmp/nimble_3256.out')
+unlink('/home/runner/.nimble/pkgs/DecisionTree-0.1.1/DecisionTree_3256.nims')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.gitignore')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/sequtils2.nimble')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/LICENSE')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/sequtils2.nim')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/HEAD')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/logs/HEAD')
+rmdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/logs')
+rmdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/branches')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/packed-refs')
+rmdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/refs/heads')
+rmdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/refs/tags')
+rmdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/refs')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks/update.sample')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/index')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/info/exclude')
+rmdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/info')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/shallow')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/description')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects/pack/pack-ef7d4637d059da155e1b8db4deb9b2c44e78b7f7.idx')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects/pack/pack-ef7d4637d059da155e1b8db4deb9b2c44e78b7f7.pack')
+rmdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects/pack')
+rmdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects/info')
+rmdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects')
+rmdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/sequtils2.html')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/README.md')
+unlink('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/tests/test_sequtils2.nim')
+rmdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/tests')
+rmdir('/tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/task.nim')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/node/traverse.nim')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/node/constructors.nim')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/node/leaf.nim')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/node/node.nim')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/node/inode.nim')
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/node')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/utils.nim')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/impurity.nim')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/rule/stop_rules.nim')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/rule/tree_rules.nim')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/rule/bagging.nim')
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/rule')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/tree.nim')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/train/train.nim')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/train/splitresult.nim')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/train/stop.nim')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/train/sons_gen.nim')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/train/split.nim')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/train/values_selection.nim')
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/train')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/hyperparams.nim')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/random_forest/random_forest.nim')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/random_forest/parallel_rf.nim')
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/random_forest')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/DecisionTree.nim')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/view.nim')
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.gitignore')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/HEAD')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/logs/HEAD')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/logs/refs/heads')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/logs/refs/remotes')
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/logs/refs')
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/logs')
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/branches')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/packed-refs')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs/heads/master')
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs/heads')
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs/tags')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs/remotes')
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks/update.sample')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/index')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/info/exclude')
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/info')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/shallow')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/description')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects/pack/pack-23711aa6003a04f0ea19c9e966ba5dbfe5d9a5ca.idx')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects/pack/pack-23711aa6003a04f0ea19c9e966ba5dbfe5d9a5ca.pack')
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects/pack')
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects/info')
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects')
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/readme.MD')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/benchmark/rf.py')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/benchmark/rf.nim')
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/benchmark')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/DecisionTree.nimble')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/tests/test_fit_tree.nim')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/tests/data/y_data')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/tests/data/iris.data')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/tests/data/X_data')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/tests/data/X_iris.csv')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/tests/data/y_iris.csv')
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/tests/data')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/tests/test_utils.nim')
+unlink('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/tests/test_impurity.nim')
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/tests')
+rmdir('/tmp/nimble_3256/githubcom_MichedevDecisionTreeNim')
+rmdir('/tmp/nimble_3256')
+  create directory /tmp
+  create directory /tmp/nimble_3256
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/branches
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/info
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs/heads
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs/tags
+  rename /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock to config
+  change permissions of /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock to config
+  change permissions of /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock to config
+  change permissions of /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock to config
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/t7VwhIu
+  create symbolic link from /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/t7VwhIu to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/t7VwhIu
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects/pack
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects/info
+  change permissions of /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock to config
+  change permissions of /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock to config
+  change permissions of /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock to config
+  create hard link from /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects/pack/pack-23711aa6003a04f0ea19c9e966ba5dbfe5d9a5ca.pack to /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects/pack/tmp_pack_JLe9Jj
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects/pack/tmp_pack_JLe9Jj
+  create hard link from /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects/pack/pack-23711aa6003a04f0ea19c9e966ba5dbfe5d9a5ca.idx to /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects/pack/tmp_idx_JPMpEE
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects/pack/tmp_idx_JPMpEE
+  rename /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/shallow.lock to shallow
+  rename /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/packed-refs.lock
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs/remotes
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs/remotes/origin
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/logs
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/logs/refs
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/logs/refs/remotes
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/logs/refs/heads
+  rename /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/HEAD.lock
+  change permissions of /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock to config
+  change permissions of /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config.lock to config
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects/pack/pack-23711aa6003a04f0ea19c9e966ba5dbfe5d9a5ca.keep
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/benchmark
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/node
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/random_forest
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/rule
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/train
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/tests
+  create directory /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/tests/data
+  rename /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/index.lock to index
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/DecisionTree_3242826384
+  delete /tmp/nimblecache/DecisionTree_3242826384/DecisionTree.ini
+  delete /tmp/nimble_3256.out
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/DecisionTree_3256.nims
+  create directory /tmp
+  create directory /tmp/nimble_3256
+  create directory /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0
+  create directory /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0
+  create directory /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git
+  create directory /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git
+  create directory /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/branches
+  create directory /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks
+  create directory /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/info
+  create directory /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/refs
+  create directory /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/refs/heads
+  create directory /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/refs/tags
+  rename /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config.lock to config
+  change permissions of /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config.lock to config
+  change permissions of /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config.lock to config
+  change permissions of /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config.lock to config
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/tQTevqL
+  create symbolic link from /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/tQTevqL to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/tQTevqL
+  create directory /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects
+  create directory /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects/pack
+  create directory /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects/info
+  change permissions of /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config.lock to config
+  change permissions of /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config.lock to config
+  change permissions of /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config.lock to config
+  create hard link from /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects/pack/pack-ef7d4637d059da155e1b8db4deb9b2c44e78b7f7.pack to /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects/pack/tmp_pack_m1DXQU
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects/pack/tmp_pack_m1DXQU
+  create hard link from /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects/pack/pack-ef7d4637d059da155e1b8db4deb9b2c44e78b7f7.idx to /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects/pack/tmp_idx_S7kSDZ
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects/pack/tmp_idx_S7kSDZ
+  rename /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/shallow.lock to shallow
+  rename /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/packed-refs.lock
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/refs/tags/1.1.0.lock
+  create directory /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/logs
+  rename /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/HEAD.lock to HEAD
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects/pack/pack-ef7d4637d059da155e1b8db4deb9b2c44e78b7f7.keep
+  create directory /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/tests
+  rename /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/index.lock to index
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/sequtils2_151378267
+  delete /tmp/nimblecache/sequtils2_151378267/sequtils2.ini
+  delete /tmp/nimble_3256.out
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/sequtils2_3256.nims
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/sequtils2-1.1.0
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/sequtils2-1.1.0
+  change permissions of /home/runner/.nimble/pkgs/sequtils2-1.1.0/sequtils2.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sequtils2-1.1.0/sequtils2.nimble to rw-r--r--
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/sequtils2_126400322
+  delete /tmp/nimblecache/sequtils2_126400322/sequtils2.ini
+  delete /tmp/nimble_3256.out
+  delete /home/runner/.nimble/pkgs/sequtils2-1.1.0/sequtils2_3256.nims
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1
+  change permissions of /home/runner/.nimble/pkgs/DecisionTree-0.1.1/task.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1/node
+  change permissions of /home/runner/.nimble/pkgs/DecisionTree-0.1.1/node/traverse.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1/node
+  change permissions of /home/runner/.nimble/pkgs/DecisionTree-0.1.1/node/constructors.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1/node
+  change permissions of /home/runner/.nimble/pkgs/DecisionTree-0.1.1/node/leaf.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1/node
+  change permissions of /home/runner/.nimble/pkgs/DecisionTree-0.1.1/node/node.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1/node
+  change permissions of /home/runner/.nimble/pkgs/DecisionTree-0.1.1/node/inode.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1
+  change permissions of /home/runner/.nimble/pkgs/DecisionTree-0.1.1/utils.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1
+  change permissions of /home/runner/.nimble/pkgs/DecisionTree-0.1.1/impurity.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1/rule
+  change permissions of /home/runner/.nimble/pkgs/DecisionTree-0.1.1/rule/stop_rules.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1/rule
+  change permissions of /home/runner/.nimble/pkgs/DecisionTree-0.1.1/rule/tree_rules.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1/rule
+  change permissions of /home/runner/.nimble/pkgs/DecisionTree-0.1.1/rule/bagging.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1
+  change permissions of /home/runner/.nimble/pkgs/DecisionTree-0.1.1/tree.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1/train
+  change permissions of /home/runner/.nimble/pkgs/DecisionTree-0.1.1/train/train.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1/train
+  change permissions of /home/runner/.nimble/pkgs/DecisionTree-0.1.1/train/splitresult.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1/train
+  change permissions of /home/runner/.nimble/pkgs/DecisionTree-0.1.1/train/stop.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1/train
+  change permissions of /home/runner/.nimble/pkgs/DecisionTree-0.1.1/train/sons_gen.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1/train
+  change permissions of /home/runner/.nimble/pkgs/DecisionTree-0.1.1/train/split.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1/train
+  change permissions of /home/runner/.nimble/pkgs/DecisionTree-0.1.1/train/values_selection.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1
+  change permissions of /home/runner/.nimble/pkgs/DecisionTree-0.1.1/hyperparams.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1/random_forest
+  change permissions of /home/runner/.nimble/pkgs/DecisionTree-0.1.1/random_forest/random_forest.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1/random_forest
+  change permissions of /home/runner/.nimble/pkgs/DecisionTree-0.1.1/random_forest/parallel_rf.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1
+  change permissions of /home/runner/.nimble/pkgs/DecisionTree-0.1.1/DecisionTree.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/DecisionTree-0.1.1
+  change permissions of /home/runner/.nimble/pkgs/DecisionTree-0.1.1/view.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/DecisionTree-0.1.1/DecisionTree.nimble to rw-r--r--
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/DecisionTree_3121038989
+  delete /tmp/nimblecache/DecisionTree_3121038989/DecisionTree.ini
+  delete /tmp/nimble_3256.out
+  delete /home/runner/.nimble/pkgs/DecisionTree-0.1.1/DecisionTree_3256.nims
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.gitignore
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/sequtils2.nimble
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/LICENSE
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/sequtils2.nim
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/HEAD
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/config
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/logs/HEAD
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/logs
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/branches
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/packed-refs
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/refs/heads
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/refs/tags
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/refs
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks/pre-push.sample
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks/update.sample
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks/post-update.sample
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/hooks
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/index
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/info/exclude
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/info
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/shallow
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/description
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects/pack/pack-ef7d4637d059da155e1b8db4deb9b2c44e78b7f7.idx
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects/pack/pack-ef7d4637d059da155e1b8db4deb9b2c44e78b7f7.pack
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects/pack
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects/info
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git/objects
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/.git
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/sequtils2.html
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/README.md
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/tests/test_sequtils2.nim
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0/tests
+  delete /tmp/nimble_3256/githubcom_Michedevsequtils2_1.1.0
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/task.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/node/traverse.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/node/constructors.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/node/leaf.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/node/node.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/node/inode.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/node
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/utils.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/impurity.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/rule/stop_rules.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/rule/tree_rules.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/rule/bagging.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/rule
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/tree.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/train/train.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/train/splitresult.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/train/stop.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/train/sons_gen.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/train/split.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/train/values_selection.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/train
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/hyperparams.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/random_forest/random_forest.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/random_forest/parallel_rf.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/random_forest
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/DecisionTree.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src/view.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/src
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.gitignore
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/HEAD
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/config
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/logs/HEAD
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/logs/refs/heads/master
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/logs/refs/heads
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/logs/refs/remotes
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/logs/refs
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/logs
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/branches
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/packed-refs
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs/heads/master
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs/heads
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs/tags
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs/remotes/origin
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs/remotes
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/refs
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks/pre-push.sample
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks/update.sample
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks/post-update.sample
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/hooks
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/index
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/info/exclude
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/info
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/shallow
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/description
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects/pack/pack-23711aa6003a04f0ea19c9e966ba5dbfe5d9a5ca.idx
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects/pack/pack-23711aa6003a04f0ea19c9e966ba5dbfe5d9a5ca.pack
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects/pack
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects/info
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git/objects
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/.git
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/readme.MD
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/benchmark/rf.py
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/benchmark/rf.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/benchmark
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/DecisionTree.nimble
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/tests/test_fit_tree.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/tests/data/y_data
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/tests/data/iris.data
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/tests/data/X_data
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/tests/data/X_iris.csv
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/tests/data/y_iris.csv
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/tests/data
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/tests/test_utils.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/tests/test_impurity.nim
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim/tests
+  delete /tmp/nimble_3256/githubcom_MichedevDecisionTreeNim
+  delete /tmp/nimble_3256
