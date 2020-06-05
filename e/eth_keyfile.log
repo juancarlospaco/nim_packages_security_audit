@@ -1,0 +1,353 @@
+    Reading official package list
+Downloading https://github.com/status-im/nim-eth-keyfile using git
+  Verifying dependencies for eth_keyfile@0.1.1
+    Reading official package list
+   Checking for nimcrypto@any version
+      Info: Dependency on nimcrypto@any version already satisfied
+  Verifying dependencies for nimcrypto@0.4.11
+    Reading official package list
+   Checking for eth_keys@any version
+      Info: Dependency on eth_keys@any version already satisfied
+  Verifying dependencies for eth_keys@0.0.2
+    Reading official package list
+   Checking for nimcrypto@any version
+      Info: Dependency on nimcrypto@any version already satisfied
+  Verifying dependencies for nimcrypto@0.4.11
+    Reading official package list
+   Checking for secp256k1@any version
+      Info: Dependency on secp256k1@any version already satisfied
+   Warning: Package 'secp256k1' has an incorrect structure. The top level of the package source directory should contain at most one module, named 'secp256k1.nim', but a file named 'secp256k1_abi.nim' was found. This will be an error in the future.
+      Hint: If this is the primary source file in the package, rename it to 'secp256k1.nim'. If it's a source file required by the main module, or if it is one of several modules exposed by 'secp256k1', then move it into a 'secp256k1/' subdirectory. If it's a test file or otherwise not required to build the the package 'secp256k1.nim', prevent its installation by adding `skipFiles = @["secp256k1_abi.nim"]` to the .nimble file. See https://github.com/nim-lang/nimble#libraries for more info.
+  Verifying dependencies for secp256k1@0.2.0
+    Reading official package list
+   Checking for stew@any version
+      Info: Dependency on stew@any version already satisfied
+  Verifying dependencies for stew@0.1.0
+    Reading official package list
+   Checking for nimcrypto@any version
+      Info: Dependency on nimcrypto@any version already satisfied
+  Verifying dependencies for nimcrypto@0.4.11
+ Installing eth_keyfile@0.1.1
+    Copying file /tmp/nimble_8048/githubcom_statusimnimethkeyfile/eth_keyfile.nim to /home/runner/.nimble/pkgs/eth_keyfile-0.1.1/eth_keyfile.nim
+    Copying file /tmp/nimble_8048/githubcom_statusimnimethkeyfile/eth_keyfile/keyfile.nim to /home/runner/.nimble/pkgs/eth_keyfile-0.1.1/eth_keyfile/keyfile.nim
+    Copying file /tmp/nimble_8048/githubcom_statusimnimethkeyfile/eth_keyfile/uuid.nim to /home/runner/.nimble/pkgs/eth_keyfile-0.1.1/eth_keyfile/uuid.nim
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_8048', 0x00000000000001ff)
+mkdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile', 0x00000000000001ff)
+rmdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile')
+mkdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile', 0x00000000000001ff)
+mkdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/HEAD.lock', '/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/HEAD')
+rename('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock', '/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config')
+chmod('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock', '/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config')
+chmod('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock', '/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config')
+chmod('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock', '/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/tXmteVn')
+symlink('testing', '/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/tXmteVn')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/tXmteVn')
+mkdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock', '/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config')
+chmod('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock', '/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config')
+chmod('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock', '/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config')
+link('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects/pack/tmp_pack_BLwrL0', '/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects/pack/pack-32ac6119cd4ecfb2f2f35fb97d4d33c5548bdf47.pack')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects/pack/tmp_pack_BLwrL0')
+link('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects/pack/tmp_idx_5kpaNh', '/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects/pack/pack-32ac6119cd4ecfb2f2f35fb97d4d33c5548bdf47.idx')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects/pack/tmp_idx_5kpaNh')
+rename('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/shallow.lock', '/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/shallow')
+rename('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/packed-refs.new', '/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/packed-refs')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/packed-refs.lock')
+mkdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/HEAD.lock', '/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/HEAD')
+mkdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs/heads/master.lock', '/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs/heads/master')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/HEAD.lock')
+chmod('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock', '/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config')
+chmod('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock', '/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects/pack/pack-32ac6119cd4ecfb2f2f35fb97d4d33c5548bdf47.keep')
+mkdir('eth_keyfile', 0x00000000000001ff)
+mkdir('tests', 0x00000000000001ff)
+rename('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/index.lock', '/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/index')
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/eth_keyfile_2930043915', 0x00000000000001ff)
+unlink('/tmp/nimblecache/eth_keyfile_2930043915/eth_keyfile.ini')
+unlink('/tmp/nimble_8048.out')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/eth_keyfile_8048.nims')
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/eth_keyfile-0.1.1', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/eth_keyfile-0.1.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/eth_keyfile-0.1.1/eth_keyfile.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/eth_keyfile-0.1.1', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/eth_keyfile-0.1.1/eth_keyfile', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/eth_keyfile-0.1.1/eth_keyfile/keyfile.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/eth_keyfile-0.1.1', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/eth_keyfile-0.1.1/eth_keyfile', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/eth_keyfile-0.1.1/eth_keyfile/uuid.nim', 0x00000000000001a4)    Copying file /tmp/nimble_8048/githubcom_statusimnimethkeyfile/eth_keyfile.nimble to /home/runner/.nimble/pkgs/eth_keyfile-0.1.1/eth_keyfile.nimble
+   Success: eth_keyfile installed successfully.
+
+chmod('/home/runner/.nimble/pkgs/eth_keyfile-0.1.1/eth_keyfile.nimble', 0x00000000000001a4)
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/eth_keyfile_2320412007', 0x00000000000001ff)
+unlink('/tmp/nimblecache/eth_keyfile_2320412007/eth_keyfile.ini')
+unlink('/tmp/nimble_8048.out')
+unlink('/home/runner/.nimble/pkgs/eth_keyfile-0.1.1/eth_keyfile_8048.nims')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/eth_keyfile.nimble')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/LICENSE-APACHEv2')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.gitignore')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/eth_keyfile/keyfile.nim')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/eth_keyfile/uuid.nim')
+rmdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/eth_keyfile')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/eth_keyfile.nim')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/LICENSE-MIT')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.travis.yml')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.appveyor.yml')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/HEAD')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/logs/HEAD')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/logs/refs/heads')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/logs/refs/remotes')
+rmdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/logs/refs')
+rmdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/logs')
+rmdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/branches')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/packed-refs')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs/heads/master')
+rmdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs/heads')
+rmdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs/tags')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs/remotes')
+rmdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks/update.sample')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/index')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/info/exclude')
+rmdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/info')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/shallow')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/description')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects/pack/pack-32ac6119cd4ecfb2f2f35fb97d4d33c5548bdf47.idx')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects/pack/pack-32ac6119cd4ecfb2f2f35fb97d4d33c5548bdf47.pack')
+rmdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects/pack')
+rmdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects/info')
+rmdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects')
+rmdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/README.md')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/tests/config.nims')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/tests/testkeyfile.nim')
+unlink('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/tests/testuuid.nim')
+rmdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile/tests')
+rmdir('/tmp/nimble_8048/githubcom_statusimnimethkeyfile')
+rmdir('/tmp/nimble_8048')
+  create directory /tmp
+  create directory /tmp/nimble_8048
+  create directory /tmp/nimble_8048/githubcom_statusimnimethkeyfile
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile
+  create directory /tmp/nimble_8048/githubcom_statusimnimethkeyfile
+  create directory /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git
+  create directory /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git
+  create directory /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/branches
+  create directory /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks
+  create directory /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/info
+  create directory /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs
+  create directory /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs/heads
+  create directory /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs/tags
+  rename /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock to config
+  change permissions of /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock to config
+  change permissions of /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock to config
+  change permissions of /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock to config
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/tXmteVn
+  create symbolic link from /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/tXmteVn to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/tXmteVn
+  create directory /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects
+  create directory /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects/pack
+  create directory /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects/info
+  change permissions of /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock to config
+  change permissions of /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock to config
+  change permissions of /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock to config
+  create hard link from /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects/pack/pack-32ac6119cd4ecfb2f2f35fb97d4d33c5548bdf47.pack to /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects/pack/tmp_pack_BLwrL0
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects/pack/tmp_pack_BLwrL0
+  create hard link from /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects/pack/pack-32ac6119cd4ecfb2f2f35fb97d4d33c5548bdf47.idx to /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects/pack/tmp_idx_5kpaNh
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects/pack/tmp_idx_5kpaNh
+  rename /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/shallow.lock to shallow
+  rename /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/packed-refs.lock
+  create directory /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs/remotes
+  create directory /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs/remotes/origin
+  create directory /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/logs
+  create directory /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/logs/refs
+  create directory /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/logs/refs/remotes
+  create directory /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/logs/refs/heads
+  rename /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/HEAD.lock
+  change permissions of /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock to config
+  change permissions of /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config.lock to config
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects/pack/pack-32ac6119cd4ecfb2f2f35fb97d4d33c5548bdf47.keep
+  create directory /tmp/nimble_8048/githubcom_statusimnimethkeyfile/eth_keyfile
+  create directory /tmp/nimble_8048/githubcom_statusimnimethkeyfile/tests
+  rename /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/index.lock to index
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/eth_keyfile_2930043915
+  delete /tmp/nimblecache/eth_keyfile_2930043915/eth_keyfile.ini
+  delete /tmp/nimble_8048.out
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/eth_keyfile_8048.nims
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/eth_keyfile-0.1.1
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/eth_keyfile-0.1.1
+  change permissions of /home/runner/.nimble/pkgs/eth_keyfile-0.1.1/eth_keyfile.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/eth_keyfile-0.1.1
+  create directory /home/runner/.nimble/pkgs/eth_keyfile-0.1.1/eth_keyfile
+  change permissions of /home/runner/.nimble/pkgs/eth_keyfile-0.1.1/eth_keyfile/keyfile.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/eth_keyfile-0.1.1
+  create directory /home/runner/.nimble/pkgs/eth_keyfile-0.1.1/eth_keyfile
+  change permissions of /home/runner/.nimble/pkgs/eth_keyfile-0.1.1/eth_keyfile/uuid.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/eth_keyfile-0.1.1/eth_keyfile.nimble to rw-r--r--
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/eth_keyfile_2320412007
+  delete /tmp/nimblecache/eth_keyfile_2320412007/eth_keyfile.ini
+  delete /tmp/nimble_8048.out
+  delete /home/runner/.nimble/pkgs/eth_keyfile-0.1.1/eth_keyfile_8048.nims
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/eth_keyfile.nimble
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/LICENSE-APACHEv2
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.gitignore
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/eth_keyfile/keyfile.nim
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/eth_keyfile/uuid.nim
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/eth_keyfile
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/eth_keyfile.nim
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/LICENSE-MIT
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.travis.yml
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.appveyor.yml
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/HEAD
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/config
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/logs/HEAD
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/logs/refs/heads/master
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/logs/refs/heads
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/logs/refs/remotes
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/logs/refs
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/logs
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/branches
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/packed-refs
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs/heads/master
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs/heads
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs/tags
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs/remotes/origin
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs/remotes
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/refs
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks/pre-push.sample
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks/update.sample
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks/post-update.sample
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/hooks
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/index
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/info/exclude
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/info
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/shallow
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/description
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects/pack/pack-32ac6119cd4ecfb2f2f35fb97d4d33c5548bdf47.idx
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects/pack/pack-32ac6119cd4ecfb2f2f35fb97d4d33c5548bdf47.pack
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects/pack
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects/info
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git/objects
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/.git
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/README.md
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/tests/config.nims
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/tests/testkeyfile.nim
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/tests/testuuid.nim
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile/tests
+  delete /tmp/nimble_8048/githubcom_statusimnimethkeyfile
+  delete /tmp/nimble_8048
