@@ -1,0 +1,16 @@
+    Reading official package list
+Downloading https://github.com/ephja/nim-glfw using git
+download.nim(93)         getTagsListRemote
+Error: unhandled exception: Unable to query remote tags for https://github.com/ephja/nim-glfw. Git returned: remote: Repository not found.
+fatal: repository 'https://github.com/ephja/nim-glfw/' not found
+ [OSError]
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_3331', 0x00000000000001ff)
+mkdir('/tmp/nimble_3331/githubcom_ephjanimglfw', 0x00000000000001ff)
+rmdir('/tmp/nimble_3331/githubcom_ephjanimglfw')
+rmdir('/tmp/nimble_3331')
+  create directory /tmp
+  create directory /tmp/nimble_3331
+  create directory /tmp/nimble_3331/githubcom_ephjanimglfw
+  delete /tmp/nimble_3331/githubcom_ephjanimglfw
+  delete /tmp/nimble_3331

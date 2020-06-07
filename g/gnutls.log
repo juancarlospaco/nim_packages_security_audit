@@ -1,0 +1,547 @@
+    Reading official package list
+Downloading https://github.com/FedericoCeratto/nim-gnutls using git
+    Cloning latest tagged version: 0.1.0
+       Info /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/gnutls_16343.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/gnutls_16343.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+   Warning: Package 'gnutls' has an incorrect structure. The top level of the package source directory should contain at most one module, named 'gnutls.nim', but a file named 'urls.nim' was found. This will be an error in the future.
+      Hint: If this is the primary source file in the package, rename it to 'gnutls.nim'. If it's a source file required by the main module, or if it is one of several modules exposed by 'gnutls', then move it into a 'gnutls/' subdirectory. If it's a test file or otherwise not required to build the the package 'gnutls.nim', prevent its installation by adding `skipFiles = @["urls.nim"]` to the .nimble file. See https://github.com/nim-lang/nimble#libraries for more info.
+  Verifying dependencies for gnutls@0.1.0
+ Installing gnutls@0.1.0
+    Copying file /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/urls.nim to /home/runner/.nimble/pkgs/gnutls-0.1.0/urls.nim
+    Copying file /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/system_keys.nim to /home/runner/.nimble/pkgs/gnutls-0.1.0/system_keys.nim
+    Copying file /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/abstract.nim to /home/runner/.nimble/pkgs/gnutls-0.1.0/abstract.nim
+    Copying file /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/self_test.nim to /home/runner/.nimble/pkgs/gnutls-0.1.0/self_test.nim
+    Copying file /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/x509_ext.nim to /home/runner/.nimble/pkgs/gnutls-0.1.0/x509_ext.nim
+    Copying file /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/openssl.nim to /home/runner/.nimble/pkgs/gnutls-0.1.0/openssl.nim
+    Copying file /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/common.nim to /home/runner/.nimble/pkgs/gnutls-0.1.0/common.nim
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_16343', 0x00000000000001ff)
+mkdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls', 0x00000000000001ff)
+rmdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls')
+mkdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls', 0x00000000000001ff)
+mkdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/HEAD.lock', '/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/HEAD')
+rename('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config.lock', '/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config')
+chmod('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config.lock', '/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config')
+chmod('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config.lock', '/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config')
+chmod('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config.lock', '/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/t3wueeO')
+symlink('testing', '/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/t3wueeO')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/t3wueeO')
+mkdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config.lock', '/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config')
+chmod('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config.lock', '/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config')
+chmod('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config.lock', '/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config')
+link('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects/pack/tmp_pack_oaqmn4', '/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects/pack/pack-c9e2b329831c8a51516c7b525d57ab2c2dad8c74.pack')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects/pack/tmp_pack_oaqmn4')
+link('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects/pack/tmp_idx_bLQCkn', '/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects/pack/pack-c9e2b329831c8a51516c7b525d57ab2c2dad8c74.idx')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects/pack/tmp_idx_bLQCkn')
+rename('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/shallow.lock', '/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/shallow')
+rename('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/packed-refs.new', '/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/packed-refs')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/packed-refs.lock')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/refs/tags/0.1.0.lock')
+mkdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/HEAD.lock', '/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/HEAD')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects/pack/pack-c9e2b329831c8a51516c7b525d57ab2c2dad8c74.keep')
+mkdir('src', 0x00000000000001ff)
+mkdir('tests', 0x00000000000001ff)
+mkdir('tests/data', 0x00000000000001ff)
+rename('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/index.lock', '/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/index')
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/gnutls_392345825', 0x00000000000001ff)
+unlink('/tmp/nimblecache/gnutls_392345825/gnutls.ini')
+unlink('/tmp/nimble_16343.out')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/gnutls_16343.nims')
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/gnutls-0.1.0', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/gnutls-0.1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/gnutls-0.1.0/urls.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/gnutls-0.1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/gnutls-0.1.0/system_keys.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/gnutls-0.1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/gnutls-0.1.0/abstract.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/gnutls-0.1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/gnutls-0.1.0/self_test.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/gnutls-0.1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/gnutls-0.1.0/x509_ext.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/gnutls-0.1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/gnutls-0.1.0/openssl.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/gnutls-0.1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/gnutls-0.1.0/common.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)    Copying file /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/ocsp.nim to /home/runner/.nimble/pkgs/gnutls-0.1.0/ocsp.nim
+    Copying file /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/crypto.nim to /home/runner/.nimble/pkgs/gnutls-0.1.0/crypto.nim
+    Copying file /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/gnutls.nim to /home/runner/.nimble/pkgs/gnutls-0.1.0/gnutls.nim
+    Copying file /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/pkcs7.nim to /home/runner/.nimble/pkgs/gnutls-0.1.0/pkcs7.nim
+    Copying file /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/compat.nim to /home/runner/.nimble/pkgs/gnutls-0.1.0/compat.nim
+    Copying file /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/openpgp.nim to /home/runner/.nimble/pkgs/gnutls-0.1.0/openpgp.nim
+    Copying file /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/pkcs11.nim to /home/runner/.nimble/pkgs/gnutls-0.1.0/pkcs11.nim
+    Copying file /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/dane.nim to /home/runner/.nimble/pkgs/gnutls-0.1.0/dane.nim
+    Copying file /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/pkcs12.nim to /home/runner/.nimble/pkgs/gnutls-0.1.0/pkcs12.nim
+    Copying file /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/x509.nim to /home/runner/.nimble/pkgs/gnutls-0.1.0/x509.nim
+    Copying file /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/tpm.nim to /home/runner/.nimble/pkgs/gnutls-0.1.0/tpm.nim
+    Copying file /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/socket.nim to /home/runner/.nimble/pkgs/gnutls-0.1.0/socket.nim
+    Copying file /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/dtls.nim to /home/runner/.nimble/pkgs/gnutls-0.1.0/dtls.nim
+    Copying file /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/gnutls.nimble to /home/runner/.nimble/pkgs/gnutls-0.1.0/gnutls.nimble
+   Success: gnutls installed successfully.
+       Info /home/runner/.nimble/pkgs/gnutls-0.1.0/gnutls_16343.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /home/runner/.nimble/pkgs/gnutls-0.1.0/gnutls_16343.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/gnutls-0.1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/gnutls-0.1.0/ocsp.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/gnutls-0.1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/gnutls-0.1.0/crypto.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/gnutls-0.1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/gnutls-0.1.0/gnutls.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/gnutls-0.1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/gnutls-0.1.0/pkcs7.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/gnutls-0.1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/gnutls-0.1.0/compat.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/gnutls-0.1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/gnutls-0.1.0/openpgp.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/gnutls-0.1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/gnutls-0.1.0/pkcs11.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/gnutls-0.1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/gnutls-0.1.0/dane.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/gnutls-0.1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/gnutls-0.1.0/pkcs12.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/gnutls-0.1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/gnutls-0.1.0/x509.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/gnutls-0.1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/gnutls-0.1.0/tpm.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/gnutls-0.1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/gnutls-0.1.0/socket.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/gnutls-0.1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/gnutls-0.1.0/dtls.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/gnutls-0.1.0/gnutls.nimble', 0x00000000000001a4)
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/gnutls_1453878422', 0x00000000000001ff)
+unlink('/tmp/nimblecache/gnutls_1453878422/gnutls.ini')
+unlink('/tmp/nimble_16343.out')
+unlink('/home/runner/.nimble/pkgs/gnutls-0.1.0/gnutls_16343.nims')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/urls.nim')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/system_keys.nim')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/abstract.nim')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/self_test.nim')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/x509_ext.nim')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/openssl.nim')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/common.nim')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/ocsp.nim')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/crypto.nim')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/gnutls.nim')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/pkcs7.nim')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/compat.nim')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/openpgp.nim')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/pkcs11.nim')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/dane.nim')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/pkcs12.nim')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/x509.nim')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/tpm.nim')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/socket.nim')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/dtls.nim')
+rmdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/README.adoc')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/LICENSE')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.travis.yml')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/HEAD')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/logs/HEAD')
+rmdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/logs')
+rmdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/branches')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/packed-refs')
+rmdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/refs/heads')
+rmdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/refs/tags')
+rmdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/refs')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks/update.sample')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/index')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/info/exclude')
+rmdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/info')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/shallow')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/description')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects/pack/pack-c9e2b329831c8a51516c7b525d57ab2c2dad8c74.pack')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects/pack/pack-c9e2b329831c8a51516c7b525d57ab2c2dad8c74.idx')
+rmdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects/pack')
+rmdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects/info')
+rmdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects')
+rmdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/gnutls.nimble')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/tests/test_sign.nim')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/tests/data/key2')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/tests/data/key.pk8')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/tests/data/key.pem.pk8')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/tests/data/key.pem')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/tests/data/cert.x509.pem')
+unlink('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/tests/data/signer.nim')
+rmdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/tests/data')
+rmdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/tests')
+rmdir('/tmp/nimble_16343/githubcom_FedericoCerattonimgnutls')
+rmdir('/tmp/nimble_16343')
+  create directory /tmp
+  create directory /tmp/nimble_16343
+  create directory /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls
+  create directory /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls
+  create directory /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git
+  create directory /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git
+  create directory /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/branches
+  create directory /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks
+  create directory /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/info
+  create directory /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/refs
+  create directory /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/refs/heads
+  create directory /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/refs/tags
+  rename /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config.lock to config
+  change permissions of /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config.lock to config
+  change permissions of /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config.lock to config
+  change permissions of /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config.lock to config
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/t3wueeO
+  create symbolic link from /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/t3wueeO to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/t3wueeO
+  create directory /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects
+  create directory /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects/pack
+  create directory /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects/info
+  change permissions of /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config.lock to config
+  change permissions of /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config.lock to config
+  change permissions of /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config.lock to config
+  create hard link from /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects/pack/pack-c9e2b329831c8a51516c7b525d57ab2c2dad8c74.pack to /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects/pack/tmp_pack_oaqmn4
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects/pack/tmp_pack_oaqmn4
+  create hard link from /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects/pack/pack-c9e2b329831c8a51516c7b525d57ab2c2dad8c74.idx to /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects/pack/tmp_idx_bLQCkn
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects/pack/tmp_idx_bLQCkn
+  rename /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/shallow.lock to shallow
+  rename /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/packed-refs.lock
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/refs/tags/0.1.0.lock
+  create directory /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/logs
+  rename /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/HEAD.lock to HEAD
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects/pack/pack-c9e2b329831c8a51516c7b525d57ab2c2dad8c74.keep
+  create directory /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src
+  create directory /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/tests
+  create directory /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/tests/data
+  rename /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/index.lock to index
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/gnutls_392345825
+  delete /tmp/nimblecache/gnutls_392345825/gnutls.ini
+  delete /tmp/nimble_16343.out
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/gnutls_16343.nims
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/gnutls-0.1.0
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/gnutls-0.1.0
+  change permissions of /home/runner/.nimble/pkgs/gnutls-0.1.0/urls.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/gnutls-0.1.0
+  change permissions of /home/runner/.nimble/pkgs/gnutls-0.1.0/system_keys.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/gnutls-0.1.0
+  change permissions of /home/runner/.nimble/pkgs/gnutls-0.1.0/abstract.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/gnutls-0.1.0
+  change permissions of /home/runner/.nimble/pkgs/gnutls-0.1.0/self_test.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/gnutls-0.1.0
+  change permissions of /home/runner/.nimble/pkgs/gnutls-0.1.0/x509_ext.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/gnutls-0.1.0
+  change permissions of /home/runner/.nimble/pkgs/gnutls-0.1.0/openssl.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/gnutls-0.1.0
+  change permissions of /home/runner/.nimble/pkgs/gnutls-0.1.0/common.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/gnutls-0.1.0
+  change permissions of /home/runner/.nimble/pkgs/gnutls-0.1.0/ocsp.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/gnutls-0.1.0
+  change permissions of /home/runner/.nimble/pkgs/gnutls-0.1.0/crypto.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/gnutls-0.1.0
+  change permissions of /home/runner/.nimble/pkgs/gnutls-0.1.0/gnutls.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/gnutls-0.1.0
+  change permissions of /home/runner/.nimble/pkgs/gnutls-0.1.0/pkcs7.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/gnutls-0.1.0
+  change permissions of /home/runner/.nimble/pkgs/gnutls-0.1.0/compat.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/gnutls-0.1.0
+  change permissions of /home/runner/.nimble/pkgs/gnutls-0.1.0/openpgp.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/gnutls-0.1.0
+  change permissions of /home/runner/.nimble/pkgs/gnutls-0.1.0/pkcs11.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/gnutls-0.1.0
+  change permissions of /home/runner/.nimble/pkgs/gnutls-0.1.0/dane.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/gnutls-0.1.0
+  change permissions of /home/runner/.nimble/pkgs/gnutls-0.1.0/pkcs12.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/gnutls-0.1.0
+  change permissions of /home/runner/.nimble/pkgs/gnutls-0.1.0/x509.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/gnutls-0.1.0
+  change permissions of /home/runner/.nimble/pkgs/gnutls-0.1.0/tpm.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/gnutls-0.1.0
+  change permissions of /home/runner/.nimble/pkgs/gnutls-0.1.0/socket.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/gnutls-0.1.0
+  change permissions of /home/runner/.nimble/pkgs/gnutls-0.1.0/dtls.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/gnutls-0.1.0/gnutls.nimble to rw-r--r--
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/gnutls_1453878422
+  delete /tmp/nimblecache/gnutls_1453878422/gnutls.ini
+  delete /tmp/nimble_16343.out
+  delete /home/runner/.nimble/pkgs/gnutls-0.1.0/gnutls_16343.nims
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/urls.nim
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/system_keys.nim
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/abstract.nim
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/self_test.nim
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/x509_ext.nim
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/openssl.nim
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/common.nim
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/ocsp.nim
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/crypto.nim
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/gnutls.nim
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/pkcs7.nim
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/compat.nim
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/openpgp.nim
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/pkcs11.nim
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/dane.nim
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/pkcs12.nim
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/x509.nim
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/tpm.nim
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/socket.nim
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src/dtls.nim
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/src
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/README.adoc
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/LICENSE
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.travis.yml
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/HEAD
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/config
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/logs/HEAD
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/logs
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/branches
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/packed-refs
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/refs/heads
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/refs/tags
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/refs
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks/pre-push.sample
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks/update.sample
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks/post-update.sample
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/hooks
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/index
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/info/exclude
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/info
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/shallow
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/description
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects/pack/pack-c9e2b329831c8a51516c7b525d57ab2c2dad8c74.pack
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects/pack/pack-c9e2b329831c8a51516c7b525d57ab2c2dad8c74.idx
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects/pack
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects/info
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git/objects
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/.git
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/gnutls.nimble
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/tests/test_sign.nim
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/tests/data/key2
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/tests/data/key.pk8
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/tests/data/key.pem.pk8
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/tests/data/key.pem
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/tests/data/cert.x509.pem
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/tests/data/signer.nim
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/tests/data
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls/tests
+  delete /tmp/nimble_16343/githubcom_FedericoCerattonimgnutls
+  delete /tmp/nimble_16343
