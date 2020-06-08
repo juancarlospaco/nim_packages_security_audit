@@ -74,3 +74,9 @@ You dont, is a *repo bot*.
 - I Forked it and wont work?.
 
 You dont, is a *repo bot*.
+
+
+# Help Wanted
+
+If you develop some kind of library that does Plotting, Charts, Visualizations on Nim, 
+would be nice to have some cool visualizations with the dataset of those audit logs!.
