@@ -1,294 +1,294 @@
     Reading official package list
 Downloading https://github.com/nimious/io-myo.git using git
-   Warning: Package 'myo' has an incorrect structure. The top level of the package source directory should contain at most one module, named 'myo.nim', but a file named 'myohw.nim' was found. This will be an error in the future.
-      Hint: If this is the primary source file in the package, rename it to 'myo.nim'. If it's a source file required by the main module, or if it is one of several modules exposed by 'myo', then move it into a 'myo/' subdirectory. If it's a test file or otherwise not required to build the the package 'myo.nim', prevent its installation by adding `skipFiles = @["myohw.nim"]` to the .nimble file. See https://github.com/nim-lang/nimble#libraries for more info.
+   Warning: Package 'myo' has an incorrect structure. The top level of the package source directory should contain at most one module, named 'myo.nim', but a file named 'libmyo.nim' was found. This will be an error in the future.
+      Hint: If this is the primary source file in the package, rename it to 'myo.nim'. If it's a source file required by the main module, or if it is one of several modules exposed by 'myo', then move it into a 'myo/' subdirectory. If it's a test file or otherwise not required to build the the package 'myo.nim', prevent its installation by adding `skipFiles = @["libmyo.nim"]` to the .nimble file. See https://github.com/nim-lang/nimble#libraries for more info.
   Verifying dependencies for myo@1.0
  Installing myo@1.0
-    Copying file /tmp/nimble_4036/githubcom_nimiousiomyogit/src/myohw.nim to /home/runner/.nimble/pkgs/myo-1.0/myohw.nim
-    Copying file /tmp/nimble_4036/githubcom_nimiousiomyogit/src/libmyo.nim to /home/runner/.nimble/pkgs/myo-1.0/libmyo.nim
-    Copying file /tmp/nimble_4036/githubcom_nimiousiomyogit/myo.nimble to /home/runner/.nimble/pkgs/myo-1.0/myo.nimble
+    Copying file /tmp/nimble_3769/githubcom_nimiousiomyogit/src/libmyo.nim to /home/runner/.nimble/pkgs/myo-1.0/libmyo.nim
+    Copying file /tmp/nimble_3769/githubcom_nimiousiomyogit/src/myohw.nim to /home/runner/.nimble/pkgs/myo-1.0/myohw.nim
+    Copying file /tmp/nimble_3769/githubcom_nimiousiomyogit/myo.nimble to /home/runner/.nimble/pkgs/myo-1.0/myo.nimble
    Success: myo installed successfully.
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_4036', 0x00000000000001ff)
-mkdir('/tmp/nimble_4036/githubcom_nimiousiomyogit', 0x00000000000001ff)
-rmdir('/tmp/nimble_4036/githubcom_nimiousiomyogit')
-mkdir('/tmp/nimble_4036/githubcom_nimiousiomyogit', 0x00000000000001ff)
-mkdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/HEAD.lock', '/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/HEAD')
-rename('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock', '/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config')
-chmod('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock', '/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config')
-chmod('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock', '/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config')
-chmod('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock', '/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/tQuf2bn')
-symlink('testing', '/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/tQuf2bn')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/tQuf2bn')
-mkdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock', '/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config')
-chmod('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock', '/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config')
-chmod('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock', '/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config')
-link('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects/pack/tmp_pack_ZR5FPi', '/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects/pack/pack-ff06554280dc4171fd5a1dfe370b0f86da05eada.pack')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects/pack/tmp_pack_ZR5FPi')
-link('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects/pack/tmp_idx_Cvnqke', '/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects/pack/pack-ff06554280dc4171fd5a1dfe370b0f86da05eada.idx')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects/pack/tmp_idx_Cvnqke')
-rename('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/shallow.lock', '/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/shallow')
-rename('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/packed-refs.new', '/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/packed-refs')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/packed-refs.lock')
-mkdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs/remotes/origin', 0x00000000000001ff)
-mkdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/logs', 0x00000000000001ff)
-mkdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/logs/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/logs/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/logs/refs/remotes/origin', 0x00000000000001ff)
-rename('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs/remotes/origin/HEAD')
-rename('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/HEAD.lock', '/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/HEAD')
-mkdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/logs/refs/heads', 0x00000000000001ff)
-rename('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs/heads/master.lock', '/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs/heads/master')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/HEAD.lock')
-chmod('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock', '/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config')
-chmod('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock', '/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects/pack/pack-ff06554280dc4171fd5a1dfe370b0f86da05eada.keep')
+mkdir('/tmp/nimble_3769', 0x00000000000001ff)
+mkdir('/tmp/nimble_3769/githubcom_nimiousiomyogit', 0x00000000000001ff)
+rmdir('/tmp/nimble_3769/githubcom_nimiousiomyogit')
+mkdir('/tmp/nimble_3769/githubcom_nimiousiomyogit', 0x00000000000001ff)
+mkdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/HEAD.lock', '/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/HEAD')
+rename('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock', '/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config')
+chmod('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock', '/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config')
+chmod('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock', '/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config')
+chmod('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock', '/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/tOKnnCM')
+symlink('testing', '/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/tOKnnCM')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/tOKnnCM')
+mkdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock', '/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config')
+chmod('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock', '/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config')
+chmod('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock', '/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config')
+link('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects/pack/tmp_pack_QmMCuF', '/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects/pack/pack-ff06554280dc4171fd5a1dfe370b0f86da05eada.pack')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects/pack/tmp_pack_QmMCuF')
+link('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects/pack/tmp_idx_d6lAAF', '/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects/pack/pack-ff06554280dc4171fd5a1dfe370b0f86da05eada.idx')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects/pack/tmp_idx_d6lAAF')
+rename('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/shallow.lock', '/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/shallow')
+rename('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/packed-refs.new', '/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/packed-refs')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/packed-refs.lock')
+mkdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/HEAD.lock', '/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/HEAD')
+mkdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs/heads/master.lock', '/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs/heads/master')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/HEAD.lock')
+chmod('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock', '/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config')
+chmod('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock', '/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects/pack/pack-ff06554280dc4171fd5a1dfe370b0f86da05eada.keep')
 mkdir('docs', 0x00000000000001ff)
 mkdir('examples', 0x00000000000001ff)
 mkdir('src', 0x00000000000001ff)
-rename('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/index.lock', '/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/index')
+rename('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/index.lock', '/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/index')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/myo-1.0', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/myo-1.0', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/myo-1.0/myohw.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/myo-1.0', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/myo-1.0/libmyo.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/myo-1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/myo-1.0/myohw.nim', 0x00000000000001a4)
 chmod('/home/runner/.nimble/pkgs/myo-1.0/myo.nimble', 0x00000000000001a4)
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/examples/events_example.nim')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/examples/vibrate_example.nim')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/examples/emg_example.nim')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/examples/nim.cfg')
-rmdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/examples')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/docs/logo.png')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/docs/myo.html')
-rmdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/docs')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/README.md')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs/remotes/origin')
-rmdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs/remotes')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs/heads/master')
-rmdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs/heads')
-rmdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs/tags')
-rmdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/logs/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/logs/refs/remotes/origin')
-rmdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/logs/refs/remotes')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/logs/refs/heads/master')
-rmdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/logs/refs/heads')
-rmdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/logs/refs')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/logs/HEAD')
-rmdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/logs')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/packed-refs')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/HEAD')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/description')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks/update.sample')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks/post-update.sample')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks/pre-merge-commit.sample')
-rmdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects/pack/pack-ff06554280dc4171fd5a1dfe370b0f86da05eada.idx')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects/pack/pack-ff06554280dc4171fd5a1dfe370b0f86da05eada.pack')
-rmdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects/pack')
-rmdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects/info')
-rmdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects')
-rmdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/branches')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/index')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/info/exclude')
-rmdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/info')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git/shallow')
-rmdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/.git')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/.gitignore')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/nimdoc.cfg')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/LICENSE')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/nim.cfg')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/myo.nimble')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/src/myohw.nim')
-unlink('/tmp/nimble_4036/githubcom_nimiousiomyogit/src/libmyo.nim')
-rmdir('/tmp/nimble_4036/githubcom_nimiousiomyogit/src')
-rmdir('/tmp/nimble_4036/githubcom_nimiousiomyogit')
-rmdir('/tmp/nimble_4036')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/examples/vibrate_example.nim')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/examples/events_example.nim')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/examples/emg_example.nim')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/examples/nim.cfg')
+rmdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/examples')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/nimdoc.cfg')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/src/libmyo.nim')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/src/myohw.nim')
+rmdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/src')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.gitignore')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/LICENSE')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/docs/logo.png')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/docs/myo.html')
+rmdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/docs')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/HEAD')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/logs/HEAD')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/logs/refs/heads')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/logs/refs/remotes')
+rmdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/logs/refs')
+rmdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/logs')
+rmdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/branches')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/packed-refs')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs/heads/master')
+rmdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs/heads')
+rmdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs/tags')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs/remotes')
+rmdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks/update.sample')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/index')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/info/exclude')
+rmdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/info')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/shallow')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/description')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects/pack/pack-ff06554280dc4171fd5a1dfe370b0f86da05eada.pack')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects/pack/pack-ff06554280dc4171fd5a1dfe370b0f86da05eada.idx')
+rmdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects/pack')
+rmdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects/info')
+rmdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects')
+rmdir('/tmp/nimble_3769/githubcom_nimiousiomyogit/.git')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/myo.nimble')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/README.md')
+unlink('/tmp/nimble_3769/githubcom_nimiousiomyogit/nim.cfg')
+rmdir('/tmp/nimble_3769/githubcom_nimiousiomyogit')
+rmdir('/tmp/nimble_3769')
   create directory /tmp
-  create directory /tmp/nimble_4036
-  create directory /tmp/nimble_4036/githubcom_nimiousiomyogit
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit
-  create directory /tmp/nimble_4036/githubcom_nimiousiomyogit
-  create directory /tmp/nimble_4036/githubcom_nimiousiomyogit/.git
-  create directory /tmp/nimble_4036/githubcom_nimiousiomyogit/.git
-  create directory /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks
-  create directory /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/branches
-  create directory /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/info
-  create directory /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs
-  create directory /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs/heads
-  create directory /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs/tags
-  rename /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock to config
-  change permissions of /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock to config
-  change permissions of /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock to config
-  change permissions of /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock to config
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/tQuf2bn
-  create symbolic link from /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/tQuf2bn to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/tQuf2bn
-  create directory /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects
-  create directory /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects/pack
-  create directory /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects/info
-  change permissions of /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock to config
-  change permissions of /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock to config
-  change permissions of /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock to config
-  create hard link from /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects/pack/pack-ff06554280dc4171fd5a1dfe370b0f86da05eada.pack to /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects/pack/tmp_pack_ZR5FPi
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects/pack/tmp_pack_ZR5FPi
-  create hard link from /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects/pack/pack-ff06554280dc4171fd5a1dfe370b0f86da05eada.idx to /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects/pack/tmp_idx_Cvnqke
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects/pack/tmp_idx_Cvnqke
-  rename /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/shallow.lock to shallow
-  rename /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/packed-refs.lock
-  create directory /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs/remotes
-  create directory /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs/remotes/origin
-  create directory /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/logs
-  create directory /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/logs/refs
-  create directory /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/logs/refs/remotes
-  create directory /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/logs/refs/remotes/origin
-  rename /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs/remotes/origin/HEAD.lock to HEAD
-  rename /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/HEAD.lock to HEAD
-  create directory /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/logs/refs/heads
-  rename /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs/heads/master.lock to master
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/HEAD.lock
-  change permissions of /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock to config
-  change permissions of /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config.lock to config
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects/pack/pack-ff06554280dc4171fd5a1dfe370b0f86da05eada.keep
-  create directory /tmp/nimble_4036/githubcom_nimiousiomyogit/docs
-  create directory /tmp/nimble_4036/githubcom_nimiousiomyogit/examples
-  create directory /tmp/nimble_4036/githubcom_nimiousiomyogit/src
-  rename /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/index.lock to index
+  create directory /tmp/nimble_3769
+  create directory /tmp/nimble_3769/githubcom_nimiousiomyogit
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit
+  create directory /tmp/nimble_3769/githubcom_nimiousiomyogit
+  create directory /tmp/nimble_3769/githubcom_nimiousiomyogit/.git
+  create directory /tmp/nimble_3769/githubcom_nimiousiomyogit/.git
+  create directory /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/branches
+  create directory /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks
+  create directory /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/info
+  create directory /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs
+  create directory /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs/heads
+  create directory /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs/tags
+  rename /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock to config
+  change permissions of /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock to config
+  change permissions of /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock to config
+  change permissions of /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock to config
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/tOKnnCM
+  create symbolic link from /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/tOKnnCM to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/tOKnnCM
+  create directory /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects
+  create directory /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects/pack
+  create directory /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects/info
+  change permissions of /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock to config
+  change permissions of /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock to config
+  change permissions of /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock to config
+  create hard link from /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects/pack/pack-ff06554280dc4171fd5a1dfe370b0f86da05eada.pack to /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects/pack/tmp_pack_QmMCuF
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects/pack/tmp_pack_QmMCuF
+  create hard link from /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects/pack/pack-ff06554280dc4171fd5a1dfe370b0f86da05eada.idx to /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects/pack/tmp_idx_d6lAAF
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects/pack/tmp_idx_d6lAAF
+  rename /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/shallow.lock to shallow
+  rename /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/packed-refs.lock
+  create directory /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs/remotes
+  create directory /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs/remotes/origin
+  create directory /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/logs
+  create directory /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/logs/refs
+  create directory /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/logs/refs/remotes
+  create directory /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/logs/refs/heads
+  rename /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/HEAD.lock
+  change permissions of /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock to config
+  change permissions of /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config.lock to config
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects/pack/pack-ff06554280dc4171fd5a1dfe370b0f86da05eada.keep
+  create directory /tmp/nimble_3769/githubcom_nimiousiomyogit/docs
+  create directory /tmp/nimble_3769/githubcom_nimiousiomyogit/examples
+  create directory /tmp/nimble_3769/githubcom_nimiousiomyogit/src
+  rename /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/index.lock to index
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/myo-1.0
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/myo-1.0
-  change permissions of /home/runner/.nimble/pkgs/myo-1.0/myohw.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/myo-1.0
   change permissions of /home/runner/.nimble/pkgs/myo-1.0/libmyo.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/myo-1.0
+  change permissions of /home/runner/.nimble/pkgs/myo-1.0/myohw.nim to rw-r--r--
   change permissions of /home/runner/.nimble/pkgs/myo-1.0/myo.nimble to rw-r--r--
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/examples/events_example.nim
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/examples/vibrate_example.nim
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/examples/emg_example.nim
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/examples/nim.cfg
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/examples
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/docs/logo.png
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/docs/myo.html
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/docs
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/README.md
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs/remotes/origin/HEAD
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs/remotes/origin
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs/remotes
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs/heads/master
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs/heads
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs/tags
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/refs
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/config
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/logs/refs/remotes/origin/HEAD
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/logs/refs/remotes/origin
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/logs/refs/remotes
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/logs/refs/heads/master
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/logs/refs/heads
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/logs/refs
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/logs/HEAD
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/logs
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/packed-refs
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/HEAD
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/description
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks/update.sample
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks/pre-push.sample
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks/post-update.sample
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/hooks
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects/pack/pack-ff06554280dc4171fd5a1dfe370b0f86da05eada.idx
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects/pack/pack-ff06554280dc4171fd5a1dfe370b0f86da05eada.pack
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects/pack
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects/info
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/objects
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/branches
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/index
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/info/exclude
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/info
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git/shallow
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.git
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/.gitignore
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/nimdoc.cfg
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/LICENSE
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/nim.cfg
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/myo.nimble
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/src/myohw.nim
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/src/libmyo.nim
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit/src
-  delete /tmp/nimble_4036/githubcom_nimiousiomyogit
-  delete /tmp/nimble_4036
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/examples/vibrate_example.nim
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/examples/events_example.nim
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/examples/emg_example.nim
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/examples/nim.cfg
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/examples
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/nimdoc.cfg
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/src/libmyo.nim
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/src/myohw.nim
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/src
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.gitignore
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/LICENSE
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/docs/logo.png
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/docs/myo.html
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/docs
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/HEAD
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/config
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/logs/HEAD
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/logs/refs/heads/master
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/logs/refs/heads
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/logs/refs/remotes
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/logs/refs
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/logs
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/branches
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/packed-refs
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs/heads/master
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs/heads
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs/tags
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs/remotes/origin
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs/remotes
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/refs
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks/pre-push.sample
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks/update.sample
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks/post-update.sample
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/hooks
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/index
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/info/exclude
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/info
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/shallow
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/description
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects/pack/pack-ff06554280dc4171fd5a1dfe370b0f86da05eada.pack
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects/pack/pack-ff06554280dc4171fd5a1dfe370b0f86da05eada.idx
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects/pack
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects/info
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git/objects
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/.git
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/myo.nimble
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/README.md
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit/nim.cfg
+  delete /tmp/nimble_3769/githubcom_nimiousiomyogit
+  delete /tmp/nimble_3769
