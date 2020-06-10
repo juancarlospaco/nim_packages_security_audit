@@ -1,83 +1,93 @@
     Reading official package list
 Downloading https://github.com/nim-lang/joyent_http_parser using git
-       Info /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/joyent_http_parser_8604.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/joyent_http_parser_8604.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+       Info /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/joyent_http_parser_7970.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/joyent_http_parser_7970.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
   Verifying dependencies for joyent_http_parser@0.1.0
  Installing joyent_http_parser@0.1.0
-    Copying file /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/joyent_http_parser.nim to /home/runner/.nimble/pkgs/joyent_http_parser-0.1.0/joyent_http_parser.nim
-    Copying file /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/joyent_http_parser.nimble to /home/runner/.nimble/pkgs/joyent_http_parser-0.1.0/joyent_http_parser.nimble
-   Success: joyent_http_parser installed successfully.
-       Info /home/runner/.nimble/pkgs/joyent_http_parser-0.1.0/joyent_http_parser_8604.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /home/runner/.nimble/pkgs/joyent_http_parser-0.1.0/joyent_http_parser_8604.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_8604', 0x00000000000001ff)
-mkdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser', 0x00000000000001ff)
-rmdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser')
-mkdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser', 0x00000000000001ff)
-mkdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/HEAD.lock', '/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/HEAD')
-rename('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock', '/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config')
-chmod('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock', '/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config')
-chmod('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock', '/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config')
-chmod('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock', '/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/tF41BzT')
-symlink('testing', '/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/tF41BzT')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/tF41BzT')
-mkdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock', '/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config')
-chmod('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock', '/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config')
-chmod('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock', '/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config')
-link('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects/pack/tmp_pack_3CQQH9', '/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects/pack/pack-b7420a9f382eece403ce62718a72506e447148cb.pack')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects/pack/tmp_pack_3CQQH9')
-link('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects/pack/tmp_idx_xWE5Eg', '/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects/pack/pack-b7420a9f382eece403ce62718a72506e447148cb.idx')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects/pack/tmp_idx_xWE5Eg')
-rename('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/shallow.lock', '/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/shallow')
-rename('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/packed-refs.new', '/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/packed-refs')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/packed-refs.lock')
-mkdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs/remotes/origin', 0x00000000000001ff)
-mkdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/logs', 0x00000000000001ff)
-mkdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/logs/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/logs/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/logs/refs/remotes/origin', 0x00000000000001ff)
-rename('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs/remotes/origin/HEAD')
-rename('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/HEAD.lock', '/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/HEAD')
-mkdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/logs/refs/heads', 0x00000000000001ff)
-rename('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs/heads/master.lock', '/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs/heads/master')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/HEAD.lock')
-chmod('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock', '/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config')
-chmod('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock', '/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects/pack/pack-b7420a9f382eece403ce62718a72506e447148cb.keep')
-rename('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/index.lock', '/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/index')
+mkdir('/tmp/nimble_7970', 0x00000000000001ff)
+mkdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser', 0x00000000000001ff)
+rmdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser')
+mkdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser', 0x00000000000001ff)
+mkdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/HEAD.lock', '/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/HEAD')
+rename('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock', '/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config')
+chmod('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock', '/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config')
+chmod('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock', '/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config')
+chmod('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock', '/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/tnV941f')
+symlink('testing', '/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/tnV941f')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/tnV941f')
+mkdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock', '/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config')
+chmod('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock', '/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config')
+chmod('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock', '/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config')
+mkdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/e7', 0x00000000000001ff)
+link('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/e7/tmp_obj_Qb7V5o', '/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/e7/ca3516ff8418bf84d9b9359822672b2a8bb134')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/e7/tmp_obj_Qb7V5o')
+mkdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/74', 0x00000000000001ff)
+link('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/74/tmp_obj_Abdhcv', '/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/74/5290494c383fd047e648c7aff433e2ab6aa43a')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/74/tmp_obj_Abdhcv')
+mkdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/10', 0x00000000000001ff)
+link('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/10/tmp_obj_w7nrQy', '/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/10/fed6536984eec6bc507e4141a1199512b4cff5')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/10/tmp_obj_w7nrQy')
+mkdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/b0', 0x00000000000001ff)
+link('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/b0/tmp_obj_QZ2oMD', '/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/b0/42af95ac1c8806fdb227affca3d6e7b94a62fe')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/b0/tmp_obj_QZ2oMD')
+mkdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/e5', 0x00000000000001ff)
+link('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/e5/tmp_obj_crTHCF', '/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/e5/1242bcf82e6cd1dd975921de07d223d86c8868')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/e5/tmp_obj_crTHCF')
+rename('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/shallow.lock', '/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/shallow')
+rename('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/packed-refs.new', '/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/packed-refs')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/packed-refs.lock')
+mkdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/HEAD.lock', '/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/HEAD')
+mkdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs/heads/master.lock', '/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs/heads/master')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/HEAD.lock')
+chmod('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock', '/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config')
+chmod('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock', '/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config')
+rename('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/index.lock', '/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/joyent_http_parser_4006200687', 0x00000000000001ff)
-unlink('/tmp/nimblecache/joyent_http_parser_4006200687/joyent_http_parser.ini')
-unlink('/tmp/nimble_8604.out')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/joyent_http_parser_8604.nims')
+mkdir('/tmp/nimblecache/joyent_http_parser_4280896119', 0x00000000000001ff)
+unlink('/tmp/nimblecache/joyent_http_parser_4280896119/joyent_http_parser.ini')
+unlink('/tmp/nimble_7970.out')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/joyent_http_parser_7970.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)    Copying file /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/joyent_http_parser.nim to /home/runner/.nimble/pkgs/joyent_http_parser-0.1.0/joyent_http_parser.nim
+    Copying file /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/joyent_http_parser.nimble to /home/runner/.nimble/pkgs/joyent_http_parser-0.1.0/joyent_http_parser.nimble
+   Success: joyent_http_parser installed successfully.
+       Info /home/runner/.nimble/pkgs/joyent_http_parser-0.1.0/joyent_http_parser_7970.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /home/runner/.nimble/pkgs/joyent_http_parser-0.1.0/joyent_http_parser_7970.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+
 mkdir('/home/runner/.nimble/pkgs/joyent_http_parser-0.1.0', 0x00000000000001ff)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
@@ -90,121 +100,139 @@ mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/joyent_http_parser_3852872120', 0x00000000000001ff)
 unlink('/tmp/nimblecache/joyent_http_parser_3852872120/joyent_http_parser.ini')
-unlink('/tmp/nimble_8604.out')
-unlink('/home/runner/.nimble/pkgs/joyent_http_parser-0.1.0/joyent_http_parser_8604.nims')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/joyent_http_parser.nim')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs/remotes/origin')
-rmdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs/remotes')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs/heads/master')
-rmdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs/heads')
-rmdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs/tags')
-rmdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/logs/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/logs/refs/remotes/origin')
-rmdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/logs/refs/remotes')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/logs/refs/heads/master')
-rmdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/logs/refs/heads')
-rmdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/logs/refs')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/logs/HEAD')
-rmdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/logs')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/packed-refs')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/HEAD')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/description')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks/update.sample')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks/post-update.sample')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks/pre-merge-commit.sample')
-rmdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects/pack/pack-b7420a9f382eece403ce62718a72506e447148cb.pack')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects/pack/pack-b7420a9f382eece403ce62718a72506e447148cb.idx')
-rmdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects/pack')
-rmdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects/info')
-rmdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects')
-rmdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/branches')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/index')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/info/exclude')
-rmdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/info')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/shallow')
-rmdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/readme.md')
-unlink('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/joyent_http_parser.nimble')
-rmdir('/tmp/nimble_8604/githubcom_nimlangjoyenthttpparser')
-rmdir('/tmp/nimble_8604')
+unlink('/tmp/nimble_7970.out')
+unlink('/home/runner/.nimble/pkgs/joyent_http_parser-0.1.0/joyent_http_parser_7970.nims')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/readme.md')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/info/exclude')
+rmdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/info')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/shallow')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/description')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/index')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/packed-refs')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/HEAD')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks/update.sample')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks/post-update.sample')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks/commit-msg.sample')
+rmdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/logs/HEAD')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/logs/refs/heads')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/logs/refs/remotes')
+rmdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/logs/refs')
+rmdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/logs')
+rmdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/branches')
+rmdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/info')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/10/fed6536984eec6bc507e4141a1199512b4cff5')
+rmdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/10')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/b0/42af95ac1c8806fdb227affca3d6e7b94a62fe')
+rmdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/b0')
+rmdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/pack')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/e5/1242bcf82e6cd1dd975921de07d223d86c8868')
+rmdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/e5')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/74/5290494c383fd047e648c7aff433e2ab6aa43a')
+rmdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/74')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/e7/ca3516ff8418bf84d9b9359822672b2a8bb134')
+rmdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/e7')
+rmdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs/heads/master')
+rmdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs/heads')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs/remotes')
+rmdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs/tags')
+rmdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs')
+rmdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/joyent_http_parser.nimble')
+unlink('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/joyent_http_parser.nim')
+rmdir('/tmp/nimble_7970/githubcom_nimlangjoyenthttpparser')
+rmdir('/tmp/nimble_7970')
   create directory /tmp
-  create directory /tmp/nimble_8604
-  create directory /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser
-  create directory /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser
-  create directory /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git
-  create directory /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git
-  create directory /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks
-  create directory /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/branches
-  create directory /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/info
-  create directory /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs
-  create directory /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs/heads
-  create directory /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs/tags
-  rename /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock to config
-  change permissions of /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock to config
-  change permissions of /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock to config
-  change permissions of /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock to config
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/tF41BzT
-  create symbolic link from /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/tF41BzT to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/tF41BzT
-  create directory /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects
-  create directory /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects/pack
-  create directory /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects/info
-  change permissions of /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock to config
-  change permissions of /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock to config
-  change permissions of /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock to config
-  create hard link from /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects/pack/pack-b7420a9f382eece403ce62718a72506e447148cb.pack to /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects/pack/tmp_pack_3CQQH9
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects/pack/tmp_pack_3CQQH9
-  create hard link from /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects/pack/pack-b7420a9f382eece403ce62718a72506e447148cb.idx to /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects/pack/tmp_idx_xWE5Eg
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects/pack/tmp_idx_xWE5Eg
-  rename /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/shallow.lock to shallow
-  rename /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/packed-refs.lock
-  create directory /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs/remotes
-  create directory /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs/remotes/origin
-  create directory /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/logs
-  create directory /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/logs/refs
-  create directory /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/logs/refs/remotes
-  create directory /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/logs/refs/remotes/origin
-  rename /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs/remotes/origin/HEAD.lock to HEAD
-  rename /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/HEAD.lock to HEAD
-  create directory /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/logs/refs/heads
-  rename /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs/heads/master.lock to master
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/HEAD.lock
-  change permissions of /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock to config
-  change permissions of /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config.lock to config
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects/pack/pack-b7420a9f382eece403ce62718a72506e447148cb.keep
-  rename /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/index.lock to index
+  create directory /tmp/nimble_7970
+  create directory /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser
+  create directory /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser
+  create directory /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git
+  create directory /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git
+  create directory /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/info
+  create directory /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks
+  create directory /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/branches
+  create directory /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs
+  create directory /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs/heads
+  create directory /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs/tags
+  rename /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock to config
+  change permissions of /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock to config
+  change permissions of /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock to config
+  change permissions of /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock to config
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/tnV941f
+  create symbolic link from /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/tnV941f to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/tnV941f
+  create directory /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects
+  create directory /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/pack
+  create directory /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/info
+  change permissions of /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock to config
+  change permissions of /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock to config
+  change permissions of /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock to config
+  create directory /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/e7
+  create hard link from /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/e7/ca3516ff8418bf84d9b9359822672b2a8bb134 to /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/e7/tmp_obj_Qb7V5o
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/e7/tmp_obj_Qb7V5o
+  create directory /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/74
+  create hard link from /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/74/5290494c383fd047e648c7aff433e2ab6aa43a to /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/74/tmp_obj_Abdhcv
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/74/tmp_obj_Abdhcv
+  create directory /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/10
+  create hard link from /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/10/fed6536984eec6bc507e4141a1199512b4cff5 to /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/10/tmp_obj_w7nrQy
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/10/tmp_obj_w7nrQy
+  create directory /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/b0
+  create hard link from /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/b0/42af95ac1c8806fdb227affca3d6e7b94a62fe to /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/b0/tmp_obj_QZ2oMD
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/b0/tmp_obj_QZ2oMD
+  create directory /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/e5
+  create hard link from /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/e5/1242bcf82e6cd1dd975921de07d223d86c8868 to /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/e5/tmp_obj_crTHCF
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/e5/tmp_obj_crTHCF
+  rename /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/shallow.lock to shallow
+  rename /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/packed-refs.lock
+  create directory /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs/remotes
+  create directory /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs/remotes/origin
+  create directory /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/logs
+  create directory /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/logs/refs
+  create directory /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/logs/refs/remotes
+  create directory /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/logs/refs/heads
+  rename /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/HEAD.lock
+  change permissions of /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock to config
+  change permissions of /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config.lock to config
+  rename /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/joyent_http_parser_4006200687
-  delete /tmp/nimblecache/joyent_http_parser_4006200687/joyent_http_parser.ini
-  delete /tmp/nimble_8604.out
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/joyent_http_parser_8604.nims
+  create directory /tmp/nimblecache/joyent_http_parser_4280896119
+  delete /tmp/nimblecache/joyent_http_parser_4280896119/joyent_http_parser.ini
+  delete /tmp/nimble_7970.out
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/joyent_http_parser_7970.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -221,53 +249,61 @@ rmdir('/tmp/nimble_8604')
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/joyent_http_parser_3852872120
   delete /tmp/nimblecache/joyent_http_parser_3852872120/joyent_http_parser.ini
-  delete /tmp/nimble_8604.out
-  delete /home/runner/.nimble/pkgs/joyent_http_parser-0.1.0/joyent_http_parser_8604.nims
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/joyent_http_parser.nim
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs/remotes/origin/HEAD
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs/remotes/origin
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs/remotes
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs/heads/master
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs/heads
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs/tags
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/refs
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/config
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/logs/refs/remotes/origin/HEAD
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/logs/refs/remotes/origin
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/logs/refs/remotes
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/logs/refs/heads/master
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/logs/refs/heads
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/logs/refs
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/logs/HEAD
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/logs
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/packed-refs
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/HEAD
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/description
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks/update.sample
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks/pre-push.sample
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks/post-update.sample
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/hooks
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects/pack/pack-b7420a9f382eece403ce62718a72506e447148cb.pack
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects/pack/pack-b7420a9f382eece403ce62718a72506e447148cb.idx
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects/pack
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects/info
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/objects
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/branches
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/index
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/info/exclude
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/info
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git/shallow
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/.git
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/readme.md
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser/joyent_http_parser.nimble
-  delete /tmp/nimble_8604/githubcom_nimlangjoyenthttpparser
-  delete /tmp/nimble_8604
+  delete /tmp/nimble_7970.out
+  delete /home/runner/.nimble/pkgs/joyent_http_parser-0.1.0/joyent_http_parser_7970.nims
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/readme.md
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/config
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/info/exclude
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/info
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/shallow
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/description
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/index
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/packed-refs
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/HEAD
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks/pre-push.sample
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks/update.sample
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks/post-update.sample
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/hooks
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/logs/HEAD
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/logs/refs/heads/master
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/logs/refs/heads
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/logs/refs/remotes
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/logs/refs
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/logs
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/branches
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/info
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/10/fed6536984eec6bc507e4141a1199512b4cff5
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/10
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/b0/42af95ac1c8806fdb227affca3d6e7b94a62fe
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/b0
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/pack
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/e5/1242bcf82e6cd1dd975921de07d223d86c8868
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/e5
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/74/5290494c383fd047e648c7aff433e2ab6aa43a
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/74
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/e7/ca3516ff8418bf84d9b9359822672b2a8bb134
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects/e7
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/objects
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs/heads/master
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs/heads
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs/remotes/origin
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs/remotes
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs/tags
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git/refs
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/.git
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/joyent_http_parser.nimble
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser/joyent_http_parser.nim
+  delete /tmp/nimble_7970/githubcom_nimlangjoyenthttpparser
+  delete /tmp/nimble_7970

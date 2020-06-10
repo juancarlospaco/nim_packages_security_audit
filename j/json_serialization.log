@@ -1,490 +1,961 @@
     Reading official package list
 Downloading https://github.com/status-im/nim-json-serialization using git
-  Verifying dependencies for json_serialization@0.1.0
-    Reading official package list
-   Checking for serialization@any version
-      Info: Dependency on serialization@any version already satisfied
-  Verifying dependencies for serialization@0.1.0
-    Reading official package list
-   Checking for faststreams@any version
-      Info: Dependency on faststreams@any version already satisfied
-  Verifying dependencies for faststreams@0.1.0
-    Reading official package list
-   Checking for stew@any version
-      Info: Dependency on stew@any version already satisfied
-  Verifying dependencies for stew@0.1.0
-    Reading official package list
-   Checking for chronos@any version
-      Info: Dependency on chronos@any version already satisfied
-  Verifying dependencies for chronos@2.3.9
-    Reading official package list
-   Checking for bearssl@any version
-      Info: Dependency on bearssl@any version already satisfied
-  Verifying dependencies for bearssl@0.1.5
-    Reading official package list
-   Checking for stew@any version
-      Info: Dependency on stew@any version already satisfied
-  Verifying dependencies for stew@0.1.0
-    Reading official package list
-   Checking for stew@any version
-      Info: Dependency on stew@any version already satisfied
-  Verifying dependencies for stew@0.1.0
- Installing json_serialization@0.1.0
-    Prompt: json_serialization@0.1.0 already exists. Overwrite? -> [forced yes]
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_8102', 0x00000000000001ff)
-mkdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization', 0x00000000000001ff)
-rmdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization')
-mkdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization', 0x00000000000001ff)
-mkdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/HEAD.lock', '/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/HEAD')
-rename('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock', '/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config')
-chmod('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock', '/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config')
-chmod('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock', '/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config')
-chmod('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock', '/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/tbP5A1w')
-symlink('testing', '/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/tbP5A1w')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/tbP5A1w')
-mkdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock', '/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config')
-chmod('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock', '/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config')
-chmod('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock', '/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config')
-link('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects/pack/tmp_pack_X0G3I5', '/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects/pack/pack-42042bf83f71a862af2a73d01593c41445e7dc5e.pack')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects/pack/tmp_pack_X0G3I5')
-link('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects/pack/tmp_idx_mzCfPd', '/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects/pack/pack-42042bf83f71a862af2a73d01593c41445e7dc5e.idx')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects/pack/tmp_idx_mzCfPd')
-rename('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/shallow.lock', '/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/shallow')
-rename('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/packed-refs.new', '/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/packed-refs')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/packed-refs.lock')
-mkdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs/remotes/origin', 0x00000000000001ff)
-mkdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/logs', 0x00000000000001ff)
-mkdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/logs/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/logs/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/logs/refs/remotes/origin', 0x00000000000001ff)
-rename('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs/remotes/origin/HEAD')
-rename('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/HEAD.lock', '/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/HEAD')
-mkdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/logs/refs/heads', 0x00000000000001ff)
-rename('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs/heads/master.lock', '/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs/heads/master')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/HEAD.lock')
-chmod('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock', '/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config')
-chmod('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock', '/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects/pack/pack-42042bf83f71a862af2a73d01593c41445e7dc5e.keep')
+mkdir('/tmp/nimble_6983', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization', 0x00000000000001ff)
+rmdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/HEAD.lock', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/HEAD')
+rename('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config')
+chmod('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config')
+chmod('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config')
+chmod('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/t16VxBH')
+symlink('testing', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/t16VxBH')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/t16VxBH')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config')
+chmod('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config')
+chmod('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/c4', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/c4/tmp_obj_YhxSAv', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/c4/78b7bbbab6ee298a25c29c7357783d94aaecaa')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/c4/tmp_obj_YhxSAv')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/5a', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/5a/tmp_obj_WkvYyy', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/5a/b00cffd1a5c0817eee49146eefb769730030d6')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/5a/tmp_obj_WkvYyy')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/88', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/88/tmp_obj_eWVsDE', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/88/0b8e17748dc002a8dd6be8b44c20ff711a48d9')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/88/tmp_obj_eWVsDE')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/4f', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/4f/tmp_obj_YHYNEE', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/4f/3532cac2299a3587455fe54d9286220eb6fc42')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/4f/tmp_obj_YHYNEE')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/9e', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/9e/tmp_obj_8W9aFN', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/9e/e1b9e7e8f4c423555716d5046a0eb9fe8a8c69')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/9e/tmp_obj_8W9aFN')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/78', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/78/tmp_obj_qAxxEO', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/78/2d1bff2946a29c323e94751a47e9d0dcaef7f4')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/78/tmp_obj_qAxxEO')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/87', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/87/tmp_obj_G614KT', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/87/66e65da94fceaf783ab1a347eb5fd8d34528a1')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/87/tmp_obj_G614KT')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/b1', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/b1/tmp_obj_q80ruY', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/b1/74b6b32a4fab94348e5f1a6b228649b9a4307e')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/b1/tmp_obj_q80ruY')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/fb', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/fb/tmp_obj_QHGng2', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/fb/e48c8d449a168f7614f22ddd8720b2706c404e')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/fb/tmp_obj_QHGng2')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/08', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/08/tmp_obj_Ssi5O8', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/08/971634c9d7e64ef2b0b0d9077e0a1d5798a15d')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/08/tmp_obj_Ssi5O8')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/6b', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/6b/tmp_obj_MLjaga', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/6b/877909d819f550fe74d6deaca952f70ca5f18d')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/6b/tmp_obj_MLjaga')
+link('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/78/tmp_obj_yeC8uc', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/78/5ef4d08e2aee60a7e80b5b89cfc3180b88327f')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/78/tmp_obj_yeC8uc')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/67', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/67/tmp_obj_IHMLng', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/67/d2f1b9e6701972125e45c53403717f39ef18fb')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/67/tmp_obj_IHMLng')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/92', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/92/tmp_obj_dy5Pza', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/92/38a435b962307c55c0e850f2dda25d1b332625')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/92/tmp_obj_dy5Pza')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/29', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/29/tmp_obj_TjhH9c', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/29/ee9247d351470184854a1ea186e60d0271d1ab')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/29/tmp_obj_TjhH9c')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/be', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/be/tmp_obj_pktvaj', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/be/2aef012a826da9173956b6eb19658f54f8d224')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/be/tmp_obj_pktvaj')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/3f', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/3f/tmp_obj_nFeu4m', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/3f/47b2b4de5ffe95a769141deebe82f231009e49')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/3f/tmp_obj_nFeu4m')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/c3', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/c3/tmp_obj_7MIPro', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/c3/3ea8922e2450d81d0c566355e2096450afb901')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/c3/tmp_obj_7MIPro')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/dd', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/dd/tmp_obj_vRgV2u', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/dd/bb9fc68caac551ed5ee89b103ff6d0dd6cdce0')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/dd/tmp_obj_vRgV2u')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/73', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/73/tmp_obj_Hz0cXy', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/73/2d6704c5c2d4cf7f8165cedd233d3b6bb4a2b9')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/73/tmp_obj_Hz0cXy')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/c1', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/c1/tmp_obj_tcwvWA', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/c1/9f4b360d576e5c79d0eeafb2b1c09479d4aecc')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/c1/tmp_obj_tcwvWA')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/9d', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/9d/tmp_obj_DxSuYF', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/9d/2b0c66f8b0827273653d2bff9bd54345cb6c09')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/9d/tmp_obj_DxSuYF')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/4d', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/4d/tmp_obj_pO61YH', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/4d/e6c23c8a7ff897fc9750a293d387a867b1b774')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/4d/tmp_obj_pO61YH')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/47', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/47/tmp_obj_D34MSN', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/47/3d386471fa04e5c2541e96864554ccfc0fc0a0')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/47/tmp_obj_D34MSN')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/13', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/13/tmp_obj_XB9QWR', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/13/3c532bc0c8c92e54887afdd8ea19c2bde285d4')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/13/tmp_obj_XB9QWR')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/56', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/56/tmp_obj_paS2BU', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/56/5c2f95b9b8928c4be494ddc361eedeca3fe8fa')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/objects/56/tmp_obj_paS2BU')
+rename('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/shallow.lock', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/shallow')
+rename('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/packed-refs.new', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/packed-refs')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/packed-refs.lock')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/HEAD.lock', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/HEAD')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/refs/heads/master.lock', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/refs/heads/master')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/HEAD.lock')
+chmod('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config')
+chmod('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/config')
 mkdir('json_serialization', 0x00000000000001ff)
 mkdir('json_serialization/std', 0x00000000000001ff)
 mkdir('tests', 0x00000000000001ff)
-rename('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/index.lock', '/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/index')
+rename('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/index.lock', '/tmp/nimble_6983/githubcom_statusimnimjsonserialization/.git/index')  Verifying dependencies for json_serialization@0.1.0
+    Reading official package list
+   Checking for serialization@any version
+ Installing serialization@any version
+    Reading official package list
+Downloading https://github.com/status-im/nim-serialization using git
+
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/json_serialization_3647110895', 0x00000000000001ff)
-unlink('/tmp/nimblecache/json_serialization_3647110895/json_serialization.ini')
-unlink('/tmp/nimble_8102.out')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization_8102.nims')
-unlink('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/reader.nim')
-unlink('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std/tables.nim')
-unlink('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization.nimble')
-unlink('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/writer.nim')
-unlink('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std/sets.nim')
-unlink('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/types.nim')
-unlink('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std/options.nim')
-unlink('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std/net.nim')
-unlink('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/lexer.nim')
-unlink('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization.nim')    Copying file /tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization.nim to /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization.nim
-    Copying file /tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/writer.nim to /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/writer.nim
-    Copying file /tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/types.nim to /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/types.nim
-    Copying file /tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/reader.nim to /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/reader.nim
-    Copying file /tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/std/net.nim to /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std/net.nim
-    Copying file /tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/std/sets.nim to /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std/sets.nim
-    Copying file /tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/std/options.nim to /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std/options.nim
-    Copying file /tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/std/tables.nim to /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std/tables.nim
-    Copying file /tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/lexer.nim to /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/lexer.nim
-    Copying file /tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization.nimble to /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization.nimble
-   Success: json_serialization installed successfully.
+mkdir('/tmp/nimblecache/json_serialization_771409674', 0x00000000000001ff)
+unlink('/tmp/nimblecache/json_serialization_771409674/json_serialization.ini')
+unlink('/tmp/nimble_6983.out')
+unlink('/tmp/nimble_6983/githubcom_statusimnimjsonserialization/json_serialization_6983.nims')
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization', 0x00000000000001ff)
+rmdir('/tmp/nimble_6983/githubcom_statusimnimserialization')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/HEAD.lock', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/HEAD')
+rename('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config')
+chmod('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config')
+chmod('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config')
+chmod('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config')
+unlink('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/te5RM4A')
+symlink('testing', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/te5RM4A')
+unlink('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/te5RM4A')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config')
+chmod('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config')
+chmod('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/d8', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/d8/tmp_obj_yTtsAF', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/d8/ca3daf3a788f357bf96b8e61b3ffce9a018ea2')
+unlink('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/d8/tmp_obj_yTtsAF')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/eb', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/eb/tmp_obj_uZFUAL', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/eb/545e942a6c25b13a82f19f4d59b342a339c5b6')
+unlink('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/eb/tmp_obj_uZFUAL')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/54', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/54/tmp_obj_8fWPfM', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/54/a4e61ecef829482eda8d076db5af5d5519e35d')
+unlink('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/54/tmp_obj_8fWPfM')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/9e', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/9e/tmp_obj_sk7M8S', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/9e/e1b9e7e8f4c423555716d5046a0eb9fe8a8c69')
+unlink('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/9e/tmp_obj_sk7M8S')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/26', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/26/tmp_obj_ss30tZ', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/26/d4cf45d82887dcf0b5d841f6405533bc0fae6c')
+unlink('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/26/tmp_obj_ss30tZ')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/3d', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/3d/tmp_obj_kMVGc1', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/3d/70b92878278fabab1feea97aa2371ab76882e2')
+unlink('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/3d/tmp_obj_kMVGc1')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/75', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/75/tmp_obj_8RBPj3', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/75/c39fac7c79b6b4df8c8de2c222fbcf1728ed28')
+unlink('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/75/tmp_obj_8RBPj3')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/78', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/78/tmp_obj_c0kry6', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/78/e68ddae9b39b26f0a7437732ed69617500c21e')
+unlink('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/78/tmp_obj_c0kry6')
+link('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/75/tmp_obj_I4siW6', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/75/077430638e7a41cf6c250918f15126c6f3c74e')
+unlink('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/75/tmp_obj_I4siW6')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/28', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/28/tmp_obj_aFAiDc', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/28/a8d44cf428cc4e23f3d0caed441cad510978fe')
+unlink('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/28/tmp_obj_aFAiDc')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/18', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/18/tmp_obj_QwdqHh', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/18/4299fc74a51ee09ac799f0e328174a0688ee5f')
+unlink('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/18/tmp_obj_QwdqHh')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/b7', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/b7/tmp_obj_1K576b', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/b7/8969b7ac36d4f79582bb1784abcab60c22b9f7')  Verifying dependencies for serialization@0.1.0
+    Reading official package list
+   Checking for faststreams@any version
+ Installing faststreams@any version
+    Reading official package list
+Downloading https://github.com/status-im/nim-faststreams using git
 
-unlink('/home/runner/.nimble/pkgs/json_serialization-0.1.0/nimblemeta.json')
-rmdir('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std')
-rmdir('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization')
-rmdir('/home/runner/.nimble/pkgs/json_serialization-0.1.0')
+unlink('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/b7/tmp_obj_1K576b')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/f9', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/f9/tmp_obj_Jb4Hkd', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/f9/e111446ce837654ebaf58fb31ae7460106cbe2')
+unlink('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/f9/tmp_obj_Jb4Hkd')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/aa', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/aa/tmp_obj_j6vSjj', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/aa/f043e28fce505aaab73ca52d63474e3e3f2f6f')
+unlink('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/aa/tmp_obj_j6vSjj')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/44', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/44/tmp_obj_j8IoHk', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/44/6e4f79d8d28a7c13b8a1f21ac2492365749e4c')
+unlink('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/44/tmp_obj_j8IoHk')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/49', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/49/tmp_obj_bOmzwq', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/49/bd6ebe178f6037b17fe0cd3a5eb2011069ccbe')
+unlink('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/objects/49/tmp_obj_bOmzwq')
+rename('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/shallow.lock', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/shallow')
+rename('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/packed-refs.new', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/packed-refs')
+unlink('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/packed-refs.lock')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/HEAD.lock', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/HEAD')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/refs/heads/master.lock', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/refs/heads/master')
+unlink('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/HEAD.lock')
+chmod('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config')
+chmod('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/config')
+mkdir('serialization', 0x00000000000001ff)
+mkdir('serialization/testing', 0x00000000000001ff)
+mkdir('tests', 0x00000000000001ff)
+rename('/tmp/nimble_6983/githubcom_statusimnimserialization/.git/index.lock', '/tmp/nimble_6983/githubcom_statusimnimserialization/.git/index')
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/serialization_2992065217', 0x00000000000001ff)
+unlink('/tmp/nimblecache/serialization_2992065217/serialization.ini')
+unlink('/tmp/nimble_6983.out')
+unlink('/tmp/nimble_6983/githubcom_statusimnimserialization/serialization_6983.nims')
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams', 0x00000000000001ff)
+rmdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/HEAD.lock', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/HEAD')
+rename('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config')
+chmod('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config')
+chmod('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config')
+chmod('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/txiVUf2')
+symlink('testing', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/txiVUf2')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/txiVUf2')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config')
+chmod('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config')
+chmod('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/81', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/81/tmp_obj_6Vvh2c', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/81/c24860e2622a15e05c81d15e3d1cc02c460870')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/81/tmp_obj_6Vvh2c')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/d7', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/d7/tmp_obj_ysxJIi', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/d7/b8f75ad323c79fcbf357d0cdcb09115e548e3e')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/d7/tmp_obj_ysxJIi')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/88', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/88/tmp_obj_8gQOqk', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/88/0b8e17748dc002a8dd6be8b44c20ff711a48d9')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/88/tmp_obj_8gQOqk')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/5f', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/5f/tmp_obj_uC1Tfo', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/5f/3c68e1af0ce5a784a307d9de5970500eda4d0c')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/5f/tmp_obj_uC1Tfo')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/9e', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/9e/tmp_obj_ewOaYs', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/9e/e1b9e7e8f4c423555716d5046a0eb9fe8a8c69')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/9e/tmp_obj_ewOaYs')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/78', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/78/tmp_obj_KW94az', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/78/2d1bff2946a29c323e94751a47e9d0dcaef7f4')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/78/tmp_obj_KW94az')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/87', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/87/tmp_obj_2BgCOD', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/87/66e65da94fceaf783ab1a347eb5fd8d34528a1')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/87/tmp_obj_2BgCOD')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/c0', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/c0/tmp_obj_WKoRfI', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/c0/d57149d00d8979f09ca6ae7bb864b686f6d929')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/c0/tmp_obj_WKoRfI')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/5c', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/5c/tmp_obj_Q5cdTN', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/5c/f4ed70b1278ba46a06f57c1f3324ec3ad8d39f')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/5c/tmp_obj_Q5cdTN')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/be', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/be/tmp_obj_2XHoXR', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/be/3a4c5a91f6ae7bac870e735981c1424762835e')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/be/tmp_obj_2XHoXR')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/70', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/70/tmp_obj_aKOy8S', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/70/ac2ff6f7fd855380b4ea6fc032133ad503789b')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/70/tmp_obj_aKOy8S')
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/78/tmp_obj_QFLjSV', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/78/4544ce2f33fc60f8bd6fdb3a22e6004071e870')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/78/tmp_obj_QFLjSV')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/75', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/75/tmp_obj_ecwwpY', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/75/111fbb3c6dd481b9c89eaee0702c2ecbc2c14c')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/75/tmp_obj_ecwwpY')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/4d', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/4d/tmp_obj_gVYN83', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/4d/cc50395d9e85c8d6c5eb5aa0354920fbc754f6')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/4d/tmp_obj_gVYN83')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/10', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/10/tmp_obj_kbEfk7', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/10/c895016d8d8cc5c3810be8092bc60f9c319eda')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/10/tmp_obj_kbEfk7')
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/5f/tmp_obj_MvBgMc', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/5f/5e64477d2a7314498b88016af9cbab5b399d8d')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/5f/tmp_obj_MvBgMc')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/53', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/53/tmp_obj_gnd0oh', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/53/adc68cd097203aed67b5390ea48a24cb34821f')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/53/tmp_obj_gnd0oh')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/6e', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/6e/tmp_obj_peLwpa', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/6e/5c3acc073d227c6b51a97b84d5ba35ae76fb7d')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/6e/tmp_obj_peLwpa')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/a3', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/a3/tmp_obj_bPPdmd', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/a3/feb3f17b10353c7b8566915dfd299940be84ac')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/a3/tmp_obj_bPPdmd')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/95', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/95/tmp_obj_7iW4Lf', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/95/4a68bc5766431a75b108c13b2bb49edfd57f59')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/95/tmp_obj_7iW4Lf')
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/be/tmp_obj_zdKZ1k', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/be/accddb9ecefbe5f0a421b6b3fadf65a99aaad6')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/be/tmp_obj_zdKZ1k')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/74', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/74/tmp_obj_b5TPyp', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/74/f69bff624d41c98657db125189ffa80fb1181d')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/74/tmp_obj_b5TPyp')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/59', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/59/tmp_obj_x0NKdu', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/59/442e4c17a46ac622cef7e01105bd0847ee497c')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/59/tmp_obj_x0NKdu')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/1c', 0x00000000000001ff)  Verifying dependencies for faststreams@0.2.0
+    Reading official package list
+   Checking for stew@any version
+      Info: Dependency on stew@any version already satisfied
+  Verifying dependencies for stew@0.1.0
+    Reading official package list
+   Checking for testutils@any version
+ Installing testutils@any version
+    Reading official package list
+Downloading https://github.com/status-im/nim-testutils using git
+    Cloning latest tagged version: 0.2.0
+
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/1c/tmp_obj_zrJp5y', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/1c/f4289291f13a40183c2ecb7b979f590c6e0a37')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/1c/tmp_obj_zrJp5y')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/db', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/db/tmp_obj_r5b7ND', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/db/86a7d4cc96eac19b9212e73f64d06379619a3a')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/db/tmp_obj_r5b7ND')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/e6', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/e6/tmp_obj_VeRJaF', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/e6/030267ebcc46e6d1af65efc29dac3f8a7409d5')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/e6/tmp_obj_VeRJaF')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/5b', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/5b/tmp_obj_578x6K', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/5b/ba9d8db97929e67017d569b3cf30927aaeefc5')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/5b/tmp_obj_578x6K')
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/e6/tmp_obj_lyGqIP', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/e6/tmp_obj_lyGqIP')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/9d', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/9d/tmp_obj_30hUCR', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/9d/2b0c66f8b0827273653d2bff9bd54345cb6c09')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/9d/tmp_obj_30hUCR')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/3b', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/3b/tmp_obj_PrLOET', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/3b/fa3a709bcc62a41977b25b8f514e83d0cc4cfb')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/3b/tmp_obj_PrLOET')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/ed', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/ed/tmp_obj_3UawhY', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/ed/1d079c43c46feeee34db3b8e480e23b5be3c0c')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/ed/tmp_obj_3UawhY')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/44', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/44/tmp_obj_7aiwb3', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/44/05a237418bc32cf02bb32ff48407101d518c13')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/44/tmp_obj_7aiwb3')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/97', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/97/tmp_obj_lSmvs8', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/97/34574a0584ae9b73018051e5fd1f762c3b5403')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/97/tmp_obj_lSmvs8')
+link('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/6e/tmp_obj_fn2DOa', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/6e/5ff68e661b482878678a2d628417869ae0f1af')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/objects/6e/tmp_obj_fn2DOa')
+rename('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/shallow.lock', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/shallow')
+rename('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/packed-refs.new', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/packed-refs')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/packed-refs.lock')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/HEAD.lock', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/HEAD')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/refs/heads/master.lock', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/refs/heads/master')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/HEAD.lock')
+chmod('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config')
+chmod('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/config')
+mkdir('faststreams', 0x00000000000001ff)
+mkdir('tests', 0x00000000000001ff)
+mkdir('tests/files', 0x00000000000001ff)
+rename('/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/index.lock', '/tmp/nimble_6983/githubcom_statusimnimfaststreams/.git/index')
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/faststreams_2372119177', 0x00000000000001ff)
+unlink('/tmp/nimblecache/faststreams_2372119177/faststreams.ini')
+unlink('/tmp/nimble_6983.out')
+unlink('/tmp/nimble_6983/githubcom_statusimnimfaststreams/faststreams_6983.nims')
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils', 0x00000000000001ff)
+rmdir('/tmp/nimble_6983/githubcom_statusimnimtestutils')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/HEAD.lock', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/HEAD')
+rename('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/config')
+chmod('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/config')
+chmod('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/config')
+chmod('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/config')
+unlink('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/tr8cY69')
+symlink('testing', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/tr8cY69')
+unlink('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/tr8cY69')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/config')
+chmod('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/config')
+chmod('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/config.lock', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/config')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/48', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/48/tmp_obj_TOn7KM', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/48/1186aa761859a35ceefc1af17c73c5a6bb595f')
+unlink('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/48/tmp_obj_TOn7KM')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/9f', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/9f/tmp_obj_Tcq6EQ', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/9f/df6b68e3c3f9091cd8c57d780e09384c975f16')
+unlink('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/9f/tmp_obj_Tcq6EQ')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/98', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/98/tmp_obj_NLrjmX', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/98/f14c66387d1a5de62cca999b7284fc38e0ada5')
+unlink('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/98/tmp_obj_NLrjmX')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/c4', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/c4/tmp_obj_tX4rlY', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/c4/99acae63751c85ad85dc075950659b0cc9b7ca')
+unlink('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/c4/tmp_obj_tX4rlY')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/31', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/31/tmp_obj_v4Ftp2', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/31/6b1f2a5aa5478d0928d814b83b0d881bdade56')
+unlink('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/31/tmp_obj_v4Ftp2')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/ae', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/ae/tmp_obj_L2cht8', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/ae/28fe6939f751d6c766ff9bf88d9ed9ddc64b5a')
+unlink('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/ae/tmp_obj_L2cht8')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/03', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/03/tmp_obj_HqI0pd', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/03/fab1195d9ffcfb4cd4046cbcb10a29fb1f1e89')
+unlink('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/03/tmp_obj_HqI0pd')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/6c', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/6c/tmp_obj_tnM1Rd', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/6c/c19ffab262bcf4bd21617b5dda3df2885356a7')
+unlink('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/6c/tmp_obj_tnM1Rd')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/cc', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/cc/tmp_obj_JZfhKj', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/cc/935b3d13dc2d9f32ef0b4bbc004c410154cbf0')
+unlink('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/cc/tmp_obj_JZfhKj')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/36', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/36/tmp_obj_qNA2ya', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/36/c383cad89242b3c2d00641c616328b0795e461')
+unlink('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/36/tmp_obj_qNA2ya')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/f6', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/f6/tmp_obj_CRrYcf', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/f6/2b3f60d2ac003fab654536cc7f63783e79bf8e')
+unlink('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/f6/tmp_obj_CRrYcf')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/a1', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/a1/tmp_obj_IaksYj', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/a1/cdc440fd1915be766b25e6a2282d53cadae93d')
+unlink('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/a1/tmp_obj_IaksYj')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/b5', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/b5/tmp_obj_8zkLxq', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/b5/e533743e6543977f2f8650a03fe60255274c55')
+unlink('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/b5/tmp_obj_8zkLxq')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/0b', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/0b/tmp_obj_AqQP8t', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/0b/e1a590f55d8d90f5ba18364867f56a1add6a6b')
+unlink('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/0b/tmp_obj_AqQP8t')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/b4', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/b4/tmp_obj_EMK71v', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/b4/091fd6e0400b92c2ff7a6af5e5203f60552eec')
+unlink('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/b4/tmp_obj_EMK71v')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/a4', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/a4/tmp_obj_MAKz6z', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/a4/705b8de021daed06664a37dcc68a0dd3bd43c4')
+unlink('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/a4/tmp_obj_MAKz6z')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/f3', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/f3/tmp_obj_kw9dWC', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/f3/0879606cd153a089a4613b44e0d5a314d7f6ad')
+unlink('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/f3/tmp_obj_kw9dWC')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/f1', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/f1/tmp_obj_ou738H', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/f1/f7d405c5f7156cd404f4f1014793c13c9e5637')  Verifying dependencies for testutils@0.1.1
+ Installing testutils@0.1.1
+   Building testutils/testrunner using c backend
+
+unlink('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/f1/tmp_obj_ou738H')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/6e', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/6e/tmp_obj_sgnKSL', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/6e/f9eebd6122503f0a6b484966fa6a3202fa4eee')
+unlink('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/6e/tmp_obj_sgnKSL')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/e4', 0x00000000000001ff)
+link('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/e4/tmp_obj_mfUkxR', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/e4/7588617ad3177ff96b26df33e89267abc479d3')
+unlink('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/objects/e4/tmp_obj_mfUkxR')
+rename('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/shallow.lock', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/shallow')
+rename('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/packed-refs.new', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/packed-refs')
+unlink('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/packed-refs.lock')
+unlink('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/refs/tags/0.2.0.lock')
+mkdir('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/HEAD.lock', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/HEAD')
+mkdir('tests', 0x00000000000001ff)
+mkdir('tests/hello', 0x00000000000001ff)
+mkdir('testutils', 0x00000000000001ff)
+rename('/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/index.lock', '/tmp/nimble_6983/githubcom_statusimnimtestutils/.git/index')
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/testutils_1462765402', 0x00000000000001ff)
+unlink('/tmp/nimblecache/testutils_1462765402/testutils.ini')
+unlink('/tmp/nimble_6983.out')
+unlink('/tmp/nimble_6983/githubcom_statusimnimtestutils/testutils_6983.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/json_serialization-0.1.0', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/json_serialization-0.1.0', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization.nim', 0x00000000000001a4)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/json_serialization-0.1.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/writer.nim', 0x00000000000001a4)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/json_serialization-0.1.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/types.nim', 0x00000000000001a4)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/json_serialization-0.1.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/reader.nim', 0x00000000000001a4)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/json_serialization-0.1.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std/net.nim', 0x00000000000001a4)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/json_serialization-0.1.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std/sets.nim', 0x00000000000001a4)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/json_serialization-0.1.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std/options.nim', 0x00000000000001a4)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/json_serialization-0.1.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std/tables.nim', 0x00000000000001a4)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/json_serialization-0.1.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/lexer.nim', 0x00000000000001a4)
-chmod('/home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization.nimble', 0x00000000000001a4)
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.travis.yml')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/tests/test_all.nim')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/tests/test_lexer.nim')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/tests/utils.nim')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/tests/test_serialization.nim')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/tests/nim.cfg')
-rmdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/tests')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization.nimble')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/README.md')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs/remotes/origin')
-rmdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs/remotes')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs/heads/master')
-rmdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs/heads')
-rmdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs/tags')
-rmdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/logs/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/logs/refs/remotes/origin')
-rmdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/logs/refs/remotes')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/logs/refs/heads/master')
-rmdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/logs/refs/heads')
-rmdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/logs/refs')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/logs/HEAD')
-rmdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/logs')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/packed-refs')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/HEAD')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/description')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks/update.sample')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks/post-update.sample')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks/pre-merge-commit.sample')
-rmdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects/pack/pack-42042bf83f71a862af2a73d01593c41445e7dc5e.pack')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects/pack/pack-42042bf83f71a862af2a73d01593c41445e7dc5e.idx')
-rmdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects/pack')
-rmdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects/info')
-rmdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects')
-rmdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/branches')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/index')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/info/exclude')
-rmdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/info')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/shallow')
-rmdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization.nim')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.gitignore')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/.appveyor.yml')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/LICENSE-MIT')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/writer.nim')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/types.nim')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/reader.nim')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/std/net.nim')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/std/sets.nim')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/std/options.nim')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/std/tables.nim')
-rmdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/std')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/lexer.nim')
-rmdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization')
-unlink('/tmp/nimble_8102/githubcom_statusimnimjsonserialization/LICENSE-APACHEv2')
-rmdir('/tmp/nimble_8102/githubcom_statusimnimjsonserialization')
-rmdir('/tmp/nimble_8102')
-  create directory /tmp
-  create directory /tmp/nimble_8102
-  create directory /tmp/nimble_8102/githubcom_statusimnimjsonserialization
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization
-  create directory /tmp/nimble_8102/githubcom_statusimnimjsonserialization
-  create directory /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git
-  create directory /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git
-  create directory /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks
-  create directory /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/branches
-  create directory /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/info
-  create directory /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs
-  create directory /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs/heads
-  create directory /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs/tags
-  rename /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock to config
-  change permissions of /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock to config
-  change permissions of /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock to config
-  change permissions of /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock to config
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/tbP5A1w
-  create symbolic link from /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/tbP5A1w to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/tbP5A1w
-  create directory /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects
-  create directory /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects/pack
-  create directory /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects/info
-  change permissions of /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock to config
-  change permissions of /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock to config
-  change permissions of /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock to config
-  create hard link from /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects/pack/pack-42042bf83f71a862af2a73d01593c41445e7dc5e.pack to /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects/pack/tmp_pack_X0G3I5
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects/pack/tmp_pack_X0G3I5
-  create hard link from /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects/pack/pack-42042bf83f71a862af2a73d01593c41445e7dc5e.idx to /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects/pack/tmp_idx_mzCfPd
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects/pack/tmp_idx_mzCfPd
-  rename /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/shallow.lock to shallow
-  rename /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/packed-refs.lock
-  create directory /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs/remotes
-  create directory /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs/remotes/origin
-  create directory /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/logs
-  create directory /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/logs/refs
-  create directory /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/logs/refs/remotes
-  create directory /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/logs/refs/remotes/origin
-  rename /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs/remotes/origin/HEAD.lock to HEAD
-  rename /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/HEAD.lock to HEAD
-  create directory /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/logs/refs/heads
-  rename /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs/heads/master.lock to master
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/HEAD.lock
-  change permissions of /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock to config
-  change permissions of /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config.lock to config
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects/pack/pack-42042bf83f71a862af2a73d01593c41445e7dc5e.keep
-  create directory /tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization
-  create directory /tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/std
-  create directory /tmp/nimble_8102/githubcom_statusimnimjsonserialization/tests
-  rename /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/index.lock to index
-  create directory /tmp
-  create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/json_serialization_3647110895
-  delete /tmp/nimblecache/json_serialization_3647110895/json_serialization.ini
-  delete /tmp/nimble_8102.out
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization_8102.nims
-  delete /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/reader.nim
-  delete /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std/tables.nim
-  delete /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization.nimble
-  delete /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/writer.nim
-  delete /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std/sets.nim
-  delete /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/types.nim
-  delete /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std/options.nim
-  delete /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std/net.nim
-  delete /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/lexer.nim
-  delete /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization.nim
-  delete /home/runner/.nimble/pkgs/json_serialization-0.1.0/nimblemeta.json
-  delete /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std
-  delete /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization
-  delete /home/runner/.nimble/pkgs/json_serialization-0.1.0
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/json_serialization-0.1.0
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/json_serialization-0.1.0
-  change permissions of /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/json_serialization-0.1.0
-  create directory /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization
-  change permissions of /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/writer.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/json_serialization-0.1.0
-  create directory /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization
-  change permissions of /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/types.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/json_serialization-0.1.0
-  create directory /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization
-  change permissions of /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/reader.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/json_serialization-0.1.0
-  create directory /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization
-  create directory /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std
-  change permissions of /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std/net.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/json_serialization-0.1.0
-  create directory /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization
-  create directory /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std
-  change permissions of /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std/sets.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/json_serialization-0.1.0
-  create directory /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization
-  create directory /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std
-  change permissions of /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std/options.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/json_serialization-0.1.0
-  create directory /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization
-  create directory /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std
-  change permissions of /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/std/tables.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/json_serialization-0.1.0
-  create directory /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization
-  change permissions of /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization/lexer.nim to rw-r--r--
-  change permissions of /home/runner/.nimble/pkgs/json_serialization-0.1.0/json_serialization.nimble to rw-r--r--
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.travis.yml
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/tests/test_all.nim
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/tests/test_lexer.nim
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/tests/utils.nim
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/tests/test_serialization.nim
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/tests/nim.cfg
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/tests
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization.nimble
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/README.md
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs/remotes/origin/HEAD
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs/remotes/origin
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs/remotes
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs/heads/master
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs/heads
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs/tags
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/refs
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/config
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/logs/refs/remotes/origin/HEAD
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/logs/refs/remotes/origin
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/logs/refs/remotes
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/logs/refs/heads/master
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/logs/refs/heads
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/logs/refs
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/logs/HEAD
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/logs
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/packed-refs
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/HEAD
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/description
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks/update.sample
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks/pre-push.sample
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks/post-update.sample
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/hooks
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects/pack/pack-42042bf83f71a862af2a73d01593c41445e7dc5e.pack
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects/pack/pack-42042bf83f71a862af2a73d01593c41445e7dc5e.idx
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects/pack
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects/info
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/objects
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/branches
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/index
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/info/exclude
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/info
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git/shallow
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.git
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization.nim
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.gitignore
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/.appveyor.yml
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/LICENSE-MIT
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/writer.nim
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/types.nim
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/reader.nim
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/std/net.nim
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/std/sets.nim
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/std/options.nim
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/std/tables.nim
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/std
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization/lexer.nim
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/json_serialization
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization/LICENSE-APACHEv2
-  delete /tmp/nimble_8102/githubcom_statusimnimjsonserialization
-  delete /tmp/nimble_8102
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.cache', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim', 0x00000000000001ff)
+mkdir('/home/runner/.cache/nim/testrunner_r', 0x00000000000001ff)
+unlink(94889468556368)
+Error tracing process: readBytes(0x0000564d2d10f450, 256) error: [Errno 5] Input/output error.
