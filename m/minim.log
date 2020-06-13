@@ -1,0 +1,447 @@
+    Reading official package list
+Downloading https://github.com/h3rald/minim using git
+    Cloning latest tagged version: v0.19.6
+   Warning: Package 'min' has an incorrect structure. It should contain a single directory hierarchy for source files, named 'minpkg', but file 'consts.nim' is in a directory named 'core' instead. This will be an error in the future.
+      Hint: If 'core' contains source files for building 'min', rename it to 'minpkg'. Otherwise, prevent its installation by adding `skipDirs = @["core"]` to the .nimble file.
+ Attempting to execute hook installBefore in /tmp/nimble_7211/githubcom_h3raldminim/min.nimble
+sh: 1: nifty: not found
+stack trace: (most recent call last)
+/tmp/nimblecache/nimscriptapi.nim(177, 29)
+/tmp/nimble_7211/githubcom_h3raldminim/min_7211.nims(24, 8) installBefore
+/home/runner/.choosenim/toolchains/nim-1.2.0/lib/system/nimscript.nim(260, 7) exec
+/home/runner/.choosenim/toolchains/nim-1.2.0/lib/system/nimscript.nim(260, 7) Error: unhandled exception: FAILED: nifty install [OSError]
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_7211', 0x00000000000001ff)
+mkdir('/tmp/nimble_7211/githubcom_h3raldminim', 0x00000000000001ff)
+rmdir('/tmp/nimble_7211/githubcom_h3raldminim')
+mkdir('/tmp/nimble_7211/githubcom_h3raldminim', 0x00000000000001ff)
+mkdir('/tmp/nimble_7211/githubcom_h3raldminim/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_7211/githubcom_h3raldminim/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7211/githubcom_h3raldminim/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7211/githubcom_h3raldminim/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7211/githubcom_h3raldminim/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7211/githubcom_h3raldminim/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_7211/githubcom_h3raldminim/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_7211/githubcom_h3raldminim/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_7211/githubcom_h3raldminim/.git/HEAD.lock', '/tmp/nimble_7211/githubcom_h3raldminim/.git/HEAD')
+rename('/tmp/nimble_7211/githubcom_h3raldminim/.git/config.lock', '/tmp/nimble_7211/githubcom_h3raldminim/.git/config')
+chmod('/tmp/nimble_7211/githubcom_h3raldminim/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_7211/githubcom_h3raldminim/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_7211/githubcom_h3raldminim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7211/githubcom_h3raldminim/.git/config.lock', '/tmp/nimble_7211/githubcom_h3raldminim/.git/config')
+chmod('/tmp/nimble_7211/githubcom_h3raldminim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7211/githubcom_h3raldminim/.git/config.lock', '/tmp/nimble_7211/githubcom_h3raldminim/.git/config')
+chmod('/tmp/nimble_7211/githubcom_h3raldminim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7211/githubcom_h3raldminim/.git/config.lock', '/tmp/nimble_7211/githubcom_h3raldminim/.git/config')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/tfCxtqC')
+symlink('testing', '/tmp/nimble_7211/githubcom_h3raldminim/.git/tfCxtqC')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/tfCxtqC')
+mkdir('/tmp/nimble_7211/githubcom_h3raldminim/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_7211/githubcom_h3raldminim/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_7211/githubcom_h3raldminim/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_7211/githubcom_h3raldminim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7211/githubcom_h3raldminim/.git/config.lock', '/tmp/nimble_7211/githubcom_h3raldminim/.git/config')
+chmod('/tmp/nimble_7211/githubcom_h3raldminim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7211/githubcom_h3raldminim/.git/config.lock', '/tmp/nimble_7211/githubcom_h3raldminim/.git/config')
+chmod('/tmp/nimble_7211/githubcom_h3raldminim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7211/githubcom_h3raldminim/.git/config.lock', '/tmp/nimble_7211/githubcom_h3raldminim/.git/config')
+link('/tmp/nimble_7211/githubcom_h3raldminim/.git/objects/pack/tmp_pack_Msshdb', '/tmp/nimble_7211/githubcom_h3raldminim/.git/objects/pack/pack-b87000aa943e2a691a126445bcafcfd0603da420.pack')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/objects/pack/tmp_pack_Msshdb')
+link('/tmp/nimble_7211/githubcom_h3raldminim/.git/objects/pack/tmp_idx_MWBAqE', '/tmp/nimble_7211/githubcom_h3raldminim/.git/objects/pack/pack-b87000aa943e2a691a126445bcafcfd0603da420.idx')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/objects/pack/tmp_idx_MWBAqE')
+rename('/tmp/nimble_7211/githubcom_h3raldminim/.git/shallow.lock', '/tmp/nimble_7211/githubcom_h3raldminim/.git/shallow')
+rename('/tmp/nimble_7211/githubcom_h3raldminim/.git/packed-refs.new', '/tmp/nimble_7211/githubcom_h3raldminim/.git/packed-refs')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/packed-refs.lock')
+rename('/tmp/nimble_7211/githubcom_h3raldminim/.git/refs/tags/0.19.6.lock', '/tmp/nimble_7211/githubcom_h3raldminim/.git/refs/tags/0.19.6')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/refs/tags/v0.19.6.lock')
+mkdir('/tmp/nimble_7211/githubcom_h3raldminim/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_7211/githubcom_h3raldminim/.git/HEAD.lock', '/tmp/nimble_7211/githubcom_h3raldminim/.git/HEAD')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/objects/pack/pack-b87000aa943e2a691a126445bcafcfd0603da420.keep')
+mkdir('core', 0x00000000000001ff)
+mkdir('lib', 0x00000000000001ff)
+mkdir('site', 0x00000000000001ff)
+mkdir('site/assets', 0x00000000000001ff)
+mkdir('site/assets/fonts', 0x00000000000001ff)
+mkdir('site/assets/images', 0x00000000000001ff)
+mkdir('site/assets/styles', 0x00000000000001ff)
+mkdir('site/contents', 0x00000000000001ff)
+mkdir('site/scripts', 0x00000000000001ff)
+mkdir('site/templates', 0x00000000000001ff)
+mkdir('tests', 0x00000000000001ff)
+mkdir('vendor', 0x00000000000001ff)
+mkdir('vendor/aes', 0x00000000000001ff)
+rename('/tmp/nimble_7211/githubcom_h3raldminim/.git/index.lock', '/tmp/nimble_7211/githubcom_h3raldminim/.git/index')
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/min_2290478684', 0x00000000000001ff)
+unlink('/tmp/nimblecache/min_2290478684/min.ini')
+unlink('/tmp/nimble_7211.out')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/min_7211.nims')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/min_7211.nims')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/config')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/info/exclude')
+rmdir('/tmp/nimble_7211/githubcom_h3raldminim/.git/info')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/shallow')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/description')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/index')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/packed-refs')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/HEAD')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/hooks/update.sample')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/hooks/post-update.sample')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/hooks/commit-msg.sample')
+rmdir('/tmp/nimble_7211/githubcom_h3raldminim/.git/hooks')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/logs/HEAD')
+rmdir('/tmp/nimble_7211/githubcom_h3raldminim/.git/logs')
+rmdir('/tmp/nimble_7211/githubcom_h3raldminim/.git/branches')
+rmdir('/tmp/nimble_7211/githubcom_h3raldminim/.git/objects/info')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/objects/pack/pack-b87000aa943e2a691a126445bcafcfd0603da420.idx')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/objects/pack/pack-b87000aa943e2a691a126445bcafcfd0603da420.pack')
+rmdir('/tmp/nimble_7211/githubcom_h3raldminim/.git/objects/pack')
+rmdir('/tmp/nimble_7211/githubcom_h3raldminim/.git/objects')
+rmdir('/tmp/nimble_7211/githubcom_h3raldminim/.git/refs/heads')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.git/refs/tags/0.19.6')
+rmdir('/tmp/nimble_7211/githubcom_h3raldminim/.git/refs/tags')
+rmdir('/tmp/nimble_7211/githubcom_h3raldminim/.git/refs')
+rmdir('/tmp/nimble_7211/githubcom_h3raldminim/.git')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/nifty.json')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.travis.yml')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/assets/fonts/themify.ttf')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/assets/fonts/themify.svg')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/assets/fonts/themify.eot')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/assets/fonts/themify.woff')     Error: Exception raised during nimble script execution
+
+rmdir('/tmp/nimble_7211/githubcom_h3raldminim/site/assets/fonts')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/assets/styles/min-lang.css')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/assets/styles/themify-icons.css')
+rmdir('/tmp/nimble_7211/githubcom_h3raldminim/site/assets/styles')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/assets/images/logo.svg')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/assets/images/logo.png')
+rmdir('/tmp/nimble_7211/githubcom_h3raldminim/site/assets/images')
+rmdir('/tmp/nimble_7211/githubcom_h3raldminim/site/assets')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/templates/page.mustache')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/templates/_footer.mustache')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/templates/_menu.mustache')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/templates/_head.mustache')
+rmdir('/tmp/nimble_7211/githubcom_h3raldminim/site/templates')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/download.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-num.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/donate.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-fs.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/home.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-net.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-stack.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-crypto.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/learn-control-flow.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-str.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/about.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/learn.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-http.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-time.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/learn-shell.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/learn-operators.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-io.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-dict.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/learn-data-types.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-logic.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-lang.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/learn-definitions.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/learn-extending.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-sys.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-math.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-seq.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/learn-quotations.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/contents/_defs_.md')
+rmdir('/tmp/nimble_7211/githubcom_h3raldminim/site/contents')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/rules.min')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/scripts/build.min')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/scripts/clean.min')
+rmdir('/tmp/nimble_7211/githubcom_h3raldminim/site/scripts')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/site/settings.json')
+rmdir('/tmp/nimble_7211/githubcom_h3raldminim/site')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/prelude.min')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/.gitignore')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/lib/min_str.nim')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/lib/min_seq.nim')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/lib/min_dict.nim')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/lib/min_time.nim')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/lib/min_stack.nim')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/lib/min_crypto.nim')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/lib/min_logic.nim')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/lib/min_math.nim')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/lib/min_fs.nim')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/lib/min_num.nim')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/lib/min_http.nim')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/lib/min_net.nim')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/lib/min_sys.nim')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/lib/min_io.nim')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/lib/min_lang.nim')
+rmdir('/tmp/nimble_7211/githubcom_h3raldminim/lib')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/min.nimble')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/Min_DeveloperGuide.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/mindyn.nim')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/README.md')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/tests/logic.min')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/tests/dict.min')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/tests/crypto.min')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/tests/io.min')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/tests/fs.min')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/tests/net.min')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/tests/str.min')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/tests/lang.min')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/tests/test.min')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/tests/seq.min')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/tests/math.min')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/tests/num.min')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/tests/all.min')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/tests/http.min')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/tests/sys.min')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/tests/time.min')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/tests/stack.min')
+rmdir('/tmp/nimble_7211/githubcom_h3raldminim/tests')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/core/interpreter.nim')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/core/env.nim')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/core/consts.nim')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/core/fileutils.nim')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/core/utils.nim')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/core/parser.nim')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/core/value.nim')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/core/scope.nim')
+rmdir('/tmp/nimble_7211/githubcom_h3raldminim/core')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/min.nim.cfg')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/vendor/aes/aes.nim')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/vendor/aes/libaes.c')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/vendor/aes/aes.h')
+rmdir('/tmp/nimble_7211/githubcom_h3raldminim/vendor/aes')
+rmdir('/tmp/nimble_7211/githubcom_h3raldminim/vendor')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/min.nim')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/min.vim')
+unlink('/tmp/nimble_7211/githubcom_h3raldminim/LICENSE')
+rmdir('/tmp/nimble_7211/githubcom_h3raldminim')
+rmdir('/tmp/nimble_7211')
+  create directory /tmp
+  create directory /tmp/nimble_7211
+  create directory /tmp/nimble_7211/githubcom_h3raldminim
+  delete /tmp/nimble_7211/githubcom_h3raldminim
+  create directory /tmp/nimble_7211/githubcom_h3raldminim
+  create directory /tmp/nimble_7211/githubcom_h3raldminim/.git
+  create directory /tmp/nimble_7211/githubcom_h3raldminim/.git
+  create directory /tmp/nimble_7211/githubcom_h3raldminim/.git/info
+  create directory /tmp/nimble_7211/githubcom_h3raldminim/.git/hooks
+  create directory /tmp/nimble_7211/githubcom_h3raldminim/.git/branches
+  create directory /tmp/nimble_7211/githubcom_h3raldminim/.git/refs
+  create directory /tmp/nimble_7211/githubcom_h3raldminim/.git/refs/heads
+  create directory /tmp/nimble_7211/githubcom_h3raldminim/.git/refs/tags
+  rename /tmp/nimble_7211/githubcom_h3raldminim/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_7211/githubcom_h3raldminim/.git/config.lock to config
+  change permissions of /tmp/nimble_7211/githubcom_h3raldminim/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_7211/githubcom_h3raldminim/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_7211/githubcom_h3raldminim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7211/githubcom_h3raldminim/.git/config.lock to config
+  change permissions of /tmp/nimble_7211/githubcom_h3raldminim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7211/githubcom_h3raldminim/.git/config.lock to config
+  change permissions of /tmp/nimble_7211/githubcom_h3raldminim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7211/githubcom_h3raldminim/.git/config.lock to config
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/tfCxtqC
+  create symbolic link from /tmp/nimble_7211/githubcom_h3raldminim/.git/tfCxtqC to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/tfCxtqC
+  create directory /tmp/nimble_7211/githubcom_h3raldminim/.git/objects
+  create directory /tmp/nimble_7211/githubcom_h3raldminim/.git/objects/pack
+  create directory /tmp/nimble_7211/githubcom_h3raldminim/.git/objects/info
+  change permissions of /tmp/nimble_7211/githubcom_h3raldminim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7211/githubcom_h3raldminim/.git/config.lock to config
+  change permissions of /tmp/nimble_7211/githubcom_h3raldminim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7211/githubcom_h3raldminim/.git/config.lock to config
+  change permissions of /tmp/nimble_7211/githubcom_h3raldminim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7211/githubcom_h3raldminim/.git/config.lock to config
+  create hard link from /tmp/nimble_7211/githubcom_h3raldminim/.git/objects/pack/pack-b87000aa943e2a691a126445bcafcfd0603da420.pack to /tmp/nimble_7211/githubcom_h3raldminim/.git/objects/pack/tmp_pack_Msshdb
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/objects/pack/tmp_pack_Msshdb
+  create hard link from /tmp/nimble_7211/githubcom_h3raldminim/.git/objects/pack/pack-b87000aa943e2a691a126445bcafcfd0603da420.idx to /tmp/nimble_7211/githubcom_h3raldminim/.git/objects/pack/tmp_idx_MWBAqE
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/objects/pack/tmp_idx_MWBAqE
+  rename /tmp/nimble_7211/githubcom_h3raldminim/.git/shallow.lock to shallow
+  rename /tmp/nimble_7211/githubcom_h3raldminim/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/packed-refs.lock
+  rename /tmp/nimble_7211/githubcom_h3raldminim/.git/refs/tags/0.19.6.lock to 0.19.6
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/refs/tags/v0.19.6.lock
+  create directory /tmp/nimble_7211/githubcom_h3raldminim/.git/logs
+  rename /tmp/nimble_7211/githubcom_h3raldminim/.git/HEAD.lock to HEAD
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/objects/pack/pack-b87000aa943e2a691a126445bcafcfd0603da420.keep
+  create directory /tmp/nimble_7211/githubcom_h3raldminim/core
+  create directory /tmp/nimble_7211/githubcom_h3raldminim/lib
+  create directory /tmp/nimble_7211/githubcom_h3raldminim/site
+  create directory /tmp/nimble_7211/githubcom_h3raldminim/site/assets
+  create directory /tmp/nimble_7211/githubcom_h3raldminim/site/assets/fonts
+  create directory /tmp/nimble_7211/githubcom_h3raldminim/site/assets/images
+  create directory /tmp/nimble_7211/githubcom_h3raldminim/site/assets/styles
+  create directory /tmp/nimble_7211/githubcom_h3raldminim/site/contents
+  create directory /tmp/nimble_7211/githubcom_h3raldminim/site/scripts
+  create directory /tmp/nimble_7211/githubcom_h3raldminim/site/templates
+  create directory /tmp/nimble_7211/githubcom_h3raldminim/tests
+  create directory /tmp/nimble_7211/githubcom_h3raldminim/vendor
+  create directory /tmp/nimble_7211/githubcom_h3raldminim/vendor/aes
+  rename /tmp/nimble_7211/githubcom_h3raldminim/.git/index.lock to index
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/min_2290478684
+  delete /tmp/nimblecache/min_2290478684/min.ini
+  delete /tmp/nimble_7211.out
+  delete /tmp/nimble_7211/githubcom_h3raldminim/min_7211.nims
+  delete /tmp/nimble_7211/githubcom_h3raldminim/min_7211.nims
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/config
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/info/exclude
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/info
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/shallow
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/description
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/index
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/packed-refs
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/HEAD
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/hooks/pre-push.sample
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/hooks/update.sample
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/hooks/post-update.sample
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/hooks
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/logs/HEAD
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/logs
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/branches
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/objects/info
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/objects/pack/pack-b87000aa943e2a691a126445bcafcfd0603da420.idx
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/objects/pack/pack-b87000aa943e2a691a126445bcafcfd0603da420.pack
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/objects/pack
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/objects
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/refs/heads
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/refs/tags/0.19.6
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/refs/tags
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git/refs
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.git
+  delete /tmp/nimble_7211/githubcom_h3raldminim/nifty.json
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.travis.yml
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/assets/fonts/themify.ttf
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/assets/fonts/themify.svg
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/assets/fonts/themify.eot
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/assets/fonts/themify.woff
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/assets/fonts
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/assets/styles/min-lang.css
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/assets/styles/themify-icons.css
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/assets/styles
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/assets/images/logo.svg
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/assets/images/logo.png
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/assets/images
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/assets
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/templates/page.mustache
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/templates/_footer.mustache
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/templates/_menu.mustache
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/templates/_head.mustache
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/templates
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/download.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-num.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/donate.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-fs.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/home.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-net.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-stack.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-crypto.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/learn-control-flow.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-str.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/about.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/learn.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-http.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-time.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/learn-shell.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/learn-operators.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-io.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-dict.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/learn-data-types.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-logic.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-lang.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/learn-definitions.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/learn-extending.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-sys.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-math.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/reference-seq.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/learn-quotations.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents/_defs_.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/contents
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/rules.min
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/scripts/build.min
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/scripts/clean.min
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/scripts
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site/settings.json
+  delete /tmp/nimble_7211/githubcom_h3raldminim/site
+  delete /tmp/nimble_7211/githubcom_h3raldminim/prelude.min
+  delete /tmp/nimble_7211/githubcom_h3raldminim/.gitignore
+  delete /tmp/nimble_7211/githubcom_h3raldminim/lib/min_str.nim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/lib/min_seq.nim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/lib/min_dict.nim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/lib/min_time.nim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/lib/min_stack.nim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/lib/min_crypto.nim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/lib/min_logic.nim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/lib/min_math.nim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/lib/min_fs.nim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/lib/min_num.nim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/lib/min_http.nim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/lib/min_net.nim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/lib/min_sys.nim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/lib/min_io.nim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/lib/min_lang.nim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/lib
+  delete /tmp/nimble_7211/githubcom_h3raldminim/min.nimble
+  delete /tmp/nimble_7211/githubcom_h3raldminim/Min_DeveloperGuide.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/mindyn.nim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/README.md
+  delete /tmp/nimble_7211/githubcom_h3raldminim/tests/logic.min
+  delete /tmp/nimble_7211/githubcom_h3raldminim/tests/dict.min
+  delete /tmp/nimble_7211/githubcom_h3raldminim/tests/crypto.min
+  delete /tmp/nimble_7211/githubcom_h3raldminim/tests/io.min
+  delete /tmp/nimble_7211/githubcom_h3raldminim/tests/fs.min
+  delete /tmp/nimble_7211/githubcom_h3raldminim/tests/net.min
+  delete /tmp/nimble_7211/githubcom_h3raldminim/tests/str.min
+  delete /tmp/nimble_7211/githubcom_h3raldminim/tests/lang.min
+  delete /tmp/nimble_7211/githubcom_h3raldminim/tests/test.min
+  delete /tmp/nimble_7211/githubcom_h3raldminim/tests/seq.min
+  delete /tmp/nimble_7211/githubcom_h3raldminim/tests/math.min
+  delete /tmp/nimble_7211/githubcom_h3raldminim/tests/num.min
+  delete /tmp/nimble_7211/githubcom_h3raldminim/tests/all.min
+  delete /tmp/nimble_7211/githubcom_h3raldminim/tests/http.min
+  delete /tmp/nimble_7211/githubcom_h3raldminim/tests/sys.min
+  delete /tmp/nimble_7211/githubcom_h3raldminim/tests/time.min
+  delete /tmp/nimble_7211/githubcom_h3raldminim/tests/stack.min
+  delete /tmp/nimble_7211/githubcom_h3raldminim/tests
+  delete /tmp/nimble_7211/githubcom_h3raldminim/core/interpreter.nim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/core/env.nim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/core/consts.nim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/core/fileutils.nim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/core/utils.nim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/core/parser.nim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/core/value.nim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/core/scope.nim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/core
+  delete /tmp/nimble_7211/githubcom_h3raldminim/min.nim.cfg
+  delete /tmp/nimble_7211/githubcom_h3raldminim/vendor/aes/aes.nim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/vendor/aes/libaes.c
+  delete /tmp/nimble_7211/githubcom_h3raldminim/vendor/aes/aes.h
+  delete /tmp/nimble_7211/githubcom_h3raldminim/vendor/aes
+  delete /tmp/nimble_7211/githubcom_h3raldminim/vendor
+  delete /tmp/nimble_7211/githubcom_h3raldminim/min.nim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/min.vim
+  delete /tmp/nimble_7211/githubcom_h3raldminim/LICENSE
+  delete /tmp/nimble_7211/githubcom_h3raldminim
+  delete /tmp/nimble_7211

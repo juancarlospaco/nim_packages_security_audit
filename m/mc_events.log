@@ -1,0 +1,16 @@
+    Reading official package list
+Downloading https://github.com/MerosCrypto/mc_events using git
+download.nim(93)         getTagsListRemote
+Error: unhandled exception: Unable to query remote tags for https://github.com/MerosCrypto/mc_events. Git returned: remote: Repository not found.
+fatal: repository 'https://github.com/MerosCrypto/mc_events/' not found
+ [OSError]
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_10419', 0x00000000000001ff)
+mkdir('/tmp/nimble_10419/githubcom_MerosCryptomcevents', 0x00000000000001ff)
+rmdir('/tmp/nimble_10419/githubcom_MerosCryptomcevents')
+rmdir('/tmp/nimble_10419')
+  create directory /tmp
+  create directory /tmp/nimble_10419
+  create directory /tmp/nimble_10419/githubcom_MerosCryptomcevents
+  delete /tmp/nimble_10419/githubcom_MerosCryptomcevents
+  delete /tmp/nimble_10419
