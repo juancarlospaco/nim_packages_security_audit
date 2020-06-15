@@ -1,301 +1,543 @@
     Reading official package list
 Downloading https://github.com/CORDEA/oauth using git
     Cloning latest tagged version: v0.10
-       Info /tmp/nimble_5105/githubcom_CORDEAoauth/oauth_5105.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /tmp/nimble_5105/githubcom_CORDEAoauth/oauth_5105.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
-   Warning: Package 'oauth' has an incorrect structure. The top level of the package source directory should contain at most one module, named 'oauth.nim', but a file named 'oauth2.nim' was found. This will be an error in the future.
-      Hint: If this is the primary source file in the package, rename it to 'oauth.nim'. If it's a source file required by the main module, or if it is one of several modules exposed by 'oauth', then move it into a 'oauth/' subdirectory. If it's a test file or otherwise not required to build the the package 'oauth.nim', prevent its installation by adding `skipFiles = @["oauth2.nim"]` to the .nimble file. See https://github.com/nim-lang/nimble#libraries for more info.
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_5642', 0x00000000000001ff)
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth', 0x00000000000001ff)
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth', 0x00000000000001ff)
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/HEAD.lock', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/HEAD')
+rename('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/config.lock', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/config')
+chmod('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/config.lock', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/config')
+chmod('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/config.lock', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/config')
+chmod('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/config.lock', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/config')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/tHI6mjm')
+symlink('testing', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/tHI6mjm')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/tHI6mjm')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/config.lock', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/config')
+chmod('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/config.lock', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/config')
+chmod('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/config.lock', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/config')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/26', 0x00000000000001ff)
+link('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/26/tmp_obj_hqXoGN', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/26/09e710ab76e61a503560b73618fc24eb97e8f9')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/26/tmp_obj_hqXoGN')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/5a', 0x00000000000001ff)
+link('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/5a/tmp_obj_hWbuBR', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/5a/916fca31c1e0c90a0040fbe0d369f208dd9610')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/5a/tmp_obj_hWbuBR')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/62', 0x00000000000001ff)
+link('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/62/tmp_obj_PNEHFT', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/62/84a8e861b610ca861a2fbc6f95a62b660f31e2')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/62/tmp_obj_PNEHFT')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/94', 0x00000000000001ff)
+link('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/94/tmp_obj_vv8spX', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/94/4058b72b35fd6834ba1b19050193538abf0f46')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/94/tmp_obj_vv8spX')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/cf', 0x00000000000001ff)
+link('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/cf/tmp_obj_3sORi4', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/cf/918f9ba26e5cf2f5d8867f4b009b51ac1c011e')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/cf/tmp_obj_3sORi4')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/78', 0x00000000000001ff)
+link('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/78/tmp_obj_3ihrc8', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/78/2de810f8882d9c772f423b5cf9851c9daea1ca')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/78/tmp_obj_3ihrc8')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/68', 0x00000000000001ff)
+link('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/68/tmp_obj_JWsmha', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/68/089981a621a1cf928c6856e7fbb0369d7f18b0')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/68/tmp_obj_JWsmha')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/b9', 0x00000000000001ff)
+link('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/b9/tmp_obj_dEFBDf', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/b9/e2cf9cfe4d08f7b9ef7f2be1b16c46ee127863')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/b9/tmp_obj_dEFBDf')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/2d', 0x00000000000001ff)
+link('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/2d/tmp_obj_zlavIj', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/2d/70fe4062c282077457045abba069263b643c45')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/2d/tmp_obj_zlavIj')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/46', 0x00000000000001ff)
+link('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/46/tmp_obj_icGv6f', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/46/1238d076299f50e7e469613c8109b66c98531a')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/46/tmp_obj_icGv6f')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/57', 0x00000000000001ff)
+link('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/57/tmp_obj_c30ZJl', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/57/ac9c9c48c3135a81e8e5c1d048339e7511c749')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/57/tmp_obj_c30ZJl')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/21', 0x00000000000001ff)
+link('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/21/tmp_obj_4SlIUm', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/21/b8f755d9b1a474631565bf08b7a4d1c8475d79')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/21/tmp_obj_4SlIUm')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/0d', 0x00000000000001ff)
+link('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/0d/tmp_obj_wFpXJr', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/0d/1813c43afa9d8491ddd71d91db67f8d40b9583')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/0d/tmp_obj_wFpXJr')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/83', 0x00000000000001ff)
+link('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/83/tmp_obj_6bxl0B', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/83/e194a22b191ecf354d8760f560ba81b7064c70')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/83/tmp_obj_6bxl0B')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/a5', 0x00000000000001ff)
+link('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/a5/tmp_obj_QPF9BG', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/a5/214afda7301f5e8fc3b3a584a3298560a1e2da')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/a5/tmp_obj_QPF9BG')
+link('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/26/tmp_obj_C82eAL', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/26/63227d4d5d785523d38e8389ac800f6e4d4827')       Info /tmp/nimble_5642/githubcom_CORDEAoauth/oauth_5642.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /tmp/nimble_5642/githubcom_CORDEAoauth/oauth_5642.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+   Warning: Package 'oauth' has an incorrect structure. The top level of the package source directory should contain at most one module, named 'oauth.nim', but a file named 'oauth1.nim' was found. This will be an error in the future.
+      Hint: If this is the primary source file in the package, rename it to 'oauth.nim'. If it's a source file required by the main module, or if it is one of several modules exposed by 'oauth', then move it into a 'oauth/' subdirectory. If it's a test file or otherwise not required to build the the package 'oauth.nim', prevent its installation by adding `skipFiles = @["oauth1.nim"]` to the .nimble file. See https://github.com/nim-lang/nimble#libraries for more info.
   Verifying dependencies for oauth@0.10
     Reading official package list
    Checking for sha1@any version
       Info: Dependency on sha1@any version already satisfied
   Verifying dependencies for sha1@1.1
  Installing oauth@0.10
-    Copying file /tmp/nimble_5105/githubcom_CORDEAoauth/src/oauth2.nim to /home/runner/.nimble/pkgs/oauth-0.10/oauth2.nim
-    Copying file /tmp/nimble_5105/githubcom_CORDEAoauth/src/oauth1.nim to /home/runner/.nimble/pkgs/oauth-0.10/oauth1.nim
-    Copying file /tmp/nimble_5105/githubcom_CORDEAoauth/oauth.nimble to /home/runner/.nimble/pkgs/oauth-0.10/oauth.nimble
+    Copying file /tmp/nimble_5642/githubcom_CORDEAoauth/src/oauth1.nim to /home/runner/.nimble/pkgs/oauth-0.10/oauth1.nim
+    Copying file /tmp/nimble_5642/githubcom_CORDEAoauth/src/oauth2.nim to /home/runner/.nimble/pkgs/oauth-0.10/oauth2.nim
+    Copying file /tmp/nimble_5642/githubcom_CORDEAoauth/oauth.nimble to /home/runner/.nimble/pkgs/oauth-0.10/oauth.nimble
    Success: oauth installed successfully.
-       Info /home/runner/.nimble/pkgs/oauth-0.10/oauth_5105.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /home/runner/.nimble/pkgs/oauth-0.10/oauth_5105.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_5105', 0x00000000000001ff)
-mkdir('/tmp/nimble_5105/githubcom_CORDEAoauth', 0x00000000000001ff)
-rmdir('/tmp/nimble_5105/githubcom_CORDEAoauth')
-mkdir('/tmp/nimble_5105/githubcom_CORDEAoauth', 0x00000000000001ff)
-mkdir('/tmp/nimble_5105/githubcom_CORDEAoauth/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/HEAD.lock', '/tmp/nimble_5105/githubcom_CORDEAoauth/.git/HEAD')
-rename('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/config.lock', '/tmp/nimble_5105/githubcom_CORDEAoauth/.git/config')
-chmod('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/config.lock', '/tmp/nimble_5105/githubcom_CORDEAoauth/.git/config')
-chmod('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/config.lock', '/tmp/nimble_5105/githubcom_CORDEAoauth/.git/config')
-chmod('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/config.lock', '/tmp/nimble_5105/githubcom_CORDEAoauth/.git/config')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/tSKqX0a')
-symlink('testing', '/tmp/nimble_5105/githubcom_CORDEAoauth/.git/tSKqX0a')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/tSKqX0a')
-mkdir('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/config.lock', '/tmp/nimble_5105/githubcom_CORDEAoauth/.git/config')
-chmod('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/config.lock', '/tmp/nimble_5105/githubcom_CORDEAoauth/.git/config')
-chmod('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/config.lock', '/tmp/nimble_5105/githubcom_CORDEAoauth/.git/config')
-link('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects/pack/tmp_pack_VTyjYR', '/tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects/pack/pack-d5685a070bef59b54299bc1d90a987a896a4d44b.pack')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects/pack/tmp_pack_VTyjYR')
-link('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects/pack/tmp_idx_Lsj3i8', '/tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects/pack/pack-d5685a070bef59b54299bc1d90a987a896a4d44b.idx')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects/pack/tmp_idx_Lsj3i8')
-rename('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/shallow.lock', '/tmp/nimble_5105/githubcom_CORDEAoauth/.git/shallow')
-rename('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/packed-refs.new', '/tmp/nimble_5105/githubcom_CORDEAoauth/.git/packed-refs')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/packed-refs.lock')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/refs/tags/v0.10.lock')
-mkdir('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/HEAD.lock', '/tmp/nimble_5105/githubcom_CORDEAoauth/.git/HEAD')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects/pack/pack-d5685a070bef59b54299bc1d90a987a896a4d44b.keep')
+       Info /home/runner/.nimble/pkgs/oauth-0.10/oauth_5642.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /home/runner/.nimble/pkgs/oauth-0.10/oauth_5642.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/26/tmp_obj_C82eAL')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/31', 0x00000000000001ff)
+link('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/31/tmp_obj_E5uUjO', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/31/47c11c90bb16c9d7e8a28c2fe919f79deb08ab')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/31/tmp_obj_E5uUjO')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/e2', 0x00000000000001ff)
+link('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/e2/tmp_obj_GWPVrT', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/e2/b9f51b3f7ae722d912876e6b77ffbdf3baaf4c')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/e2/tmp_obj_GWPVrT')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/9d', 0x00000000000001ff)
+link('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/9d/tmp_obj_sxi5yX', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/9d/ba22de634d3e9006caf09561f247edc48d1b30')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/9d/tmp_obj_sxi5yX')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/4c', 0x00000000000001ff)
+link('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/4c/tmp_obj_iwIVH5', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/4c/dcd0ceb2c7d22f954337ad41134a2547e59f64')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/4c/tmp_obj_iwIVH5')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/18', 0x00000000000001ff)
+link('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/18/tmp_obj_yIKL2a', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/18/f1f3d1ecfdd12ee050c3545999598fdb92ec97')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/18/tmp_obj_yIKL2a')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/0c', 0x00000000000001ff)
+link('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/0c/tmp_obj_iwq8Sd', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/0c/e7928d15b758e428524570a6b64070216f146d')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/0c/tmp_obj_iwq8Sd')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/01', 0x00000000000001ff)
+link('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/01/tmp_obj_EpfRok', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/01/edf3f632d5098db346c4e265808fa9946b73b5')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/01/tmp_obj_EpfRok')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/30', 0x00000000000001ff)
+link('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/30/tmp_obj_ld4ddd', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/30/d11d0c9869d964176c10fb83385ab3fe79ce77')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/30/tmp_obj_ld4ddd')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/90', 0x00000000000001ff)
+link('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/90/tmp_obj_RxyuCh', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/90/dec48973c9533eb8ff13f503c2ea577dcd414a')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/90/tmp_obj_RxyuCh')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/73', 0x00000000000001ff)
+link('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/73/tmp_obj_vAXdnm', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/73/0dd30c1bb0d72b652c0c850f72a4a5c1929572')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/73/tmp_obj_vAXdnm')
+rename('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/shallow.lock', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/shallow')
+rename('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/packed-refs.new', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/packed-refs')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/packed-refs.lock')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/refs/tags/v0.10.lock')
+mkdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/HEAD.lock', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/HEAD')
 mkdir('.travis', 0x00000000000001ff)
 mkdir('docs', 0x00000000000001ff)
 mkdir('examples', 0x00000000000001ff)
 mkdir('src', 0x00000000000001ff)
 mkdir('test', 0x00000000000001ff)
-rename('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/index.lock', '/tmp/nimble_5105/githubcom_CORDEAoauth/.git/index')
+rename('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/index.lock', '/tmp/nimble_5642/githubcom_CORDEAoauth/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/oauth_3877730417', 0x00000000000001ff)
-unlink('/tmp/nimblecache/oauth_3877730417/oauth.ini')
-unlink('/tmp/nimble_5105.out')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/oauth_5105.nims')
+mkdir('/tmp/nimblecache/oauth_466541693', 0x00000000000001ff)
+unlink('/tmp/nimblecache/oauth_466541693/oauth.ini')
+unlink('/tmp/nimble_5642.out')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/oauth_5642.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/oauth-0.10', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/oauth-0.10', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/oauth-0.10/oauth2.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/oauth-0.10', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/oauth-0.10/oauth1.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/oauth-0.10', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/oauth-0.10/oauth2.nim', 0x00000000000001a4)
 chmod('/home/runner/.nimble/pkgs/oauth-0.10/oauth.nimble', 0x00000000000001a4)
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/oauth_3571956864', 0x00000000000001ff)
 unlink('/tmp/nimblecache/oauth_3571956864/oauth.ini')
-unlink('/tmp/nimble_5105.out')
-unlink('/home/runner/.nimble/pkgs/oauth-0.10/oauth_5105.nims')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/examples/mediawiki.nim')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/examples/github.nim')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/examples/bitbucket.nim')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/examples/slack.nim')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/examples/tumblr.nim')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/examples/gmail.nim')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/examples/twitter.nim')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/examples/gitlab.nim')
-rmdir('/tmp/nimble_5105/githubcom_CORDEAoauth/examples')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/src/oauth2.nim')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/src/oauth1.nim')
-rmdir('/tmp/nimble_5105/githubcom_CORDEAoauth/src')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.travis/install.sh')
-rmdir('/tmp/nimble_5105/githubcom_CORDEAoauth/.travis')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/LICENSE')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.travis.yml')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/docs/oauth1.html')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/docs/oauth2.html')
-rmdir('/tmp/nimble_5105/githubcom_CORDEAoauth/docs')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/HEAD')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/config')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/logs/HEAD')
-rmdir('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/logs')
-rmdir('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/branches')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/packed-refs')
-rmdir('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/refs/heads')
-rmdir('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/refs/tags')
-rmdir('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/refs')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks/update.sample')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/index')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/info/exclude')
-rmdir('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/info')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/shallow')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/description')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects/pack/pack-d5685a070bef59b54299bc1d90a987a896a4d44b.pack')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects/pack/pack-d5685a070bef59b54299bc1d90a987a896a4d44b.idx')
-rmdir('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects/pack')
-rmdir('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects/info')
-rmdir('/tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects')
-rmdir('/tmp/nimble_5105/githubcom_CORDEAoauth/.git')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/test/toauth2.nim')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/test/toauth1.nim')
-rmdir('/tmp/nimble_5105/githubcom_CORDEAoauth/test')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/README.md')
-unlink('/tmp/nimble_5105/githubcom_CORDEAoauth/oauth.nimble')
-rmdir('/tmp/nimble_5105/githubcom_CORDEAoauth')
-rmdir('/tmp/nimble_5105')
+unlink('/tmp/nimble_5642.out')
+unlink('/home/runner/.nimble/pkgs/oauth-0.10/oauth_5642.nims')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/docs/oauth1.html')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/docs/oauth2.html')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/docs')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/src/oauth1.nim')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/src/oauth2.nim')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/src')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/config')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/info/exclude')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/info')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/shallow')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/description')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/index')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/packed-refs')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/HEAD')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks/update.sample')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks/post-update.sample')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks/commit-msg.sample')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/logs/HEAD')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/logs')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/branches')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/62/84a8e861b610ca861a2fbc6f95a62b660f31e2')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/62')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/94/4058b72b35fd6834ba1b19050193538abf0f46')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/94')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/info')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/46/1238d076299f50e7e469613c8109b66c98531a')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/46')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/2d/70fe4062c282077457045abba069263b643c45')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/2d')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/30/d11d0c9869d964176c10fb83385ab3fe79ce77')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/30')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/e2/b9f51b3f7ae722d912876e6b77ffbdf3baaf4c')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/e2')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/pack')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/78/2de810f8882d9c772f423b5cf9851c9daea1ca')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/78')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/01/edf3f632d5098db346c4e265808fa9946b73b5')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/01')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/4c/dcd0ceb2c7d22f954337ad41134a2547e59f64')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/4c')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/0d/1813c43afa9d8491ddd71d91db67f8d40b9583')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/0d')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/26/09e710ab76e61a503560b73618fc24eb97e8f9')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/26/63227d4d5d785523d38e8389ac800f6e4d4827')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/26')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/18/f1f3d1ecfdd12ee050c3545999598fdb92ec97')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/18')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/21/b8f755d9b1a474631565bf08b7a4d1c8475d79')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/21')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/57/ac9c9c48c3135a81e8e5c1d048339e7511c749')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/57')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/b9/e2cf9cfe4d08f7b9ef7f2be1b16c46ee127863')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/b9')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/5a/916fca31c1e0c90a0040fbe0d369f208dd9610')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/5a')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/cf/918f9ba26e5cf2f5d8867f4b009b51ac1c011e')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/cf')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/0c/e7928d15b758e428524570a6b64070216f146d')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/0c')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/31/47c11c90bb16c9d7e8a28c2fe919f79deb08ab')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/31')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/9d/ba22de634d3e9006caf09561f247edc48d1b30')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/9d')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/a5/214afda7301f5e8fc3b3a584a3298560a1e2da')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/a5')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/73/0dd30c1bb0d72b652c0c850f72a4a5c1929572')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/73')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/68/089981a621a1cf928c6856e7fbb0369d7f18b0')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/68')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/83/e194a22b191ecf354d8760f560ba81b7064c70')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/83')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/90/dec48973c9533eb8ff13f503c2ea577dcd414a')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/90')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/refs/heads')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/refs/tags')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git/refs')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.git')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/oauth.nimble')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.travis.yml')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/README.md')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/.travis/install.sh')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/.travis')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/test/toauth2.nim')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/test/toauth1.nim')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/test')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/examples/bitbucket.nim')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/examples/mediawiki.nim')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/examples/github.nim')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/examples/tumblr.nim')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/examples/twitter.nim')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/examples/gitlab.nim')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/examples/slack.nim')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/examples/gmail.nim')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth/examples')
+unlink('/tmp/nimble_5642/githubcom_CORDEAoauth/LICENSE')
+rmdir('/tmp/nimble_5642/githubcom_CORDEAoauth')
+rmdir('/tmp/nimble_5642')
   create directory /tmp
-  create directory /tmp/nimble_5105
-  create directory /tmp/nimble_5105/githubcom_CORDEAoauth
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth
-  create directory /tmp/nimble_5105/githubcom_CORDEAoauth
-  create directory /tmp/nimble_5105/githubcom_CORDEAoauth/.git
-  create directory /tmp/nimble_5105/githubcom_CORDEAoauth/.git
-  create directory /tmp/nimble_5105/githubcom_CORDEAoauth/.git/branches
-  create directory /tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks
-  create directory /tmp/nimble_5105/githubcom_CORDEAoauth/.git/info
-  create directory /tmp/nimble_5105/githubcom_CORDEAoauth/.git/refs
-  create directory /tmp/nimble_5105/githubcom_CORDEAoauth/.git/refs/heads
-  create directory /tmp/nimble_5105/githubcom_CORDEAoauth/.git/refs/tags
-  rename /tmp/nimble_5105/githubcom_CORDEAoauth/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_5105/githubcom_CORDEAoauth/.git/config.lock to config
-  change permissions of /tmp/nimble_5105/githubcom_CORDEAoauth/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_5105/githubcom_CORDEAoauth/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_5105/githubcom_CORDEAoauth/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5105/githubcom_CORDEAoauth/.git/config.lock to config
-  change permissions of /tmp/nimble_5105/githubcom_CORDEAoauth/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5105/githubcom_CORDEAoauth/.git/config.lock to config
-  change permissions of /tmp/nimble_5105/githubcom_CORDEAoauth/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5105/githubcom_CORDEAoauth/.git/config.lock to config
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/tSKqX0a
-  create symbolic link from /tmp/nimble_5105/githubcom_CORDEAoauth/.git/tSKqX0a to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/tSKqX0a
-  create directory /tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects
-  create directory /tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects/pack
-  create directory /tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects/info
-  change permissions of /tmp/nimble_5105/githubcom_CORDEAoauth/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5105/githubcom_CORDEAoauth/.git/config.lock to config
-  change permissions of /tmp/nimble_5105/githubcom_CORDEAoauth/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5105/githubcom_CORDEAoauth/.git/config.lock to config
-  change permissions of /tmp/nimble_5105/githubcom_CORDEAoauth/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5105/githubcom_CORDEAoauth/.git/config.lock to config
-  create hard link from /tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects/pack/pack-d5685a070bef59b54299bc1d90a987a896a4d44b.pack to /tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects/pack/tmp_pack_VTyjYR
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects/pack/tmp_pack_VTyjYR
-  create hard link from /tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects/pack/pack-d5685a070bef59b54299bc1d90a987a896a4d44b.idx to /tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects/pack/tmp_idx_Lsj3i8
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects/pack/tmp_idx_Lsj3i8
-  rename /tmp/nimble_5105/githubcom_CORDEAoauth/.git/shallow.lock to shallow
-  rename /tmp/nimble_5105/githubcom_CORDEAoauth/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/packed-refs.lock
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/refs/tags/v0.10.lock
-  create directory /tmp/nimble_5105/githubcom_CORDEAoauth/.git/logs
-  rename /tmp/nimble_5105/githubcom_CORDEAoauth/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects/pack/pack-d5685a070bef59b54299bc1d90a987a896a4d44b.keep
-  create directory /tmp/nimble_5105/githubcom_CORDEAoauth/.travis
-  create directory /tmp/nimble_5105/githubcom_CORDEAoauth/docs
-  create directory /tmp/nimble_5105/githubcom_CORDEAoauth/examples
-  create directory /tmp/nimble_5105/githubcom_CORDEAoauth/src
-  create directory /tmp/nimble_5105/githubcom_CORDEAoauth/test
-  rename /tmp/nimble_5105/githubcom_CORDEAoauth/.git/index.lock to index
+  create directory /tmp/nimble_5642
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/info
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/branches
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/refs
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/refs/heads
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/refs/tags
+  rename /tmp/nimble_5642/githubcom_CORDEAoauth/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_5642/githubcom_CORDEAoauth/.git/config.lock to config
+  change permissions of /tmp/nimble_5642/githubcom_CORDEAoauth/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_5642/githubcom_CORDEAoauth/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_5642/githubcom_CORDEAoauth/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5642/githubcom_CORDEAoauth/.git/config.lock to config
+  change permissions of /tmp/nimble_5642/githubcom_CORDEAoauth/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5642/githubcom_CORDEAoauth/.git/config.lock to config
+  change permissions of /tmp/nimble_5642/githubcom_CORDEAoauth/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5642/githubcom_CORDEAoauth/.git/config.lock to config
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/tHI6mjm
+  create symbolic link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/tHI6mjm to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/tHI6mjm
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/pack
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/info
+  change permissions of /tmp/nimble_5642/githubcom_CORDEAoauth/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5642/githubcom_CORDEAoauth/.git/config.lock to config
+  change permissions of /tmp/nimble_5642/githubcom_CORDEAoauth/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5642/githubcom_CORDEAoauth/.git/config.lock to config
+  change permissions of /tmp/nimble_5642/githubcom_CORDEAoauth/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5642/githubcom_CORDEAoauth/.git/config.lock to config
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/26
+  create hard link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/26/09e710ab76e61a503560b73618fc24eb97e8f9 to /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/26/tmp_obj_hqXoGN
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/26/tmp_obj_hqXoGN
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/5a
+  create hard link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/5a/916fca31c1e0c90a0040fbe0d369f208dd9610 to /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/5a/tmp_obj_hWbuBR
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/5a/tmp_obj_hWbuBR
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/62
+  create hard link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/62/84a8e861b610ca861a2fbc6f95a62b660f31e2 to /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/62/tmp_obj_PNEHFT
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/62/tmp_obj_PNEHFT
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/94
+  create hard link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/94/4058b72b35fd6834ba1b19050193538abf0f46 to /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/94/tmp_obj_vv8spX
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/94/tmp_obj_vv8spX
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/cf
+  create hard link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/cf/918f9ba26e5cf2f5d8867f4b009b51ac1c011e to /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/cf/tmp_obj_3sORi4
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/cf/tmp_obj_3sORi4
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/78
+  create hard link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/78/2de810f8882d9c772f423b5cf9851c9daea1ca to /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/78/tmp_obj_3ihrc8
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/78/tmp_obj_3ihrc8
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/68
+  create hard link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/68/089981a621a1cf928c6856e7fbb0369d7f18b0 to /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/68/tmp_obj_JWsmha
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/68/tmp_obj_JWsmha
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/b9
+  create hard link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/b9/e2cf9cfe4d08f7b9ef7f2be1b16c46ee127863 to /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/b9/tmp_obj_dEFBDf
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/b9/tmp_obj_dEFBDf
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/2d
+  create hard link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/2d/70fe4062c282077457045abba069263b643c45 to /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/2d/tmp_obj_zlavIj
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/2d/tmp_obj_zlavIj
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/46
+  create hard link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/46/1238d076299f50e7e469613c8109b66c98531a to /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/46/tmp_obj_icGv6f
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/46/tmp_obj_icGv6f
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/57
+  create hard link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/57/ac9c9c48c3135a81e8e5c1d048339e7511c749 to /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/57/tmp_obj_c30ZJl
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/57/tmp_obj_c30ZJl
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/21
+  create hard link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/21/b8f755d9b1a474631565bf08b7a4d1c8475d79 to /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/21/tmp_obj_4SlIUm
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/21/tmp_obj_4SlIUm
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/0d
+  create hard link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/0d/1813c43afa9d8491ddd71d91db67f8d40b9583 to /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/0d/tmp_obj_wFpXJr
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/0d/tmp_obj_wFpXJr
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/83
+  create hard link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/83/e194a22b191ecf354d8760f560ba81b7064c70 to /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/83/tmp_obj_6bxl0B
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/83/tmp_obj_6bxl0B
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/a5
+  create hard link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/a5/214afda7301f5e8fc3b3a584a3298560a1e2da to /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/a5/tmp_obj_QPF9BG
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/a5/tmp_obj_QPF9BG
+  create hard link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/26/63227d4d5d785523d38e8389ac800f6e4d4827 to /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/26/tmp_obj_C82eAL
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/26/tmp_obj_C82eAL
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/31
+  create hard link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/31/47c11c90bb16c9d7e8a28c2fe919f79deb08ab to /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/31/tmp_obj_E5uUjO
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/31/tmp_obj_E5uUjO
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/e2
+  create hard link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/e2/b9f51b3f7ae722d912876e6b77ffbdf3baaf4c to /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/e2/tmp_obj_GWPVrT
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/e2/tmp_obj_GWPVrT
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/9d
+  create hard link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/9d/ba22de634d3e9006caf09561f247edc48d1b30 to /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/9d/tmp_obj_sxi5yX
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/9d/tmp_obj_sxi5yX
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/4c
+  create hard link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/4c/dcd0ceb2c7d22f954337ad41134a2547e59f64 to /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/4c/tmp_obj_iwIVH5
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/4c/tmp_obj_iwIVH5
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/18
+  create hard link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/18/f1f3d1ecfdd12ee050c3545999598fdb92ec97 to /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/18/tmp_obj_yIKL2a
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/18/tmp_obj_yIKL2a
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/0c
+  create hard link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/0c/e7928d15b758e428524570a6b64070216f146d to /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/0c/tmp_obj_iwq8Sd
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/0c/tmp_obj_iwq8Sd
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/01
+  create hard link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/01/edf3f632d5098db346c4e265808fa9946b73b5 to /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/01/tmp_obj_EpfRok
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/01/tmp_obj_EpfRok
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/30
+  create hard link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/30/d11d0c9869d964176c10fb83385ab3fe79ce77 to /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/30/tmp_obj_ld4ddd
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/30/tmp_obj_ld4ddd
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/90
+  create hard link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/90/dec48973c9533eb8ff13f503c2ea577dcd414a to /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/90/tmp_obj_RxyuCh
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/90/tmp_obj_RxyuCh
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/73
+  create hard link from /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/73/0dd30c1bb0d72b652c0c850f72a4a5c1929572 to /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/73/tmp_obj_vAXdnm
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/73/tmp_obj_vAXdnm
+  rename /tmp/nimble_5642/githubcom_CORDEAoauth/.git/shallow.lock to shallow
+  rename /tmp/nimble_5642/githubcom_CORDEAoauth/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/packed-refs.lock
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/refs/tags/v0.10.lock
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.git/logs
+  rename /tmp/nimble_5642/githubcom_CORDEAoauth/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/.travis
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/docs
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/examples
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/src
+  create directory /tmp/nimble_5642/githubcom_CORDEAoauth/test
+  rename /tmp/nimble_5642/githubcom_CORDEAoauth/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/oauth_3877730417
-  delete /tmp/nimblecache/oauth_3877730417/oauth.ini
-  delete /tmp/nimble_5105.out
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/oauth_5105.nims
+  create directory /tmp/nimblecache/oauth_466541693
+  delete /tmp/nimblecache/oauth_466541693/oauth.ini
+  delete /tmp/nimble_5642.out
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/oauth_5642.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/oauth-0.10
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/oauth-0.10
-  change permissions of /home/runner/.nimble/pkgs/oauth-0.10/oauth2.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/oauth-0.10
   change permissions of /home/runner/.nimble/pkgs/oauth-0.10/oauth1.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/oauth-0.10
+  change permissions of /home/runner/.nimble/pkgs/oauth-0.10/oauth2.nim to rw-r--r--
   change permissions of /home/runner/.nimble/pkgs/oauth-0.10/oauth.nimble to rw-r--r--
   create directory /tmp
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/oauth_3571956864
   delete /tmp/nimblecache/oauth_3571956864/oauth.ini
-  delete /tmp/nimble_5105.out
-  delete /home/runner/.nimble/pkgs/oauth-0.10/oauth_5105.nims
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/examples/mediawiki.nim
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/examples/github.nim
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/examples/bitbucket.nim
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/examples/slack.nim
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/examples/tumblr.nim
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/examples/gmail.nim
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/examples/twitter.nim
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/examples/gitlab.nim
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/examples
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/src/oauth2.nim
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/src/oauth1.nim
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/src
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.travis/install.sh
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.travis
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/LICENSE
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.travis.yml
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/docs/oauth1.html
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/docs/oauth2.html
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/docs
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/HEAD
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/config
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/logs/HEAD
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/logs
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/branches
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/packed-refs
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/refs/heads
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/refs/tags
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/refs
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks/pre-push.sample
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks/update.sample
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks/post-update.sample
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/hooks
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/index
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/info/exclude
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/info
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/shallow
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/description
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects/pack/pack-d5685a070bef59b54299bc1d90a987a896a4d44b.pack
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects/pack/pack-d5685a070bef59b54299bc1d90a987a896a4d44b.idx
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects/pack
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects/info
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git/objects
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/.git
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/test/toauth2.nim
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/test/toauth1.nim
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/test
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/README.md
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth/oauth.nimble
-  delete /tmp/nimble_5105/githubcom_CORDEAoauth
-  delete /tmp/nimble_5105
+  delete /tmp/nimble_5642.out
+  delete /home/runner/.nimble/pkgs/oauth-0.10/oauth_5642.nims
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/docs/oauth1.html
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/docs/oauth2.html
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/docs
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/src/oauth1.nim
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/src/oauth2.nim
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/src
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/config
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/info/exclude
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/info
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/shallow
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/description
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/index
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/packed-refs
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/HEAD
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks/pre-push.sample
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks/update.sample
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks/post-update.sample
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/hooks
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/logs/HEAD
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/logs
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/branches
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/62/84a8e861b610ca861a2fbc6f95a62b660f31e2
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/62
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/94/4058b72b35fd6834ba1b19050193538abf0f46
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/94
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/info
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/46/1238d076299f50e7e469613c8109b66c98531a
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/46
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/2d/70fe4062c282077457045abba069263b643c45
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/2d
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/30/d11d0c9869d964176c10fb83385ab3fe79ce77
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/30
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/e2/b9f51b3f7ae722d912876e6b77ffbdf3baaf4c
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/e2
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/pack
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/78/2de810f8882d9c772f423b5cf9851c9daea1ca
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/78
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/01/edf3f632d5098db346c4e265808fa9946b73b5
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/01
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/4c/dcd0ceb2c7d22f954337ad41134a2547e59f64
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/4c
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/0d/1813c43afa9d8491ddd71d91db67f8d40b9583
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/0d
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/26/09e710ab76e61a503560b73618fc24eb97e8f9
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/26/63227d4d5d785523d38e8389ac800f6e4d4827
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/26
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/18/f1f3d1ecfdd12ee050c3545999598fdb92ec97
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/18
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/21/b8f755d9b1a474631565bf08b7a4d1c8475d79
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/21
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/57/ac9c9c48c3135a81e8e5c1d048339e7511c749
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/57
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/b9/e2cf9cfe4d08f7b9ef7f2be1b16c46ee127863
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/b9
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/5a/916fca31c1e0c90a0040fbe0d369f208dd9610
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/5a
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/cf/918f9ba26e5cf2f5d8867f4b009b51ac1c011e
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/cf
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/0c/e7928d15b758e428524570a6b64070216f146d
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/0c
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/31/47c11c90bb16c9d7e8a28c2fe919f79deb08ab
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/31
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/9d/ba22de634d3e9006caf09561f247edc48d1b30
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/9d
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/a5/214afda7301f5e8fc3b3a584a3298560a1e2da
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/a5
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/73/0dd30c1bb0d72b652c0c850f72a4a5c1929572
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/73
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/68/089981a621a1cf928c6856e7fbb0369d7f18b0
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/68
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/83/e194a22b191ecf354d8760f560ba81b7064c70
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/83
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/90/dec48973c9533eb8ff13f503c2ea577dcd414a
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects/90
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/objects
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/refs/heads
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/refs/tags
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git/refs
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.git
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/oauth.nimble
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.travis.yml
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/README.md
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.travis/install.sh
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/.travis
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/test/toauth2.nim
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/test/toauth1.nim
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/test
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/examples/bitbucket.nim
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/examples/mediawiki.nim
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/examples/github.nim
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/examples/tumblr.nim
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/examples/twitter.nim
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/examples/gitlab.nim
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/examples/slack.nim
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/examples/gmail.nim
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/examples
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth/LICENSE
+  delete /tmp/nimble_5642/githubcom_CORDEAoauth
+  delete /tmp/nimble_5642

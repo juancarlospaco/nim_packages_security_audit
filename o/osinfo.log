@@ -1,71 +1,87 @@
     Reading official package list
 Downloading https://github.com/nim-lang/osinfo.git using git
     Cloning latest tagged version: v0.3.2
-       Info /tmp/nimble_3769/githubcom_nimlangosinfogit/osinfo_3769.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /tmp/nimble_3769/githubcom_nimlangosinfogit/osinfo_3769.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+       Info /tmp/nimble_4265/githubcom_nimlangosinfogit/osinfo_4265.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /tmp/nimble_4265/githubcom_nimlangosinfogit/osinfo_4265.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
   Verifying dependencies for osinfo@0.3.2
  Installing osinfo@0.3.2
-    Copying file /tmp/nimble_3769/githubcom_nimlangosinfogit/src/osinfo/win.nim to /home/runner/.nimble/pkgs/osinfo-0.3.2/osinfo/win.nim
-    Copying file /tmp/nimble_3769/githubcom_nimlangosinfogit/src/osinfo/posix.nim to /home/runner/.nimble/pkgs/osinfo-0.3.2/osinfo/posix.nim
-    Copying file /tmp/nimble_3769/githubcom_nimlangosinfogit/osinfo.nimble to /home/runner/.nimble/pkgs/osinfo-0.3.2/osinfo.nimble
-   Success: osinfo installed successfully.
-       Info /home/runner/.nimble/pkgs/osinfo-0.3.2/osinfo_3769.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /home/runner/.nimble/pkgs/osinfo-0.3.2/osinfo_3769.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+    Copying file /tmp/nimble_4265/githubcom_nimlangosinfogit/src/osinfo/win.nim to /home/runner/.nimble/pkgs/osinfo-0.3.2/osinfo/win.nim
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_3769', 0x00000000000001ff)
-mkdir('/tmp/nimble_3769/githubcom_nimlangosinfogit', 0x00000000000001ff)
-rmdir('/tmp/nimble_3769/githubcom_nimlangosinfogit')
-mkdir('/tmp/nimble_3769/githubcom_nimlangosinfogit', 0x00000000000001ff)
-mkdir('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/HEAD.lock', '/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/HEAD')
-rename('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config.lock', '/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config')
-chmod('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config.lock', '/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config')
-chmod('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config.lock', '/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config')
-chmod('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config.lock', '/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/tkSvHiE')
-symlink('testing', '/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/tkSvHiE')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/tkSvHiE')
-mkdir('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config.lock', '/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config')
-chmod('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config.lock', '/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config')
-chmod('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config.lock', '/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config')
-link('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects/pack/tmp_pack_KOE2Se', '/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects/pack/pack-5082e31aa06027442d7d275b69020be78900e09e.pack')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects/pack/tmp_pack_KOE2Se')
-link('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects/pack/tmp_idx_jogpxd', '/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects/pack/pack-5082e31aa06027442d7d275b69020be78900e09e.idx')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects/pack/tmp_idx_jogpxd')
-rename('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/shallow.lock', '/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/shallow')
-rename('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/packed-refs.new', '/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/packed-refs')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/packed-refs.lock')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/refs/tags/v0.3.2.lock')
-mkdir('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/HEAD.lock', '/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/HEAD')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects/pack/pack-5082e31aa06027442d7d275b69020be78900e09e.keep')
+mkdir('/tmp/nimble_4265', 0x00000000000001ff)
+mkdir('/tmp/nimble_4265/githubcom_nimlangosinfogit', 0x00000000000001ff)
+rmdir('/tmp/nimble_4265/githubcom_nimlangosinfogit')
+mkdir('/tmp/nimble_4265/githubcom_nimlangosinfogit', 0x00000000000001ff)
+mkdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/HEAD.lock', '/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/HEAD')
+rename('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config.lock', '/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config')
+chmod('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config.lock', '/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config')
+chmod('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config.lock', '/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config')
+chmod('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config.lock', '/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/tcTdr4l')
+symlink('testing', '/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/tcTdr4l')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/tcTdr4l')
+mkdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config.lock', '/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config')
+chmod('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config.lock', '/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config')
+chmod('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config.lock', '/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config')
+mkdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/57', 0x00000000000001ff)
+link('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/57/tmp_obj_LPRY4N', '/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/57/4835154e48ee12dabc91a8ed052b7882cf9aa2')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/57/tmp_obj_LPRY4N')
+mkdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/77', 0x00000000000001ff)
+link('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/77/tmp_obj_l2YPTT', '/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/77/93422af072185a4365539e3cbecca7bd8c564b')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/77/tmp_obj_l2YPTT')
+mkdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/fd', 0x00000000000001ff)
+link('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/fd/tmp_obj_HdF9uV', '/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/fd/0783a67b985a634d74776c408c3a27f6c1a7a4')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/fd/tmp_obj_HdF9uV')
+link('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/57/tmp_obj_7yFNCY', '/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/57/017bfaad826b7382543317aa3796eb8d40a4d0')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/57/tmp_obj_7yFNCY')
+mkdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/f7', 0x00000000000001ff)
+link('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/f7/tmp_obj_TNayn3', '/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/f7/01b3e84fe059e42047a011e896373f8eadb41a')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/f7/tmp_obj_TNayn3')
+mkdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/85', 0x00000000000001ff)
+link('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/85/tmp_obj_lejbR4', '/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/85/3b46db127831eb9f8e8a7a8576e41c98619be4')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/85/tmp_obj_lejbR4')
+mkdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/be', 0x00000000000001ff)
+link('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/be/tmp_obj_38isKa', '/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/be/23e666405ca1cb446ad3a1e5c86427ada17dc9')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/be/tmp_obj_38isKa')
+mkdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/5f', 0x00000000000001ff)
+link('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/5f/tmp_obj_lqZFrc', '/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/5f/620e0c22116a5feb45457e9893f827f57a9ae3')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/5f/tmp_obj_lqZFrc')
+mkdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/91', 0x00000000000001ff)
+link('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/91/tmp_obj_d8vSTg', '/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/91/962291da475f5aa40a27565d5a7c97695cadb6')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/91/tmp_obj_d8vSTg')
+rename('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/shallow.lock', '/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/shallow')
+rename('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/packed-refs.new', '/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/packed-refs')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/packed-refs.lock')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/refs/tags/v0.3.2.lock')
+mkdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/HEAD.lock', '/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/HEAD')
 mkdir('src', 0x00000000000001ff)
 mkdir('src/osinfo', 0x00000000000001ff)
-rename('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/index.lock', '/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/index')
+rename('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/index.lock', '/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/osinfo_1435773864', 0x00000000000001ff)
-unlink('/tmp/nimblecache/osinfo_1435773864/osinfo.ini')
-unlink('/tmp/nimble_3769.out')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/osinfo_3769.nims')
+mkdir('/tmp/nimblecache/osinfo_103579275', 0x00000000000001ff)
+unlink('/tmp/nimblecache/osinfo_103579275/osinfo.ini')
+unlink('/tmp/nimble_4265.out')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/osinfo_4265.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -79,7 +95,12 @@ mkdir('/home/runner/.nimble/pkgs/osinfo-0.3.2', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/osinfo-0.3.2/osinfo', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/osinfo-0.3.2/osinfo/win.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)    Copying file /tmp/nimble_4265/githubcom_nimlangosinfogit/src/osinfo/posix.nim to /home/runner/.nimble/pkgs/osinfo-0.3.2/osinfo/posix.nim
+    Copying file /tmp/nimble_4265/githubcom_nimlangosinfogit/osinfo.nimble to /home/runner/.nimble/pkgs/osinfo-0.3.2/osinfo.nimble
+   Success: osinfo installed successfully.
+       Info /home/runner/.nimble/pkgs/osinfo-0.3.2/osinfo_4265.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /home/runner/.nimble/pkgs/osinfo-0.3.2/osinfo_4265.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/osinfo-0.3.2', 0x00000000000001ff)
@@ -90,105 +111,141 @@ mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/osinfo_3557595174', 0x00000000000001ff)
 unlink('/tmp/nimblecache/osinfo_3557595174/osinfo.ini')
-unlink('/tmp/nimble_3769.out')
-unlink('/home/runner/.nimble/pkgs/osinfo-0.3.2/osinfo_3769.nims')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/src/osinfo/win.nim')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/src/osinfo/posix.nim')
-rmdir('/tmp/nimble_3769/githubcom_nimlangosinfogit/src/osinfo')
-rmdir('/tmp/nimble_3769/githubcom_nimlangosinfogit/src')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.gitignore')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/LICENSE')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/HEAD')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/logs/HEAD')
-rmdir('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/logs')
-rmdir('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/branches')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/packed-refs')
-rmdir('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/refs/heads')
-rmdir('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/refs/tags')
-rmdir('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/refs')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks/update.sample')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/index')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/info/exclude')
-rmdir('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/info')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/shallow')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/description')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects/pack/pack-5082e31aa06027442d7d275b69020be78900e09e.idx')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects/pack/pack-5082e31aa06027442d7d275b69020be78900e09e.pack')
-rmdir('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects/pack')
-rmdir('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects/info')
-rmdir('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects')
-rmdir('/tmp/nimble_3769/githubcom_nimlangosinfogit/.git')
-unlink('/tmp/nimble_3769/githubcom_nimlangosinfogit/osinfo.nimble')
-rmdir('/tmp/nimble_3769/githubcom_nimlangosinfogit')
-rmdir('/tmp/nimble_3769')
+unlink('/tmp/nimble_4265.out')
+unlink('/home/runner/.nimble/pkgs/osinfo-0.3.2/osinfo_4265.nims')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/src/osinfo/win.nim')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/src/osinfo/posix.nim')
+rmdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/src/osinfo')
+rmdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/src')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/info/exclude')
+rmdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/info')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/shallow')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/description')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/index')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/packed-refs')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/HEAD')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks/update.sample')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks/post-update.sample')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks/commit-msg.sample')
+rmdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/logs/HEAD')
+rmdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/logs')
+rmdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/branches')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/5f/620e0c22116a5feb45457e9893f827f57a9ae3')
+rmdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/5f')
+rmdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/info')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/77/93422af072185a4365539e3cbecca7bd8c564b')
+rmdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/77')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/be/23e666405ca1cb446ad3a1e5c86427ada17dc9')
+rmdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/be')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/85/3b46db127831eb9f8e8a7a8576e41c98619be4')
+rmdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/85')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/f7/01b3e84fe059e42047a011e896373f8eadb41a')
+rmdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/f7')
+rmdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/pack')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/fd/0783a67b985a634d74776c408c3a27f6c1a7a4')
+rmdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/fd')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/57/017bfaad826b7382543317aa3796eb8d40a4d0')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/57/4835154e48ee12dabc91a8ed052b7882cf9aa2')
+rmdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/57')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/91/962291da475f5aa40a27565d5a7c97695cadb6')
+rmdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/91')
+rmdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects')
+rmdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/refs/heads')
+rmdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/refs/tags')
+rmdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git/refs')
+rmdir('/tmp/nimble_4265/githubcom_nimlangosinfogit/.git')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/.gitignore')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/LICENSE')
+unlink('/tmp/nimble_4265/githubcom_nimlangosinfogit/osinfo.nimble')
+rmdir('/tmp/nimble_4265/githubcom_nimlangosinfogit')
+rmdir('/tmp/nimble_4265')
   create directory /tmp
-  create directory /tmp/nimble_3769
-  create directory /tmp/nimble_3769/githubcom_nimlangosinfogit
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit
-  create directory /tmp/nimble_3769/githubcom_nimlangosinfogit
-  create directory /tmp/nimble_3769/githubcom_nimlangosinfogit/.git
-  create directory /tmp/nimble_3769/githubcom_nimlangosinfogit/.git
-  create directory /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/branches
-  create directory /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks
-  create directory /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/info
-  create directory /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/refs
-  create directory /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/refs/heads
-  create directory /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/refs/tags
-  rename /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config.lock to config
-  change permissions of /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config.lock to config
-  change permissions of /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config.lock to config
-  change permissions of /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config.lock to config
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/tkSvHiE
-  create symbolic link from /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/tkSvHiE to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/tkSvHiE
-  create directory /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects
-  create directory /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects/pack
-  create directory /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects/info
-  change permissions of /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config.lock to config
-  change permissions of /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config.lock to config
-  change permissions of /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config.lock to config
-  create hard link from /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects/pack/pack-5082e31aa06027442d7d275b69020be78900e09e.pack to /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects/pack/tmp_pack_KOE2Se
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects/pack/tmp_pack_KOE2Se
-  create hard link from /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects/pack/pack-5082e31aa06027442d7d275b69020be78900e09e.idx to /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects/pack/tmp_idx_jogpxd
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects/pack/tmp_idx_jogpxd
-  rename /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/shallow.lock to shallow
-  rename /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/packed-refs.lock
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/refs/tags/v0.3.2.lock
-  create directory /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/logs
-  rename /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects/pack/pack-5082e31aa06027442d7d275b69020be78900e09e.keep
-  create directory /tmp/nimble_3769/githubcom_nimlangosinfogit/src
-  create directory /tmp/nimble_3769/githubcom_nimlangosinfogit/src/osinfo
-  rename /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/index.lock to index
+  create directory /tmp/nimble_4265
+  create directory /tmp/nimble_4265/githubcom_nimlangosinfogit
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit
+  create directory /tmp/nimble_4265/githubcom_nimlangosinfogit
+  create directory /tmp/nimble_4265/githubcom_nimlangosinfogit/.git
+  create directory /tmp/nimble_4265/githubcom_nimlangosinfogit/.git
+  create directory /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/info
+  create directory /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks
+  create directory /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/branches
+  create directory /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/refs
+  create directory /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/refs/heads
+  create directory /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/refs/tags
+  rename /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config.lock to config
+  change permissions of /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config.lock to config
+  change permissions of /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config.lock to config
+  change permissions of /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config.lock to config
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/tcTdr4l
+  create symbolic link from /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/tcTdr4l to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/tcTdr4l
+  create directory /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects
+  create directory /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/pack
+  create directory /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/info
+  change permissions of /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config.lock to config
+  change permissions of /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config.lock to config
+  change permissions of /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config.lock to config
+  create directory /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/57
+  create hard link from /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/57/4835154e48ee12dabc91a8ed052b7882cf9aa2 to /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/57/tmp_obj_LPRY4N
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/57/tmp_obj_LPRY4N
+  create directory /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/77
+  create hard link from /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/77/93422af072185a4365539e3cbecca7bd8c564b to /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/77/tmp_obj_l2YPTT
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/77/tmp_obj_l2YPTT
+  create directory /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/fd
+  create hard link from /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/fd/0783a67b985a634d74776c408c3a27f6c1a7a4 to /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/fd/tmp_obj_HdF9uV
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/fd/tmp_obj_HdF9uV
+  create hard link from /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/57/017bfaad826b7382543317aa3796eb8d40a4d0 to /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/57/tmp_obj_7yFNCY
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/57/tmp_obj_7yFNCY
+  create directory /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/f7
+  create hard link from /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/f7/01b3e84fe059e42047a011e896373f8eadb41a to /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/f7/tmp_obj_TNayn3
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/f7/tmp_obj_TNayn3
+  create directory /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/85
+  create hard link from /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/85/3b46db127831eb9f8e8a7a8576e41c98619be4 to /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/85/tmp_obj_lejbR4
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/85/tmp_obj_lejbR4
+  create directory /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/be
+  create hard link from /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/be/23e666405ca1cb446ad3a1e5c86427ada17dc9 to /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/be/tmp_obj_38isKa
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/be/tmp_obj_38isKa
+  create directory /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/5f
+  create hard link from /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/5f/620e0c22116a5feb45457e9893f827f57a9ae3 to /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/5f/tmp_obj_lqZFrc
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/5f/tmp_obj_lqZFrc
+  create directory /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/91
+  create hard link from /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/91/962291da475f5aa40a27565d5a7c97695cadb6 to /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/91/tmp_obj_d8vSTg
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/91/tmp_obj_d8vSTg
+  rename /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/shallow.lock to shallow
+  rename /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/packed-refs.lock
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/refs/tags/v0.3.2.lock
+  create directory /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/logs
+  rename /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_4265/githubcom_nimlangosinfogit/src
+  create directory /tmp/nimble_4265/githubcom_nimlangosinfogit/src/osinfo
+  rename /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/osinfo_1435773864
-  delete /tmp/nimblecache/osinfo_1435773864/osinfo.ini
-  delete /tmp/nimble_3769.out
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/osinfo_3769.nims
+  create directory /tmp/nimblecache/osinfo_103579275
+  delete /tmp/nimblecache/osinfo_103579275/osinfo.ini
+  delete /tmp/nimble_4265.out
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/osinfo_4265.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -213,47 +270,62 @@ rmdir('/tmp/nimble_3769')
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/osinfo_3557595174
   delete /tmp/nimblecache/osinfo_3557595174/osinfo.ini
-  delete /tmp/nimble_3769.out
-  delete /home/runner/.nimble/pkgs/osinfo-0.3.2/osinfo_3769.nims
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/src/osinfo/win.nim
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/src/osinfo/posix.nim
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/src/osinfo
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/src
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.gitignore
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/LICENSE
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/HEAD
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/config
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/logs/HEAD
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/logs
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/branches
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/packed-refs
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/refs/heads
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/refs/tags
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/refs
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks/pre-push.sample
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks/update.sample
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks/post-update.sample
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/hooks
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/index
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/info/exclude
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/info
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/shallow
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/description
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects/pack/pack-5082e31aa06027442d7d275b69020be78900e09e.idx
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects/pack/pack-5082e31aa06027442d7d275b69020be78900e09e.pack
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects/pack
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects/info
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git/objects
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/.git
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit/osinfo.nimble
-  delete /tmp/nimble_3769/githubcom_nimlangosinfogit
-  delete /tmp/nimble_3769
+  delete /tmp/nimble_4265.out
+  delete /home/runner/.nimble/pkgs/osinfo-0.3.2/osinfo_4265.nims
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/src/osinfo/win.nim
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/src/osinfo/posix.nim
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/src/osinfo
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/src
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/config
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/info/exclude
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/info
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/shallow
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/description
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/index
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/packed-refs
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/HEAD
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks/pre-push.sample
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks/update.sample
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks/post-update.sample
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/hooks
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/logs/HEAD
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/logs
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/branches
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/5f/620e0c22116a5feb45457e9893f827f57a9ae3
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/5f
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/info
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/77/93422af072185a4365539e3cbecca7bd8c564b
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/77
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/be/23e666405ca1cb446ad3a1e5c86427ada17dc9
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/be
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/85/3b46db127831eb9f8e8a7a8576e41c98619be4
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/85
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/f7/01b3e84fe059e42047a011e896373f8eadb41a
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/f7
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/pack
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/fd/0783a67b985a634d74776c408c3a27f6c1a7a4
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/fd
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/57/017bfaad826b7382543317aa3796eb8d40a4d0
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/57/4835154e48ee12dabc91a8ed052b7882cf9aa2
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/57
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/91/962291da475f5aa40a27565d5a7c97695cadb6
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects/91
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/objects
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/refs/heads
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/refs/tags
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git/refs
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.git
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/.gitignore
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/LICENSE
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit/osinfo.nimble
+  delete /tmp/nimble_4265/githubcom_nimlangosinfogit
+  delete /tmp/nimble_4265
