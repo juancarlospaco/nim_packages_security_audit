@@ -1,69 +1,88 @@
     Reading official package list
 Downloading https://github.com/achesak/nim-pastebin using git
-  Verifying dependencies for pastebin@0.2
- Installing pastebin@0.2
-    Copying file /tmp/nimble_2939/githubcom_achesaknimpastebin/pastebin.nim to /home/runner/.nimble/pkgs/pastebin-0.2/pastebin.nim
-    Copying file /tmp/nimble_2939/githubcom_achesaknimpastebin/pastebin.nimble to /home/runner/.nimble/pkgs/pastebin-0.2/pastebin.nimble
-   Success: pastebin installed successfully.
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_2939', 0x00000000000001ff)
-mkdir('/tmp/nimble_2939/githubcom_achesaknimpastebin', 0x00000000000001ff)
-rmdir('/tmp/nimble_2939/githubcom_achesaknimpastebin')
-mkdir('/tmp/nimble_2939/githubcom_achesaknimpastebin', 0x00000000000001ff)
-mkdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/HEAD.lock', '/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/HEAD')
-rename('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock', '/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config')
-chmod('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock', '/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config')
-chmod('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock', '/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config')
-chmod('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock', '/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/tH1qtNl')
-symlink('testing', '/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/tH1qtNl')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/tH1qtNl')
-mkdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock', '/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config')
-chmod('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock', '/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config')
-chmod('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock', '/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config')
-link('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects/pack/tmp_pack_uiVASg', '/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects/pack/pack-0ed9e5b65c79715b51c402eeb28073a4d6584aaa.pack')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects/pack/tmp_pack_uiVASg')
-link('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects/pack/tmp_idx_7A1T8e', '/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects/pack/pack-0ed9e5b65c79715b51c402eeb28073a4d6584aaa.idx')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects/pack/tmp_idx_7A1T8e')
-rename('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/shallow.lock', '/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/shallow')
-rename('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/packed-refs.new', '/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/packed-refs')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/packed-refs.lock')
-mkdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs/remotes/origin', 0x00000000000001ff)
-mkdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/logs', 0x00000000000001ff)
-mkdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/logs/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/logs/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/logs/refs/remotes/origin', 0x00000000000001ff)
-rename('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs/remotes/origin/HEAD')
-rename('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/HEAD.lock', '/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/HEAD')
-mkdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/logs/refs/heads', 0x00000000000001ff)
-rename('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs/heads/master.lock', '/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs/heads/master')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/HEAD.lock')
-chmod('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock', '/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config')
-chmod('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock', '/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects/pack/pack-0ed9e5b65c79715b51c402eeb28073a4d6584aaa.keep')
-rename('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/index.lock', '/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/index')
+mkdir('/tmp/nimble_3246', 0x00000000000001ff)
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin', 0x00000000000001ff)
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin')
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin', 0x00000000000001ff)
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/HEAD.lock', '/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/HEAD')
+rename('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock', '/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config')
+chmod('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock', '/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config')
+chmod('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock', '/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config')
+chmod('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock', '/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/tAzaV8G')
+symlink('testing', '/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/tAzaV8G')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/tAzaV8G')
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock', '/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config')
+chmod('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock', '/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config')
+chmod('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock', '/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config')
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/f9', 0x00000000000001ff)
+link('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/f9/tmp_obj_e92S8v', '/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/f9/7db91a3769744e56abf9f606f51e692ffca5e7')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/f9/tmp_obj_e92S8v')
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/b7', 0x00000000000001ff)
+link('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/b7/tmp_obj_2o0HOC', '/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/b7/8d5399d1fa72f228d4aef46a412545d9f0e4e0')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/b7/tmp_obj_2o0HOC')
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/17', 0x00000000000001ff)
+link('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/17/tmp_obj_sIBxUC', '/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/17/fa9a57ea57787d32bce66282b2f386548fc156')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/17/tmp_obj_sIBxUC')
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/70', 0x00000000000001ff)
+link('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/70/tmp_obj_QsBEMG', '/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/70/2524b87d3acc6174cfc36966f0c434b236eefe')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/70/tmp_obj_QsBEMG')
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/13', 0x00000000000001ff)
+link('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/13/tmp_obj_UAcOEE', '/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/13/2b55a062296f8d50456de902422bc050bc7066')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/13/tmp_obj_UAcOEE')
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/4c', 0x00000000000001ff)
+link('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/4c/tmp_obj_4PJcaI', '/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/4c/2a2aa526f984efb52428dd2249cc942a254044')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/4c/tmp_obj_4PJcaI')
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/d0', 0x00000000000001ff)
+link('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/d0/tmp_obj_iZwHnH', '/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/d0/f4995edbd4805d6994adb72d70603502497d78')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/d0/tmp_obj_iZwHnH')
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/96', 0x00000000000001ff)
+link('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/96/tmp_obj_Cjs0VK', '/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/96/41898e4ce2cc942ab2555d844ac97e1b38c347')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/96/tmp_obj_Cjs0VK')
+rename('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/shallow.lock', '/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/shallow')
+rename('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/packed-refs.new', '/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/packed-refs')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/packed-refs.lock')
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/HEAD.lock', '/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/HEAD')
+mkdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs/heads/master.lock', '/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs/heads/master')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/HEAD.lock')
+chmod('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock', '/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config')
+chmod('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock', '/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config')  Verifying dependencies for pastebin@0.2
+ Installing pastebin@0.2
+    Copying file /tmp/nimble_3246/githubcom_achesaknimpastebin/pastebin.nim to /home/runner/.nimble/pkgs/pastebin-0.2/pastebin.nim
+    Copying file /tmp/nimble_3246/githubcom_achesaknimpastebin/pastebin.nimble to /home/runner/.nimble/pkgs/pastebin-0.2/pastebin.nimble
+   Success: pastebin installed successfully.
+
+rename('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/index.lock', '/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/index')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -76,116 +95,149 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/pastebin-0.2', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/pastebin-0.2/pastebin.nim', 0x00000000000001a4)
 chmod('/home/runner/.nimble/pkgs/pastebin-0.2/pastebin.nimble', 0x00000000000001a4)
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/pastebin.nimble')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/pastebin_formats.nim')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/pastebin_constants.nim')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/pastebin.nim')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/HEAD')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/logs/HEAD')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/logs/refs/heads/master')
-rmdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/logs/refs/heads')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/logs/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/logs/refs/remotes/origin')
-rmdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/logs/refs/remotes')
-rmdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/logs/refs')
-rmdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/logs')
-rmdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/branches')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/packed-refs')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs/heads/master')
-rmdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs/heads')
-rmdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs/tags')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs/remotes/origin')
-rmdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs/remotes')
-rmdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks/update.sample')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/index')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/info/exclude')
-rmdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/info')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/shallow')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/description')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects/pack/pack-0ed9e5b65c79715b51c402eeb28073a4d6584aaa.idx')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects/pack/pack-0ed9e5b65c79715b51c402eeb28073a4d6584aaa.pack')
-rmdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects/pack')
-rmdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects/info')
-rmdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects')
-rmdir('/tmp/nimble_2939/githubcom_achesaknimpastebin/.git')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/LICENSE.md')
-unlink('/tmp/nimble_2939/githubcom_achesaknimpastebin/README.md')
-rmdir('/tmp/nimble_2939/githubcom_achesaknimpastebin')
-rmdir('/tmp/nimble_2939')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/LICENSE.md')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/pastebin_constants.nim')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/info/exclude')
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/info')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/shallow')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/description')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/index')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/packed-refs')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/HEAD')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks/update.sample')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks/post-update.sample')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks/commit-msg.sample')
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/logs/HEAD')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/logs/refs/heads')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/logs/refs/remotes')
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/logs/refs')
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/logs')
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/branches')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/96/41898e4ce2cc942ab2555d844ac97e1b38c347')
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/96')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/b7/8d5399d1fa72f228d4aef46a412545d9f0e4e0')
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/b7')
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/info')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/70/2524b87d3acc6174cfc36966f0c434b236eefe')
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/70')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/17/fa9a57ea57787d32bce66282b2f386548fc156')
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/17')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/d0/f4995edbd4805d6994adb72d70603502497d78')
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/d0')
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/pack')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/4c/2a2aa526f984efb52428dd2249cc942a254044')
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/4c')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/13/2b55a062296f8d50456de902422bc050bc7066')
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/13')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/f9/7db91a3769744e56abf9f606f51e692ffca5e7')
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/f9')
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs/heads/master')
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs/heads')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs/remotes')
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs/tags')
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs')
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin/.git')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/pastebin.nim')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/pastebin_formats.nim')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/README.md')
+unlink('/tmp/nimble_3246/githubcom_achesaknimpastebin/pastebin.nimble')
+rmdir('/tmp/nimble_3246/githubcom_achesaknimpastebin')
+rmdir('/tmp/nimble_3246')
   create directory /tmp
-  create directory /tmp/nimble_2939
-  create directory /tmp/nimble_2939/githubcom_achesaknimpastebin
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin
-  create directory /tmp/nimble_2939/githubcom_achesaknimpastebin
-  create directory /tmp/nimble_2939/githubcom_achesaknimpastebin/.git
-  create directory /tmp/nimble_2939/githubcom_achesaknimpastebin/.git
-  create directory /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/branches
-  create directory /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks
-  create directory /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/info
-  create directory /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs
-  create directory /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs/heads
-  create directory /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs/tags
-  rename /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock to config
-  change permissions of /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock to config
-  change permissions of /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock to config
-  change permissions of /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock to config
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/tH1qtNl
-  create symbolic link from /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/tH1qtNl to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/tH1qtNl
-  create directory /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects
-  create directory /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects/pack
-  create directory /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects/info
-  change permissions of /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock to config
-  change permissions of /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock to config
-  change permissions of /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock to config
-  create hard link from /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects/pack/pack-0ed9e5b65c79715b51c402eeb28073a4d6584aaa.pack to /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects/pack/tmp_pack_uiVASg
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects/pack/tmp_pack_uiVASg
-  create hard link from /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects/pack/pack-0ed9e5b65c79715b51c402eeb28073a4d6584aaa.idx to /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects/pack/tmp_idx_7A1T8e
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects/pack/tmp_idx_7A1T8e
-  rename /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/shallow.lock to shallow
-  rename /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/packed-refs.lock
-  create directory /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs/remotes
-  create directory /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs/remotes/origin
-  create directory /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/logs
-  create directory /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/logs/refs
-  create directory /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/logs/refs/remotes
-  create directory /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/logs/refs/remotes/origin
-  rename /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs/remotes/origin/HEAD.lock to HEAD
-  rename /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/HEAD.lock to HEAD
-  create directory /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/logs/refs/heads
-  rename /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs/heads/master.lock to master
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/HEAD.lock
-  change permissions of /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock to config
-  change permissions of /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config.lock to config
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects/pack/pack-0ed9e5b65c79715b51c402eeb28073a4d6584aaa.keep
-  rename /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/index.lock to index
+  create directory /tmp/nimble_3246
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin/.git
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin/.git
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/info
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/branches
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs/heads
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs/tags
+  rename /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock to config
+  change permissions of /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock to config
+  change permissions of /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock to config
+  change permissions of /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock to config
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/tAzaV8G
+  create symbolic link from /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/tAzaV8G to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/tAzaV8G
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/pack
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/info
+  change permissions of /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock to config
+  change permissions of /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock to config
+  change permissions of /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock to config
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/f9
+  create hard link from /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/f9/7db91a3769744e56abf9f606f51e692ffca5e7 to /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/f9/tmp_obj_e92S8v
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/f9/tmp_obj_e92S8v
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/b7
+  create hard link from /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/b7/8d5399d1fa72f228d4aef46a412545d9f0e4e0 to /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/b7/tmp_obj_2o0HOC
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/b7/tmp_obj_2o0HOC
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/17
+  create hard link from /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/17/fa9a57ea57787d32bce66282b2f386548fc156 to /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/17/tmp_obj_sIBxUC
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/17/tmp_obj_sIBxUC
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/70
+  create hard link from /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/70/2524b87d3acc6174cfc36966f0c434b236eefe to /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/70/tmp_obj_QsBEMG
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/70/tmp_obj_QsBEMG
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/13
+  create hard link from /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/13/2b55a062296f8d50456de902422bc050bc7066 to /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/13/tmp_obj_UAcOEE
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/13/tmp_obj_UAcOEE
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/4c
+  create hard link from /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/4c/2a2aa526f984efb52428dd2249cc942a254044 to /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/4c/tmp_obj_4PJcaI
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/4c/tmp_obj_4PJcaI
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/d0
+  create hard link from /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/d0/f4995edbd4805d6994adb72d70603502497d78 to /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/d0/tmp_obj_iZwHnH
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/d0/tmp_obj_iZwHnH
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/96
+  create hard link from /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/96/41898e4ce2cc942ab2555d844ac97e1b38c347 to /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/96/tmp_obj_Cjs0VK
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/96/tmp_obj_Cjs0VK
+  rename /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/shallow.lock to shallow
+  rename /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/packed-refs.lock
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs/remotes
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs/remotes/origin
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/logs
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/logs/refs
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/logs/refs/remotes
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/logs/refs/heads
+  rename /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/HEAD.lock
+  change permissions of /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock to config
+  change permissions of /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config.lock to config
+  rename /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/index.lock to index
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -198,54 +250,68 @@ rmdir('/tmp/nimble_2939')
   create directory /home/runner/.nimble/pkgs/pastebin-0.2
   change permissions of /home/runner/.nimble/pkgs/pastebin-0.2/pastebin.nim to rw-r--r--
   change permissions of /home/runner/.nimble/pkgs/pastebin-0.2/pastebin.nimble to rw-r--r--
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/pastebin.nimble
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/pastebin_formats.nim
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/pastebin_constants.nim
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/pastebin.nim
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/HEAD
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/config
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/logs/HEAD
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/logs/refs/heads/master
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/logs/refs/heads
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/logs/refs/remotes/origin/HEAD
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/logs/refs/remotes/origin
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/logs/refs/remotes
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/logs/refs
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/logs
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/branches
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/packed-refs
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs/heads/master
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs/heads
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs/tags
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs/remotes/origin/HEAD
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs/remotes/origin
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs/remotes
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/refs
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks/pre-push.sample
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks/update.sample
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks/post-update.sample
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/hooks
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/index
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/info/exclude
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/info
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/shallow
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/description
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects/pack/pack-0ed9e5b65c79715b51c402eeb28073a4d6584aaa.idx
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects/pack/pack-0ed9e5b65c79715b51c402eeb28073a4d6584aaa.pack
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects/pack
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects/info
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git/objects
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/.git
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/LICENSE.md
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin/README.md
-  delete /tmp/nimble_2939/githubcom_achesaknimpastebin
-  delete /tmp/nimble_2939
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/LICENSE.md
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/pastebin_constants.nim
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/config
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/info/exclude
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/info
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/shallow
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/description
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/index
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/packed-refs
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/HEAD
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks/pre-push.sample
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks/update.sample
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks/post-update.sample
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/hooks
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/logs/HEAD
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/logs/refs/heads/master
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/logs/refs/heads
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/logs/refs/remotes
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/logs/refs
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/logs
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/branches
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/96/41898e4ce2cc942ab2555d844ac97e1b38c347
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/96
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/b7/8d5399d1fa72f228d4aef46a412545d9f0e4e0
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/b7
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/info
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/70/2524b87d3acc6174cfc36966f0c434b236eefe
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/70
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/17/fa9a57ea57787d32bce66282b2f386548fc156
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/17
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/d0/f4995edbd4805d6994adb72d70603502497d78
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/d0
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/pack
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/4c/2a2aa526f984efb52428dd2249cc942a254044
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/4c
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/13/2b55a062296f8d50456de902422bc050bc7066
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/13
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/f9/7db91a3769744e56abf9f606f51e692ffca5e7
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects/f9
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/objects
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs/heads/master
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs/heads
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs/remotes/origin
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs/remotes
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs/tags
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git/refs
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/.git
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/pastebin.nim
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/pastebin_formats.nim
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/README.md
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin/pastebin.nimble
+  delete /tmp/nimble_3246/githubcom_achesaknimpastebin
+  delete /tmp/nimble_3246

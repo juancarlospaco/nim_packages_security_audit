@@ -1,74 +1,102 @@
     Reading official package list
 Downloading https://github.com/treeform/print using git
     Cloning latest tagged version: v0.1.0
-       Info /tmp/nimble_11695/githubcom_treeformprint/print_11695.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /tmp/nimble_11695/githubcom_treeformprint/print_11695.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+       Info /tmp/nimble_8160/githubcom_treeformprint/print_8160.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /tmp/nimble_8160/githubcom_treeformprint/print_8160.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
   Verifying dependencies for print@0.1.0
  Installing print@0.1.0
-    Copying file /tmp/nimble_11695/githubcom_treeformprint/src/print.nim to /home/runner/.nimble/pkgs/print-0.1.0/print.nim
-    Copying file /tmp/nimble_11695/githubcom_treeformprint/print.nimble to /home/runner/.nimble/pkgs/print-0.1.0/print.nimble
-   Success: print installed successfully.
-       Info /home/runner/.nimble/pkgs/print-0.1.0/print_11695.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /home/runner/.nimble/pkgs/print-0.1.0/print_11695.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_11695', 0x00000000000001ff)
-mkdir('/tmp/nimble_11695/githubcom_treeformprint', 0x00000000000001ff)
-rmdir('/tmp/nimble_11695/githubcom_treeformprint')
-mkdir('/tmp/nimble_11695/githubcom_treeformprint', 0x00000000000001ff)
-mkdir('/tmp/nimble_11695/githubcom_treeformprint/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_11695/githubcom_treeformprint/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_11695/githubcom_treeformprint/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_11695/githubcom_treeformprint/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_11695/githubcom_treeformprint/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_11695/githubcom_treeformprint/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_11695/githubcom_treeformprint/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_11695/githubcom_treeformprint/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_11695/githubcom_treeformprint/.git/HEAD.lock', '/tmp/nimble_11695/githubcom_treeformprint/.git/HEAD')
-rename('/tmp/nimble_11695/githubcom_treeformprint/.git/config.lock', '/tmp/nimble_11695/githubcom_treeformprint/.git/config')
-chmod('/tmp/nimble_11695/githubcom_treeformprint/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_11695/githubcom_treeformprint/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_11695/githubcom_treeformprint/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_11695/githubcom_treeformprint/.git/config.lock', '/tmp/nimble_11695/githubcom_treeformprint/.git/config')
-chmod('/tmp/nimble_11695/githubcom_treeformprint/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_11695/githubcom_treeformprint/.git/config.lock', '/tmp/nimble_11695/githubcom_treeformprint/.git/config')
-chmod('/tmp/nimble_11695/githubcom_treeformprint/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_11695/githubcom_treeformprint/.git/config.lock', '/tmp/nimble_11695/githubcom_treeformprint/.git/config')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/tgK7mp3')
-symlink('testing', '/tmp/nimble_11695/githubcom_treeformprint/.git/tgK7mp3')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/tgK7mp3')
-mkdir('/tmp/nimble_11695/githubcom_treeformprint/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_11695/githubcom_treeformprint/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_11695/githubcom_treeformprint/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_11695/githubcom_treeformprint/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_11695/githubcom_treeformprint/.git/config.lock', '/tmp/nimble_11695/githubcom_treeformprint/.git/config')
-chmod('/tmp/nimble_11695/githubcom_treeformprint/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_11695/githubcom_treeformprint/.git/config.lock', '/tmp/nimble_11695/githubcom_treeformprint/.git/config')
-chmod('/tmp/nimble_11695/githubcom_treeformprint/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_11695/githubcom_treeformprint/.git/config.lock', '/tmp/nimble_11695/githubcom_treeformprint/.git/config')
-link('/tmp/nimble_11695/githubcom_treeformprint/.git/objects/pack/tmp_pack_FBPc5I', '/tmp/nimble_11695/githubcom_treeformprint/.git/objects/pack/pack-89334c9378d15e0f4db1d86ec55eb85956acd5be.pack')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/objects/pack/tmp_pack_FBPc5I')
-link('/tmp/nimble_11695/githubcom_treeformprint/.git/objects/pack/tmp_idx_vmKSOP', '/tmp/nimble_11695/githubcom_treeformprint/.git/objects/pack/pack-89334c9378d15e0f4db1d86ec55eb85956acd5be.idx')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/objects/pack/tmp_idx_vmKSOP')
-rename('/tmp/nimble_11695/githubcom_treeformprint/.git/shallow.lock', '/tmp/nimble_11695/githubcom_treeformprint/.git/shallow')
-rename('/tmp/nimble_11695/githubcom_treeformprint/.git/packed-refs.new', '/tmp/nimble_11695/githubcom_treeformprint/.git/packed-refs')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/packed-refs.lock')
-rename('/tmp/nimble_11695/githubcom_treeformprint/.git/refs/tags/0.1.0.lock', '/tmp/nimble_11695/githubcom_treeformprint/.git/refs/tags/0.1.0')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/refs/tags/v0.1.0.lock')
-mkdir('/tmp/nimble_11695/githubcom_treeformprint/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_11695/githubcom_treeformprint/.git/HEAD.lock', '/tmp/nimble_11695/githubcom_treeformprint/.git/HEAD')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/objects/pack/pack-89334c9378d15e0f4db1d86ec55eb85956acd5be.keep')
+mkdir('/tmp/nimble_8160', 0x00000000000001ff)
+mkdir('/tmp/nimble_8160/githubcom_treeformprint', 0x00000000000001ff)
+rmdir('/tmp/nimble_8160/githubcom_treeformprint')
+mkdir('/tmp/nimble_8160/githubcom_treeformprint', 0x00000000000001ff)
+mkdir('/tmp/nimble_8160/githubcom_treeformprint/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_8160/githubcom_treeformprint/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_8160/githubcom_treeformprint/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_8160/githubcom_treeformprint/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_8160/githubcom_treeformprint/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_8160/githubcom_treeformprint/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_8160/githubcom_treeformprint/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_8160/githubcom_treeformprint/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_8160/githubcom_treeformprint/.git/HEAD.lock', '/tmp/nimble_8160/githubcom_treeformprint/.git/HEAD')
+rename('/tmp/nimble_8160/githubcom_treeformprint/.git/config.lock', '/tmp/nimble_8160/githubcom_treeformprint/.git/config')
+chmod('/tmp/nimble_8160/githubcom_treeformprint/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_8160/githubcom_treeformprint/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_8160/githubcom_treeformprint/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8160/githubcom_treeformprint/.git/config.lock', '/tmp/nimble_8160/githubcom_treeformprint/.git/config')
+chmod('/tmp/nimble_8160/githubcom_treeformprint/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8160/githubcom_treeformprint/.git/config.lock', '/tmp/nimble_8160/githubcom_treeformprint/.git/config')
+chmod('/tmp/nimble_8160/githubcom_treeformprint/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8160/githubcom_treeformprint/.git/config.lock', '/tmp/nimble_8160/githubcom_treeformprint/.git/config')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/tFK8EQN')
+symlink('testing', '/tmp/nimble_8160/githubcom_treeformprint/.git/tFK8EQN')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/tFK8EQN')
+mkdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_8160/githubcom_treeformprint/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8160/githubcom_treeformprint/.git/config.lock', '/tmp/nimble_8160/githubcom_treeformprint/.git/config')
+chmod('/tmp/nimble_8160/githubcom_treeformprint/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8160/githubcom_treeformprint/.git/config.lock', '/tmp/nimble_8160/githubcom_treeformprint/.git/config')
+chmod('/tmp/nimble_8160/githubcom_treeformprint/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8160/githubcom_treeformprint/.git/config.lock', '/tmp/nimble_8160/githubcom_treeformprint/.git/config')
+mkdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/a9', 0x00000000000001ff)
+link('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/a9/tmp_obj_XL6w5Y', '/tmp/nimble_8160/githubcom_treeformprint/.git/objects/a9/df499a441d997ab9c8658b014e84c561f5528a')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/a9/tmp_obj_XL6w5Y')
+mkdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/ea', 0x00000000000001ff)
+link('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/ea/tmp_obj_vjTHsZ', '/tmp/nimble_8160/githubcom_treeformprint/.git/objects/ea/5510a11b155933baabed1d65b4aded0afea46e')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/ea/tmp_obj_vjTHsZ')
+mkdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/a7', 0x00000000000001ff)
+link('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/a7/tmp_obj_tQ02xX', '/tmp/nimble_8160/githubcom_treeformprint/.git/objects/a7/811d6ee73ad5efdef28c9c3c953f8da9b10144')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/a7/tmp_obj_tQ02xX')
+mkdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/65', 0x00000000000001ff)
+link('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/65/tmp_obj_ZWHH4X', '/tmp/nimble_8160/githubcom_treeformprint/.git/objects/65/78a8970e49642d06cdbcd9e0768d3c11e4b883')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/65/tmp_obj_ZWHH4X')
+mkdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/c1', 0x00000000000001ff)
+link('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/c1/tmp_obj_7WHuP1', '/tmp/nimble_8160/githubcom_treeformprint/.git/objects/c1/eb6d19b491e5beb3228a21d8b56da53248881e')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/c1/tmp_obj_7WHuP1')
+mkdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/10', 0x00000000000001ff)
+link('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/10/tmp_obj_30EZMZ', '/tmp/nimble_8160/githubcom_treeformprint/.git/objects/10/cd77205b6c63694085b276f5cb5f679ea2f7cc')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/10/tmp_obj_30EZMZ')
+mkdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/df', 0x00000000000001ff)
+link('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/df/tmp_obj_JEitA3', '/tmp/nimble_8160/githubcom_treeformprint/.git/objects/df/2f9871d362c8898feaa50f62eeb4128a434586')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/df/tmp_obj_JEitA3')
+mkdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/22', 0x00000000000001ff)
+link('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/22/tmp_obj_jfcpA2', '/tmp/nimble_8160/githubcom_treeformprint/.git/objects/22/5ba0c3f4969af1909c5a351095aaa3463745b0')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/22/tmp_obj_jfcpA2')
+mkdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/ee', 0x00000000000001ff)
+link('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/ee/tmp_obj_Tr1OV5', '/tmp/nimble_8160/githubcom_treeformprint/.git/objects/ee/e3afc09ac83e0dc00c10fa138a0e7322b42b12')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/ee/tmp_obj_Tr1OV5')
+mkdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/dc', 0x00000000000001ff)
+link('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/dc/tmp_obj_RKnRF4', '/tmp/nimble_8160/githubcom_treeformprint/.git/objects/dc/f9a01af0ff0c911b263198d9dc3e5af7400f42')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/dc/tmp_obj_RKnRF4')
+mkdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/3b', 0x00000000000001ff)
+link('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/3b/tmp_obj_vFAe94', '/tmp/nimble_8160/githubcom_treeformprint/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/3b/tmp_obj_vFAe94')
+rename('/tmp/nimble_8160/githubcom_treeformprint/.git/shallow.lock', '/tmp/nimble_8160/githubcom_treeformprint/.git/shallow')
+rename('/tmp/nimble_8160/githubcom_treeformprint/.git/packed-refs.new', '/tmp/nimble_8160/githubcom_treeformprint/.git/packed-refs')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/packed-refs.lock')
+rename('/tmp/nimble_8160/githubcom_treeformprint/.git/refs/tags/0.1.0.lock', '/tmp/nimble_8160/githubcom_treeformprint/.git/refs/tags/0.1.0')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/refs/tags/v0.1.0.lock')
+mkdir('/tmp/nimble_8160/githubcom_treeformprint/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_8160/githubcom_treeformprint/.git/HEAD.lock', '/tmp/nimble_8160/githubcom_treeformprint/.git/HEAD')
 mkdir('src', 0x00000000000001ff)
 mkdir('tests', 0x00000000000001ff)
-rename('/tmp/nimble_11695/githubcom_treeformprint/.git/index.lock', '/tmp/nimble_11695/githubcom_treeformprint/.git/index')
+rename('/tmp/nimble_8160/githubcom_treeformprint/.git/index.lock', '/tmp/nimble_8160/githubcom_treeformprint/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/print_1428700011', 0x00000000000001ff)
-unlink('/tmp/nimblecache/print_1428700011/print.ini')
-unlink('/tmp/nimble_11695.out')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/print_11695.nims')
+mkdir('/tmp/nimblecache/print_3715432522', 0x00000000000001ff)
+unlink('/tmp/nimblecache/print_3715432522/print.ini')
+unlink('/tmp/nimble_8160.out')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/print_8160.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)    Copying file /tmp/nimble_8160/githubcom_treeformprint/src/print.nim to /home/runner/.nimble/pkgs/print-0.1.0/print.nim
+    Copying file /tmp/nimble_8160/githubcom_treeformprint/print.nimble to /home/runner/.nimble/pkgs/print-0.1.0/print.nimble
+   Success: print installed successfully.
+       Info /home/runner/.nimble/pkgs/print-0.1.0/print_8160.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /home/runner/.nimble/pkgs/print-0.1.0/print_8160.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/print-0.1.0', 0x00000000000001ff)
 mkdir('/home', 0x00000000000001ff)
@@ -82,109 +110,157 @@ mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/print_3656162217', 0x00000000000001ff)
 unlink('/tmp/nimblecache/print_3656162217/print.ini')
-unlink('/tmp/nimble_11695.out')
-unlink('/home/runner/.nimble/pkgs/print-0.1.0/print_11695.nims')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/src/print.nim')
-rmdir('/tmp/nimble_11695/githubcom_treeformprint/src')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.gitignore')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/LICENSE')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/HEAD')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/config')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/logs/HEAD')
-rmdir('/tmp/nimble_11695/githubcom_treeformprint/.git/logs')
-rmdir('/tmp/nimble_11695/githubcom_treeformprint/.git/branches')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/packed-refs')
-rmdir('/tmp/nimble_11695/githubcom_treeformprint/.git/refs/heads')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/refs/tags/0.1.0')
-rmdir('/tmp/nimble_11695/githubcom_treeformprint/.git/refs/tags')
-rmdir('/tmp/nimble_11695/githubcom_treeformprint/.git/refs')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/hooks/update.sample')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_11695/githubcom_treeformprint/.git/hooks')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/index')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/info/exclude')
-rmdir('/tmp/nimble_11695/githubcom_treeformprint/.git/info')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/shallow')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/description')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/objects/pack/pack-89334c9378d15e0f4db1d86ec55eb85956acd5be.idx')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/.git/objects/pack/pack-89334c9378d15e0f4db1d86ec55eb85956acd5be.pack')
-rmdir('/tmp/nimble_11695/githubcom_treeformprint/.git/objects/pack')
-rmdir('/tmp/nimble_11695/githubcom_treeformprint/.git/objects/info')
-rmdir('/tmp/nimble_11695/githubcom_treeformprint/.git/objects')
-rmdir('/tmp/nimble_11695/githubcom_treeformprint/.git')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/print.nimble')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/README.md')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/tests/test.nim')
-unlink('/tmp/nimble_11695/githubcom_treeformprint/tests/test.nims')
-rmdir('/tmp/nimble_11695/githubcom_treeformprint/tests')
-rmdir('/tmp/nimble_11695/githubcom_treeformprint')
-rmdir('/tmp/nimble_11695')
+unlink('/tmp/nimble_8160.out')
+unlink('/home/runner/.nimble/pkgs/print-0.1.0/print_8160.nims')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/src/print.nim')
+rmdir('/tmp/nimble_8160/githubcom_treeformprint/src')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/config')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/info/exclude')
+rmdir('/tmp/nimble_8160/githubcom_treeformprint/.git/info')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/shallow')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/description')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/index')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/packed-refs')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/HEAD')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/hooks/update.sample')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/hooks/post-update.sample')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/hooks/commit-msg.sample')
+rmdir('/tmp/nimble_8160/githubcom_treeformprint/.git/hooks')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/logs/HEAD')
+rmdir('/tmp/nimble_8160/githubcom_treeformprint/.git/logs')
+rmdir('/tmp/nimble_8160/githubcom_treeformprint/.git/branches')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/65/78a8970e49642d06cdbcd9e0768d3c11e4b883')
+rmdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/65')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/22/5ba0c3f4969af1909c5a351095aaa3463745b0')
+rmdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/22')
+rmdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/info')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/10/cd77205b6c63694085b276f5cb5f679ea2f7cc')
+rmdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/10')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/ee/e3afc09ac83e0dc00c10fa138a0e7322b42b12')
+rmdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/ee')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/a9/df499a441d997ab9c8658b014e84c561f5528a')
+rmdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/a9')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/a7/811d6ee73ad5efdef28c9c3c953f8da9b10144')
+rmdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/a7')
+rmdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/pack')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/c1/eb6d19b491e5beb3228a21d8b56da53248881e')
+rmdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/c1')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/df/2f9871d362c8898feaa50f62eeb4128a434586')
+rmdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/df')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/ea/5510a11b155933baabed1d65b4aded0afea46e')
+rmdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/ea')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6')
+rmdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/3b')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/dc/f9a01af0ff0c911b263198d9dc3e5af7400f42')
+rmdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects/dc')
+rmdir('/tmp/nimble_8160/githubcom_treeformprint/.git/objects')
+rmdir('/tmp/nimble_8160/githubcom_treeformprint/.git/refs/heads')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.git/refs/tags/0.1.0')
+rmdir('/tmp/nimble_8160/githubcom_treeformprint/.git/refs/tags')
+rmdir('/tmp/nimble_8160/githubcom_treeformprint/.git/refs')
+rmdir('/tmp/nimble_8160/githubcom_treeformprint/.git')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/.gitignore')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/print.nimble')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/README.md')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/tests/test.nims')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/tests/test.nim')
+rmdir('/tmp/nimble_8160/githubcom_treeformprint/tests')
+unlink('/tmp/nimble_8160/githubcom_treeformprint/LICENSE')
+rmdir('/tmp/nimble_8160/githubcom_treeformprint')
+rmdir('/tmp/nimble_8160')
   create directory /tmp
-  create directory /tmp/nimble_11695
-  create directory /tmp/nimble_11695/githubcom_treeformprint
-  delete /tmp/nimble_11695/githubcom_treeformprint
-  create directory /tmp/nimble_11695/githubcom_treeformprint
-  create directory /tmp/nimble_11695/githubcom_treeformprint/.git
-  create directory /tmp/nimble_11695/githubcom_treeformprint/.git
-  create directory /tmp/nimble_11695/githubcom_treeformprint/.git/branches
-  create directory /tmp/nimble_11695/githubcom_treeformprint/.git/hooks
-  create directory /tmp/nimble_11695/githubcom_treeformprint/.git/info
-  create directory /tmp/nimble_11695/githubcom_treeformprint/.git/refs
-  create directory /tmp/nimble_11695/githubcom_treeformprint/.git/refs/heads
-  create directory /tmp/nimble_11695/githubcom_treeformprint/.git/refs/tags
-  rename /tmp/nimble_11695/githubcom_treeformprint/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_11695/githubcom_treeformprint/.git/config.lock to config
-  change permissions of /tmp/nimble_11695/githubcom_treeformprint/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_11695/githubcom_treeformprint/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_11695/githubcom_treeformprint/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_11695/githubcom_treeformprint/.git/config.lock to config
-  change permissions of /tmp/nimble_11695/githubcom_treeformprint/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_11695/githubcom_treeformprint/.git/config.lock to config
-  change permissions of /tmp/nimble_11695/githubcom_treeformprint/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_11695/githubcom_treeformprint/.git/config.lock to config
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/tgK7mp3
-  create symbolic link from /tmp/nimble_11695/githubcom_treeformprint/.git/tgK7mp3 to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/tgK7mp3
-  create directory /tmp/nimble_11695/githubcom_treeformprint/.git/objects
-  create directory /tmp/nimble_11695/githubcom_treeformprint/.git/objects/pack
-  create directory /tmp/nimble_11695/githubcom_treeformprint/.git/objects/info
-  change permissions of /tmp/nimble_11695/githubcom_treeformprint/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_11695/githubcom_treeformprint/.git/config.lock to config
-  change permissions of /tmp/nimble_11695/githubcom_treeformprint/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_11695/githubcom_treeformprint/.git/config.lock to config
-  change permissions of /tmp/nimble_11695/githubcom_treeformprint/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_11695/githubcom_treeformprint/.git/config.lock to config
-  create hard link from /tmp/nimble_11695/githubcom_treeformprint/.git/objects/pack/pack-89334c9378d15e0f4db1d86ec55eb85956acd5be.pack to /tmp/nimble_11695/githubcom_treeformprint/.git/objects/pack/tmp_pack_FBPc5I
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/objects/pack/tmp_pack_FBPc5I
-  create hard link from /tmp/nimble_11695/githubcom_treeformprint/.git/objects/pack/pack-89334c9378d15e0f4db1d86ec55eb85956acd5be.idx to /tmp/nimble_11695/githubcom_treeformprint/.git/objects/pack/tmp_idx_vmKSOP
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/objects/pack/tmp_idx_vmKSOP
-  rename /tmp/nimble_11695/githubcom_treeformprint/.git/shallow.lock to shallow
-  rename /tmp/nimble_11695/githubcom_treeformprint/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/packed-refs.lock
-  rename /tmp/nimble_11695/githubcom_treeformprint/.git/refs/tags/0.1.0.lock to 0.1.0
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/refs/tags/v0.1.0.lock
-  create directory /tmp/nimble_11695/githubcom_treeformprint/.git/logs
-  rename /tmp/nimble_11695/githubcom_treeformprint/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/objects/pack/pack-89334c9378d15e0f4db1d86ec55eb85956acd5be.keep
-  create directory /tmp/nimble_11695/githubcom_treeformprint/src
-  create directory /tmp/nimble_11695/githubcom_treeformprint/tests
-  rename /tmp/nimble_11695/githubcom_treeformprint/.git/index.lock to index
+  create directory /tmp/nimble_8160
+  create directory /tmp/nimble_8160/githubcom_treeformprint
+  delete /tmp/nimble_8160/githubcom_treeformprint
+  create directory /tmp/nimble_8160/githubcom_treeformprint
+  create directory /tmp/nimble_8160/githubcom_treeformprint/.git
+  create directory /tmp/nimble_8160/githubcom_treeformprint/.git
+  create directory /tmp/nimble_8160/githubcom_treeformprint/.git/info
+  create directory /tmp/nimble_8160/githubcom_treeformprint/.git/hooks
+  create directory /tmp/nimble_8160/githubcom_treeformprint/.git/branches
+  create directory /tmp/nimble_8160/githubcom_treeformprint/.git/refs
+  create directory /tmp/nimble_8160/githubcom_treeformprint/.git/refs/heads
+  create directory /tmp/nimble_8160/githubcom_treeformprint/.git/refs/tags
+  rename /tmp/nimble_8160/githubcom_treeformprint/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_8160/githubcom_treeformprint/.git/config.lock to config
+  change permissions of /tmp/nimble_8160/githubcom_treeformprint/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_8160/githubcom_treeformprint/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_8160/githubcom_treeformprint/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8160/githubcom_treeformprint/.git/config.lock to config
+  change permissions of /tmp/nimble_8160/githubcom_treeformprint/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8160/githubcom_treeformprint/.git/config.lock to config
+  change permissions of /tmp/nimble_8160/githubcom_treeformprint/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8160/githubcom_treeformprint/.git/config.lock to config
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/tFK8EQN
+  create symbolic link from /tmp/nimble_8160/githubcom_treeformprint/.git/tFK8EQN to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/tFK8EQN
+  create directory /tmp/nimble_8160/githubcom_treeformprint/.git/objects
+  create directory /tmp/nimble_8160/githubcom_treeformprint/.git/objects/pack
+  create directory /tmp/nimble_8160/githubcom_treeformprint/.git/objects/info
+  change permissions of /tmp/nimble_8160/githubcom_treeformprint/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8160/githubcom_treeformprint/.git/config.lock to config
+  change permissions of /tmp/nimble_8160/githubcom_treeformprint/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8160/githubcom_treeformprint/.git/config.lock to config
+  change permissions of /tmp/nimble_8160/githubcom_treeformprint/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8160/githubcom_treeformprint/.git/config.lock to config
+  create directory /tmp/nimble_8160/githubcom_treeformprint/.git/objects/a9
+  create hard link from /tmp/nimble_8160/githubcom_treeformprint/.git/objects/a9/df499a441d997ab9c8658b014e84c561f5528a to /tmp/nimble_8160/githubcom_treeformprint/.git/objects/a9/tmp_obj_XL6w5Y
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/a9/tmp_obj_XL6w5Y
+  create directory /tmp/nimble_8160/githubcom_treeformprint/.git/objects/ea
+  create hard link from /tmp/nimble_8160/githubcom_treeformprint/.git/objects/ea/5510a11b155933baabed1d65b4aded0afea46e to /tmp/nimble_8160/githubcom_treeformprint/.git/objects/ea/tmp_obj_vjTHsZ
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/ea/tmp_obj_vjTHsZ
+  create directory /tmp/nimble_8160/githubcom_treeformprint/.git/objects/a7
+  create hard link from /tmp/nimble_8160/githubcom_treeformprint/.git/objects/a7/811d6ee73ad5efdef28c9c3c953f8da9b10144 to /tmp/nimble_8160/githubcom_treeformprint/.git/objects/a7/tmp_obj_tQ02xX
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/a7/tmp_obj_tQ02xX
+  create directory /tmp/nimble_8160/githubcom_treeformprint/.git/objects/65
+  create hard link from /tmp/nimble_8160/githubcom_treeformprint/.git/objects/65/78a8970e49642d06cdbcd9e0768d3c11e4b883 to /tmp/nimble_8160/githubcom_treeformprint/.git/objects/65/tmp_obj_ZWHH4X
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/65/tmp_obj_ZWHH4X
+  create directory /tmp/nimble_8160/githubcom_treeformprint/.git/objects/c1
+  create hard link from /tmp/nimble_8160/githubcom_treeformprint/.git/objects/c1/eb6d19b491e5beb3228a21d8b56da53248881e to /tmp/nimble_8160/githubcom_treeformprint/.git/objects/c1/tmp_obj_7WHuP1
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/c1/tmp_obj_7WHuP1
+  create directory /tmp/nimble_8160/githubcom_treeformprint/.git/objects/10
+  create hard link from /tmp/nimble_8160/githubcom_treeformprint/.git/objects/10/cd77205b6c63694085b276f5cb5f679ea2f7cc to /tmp/nimble_8160/githubcom_treeformprint/.git/objects/10/tmp_obj_30EZMZ
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/10/tmp_obj_30EZMZ
+  create directory /tmp/nimble_8160/githubcom_treeformprint/.git/objects/df
+  create hard link from /tmp/nimble_8160/githubcom_treeformprint/.git/objects/df/2f9871d362c8898feaa50f62eeb4128a434586 to /tmp/nimble_8160/githubcom_treeformprint/.git/objects/df/tmp_obj_JEitA3
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/df/tmp_obj_JEitA3
+  create directory /tmp/nimble_8160/githubcom_treeformprint/.git/objects/22
+  create hard link from /tmp/nimble_8160/githubcom_treeformprint/.git/objects/22/5ba0c3f4969af1909c5a351095aaa3463745b0 to /tmp/nimble_8160/githubcom_treeformprint/.git/objects/22/tmp_obj_jfcpA2
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/22/tmp_obj_jfcpA2
+  create directory /tmp/nimble_8160/githubcom_treeformprint/.git/objects/ee
+  create hard link from /tmp/nimble_8160/githubcom_treeformprint/.git/objects/ee/e3afc09ac83e0dc00c10fa138a0e7322b42b12 to /tmp/nimble_8160/githubcom_treeformprint/.git/objects/ee/tmp_obj_Tr1OV5
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/ee/tmp_obj_Tr1OV5
+  create directory /tmp/nimble_8160/githubcom_treeformprint/.git/objects/dc
+  create hard link from /tmp/nimble_8160/githubcom_treeformprint/.git/objects/dc/f9a01af0ff0c911b263198d9dc3e5af7400f42 to /tmp/nimble_8160/githubcom_treeformprint/.git/objects/dc/tmp_obj_RKnRF4
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/dc/tmp_obj_RKnRF4
+  create directory /tmp/nimble_8160/githubcom_treeformprint/.git/objects/3b
+  create hard link from /tmp/nimble_8160/githubcom_treeformprint/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6 to /tmp/nimble_8160/githubcom_treeformprint/.git/objects/3b/tmp_obj_vFAe94
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/3b/tmp_obj_vFAe94
+  rename /tmp/nimble_8160/githubcom_treeformprint/.git/shallow.lock to shallow
+  rename /tmp/nimble_8160/githubcom_treeformprint/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/packed-refs.lock
+  rename /tmp/nimble_8160/githubcom_treeformprint/.git/refs/tags/0.1.0.lock to 0.1.0
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/refs/tags/v0.1.0.lock
+  create directory /tmp/nimble_8160/githubcom_treeformprint/.git/logs
+  rename /tmp/nimble_8160/githubcom_treeformprint/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_8160/githubcom_treeformprint/src
+  create directory /tmp/nimble_8160/githubcom_treeformprint/tests
+  rename /tmp/nimble_8160/githubcom_treeformprint/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/print_1428700011
-  delete /tmp/nimblecache/print_1428700011/print.ini
-  delete /tmp/nimble_11695.out
-  delete /tmp/nimble_11695/githubcom_treeformprint/print_11695.nims
+  create directory /tmp/nimblecache/print_3715432522
+  delete /tmp/nimblecache/print_3715432522/print.ini
+  delete /tmp/nimble_8160.out
+  delete /tmp/nimble_8160/githubcom_treeformprint/print_8160.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -201,50 +277,70 @@ rmdir('/tmp/nimble_11695')
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/print_3656162217
   delete /tmp/nimblecache/print_3656162217/print.ini
-  delete /tmp/nimble_11695.out
-  delete /home/runner/.nimble/pkgs/print-0.1.0/print_11695.nims
-  delete /tmp/nimble_11695/githubcom_treeformprint/src/print.nim
-  delete /tmp/nimble_11695/githubcom_treeformprint/src
-  delete /tmp/nimble_11695/githubcom_treeformprint/.gitignore
-  delete /tmp/nimble_11695/githubcom_treeformprint/LICENSE
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/HEAD
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/config
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/logs/HEAD
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/logs
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/branches
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/packed-refs
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/refs/heads
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/refs/tags/0.1.0
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/refs/tags
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/refs
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/hooks/pre-push.sample
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/hooks/update.sample
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/hooks/post-update.sample
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/hooks
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/index
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/info/exclude
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/info
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/shallow
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/description
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/objects/pack/pack-89334c9378d15e0f4db1d86ec55eb85956acd5be.idx
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/objects/pack/pack-89334c9378d15e0f4db1d86ec55eb85956acd5be.pack
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/objects/pack
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/objects/info
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git/objects
-  delete /tmp/nimble_11695/githubcom_treeformprint/.git
-  delete /tmp/nimble_11695/githubcom_treeformprint/print.nimble
-  delete /tmp/nimble_11695/githubcom_treeformprint/README.md
-  delete /tmp/nimble_11695/githubcom_treeformprint/tests/test.nim
-  delete /tmp/nimble_11695/githubcom_treeformprint/tests/test.nims
-  delete /tmp/nimble_11695/githubcom_treeformprint/tests
-  delete /tmp/nimble_11695/githubcom_treeformprint
-  delete /tmp/nimble_11695
+  delete /tmp/nimble_8160.out
+  delete /home/runner/.nimble/pkgs/print-0.1.0/print_8160.nims
+  delete /tmp/nimble_8160/githubcom_treeformprint/src/print.nim
+  delete /tmp/nimble_8160/githubcom_treeformprint/src
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/config
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/info/exclude
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/info
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/shallow
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/description
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/index
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/packed-refs
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/HEAD
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/hooks/pre-push.sample
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/hooks/update.sample
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/hooks/post-update.sample
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/hooks
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/logs/HEAD
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/logs
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/branches
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/65/78a8970e49642d06cdbcd9e0768d3c11e4b883
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/65
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/22/5ba0c3f4969af1909c5a351095aaa3463745b0
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/22
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/info
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/10/cd77205b6c63694085b276f5cb5f679ea2f7cc
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/10
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/ee/e3afc09ac83e0dc00c10fa138a0e7322b42b12
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/ee
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/a9/df499a441d997ab9c8658b014e84c561f5528a
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/a9
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/a7/811d6ee73ad5efdef28c9c3c953f8da9b10144
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/a7
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/pack
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/c1/eb6d19b491e5beb3228a21d8b56da53248881e
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/c1
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/df/2f9871d362c8898feaa50f62eeb4128a434586
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/df
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/ea/5510a11b155933baabed1d65b4aded0afea46e
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/ea
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/3b
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/dc/f9a01af0ff0c911b263198d9dc3e5af7400f42
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects/dc
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/objects
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/refs/heads
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/refs/tags/0.1.0
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/refs/tags
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git/refs
+  delete /tmp/nimble_8160/githubcom_treeformprint/.git
+  delete /tmp/nimble_8160/githubcom_treeformprint/.gitignore
+  delete /tmp/nimble_8160/githubcom_treeformprint/print.nimble
+  delete /tmp/nimble_8160/githubcom_treeformprint/README.md
+  delete /tmp/nimble_8160/githubcom_treeformprint/tests/test.nims
+  delete /tmp/nimble_8160/githubcom_treeformprint/tests/test.nim
+  delete /tmp/nimble_8160/githubcom_treeformprint/tests
+  delete /tmp/nimble_8160/githubcom_treeformprint/LICENSE
+  delete /tmp/nimble_8160/githubcom_treeformprint
+  delete /tmp/nimble_8160

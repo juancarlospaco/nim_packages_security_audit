@@ -1,58 +1,197 @@
     Reading official package list
 Downloading https://github.com/jiro4989/pnm using git
     Cloning latest tagged version: v2.0.0
-  Verifying dependencies for pnm@2.0.0
- Installing pnm@2.0.0
-    Copying file /tmp/nimble_13595/githubcom_jiro4989pnm/src/pnm.nim to /home/runner/.nimble/pkgs/pnm-2.0.0/pnm.nim
-    Copying file /tmp/nimble_13595/githubcom_jiro4989pnm/src/pnm/util.nim to /home/runner/.nimble/pkgs/pnm-2.0.0/pnm/util.nim
-    Copying file /tmp/nimble_13595/githubcom_jiro4989pnm/pnm.nimble to /home/runner/.nimble/pkgs/pnm-2.0.0/pnm.nimble
-   Success: pnm installed successfully.
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_13595', 0x00000000000001ff)
-mkdir('/tmp/nimble_13595/githubcom_jiro4989pnm', 0x00000000000001ff)
-rmdir('/tmp/nimble_13595/githubcom_jiro4989pnm')
-mkdir('/tmp/nimble_13595/githubcom_jiro4989pnm', 0x00000000000001ff)
-mkdir('/tmp/nimble_13595/githubcom_jiro4989pnm/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/HEAD.lock', '/tmp/nimble_13595/githubcom_jiro4989pnm/.git/HEAD')
-rename('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/config.lock', '/tmp/nimble_13595/githubcom_jiro4989pnm/.git/config')
-chmod('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/config.lock', '/tmp/nimble_13595/githubcom_jiro4989pnm/.git/config')
-chmod('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/config.lock', '/tmp/nimble_13595/githubcom_jiro4989pnm/.git/config')
-chmod('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/config.lock', '/tmp/nimble_13595/githubcom_jiro4989pnm/.git/config')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/tieW3D1')
-symlink('testing', '/tmp/nimble_13595/githubcom_jiro4989pnm/.git/tieW3D1')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/tieW3D1')
-mkdir('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/config.lock', '/tmp/nimble_13595/githubcom_jiro4989pnm/.git/config')
-chmod('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/config.lock', '/tmp/nimble_13595/githubcom_jiro4989pnm/.git/config')
-chmod('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/config.lock', '/tmp/nimble_13595/githubcom_jiro4989pnm/.git/config')
-link('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects/pack/tmp_pack_8pVtJC', '/tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects/pack/pack-269b1bee1a453f92467ff854a3971142c9a8f98f.pack')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects/pack/tmp_pack_8pVtJC')
-link('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects/pack/tmp_idx_kdnTcO', '/tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects/pack/pack-269b1bee1a453f92467ff854a3971142c9a8f98f.idx')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects/pack/tmp_idx_kdnTcO')
-rename('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/shallow.lock', '/tmp/nimble_13595/githubcom_jiro4989pnm/.git/shallow')
-rename('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/packed-refs.new', '/tmp/nimble_13595/githubcom_jiro4989pnm/.git/packed-refs')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/packed-refs.lock')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/refs/tags/v2.0.0.lock')
-mkdir('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/HEAD.lock', '/tmp/nimble_13595/githubcom_jiro4989pnm/.git/HEAD')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects/pack/pack-269b1bee1a453f92467ff854a3971142c9a8f98f.keep')
+mkdir('/tmp/nimble_9267', 0x00000000000001ff)
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm', 0x00000000000001ff)
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm', 0x00000000000001ff)
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/HEAD.lock', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/HEAD')
+rename('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/config.lock', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/config')
+chmod('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/config.lock', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/config')
+chmod('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/config.lock', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/config')
+chmod('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/config.lock', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/config')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/t4eceU7')
+symlink('testing', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/t4eceU7')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/t4eceU7')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/config.lock', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/config')
+chmod('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/config.lock', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/config')
+chmod('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/config.lock', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/config')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/1a', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/1a/tmp_obj_4sUSES', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/1a/cbe3f1a0a81c15b4639acca68114ff262b4743')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/1a/tmp_obj_4sUSES')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/71', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/71/tmp_obj_ukb9rR', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/71/3a75b0b3cf6dd5ef71af0fdc10c030e58bdb50')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/71/tmp_obj_ukb9rR')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/db', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/db/tmp_obj_wzkyiU', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/db/3c6d16ecac0a9960ef204600cd3884d2d1c8aa')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/db/tmp_obj_wzkyiU')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/52', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/52/tmp_obj_iONZvU', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/52/042795e94685e9128b5387a721d9914a83ebe9')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/52/tmp_obj_iONZvU')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/9d', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/9d/tmp_obj_gTCWHT', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/9d/868237ca2aaba5a1fa1cea0c0fbae4c6da13cf')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/9d/tmp_obj_gTCWHT')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/a4', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/a4/tmp_obj_0ElbnX', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/a4/ec972d041de1fa14126cf22cc10b88e2ff6826')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/a4/tmp_obj_0ElbnX')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/58', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/58/tmp_obj_0OQGkV', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/58/e9e37ffb6ba49d70ab268f35e01735c5bc3c0f')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/58/tmp_obj_0OQGkV')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/c7', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/c7/tmp_obj_UR79PV', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/c7/b7a52f9bde4c0e3e23d8ee68074d314f9300ae')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/c7/tmp_obj_UR79PV')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/50', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/50/tmp_obj_2lR4EZ', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/50/bce8ccd539b55d82a9a4fc05447c64a7a003b8')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/50/tmp_obj_2lR4EZ')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3c', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3c/tmp_obj_4cSlMX', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3c/bc1eb7ad58e6d870395fd81d315d4e0119bed1')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3c/tmp_obj_4cSlMX')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/94', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/94/tmp_obj_muok6X', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/94/e8665c3d6ca3314c0fbf3be92d6cfb780db363')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/94/tmp_obj_muok6X')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/e0', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/e0/tmp_obj_M1EzY0', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/e0/b627429b28eb965ef8fc631ac5d9ccf129d702')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/e0/tmp_obj_M1EzY0')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/25', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/25/tmp_obj_oP0Uz1', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/25/4704e8bf3300f1f59f57c6fc20c4e70debe96a')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/25/tmp_obj_oP0Uz1')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/ee', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/ee/tmp_obj_gnOSKZ', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/ee/a1d14d18f49cd8acf2b425f5ee4b62adfd2932')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/ee/tmp_obj_gnOSKZ')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/76', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/76/tmp_obj_YTJfB3', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/76/60244a79aa7a79aa4eb6828262fc50654a883d')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/76/tmp_obj_YTJfB3')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/5e', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/5e/tmp_obj_ov4R43', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/5e/d3dfe387c7fbdf1920f3e38660a16e5b34004a')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/5e/tmp_obj_ov4R43')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/b0', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/b0/tmp_obj_u88o91', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/b0/9952b9a7cf1c098db87429d0b0e571f71c4726')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/b0/tmp_obj_u88o91')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/7b', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/7b/tmp_obj_gNH6g6', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/7b/7fc3bd1018da3feb80ba73be73f9fa3787dfd4')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/7b/tmp_obj_gNH6g6')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/31', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/31/tmp_obj_KMpFX7', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/31/128e24cf8e63974f1916d69d39a96dd5a3e54a')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/31/tmp_obj_KMpFX7')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/0c', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/0c/tmp_obj_kZcML6', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/0c/c8d7d2ac3133bbfc837c85f7e2de612dbf0963')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/0c/tmp_obj_kZcML6')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/38', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/38/tmp_obj_ILtnra', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/38/4a47d895c4b6748d03466336ab2fe58b053e36')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/38/tmp_obj_ILtnra')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/dd', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/dd/tmp_obj_Uzeywh', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/dd/339e42b436ef45873a895a964a435968dab39b')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/dd/tmp_obj_Uzeywh')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/77', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/77/tmp_obj_AFS6Rj', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/77/bc40a25e094cb42c62fb7d369bfcedb8a006ab')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/77/tmp_obj_AFS6Rj')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3f', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3f/tmp_obj_UpPbok', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3f/78c9e4fcc23b4d7f5f6318c590329b8b23e78c')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3f/tmp_obj_UpPbok')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/da', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/da/tmp_obj_Pj9btb', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/da/0620284356411eaec8fbf17addced3bd6bea32')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/da/tmp_obj_Pj9btb')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/dc', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/dc/tmp_obj_BGWNFa', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/dc/3b22e51576b1f851b7818428db040a71d74c3d')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/dc/tmp_obj_BGWNFa')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3e', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3e/tmp_obj_HvHHce', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3e/2b063a62bef63bfd1da35c570546c05f724660')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3e/tmp_obj_HvHHce')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/a7', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/a7/tmp_obj_Zieioe', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/a7/fb52619a6ec3bd05b7ee84d27cd13f7da9d1b9')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/a7/tmp_obj_Zieioe')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/d2', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/d2/tmp_obj_rjFvwj', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/d2/e2fe8fd04fccb8911cc29ad036bd3daf56c310')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/d2/tmp_obj_rjFvwj')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/17', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/17/tmp_obj_FG1Mdt', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/17/742af9f10571457220281e1d7b5be536131127')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/17/tmp_obj_FG1Mdt')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/f1', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/f1/tmp_obj_DPg2qz', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/f1/39bdf1c09aa865ff3812d918bed6ed1a2814d1')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/f1/tmp_obj_DPg2qz')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/64', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/64/tmp_obj_rDDDly', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/64/615a4750c9d0f39d86b163528ba2f487dfd057')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/64/tmp_obj_rDDDly')
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/52/tmp_obj_ZUPziB', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/52/2e25cf5947334ad358e3f8a7002c534a12d902')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/52/tmp_obj_ZUPziB')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/fc', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/fc/tmp_obj_xEgGsA', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/fc/f43f35f45379a8dcd869bba0fa16775190ee34')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/fc/tmp_obj_xEgGsA')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/2d', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/2d/tmp_obj_B44dIA', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/2d/29dd586aa3eed983d653785728311bcad999f4')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/2d/tmp_obj_B44dIA')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/ad', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/ad/tmp_obj_JeyJpG', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/ad/55db8bc0f88d0bcd929cf18493b58a4a0a640d')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/ad/tmp_obj_JeyJpG')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/45', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/45/tmp_obj_X3yW1R', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/45/4929ad97eed70f979bc261c1aabbf80ac379be')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/45/tmp_obj_X3yW1R')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/5a', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/5a/tmp_obj_Vw0mGT', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/5a/e711ccb59695d63d1d3bce7db4bc46e10f77b9')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/5a/tmp_obj_Vw0mGT')
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/b0/tmp_obj_9Rl2fX', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/b0/f02c2b8121e1b67a3d8d0a3e5d10c2c2923627')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/b0/tmp_obj_9Rl2fX')
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/f1/tmp_obj_VcYamV', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/f1/436aed0c0083b94fd84c71c4c1dabe4ea6da35')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/f1/tmp_obj_VcYamV')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3b', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3b/tmp_obj_PB0SHV', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6')  Verifying dependencies for pnm@2.0.0
+ Installing pnm@2.0.0
+    Copying file /tmp/nimble_9267/githubcom_jiro4989pnm/src/pnm.nim to /home/runner/.nimble/pkgs/pnm-2.0.0/pnm.nim
+    Copying file /tmp/nimble_9267/githubcom_jiro4989pnm/src/pnm/util.nim to /home/runner/.nimble/pkgs/pnm-2.0.0/pnm/util.nim
+    Copying file /tmp/nimble_9267/githubcom_jiro4989pnm/pnm.nimble to /home/runner/.nimble/pkgs/pnm-2.0.0/pnm.nimble
+   Success: pnm installed successfully.
+
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3b/tmp_obj_PB0SHV')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/74', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/74/tmp_obj_luKcvZ', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/74/8661e735bc33b3dc809b17b7caf41cd349b9a7')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/74/tmp_obj_luKcvZ')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/e3', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/e3/tmp_obj_7AL9uX', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/e3/089971b1ec34a94e462aaf4646a442bea522ce')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/e3/tmp_obj_7AL9uX')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/1f', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/1f/tmp_obj_nFFRe1', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/1f/fafb6e2b0d38e372c54415fb580c417f5e2755')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/1f/tmp_obj_nFFRe1')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/05', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/05/tmp_obj_zfzcL1', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/05/da40ea2340a59140a30cf08b2413e1113e88ba')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/05/tmp_obj_zfzcL1')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/9f', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/9f/tmp_obj_flfy7Z', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/9f/c02a7f378feabe9e36dfcbabf6a6b03ca84460')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/9f/tmp_obj_flfy7Z')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/30', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/30/tmp_obj_R4e5D0', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/30/a239a49f28645dbc700e0463a556b483ae72d1')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/30/tmp_obj_R4e5D0')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/c2', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/c2/tmp_obj_P1nId4', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/c2/d2bb33f627f8920d4bbae83b257344aa556bb0')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/c2/tmp_obj_P1nId4')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/72', 0x00000000000001ff)
+link('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/72/tmp_obj_tIj842', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/72/42a42b30337c586c4dc7bca86ac0ddc7539f19')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/72/tmp_obj_tIj842')
+rename('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/shallow.lock', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/shallow')
+rename('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/packed-refs.new', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/packed-refs')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/packed-refs.lock')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/refs/tags/v2.0.0.lock')
+mkdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/HEAD.lock', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/HEAD')
 mkdir('docs', 0x00000000000001ff)
 mkdir('examples', 0x00000000000001ff)
 mkdir('examples/read_file', 0x00000000000001ff)
@@ -63,13 +202,13 @@ mkdir('src', 0x00000000000001ff)
 mkdir('src/pnm', 0x00000000000001ff)
 mkdir('tests', 0x00000000000001ff)
 mkdir('tests/out', 0x00000000000001ff)
-rename('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/index.lock', '/tmp/nimble_13595/githubcom_jiro4989pnm/.git/index')
+rename('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/index.lock', '/tmp/nimble_9267/githubcom_jiro4989pnm/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/pnm_3893982495', 0x00000000000001ff)
-unlink('/tmp/nimblecache/pnm_3893982495/pnm.ini')
-unlink('/tmp/nimble_13595.out')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/pnm_13595.nims')
+mkdir('/tmp/nimblecache/pnm_2960766937', 0x00000000000001ff)
+unlink('/tmp/nimblecache/pnm_2960766937/pnm.ini')
+unlink('/tmp/nimble_9267.out')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/pnm_9267.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -93,153 +232,385 @@ mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/pnm_2518959498', 0x00000000000001ff)
 unlink('/tmp/nimblecache/pnm_2518959498/pnm.ini')
-unlink('/tmp/nimble_13595.out')
-unlink('/home/runner/.nimble/pkgs/pnm-2.0.0/pnm_13595.nims')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/examples/write_pgm/main.nim')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/examples/write_pgm/out.pgm')
-rmdir('/tmp/nimble_13595/githubcom_jiro4989pnm/examples/write_pgm')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/examples/config.nims')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/examples/write_pbm/main.nim')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/examples/write_pbm/out.pbm')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/examples/write_pbm/1.pbm')
-rmdir('/tmp/nimble_13595/githubcom_jiro4989pnm/examples/write_pbm')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/examples/read_file/out2.ppm')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/examples/read_file/main.nim')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/examples/read_file/out.pbm')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/examples/read_file/out1.ppm')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/examples/read_file/out.pgm')
-rmdir('/tmp/nimble_13595/githubcom_jiro4989pnm/examples/read_file')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/examples/write_ppm/out2.ppm')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/examples/write_ppm/main.nim')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/examples/write_ppm/out1.ppm')
-rmdir('/tmp/nimble_13595/githubcom_jiro4989pnm/examples/write_ppm')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/examples/nim.cfg')
-rmdir('/tmp/nimble_13595/githubcom_jiro4989pnm/examples')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/src/pnm.nim')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/src/pnm/util.nim')
-rmdir('/tmp/nimble_13595/githubcom_jiro4989pnm/src/pnm')
-rmdir('/tmp/nimble_13595/githubcom_jiro4989pnm/src')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/README.adoc')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.gitignore')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/pnm.nimble')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.travis.yml')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/docs/util.html')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/docs/pbm_example.png')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/docs/ppm_example2.png')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/docs/ppm_example1.convert.png')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/docs/ppm_example1.png')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/docs/pgm_example.png')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/docs/pnm.html')
-rmdir('/tmp/nimble_13595/githubcom_jiro4989pnm/docs')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/HEAD')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/config')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/logs/HEAD')
-rmdir('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/logs')
-rmdir('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/branches')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/packed-refs')
-rmdir('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/refs/heads')
-rmdir('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/refs/tags')
-rmdir('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/refs')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks/update.sample')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/index')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/info/exclude')
-rmdir('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/info')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/shallow')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/description')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects/pack/pack-269b1bee1a453f92467ff854a3971142c9a8f98f.idx')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects/pack/pack-269b1bee1a453f92467ff854a3971142c9a8f98f.pack')
-rmdir('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects/pack')
-rmdir('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects/info')
-rmdir('/tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects')
-rmdir('/tmp/nimble_13595/githubcom_jiro4989pnm/.git')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/tests/tpnm.nim')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/tests/config.nims')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/tests/out/p1.pbm')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/tests/out/p2.pgm')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/tests/out/p6.ppm')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/tests/out/p5.pgm')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/tests/out/p4.pbm')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/tests/out/p3.ppm')
-rmdir('/tmp/nimble_13595/githubcom_jiro4989pnm/tests/out')
-unlink('/tmp/nimble_13595/githubcom_jiro4989pnm/tests/tutil.nim')
-rmdir('/tmp/nimble_13595/githubcom_jiro4989pnm/tests')
-rmdir('/tmp/nimble_13595/githubcom_jiro4989pnm')
-rmdir('/tmp/nimble_13595')
+unlink('/tmp/nimble_9267.out')
+unlink('/home/runner/.nimble/pkgs/pnm-2.0.0/pnm_9267.nims')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/docs/pbm_example.png')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/docs/util.html')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/docs/ppm_example2.png')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/docs/pnm.html')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/docs/pgm_example.png')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/docs/ppm_example1.convert.png')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/docs/ppm_example1.png')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/docs')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/src/pnm.nim')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/src/pnm/util.nim')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/src/pnm')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/src')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/README.adoc')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/config')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/info/exclude')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/info')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/shallow')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/description')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/index')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/packed-refs')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/HEAD')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks/update.sample')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks/post-update.sample')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks/commit-msg.sample')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/logs/HEAD')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/logs')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/branches')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/52/2e25cf5947334ad358e3f8a7002c534a12d902')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/52/042795e94685e9128b5387a721d9914a83ebe9')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/52')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/71/3a75b0b3cf6dd5ef71af0fdc10c030e58bdb50')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/71')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/94/e8665c3d6ca3314c0fbf3be92d6cfb780db363')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/94')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/info')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/c2/d2bb33f627f8920d4bbae83b257344aa556bb0')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/c2')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/77/bc40a25e094cb42c62fb7d369bfcedb8a006ab')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/77')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/45/4929ad97eed70f979bc261c1aabbf80ac379be')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/45')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/c7/b7a52f9bde4c0e3e23d8ee68074d314f9300ae')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/c7')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/e0/b627429b28eb965ef8fc631ac5d9ccf129d702')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/e0')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3c/bc1eb7ad58e6d870395fd81d315d4e0119bed1')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3c')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/1a/cbe3f1a0a81c15b4639acca68114ff262b4743')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/1a')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/ee/a1d14d18f49cd8acf2b425f5ee4b62adfd2932')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/ee')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/b0/f02c2b8121e1b67a3d8d0a3e5d10c2c2923627')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/b0/9952b9a7cf1c098db87429d0b0e571f71c4726')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/b0')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/9f/c02a7f378feabe9e36dfcbabf6a6b03ca84460')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/9f')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/2d/29dd586aa3eed983d653785728311bcad999f4')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/2d')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/dd/339e42b436ef45873a895a964a435968dab39b')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/dd')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/17/742af9f10571457220281e1d7b5be536131127')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/17')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/f1/39bdf1c09aa865ff3812d918bed6ed1a2814d1')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/f1/436aed0c0083b94fd84c71c4c1dabe4ea6da35')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/f1')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/30/a239a49f28645dbc700e0463a556b483ae72d1')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/30')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/05/da40ea2340a59140a30cf08b2413e1113e88ba')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/05')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/76/60244a79aa7a79aa4eb6828262fc50654a883d')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/76')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/a7/fb52619a6ec3bd05b7ee84d27cd13f7da9d1b9')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/a7')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/pack')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/fc/f43f35f45379a8dcd869bba0fa16775190ee34')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/fc')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3e/2b063a62bef63bfd1da35c570546c05f724660')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3e')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/72/42a42b30337c586c4dc7bca86ac0ddc7539f19')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/72')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/25/4704e8bf3300f1f59f57c6fc20c4e70debe96a')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/25')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/50/bce8ccd539b55d82a9a4fc05447c64a7a003b8')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/50')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/da/0620284356411eaec8fbf17addced3bd6bea32')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/da')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/5a/e711ccb59695d63d1d3bce7db4bc46e10f77b9')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/5a')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/58/e9e37ffb6ba49d70ab268f35e01735c5bc3c0f')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/58')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/64/615a4750c9d0f39d86b163528ba2f487dfd057')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/64')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/0c/c8d7d2ac3133bbfc837c85f7e2de612dbf0963')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/0c')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/38/4a47d895c4b6748d03466336ab2fe58b053e36')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/38')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/31/128e24cf8e63974f1916d69d39a96dd5a3e54a')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/31')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/9d/868237ca2aaba5a1fa1cea0c0fbae4c6da13cf')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/9d')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/5e/d3dfe387c7fbdf1920f3e38660a16e5b34004a')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/5e')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/1f/fafb6e2b0d38e372c54415fb580c417f5e2755')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/1f')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3f/78c9e4fcc23b4d7f5f6318c590329b8b23e78c')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3f')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/d2/e2fe8fd04fccb8911cc29ad036bd3daf56c310')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/d2')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/db/3c6d16ecac0a9960ef204600cd3884d2d1c8aa')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/db')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/a4/ec972d041de1fa14126cf22cc10b88e2ff6826')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/a4')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/74/8661e735bc33b3dc809b17b7caf41cd349b9a7')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/74')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/7b/7fc3bd1018da3feb80ba73be73f9fa3787dfd4')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/7b')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/e3/089971b1ec34a94e462aaf4646a442bea522ce')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/e3')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3b')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/dc/3b22e51576b1f851b7818428db040a71d74c3d')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/dc')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/ad/55db8bc0f88d0bcd929cf18493b58a4a0a640d')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/ad')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/refs/heads')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/refs/tags')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git/refs')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/.git')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.travis.yml')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/.gitignore')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/tests/tutil.nim')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/tests/config.nims')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/tests/tpnm.nim')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/tests/out/p4.pbm')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/tests/out/p5.pgm')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/tests/out/p1.pbm')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/tests/out/p3.ppm')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/tests/out/p6.ppm')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/tests/out/p2.pgm')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/tests/out')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/tests')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/pnm.nimble')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/examples/write_pgm/main.nim')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/examples/write_pgm/out.pgm')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/examples/write_pgm')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/examples/read_file/out.pbm')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/examples/read_file/out1.ppm')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/examples/read_file/main.nim')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/examples/read_file/out2.ppm')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/examples/read_file/out.pgm')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/examples/read_file')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/examples/write_pbm/out.pbm')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/examples/write_pbm/1.pbm')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/examples/write_pbm/main.nim')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/examples/write_pbm')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/examples/config.nims')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/examples/nim.cfg')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/examples/write_ppm/out1.ppm')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/examples/write_ppm/main.nim')
+unlink('/tmp/nimble_9267/githubcom_jiro4989pnm/examples/write_ppm/out2.ppm')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/examples/write_ppm')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm/examples')
+rmdir('/tmp/nimble_9267/githubcom_jiro4989pnm')
+rmdir('/tmp/nimble_9267')
   create directory /tmp
-  create directory /tmp/nimble_13595
-  create directory /tmp/nimble_13595/githubcom_jiro4989pnm
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm
-  create directory /tmp/nimble_13595/githubcom_jiro4989pnm
-  create directory /tmp/nimble_13595/githubcom_jiro4989pnm/.git
-  create directory /tmp/nimble_13595/githubcom_jiro4989pnm/.git
-  create directory /tmp/nimble_13595/githubcom_jiro4989pnm/.git/branches
-  create directory /tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks
-  create directory /tmp/nimble_13595/githubcom_jiro4989pnm/.git/info
-  create directory /tmp/nimble_13595/githubcom_jiro4989pnm/.git/refs
-  create directory /tmp/nimble_13595/githubcom_jiro4989pnm/.git/refs/heads
-  create directory /tmp/nimble_13595/githubcom_jiro4989pnm/.git/refs/tags
-  rename /tmp/nimble_13595/githubcom_jiro4989pnm/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_13595/githubcom_jiro4989pnm/.git/config.lock to config
-  change permissions of /tmp/nimble_13595/githubcom_jiro4989pnm/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_13595/githubcom_jiro4989pnm/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_13595/githubcom_jiro4989pnm/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_13595/githubcom_jiro4989pnm/.git/config.lock to config
-  change permissions of /tmp/nimble_13595/githubcom_jiro4989pnm/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_13595/githubcom_jiro4989pnm/.git/config.lock to config
-  change permissions of /tmp/nimble_13595/githubcom_jiro4989pnm/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_13595/githubcom_jiro4989pnm/.git/config.lock to config
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/tieW3D1
-  create symbolic link from /tmp/nimble_13595/githubcom_jiro4989pnm/.git/tieW3D1 to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/tieW3D1
-  create directory /tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects
-  create directory /tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects/pack
-  create directory /tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects/info
-  change permissions of /tmp/nimble_13595/githubcom_jiro4989pnm/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_13595/githubcom_jiro4989pnm/.git/config.lock to config
-  change permissions of /tmp/nimble_13595/githubcom_jiro4989pnm/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_13595/githubcom_jiro4989pnm/.git/config.lock to config
-  change permissions of /tmp/nimble_13595/githubcom_jiro4989pnm/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_13595/githubcom_jiro4989pnm/.git/config.lock to config
-  create hard link from /tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects/pack/pack-269b1bee1a453f92467ff854a3971142c9a8f98f.pack to /tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects/pack/tmp_pack_8pVtJC
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects/pack/tmp_pack_8pVtJC
-  create hard link from /tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects/pack/pack-269b1bee1a453f92467ff854a3971142c9a8f98f.idx to /tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects/pack/tmp_idx_kdnTcO
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects/pack/tmp_idx_kdnTcO
-  rename /tmp/nimble_13595/githubcom_jiro4989pnm/.git/shallow.lock to shallow
-  rename /tmp/nimble_13595/githubcom_jiro4989pnm/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/packed-refs.lock
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/refs/tags/v2.0.0.lock
-  create directory /tmp/nimble_13595/githubcom_jiro4989pnm/.git/logs
-  rename /tmp/nimble_13595/githubcom_jiro4989pnm/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects/pack/pack-269b1bee1a453f92467ff854a3971142c9a8f98f.keep
-  create directory /tmp/nimble_13595/githubcom_jiro4989pnm/docs
-  create directory /tmp/nimble_13595/githubcom_jiro4989pnm/examples
-  create directory /tmp/nimble_13595/githubcom_jiro4989pnm/examples/read_file
-  create directory /tmp/nimble_13595/githubcom_jiro4989pnm/examples/write_pbm
-  create directory /tmp/nimble_13595/githubcom_jiro4989pnm/examples/write_pgm
-  create directory /tmp/nimble_13595/githubcom_jiro4989pnm/examples/write_ppm
-  create directory /tmp/nimble_13595/githubcom_jiro4989pnm/src
-  create directory /tmp/nimble_13595/githubcom_jiro4989pnm/src/pnm
-  create directory /tmp/nimble_13595/githubcom_jiro4989pnm/tests
-  create directory /tmp/nimble_13595/githubcom_jiro4989pnm/tests/out
-  rename /tmp/nimble_13595/githubcom_jiro4989pnm/.git/index.lock to index
+  create directory /tmp/nimble_9267
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/info
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/branches
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/refs
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/refs/heads
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/refs/tags
+  rename /tmp/nimble_9267/githubcom_jiro4989pnm/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_9267/githubcom_jiro4989pnm/.git/config.lock to config
+  change permissions of /tmp/nimble_9267/githubcom_jiro4989pnm/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_9267/githubcom_jiro4989pnm/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_9267/githubcom_jiro4989pnm/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_9267/githubcom_jiro4989pnm/.git/config.lock to config
+  change permissions of /tmp/nimble_9267/githubcom_jiro4989pnm/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_9267/githubcom_jiro4989pnm/.git/config.lock to config
+  change permissions of /tmp/nimble_9267/githubcom_jiro4989pnm/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_9267/githubcom_jiro4989pnm/.git/config.lock to config
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/t4eceU7
+  create symbolic link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/t4eceU7 to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/t4eceU7
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/pack
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/info
+  change permissions of /tmp/nimble_9267/githubcom_jiro4989pnm/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_9267/githubcom_jiro4989pnm/.git/config.lock to config
+  change permissions of /tmp/nimble_9267/githubcom_jiro4989pnm/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_9267/githubcom_jiro4989pnm/.git/config.lock to config
+  change permissions of /tmp/nimble_9267/githubcom_jiro4989pnm/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_9267/githubcom_jiro4989pnm/.git/config.lock to config
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/1a
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/1a/cbe3f1a0a81c15b4639acca68114ff262b4743 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/1a/tmp_obj_4sUSES
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/1a/tmp_obj_4sUSES
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/71
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/71/3a75b0b3cf6dd5ef71af0fdc10c030e58bdb50 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/71/tmp_obj_ukb9rR
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/71/tmp_obj_ukb9rR
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/db
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/db/3c6d16ecac0a9960ef204600cd3884d2d1c8aa to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/db/tmp_obj_wzkyiU
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/db/tmp_obj_wzkyiU
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/52
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/52/042795e94685e9128b5387a721d9914a83ebe9 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/52/tmp_obj_iONZvU
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/52/tmp_obj_iONZvU
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/9d
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/9d/868237ca2aaba5a1fa1cea0c0fbae4c6da13cf to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/9d/tmp_obj_gTCWHT
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/9d/tmp_obj_gTCWHT
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/a4
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/a4/ec972d041de1fa14126cf22cc10b88e2ff6826 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/a4/tmp_obj_0ElbnX
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/a4/tmp_obj_0ElbnX
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/58
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/58/e9e37ffb6ba49d70ab268f35e01735c5bc3c0f to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/58/tmp_obj_0OQGkV
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/58/tmp_obj_0OQGkV
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/c7
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/c7/b7a52f9bde4c0e3e23d8ee68074d314f9300ae to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/c7/tmp_obj_UR79PV
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/c7/tmp_obj_UR79PV
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/50
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/50/bce8ccd539b55d82a9a4fc05447c64a7a003b8 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/50/tmp_obj_2lR4EZ
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/50/tmp_obj_2lR4EZ
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3c
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3c/bc1eb7ad58e6d870395fd81d315d4e0119bed1 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3c/tmp_obj_4cSlMX
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3c/tmp_obj_4cSlMX
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/94
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/94/e8665c3d6ca3314c0fbf3be92d6cfb780db363 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/94/tmp_obj_muok6X
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/94/tmp_obj_muok6X
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/e0
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/e0/b627429b28eb965ef8fc631ac5d9ccf129d702 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/e0/tmp_obj_M1EzY0
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/e0/tmp_obj_M1EzY0
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/25
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/25/4704e8bf3300f1f59f57c6fc20c4e70debe96a to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/25/tmp_obj_oP0Uz1
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/25/tmp_obj_oP0Uz1
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/ee
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/ee/a1d14d18f49cd8acf2b425f5ee4b62adfd2932 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/ee/tmp_obj_gnOSKZ
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/ee/tmp_obj_gnOSKZ
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/76
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/76/60244a79aa7a79aa4eb6828262fc50654a883d to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/76/tmp_obj_YTJfB3
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/76/tmp_obj_YTJfB3
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/5e
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/5e/d3dfe387c7fbdf1920f3e38660a16e5b34004a to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/5e/tmp_obj_ov4R43
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/5e/tmp_obj_ov4R43
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/b0
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/b0/9952b9a7cf1c098db87429d0b0e571f71c4726 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/b0/tmp_obj_u88o91
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/b0/tmp_obj_u88o91
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/7b
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/7b/7fc3bd1018da3feb80ba73be73f9fa3787dfd4 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/7b/tmp_obj_gNH6g6
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/7b/tmp_obj_gNH6g6
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/31
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/31/128e24cf8e63974f1916d69d39a96dd5a3e54a to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/31/tmp_obj_KMpFX7
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/31/tmp_obj_KMpFX7
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/0c
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/0c/c8d7d2ac3133bbfc837c85f7e2de612dbf0963 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/0c/tmp_obj_kZcML6
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/0c/tmp_obj_kZcML6
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/38
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/38/4a47d895c4b6748d03466336ab2fe58b053e36 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/38/tmp_obj_ILtnra
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/38/tmp_obj_ILtnra
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/dd
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/dd/339e42b436ef45873a895a964a435968dab39b to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/dd/tmp_obj_Uzeywh
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/dd/tmp_obj_Uzeywh
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/77
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/77/bc40a25e094cb42c62fb7d369bfcedb8a006ab to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/77/tmp_obj_AFS6Rj
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/77/tmp_obj_AFS6Rj
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3f
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3f/78c9e4fcc23b4d7f5f6318c590329b8b23e78c to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3f/tmp_obj_UpPbok
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3f/tmp_obj_UpPbok
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/da
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/da/0620284356411eaec8fbf17addced3bd6bea32 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/da/tmp_obj_Pj9btb
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/da/tmp_obj_Pj9btb
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/dc
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/dc/3b22e51576b1f851b7818428db040a71d74c3d to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/dc/tmp_obj_BGWNFa
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/dc/tmp_obj_BGWNFa
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3e
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3e/2b063a62bef63bfd1da35c570546c05f724660 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3e/tmp_obj_HvHHce
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3e/tmp_obj_HvHHce
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/a7
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/a7/fb52619a6ec3bd05b7ee84d27cd13f7da9d1b9 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/a7/tmp_obj_Zieioe
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/a7/tmp_obj_Zieioe
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/d2
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/d2/e2fe8fd04fccb8911cc29ad036bd3daf56c310 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/d2/tmp_obj_rjFvwj
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/d2/tmp_obj_rjFvwj
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/17
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/17/742af9f10571457220281e1d7b5be536131127 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/17/tmp_obj_FG1Mdt
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/17/tmp_obj_FG1Mdt
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/f1
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/f1/39bdf1c09aa865ff3812d918bed6ed1a2814d1 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/f1/tmp_obj_DPg2qz
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/f1/tmp_obj_DPg2qz
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/64
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/64/615a4750c9d0f39d86b163528ba2f487dfd057 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/64/tmp_obj_rDDDly
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/64/tmp_obj_rDDDly
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/52/2e25cf5947334ad358e3f8a7002c534a12d902 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/52/tmp_obj_ZUPziB
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/52/tmp_obj_ZUPziB
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/fc
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/fc/f43f35f45379a8dcd869bba0fa16775190ee34 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/fc/tmp_obj_xEgGsA
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/fc/tmp_obj_xEgGsA
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/2d
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/2d/29dd586aa3eed983d653785728311bcad999f4 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/2d/tmp_obj_B44dIA
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/2d/tmp_obj_B44dIA
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/ad
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/ad/55db8bc0f88d0bcd929cf18493b58a4a0a640d to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/ad/tmp_obj_JeyJpG
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/ad/tmp_obj_JeyJpG
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/45
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/45/4929ad97eed70f979bc261c1aabbf80ac379be to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/45/tmp_obj_X3yW1R
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/45/tmp_obj_X3yW1R
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/5a
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/5a/e711ccb59695d63d1d3bce7db4bc46e10f77b9 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/5a/tmp_obj_Vw0mGT
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/5a/tmp_obj_Vw0mGT
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/b0/f02c2b8121e1b67a3d8d0a3e5d10c2c2923627 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/b0/tmp_obj_9Rl2fX
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/b0/tmp_obj_9Rl2fX
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/f1/436aed0c0083b94fd84c71c4c1dabe4ea6da35 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/f1/tmp_obj_VcYamV
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/f1/tmp_obj_VcYamV
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3b
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3b/tmp_obj_PB0SHV
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3b/tmp_obj_PB0SHV
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/74
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/74/8661e735bc33b3dc809b17b7caf41cd349b9a7 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/74/tmp_obj_luKcvZ
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/74/tmp_obj_luKcvZ
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/e3
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/e3/089971b1ec34a94e462aaf4646a442bea522ce to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/e3/tmp_obj_7AL9uX
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/e3/tmp_obj_7AL9uX
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/1f
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/1f/fafb6e2b0d38e372c54415fb580c417f5e2755 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/1f/tmp_obj_nFFRe1
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/1f/tmp_obj_nFFRe1
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/05
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/05/da40ea2340a59140a30cf08b2413e1113e88ba to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/05/tmp_obj_zfzcL1
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/05/tmp_obj_zfzcL1
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/9f
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/9f/c02a7f378feabe9e36dfcbabf6a6b03ca84460 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/9f/tmp_obj_flfy7Z
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/9f/tmp_obj_flfy7Z
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/30
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/30/a239a49f28645dbc700e0463a556b483ae72d1 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/30/tmp_obj_R4e5D0
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/30/tmp_obj_R4e5D0
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/c2
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/c2/d2bb33f627f8920d4bbae83b257344aa556bb0 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/c2/tmp_obj_P1nId4
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/c2/tmp_obj_P1nId4
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/72
+  create hard link from /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/72/42a42b30337c586c4dc7bca86ac0ddc7539f19 to /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/72/tmp_obj_tIj842
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/72/tmp_obj_tIj842
+  rename /tmp/nimble_9267/githubcom_jiro4989pnm/.git/shallow.lock to shallow
+  rename /tmp/nimble_9267/githubcom_jiro4989pnm/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/packed-refs.lock
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/refs/tags/v2.0.0.lock
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/.git/logs
+  rename /tmp/nimble_9267/githubcom_jiro4989pnm/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/docs
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/examples
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/examples/read_file
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/examples/write_pbm
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/examples/write_pgm
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/examples/write_ppm
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/src
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/src/pnm
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/tests
+  create directory /tmp/nimble_9267/githubcom_jiro4989pnm/tests/out
+  rename /tmp/nimble_9267/githubcom_jiro4989pnm/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/pnm_3893982495
-  delete /tmp/nimblecache/pnm_3893982495/pnm.ini
-  delete /tmp/nimble_13595.out
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/pnm_13595.nims
+  create directory /tmp/nimblecache/pnm_2960766937
+  delete /tmp/nimblecache/pnm_2960766937/pnm.ini
+  delete /tmp/nimble_9267.out
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/pnm_9267.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -263,87 +634,180 @@ rmdir('/tmp/nimble_13595')
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/pnm_2518959498
   delete /tmp/nimblecache/pnm_2518959498/pnm.ini
-  delete /tmp/nimble_13595.out
-  delete /home/runner/.nimble/pkgs/pnm-2.0.0/pnm_13595.nims
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/examples/write_pgm/main.nim
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/examples/write_pgm/out.pgm
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/examples/write_pgm
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/examples/config.nims
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/examples/write_pbm/main.nim
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/examples/write_pbm/out.pbm
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/examples/write_pbm/1.pbm
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/examples/write_pbm
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/examples/read_file/out2.ppm
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/examples/read_file/main.nim
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/examples/read_file/out.pbm
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/examples/read_file/out1.ppm
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/examples/read_file/out.pgm
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/examples/read_file
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/examples/write_ppm/out2.ppm
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/examples/write_ppm/main.nim
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/examples/write_ppm/out1.ppm
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/examples/write_ppm
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/examples/nim.cfg
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/examples
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/src/pnm.nim
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/src/pnm/util.nim
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/src/pnm
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/src
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/README.adoc
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.gitignore
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/pnm.nimble
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.travis.yml
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/docs/util.html
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/docs/pbm_example.png
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/docs/ppm_example2.png
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/docs/ppm_example1.convert.png
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/docs/ppm_example1.png
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/docs/pgm_example.png
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/docs/pnm.html
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/docs
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/HEAD
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/config
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/logs/HEAD
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/logs
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/branches
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/packed-refs
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/refs/heads
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/refs/tags
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/refs
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks/pre-push.sample
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks/update.sample
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks/post-update.sample
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/hooks
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/index
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/info/exclude
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/info
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/shallow
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/description
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects/pack/pack-269b1bee1a453f92467ff854a3971142c9a8f98f.idx
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects/pack/pack-269b1bee1a453f92467ff854a3971142c9a8f98f.pack
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects/pack
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects/info
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git/objects
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/.git
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/tests/tpnm.nim
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/tests/config.nims
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/tests/out/p1.pbm
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/tests/out/p2.pgm
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/tests/out/p6.ppm
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/tests/out/p5.pgm
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/tests/out/p4.pbm
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/tests/out/p3.ppm
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/tests/out
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/tests/tutil.nim
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm/tests
-  delete /tmp/nimble_13595/githubcom_jiro4989pnm
-  delete /tmp/nimble_13595
+  delete /tmp/nimble_9267.out
+  delete /home/runner/.nimble/pkgs/pnm-2.0.0/pnm_9267.nims
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/docs/pbm_example.png
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/docs/util.html
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/docs/ppm_example2.png
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/docs/pnm.html
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/docs/pgm_example.png
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/docs/ppm_example1.convert.png
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/docs/ppm_example1.png
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/docs
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/src/pnm.nim
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/src/pnm/util.nim
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/src/pnm
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/src
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/README.adoc
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/config
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/info/exclude
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/info
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/shallow
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/description
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/index
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/packed-refs
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/HEAD
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks/pre-push.sample
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks/update.sample
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks/post-update.sample
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/hooks
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/logs/HEAD
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/logs
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/branches
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/52/2e25cf5947334ad358e3f8a7002c534a12d902
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/52/042795e94685e9128b5387a721d9914a83ebe9
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/52
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/71/3a75b0b3cf6dd5ef71af0fdc10c030e58bdb50
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/71
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/94/e8665c3d6ca3314c0fbf3be92d6cfb780db363
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/94
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/info
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/c2/d2bb33f627f8920d4bbae83b257344aa556bb0
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/c2
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/77/bc40a25e094cb42c62fb7d369bfcedb8a006ab
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/77
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/45/4929ad97eed70f979bc261c1aabbf80ac379be
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/45
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/c7/b7a52f9bde4c0e3e23d8ee68074d314f9300ae
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/c7
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/e0/b627429b28eb965ef8fc631ac5d9ccf129d702
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/e0
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3c/bc1eb7ad58e6d870395fd81d315d4e0119bed1
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3c
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/1a/cbe3f1a0a81c15b4639acca68114ff262b4743
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/1a
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/ee/a1d14d18f49cd8acf2b425f5ee4b62adfd2932
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/ee
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/b0/f02c2b8121e1b67a3d8d0a3e5d10c2c2923627
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/b0/9952b9a7cf1c098db87429d0b0e571f71c4726
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/b0
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/9f/c02a7f378feabe9e36dfcbabf6a6b03ca84460
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/9f
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/2d/29dd586aa3eed983d653785728311bcad999f4
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/2d
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/dd/339e42b436ef45873a895a964a435968dab39b
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/dd
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/17/742af9f10571457220281e1d7b5be536131127
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/17
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/f1/39bdf1c09aa865ff3812d918bed6ed1a2814d1
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/f1/436aed0c0083b94fd84c71c4c1dabe4ea6da35
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/f1
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/30/a239a49f28645dbc700e0463a556b483ae72d1
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/30
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/05/da40ea2340a59140a30cf08b2413e1113e88ba
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/05
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/76/60244a79aa7a79aa4eb6828262fc50654a883d
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/76
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/a7/fb52619a6ec3bd05b7ee84d27cd13f7da9d1b9
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/a7
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/pack
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/fc/f43f35f45379a8dcd869bba0fa16775190ee34
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/fc
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3e/2b063a62bef63bfd1da35c570546c05f724660
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3e
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/72/42a42b30337c586c4dc7bca86ac0ddc7539f19
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/72
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/25/4704e8bf3300f1f59f57c6fc20c4e70debe96a
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/25
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/50/bce8ccd539b55d82a9a4fc05447c64a7a003b8
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/50
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/da/0620284356411eaec8fbf17addced3bd6bea32
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/da
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/5a/e711ccb59695d63d1d3bce7db4bc46e10f77b9
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/5a
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/58/e9e37ffb6ba49d70ab268f35e01735c5bc3c0f
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/58
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/64/615a4750c9d0f39d86b163528ba2f487dfd057
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/64
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/0c/c8d7d2ac3133bbfc837c85f7e2de612dbf0963
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/0c
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/38/4a47d895c4b6748d03466336ab2fe58b053e36
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/38
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/31/128e24cf8e63974f1916d69d39a96dd5a3e54a
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/31
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/9d/868237ca2aaba5a1fa1cea0c0fbae4c6da13cf
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/9d
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/5e/d3dfe387c7fbdf1920f3e38660a16e5b34004a
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/5e
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/1f/fafb6e2b0d38e372c54415fb580c417f5e2755
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/1f
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3f/78c9e4fcc23b4d7f5f6318c590329b8b23e78c
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3f
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/d2/e2fe8fd04fccb8911cc29ad036bd3daf56c310
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/d2
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/db/3c6d16ecac0a9960ef204600cd3884d2d1c8aa
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/db
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/a4/ec972d041de1fa14126cf22cc10b88e2ff6826
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/a4
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/74/8661e735bc33b3dc809b17b7caf41cd349b9a7
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/74
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/7b/7fc3bd1018da3feb80ba73be73f9fa3787dfd4
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/7b
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/e3/089971b1ec34a94e462aaf4646a442bea522ce
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/e3
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/3b
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/dc/3b22e51576b1f851b7818428db040a71d74c3d
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/dc
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/ad/55db8bc0f88d0bcd929cf18493b58a4a0a640d
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects/ad
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/objects
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/refs/heads
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/refs/tags
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git/refs
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.git
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.travis.yml
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/.gitignore
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/tests/tutil.nim
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/tests/config.nims
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/tests/tpnm.nim
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/tests/out/p4.pbm
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/tests/out/p5.pgm
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/tests/out/p1.pbm
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/tests/out/p3.ppm
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/tests/out/p6.ppm
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/tests/out/p2.pgm
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/tests/out
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/tests
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/pnm.nimble
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/examples/write_pgm/main.nim
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/examples/write_pgm/out.pgm
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/examples/write_pgm
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/examples/read_file/out.pbm
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/examples/read_file/out1.ppm
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/examples/read_file/main.nim
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/examples/read_file/out2.ppm
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/examples/read_file/out.pgm
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/examples/read_file
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/examples/write_pbm/out.pbm
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/examples/write_pbm/1.pbm
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/examples/write_pbm/main.nim
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/examples/write_pbm
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/examples/config.nims
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/examples/nim.cfg
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/examples/write_ppm/out1.ppm
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/examples/write_ppm/main.nim
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/examples/write_ppm/out2.ppm
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/examples/write_ppm
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm/examples
+  delete /tmp/nimble_9267/githubcom_jiro4989pnm
+  delete /tmp/nimble_9267

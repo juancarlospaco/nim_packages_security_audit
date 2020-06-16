@@ -1,77 +1,87 @@
     Reading official package list
 Downloading https://github.com/zah/nim-package-visible-types using git
-       Info /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/package_visible_types_8662.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
-  Verifying dependencies for package_visible_types@1.0.0
- Installing package_visible_types@1.0.0
-    Copying file /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/package_visible_types.nim to /home/runner/.nimble/pkgs/package_visible_types-1.0.0/package_visible_types.nim
-    Copying file /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/package_visible_types.nimble to /home/runner/.nimble/pkgs/package_visible_types-1.0.0/package_visible_types.nimble
-   Success: package_visible_types installed successfully.
-       Info /home/runner/.nimble/pkgs/package_visible_types-1.0.0/package_visible_types_8662.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_8662', 0x00000000000001ff)
-mkdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes', 0x00000000000001ff)
-rmdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes')
-mkdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes', 0x00000000000001ff)
-mkdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/HEAD.lock', '/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/HEAD')
-rename('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock', '/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config')
-chmod('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock', '/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config')
-chmod('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock', '/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config')
-chmod('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock', '/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/tZmkd7q')
-symlink('testing', '/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/tZmkd7q')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/tZmkd7q')
-mkdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock', '/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config')
-chmod('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock', '/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config')
-chmod('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock', '/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config')
-link('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects/pack/tmp_pack_T1MH4h', '/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects/pack/pack-75c28951da11c46746f86d69500b278f44690237.pack')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects/pack/tmp_pack_T1MH4h')
-link('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects/pack/tmp_idx_leMPin', '/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects/pack/pack-75c28951da11c46746f86d69500b278f44690237.idx')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects/pack/tmp_idx_leMPin')
-rename('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/shallow.lock', '/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/shallow')
-rename('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/packed-refs.new', '/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/packed-refs')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/packed-refs.lock')
-mkdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs/remotes/origin', 0x00000000000001ff)
-mkdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/logs', 0x00000000000001ff)
-mkdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/logs/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/logs/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/logs/refs/remotes/origin', 0x00000000000001ff)
-rename('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs/remotes/origin/HEAD')
-rename('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/HEAD.lock', '/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/HEAD')
-mkdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/logs/refs/heads', 0x00000000000001ff)
-rename('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs/heads/master.lock', '/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs/heads/master')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/HEAD.lock')
-chmod('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock', '/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config')
-chmod('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock', '/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects/pack/pack-75c28951da11c46746f86d69500b278f44690237.keep')
-rename('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/index.lock', '/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/index')
+mkdir('/tmp/nimble_6461', 0x00000000000001ff)
+mkdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes', 0x00000000000001ff)
+rmdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes')
+mkdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes', 0x00000000000001ff)
+mkdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/HEAD.lock', '/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/HEAD')
+rename('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock', '/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config')
+chmod('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock', '/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config')
+chmod('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock', '/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config')
+chmod('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock', '/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/tozFZtU')
+symlink('testing', '/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/tozFZtU')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/tozFZtU')
+mkdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock', '/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config')
+chmod('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock', '/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config')
+chmod('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock', '/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config')
+mkdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/cb', 0x00000000000001ff)
+link('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/cb/tmp_obj_BZSdom', '/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/cb/dee48feb05045c673e7d2cab16ae0f5c957157')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/cb/tmp_obj_BZSdom')
+mkdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/dc', 0x00000000000001ff)
+link('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/dc/tmp_obj_1yw6Sp', '/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/dc/fb80d59704bd26be70fe426f41ffcc0601cda0')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/dc/tmp_obj_1yw6Sp')
+mkdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/ad', 0x00000000000001ff)
+link('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/ad/tmp_obj_Doh0fp', '/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/ad/ff70391389be81db79dd771e18f8b6df1597fb')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/ad/tmp_obj_Doh0fp')
+mkdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/8b', 0x00000000000001ff)
+link('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/8b/tmp_obj_ZrB6Ar', '/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/8b/d8aca8030574abc56f45d4b8ab7625027b3083')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/8b/tmp_obj_ZrB6Ar')
+mkdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/90', 0x00000000000001ff)
+link('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/90/tmp_obj_Hu1yav', '/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/90/d966a7c65d26bf1fc147eff3bccd7d9e9f45b7')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/90/tmp_obj_Hu1yav')
+rename('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/shallow.lock', '/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/shallow')
+rename('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/packed-refs.new', '/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/packed-refs')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/packed-refs.lock')
+mkdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/HEAD.lock', '/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/HEAD')
+mkdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs/heads/master.lock', '/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs/heads/master')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/HEAD.lock')
+chmod('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock', '/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config')
+chmod('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock', '/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config')
+rename('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/index.lock', '/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/package_visible_types_2252454485', 0x00000000000001ff)
-unlink('/tmp/nimblecache/package_visible_types_2252454485/package_visible_types.ini')
-unlink('/tmp/nimble_8662.out')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/package_visible_types_8662.nims')
+mkdir('/tmp/nimblecache/package_visible_types_4139106430', 0x00000000000001ff)
+unlink('/tmp/nimblecache/package_visible_types_4139106430/package_visible_types.ini')
+unlink('/tmp/nimble_6461.out')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/package_visible_types_6461.nims')       Info /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/package_visible_types_6461.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+  Verifying dependencies for package_visible_types@1.0.0
+ Installing package_visible_types@1.0.0
+    Copying file /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/package_visible_types.nim to /home/runner/.nimble/pkgs/package_visible_types-1.0.0/package_visible_types.nim
+    Copying file /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/package_visible_types.nimble to /home/runner/.nimble/pkgs/package_visible_types-1.0.0/package_visible_types.nimble
+   Success: package_visible_types installed successfully.
+       Info /home/runner/.nimble/pkgs/package_visible_types-1.0.0/package_visible_types_6461.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -88,121 +98,139 @@ mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/package_visible_types_1164779502', 0x00000000000001ff)
 unlink('/tmp/nimblecache/package_visible_types_1164779502/package_visible_types.ini')
-unlink('/tmp/nimble_8662.out')
-unlink('/home/runner/.nimble/pkgs/package_visible_types-1.0.0/package_visible_types_8662.nims')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/package_visible_types.nimble')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/package_visible_types.nim')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/HEAD')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/logs/HEAD')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/logs/refs/heads/master')
-rmdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/logs/refs/heads')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/logs/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/logs/refs/remotes/origin')
-rmdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/logs/refs/remotes')
-rmdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/logs/refs')
-rmdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/logs')
-rmdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/branches')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/packed-refs')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs/heads/master')
-rmdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs/heads')
-rmdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs/tags')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs/remotes/origin')
-rmdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs/remotes')
-rmdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks/update.sample')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/index')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/info/exclude')
-rmdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/info')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/shallow')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/description')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects/pack/pack-75c28951da11c46746f86d69500b278f44690237.pack')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects/pack/pack-75c28951da11c46746f86d69500b278f44690237.idx')
-rmdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects/pack')
-rmdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects/info')
-rmdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects')
-rmdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git')
-unlink('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/README.md')
-rmdir('/tmp/nimble_8662/githubcom_zahnimpackagevisibletypes')
-rmdir('/tmp/nimble_8662')
+unlink('/tmp/nimble_6461.out')
+unlink('/home/runner/.nimble/pkgs/package_visible_types-1.0.0/package_visible_types_6461.nims')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/info/exclude')
+rmdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/info')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/shallow')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/description')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/index')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/packed-refs')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/HEAD')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks/update.sample')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks/post-update.sample')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks/commit-msg.sample')
+rmdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/logs/HEAD')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/logs/refs/heads')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/logs/refs/remotes')
+rmdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/logs/refs')
+rmdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/logs')
+rmdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/branches')
+rmdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/info')
+rmdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/pack')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/cb/dee48feb05045c673e7d2cab16ae0f5c957157')
+rmdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/cb')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/8b/d8aca8030574abc56f45d4b8ab7625027b3083')
+rmdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/8b')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/dc/fb80d59704bd26be70fe426f41ffcc0601cda0')
+rmdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/dc')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/ad/ff70391389be81db79dd771e18f8b6df1597fb')
+rmdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/ad')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/90/d966a7c65d26bf1fc147eff3bccd7d9e9f45b7')
+rmdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/90')
+rmdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs/heads/master')
+rmdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs/heads')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs/remotes')
+rmdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs/tags')
+rmdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs')
+rmdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/package_visible_types.nimble')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/README.md')
+unlink('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/package_visible_types.nim')
+rmdir('/tmp/nimble_6461/githubcom_zahnimpackagevisibletypes')
+rmdir('/tmp/nimble_6461')
   create directory /tmp
-  create directory /tmp/nimble_8662
-  create directory /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes
-  create directory /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes
-  create directory /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git
-  create directory /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git
-  create directory /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/branches
-  create directory /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks
-  create directory /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/info
-  create directory /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs
-  create directory /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs/heads
-  create directory /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs/tags
-  rename /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock to config
-  change permissions of /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock to config
-  change permissions of /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock to config
-  change permissions of /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock to config
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/tZmkd7q
-  create symbolic link from /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/tZmkd7q to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/tZmkd7q
-  create directory /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects
-  create directory /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects/pack
-  create directory /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects/info
-  change permissions of /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock to config
-  change permissions of /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock to config
-  change permissions of /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock to config
-  create hard link from /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects/pack/pack-75c28951da11c46746f86d69500b278f44690237.pack to /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects/pack/tmp_pack_T1MH4h
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects/pack/tmp_pack_T1MH4h
-  create hard link from /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects/pack/pack-75c28951da11c46746f86d69500b278f44690237.idx to /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects/pack/tmp_idx_leMPin
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects/pack/tmp_idx_leMPin
-  rename /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/shallow.lock to shallow
-  rename /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/packed-refs.lock
-  create directory /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs/remotes
-  create directory /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs/remotes/origin
-  create directory /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/logs
-  create directory /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/logs/refs
-  create directory /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/logs/refs/remotes
-  create directory /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/logs/refs/remotes/origin
-  rename /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs/remotes/origin/HEAD.lock to HEAD
-  rename /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/HEAD.lock to HEAD
-  create directory /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/logs/refs/heads
-  rename /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs/heads/master.lock to master
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/HEAD.lock
-  change permissions of /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock to config
-  change permissions of /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config.lock to config
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects/pack/pack-75c28951da11c46746f86d69500b278f44690237.keep
-  rename /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/index.lock to index
+  create directory /tmp/nimble_6461
+  create directory /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes
+  create directory /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes
+  create directory /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git
+  create directory /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git
+  create directory /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/info
+  create directory /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks
+  create directory /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/branches
+  create directory /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs
+  create directory /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs/heads
+  create directory /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs/tags
+  rename /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock to config
+  change permissions of /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock to config
+  change permissions of /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock to config
+  change permissions of /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock to config
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/tozFZtU
+  create symbolic link from /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/tozFZtU to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/tozFZtU
+  create directory /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects
+  create directory /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/pack
+  create directory /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/info
+  change permissions of /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock to config
+  change permissions of /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock to config
+  change permissions of /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock to config
+  create directory /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/cb
+  create hard link from /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/cb/dee48feb05045c673e7d2cab16ae0f5c957157 to /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/cb/tmp_obj_BZSdom
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/cb/tmp_obj_BZSdom
+  create directory /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/dc
+  create hard link from /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/dc/fb80d59704bd26be70fe426f41ffcc0601cda0 to /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/dc/tmp_obj_1yw6Sp
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/dc/tmp_obj_1yw6Sp
+  create directory /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/ad
+  create hard link from /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/ad/ff70391389be81db79dd771e18f8b6df1597fb to /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/ad/tmp_obj_Doh0fp
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/ad/tmp_obj_Doh0fp
+  create directory /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/8b
+  create hard link from /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/8b/d8aca8030574abc56f45d4b8ab7625027b3083 to /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/8b/tmp_obj_ZrB6Ar
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/8b/tmp_obj_ZrB6Ar
+  create directory /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/90
+  create hard link from /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/90/d966a7c65d26bf1fc147eff3bccd7d9e9f45b7 to /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/90/tmp_obj_Hu1yav
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/90/tmp_obj_Hu1yav
+  rename /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/shallow.lock to shallow
+  rename /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/packed-refs.lock
+  create directory /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs/remotes
+  create directory /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs/remotes/origin
+  create directory /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/logs
+  create directory /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/logs/refs
+  create directory /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/logs/refs/remotes
+  create directory /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/logs/refs/heads
+  rename /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/HEAD.lock
+  change permissions of /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock to config
+  change permissions of /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config.lock to config
+  rename /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/package_visible_types_2252454485
-  delete /tmp/nimblecache/package_visible_types_2252454485/package_visible_types.ini
-  delete /tmp/nimble_8662.out
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/package_visible_types_8662.nims
+  create directory /tmp/nimblecache/package_visible_types_4139106430
+  delete /tmp/nimblecache/package_visible_types_4139106430/package_visible_types.ini
+  delete /tmp/nimble_6461.out
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/package_visible_types_6461.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -219,53 +247,61 @@ rmdir('/tmp/nimble_8662')
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/package_visible_types_1164779502
   delete /tmp/nimblecache/package_visible_types_1164779502/package_visible_types.ini
-  delete /tmp/nimble_8662.out
-  delete /home/runner/.nimble/pkgs/package_visible_types-1.0.0/package_visible_types_8662.nims
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/package_visible_types.nimble
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/package_visible_types.nim
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/HEAD
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/config
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/logs/HEAD
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/logs/refs/heads/master
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/logs/refs/heads
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/logs/refs/remotes/origin/HEAD
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/logs/refs/remotes/origin
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/logs/refs/remotes
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/logs/refs
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/logs
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/branches
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/packed-refs
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs/heads/master
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs/heads
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs/tags
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs/remotes/origin/HEAD
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs/remotes/origin
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs/remotes
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/refs
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks/pre-push.sample
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks/update.sample
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks/post-update.sample
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/hooks
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/index
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/info/exclude
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/info
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/shallow
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/description
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects/pack/pack-75c28951da11c46746f86d69500b278f44690237.pack
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects/pack/pack-75c28951da11c46746f86d69500b278f44690237.idx
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects/pack
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects/info
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git/objects
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/.git
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes/README.md
-  delete /tmp/nimble_8662/githubcom_zahnimpackagevisibletypes
-  delete /tmp/nimble_8662
+  delete /tmp/nimble_6461.out
+  delete /home/runner/.nimble/pkgs/package_visible_types-1.0.0/package_visible_types_6461.nims
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/config
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/info/exclude
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/info
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/shallow
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/description
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/index
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/packed-refs
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/HEAD
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks/pre-push.sample
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks/update.sample
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks/post-update.sample
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/hooks
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/logs/HEAD
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/logs/refs/heads/master
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/logs/refs/heads
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/logs/refs/remotes
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/logs/refs
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/logs
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/branches
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/info
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/pack
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/cb/dee48feb05045c673e7d2cab16ae0f5c957157
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/cb
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/8b/d8aca8030574abc56f45d4b8ab7625027b3083
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/8b
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/dc/fb80d59704bd26be70fe426f41ffcc0601cda0
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/dc
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/ad/ff70391389be81db79dd771e18f8b6df1597fb
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/ad
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/90/d966a7c65d26bf1fc147eff3bccd7d9e9f45b7
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects/90
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/objects
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs/heads/master
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs/heads
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs/remotes/origin
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs/remotes
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs/tags
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git/refs
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/.git
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/package_visible_types.nimble
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/README.md
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes/package_visible_types.nim
+  delete /tmp/nimble_6461/githubcom_zahnimpackagevisibletypes
+  delete /tmp/nimble_6461

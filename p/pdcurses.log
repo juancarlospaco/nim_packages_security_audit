@@ -1,7 +1,7 @@
     Reading official package list
 Downloading https://github.com/lcrees/pdcurses using git
-       Info /tmp/nimble_10392/githubcom_lcreespdcurses/pdcurses_10392.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /tmp/nimble_10392/githubcom_lcreespdcurses/pdcurses_10392.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+       Info /tmp/nimble_7477/githubcom_lcreespdcurses/pdcurses_7477.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /tmp/nimble_7477/githubcom_lcreespdcurses/pdcurses_7477.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
   Verifying dependencies for pdcurses@0.1.1
     Reading official package list
    Checking for oldwinapi@>= 2.0.0
@@ -10,134 +10,181 @@ Downloading https://github.com/lcrees/pdcurses using git
 Downloading https://github.com/nim-lang/oldwinapi using git
     Cloning latest tagged version: v2.1.0
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_lcreespdcurses', 0x00000000000001ff)
-rmdir('/tmp/nimble_10392/githubcom_lcreespdcurses')
-mkdir('/tmp/nimble_10392/githubcom_lcreespdcurses', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/HEAD.lock', '/tmp/nimble_10392/githubcom_lcreespdcurses/.git/HEAD')
-rename('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock', '/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config')
-chmod('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock', '/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config')
-chmod('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock', '/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config')
-chmod('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock', '/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/tRvdx7N')
-symlink('testing', '/tmp/nimble_10392/githubcom_lcreespdcurses/.git/tRvdx7N')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/tRvdx7N')
-mkdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock', '/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config')
-chmod('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock', '/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config')
-chmod('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock', '/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config')
-link('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects/pack/tmp_pack_693Rol', '/tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects/pack/pack-e662b1451c83b22c14703c9380b1d87f39349369.pack')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects/pack/tmp_pack_693Rol')
-link('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects/pack/tmp_idx_6Hjb3o', '/tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects/pack/pack-e662b1451c83b22c14703c9380b1d87f39349369.idx')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects/pack/tmp_idx_6Hjb3o')
-rename('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/shallow.lock', '/tmp/nimble_10392/githubcom_lcreespdcurses/.git/shallow')
-rename('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/packed-refs.new', '/tmp/nimble_10392/githubcom_lcreespdcurses/.git/packed-refs')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/packed-refs.lock')
-mkdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs/remotes/origin', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/logs', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/logs/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/logs/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/logs/refs/remotes/origin', 0x00000000000001ff)
-rename('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs/remotes/origin/HEAD')
-rename('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/HEAD.lock', '/tmp/nimble_10392/githubcom_lcreespdcurses/.git/HEAD')
-mkdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/logs/refs/heads', 0x00000000000001ff)
-rename('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs/heads/master.lock', '/tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs/heads/master')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/HEAD.lock')
-chmod('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock', '/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config')
-chmod('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock', '/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects/pack/pack-e662b1451c83b22c14703c9380b1d87f39349369.keep')
-rename('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/index.lock', '/tmp/nimble_10392/githubcom_lcreespdcurses/.git/index')
+mkdir('/tmp/nimble_7477', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_lcreespdcurses', 0x00000000000001ff)
+rmdir('/tmp/nimble_7477/githubcom_lcreespdcurses')
+mkdir('/tmp/nimble_7477/githubcom_lcreespdcurses', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/HEAD.lock', '/tmp/nimble_7477/githubcom_lcreespdcurses/.git/HEAD')
+rename('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock', '/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config')
+chmod('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock', '/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config')
+chmod('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock', '/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config')
+chmod('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock', '/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/trBDPYo')
+symlink('testing', '/tmp/nimble_7477/githubcom_lcreespdcurses/.git/trBDPYo')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/trBDPYo')
+mkdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock', '/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config')
+chmod('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock', '/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config')
+chmod('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock', '/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config')
+mkdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/8d', 0x00000000000001ff)
+link('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/8d/tmp_obj_Ti3fWe', '/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/8d/ff660ff284bb32ee81767cd4515c9f54b813af')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/8d/tmp_obj_Ti3fWe')
+mkdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/e2', 0x00000000000001ff)
+link('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/e2/tmp_obj_XqeiLh', '/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/e2/d6943edff3c0ff7af6736163228d9083c2f03d')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/e2/tmp_obj_XqeiLh')
+mkdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/24', 0x00000000000001ff)
+link('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/24/tmp_obj_1mPe5h', '/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/24/6eb4f55a5f710602f5f7cbf139be9daebf6d75')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/24/tmp_obj_1mPe5h')
+mkdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/2a', 0x00000000000001ff)
+link('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/2a/tmp_obj_VHnWfh', '/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/2a/bdc352f37586666fb6e0b9c210fcbd96b67c83')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/2a/tmp_obj_VHnWfh')
+mkdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/fb', 0x00000000000001ff)
+link('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/fb/tmp_obj_hJqyNj', '/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/fb/81d7bc579cf148d06bc6e6b4d4cdad580c08ef')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/fb/tmp_obj_hJqyNj')
+mkdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/66', 0x00000000000001ff)
+link('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/66/tmp_obj_6f0EMb', '/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/66/aa09f2c621b06d3f982a998e12b35ecf3a7617')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/66/tmp_obj_6f0EMb')
+rename('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/shallow.lock', '/tmp/nimble_7477/githubcom_lcreespdcurses/.git/shallow')
+rename('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/packed-refs.new', '/tmp/nimble_7477/githubcom_lcreespdcurses/.git/packed-refs')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/packed-refs.lock')
+mkdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/HEAD.lock', '/tmp/nimble_7477/githubcom_lcreespdcurses/.git/HEAD')
+mkdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs/heads/master.lock', '/tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs/heads/master')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/HEAD.lock')
+chmod('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock', '/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config')
+chmod('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock', '/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config')
+rename('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/index.lock', '/tmp/nimble_7477/githubcom_lcreespdcurses/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/pdcurses_3548072896', 0x00000000000001ff)
-unlink('/tmp/nimblecache/pdcurses_3548072896/pdcurses.ini')
-unlink('/tmp/nimble_10392.out')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/pdcurses_10392.nims')
+mkdir('/tmp/nimblecache/pdcurses_1522897442', 0x00000000000001ff)
+unlink('/tmp/nimblecache/pdcurses_1522897442/pdcurses.ini')
+unlink('/tmp/nimble_7477.out')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/pdcurses_7477.nims')
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0', 0x00000000000001ff)
-rmdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0')
-mkdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/HEAD.lock', '/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/HEAD')
-rename('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock', '/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config')
-chmod('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock', '/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config')
-chmod('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock', '/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config')
-chmod('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock', 0x00000000000001a4)  Verifying dependencies for oldwinapi@2.1.0
+mkdir('/tmp/nimble_7477', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0', 0x00000000000001ff)
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0')
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/HEAD.lock', '/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/HEAD')
+rename('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock', '/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config')
+chmod('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock', '/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config')
+chmod('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock', '/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config')
+chmod('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock', '/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/tszRzSF')
+symlink('testing', '/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/tszRzSF')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/tszRzSF')
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock', '/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config')
+chmod('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock', '/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config')
+chmod('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock', '/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config')
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/8b', 0x00000000000001ff)
+link('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/8b/tmp_obj_SfBS38', '/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/8b/34de48ac98702708a2ee20305d327416725d1e')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/8b/tmp_obj_SfBS38')
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/3f', 0x00000000000001ff)
+link('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/3f/tmp_obj_MkJkV7', '/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/3f/de02e34e9b020b23d54e39e5c419397d1ced37')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/3f/tmp_obj_MkJkV7')
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/ee', 0x00000000000001ff)
+link('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/ee/tmp_obj_QIwMza', '/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/ee/8578adcea4d5bd3eeb50cd637b21a4330705c7')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/ee/tmp_obj_QIwMza')
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/b1', 0x00000000000001ff)
+link('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/b1/tmp_obj_qvGjk9', '/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/b1/e3f5a2638797271cbc9b91b856c05ed6942c8f')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/b1/tmp_obj_qvGjk9')
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/6a', 0x00000000000001ff)
+link('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/6a/tmp_obj_s2YKJ9', '/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/6a/fee997d9c93c057a9f6a7b0e71752d08de1030')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/6a/tmp_obj_s2YKJ9')
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/6d', 0x00000000000001ff)
+link('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/6d/tmp_obj_8Z0PKc', '/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/6d/b1e9dffdb80b847673652a608b18e4d221d53c')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/6d/tmp_obj_8Z0PKc')
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/70', 0x00000000000001ff)
+link('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/70/tmp_obj_QylDed', '/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/70/5ce1d276cc957960bd91c621b103bc763470aa')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/70/tmp_obj_QylDed')
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/3c', 0x00000000000001ff)
+link('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/3c/tmp_obj_6M8i6f', '/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/3c/0816866ed40023b34144095669d4d2772a010b')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/3c/tmp_obj_6M8i6f')
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/96', 0x00000000000001ff)
+link('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/96/tmp_obj_Wlhlqe', '/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/96/99177c90d46050f50b75eb2cc53556b38001ef')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/96/tmp_obj_Wlhlqe')
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/c9', 0x00000000000001ff)
+link('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/c9/tmp_obj_0ZOo0h', '/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/c9/cb6019b3dcb99198c421faff4d4457bb99fed2')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/c9/tmp_obj_0ZOo0h')
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/a7', 0x00000000000001ff)
+link('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/a7/tmp_obj_qldnak', '/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/a7/a325e196e391f1611248ab87c5158421bf065e')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/a7/tmp_obj_qldnak')
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/c2', 0x00000000000001ff)
+link('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/c2/tmp_obj_UUBAhk', '/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/c2/5f995092444880d4b409060a0d415ff3b9c2cd')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/c2/tmp_obj_UUBAhk')
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/1c', 0x00000000000001ff)
+link('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/1c/tmp_obj_btLO1h', '/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/1c/f35353ed739309b633105416b4d42bbdf59c88')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/1c/tmp_obj_btLO1h')
+rename('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/shallow.lock', '/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/shallow')
+rename('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/packed-refs.new', '/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/packed-refs')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/packed-refs.lock')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/refs/tags/v2.1.0.lock')
+mkdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/logs', 0x00000000000001ff)  Verifying dependencies for oldwinapi@2.1.0
  Installing oldwinapi@2.1.0
-    Copying file /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/mmsystem.nim to /home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi/mmsystem.nim
-    Copying file /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/windows.nim to /home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi/windows.nim
-    Copying file /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/shellapi.nim to /home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi/shellapi.nim
-    Copying file /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/nb30.nim to /home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi/nb30.nim
-    Copying file /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/psapi.nim to /home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi/psapi.nim
-    Copying file /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/shfolder.nim to /home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi/shfolder.nim
-    Copying file /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/oldwinapi.nimble to /home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi.nimble
+    Copying file /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/nb30.nim to /home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi/nb30.nim
+    Copying file /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/psapi.nim to /home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi/psapi.nim
+    Copying file /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/windows.nim to /home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi/windows.nim
+    Copying file /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/shellapi.nim to /home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi/shellapi.nim
+    Copying file /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/mmsystem.nim to /home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi/mmsystem.nim
+    Copying file /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/shfolder.nim to /home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi/shfolder.nim
+    Copying file /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/oldwinapi.nimble to /home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi.nimble
    Success: oldwinapi installed successfully.
  Installing pdcurses@0.1.1
-    Copying file /tmp/nimble_10392/githubcom_lcreespdcurses/pdcurses.nim to /home/runner/.nimble/pkgs/pdcurses-0.1.1/pdcurses.nim
-    Copying file /tmp/nimble_10392/githubcom_lcreespdcurses/pdcurses.nimble to /home/runner/.nimble/pkgs/pdcurses-0.1.1/pdcurses.nimble
+    Copying file /tmp/nimble_7477/githubcom_lcreespdcurses/pdcurses.nim to /home/runner/.nimble/pkgs/pdcurses-0.1.1/pdcurses.nim
+    Copying file /tmp/nimble_7477/githubcom_lcreespdcurses/pdcurses.nimble to /home/runner/.nimble/pkgs/pdcurses-0.1.1/pdcurses.nimble
    Success: pdcurses installed successfully.
-       Info /home/runner/.nimble/pkgs/pdcurses-0.1.1/pdcurses_10392.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /home/runner/.nimble/pkgs/pdcurses-0.1.1/pdcurses_10392.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+       Info /home/runner/.nimble/pkgs/pdcurses-0.1.1/pdcurses_7477.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /home/runner/.nimble/pkgs/pdcurses-0.1.1/pdcurses_7477.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
 
-rename('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock', '/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/t9ic2mh')
-symlink('testing', '/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/t9ic2mh')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/t9ic2mh')
-mkdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock', '/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config')
-chmod('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock', '/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config')
-chmod('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock', '/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config')
-link('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects/pack/tmp_pack_wUSXcE', '/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects/pack/pack-93b3818ab6e81ecf36139d7431bb89018e147ea0.pack')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects/pack/tmp_pack_wUSXcE')
-link('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects/pack/tmp_idx_Q8K005', '/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects/pack/pack-93b3818ab6e81ecf36139d7431bb89018e147ea0.idx')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects/pack/tmp_idx_Q8K005')
-rename('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/shallow.lock', '/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/shallow')
-rename('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/packed-refs.new', '/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/packed-refs')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/packed-refs.lock')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/refs/tags/v2.1.0.lock')
-mkdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/HEAD.lock', '/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/HEAD')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects/pack/pack-93b3818ab6e81ecf36139d7431bb89018e147ea0.keep')
+rename('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/HEAD.lock', '/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/HEAD')
 mkdir('oldwinapi', 0x00000000000001ff)
-rename('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/index.lock', '/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/index')
+rename('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/index.lock', '/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/index')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -149,7 +196,14 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/oldwinapi-2.1.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi/mmsystem.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi/nb30.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/oldwinapi-2.1.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi/psapi.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -170,14 +224,7 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/oldwinapi-2.1.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi/nb30.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/oldwinapi-2.1.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi/psapi.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi/mmsystem.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -202,215 +249,296 @@ mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/pdcurses_652538816', 0x00000000000001ff)
 unlink('/tmp/nimblecache/pdcurses_652538816/pdcurses.ini')
-unlink('/tmp/nimble_10392.out')
-unlink('/home/runner/.nimble/pkgs/pdcurses-0.1.1/pdcurses_10392.nims')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.gitignore')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/pdcurses.nim')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/HEAD')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/config')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/logs/HEAD')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/logs/refs/heads/master')
-rmdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/logs/refs/heads')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/logs/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/logs/refs/remotes/origin')
-rmdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/logs/refs/remotes')
-rmdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/logs/refs')
-rmdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/logs')
-rmdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/branches')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/packed-refs')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs/heads/master')
-rmdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs/heads')
-rmdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs/tags')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs/remotes/origin')
-rmdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs/remotes')
-rmdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks/update.sample')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/index')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/info/exclude')
-rmdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/info')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/shallow')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/description')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects/pack/pack-e662b1451c83b22c14703c9380b1d87f39349369.pack')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects/pack/pack-e662b1451c83b22c14703c9380b1d87f39349369.idx')
-rmdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects/pack')
-rmdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects/info')
-rmdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects')
-rmdir('/tmp/nimble_10392/githubcom_lcreespdcurses/.git')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/README.md')
-unlink('/tmp/nimble_10392/githubcom_lcreespdcurses/pdcurses.nimble')
-rmdir('/tmp/nimble_10392/githubcom_lcreespdcurses')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/mmsystem.nim')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/windows.nim')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/shellapi.nim')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/nb30.nim')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/psapi.nim')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/shfolder.nim')
-rmdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/oldwinapi')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/oldwinapi.nimble')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/COPYING.txt')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/COPYING')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/HEAD')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/logs/HEAD')
-rmdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/logs')
-rmdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/branches')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/packed-refs')
-rmdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/refs/heads')
-rmdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/refs/tags')
-rmdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/refs')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/update.sample')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/index')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/info/exclude')
-rmdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/info')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/shallow')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/description')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects/pack/pack-93b3818ab6e81ecf36139d7431bb89018e147ea0.pack')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects/pack/pack-93b3818ab6e81ecf36139d7431bb89018e147ea0.idx')
-rmdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects/pack')
-rmdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects/info')
-rmdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects')
-rmdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git')
-unlink('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/README.md')
-rmdir('/tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0')
-rmdir('/tmp/nimble_10392')
+unlink('/tmp/nimble_7477.out')
+unlink('/home/runner/.nimble/pkgs/pdcurses-0.1.1/pdcurses_7477.nims')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/oldwinapi.nimble')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/nb30.nim')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/psapi.nim')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/windows.nim')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/shellapi.nim')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/mmsystem.nim')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/shfolder.nim')
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/oldwinapi')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/info/exclude')
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/info')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/shallow')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/description')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/index')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/packed-refs')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/HEAD')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/update.sample')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/post-update.sample')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/commit-msg.sample')
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/logs/HEAD')
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/logs')
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/branches')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/96/99177c90d46050f50b75eb2cc53556b38001ef')
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/96')
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/info')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/c2/5f995092444880d4b409060a0d415ff3b9c2cd')
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/c2')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/3c/0816866ed40023b34144095669d4d2772a010b')
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/3c')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/70/5ce1d276cc957960bd91c621b103bc763470aa')
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/70')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/ee/8578adcea4d5bd3eeb50cd637b21a4330705c7')
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/ee')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/a7/a325e196e391f1611248ab87c5158421bf065e')
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/a7')
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/pack')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/6d/b1e9dffdb80b847673652a608b18e4d221d53c')
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/6d')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/c9/cb6019b3dcb99198c421faff4d4457bb99fed2')
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/c9')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/1c/f35353ed739309b633105416b4d42bbdf59c88')
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/1c')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/6a/fee997d9c93c057a9f6a7b0e71752d08de1030')
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/6a')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/b1/e3f5a2638797271cbc9b91b856c05ed6942c8f')
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/b1')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/3f/de02e34e9b020b23d54e39e5c419397d1ced37')
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/3f')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/8b/34de48ac98702708a2ee20305d327416725d1e')
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/8b')
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects')
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/refs/heads')
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/refs/tags')
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/refs')
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/COPYING.txt')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/README.md')
+unlink('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/COPYING')
+rmdir('/tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/config')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/info/exclude')
+rmdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/info')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/shallow')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/description')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/index')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/packed-refs')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/HEAD')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks/update.sample')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks/post-update.sample')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks/commit-msg.sample')
+rmdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/logs/HEAD')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/logs/refs/heads')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/logs/refs/remotes')
+rmdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/logs/refs')
+rmdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/logs')
+rmdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/branches')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/66/aa09f2c621b06d3f982a998e12b35ecf3a7617')
+rmdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/66')
+rmdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/info')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/2a/bdc352f37586666fb6e0b9c210fcbd96b67c83')
+rmdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/2a')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/e2/d6943edff3c0ff7af6736163228d9083c2f03d')
+rmdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/e2')
+rmdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/pack')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/fb/81d7bc579cf148d06bc6e6b4d4cdad580c08ef')
+rmdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/fb')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/8d/ff660ff284bb32ee81767cd4515c9f54b813af')
+rmdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/8d')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/24/6eb4f55a5f710602f5f7cbf139be9daebf6d75')
+rmdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/24')
+rmdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs/heads/master')
+rmdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs/heads')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs/remotes')
+rmdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs/tags')
+rmdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs')
+rmdir('/tmp/nimble_7477/githubcom_lcreespdcurses/.git')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/.gitignore')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/pdcurses.nimble')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/pdcurses.nim')
+unlink('/tmp/nimble_7477/githubcom_lcreespdcurses/README.md')
+rmdir('/tmp/nimble_7477/githubcom_lcreespdcurses')
+rmdir('/tmp/nimble_7477')
   create directory /tmp
-  create directory /tmp/nimble_10392
-  create directory /tmp/nimble_10392/githubcom_lcreespdcurses
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses
-  create directory /tmp/nimble_10392/githubcom_lcreespdcurses
-  create directory /tmp/nimble_10392/githubcom_lcreespdcurses/.git
-  create directory /tmp/nimble_10392/githubcom_lcreespdcurses/.git
-  create directory /tmp/nimble_10392/githubcom_lcreespdcurses/.git/branches
-  create directory /tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks
-  create directory /tmp/nimble_10392/githubcom_lcreespdcurses/.git/info
-  create directory /tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs
-  create directory /tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs/heads
-  create directory /tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs/tags
-  rename /tmp/nimble_10392/githubcom_lcreespdcurses/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock to config
-  change permissions of /tmp/nimble_10392/githubcom_lcreespdcurses/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_10392/githubcom_lcreespdcurses/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock to config
-  change permissions of /tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock to config
-  change permissions of /tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock to config
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/tRvdx7N
-  create symbolic link from /tmp/nimble_10392/githubcom_lcreespdcurses/.git/tRvdx7N to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/tRvdx7N
-  create directory /tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects
-  create directory /tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects/pack
-  create directory /tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects/info
-  change permissions of /tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock to config
-  change permissions of /tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock to config
-  change permissions of /tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock to config
-  create hard link from /tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects/pack/pack-e662b1451c83b22c14703c9380b1d87f39349369.pack to /tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects/pack/tmp_pack_693Rol
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects/pack/tmp_pack_693Rol
-  create hard link from /tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects/pack/pack-e662b1451c83b22c14703c9380b1d87f39349369.idx to /tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects/pack/tmp_idx_6Hjb3o
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects/pack/tmp_idx_6Hjb3o
-  rename /tmp/nimble_10392/githubcom_lcreespdcurses/.git/shallow.lock to shallow
-  rename /tmp/nimble_10392/githubcom_lcreespdcurses/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/packed-refs.lock
-  create directory /tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs/remotes
-  create directory /tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs/remotes/origin
-  create directory /tmp/nimble_10392/githubcom_lcreespdcurses/.git/logs
-  create directory /tmp/nimble_10392/githubcom_lcreespdcurses/.git/logs/refs
-  create directory /tmp/nimble_10392/githubcom_lcreespdcurses/.git/logs/refs/remotes
-  create directory /tmp/nimble_10392/githubcom_lcreespdcurses/.git/logs/refs/remotes/origin
-  rename /tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs/remotes/origin/HEAD.lock to HEAD
-  rename /tmp/nimble_10392/githubcom_lcreespdcurses/.git/HEAD.lock to HEAD
-  create directory /tmp/nimble_10392/githubcom_lcreespdcurses/.git/logs/refs/heads
-  rename /tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs/heads/master.lock to master
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/HEAD.lock
-  change permissions of /tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock to config
-  change permissions of /tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_10392/githubcom_lcreespdcurses/.git/config.lock to config
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects/pack/pack-e662b1451c83b22c14703c9380b1d87f39349369.keep
-  rename /tmp/nimble_10392/githubcom_lcreespdcurses/.git/index.lock to index
+  create directory /tmp/nimble_7477
+  create directory /tmp/nimble_7477/githubcom_lcreespdcurses
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses
+  create directory /tmp/nimble_7477/githubcom_lcreespdcurses
+  create directory /tmp/nimble_7477/githubcom_lcreespdcurses/.git
+  create directory /tmp/nimble_7477/githubcom_lcreespdcurses/.git
+  create directory /tmp/nimble_7477/githubcom_lcreespdcurses/.git/info
+  create directory /tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks
+  create directory /tmp/nimble_7477/githubcom_lcreespdcurses/.git/branches
+  create directory /tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs
+  create directory /tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs/heads
+  create directory /tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs/tags
+  rename /tmp/nimble_7477/githubcom_lcreespdcurses/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock to config
+  change permissions of /tmp/nimble_7477/githubcom_lcreespdcurses/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_7477/githubcom_lcreespdcurses/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock to config
+  change permissions of /tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock to config
+  change permissions of /tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock to config
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/trBDPYo
+  create symbolic link from /tmp/nimble_7477/githubcom_lcreespdcurses/.git/trBDPYo to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/trBDPYo
+  create directory /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects
+  create directory /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/pack
+  create directory /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/info
+  change permissions of /tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock to config
+  change permissions of /tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock to config
+  change permissions of /tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock to config
+  create directory /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/8d
+  create hard link from /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/8d/ff660ff284bb32ee81767cd4515c9f54b813af to /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/8d/tmp_obj_Ti3fWe
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/8d/tmp_obj_Ti3fWe
+  create directory /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/e2
+  create hard link from /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/e2/d6943edff3c0ff7af6736163228d9083c2f03d to /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/e2/tmp_obj_XqeiLh
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/e2/tmp_obj_XqeiLh
+  create directory /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/24
+  create hard link from /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/24/6eb4f55a5f710602f5f7cbf139be9daebf6d75 to /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/24/tmp_obj_1mPe5h
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/24/tmp_obj_1mPe5h
+  create directory /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/2a
+  create hard link from /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/2a/bdc352f37586666fb6e0b9c210fcbd96b67c83 to /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/2a/tmp_obj_VHnWfh
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/2a/tmp_obj_VHnWfh
+  create directory /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/fb
+  create hard link from /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/fb/81d7bc579cf148d06bc6e6b4d4cdad580c08ef to /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/fb/tmp_obj_hJqyNj
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/fb/tmp_obj_hJqyNj
+  create directory /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/66
+  create hard link from /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/66/aa09f2c621b06d3f982a998e12b35ecf3a7617 to /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/66/tmp_obj_6f0EMb
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/66/tmp_obj_6f0EMb
+  rename /tmp/nimble_7477/githubcom_lcreespdcurses/.git/shallow.lock to shallow
+  rename /tmp/nimble_7477/githubcom_lcreespdcurses/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/packed-refs.lock
+  create directory /tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs/remotes
+  create directory /tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs/remotes/origin
+  create directory /tmp/nimble_7477/githubcom_lcreespdcurses/.git/logs
+  create directory /tmp/nimble_7477/githubcom_lcreespdcurses/.git/logs/refs
+  create directory /tmp/nimble_7477/githubcom_lcreespdcurses/.git/logs/refs/remotes
+  create directory /tmp/nimble_7477/githubcom_lcreespdcurses/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_7477/githubcom_lcreespdcurses/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_7477/githubcom_lcreespdcurses/.git/logs/refs/heads
+  rename /tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/HEAD.lock
+  change permissions of /tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock to config
+  change permissions of /tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7477/githubcom_lcreespdcurses/.git/config.lock to config
+  rename /tmp/nimble_7477/githubcom_lcreespdcurses/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/pdcurses_3548072896
-  delete /tmp/nimblecache/pdcurses_3548072896/pdcurses.ini
-  delete /tmp/nimble_10392.out
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/pdcurses_10392.nims
+  create directory /tmp/nimblecache/pdcurses_1522897442
+  delete /tmp/nimblecache/pdcurses_1522897442/pdcurses.ini
+  delete /tmp/nimble_7477.out
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/pdcurses_7477.nims
   create directory /tmp
-  create directory /tmp/nimble_10392
-  create directory /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0
-  create directory /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0
-  create directory /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git
-  create directory /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git
-  create directory /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/branches
-  create directory /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks
-  create directory /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/info
-  create directory /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/refs
-  create directory /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/refs/heads
-  create directory /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/refs/tags
-  rename /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock to config
-  change permissions of /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock to config
-  change permissions of /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock to config
-  change permissions of /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock to config
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/t9ic2mh
-  create symbolic link from /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/t9ic2mh to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/t9ic2mh
-  create directory /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects
-  create directory /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects/pack
-  create directory /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects/info
-  change permissions of /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock to config
-  change permissions of /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock to config
-  change permissions of /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock to config
-  create hard link from /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects/pack/pack-93b3818ab6e81ecf36139d7431bb89018e147ea0.pack to /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects/pack/tmp_pack_wUSXcE
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects/pack/tmp_pack_wUSXcE
-  create hard link from /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects/pack/pack-93b3818ab6e81ecf36139d7431bb89018e147ea0.idx to /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects/pack/tmp_idx_Q8K005
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects/pack/tmp_idx_Q8K005
-  rename /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/shallow.lock to shallow
-  rename /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/packed-refs.lock
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/refs/tags/v2.1.0.lock
-  create directory /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/logs
-  rename /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects/pack/pack-93b3818ab6e81ecf36139d7431bb89018e147ea0.keep
-  create directory /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/oldwinapi
-  rename /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/index.lock to index
+  create directory /tmp/nimble_7477
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/info
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/branches
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/refs
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/refs/heads
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/refs/tags
+  rename /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock to config
+  change permissions of /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock to config
+  change permissions of /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock to config
+  change permissions of /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock to config
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/tszRzSF
+  create symbolic link from /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/tszRzSF to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/tszRzSF
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/pack
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/info
+  change permissions of /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock to config
+  change permissions of /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock to config
+  change permissions of /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config.lock to config
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/8b
+  create hard link from /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/8b/34de48ac98702708a2ee20305d327416725d1e to /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/8b/tmp_obj_SfBS38
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/8b/tmp_obj_SfBS38
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/3f
+  create hard link from /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/3f/de02e34e9b020b23d54e39e5c419397d1ced37 to /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/3f/tmp_obj_MkJkV7
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/3f/tmp_obj_MkJkV7
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/ee
+  create hard link from /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/ee/8578adcea4d5bd3eeb50cd637b21a4330705c7 to /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/ee/tmp_obj_QIwMza
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/ee/tmp_obj_QIwMza
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/b1
+  create hard link from /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/b1/e3f5a2638797271cbc9b91b856c05ed6942c8f to /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/b1/tmp_obj_qvGjk9
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/b1/tmp_obj_qvGjk9
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/6a
+  create hard link from /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/6a/fee997d9c93c057a9f6a7b0e71752d08de1030 to /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/6a/tmp_obj_s2YKJ9
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/6a/tmp_obj_s2YKJ9
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/6d
+  create hard link from /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/6d/b1e9dffdb80b847673652a608b18e4d221d53c to /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/6d/tmp_obj_8Z0PKc
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/6d/tmp_obj_8Z0PKc
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/70
+  create hard link from /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/70/5ce1d276cc957960bd91c621b103bc763470aa to /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/70/tmp_obj_QylDed
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/70/tmp_obj_QylDed
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/3c
+  create hard link from /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/3c/0816866ed40023b34144095669d4d2772a010b to /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/3c/tmp_obj_6M8i6f
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/3c/tmp_obj_6M8i6f
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/96
+  create hard link from /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/96/99177c90d46050f50b75eb2cc53556b38001ef to /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/96/tmp_obj_Wlhlqe
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/96/tmp_obj_Wlhlqe
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/c9
+  create hard link from /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/c9/cb6019b3dcb99198c421faff4d4457bb99fed2 to /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/c9/tmp_obj_0ZOo0h
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/c9/tmp_obj_0ZOo0h
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/a7
+  create hard link from /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/a7/a325e196e391f1611248ab87c5158421bf065e to /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/a7/tmp_obj_qldnak
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/a7/tmp_obj_qldnak
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/c2
+  create hard link from /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/c2/5f995092444880d4b409060a0d415ff3b9c2cd to /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/c2/tmp_obj_UUBAhk
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/c2/tmp_obj_UUBAhk
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/1c
+  create hard link from /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/1c/f35353ed739309b633105416b4d42bbdf59c88 to /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/1c/tmp_obj_btLO1h
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/1c/tmp_obj_btLO1h
+  rename /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/shallow.lock to shallow
+  rename /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/packed-refs.lock
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/refs/tags/v2.1.0.lock
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/logs
+  rename /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/oldwinapi
+  rename /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/index.lock to index
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -422,7 +550,14 @@ rmdir('/tmp/nimble_10392')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/oldwinapi-2.1.0
   create directory /home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi
-  change permissions of /home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi/mmsystem.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi/nb30.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/oldwinapi-2.1.0
+  create directory /home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi
+  change permissions of /home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi/psapi.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -443,14 +578,7 @@ rmdir('/tmp/nimble_10392')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/oldwinapi-2.1.0
   create directory /home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi
-  change permissions of /home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi/nb30.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/oldwinapi-2.1.0
-  create directory /home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi
-  change permissions of /home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi/psapi.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/oldwinapi-2.1.0/oldwinapi/mmsystem.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -475,99 +603,133 @@ rmdir('/tmp/nimble_10392')
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/pdcurses_652538816
   delete /tmp/nimblecache/pdcurses_652538816/pdcurses.ini
-  delete /tmp/nimble_10392.out
-  delete /home/runner/.nimble/pkgs/pdcurses-0.1.1/pdcurses_10392.nims
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.gitignore
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/pdcurses.nim
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/HEAD
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/config
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/logs/HEAD
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/logs/refs/heads/master
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/logs/refs/heads
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/logs/refs/remotes/origin/HEAD
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/logs/refs/remotes/origin
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/logs/refs/remotes
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/logs/refs
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/logs
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/branches
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/packed-refs
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs/heads/master
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs/heads
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs/tags
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs/remotes/origin/HEAD
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs/remotes/origin
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs/remotes
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/refs
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks/pre-push.sample
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks/update.sample
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks/post-update.sample
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/hooks
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/index
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/info/exclude
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/info
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/shallow
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/description
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects/pack/pack-e662b1451c83b22c14703c9380b1d87f39349369.pack
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects/pack/pack-e662b1451c83b22c14703c9380b1d87f39349369.idx
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects/pack
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects/info
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git/objects
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/.git
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/README.md
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses/pdcurses.nimble
-  delete /tmp/nimble_10392/githubcom_lcreespdcurses
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/mmsystem.nim
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/windows.nim
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/shellapi.nim
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/nb30.nim
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/psapi.nim
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/shfolder.nim
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/oldwinapi
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/oldwinapi.nimble
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/COPYING.txt
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/COPYING
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/HEAD
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/config
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/logs/HEAD
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/logs
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/branches
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/packed-refs
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/refs/heads
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/refs/tags
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/refs
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/pre-push.sample
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/update.sample
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/post-update.sample
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/hooks
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/index
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/info/exclude
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/info
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/shallow
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/description
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects/pack/pack-93b3818ab6e81ecf36139d7431bb89018e147ea0.pack
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects/pack/pack-93b3818ab6e81ecf36139d7431bb89018e147ea0.idx
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects/pack
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects/info
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git/objects
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/.git
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0/README.md
-  delete /tmp/nimble_10392/githubcom_nimlangoldwinapi_2.0.0
-  delete /tmp/nimble_10392
+  delete /tmp/nimble_7477.out
+  delete /home/runner/.nimble/pkgs/pdcurses-0.1.1/pdcurses_7477.nims
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/oldwinapi.nimble
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/nb30.nim
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/psapi.nim
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/windows.nim
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/shellapi.nim
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/mmsystem.nim
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/oldwinapi/shfolder.nim
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/oldwinapi
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/config
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/info/exclude
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/info
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/shallow
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/description
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/index
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/packed-refs
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/HEAD
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/pre-push.sample
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/update.sample
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/post-update.sample
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/hooks
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/logs/HEAD
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/logs
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/branches
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/96/99177c90d46050f50b75eb2cc53556b38001ef
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/96
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/info
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/c2/5f995092444880d4b409060a0d415ff3b9c2cd
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/c2
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/3c/0816866ed40023b34144095669d4d2772a010b
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/3c
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/70/5ce1d276cc957960bd91c621b103bc763470aa
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/70
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/ee/8578adcea4d5bd3eeb50cd637b21a4330705c7
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/ee
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/a7/a325e196e391f1611248ab87c5158421bf065e
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/a7
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/pack
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/6d/b1e9dffdb80b847673652a608b18e4d221d53c
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/6d
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/c9/cb6019b3dcb99198c421faff4d4457bb99fed2
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/c9
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/1c/f35353ed739309b633105416b4d42bbdf59c88
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/1c
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/6a/fee997d9c93c057a9f6a7b0e71752d08de1030
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/6a
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/b1/e3f5a2638797271cbc9b91b856c05ed6942c8f
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/b1
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/3f/de02e34e9b020b23d54e39e5c419397d1ced37
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/3f
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/8b/34de48ac98702708a2ee20305d327416725d1e
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects/8b
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/objects
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/refs/heads
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/refs/tags
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git/refs
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/.git
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/COPYING.txt
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/README.md
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0/COPYING
+  delete /tmp/nimble_7477/githubcom_nimlangoldwinapi_2.0.0
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/config
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/info/exclude
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/info
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/shallow
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/description
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/index
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/packed-refs
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/HEAD
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks/pre-push.sample
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks/update.sample
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks/post-update.sample
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/hooks
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/logs/HEAD
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/logs/refs/heads/master
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/logs/refs/heads
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/logs/refs/remotes
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/logs/refs
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/logs
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/branches
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/66/aa09f2c621b06d3f982a998e12b35ecf3a7617
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/66
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/info
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/2a/bdc352f37586666fb6e0b9c210fcbd96b67c83
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/2a
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/e2/d6943edff3c0ff7af6736163228d9083c2f03d
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/e2
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/pack
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/fb/81d7bc579cf148d06bc6e6b4d4cdad580c08ef
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/fb
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/8d/ff660ff284bb32ee81767cd4515c9f54b813af
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/8d
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/24/6eb4f55a5f710602f5f7cbf139be9daebf6d75
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects/24
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/objects
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs/heads/master
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs/heads
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs/remotes/origin
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs/remotes
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs/tags
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git/refs
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.git
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/.gitignore
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/pdcurses.nimble
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/pdcurses.nim
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses/README.md
+  delete /tmp/nimble_7477/githubcom_lcreespdcurses
+  delete /tmp/nimble_7477

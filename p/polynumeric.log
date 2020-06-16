@@ -1,79 +1,95 @@
     Reading official package list
 Downloading https://github.com/Vindaar/polynumeric using git
-       Info /tmp/nimble_10624/githubcom_Vindaarpolynumeric/polynumeric_10624.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /tmp/nimble_10624/githubcom_Vindaarpolynumeric/polynumeric_10624.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
-  Verifying dependencies for polynumeric@0.2.0
- Installing polynumeric@0.2.0
-    Copying file /tmp/nimble_10624/githubcom_Vindaarpolynumeric/polynumeric.nim to /home/runner/.nimble/pkgs/polynumeric-0.2.0/polynumeric.nim
-    Copying file /tmp/nimble_10624/githubcom_Vindaarpolynumeric/polynumeric.nimble to /home/runner/.nimble/pkgs/polynumeric-0.2.0/polynumeric.nimble
-   Success: polynumeric installed successfully.
-       Info /home/runner/.nimble/pkgs/polynumeric-0.2.0/polynumeric_10624.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /home/runner/.nimble/pkgs/polynumeric-0.2.0/polynumeric_10624.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_10624', 0x00000000000001ff)
-mkdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric', 0x00000000000001ff)
-rmdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric')
-mkdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric', 0x00000000000001ff)
-mkdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/HEAD.lock', '/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/HEAD')
-rename('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock', '/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config')
-chmod('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock', '/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config')
-chmod('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock', '/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config')
-chmod('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock', '/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/tSGjI9x')
-symlink('testing', '/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/tSGjI9x')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/tSGjI9x')
-mkdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock', '/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config')
-chmod('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock', '/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config')
-chmod('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock', '/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config')
-link('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects/pack/tmp_pack_uEGkP7', '/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects/pack/pack-467ee8d49f8f017fd83efd99de701d1e3b2522df.pack')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects/pack/tmp_pack_uEGkP7')
-link('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects/pack/tmp_idx_820xNd', '/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects/pack/pack-467ee8d49f8f017fd83efd99de701d1e3b2522df.idx')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects/pack/tmp_idx_820xNd')
-rename('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/shallow.lock', '/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/shallow')
-rename('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/packed-refs.new', '/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/packed-refs')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/packed-refs.lock')
-mkdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs/remotes/origin', 0x00000000000001ff)
-mkdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/logs', 0x00000000000001ff)
-mkdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/logs/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/logs/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/logs/refs/remotes/origin', 0x00000000000001ff)
-rename('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs/remotes/origin/HEAD')
-rename('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/HEAD.lock', '/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/HEAD')
-mkdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/logs/refs/heads', 0x00000000000001ff)
-rename('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs/heads/master.lock', '/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs/heads/master')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/HEAD.lock')
-chmod('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock', '/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config')
-chmod('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock', '/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects/pack/pack-467ee8d49f8f017fd83efd99de701d1e3b2522df.keep')
-rename('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/index.lock', '/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/index')
+mkdir('/tmp/nimble_7604', 0x00000000000001ff)
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric', 0x00000000000001ff)
+rmdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric')
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric', 0x00000000000001ff)
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/HEAD.lock', '/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/HEAD')
+rename('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock', '/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config')
+chmod('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock', '/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config')
+chmod('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock', '/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config')
+chmod('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock', '/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/tJliUaB')
+symlink('testing', '/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/tJliUaB')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/tJliUaB')
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock', '/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config')
+chmod('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock', '/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config')
+chmod('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock', '/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config')
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/78', 0x00000000000001ff)
+link('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/78/tmp_obj_tFOt3x', '/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/78/f1871fdcf7504f9aecf5bd20b5cc670c8f2f54')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/78/tmp_obj_tFOt3x')
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/10', 0x00000000000001ff)
+link('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/10/tmp_obj_pZpzfy', '/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/10/1a3fdf5f4641f1f90940b24fe4b0ac6883e880')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/10/tmp_obj_pZpzfy')
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/67', 0x00000000000001ff)
+link('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/67/tmp_obj_P8Xr6B', '/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/67/d9b34c6cecad82ad17197ffa5db4860caf9037')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/67/tmp_obj_P8Xr6B')
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/5c', 0x00000000000001ff)
+link('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/5c/tmp_obj_LQDb5z', '/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/5c/98b8b89f6fdaee7b11e9a7c850eb400c768b68')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/5c/tmp_obj_LQDb5z')
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/ab', 0x00000000000001ff)
+link('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/ab/tmp_obj_5ajezD', '/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/ab/a17aded548ebf383352b8975c92d4a07295bc3')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/ab/tmp_obj_5ajezD')
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/90', 0x00000000000001ff)
+link('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/90/tmp_obj_PsufqC', '/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/90/20465e4d7c74a2228613a3fb85938ea79121ee')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/90/tmp_obj_PsufqC')
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/71', 0x00000000000001ff)
+link('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/71/tmp_obj_B5r67F', '/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/71/8de8be3b8333c63e3f962afe2eb372fa7c51f5')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/71/tmp_obj_B5r67F')
+rename('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/shallow.lock', '/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/shallow')
+rename('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/packed-refs.new', '/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/packed-refs')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/packed-refs.lock')
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/HEAD.lock', '/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/HEAD')
+mkdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs/heads/master.lock', '/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs/heads/master')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/HEAD.lock')
+chmod('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock', '/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config')
+chmod('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock', '/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config')
+rename('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/index.lock', '/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/polynumeric_4209580350', 0x00000000000001ff)
-unlink('/tmp/nimblecache/polynumeric_4209580350/polynumeric.ini')
-unlink('/tmp/nimble_10624.out')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/polynumeric_10624.nims')
+mkdir('/tmp/nimblecache/polynumeric_1694193465', 0x00000000000001ff)
+unlink('/tmp/nimblecache/polynumeric_1694193465/polynumeric.ini')
+unlink('/tmp/nimble_7604.out')       Info /tmp/nimble_7604/githubcom_Vindaarpolynumeric/polynumeric_7604.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /tmp/nimble_7604/githubcom_Vindaarpolynumeric/polynumeric_7604.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+  Verifying dependencies for polynumeric@0.2.0
+ Installing polynumeric@0.2.0
+    Copying file /tmp/nimble_7604/githubcom_Vindaarpolynumeric/polynumeric.nim to /home/runner/.nimble/pkgs/polynumeric-0.2.0/polynumeric.nim
+    Copying file /tmp/nimble_7604/githubcom_Vindaarpolynumeric/polynumeric.nimble to /home/runner/.nimble/pkgs/polynumeric-0.2.0/polynumeric.nimble
+   Success: polynumeric installed successfully.
+       Info /home/runner/.nimble/pkgs/polynumeric-0.2.0/polynumeric_7604.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /home/runner/.nimble/pkgs/polynumeric-0.2.0/polynumeric_7604.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/polynumeric_7604.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -90,123 +106,151 @@ mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/polynumeric_2581422743', 0x00000000000001ff)
 unlink('/tmp/nimblecache/polynumeric_2581422743/polynumeric.ini')
-unlink('/tmp/nimble_10624.out')
-unlink('/home/runner/.nimble/pkgs/polynumeric-0.2.0/polynumeric_10624.nims')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.gitignore')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/LICENSE')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/polynumeric.nim')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/README.org')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/HEAD')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/logs/HEAD')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/logs/refs/heads/master')
-rmdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/logs/refs/heads')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/logs/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/logs/refs/remotes/origin')
-rmdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/logs/refs/remotes')
-rmdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/logs/refs')
-rmdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/logs')
-rmdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/branches')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/packed-refs')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs/heads/master')
-rmdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs/heads')
-rmdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs/tags')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs/remotes/origin')
-rmdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs/remotes')
-rmdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks/update.sample')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/index')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/info/exclude')
-rmdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/info')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/shallow')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/description')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects/pack/pack-467ee8d49f8f017fd83efd99de701d1e3b2522df.idx')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects/pack/pack-467ee8d49f8f017fd83efd99de701d1e3b2522df.pack')
-rmdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects/pack')
-rmdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects/info')
-rmdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects')
-rmdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git')
-unlink('/tmp/nimble_10624/githubcom_Vindaarpolynumeric/polynumeric.nimble')
-rmdir('/tmp/nimble_10624/githubcom_Vindaarpolynumeric')
-rmdir('/tmp/nimble_10624')
+unlink('/tmp/nimble_7604.out')
+unlink('/home/runner/.nimble/pkgs/polynumeric-0.2.0/polynumeric_7604.nims')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/polynumeric.nimble')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/polynumeric.nim')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/info/exclude')
+rmdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/info')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/shallow')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/description')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/index')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/packed-refs')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/HEAD')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks/update.sample')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks/post-update.sample')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks/commit-msg.sample')
+rmdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/logs/HEAD')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/logs/refs/heads')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/logs/refs/remotes')
+rmdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/logs/refs')
+rmdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/logs')
+rmdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/branches')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/71/8de8be3b8333c63e3f962afe2eb372fa7c51f5')
+rmdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/71')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/67/d9b34c6cecad82ad17197ffa5db4860caf9037')
+rmdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/67')
+rmdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/info')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/ab/a17aded548ebf383352b8975c92d4a07295bc3')
+rmdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/ab')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/10/1a3fdf5f4641f1f90940b24fe4b0ac6883e880')
+rmdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/10')
+rmdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/pack')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/78/f1871fdcf7504f9aecf5bd20b5cc670c8f2f54')
+rmdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/78')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/5c/98b8b89f6fdaee7b11e9a7c850eb400c768b68')
+rmdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/5c')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/90/20465e4d7c74a2228613a3fb85938ea79121ee')
+rmdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/90')
+rmdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs/heads/master')
+rmdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs/heads')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs/remotes')
+rmdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs/tags')
+rmdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs')
+rmdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/.gitignore')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/README.org')
+unlink('/tmp/nimble_7604/githubcom_Vindaarpolynumeric/LICENSE')
+rmdir('/tmp/nimble_7604/githubcom_Vindaarpolynumeric')
+rmdir('/tmp/nimble_7604')
   create directory /tmp
-  create directory /tmp/nimble_10624
-  create directory /tmp/nimble_10624/githubcom_Vindaarpolynumeric
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric
-  create directory /tmp/nimble_10624/githubcom_Vindaarpolynumeric
-  create directory /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git
-  create directory /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git
-  create directory /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/branches
-  create directory /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks
-  create directory /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/info
-  create directory /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs
-  create directory /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs/heads
-  create directory /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs/tags
-  rename /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock to config
-  change permissions of /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock to config
-  change permissions of /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock to config
-  change permissions of /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock to config
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/tSGjI9x
-  create symbolic link from /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/tSGjI9x to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/tSGjI9x
-  create directory /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects
-  create directory /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects/pack
-  create directory /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects/info
-  change permissions of /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock to config
-  change permissions of /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock to config
-  change permissions of /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock to config
-  create hard link from /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects/pack/pack-467ee8d49f8f017fd83efd99de701d1e3b2522df.pack to /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects/pack/tmp_pack_uEGkP7
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects/pack/tmp_pack_uEGkP7
-  create hard link from /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects/pack/pack-467ee8d49f8f017fd83efd99de701d1e3b2522df.idx to /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects/pack/tmp_idx_820xNd
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects/pack/tmp_idx_820xNd
-  rename /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/shallow.lock to shallow
-  rename /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/packed-refs.lock
-  create directory /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs/remotes
-  create directory /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs/remotes/origin
-  create directory /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/logs
-  create directory /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/logs/refs
-  create directory /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/logs/refs/remotes
-  create directory /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/logs/refs/remotes/origin
-  rename /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs/remotes/origin/HEAD.lock to HEAD
-  rename /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/HEAD.lock to HEAD
-  create directory /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/logs/refs/heads
-  rename /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs/heads/master.lock to master
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/HEAD.lock
-  change permissions of /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock to config
-  change permissions of /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config.lock to config
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects/pack/pack-467ee8d49f8f017fd83efd99de701d1e3b2522df.keep
-  rename /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/index.lock to index
+  create directory /tmp/nimble_7604
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/info
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/branches
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs/heads
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs/tags
+  rename /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock to config
+  change permissions of /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock to config
+  change permissions of /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock to config
+  change permissions of /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock to config
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/tJliUaB
+  create symbolic link from /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/tJliUaB to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/tJliUaB
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/pack
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/info
+  change permissions of /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock to config
+  change permissions of /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock to config
+  change permissions of /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock to config
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/78
+  create hard link from /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/78/f1871fdcf7504f9aecf5bd20b5cc670c8f2f54 to /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/78/tmp_obj_tFOt3x
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/78/tmp_obj_tFOt3x
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/10
+  create hard link from /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/10/1a3fdf5f4641f1f90940b24fe4b0ac6883e880 to /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/10/tmp_obj_pZpzfy
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/10/tmp_obj_pZpzfy
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/67
+  create hard link from /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/67/d9b34c6cecad82ad17197ffa5db4860caf9037 to /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/67/tmp_obj_P8Xr6B
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/67/tmp_obj_P8Xr6B
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/5c
+  create hard link from /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/5c/98b8b89f6fdaee7b11e9a7c850eb400c768b68 to /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/5c/tmp_obj_LQDb5z
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/5c/tmp_obj_LQDb5z
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/ab
+  create hard link from /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/ab/a17aded548ebf383352b8975c92d4a07295bc3 to /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/ab/tmp_obj_5ajezD
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/ab/tmp_obj_5ajezD
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/90
+  create hard link from /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/90/20465e4d7c74a2228613a3fb85938ea79121ee to /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/90/tmp_obj_PsufqC
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/90/tmp_obj_PsufqC
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/71
+  create hard link from /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/71/8de8be3b8333c63e3f962afe2eb372fa7c51f5 to /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/71/tmp_obj_B5r67F
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/71/tmp_obj_B5r67F
+  rename /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/shallow.lock to shallow
+  rename /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/packed-refs.lock
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs/remotes
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs/remotes/origin
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/logs
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/logs/refs
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/logs/refs/remotes
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/logs/refs/heads
+  rename /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/HEAD.lock
+  change permissions of /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock to config
+  change permissions of /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config.lock to config
+  rename /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/polynumeric_4209580350
-  delete /tmp/nimblecache/polynumeric_4209580350/polynumeric.ini
-  delete /tmp/nimble_10624.out
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/polynumeric_10624.nims
+  create directory /tmp/nimblecache/polynumeric_1694193465
+  delete /tmp/nimblecache/polynumeric_1694193465/polynumeric.ini
+  delete /tmp/nimble_7604.out
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/polynumeric_7604.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -223,55 +267,67 @@ rmdir('/tmp/nimble_10624')
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/polynumeric_2581422743
   delete /tmp/nimblecache/polynumeric_2581422743/polynumeric.ini
-  delete /tmp/nimble_10624.out
-  delete /home/runner/.nimble/pkgs/polynumeric-0.2.0/polynumeric_10624.nims
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.gitignore
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/LICENSE
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/polynumeric.nim
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/README.org
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/HEAD
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/config
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/logs/HEAD
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/logs/refs/heads/master
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/logs/refs/heads
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/logs/refs/remotes/origin/HEAD
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/logs/refs/remotes/origin
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/logs/refs/remotes
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/logs/refs
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/logs
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/branches
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/packed-refs
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs/heads/master
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs/heads
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs/tags
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs/remotes/origin/HEAD
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs/remotes/origin
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs/remotes
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/refs
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks/pre-push.sample
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks/update.sample
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks/post-update.sample
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/hooks
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/index
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/info/exclude
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/info
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/shallow
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/description
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects/pack/pack-467ee8d49f8f017fd83efd99de701d1e3b2522df.idx
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects/pack/pack-467ee8d49f8f017fd83efd99de701d1e3b2522df.pack
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects/pack
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects/info
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git/objects
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/.git
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric/polynumeric.nimble
-  delete /tmp/nimble_10624/githubcom_Vindaarpolynumeric
-  delete /tmp/nimble_10624
+  delete /tmp/nimble_7604.out
+  delete /home/runner/.nimble/pkgs/polynumeric-0.2.0/polynumeric_7604.nims
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/polynumeric.nimble
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/polynumeric.nim
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/config
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/info/exclude
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/info
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/shallow
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/description
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/index
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/packed-refs
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/HEAD
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks/pre-push.sample
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks/update.sample
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks/post-update.sample
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/hooks
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/logs/HEAD
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/logs/refs/heads/master
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/logs/refs/heads
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/logs/refs/remotes
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/logs/refs
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/logs
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/branches
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/71/8de8be3b8333c63e3f962afe2eb372fa7c51f5
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/71
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/67/d9b34c6cecad82ad17197ffa5db4860caf9037
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/67
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/info
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/ab/a17aded548ebf383352b8975c92d4a07295bc3
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/ab
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/10/1a3fdf5f4641f1f90940b24fe4b0ac6883e880
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/10
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/pack
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/78/f1871fdcf7504f9aecf5bd20b5cc670c8f2f54
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/78
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/5c/98b8b89f6fdaee7b11e9a7c850eb400c768b68
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/5c
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/90/20465e4d7c74a2228613a3fb85938ea79121ee
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects/90
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/objects
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs/heads/master
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs/heads
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs/remotes/origin
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs/remotes
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs/tags
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git/refs
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.git
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/.gitignore
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/README.org
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric/LICENSE
+  delete /tmp/nimble_7604/githubcom_Vindaarpolynumeric
+  delete /tmp/nimble_7604

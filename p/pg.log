@@ -1,71 +1,94 @@
     Reading official package list
 Downloading https://github.com/treeform/pg using git
     Cloning latest tagged version: v0.1.0
-       Info /tmp/nimble_12531/githubcom_treeformpg/pg_12531.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /tmp/nimble_12531/githubcom_treeformpg/pg_12531.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+       Info /tmp/nimble_8602/githubcom_treeformpg/pg_8602.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /tmp/nimble_8602/githubcom_treeformpg/pg_8602.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
   Verifying dependencies for pg@0.1.0
  Installing pg@0.1.0
-    Copying file /tmp/nimble_12531/githubcom_treeformpg/src/pg.nim to /home/runner/.nimble/pkgs/pg-0.1.0/pg.nim
-    Copying file /tmp/nimble_12531/githubcom_treeformpg/pg.nimble to /home/runner/.nimble/pkgs/pg-0.1.0/pg.nimble
+    Copying file /tmp/nimble_8602/githubcom_treeformpg/src/pg.nim to /home/runner/.nimble/pkgs/pg-0.1.0/pg.nim
+    Copying file /tmp/nimble_8602/githubcom_treeformpg/pg.nimble to /home/runner/.nimble/pkgs/pg-0.1.0/pg.nimble
    Success: pg installed successfully.
-       Info /home/runner/.nimble/pkgs/pg-0.1.0/pg_12531.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /home/runner/.nimble/pkgs/pg-0.1.0/pg_12531.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_12531', 0x00000000000001ff)
-mkdir('/tmp/nimble_12531/githubcom_treeformpg', 0x00000000000001ff)
-rmdir('/tmp/nimble_12531/githubcom_treeformpg')
-mkdir('/tmp/nimble_12531/githubcom_treeformpg', 0x00000000000001ff)
-mkdir('/tmp/nimble_12531/githubcom_treeformpg/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_12531/githubcom_treeformpg/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_12531/githubcom_treeformpg/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_12531/githubcom_treeformpg/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_12531/githubcom_treeformpg/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_12531/githubcom_treeformpg/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_12531/githubcom_treeformpg/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_12531/githubcom_treeformpg/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_12531/githubcom_treeformpg/.git/HEAD.lock', '/tmp/nimble_12531/githubcom_treeformpg/.git/HEAD')
-rename('/tmp/nimble_12531/githubcom_treeformpg/.git/config.lock', '/tmp/nimble_12531/githubcom_treeformpg/.git/config')
-chmod('/tmp/nimble_12531/githubcom_treeformpg/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_12531/githubcom_treeformpg/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_12531/githubcom_treeformpg/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12531/githubcom_treeformpg/.git/config.lock', '/tmp/nimble_12531/githubcom_treeformpg/.git/config')
-chmod('/tmp/nimble_12531/githubcom_treeformpg/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12531/githubcom_treeformpg/.git/config.lock', '/tmp/nimble_12531/githubcom_treeformpg/.git/config')
-chmod('/tmp/nimble_12531/githubcom_treeformpg/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12531/githubcom_treeformpg/.git/config.lock', '/tmp/nimble_12531/githubcom_treeformpg/.git/config')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/t6inMXl')
-symlink('testing', '/tmp/nimble_12531/githubcom_treeformpg/.git/t6inMXl')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/t6inMXl')
-mkdir('/tmp/nimble_12531/githubcom_treeformpg/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_12531/githubcom_treeformpg/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_12531/githubcom_treeformpg/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_12531/githubcom_treeformpg/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12531/githubcom_treeformpg/.git/config.lock', '/tmp/nimble_12531/githubcom_treeformpg/.git/config')
-chmod('/tmp/nimble_12531/githubcom_treeformpg/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12531/githubcom_treeformpg/.git/config.lock', '/tmp/nimble_12531/githubcom_treeformpg/.git/config')
-chmod('/tmp/nimble_12531/githubcom_treeformpg/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12531/githubcom_treeformpg/.git/config.lock', '/tmp/nimble_12531/githubcom_treeformpg/.git/config')
-link('/tmp/nimble_12531/githubcom_treeformpg/.git/objects/pack/tmp_pack_EsrozF', '/tmp/nimble_12531/githubcom_treeformpg/.git/objects/pack/pack-62051795bfe312fea1e7489fa1a613083bd0cee4.pack')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/objects/pack/tmp_pack_EsrozF')
-link('/tmp/nimble_12531/githubcom_treeformpg/.git/objects/pack/tmp_idx_uxuxAN', '/tmp/nimble_12531/githubcom_treeformpg/.git/objects/pack/pack-62051795bfe312fea1e7489fa1a613083bd0cee4.idx')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/objects/pack/tmp_idx_uxuxAN')
-rename('/tmp/nimble_12531/githubcom_treeformpg/.git/shallow.lock', '/tmp/nimble_12531/githubcom_treeformpg/.git/shallow')
-rename('/tmp/nimble_12531/githubcom_treeformpg/.git/packed-refs.new', '/tmp/nimble_12531/githubcom_treeformpg/.git/packed-refs')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/packed-refs.lock')
-rename('/tmp/nimble_12531/githubcom_treeformpg/.git/refs/tags/0.1.0.lock', '/tmp/nimble_12531/githubcom_treeformpg/.git/refs/tags/0.1.0')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/refs/tags/v0.1.0.lock')
-mkdir('/tmp/nimble_12531/githubcom_treeformpg/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_12531/githubcom_treeformpg/.git/HEAD.lock', '/tmp/nimble_12531/githubcom_treeformpg/.git/HEAD')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/objects/pack/pack-62051795bfe312fea1e7489fa1a613083bd0cee4.keep')
+mkdir('/tmp/nimble_8602', 0x00000000000001ff)
+mkdir('/tmp/nimble_8602/githubcom_treeformpg', 0x00000000000001ff)
+rmdir('/tmp/nimble_8602/githubcom_treeformpg')
+mkdir('/tmp/nimble_8602/githubcom_treeformpg', 0x00000000000001ff)
+mkdir('/tmp/nimble_8602/githubcom_treeformpg/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_8602/githubcom_treeformpg/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_8602/githubcom_treeformpg/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_8602/githubcom_treeformpg/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_8602/githubcom_treeformpg/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_8602/githubcom_treeformpg/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_8602/githubcom_treeformpg/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_8602/githubcom_treeformpg/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_8602/githubcom_treeformpg/.git/HEAD.lock', '/tmp/nimble_8602/githubcom_treeformpg/.git/HEAD')
+rename('/tmp/nimble_8602/githubcom_treeformpg/.git/config.lock', '/tmp/nimble_8602/githubcom_treeformpg/.git/config')
+chmod('/tmp/nimble_8602/githubcom_treeformpg/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_8602/githubcom_treeformpg/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_8602/githubcom_treeformpg/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8602/githubcom_treeformpg/.git/config.lock', '/tmp/nimble_8602/githubcom_treeformpg/.git/config')
+chmod('/tmp/nimble_8602/githubcom_treeformpg/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8602/githubcom_treeformpg/.git/config.lock', '/tmp/nimble_8602/githubcom_treeformpg/.git/config')
+chmod('/tmp/nimble_8602/githubcom_treeformpg/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8602/githubcom_treeformpg/.git/config.lock', '/tmp/nimble_8602/githubcom_treeformpg/.git/config')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/t066NHT')
+symlink('testing', '/tmp/nimble_8602/githubcom_treeformpg/.git/t066NHT')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/t066NHT')
+mkdir('/tmp/nimble_8602/githubcom_treeformpg/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_8602/githubcom_treeformpg/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8602/githubcom_treeformpg/.git/config.lock', '/tmp/nimble_8602/githubcom_treeformpg/.git/config')
+chmod('/tmp/nimble_8602/githubcom_treeformpg/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8602/githubcom_treeformpg/.git/config.lock', '/tmp/nimble_8602/githubcom_treeformpg/.git/config')
+chmod('/tmp/nimble_8602/githubcom_treeformpg/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8602/githubcom_treeformpg/.git/config.lock', '/tmp/nimble_8602/githubcom_treeformpg/.git/config')
+mkdir('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/57', 0x00000000000001ff)
+link('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/57/tmp_obj_u7a5Ek', '/tmp/nimble_8602/githubcom_treeformpg/.git/objects/57/39d1a3f74a6e620cde4212f7faaae153803edc')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/57/tmp_obj_u7a5Ek')
+mkdir('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/ac', 0x00000000000001ff)
+link('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/ac/tmp_obj_YWfWhn', '/tmp/nimble_8602/githubcom_treeformpg/.git/objects/ac/bfb16ecfe3760526312807943df1b886a053c0')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/ac/tmp_obj_YWfWhn')
+mkdir('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/1a', 0x00000000000001ff)
+link('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/1a/tmp_obj_Cj99On', '/tmp/nimble_8602/githubcom_treeformpg/.git/objects/1a/e1a46a54279ef470f5c1d3be186bf8536de82a')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/1a/tmp_obj_Cj99On')
+mkdir('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/5b', 0x00000000000001ff)
+link('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/5b/tmp_obj_aLo30m', '/tmp/nimble_8602/githubcom_treeformpg/.git/objects/5b/e57160d038a0f5ae2deb38279463a35f5d58fa')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/5b/tmp_obj_aLo30m')
+mkdir('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/ed', 0x00000000000001ff)
+link('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/ed/tmp_obj_mnB3Jp', '/tmp/nimble_8602/githubcom_treeformpg/.git/objects/ed/dbae96483874a06fe8551aa0e634ae64a28f3d')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/ed/tmp_obj_mnB3Jp')
+mkdir('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/0e', 0x00000000000001ff)
+link('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/0e/tmp_obj_oumWMo', '/tmp/nimble_8602/githubcom_treeformpg/.git/objects/0e/41e03438b2ccaddf9997794f34b42fb59e01bf')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/0e/tmp_obj_oumWMo')
+mkdir('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/fe', 0x00000000000001ff)
+link('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/fe/tmp_obj_WxFfap', '/tmp/nimble_8602/githubcom_treeformpg/.git/objects/fe/3d5a039624d307edc006e1428e5db5582674b3')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/fe/tmp_obj_WxFfap')
+mkdir('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/43', 0x00000000000001ff)
+link('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/43/tmp_obj_eX1aSs', '/tmp/nimble_8602/githubcom_treeformpg/.git/objects/43/2a74998564178f4fa1c83c4ca1c86b3a481224')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/43/tmp_obj_eX1aSs')
+mkdir('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/3b', 0x00000000000001ff)
+link('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/3b/tmp_obj_UCMDPq', '/tmp/nimble_8602/githubcom_treeformpg/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/3b/tmp_obj_UCMDPq')
+mkdir('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/9b', 0x00000000000001ff)
+link('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/9b/tmp_obj_id1Qxu', '/tmp/nimble_8602/githubcom_treeformpg/.git/objects/9b/2774b3adbcb64d4d54dee3cad737a92a5c1506')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/9b/tmp_obj_id1Qxu')
+rename('/tmp/nimble_8602/githubcom_treeformpg/.git/shallow.lock', '/tmp/nimble_8602/githubcom_treeformpg/.git/shallow')
+rename('/tmp/nimble_8602/githubcom_treeformpg/.git/packed-refs.new', '/tmp/nimble_8602/githubcom_treeformpg/.git/packed-refs')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/packed-refs.lock')
+rename('/tmp/nimble_8602/githubcom_treeformpg/.git/refs/tags/0.1.0.lock', '/tmp/nimble_8602/githubcom_treeformpg/.git/refs/tags/0.1.0')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/refs/tags/v0.1.0.lock')
+mkdir('/tmp/nimble_8602/githubcom_treeformpg/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_8602/githubcom_treeformpg/.git/HEAD.lock', '/tmp/nimble_8602/githubcom_treeformpg/.git/HEAD')
 mkdir('src', 0x00000000000001ff)
 mkdir('tests', 0x00000000000001ff)
-rename('/tmp/nimble_12531/githubcom_treeformpg/.git/index.lock', '/tmp/nimble_12531/githubcom_treeformpg/.git/index')
+rename('/tmp/nimble_8602/githubcom_treeformpg/.git/index.lock', '/tmp/nimble_8602/githubcom_treeformpg/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/pg_703920222', 0x00000000000001ff)
-unlink('/tmp/nimblecache/pg_703920222/pg.ini')
-unlink('/tmp/nimble_12531.out')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/pg_12531.nims')
+mkdir('/tmp/nimblecache/pg_2119546387', 0x00000000000001ff)
+unlink('/tmp/nimblecache/pg_2119546387/pg.ini')
+unlink('/tmp/nimble_8602.out')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/pg_8602.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -80,110 +103,155 @@ chmod('/home/runner/.nimble/pkgs/pg-0.1.0/pg.nim', 0x00000000000001a4)
 chmod('/home/runner/.nimble/pkgs/pg-0.1.0/pg.nimble', 0x00000000000001a4)
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/pg_1983241455', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/pg_1983241455', 0x00000000000001ff)       Info /home/runner/.nimble/pkgs/pg-0.1.0/pg_8602.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /home/runner/.nimble/pkgs/pg-0.1.0/pg_8602.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+
 unlink('/tmp/nimblecache/pg_1983241455/pg.ini')
-unlink('/tmp/nimble_12531.out')
-unlink('/home/runner/.nimble/pkgs/pg-0.1.0/pg_12531.nims')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/src/pg.nim')
-rmdir('/tmp/nimble_12531/githubcom_treeformpg/src')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.gitignore')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/HEAD')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/config')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/logs/HEAD')
-rmdir('/tmp/nimble_12531/githubcom_treeformpg/.git/logs')
-rmdir('/tmp/nimble_12531/githubcom_treeformpg/.git/branches')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/packed-refs')
-rmdir('/tmp/nimble_12531/githubcom_treeformpg/.git/refs/heads')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/refs/tags/0.1.0')
-rmdir('/tmp/nimble_12531/githubcom_treeformpg/.git/refs/tags')
-rmdir('/tmp/nimble_12531/githubcom_treeformpg/.git/refs')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/hooks/update.sample')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_12531/githubcom_treeformpg/.git/hooks')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/index')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/info/exclude')
-rmdir('/tmp/nimble_12531/githubcom_treeformpg/.git/info')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/shallow')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/description')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/objects/pack/pack-62051795bfe312fea1e7489fa1a613083bd0cee4.idx')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/.git/objects/pack/pack-62051795bfe312fea1e7489fa1a613083bd0cee4.pack')
-rmdir('/tmp/nimble_12531/githubcom_treeformpg/.git/objects/pack')
-rmdir('/tmp/nimble_12531/githubcom_treeformpg/.git/objects/info')
-rmdir('/tmp/nimble_12531/githubcom_treeformpg/.git/objects')
-rmdir('/tmp/nimble_12531/githubcom_treeformpg/.git')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/pg.nimble')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/README.md')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/tests/test.nim')
-unlink('/tmp/nimble_12531/githubcom_treeformpg/tests/config.nims')
-rmdir('/tmp/nimble_12531/githubcom_treeformpg/tests')
-rmdir('/tmp/nimble_12531/githubcom_treeformpg')
-rmdir('/tmp/nimble_12531')
+unlink('/tmp/nimble_8602.out')
+unlink('/home/runner/.nimble/pkgs/pg-0.1.0/pg_8602.nims')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/src/pg.nim')
+rmdir('/tmp/nimble_8602/githubcom_treeformpg/src')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/config')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/info/exclude')
+rmdir('/tmp/nimble_8602/githubcom_treeformpg/.git/info')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/shallow')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/description')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/index')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/packed-refs')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/HEAD')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/hooks/update.sample')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/hooks/post-update.sample')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/hooks/commit-msg.sample')
+rmdir('/tmp/nimble_8602/githubcom_treeformpg/.git/hooks')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/logs/HEAD')
+rmdir('/tmp/nimble_8602/githubcom_treeformpg/.git/logs')
+rmdir('/tmp/nimble_8602/githubcom_treeformpg/.git/branches')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/43/2a74998564178f4fa1c83c4ca1c86b3a481224')
+rmdir('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/43')
+rmdir('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/info')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/ed/dbae96483874a06fe8551aa0e634ae64a28f3d')
+rmdir('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/ed')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/fe/3d5a039624d307edc006e1428e5db5582674b3')
+rmdir('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/fe')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/1a/e1a46a54279ef470f5c1d3be186bf8536de82a')
+rmdir('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/1a')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/ac/bfb16ecfe3760526312807943df1b886a053c0')
+rmdir('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/ac')
+rmdir('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/pack')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/57/39d1a3f74a6e620cde4212f7faaae153803edc')
+rmdir('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/57')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/5b/e57160d038a0f5ae2deb38279463a35f5d58fa')
+rmdir('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/5b')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/9b/2774b3adbcb64d4d54dee3cad737a92a5c1506')
+rmdir('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/9b')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6')
+rmdir('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/3b')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/0e/41e03438b2ccaddf9997794f34b42fb59e01bf')
+rmdir('/tmp/nimble_8602/githubcom_treeformpg/.git/objects/0e')
+rmdir('/tmp/nimble_8602/githubcom_treeformpg/.git/objects')
+rmdir('/tmp/nimble_8602/githubcom_treeformpg/.git/refs/heads')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.git/refs/tags/0.1.0')
+rmdir('/tmp/nimble_8602/githubcom_treeformpg/.git/refs/tags')
+rmdir('/tmp/nimble_8602/githubcom_treeformpg/.git/refs')
+rmdir('/tmp/nimble_8602/githubcom_treeformpg/.git')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/.gitignore')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/README.md')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/tests/config.nims')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/tests/test.nim')
+rmdir('/tmp/nimble_8602/githubcom_treeformpg/tests')
+unlink('/tmp/nimble_8602/githubcom_treeformpg/pg.nimble')
+rmdir('/tmp/nimble_8602/githubcom_treeformpg')
+rmdir('/tmp/nimble_8602')
   create directory /tmp
-  create directory /tmp/nimble_12531
-  create directory /tmp/nimble_12531/githubcom_treeformpg
-  delete /tmp/nimble_12531/githubcom_treeformpg
-  create directory /tmp/nimble_12531/githubcom_treeformpg
-  create directory /tmp/nimble_12531/githubcom_treeformpg/.git
-  create directory /tmp/nimble_12531/githubcom_treeformpg/.git
-  create directory /tmp/nimble_12531/githubcom_treeformpg/.git/branches
-  create directory /tmp/nimble_12531/githubcom_treeformpg/.git/hooks
-  create directory /tmp/nimble_12531/githubcom_treeformpg/.git/info
-  create directory /tmp/nimble_12531/githubcom_treeformpg/.git/refs
-  create directory /tmp/nimble_12531/githubcom_treeformpg/.git/refs/heads
-  create directory /tmp/nimble_12531/githubcom_treeformpg/.git/refs/tags
-  rename /tmp/nimble_12531/githubcom_treeformpg/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_12531/githubcom_treeformpg/.git/config.lock to config
-  change permissions of /tmp/nimble_12531/githubcom_treeformpg/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_12531/githubcom_treeformpg/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_12531/githubcom_treeformpg/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12531/githubcom_treeformpg/.git/config.lock to config
-  change permissions of /tmp/nimble_12531/githubcom_treeformpg/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12531/githubcom_treeformpg/.git/config.lock to config
-  change permissions of /tmp/nimble_12531/githubcom_treeformpg/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12531/githubcom_treeformpg/.git/config.lock to config
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/t6inMXl
-  create symbolic link from /tmp/nimble_12531/githubcom_treeformpg/.git/t6inMXl to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/t6inMXl
-  create directory /tmp/nimble_12531/githubcom_treeformpg/.git/objects
-  create directory /tmp/nimble_12531/githubcom_treeformpg/.git/objects/pack
-  create directory /tmp/nimble_12531/githubcom_treeformpg/.git/objects/info
-  change permissions of /tmp/nimble_12531/githubcom_treeformpg/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12531/githubcom_treeformpg/.git/config.lock to config
-  change permissions of /tmp/nimble_12531/githubcom_treeformpg/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12531/githubcom_treeformpg/.git/config.lock to config
-  change permissions of /tmp/nimble_12531/githubcom_treeformpg/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12531/githubcom_treeformpg/.git/config.lock to config
-  create hard link from /tmp/nimble_12531/githubcom_treeformpg/.git/objects/pack/pack-62051795bfe312fea1e7489fa1a613083bd0cee4.pack to /tmp/nimble_12531/githubcom_treeformpg/.git/objects/pack/tmp_pack_EsrozF
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/objects/pack/tmp_pack_EsrozF
-  create hard link from /tmp/nimble_12531/githubcom_treeformpg/.git/objects/pack/pack-62051795bfe312fea1e7489fa1a613083bd0cee4.idx to /tmp/nimble_12531/githubcom_treeformpg/.git/objects/pack/tmp_idx_uxuxAN
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/objects/pack/tmp_idx_uxuxAN
-  rename /tmp/nimble_12531/githubcom_treeformpg/.git/shallow.lock to shallow
-  rename /tmp/nimble_12531/githubcom_treeformpg/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/packed-refs.lock
-  rename /tmp/nimble_12531/githubcom_treeformpg/.git/refs/tags/0.1.0.lock to 0.1.0
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/refs/tags/v0.1.0.lock
-  create directory /tmp/nimble_12531/githubcom_treeformpg/.git/logs
-  rename /tmp/nimble_12531/githubcom_treeformpg/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/objects/pack/pack-62051795bfe312fea1e7489fa1a613083bd0cee4.keep
-  create directory /tmp/nimble_12531/githubcom_treeformpg/src
-  create directory /tmp/nimble_12531/githubcom_treeformpg/tests
-  rename /tmp/nimble_12531/githubcom_treeformpg/.git/index.lock to index
+  create directory /tmp/nimble_8602
+  create directory /tmp/nimble_8602/githubcom_treeformpg
+  delete /tmp/nimble_8602/githubcom_treeformpg
+  create directory /tmp/nimble_8602/githubcom_treeformpg
+  create directory /tmp/nimble_8602/githubcom_treeformpg/.git
+  create directory /tmp/nimble_8602/githubcom_treeformpg/.git
+  create directory /tmp/nimble_8602/githubcom_treeformpg/.git/info
+  create directory /tmp/nimble_8602/githubcom_treeformpg/.git/hooks
+  create directory /tmp/nimble_8602/githubcom_treeformpg/.git/branches
+  create directory /tmp/nimble_8602/githubcom_treeformpg/.git/refs
+  create directory /tmp/nimble_8602/githubcom_treeformpg/.git/refs/heads
+  create directory /tmp/nimble_8602/githubcom_treeformpg/.git/refs/tags
+  rename /tmp/nimble_8602/githubcom_treeformpg/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_8602/githubcom_treeformpg/.git/config.lock to config
+  change permissions of /tmp/nimble_8602/githubcom_treeformpg/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_8602/githubcom_treeformpg/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_8602/githubcom_treeformpg/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8602/githubcom_treeformpg/.git/config.lock to config
+  change permissions of /tmp/nimble_8602/githubcom_treeformpg/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8602/githubcom_treeformpg/.git/config.lock to config
+  change permissions of /tmp/nimble_8602/githubcom_treeformpg/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8602/githubcom_treeformpg/.git/config.lock to config
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/t066NHT
+  create symbolic link from /tmp/nimble_8602/githubcom_treeformpg/.git/t066NHT to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/t066NHT
+  create directory /tmp/nimble_8602/githubcom_treeformpg/.git/objects
+  create directory /tmp/nimble_8602/githubcom_treeformpg/.git/objects/pack
+  create directory /tmp/nimble_8602/githubcom_treeformpg/.git/objects/info
+  change permissions of /tmp/nimble_8602/githubcom_treeformpg/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8602/githubcom_treeformpg/.git/config.lock to config
+  change permissions of /tmp/nimble_8602/githubcom_treeformpg/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8602/githubcom_treeformpg/.git/config.lock to config
+  change permissions of /tmp/nimble_8602/githubcom_treeformpg/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8602/githubcom_treeformpg/.git/config.lock to config
+  create directory /tmp/nimble_8602/githubcom_treeformpg/.git/objects/57
+  create hard link from /tmp/nimble_8602/githubcom_treeformpg/.git/objects/57/39d1a3f74a6e620cde4212f7faaae153803edc to /tmp/nimble_8602/githubcom_treeformpg/.git/objects/57/tmp_obj_u7a5Ek
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/57/tmp_obj_u7a5Ek
+  create directory /tmp/nimble_8602/githubcom_treeformpg/.git/objects/ac
+  create hard link from /tmp/nimble_8602/githubcom_treeformpg/.git/objects/ac/bfb16ecfe3760526312807943df1b886a053c0 to /tmp/nimble_8602/githubcom_treeformpg/.git/objects/ac/tmp_obj_YWfWhn
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/ac/tmp_obj_YWfWhn
+  create directory /tmp/nimble_8602/githubcom_treeformpg/.git/objects/1a
+  create hard link from /tmp/nimble_8602/githubcom_treeformpg/.git/objects/1a/e1a46a54279ef470f5c1d3be186bf8536de82a to /tmp/nimble_8602/githubcom_treeformpg/.git/objects/1a/tmp_obj_Cj99On
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/1a/tmp_obj_Cj99On
+  create directory /tmp/nimble_8602/githubcom_treeformpg/.git/objects/5b
+  create hard link from /tmp/nimble_8602/githubcom_treeformpg/.git/objects/5b/e57160d038a0f5ae2deb38279463a35f5d58fa to /tmp/nimble_8602/githubcom_treeformpg/.git/objects/5b/tmp_obj_aLo30m
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/5b/tmp_obj_aLo30m
+  create directory /tmp/nimble_8602/githubcom_treeformpg/.git/objects/ed
+  create hard link from /tmp/nimble_8602/githubcom_treeformpg/.git/objects/ed/dbae96483874a06fe8551aa0e634ae64a28f3d to /tmp/nimble_8602/githubcom_treeformpg/.git/objects/ed/tmp_obj_mnB3Jp
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/ed/tmp_obj_mnB3Jp
+  create directory /tmp/nimble_8602/githubcom_treeformpg/.git/objects/0e
+  create hard link from /tmp/nimble_8602/githubcom_treeformpg/.git/objects/0e/41e03438b2ccaddf9997794f34b42fb59e01bf to /tmp/nimble_8602/githubcom_treeformpg/.git/objects/0e/tmp_obj_oumWMo
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/0e/tmp_obj_oumWMo
+  create directory /tmp/nimble_8602/githubcom_treeformpg/.git/objects/fe
+  create hard link from /tmp/nimble_8602/githubcom_treeformpg/.git/objects/fe/3d5a039624d307edc006e1428e5db5582674b3 to /tmp/nimble_8602/githubcom_treeformpg/.git/objects/fe/tmp_obj_WxFfap
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/fe/tmp_obj_WxFfap
+  create directory /tmp/nimble_8602/githubcom_treeformpg/.git/objects/43
+  create hard link from /tmp/nimble_8602/githubcom_treeformpg/.git/objects/43/2a74998564178f4fa1c83c4ca1c86b3a481224 to /tmp/nimble_8602/githubcom_treeformpg/.git/objects/43/tmp_obj_eX1aSs
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/43/tmp_obj_eX1aSs
+  create directory /tmp/nimble_8602/githubcom_treeformpg/.git/objects/3b
+  create hard link from /tmp/nimble_8602/githubcom_treeformpg/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6 to /tmp/nimble_8602/githubcom_treeformpg/.git/objects/3b/tmp_obj_UCMDPq
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/3b/tmp_obj_UCMDPq
+  create directory /tmp/nimble_8602/githubcom_treeformpg/.git/objects/9b
+  create hard link from /tmp/nimble_8602/githubcom_treeformpg/.git/objects/9b/2774b3adbcb64d4d54dee3cad737a92a5c1506 to /tmp/nimble_8602/githubcom_treeformpg/.git/objects/9b/tmp_obj_id1Qxu
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/9b/tmp_obj_id1Qxu
+  rename /tmp/nimble_8602/githubcom_treeformpg/.git/shallow.lock to shallow
+  rename /tmp/nimble_8602/githubcom_treeformpg/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/packed-refs.lock
+  rename /tmp/nimble_8602/githubcom_treeformpg/.git/refs/tags/0.1.0.lock to 0.1.0
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/refs/tags/v0.1.0.lock
+  create directory /tmp/nimble_8602/githubcom_treeformpg/.git/logs
+  rename /tmp/nimble_8602/githubcom_treeformpg/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_8602/githubcom_treeformpg/src
+  create directory /tmp/nimble_8602/githubcom_treeformpg/tests
+  rename /tmp/nimble_8602/githubcom_treeformpg/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/pg_703920222
-  delete /tmp/nimblecache/pg_703920222/pg.ini
-  delete /tmp/nimble_12531.out
-  delete /tmp/nimble_12531/githubcom_treeformpg/pg_12531.nims
+  create directory /tmp/nimblecache/pg_2119546387
+  delete /tmp/nimblecache/pg_2119546387/pg.ini
+  delete /tmp/nimble_8602.out
+  delete /tmp/nimble_8602/githubcom_treeformpg/pg_8602.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -200,49 +268,67 @@ rmdir('/tmp/nimble_12531')
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/pg_1983241455
   delete /tmp/nimblecache/pg_1983241455/pg.ini
-  delete /tmp/nimble_12531.out
-  delete /home/runner/.nimble/pkgs/pg-0.1.0/pg_12531.nims
-  delete /tmp/nimble_12531/githubcom_treeformpg/src/pg.nim
-  delete /tmp/nimble_12531/githubcom_treeformpg/src
-  delete /tmp/nimble_12531/githubcom_treeformpg/.gitignore
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/HEAD
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/config
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/logs/HEAD
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/logs
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/branches
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/packed-refs
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/refs/heads
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/refs/tags/0.1.0
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/refs/tags
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/refs
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/hooks/pre-push.sample
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/hooks/update.sample
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/hooks/post-update.sample
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/hooks
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/index
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/info/exclude
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/info
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/shallow
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/description
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/objects/pack/pack-62051795bfe312fea1e7489fa1a613083bd0cee4.idx
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/objects/pack/pack-62051795bfe312fea1e7489fa1a613083bd0cee4.pack
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/objects/pack
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/objects/info
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git/objects
-  delete /tmp/nimble_12531/githubcom_treeformpg/.git
-  delete /tmp/nimble_12531/githubcom_treeformpg/pg.nimble
-  delete /tmp/nimble_12531/githubcom_treeformpg/README.md
-  delete /tmp/nimble_12531/githubcom_treeformpg/tests/test.nim
-  delete /tmp/nimble_12531/githubcom_treeformpg/tests/config.nims
-  delete /tmp/nimble_12531/githubcom_treeformpg/tests
-  delete /tmp/nimble_12531/githubcom_treeformpg
-  delete /tmp/nimble_12531
+  delete /tmp/nimble_8602.out
+  delete /home/runner/.nimble/pkgs/pg-0.1.0/pg_8602.nims
+  delete /tmp/nimble_8602/githubcom_treeformpg/src/pg.nim
+  delete /tmp/nimble_8602/githubcom_treeformpg/src
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/config
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/info/exclude
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/info
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/shallow
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/description
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/index
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/packed-refs
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/HEAD
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/hooks/pre-push.sample
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/hooks/update.sample
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/hooks/post-update.sample
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/hooks
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/logs/HEAD
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/logs
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/branches
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/43/2a74998564178f4fa1c83c4ca1c86b3a481224
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/43
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/info
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/ed/dbae96483874a06fe8551aa0e634ae64a28f3d
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/ed
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/fe/3d5a039624d307edc006e1428e5db5582674b3
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/fe
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/1a/e1a46a54279ef470f5c1d3be186bf8536de82a
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/1a
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/ac/bfb16ecfe3760526312807943df1b886a053c0
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/ac
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/pack
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/57/39d1a3f74a6e620cde4212f7faaae153803edc
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/57
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/5b/e57160d038a0f5ae2deb38279463a35f5d58fa
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/5b
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/9b/2774b3adbcb64d4d54dee3cad737a92a5c1506
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/9b
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/3b
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/0e/41e03438b2ccaddf9997794f34b42fb59e01bf
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects/0e
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/objects
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/refs/heads
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/refs/tags/0.1.0
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/refs/tags
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git/refs
+  delete /tmp/nimble_8602/githubcom_treeformpg/.git
+  delete /tmp/nimble_8602/githubcom_treeformpg/.gitignore
+  delete /tmp/nimble_8602/githubcom_treeformpg/README.md
+  delete /tmp/nimble_8602/githubcom_treeformpg/tests/config.nims
+  delete /tmp/nimble_8602/githubcom_treeformpg/tests/test.nim
+  delete /tmp/nimble_8602/githubcom_treeformpg/tests
+  delete /tmp/nimble_8602/githubcom_treeformpg/pg.nimble
+  delete /tmp/nimble_8602/githubcom_treeformpg
+  delete /tmp/nimble_8602

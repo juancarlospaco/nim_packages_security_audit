@@ -1,71 +1,126 @@
     Reading official package list
 Downloading https://github.com/genotrance/plugins using git
     Cloning latest tagged version: v0.1.1
-  Verifying dependencies for plugins@0.1.1
- Installing plugins@0.1.1
-    Copying file /tmp/nimble_20898/githubcom_genotranceplugins/src/plugins/globals.nim to /home/runner/.nimble/pkgs/plugins-0.1.1/plugins/globals.nim
-    Copying file /tmp/nimble_20898/githubcom_genotranceplugins/src/plugins/utils.nim to /home/runner/.nimble/pkgs/plugins-0.1.1/plugins/utils.nim
-    Copying file /tmp/nimble_20898/githubcom_genotranceplugins/src/plugins/api.nim to /home/runner/.nimble/pkgs/plugins-0.1.1/plugins/api.nim
-    Copying file /tmp/nimble_20898/githubcom_genotranceplugins/src/plugins.nim to /home/runner/.nimble/pkgs/plugins-0.1.1/plugins.nim
-    Copying file /tmp/nimble_20898/githubcom_genotranceplugins/plugins.nimble to /home/runner/.nimble/pkgs/plugins-0.1.1/plugins.nimble
-   Success: plugins installed successfully.
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_20898', 0x00000000000001ff)
-mkdir('/tmp/nimble_20898/githubcom_genotranceplugins', 0x00000000000001ff)
-rmdir('/tmp/nimble_20898/githubcom_genotranceplugins')
-mkdir('/tmp/nimble_20898/githubcom_genotranceplugins', 0x00000000000001ff)
-mkdir('/tmp/nimble_20898/githubcom_genotranceplugins/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_20898/githubcom_genotranceplugins/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_20898/githubcom_genotranceplugins/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_20898/githubcom_genotranceplugins/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_20898/githubcom_genotranceplugins/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_20898/githubcom_genotranceplugins/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_20898/githubcom_genotranceplugins/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_20898/githubcom_genotranceplugins/.git/HEAD.lock', '/tmp/nimble_20898/githubcom_genotranceplugins/.git/HEAD')
-rename('/tmp/nimble_20898/githubcom_genotranceplugins/.git/config.lock', '/tmp/nimble_20898/githubcom_genotranceplugins/.git/config')
-chmod('/tmp/nimble_20898/githubcom_genotranceplugins/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_20898/githubcom_genotranceplugins/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_20898/githubcom_genotranceplugins/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_20898/githubcom_genotranceplugins/.git/config.lock', '/tmp/nimble_20898/githubcom_genotranceplugins/.git/config')
-chmod('/tmp/nimble_20898/githubcom_genotranceplugins/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_20898/githubcom_genotranceplugins/.git/config.lock', '/tmp/nimble_20898/githubcom_genotranceplugins/.git/config')
-chmod('/tmp/nimble_20898/githubcom_genotranceplugins/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_20898/githubcom_genotranceplugins/.git/config.lock', '/tmp/nimble_20898/githubcom_genotranceplugins/.git/config')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/tME0AAq')
-symlink('testing', '/tmp/nimble_20898/githubcom_genotranceplugins/.git/tME0AAq')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/tME0AAq')
-mkdir('/tmp/nimble_20898/githubcom_genotranceplugins/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_20898/githubcom_genotranceplugins/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_20898/githubcom_genotranceplugins/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_20898/githubcom_genotranceplugins/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_20898/githubcom_genotranceplugins/.git/config.lock', '/tmp/nimble_20898/githubcom_genotranceplugins/.git/config')
-chmod('/tmp/nimble_20898/githubcom_genotranceplugins/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_20898/githubcom_genotranceplugins/.git/config.lock', '/tmp/nimble_20898/githubcom_genotranceplugins/.git/config')
-chmod('/tmp/nimble_20898/githubcom_genotranceplugins/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_20898/githubcom_genotranceplugins/.git/config.lock', '/tmp/nimble_20898/githubcom_genotranceplugins/.git/config')
-link('/tmp/nimble_20898/githubcom_genotranceplugins/.git/objects/pack/tmp_pack_Rzl7HF', '/tmp/nimble_20898/githubcom_genotranceplugins/.git/objects/pack/pack-2dd1ff34c9ccbfab05c89eb18b899fe9fab49ec5.pack')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/objects/pack/tmp_pack_Rzl7HF')
-link('/tmp/nimble_20898/githubcom_genotranceplugins/.git/objects/pack/tmp_idx_BznKER', '/tmp/nimble_20898/githubcom_genotranceplugins/.git/objects/pack/pack-2dd1ff34c9ccbfab05c89eb18b899fe9fab49ec5.idx')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/objects/pack/tmp_idx_BznKER')
-rename('/tmp/nimble_20898/githubcom_genotranceplugins/.git/shallow.lock', '/tmp/nimble_20898/githubcom_genotranceplugins/.git/shallow')
-rename('/tmp/nimble_20898/githubcom_genotranceplugins/.git/packed-refs.new', '/tmp/nimble_20898/githubcom_genotranceplugins/.git/packed-refs')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/packed-refs.lock')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/refs/tags/v0.1.1.lock')
-mkdir('/tmp/nimble_20898/githubcom_genotranceplugins/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_20898/githubcom_genotranceplugins/.git/HEAD.lock', '/tmp/nimble_20898/githubcom_genotranceplugins/.git/HEAD')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/objects/pack/pack-2dd1ff34c9ccbfab05c89eb18b899fe9fab49ec5.keep')
+mkdir('/tmp/nimble_13478', 0x00000000000001ff)
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins', 0x00000000000001ff)
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins')
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins', 0x00000000000001ff)
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_13478/githubcom_genotranceplugins/.git/HEAD.lock', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/HEAD')
+rename('/tmp/nimble_13478/githubcom_genotranceplugins/.git/config.lock', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/config')
+chmod('/tmp/nimble_13478/githubcom_genotranceplugins/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_13478/githubcom_genotranceplugins/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_13478/githubcom_genotranceplugins/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_13478/githubcom_genotranceplugins/.git/config.lock', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/config')
+chmod('/tmp/nimble_13478/githubcom_genotranceplugins/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_13478/githubcom_genotranceplugins/.git/config.lock', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/config')
+chmod('/tmp/nimble_13478/githubcom_genotranceplugins/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_13478/githubcom_genotranceplugins/.git/config.lock', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/config')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/tQOAZ1b')
+symlink('testing', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/tQOAZ1b')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/tQOAZ1b')
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_13478/githubcom_genotranceplugins/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_13478/githubcom_genotranceplugins/.git/config.lock', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/config')
+chmod('/tmp/nimble_13478/githubcom_genotranceplugins/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_13478/githubcom_genotranceplugins/.git/config.lock', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/config')
+chmod('/tmp/nimble_13478/githubcom_genotranceplugins/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_13478/githubcom_genotranceplugins/.git/config.lock', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/config')
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/33', 0x00000000000001ff)
+link('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/33/tmp_obj_1UygtM', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/33/d54d99cf67cc40ba0b18edded0c10e7ccd4759')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/33/tmp_obj_1UygtM')
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/97', 0x00000000000001ff)
+link('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/97/tmp_obj_bs3E9P', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/97/618f51608732546ad63a0185b2546653813bde')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/97/tmp_obj_bs3E9P')
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/c0', 0x00000000000001ff)
+link('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/c0/tmp_obj_l3jZXO', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/c0/56e84c620bfc32d9c4a5cdf0dac843b613a317')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/c0/tmp_obj_l3jZXO')
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/0c', 0x00000000000001ff)
+link('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/0c/tmp_obj_dfeUAS', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/0c/e047ce99b10412516316bb4264d27f3ba4ffa8')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/0c/tmp_obj_dfeUAS')
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/af', 0x00000000000001ff)
+link('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/af/tmp_obj_v2u6zQ', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/af/7b821c7fcedd90e3f334cbbe9eff33a1ef76e2')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/af/tmp_obj_v2u6zQ')
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/e0', 0x00000000000001ff)
+link('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/e0/tmp_obj_DsgpeR', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/e0/2243426ed0abaf05c2c1152feb7d8d463c92a3')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/e0/tmp_obj_DsgpeR')
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/66', 0x00000000000001ff)
+link('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/66/tmp_obj_1gAhUU', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/66/2d2531146322a154b9ea3f7d4ef7534ece03dd')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/66/tmp_obj_1gAhUU')
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/03', 0x00000000000001ff)
+link('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/03/tmp_obj_FTNtNS', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/03/3f63bf3484f7e3394786dee4e217e94e40cc4e')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/03/tmp_obj_FTNtNS')
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/71', 0x00000000000001ff)
+link('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/71/tmp_obj_B7VDCW', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/71/f88e3795b66259ececa7ebba40d1664ba61776')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/71/tmp_obj_B7VDCW')
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/32', 0x00000000000001ff)
+link('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/32/tmp_obj_lVjzZW', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/32/e6c400538f8634eabd24afefd5ef3a15076e49')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/32/tmp_obj_lVjzZW')
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/1e', 0x00000000000001ff)
+link('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/1e/tmp_obj_N7451V', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/1e/ea390a8bc42a99586522e4d40c36a055b799ea')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/1e/tmp_obj_N7451V')
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/be', 0x00000000000001ff)
+link('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/be/tmp_obj_ljcjwZ', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/be/f8079785daa318c0d1e62c383dfba08c3aa6f4')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/be/tmp_obj_ljcjwZ')
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/f1', 0x00000000000001ff)
+link('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/f1/tmp_obj_rygaeY', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/f1/a606313da07592907234f737d0de9ff39de2c7')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/f1/tmp_obj_rygaeY')
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/f6', 0x00000000000001ff)
+link('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/f6/tmp_obj_7fuFT1', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/f6/e502efb9ee490f85adec5e3b2f37a24a1a1eae')  Verifying dependencies for plugins@0.1.1
+ Installing plugins@0.1.1
+    Copying file /tmp/nimble_13478/githubcom_genotranceplugins/src/plugins/globals.nim to /home/runner/.nimble/pkgs/plugins-0.1.1/plugins/globals.nim
+    Copying file /tmp/nimble_13478/githubcom_genotranceplugins/src/plugins/utils.nim to /home/runner/.nimble/pkgs/plugins-0.1.1/plugins/utils.nim
+    Copying file /tmp/nimble_13478/githubcom_genotranceplugins/src/plugins/api.nim to /home/runner/.nimble/pkgs/plugins-0.1.1/plugins/api.nim
+    Copying file /tmp/nimble_13478/githubcom_genotranceplugins/src/plugins.nim to /home/runner/.nimble/pkgs/plugins-0.1.1/plugins.nim
+    Copying file /tmp/nimble_13478/githubcom_genotranceplugins/plugins.nimble to /home/runner/.nimble/pkgs/plugins-0.1.1/plugins.nimble
+   Success: plugins installed successfully.
+
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/f6/tmp_obj_7fuFT1')
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/9d', 0x00000000000001ff)
+link('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/9d/tmp_obj_BXqgN0', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/9d/82e5ec8bb859c4692d1820b0a72792d5dad2c1')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/9d/tmp_obj_BXqgN0')
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/a7', 0x00000000000001ff)
+link('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/a7/tmp_obj_5Oi8l3', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/a7/ffb376dcd1b3a7bb07807a45ac38ca4ddf88e2')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/a7/tmp_obj_5Oi8l3')
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/09', 0x00000000000001ff)
+link('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/09/tmp_obj_73FCR3', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/09/6085d4aa431ba9d98c42938696f8899b990909')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/09/tmp_obj_73FCR3')
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/7d', 0x00000000000001ff)
+link('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/7d/tmp_obj_5GicR2', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/7d/b276be5313c2407d5c8d649bd162ab2171985a')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/7d/tmp_obj_5GicR2')
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/74', 0x00000000000001ff)
+link('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/74/tmp_obj_Nzf4B6', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/74/85df409717a0b02357f0d12f42b0f16c3b316d')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/74/tmp_obj_Nzf4B6')
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/c9', 0x00000000000001ff)
+link('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/c9/tmp_obj_FN2KB4', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/c9/86c9ef4faeec42d93e69dea0be14cef0ec0097')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/c9/tmp_obj_FN2KB4')
+rename('/tmp/nimble_13478/githubcom_genotranceplugins/.git/shallow.lock', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/shallow')
+rename('/tmp/nimble_13478/githubcom_genotranceplugins/.git/packed-refs.new', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/packed-refs')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/packed-refs.lock')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/refs/tags/v0.1.1.lock')
+mkdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_13478/githubcom_genotranceplugins/.git/HEAD.lock', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/HEAD')
 mkdir('src', 0x00000000000001ff)
 mkdir('src/plugins', 0x00000000000001ff)
 mkdir('tests', 0x00000000000001ff)
 mkdir('tests/test1', 0x00000000000001ff)
-rename('/tmp/nimble_20898/githubcom_genotranceplugins/.git/index.lock', '/tmp/nimble_20898/githubcom_genotranceplugins/.git/index')
+rename('/tmp/nimble_13478/githubcom_genotranceplugins/.git/index.lock', '/tmp/nimble_13478/githubcom_genotranceplugins/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/plugins_365538304', 0x00000000000001ff)
-unlink('/tmp/nimblecache/plugins_365538304/plugins.ini')
-unlink('/tmp/nimble_20898.out')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/plugins_20898.nims')
+mkdir('/tmp/nimblecache/plugins_2622622323', 0x00000000000001ff)
+unlink('/tmp/nimblecache/plugins_2622622323/plugins.ini')
+unlink('/tmp/nimble_13478.out')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/plugins_13478.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -103,118 +158,211 @@ mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/plugins_3735879831', 0x00000000000001ff)
 unlink('/tmp/nimblecache/plugins_3735879831/plugins.ini')
-unlink('/tmp/nimble_20898.out')
-unlink('/home/runner/.nimble/pkgs/plugins-0.1.1/plugins_20898.nims')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/plugins.nimble')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/src/plugins/globals.nim')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/src/plugins/utils.nim')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/src/plugins/api.nim')
-rmdir('/tmp/nimble_20898/githubcom_genotranceplugins/src/plugins')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/src/plugins.nim')
-rmdir('/tmp/nimble_20898/githubcom_genotranceplugins/src')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.gitignore')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/LICENSE')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.travis.yml')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/HEAD')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/config')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/logs/HEAD')
-rmdir('/tmp/nimble_20898/githubcom_genotranceplugins/.git/logs')
-rmdir('/tmp/nimble_20898/githubcom_genotranceplugins/.git/branches')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/packed-refs')
-rmdir('/tmp/nimble_20898/githubcom_genotranceplugins/.git/refs/heads')
-rmdir('/tmp/nimble_20898/githubcom_genotranceplugins/.git/refs/tags')
-rmdir('/tmp/nimble_20898/githubcom_genotranceplugins/.git/refs')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks/update.sample')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/index')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/info/exclude')
-rmdir('/tmp/nimble_20898/githubcom_genotranceplugins/.git/info')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/shallow')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/description')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/objects/pack/pack-2dd1ff34c9ccbfab05c89eb18b899fe9fab49ec5.pack')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/.git/objects/pack/pack-2dd1ff34c9ccbfab05c89eb18b899fe9fab49ec5.idx')
-rmdir('/tmp/nimble_20898/githubcom_genotranceplugins/.git/objects/pack')
-rmdir('/tmp/nimble_20898/githubcom_genotranceplugins/.git/objects/info')
-rmdir('/tmp/nimble_20898/githubcom_genotranceplugins/.git/objects')
-rmdir('/tmp/nimble_20898/githubcom_genotranceplugins/.git')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/README.md')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/tests/tmain.nim')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/tests/config.nims')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/tests/test1/plg1.nim')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/tests/test1/config.nims')
-unlink('/tmp/nimble_20898/githubcom_genotranceplugins/tests/test1/plg2.nim')
-rmdir('/tmp/nimble_20898/githubcom_genotranceplugins/tests/test1')
-rmdir('/tmp/nimble_20898/githubcom_genotranceplugins/tests')
-rmdir('/tmp/nimble_20898/githubcom_genotranceplugins')
-rmdir('/tmp/nimble_20898')
+unlink('/tmp/nimble_13478.out')
+unlink('/home/runner/.nimble/pkgs/plugins-0.1.1/plugins_13478.nims')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/src/plugins/globals.nim')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/src/plugins/utils.nim')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/src/plugins/api.nim')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/src/plugins')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/src/plugins.nim')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/src')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/config')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/info/exclude')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/info')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/shallow')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/description')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/index')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/packed-refs')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/HEAD')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks/update.sample')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks/post-update.sample')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks/commit-msg.sample')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/logs/HEAD')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/logs')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/branches')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/66/2d2531146322a154b9ea3f7d4ef7534ece03dd')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/66')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/71/f88e3795b66259ececa7ebba40d1664ba61776')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/71')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/33/d54d99cf67cc40ba0b18edded0c10e7ccd4759')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/33')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/info')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/7d/b276be5313c2407d5c8d649bd162ab2171985a')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/7d')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/97/618f51608732546ad63a0185b2546653813bde')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/97')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/e0/2243426ed0abaf05c2c1152feb7d8d463c92a3')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/e0')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/be/f8079785daa318c0d1e62c383dfba08c3aa6f4')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/be')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/03/3f63bf3484f7e3394786dee4e217e94e40cc4e')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/03')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/f1/a606313da07592907234f737d0de9ff39de2c7')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/f1')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/a7/ffb376dcd1b3a7bb07807a45ac38ca4ddf88e2')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/a7')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/pack')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/c9/86c9ef4faeec42d93e69dea0be14cef0ec0097')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/c9')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/1e/ea390a8bc42a99586522e4d40c36a055b799ea')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/1e')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/32/e6c400538f8634eabd24afefd5ef3a15076e49')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/32')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/0c/e047ce99b10412516316bb4264d27f3ba4ffa8')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/0c')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/9d/82e5ec8bb859c4692d1820b0a72792d5dad2c1')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/9d')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/09/6085d4aa431ba9d98c42938696f8899b990909')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/09')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/f6/e502efb9ee490f85adec5e3b2f37a24a1a1eae')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/f6')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/c0/56e84c620bfc32d9c4a5cdf0dac843b613a317')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/c0')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/74/85df409717a0b02357f0d12f42b0f16c3b316d')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/74')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/af/7b821c7fcedd90e3f334cbbe9eff33a1ef76e2')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/af')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/objects')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/refs/heads')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/refs/tags')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git/refs')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/.git')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.travis.yml')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/.gitignore')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/plugins.nimble')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/README.md')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/tests/config.nims')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/tests/tmain.nim')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/tests/test1/plg2.nim')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/tests/test1/config.nims')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/tests/test1/plg1.nim')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/tests/test1')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins/tests')
+unlink('/tmp/nimble_13478/githubcom_genotranceplugins/LICENSE')
+rmdir('/tmp/nimble_13478/githubcom_genotranceplugins')
+rmdir('/tmp/nimble_13478')
   create directory /tmp
-  create directory /tmp/nimble_20898
-  create directory /tmp/nimble_20898/githubcom_genotranceplugins
-  delete /tmp/nimble_20898/githubcom_genotranceplugins
-  create directory /tmp/nimble_20898/githubcom_genotranceplugins
-  create directory /tmp/nimble_20898/githubcom_genotranceplugins/.git
-  create directory /tmp/nimble_20898/githubcom_genotranceplugins/.git
-  create directory /tmp/nimble_20898/githubcom_genotranceplugins/.git/branches
-  create directory /tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks
-  create directory /tmp/nimble_20898/githubcom_genotranceplugins/.git/info
-  create directory /tmp/nimble_20898/githubcom_genotranceplugins/.git/refs
-  create directory /tmp/nimble_20898/githubcom_genotranceplugins/.git/refs/heads
-  create directory /tmp/nimble_20898/githubcom_genotranceplugins/.git/refs/tags
-  rename /tmp/nimble_20898/githubcom_genotranceplugins/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_20898/githubcom_genotranceplugins/.git/config.lock to config
-  change permissions of /tmp/nimble_20898/githubcom_genotranceplugins/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_20898/githubcom_genotranceplugins/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_20898/githubcom_genotranceplugins/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_20898/githubcom_genotranceplugins/.git/config.lock to config
-  change permissions of /tmp/nimble_20898/githubcom_genotranceplugins/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_20898/githubcom_genotranceplugins/.git/config.lock to config
-  change permissions of /tmp/nimble_20898/githubcom_genotranceplugins/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_20898/githubcom_genotranceplugins/.git/config.lock to config
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/tME0AAq
-  create symbolic link from /tmp/nimble_20898/githubcom_genotranceplugins/.git/tME0AAq to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/tME0AAq
-  create directory /tmp/nimble_20898/githubcom_genotranceplugins/.git/objects
-  create directory /tmp/nimble_20898/githubcom_genotranceplugins/.git/objects/pack
-  create directory /tmp/nimble_20898/githubcom_genotranceplugins/.git/objects/info
-  change permissions of /tmp/nimble_20898/githubcom_genotranceplugins/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_20898/githubcom_genotranceplugins/.git/config.lock to config
-  change permissions of /tmp/nimble_20898/githubcom_genotranceplugins/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_20898/githubcom_genotranceplugins/.git/config.lock to config
-  change permissions of /tmp/nimble_20898/githubcom_genotranceplugins/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_20898/githubcom_genotranceplugins/.git/config.lock to config
-  create hard link from /tmp/nimble_20898/githubcom_genotranceplugins/.git/objects/pack/pack-2dd1ff34c9ccbfab05c89eb18b899fe9fab49ec5.pack to /tmp/nimble_20898/githubcom_genotranceplugins/.git/objects/pack/tmp_pack_Rzl7HF
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/objects/pack/tmp_pack_Rzl7HF
-  create hard link from /tmp/nimble_20898/githubcom_genotranceplugins/.git/objects/pack/pack-2dd1ff34c9ccbfab05c89eb18b899fe9fab49ec5.idx to /tmp/nimble_20898/githubcom_genotranceplugins/.git/objects/pack/tmp_idx_BznKER
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/objects/pack/tmp_idx_BznKER
-  rename /tmp/nimble_20898/githubcom_genotranceplugins/.git/shallow.lock to shallow
-  rename /tmp/nimble_20898/githubcom_genotranceplugins/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/packed-refs.lock
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/refs/tags/v0.1.1.lock
-  create directory /tmp/nimble_20898/githubcom_genotranceplugins/.git/logs
-  rename /tmp/nimble_20898/githubcom_genotranceplugins/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/objects/pack/pack-2dd1ff34c9ccbfab05c89eb18b899fe9fab49ec5.keep
-  create directory /tmp/nimble_20898/githubcom_genotranceplugins/src
-  create directory /tmp/nimble_20898/githubcom_genotranceplugins/src/plugins
-  create directory /tmp/nimble_20898/githubcom_genotranceplugins/tests
-  create directory /tmp/nimble_20898/githubcom_genotranceplugins/tests/test1
-  rename /tmp/nimble_20898/githubcom_genotranceplugins/.git/index.lock to index
+  create directory /tmp/nimble_13478
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins
+  delete /tmp/nimble_13478/githubcom_genotranceplugins
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/info
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/branches
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/refs
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/refs/heads
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/refs/tags
+  rename /tmp/nimble_13478/githubcom_genotranceplugins/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_13478/githubcom_genotranceplugins/.git/config.lock to config
+  change permissions of /tmp/nimble_13478/githubcom_genotranceplugins/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_13478/githubcom_genotranceplugins/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_13478/githubcom_genotranceplugins/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_13478/githubcom_genotranceplugins/.git/config.lock to config
+  change permissions of /tmp/nimble_13478/githubcom_genotranceplugins/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_13478/githubcom_genotranceplugins/.git/config.lock to config
+  change permissions of /tmp/nimble_13478/githubcom_genotranceplugins/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_13478/githubcom_genotranceplugins/.git/config.lock to config
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/tQOAZ1b
+  create symbolic link from /tmp/nimble_13478/githubcom_genotranceplugins/.git/tQOAZ1b to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/tQOAZ1b
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/pack
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/info
+  change permissions of /tmp/nimble_13478/githubcom_genotranceplugins/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_13478/githubcom_genotranceplugins/.git/config.lock to config
+  change permissions of /tmp/nimble_13478/githubcom_genotranceplugins/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_13478/githubcom_genotranceplugins/.git/config.lock to config
+  change permissions of /tmp/nimble_13478/githubcom_genotranceplugins/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_13478/githubcom_genotranceplugins/.git/config.lock to config
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/33
+  create hard link from /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/33/d54d99cf67cc40ba0b18edded0c10e7ccd4759 to /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/33/tmp_obj_1UygtM
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/33/tmp_obj_1UygtM
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/97
+  create hard link from /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/97/618f51608732546ad63a0185b2546653813bde to /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/97/tmp_obj_bs3E9P
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/97/tmp_obj_bs3E9P
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/c0
+  create hard link from /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/c0/56e84c620bfc32d9c4a5cdf0dac843b613a317 to /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/c0/tmp_obj_l3jZXO
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/c0/tmp_obj_l3jZXO
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/0c
+  create hard link from /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/0c/e047ce99b10412516316bb4264d27f3ba4ffa8 to /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/0c/tmp_obj_dfeUAS
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/0c/tmp_obj_dfeUAS
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/af
+  create hard link from /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/af/7b821c7fcedd90e3f334cbbe9eff33a1ef76e2 to /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/af/tmp_obj_v2u6zQ
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/af/tmp_obj_v2u6zQ
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/e0
+  create hard link from /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/e0/2243426ed0abaf05c2c1152feb7d8d463c92a3 to /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/e0/tmp_obj_DsgpeR
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/e0/tmp_obj_DsgpeR
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/66
+  create hard link from /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/66/2d2531146322a154b9ea3f7d4ef7534ece03dd to /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/66/tmp_obj_1gAhUU
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/66/tmp_obj_1gAhUU
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/03
+  create hard link from /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/03/3f63bf3484f7e3394786dee4e217e94e40cc4e to /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/03/tmp_obj_FTNtNS
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/03/tmp_obj_FTNtNS
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/71
+  create hard link from /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/71/f88e3795b66259ececa7ebba40d1664ba61776 to /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/71/tmp_obj_B7VDCW
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/71/tmp_obj_B7VDCW
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/32
+  create hard link from /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/32/e6c400538f8634eabd24afefd5ef3a15076e49 to /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/32/tmp_obj_lVjzZW
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/32/tmp_obj_lVjzZW
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/1e
+  create hard link from /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/1e/ea390a8bc42a99586522e4d40c36a055b799ea to /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/1e/tmp_obj_N7451V
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/1e/tmp_obj_N7451V
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/be
+  create hard link from /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/be/f8079785daa318c0d1e62c383dfba08c3aa6f4 to /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/be/tmp_obj_ljcjwZ
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/be/tmp_obj_ljcjwZ
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/f1
+  create hard link from /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/f1/a606313da07592907234f737d0de9ff39de2c7 to /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/f1/tmp_obj_rygaeY
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/f1/tmp_obj_rygaeY
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/f6
+  create hard link from /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/f6/e502efb9ee490f85adec5e3b2f37a24a1a1eae to /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/f6/tmp_obj_7fuFT1
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/f6/tmp_obj_7fuFT1
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/9d
+  create hard link from /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/9d/82e5ec8bb859c4692d1820b0a72792d5dad2c1 to /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/9d/tmp_obj_BXqgN0
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/9d/tmp_obj_BXqgN0
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/a7
+  create hard link from /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/a7/ffb376dcd1b3a7bb07807a45ac38ca4ddf88e2 to /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/a7/tmp_obj_5Oi8l3
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/a7/tmp_obj_5Oi8l3
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/09
+  create hard link from /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/09/6085d4aa431ba9d98c42938696f8899b990909 to /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/09/tmp_obj_73FCR3
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/09/tmp_obj_73FCR3
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/7d
+  create hard link from /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/7d/b276be5313c2407d5c8d649bd162ab2171985a to /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/7d/tmp_obj_5GicR2
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/7d/tmp_obj_5GicR2
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/74
+  create hard link from /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/74/85df409717a0b02357f0d12f42b0f16c3b316d to /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/74/tmp_obj_Nzf4B6
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/74/tmp_obj_Nzf4B6
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/c9
+  create hard link from /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/c9/86c9ef4faeec42d93e69dea0be14cef0ec0097 to /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/c9/tmp_obj_FN2KB4
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/c9/tmp_obj_FN2KB4
+  rename /tmp/nimble_13478/githubcom_genotranceplugins/.git/shallow.lock to shallow
+  rename /tmp/nimble_13478/githubcom_genotranceplugins/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/packed-refs.lock
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/refs/tags/v0.1.1.lock
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/.git/logs
+  rename /tmp/nimble_13478/githubcom_genotranceplugins/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/src
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/src/plugins
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/tests
+  create directory /tmp/nimble_13478/githubcom_genotranceplugins/tests/test1
+  rename /tmp/nimble_13478/githubcom_genotranceplugins/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/plugins_365538304
-  delete /tmp/nimblecache/plugins_365538304/plugins.ini
-  delete /tmp/nimble_20898.out
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/plugins_20898.nims
+  create directory /tmp/nimblecache/plugins_2622622323
+  delete /tmp/nimblecache/plugins_2622622323/plugins.ini
+  delete /tmp/nimble_13478.out
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/plugins_13478.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -252,58 +400,96 @@ rmdir('/tmp/nimble_20898')
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/plugins_3735879831
   delete /tmp/nimblecache/plugins_3735879831/plugins.ini
-  delete /tmp/nimble_20898.out
-  delete /home/runner/.nimble/pkgs/plugins-0.1.1/plugins_20898.nims
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/plugins.nimble
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/src/plugins/globals.nim
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/src/plugins/utils.nim
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/src/plugins/api.nim
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/src/plugins
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/src/plugins.nim
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/src
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.gitignore
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/LICENSE
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.travis.yml
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/HEAD
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/config
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/logs/HEAD
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/logs
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/branches
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/packed-refs
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/refs/heads
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/refs/tags
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/refs
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks/pre-push.sample
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks/update.sample
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks/post-update.sample
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/hooks
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/index
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/info/exclude
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/info
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/shallow
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/description
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/objects/pack/pack-2dd1ff34c9ccbfab05c89eb18b899fe9fab49ec5.pack
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/objects/pack/pack-2dd1ff34c9ccbfab05c89eb18b899fe9fab49ec5.idx
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/objects/pack
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/objects/info
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git/objects
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/.git
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/README.md
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/tests/tmain.nim
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/tests/config.nims
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/tests/test1/plg1.nim
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/tests/test1/config.nims
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/tests/test1/plg2.nim
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/tests/test1
-  delete /tmp/nimble_20898/githubcom_genotranceplugins/tests
-  delete /tmp/nimble_20898/githubcom_genotranceplugins
-  delete /tmp/nimble_20898
+  delete /tmp/nimble_13478.out
+  delete /home/runner/.nimble/pkgs/plugins-0.1.1/plugins_13478.nims
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/src/plugins/globals.nim
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/src/plugins/utils.nim
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/src/plugins/api.nim
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/src/plugins
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/src/plugins.nim
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/src
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/config
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/info/exclude
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/info
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/shallow
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/description
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/index
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/packed-refs
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/HEAD
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks/pre-push.sample
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks/update.sample
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks/post-update.sample
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/hooks
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/logs/HEAD
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/logs
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/branches
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/66/2d2531146322a154b9ea3f7d4ef7534ece03dd
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/66
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/71/f88e3795b66259ececa7ebba40d1664ba61776
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/71
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/33/d54d99cf67cc40ba0b18edded0c10e7ccd4759
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/33
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/info
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/7d/b276be5313c2407d5c8d649bd162ab2171985a
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/7d
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/97/618f51608732546ad63a0185b2546653813bde
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/97
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/e0/2243426ed0abaf05c2c1152feb7d8d463c92a3
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/e0
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/be/f8079785daa318c0d1e62c383dfba08c3aa6f4
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/be
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/03/3f63bf3484f7e3394786dee4e217e94e40cc4e
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/03
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/f1/a606313da07592907234f737d0de9ff39de2c7
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/f1
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/a7/ffb376dcd1b3a7bb07807a45ac38ca4ddf88e2
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/a7
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/pack
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/c9/86c9ef4faeec42d93e69dea0be14cef0ec0097
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/c9
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/1e/ea390a8bc42a99586522e4d40c36a055b799ea
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/1e
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/32/e6c400538f8634eabd24afefd5ef3a15076e49
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/32
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/0c/e047ce99b10412516316bb4264d27f3ba4ffa8
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/0c
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/9d/82e5ec8bb859c4692d1820b0a72792d5dad2c1
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/9d
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/09/6085d4aa431ba9d98c42938696f8899b990909
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/09
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/f6/e502efb9ee490f85adec5e3b2f37a24a1a1eae
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/f6
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/c0/56e84c620bfc32d9c4a5cdf0dac843b613a317
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/c0
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/74/85df409717a0b02357f0d12f42b0f16c3b316d
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/74
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/af/7b821c7fcedd90e3f334cbbe9eff33a1ef76e2
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects/af
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/objects
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/refs/heads
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/refs/tags
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git/refs
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.git
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.travis.yml
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/.gitignore
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/plugins.nimble
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/README.md
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/tests/config.nims
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/tests/tmain.nim
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/tests/test1/plg2.nim
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/tests/test1/config.nims
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/tests/test1/plg1.nim
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/tests/test1
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/tests
+  delete /tmp/nimble_13478/githubcom_genotranceplugins/LICENSE
+  delete /tmp/nimble_13478/githubcom_genotranceplugins
+  delete /tmp/nimble_13478
