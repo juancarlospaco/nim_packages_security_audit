@@ -1,70 +1,175 @@
     Reading official package list
 Downloading https://github.com/andreaferretti/rosencrantz using git
     Cloning latest tagged version: 0.4.3
-  Verifying dependencies for rosencrantz@0.4.3
- Installing rosencrantz@0.4.3
-    Copying file /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz.nim to /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz.nim
-    Copying file /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/jsonsupport.nim to /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/jsonsupport.nim
-    Copying file /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/handlers.nim to /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/handlers.nim
-    Copying file /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/corssupport.nim to /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/corssupport.nim
-    Copying file /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/headersupport.nim to /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/headersupport.nim
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_5859', 0x00000000000001ff)
-mkdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz', 0x00000000000001ff)
-rmdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz')
-mkdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz', 0x00000000000001ff)
-mkdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/HEAD.lock', '/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/HEAD')
-rename('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config.lock', '/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config')
-chmod('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config.lock', '/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config')
-chmod('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config.lock', '/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config')
-chmod('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config.lock', '/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/tssLht4')
-symlink('testing', '/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/tssLht4')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/tssLht4')
-mkdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config.lock', '/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config')
-chmod('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config.lock', '/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config')
-chmod('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config.lock', '/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config')
-link('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects/pack/tmp_pack_JVJQzD', '/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects/pack/pack-09b2d82b148d6eecbd87e193675a1b5dc3f065fc.pack')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects/pack/tmp_pack_JVJQzD')
-link('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects/pack/tmp_idx_zYbbe2', '/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects/pack/pack-09b2d82b148d6eecbd87e193675a1b5dc3f065fc.idx')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects/pack/tmp_idx_zYbbe2')
-rename('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/shallow.lock', '/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/shallow')
-rename('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/packed-refs.new', '/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/packed-refs')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/packed-refs.lock')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/refs/tags/0.4.3.lock')
-mkdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/HEAD.lock', '/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/HEAD')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects/pack/pack-09b2d82b148d6eecbd87e193675a1b5dc3f065fc.keep')
+mkdir('/tmp/nimble_6278', 0x00000000000001ff)
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz', 0x00000000000001ff)
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz', 0x00000000000001ff)
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/HEAD.lock', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/HEAD')
+rename('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config.lock', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config')
+chmod('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config.lock', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config')
+chmod('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config.lock', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config')
+chmod('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config.lock', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/tmtfQiz')
+symlink('testing', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/tmtfQiz')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/tmtfQiz')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config.lock', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config')
+chmod('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config.lock', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config')
+chmod('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config.lock', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/46', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/46/tmp_obj_XCbPO9', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/46/4ae0a64e6691005676c743902738fd4979ba22')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/46/tmp_obj_XCbPO9')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/5f', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/5f/tmp_obj_HCnbCe', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/5f/06da1565434dab0103e751487bbb79cf941975')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/5f/tmp_obj_HCnbCe')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/06', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/06/tmp_obj_vyuQlk', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/06/f104a45efb99db3d7407dbca7266287b243bae')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/06/tmp_obj_vyuQlk')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/07', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/07/tmp_obj_6IDJWc', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/07/9b9012e6efda82c5133a985f38b06aef84d64e')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/07/tmp_obj_6IDJWc')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/80', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/80/tmp_obj_qZMYej', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/80/acfe1514fddf581075683a314d626e0747ebbb')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/80/tmp_obj_qZMYej')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/59', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/59/tmp_obj_W7aL8m', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/59/e256757d1d996e8a21fd84436d7d733b2db36f')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/59/tmp_obj_W7aL8m')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dc', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dc/tmp_obj_cesYmp', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dc/62e9302ab9d475b35b62c7c9d1c5adca55381a')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dc/tmp_obj_cesYmp')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/83', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/83/tmp_obj_qDpQdv', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/83/7c634fdee8b254ea2af8e50acd6035099d9bd2')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/83/tmp_obj_qDpQdv')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/8d', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/8d/tmp_obj_SJj7Qy', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/8d/ada3edaf50dbc082c9a125058f25def75e625a')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/8d/tmp_obj_SJj7Qy')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/70', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/70/tmp_obj_q7wOQC', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/70/3c368538062069f187931ab69756f4ac504964')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/70/tmp_obj_q7wOQC')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/0e', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/0e/tmp_obj_AUjoSH', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/0e/fa9cf6ed54e344fd33a4184ddc95e4d88a5faa')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/0e/tmp_obj_AUjoSH')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/a6', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/a6/tmp_obj_GZ8n5O', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/a6/185521994653d9191c753e811096f9d3359f95')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/a6/tmp_obj_GZ8n5O')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/5a', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/5a/tmp_obj_IC6y2V', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/5a/24c4f2dd003a6b8f24744dcf38a5bb81d1f1ad')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/5a/tmp_obj_IC6y2V')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/ad', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/ad/tmp_obj_Qe4Kh2', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/ad/74c6bfaeb0ff6e71b861de4a823643adaff03f')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/ad/tmp_obj_Qe4Kh2')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/3b', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/3b/tmp_obj_UwigS9', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/3b/9462f0fa375daa5d736fc5f1b70074c1148639')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/3b/tmp_obj_UwigS9')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/6c', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/6c/tmp_obj_OvpJtk', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/6c/de873d3eeedde5270d5502c6526bcf74a27a57')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/6c/tmp_obj_OvpJtk')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/96', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/96/tmp_obj_Bw3TRi', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/96/0e58ee4c4468bb8ea115895c1a75e50f384357')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/96/tmp_obj_Bw3TRi')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/44', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/44/tmp_obj_9x33yp', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/44/d394d28eff41bef10c9331fb5b9d7842e5a671')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/44/tmp_obj_9x33yp')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/10', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/10/tmp_obj_ZU9dsw', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/10/137bd18552d57e336b6898c44b705a4f300e8e')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/10/tmp_obj_ZU9dsw')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/9a', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/9a/tmp_obj_nzeJ6z', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/9a/778deef167787a66a360841dbcbd18883c59b9')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/9a/tmp_obj_nzeJ6z')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/2c', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/2c/tmp_obj_1PKa6E', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/2c/a66163b155ba0171ba333a3f5c218689993c98')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/2c/tmp_obj_1PKa6E')
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/3b/tmp_obj_JO4cNK', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/3b/624adb8fb312441696ff61080cc0bf105e69a8')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/3b/tmp_obj_JO4cNK')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/9b', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/9b/tmp_obj_bTrBqM', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/9b/b459fa3114d38588aaaef3de45810ea9009625')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/9b/tmp_obj_bTrBqM')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/26', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/26/tmp_obj_JWgHcR', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/26/33e5afc24dda9e9d84be363640cdaa3343a834')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/26/tmp_obj_JWgHcR')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/d2', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/d2/tmp_obj_5l4YiX', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/d2/3f9da282e3d4d194714a9e0a2beb8ba0a04364')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/d2/tmp_obj_5l4YiX')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/7a', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/7a/tmp_obj_jh6ijZ', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/7a/892960d0a7306d4160976cce54d7eb1611ad70')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/7a/tmp_obj_jh6ijZ')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/60', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/60/tmp_obj_Vu9jw0', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/60/3d03f64302322aa4eee2e43f449273392e99af')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/60/tmp_obj_Vu9jw0')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/49', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/49/tmp_obj_1zS2L4', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/49/df2fde8206a864b669afe44fceaeb5bb8c9395')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/49/tmp_obj_1zS2L4')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dd', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dd/tmp_obj_pMkV2a', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dd/8b9d60d0534f2a1596c9d11beb37631f8ea61c')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dd/tmp_obj_pMkV2a')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/92', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/92/tmp_obj_b7oS7e', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/92/96550c76a7858fb6c11ffa66e4ac2b943cf986')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/92/tmp_obj_b7oS7e')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/b6', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/b6/tmp_obj_LXGoyk', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/b6/79136f44c97093c12f9832c981bd7670fd1179')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/b6/tmp_obj_LXGoyk')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/43', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/43/tmp_obj_slDUjg', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/43/a676f3c83fb11f2d7798d040ce5e7816989769')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/43/tmp_obj_slDUjg')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/a3', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/a3/tmp_obj_8Mu85h', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/a3/e1296c2b9639097a33c3753c62f37d5994d95d')  Verifying dependencies for rosencrantz@0.4.3
+ Installing rosencrantz@0.4.3
+    Copying file /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz.nim to /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz.nim
+    Copying file /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/formsupport.nim to /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/formsupport.nim
+    Copying file /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/headersupport.nim to /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/headersupport.nim
+    Copying file /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/corssupport.nim to /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/corssupport.nim
+    Copying file /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/staticsupport.nim to /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/staticsupport.nim
+    Copying file /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/custom.nim to /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/custom.nim
+    Copying file /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/jsonsupport.nim to /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/jsonsupport.nim
+    Copying file /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/streamingsupport.nim to /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/streamingsupport.nim
+    Copying file /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/handlers.nim to /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/handlers.nim
+    Copying file /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/core.nim to /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/core.nim
+    Copying file /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz.nimble to /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz.nimble
+   Success: rosencrantz installed successfully.
+
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/a3/tmp_obj_8Mu85h')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/81', 0x00000000000001ff)
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/81/tmp_obj_iQDRSm', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/81/22aa0476eab35b74aa0bf8561afd803120acc4')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/81/tmp_obj_iQDRSm')
+link('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dc/tmp_obj_yM3hos', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dc/75cdb0ecf5cca4277a88fc4cff4261cfde7778')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dc/tmp_obj_yM3hos')
+rename('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/shallow.lock', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/shallow')
+rename('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/packed-refs.new', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/packed-refs')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/packed-refs.lock')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/refs/tags/0.4.3.lock')
+mkdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/HEAD.lock', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/HEAD')
 mkdir('htmldocs', 0x00000000000001ff)
 mkdir('htmldocs/rosencrantz', 0x00000000000001ff)
 mkdir('rosencrantz', 0x00000000000001ff)
 mkdir('tests', 0x00000000000001ff)
-rename('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/index.lock', '/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/index')
+rename('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/index.lock', '/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/rosencrantz_3253529332', 0x00000000000001ff)
-unlink('/tmp/nimblecache/rosencrantz_3253529332/rosencrantz.ini')
-unlink('/tmp/nimble_5859.out')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz_5859.nims')
+mkdir('/tmp/nimblecache/rosencrantz_3664905343', 0x00000000000001ff)
+unlink('/tmp/nimblecache/rosencrantz_3664905343/rosencrantz.ini')
+unlink('/tmp/nimble_6278.out')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz_6278.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -82,14 +187,14 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/rosencrantz-0.4.3', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/jsonsupport.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/formsupport.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/rosencrantz-0.4.3', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/handlers.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/headersupport.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -103,21 +208,7 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/rosencrantz-0.4.3', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/headersupport.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)    Copying file /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/formsupport.nim to /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/formsupport.nim
-    Copying file /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/custom.nim to /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/custom.nim
-    Copying file /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/core.nim to /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/core.nim
-    Copying file /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/streamingsupport.nim to /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/streamingsupport.nim
-    Copying file /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/staticsupport.nim to /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/staticsupport.nim
-    Copying file /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz.nimble to /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz.nimble
-   Success: rosencrantz installed successfully.
-
-mkdir('/home/runner/.nimble/pkgs/rosencrantz-0.4.3', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/formsupport.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/staticsupport.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -131,7 +222,7 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/rosencrantz-0.4.3', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/core.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/jsonsupport.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -145,139 +236,310 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/rosencrantz-0.4.3', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/staticsupport.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/handlers.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/rosencrantz-0.4.3', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/core.nim', 0x00000000000001a4)
 chmod('/home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz.nimble', 0x00000000000001a4)
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/rosencrantz_1386748037', 0x00000000000001ff)
 unlink('/tmp/nimblecache/rosencrantz_1386748037/rosencrantz.ini')
-unlink('/tmp/nimble_5859.out')
-unlink('/home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz_5859.nims')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.gitignore')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz.nim')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz.nimble')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/LICENSE')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.gitattributes')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/HEAD')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/logs/HEAD')
-rmdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/logs')
-rmdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/branches')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/packed-refs')
-rmdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/refs/heads')
-rmdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/refs/tags')
-rmdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/refs')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks/update.sample')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/index')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/info/exclude')
-rmdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/info')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/shallow')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/description')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects/pack/pack-09b2d82b148d6eecbd87e193675a1b5dc3f065fc.idx')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects/pack/pack-09b2d82b148d6eecbd87e193675a1b5dc3f065fc.pack')
-rmdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects/pack')
-rmdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects/info')
-rmdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects')
-rmdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/shakespeare.jpg')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/test.sh')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/jsonsupport.nim')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/handlers.nim')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/corssupport.nim')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/headersupport.nim')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/formsupport.nim')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/custom.nim')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/core.nim')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/streamingsupport.nim')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/staticsupport.nim')
-rmdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/README.md')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz.html')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/handlers.html')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/headersupport.html')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/staticsupport.html')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/formsupport.html')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/custom.html')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/jsonsupport.html')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/corssupport.html')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/core.html')
-rmdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz')
-rmdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/htmldocs')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/tests/todo.nim')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/tests/client.nim')
-unlink('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/tests/server.nim')
-rmdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz/tests')
-rmdir('/tmp/nimble_5859/githubcom_andreaferrettirosencrantz')
-rmdir('/tmp/nimble_5859')
+unlink('/tmp/nimble_6278.out')
+unlink('/home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz_6278.nims')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/formsupport.nim')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/headersupport.nim')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/corssupport.nim')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/staticsupport.nim')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/custom.nim')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/jsonsupport.nim')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/streamingsupport.nim')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/handlers.nim')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/core.nim')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/README.md')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/refs/tags')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/refs/heads')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/refs')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/info/exclude')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/info')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/branches')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/logs/HEAD')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/logs')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/description')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks/update.sample')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/shallow')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/index')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/10/137bd18552d57e336b6898c44b705a4f300e8e')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/10')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/7a/892960d0a7306d4160976cce54d7eb1611ad70')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/7a')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/60/3d03f64302322aa4eee2e43f449273392e99af')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/60')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/info')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/a3/e1296c2b9639097a33c3753c62f37d5994d95d')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/a3')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/70/3c368538062069f187931ab69756f4ac504964')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/70')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/5f/06da1565434dab0103e751487bbb79cf941975')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/5f')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/9b/b459fa3114d38588aaaef3de45810ea9009625')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/9b')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/43/a676f3c83fb11f2d7798d040ce5e7816989769')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/43')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/81/22aa0476eab35b74aa0bf8561afd803120acc4')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/81')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/96/0e58ee4c4468bb8ea115895c1a75e50f384357')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/96')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/8d/ada3edaf50dbc082c9a125058f25def75e625a')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/8d')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/a6/185521994653d9191c753e811096f9d3359f95')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/a6')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/07/9b9012e6efda82c5133a985f38b06aef84d64e')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/07')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/80/acfe1514fddf581075683a314d626e0747ebbb')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/80')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/92/96550c76a7858fb6c11ffa66e4ac2b943cf986')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/92')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/59/e256757d1d996e8a21fd84436d7d733b2db36f')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/59')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/3b/624adb8fb312441696ff61080cc0bf105e69a8')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/3b/9462f0fa375daa5d736fc5f1b70074c1148639')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/3b')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/26/33e5afc24dda9e9d84be363640cdaa3343a834')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/26')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/ad/74c6bfaeb0ff6e71b861de4a823643adaff03f')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/ad')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/5a/24c4f2dd003a6b8f24744dcf38a5bb81d1f1ad')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/5a')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/9a/778deef167787a66a360841dbcbd18883c59b9')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/9a')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/49/df2fde8206a864b669afe44fceaeb5bb8c9395')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/49')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/b6/79136f44c97093c12f9832c981bd7670fd1179')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/b6')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/d2/3f9da282e3d4d194714a9e0a2beb8ba0a04364')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/d2')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/0e/fa9cf6ed54e344fd33a4184ddc95e4d88a5faa')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/0e')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dd/8b9d60d0534f2a1596c9d11beb37631f8ea61c')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dd')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/2c/a66163b155ba0171ba333a3f5c218689993c98')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/2c')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/pack')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/6c/de873d3eeedde5270d5502c6526bcf74a27a57')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/6c')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/06/f104a45efb99db3d7407dbca7266287b243bae')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/06')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/46/4ae0a64e6691005676c743902738fd4979ba22')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/46')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/44/d394d28eff41bef10c9331fb5b9d7842e5a671')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/44')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dc/62e9302ab9d475b35b62c7c9d1c5adca55381a')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dc/75cdb0ecf5cca4277a88fc4cff4261cfde7778')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dc')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/83/7c634fdee8b254ea2af8e50acd6035099d9bd2')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/83')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/packed-refs')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/HEAD')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/headersupport.html')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/formsupport.html')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/staticsupport.html')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/jsonsupport.html')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/corssupport.html')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/core.html')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/custom.html')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/handlers.html')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz.html')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/htmldocs')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz.nimble')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.gitattributes')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz.nim')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/tests/todo.nim')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/tests/server.nim')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/tests/client.nim')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/tests')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/shakespeare.jpg')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/test.sh')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.gitignore')
+unlink('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz/LICENSE')
+rmdir('/tmp/nimble_6278/githubcom_andreaferrettirosencrantz')
+rmdir('/tmp/nimble_6278')
   create directory /tmp
-  create directory /tmp/nimble_5859
-  create directory /tmp/nimble_5859/githubcom_andreaferrettirosencrantz
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz
-  create directory /tmp/nimble_5859/githubcom_andreaferrettirosencrantz
-  create directory /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git
-  create directory /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git
-  create directory /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/branches
-  create directory /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks
-  create directory /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/info
-  create directory /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/refs
-  create directory /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/refs/heads
-  create directory /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/refs/tags
-  rename /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config.lock to config
-  change permissions of /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config.lock to config
-  change permissions of /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config.lock to config
-  change permissions of /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config.lock to config
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/tssLht4
-  create symbolic link from /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/tssLht4 to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/tssLht4
-  create directory /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects
-  create directory /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects/pack
-  create directory /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects/info
-  change permissions of /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config.lock to config
-  change permissions of /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config.lock to config
-  change permissions of /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config.lock to config
-  create hard link from /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects/pack/pack-09b2d82b148d6eecbd87e193675a1b5dc3f065fc.pack to /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects/pack/tmp_pack_JVJQzD
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects/pack/tmp_pack_JVJQzD
-  create hard link from /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects/pack/pack-09b2d82b148d6eecbd87e193675a1b5dc3f065fc.idx to /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects/pack/tmp_idx_zYbbe2
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects/pack/tmp_idx_zYbbe2
-  rename /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/shallow.lock to shallow
-  rename /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/packed-refs.lock
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/refs/tags/0.4.3.lock
-  create directory /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/logs
-  rename /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects/pack/pack-09b2d82b148d6eecbd87e193675a1b5dc3f065fc.keep
-  create directory /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/htmldocs
-  create directory /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz
-  create directory /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz
-  create directory /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/tests
-  rename /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/index.lock to index
+  create directory /tmp/nimble_6278
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/info
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/branches
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/refs
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/refs/heads
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/refs/tags
+  rename /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config.lock to config
+  change permissions of /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config.lock to config
+  change permissions of /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config.lock to config
+  change permissions of /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config.lock to config
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/tmtfQiz
+  create symbolic link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/tmtfQiz to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/tmtfQiz
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/pack
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/info
+  change permissions of /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config.lock to config
+  change permissions of /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config.lock to config
+  change permissions of /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config.lock to config
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/46
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/46/4ae0a64e6691005676c743902738fd4979ba22 to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/46/tmp_obj_XCbPO9
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/46/tmp_obj_XCbPO9
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/5f
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/5f/06da1565434dab0103e751487bbb79cf941975 to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/5f/tmp_obj_HCnbCe
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/5f/tmp_obj_HCnbCe
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/06
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/06/f104a45efb99db3d7407dbca7266287b243bae to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/06/tmp_obj_vyuQlk
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/06/tmp_obj_vyuQlk
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/07
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/07/9b9012e6efda82c5133a985f38b06aef84d64e to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/07/tmp_obj_6IDJWc
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/07/tmp_obj_6IDJWc
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/80
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/80/acfe1514fddf581075683a314d626e0747ebbb to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/80/tmp_obj_qZMYej
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/80/tmp_obj_qZMYej
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/59
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/59/e256757d1d996e8a21fd84436d7d733b2db36f to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/59/tmp_obj_W7aL8m
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/59/tmp_obj_W7aL8m
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dc
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dc/62e9302ab9d475b35b62c7c9d1c5adca55381a to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dc/tmp_obj_cesYmp
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dc/tmp_obj_cesYmp
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/83
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/83/7c634fdee8b254ea2af8e50acd6035099d9bd2 to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/83/tmp_obj_qDpQdv
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/83/tmp_obj_qDpQdv
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/8d
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/8d/ada3edaf50dbc082c9a125058f25def75e625a to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/8d/tmp_obj_SJj7Qy
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/8d/tmp_obj_SJj7Qy
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/70
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/70/3c368538062069f187931ab69756f4ac504964 to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/70/tmp_obj_q7wOQC
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/70/tmp_obj_q7wOQC
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/0e
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/0e/fa9cf6ed54e344fd33a4184ddc95e4d88a5faa to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/0e/tmp_obj_AUjoSH
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/0e/tmp_obj_AUjoSH
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/a6
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/a6/185521994653d9191c753e811096f9d3359f95 to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/a6/tmp_obj_GZ8n5O
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/a6/tmp_obj_GZ8n5O
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/5a
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/5a/24c4f2dd003a6b8f24744dcf38a5bb81d1f1ad to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/5a/tmp_obj_IC6y2V
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/5a/tmp_obj_IC6y2V
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/ad
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/ad/74c6bfaeb0ff6e71b861de4a823643adaff03f to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/ad/tmp_obj_Qe4Kh2
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/ad/tmp_obj_Qe4Kh2
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/3b
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/3b/9462f0fa375daa5d736fc5f1b70074c1148639 to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/3b/tmp_obj_UwigS9
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/3b/tmp_obj_UwigS9
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/6c
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/6c/de873d3eeedde5270d5502c6526bcf74a27a57 to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/6c/tmp_obj_OvpJtk
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/6c/tmp_obj_OvpJtk
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/96
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/96/0e58ee4c4468bb8ea115895c1a75e50f384357 to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/96/tmp_obj_Bw3TRi
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/96/tmp_obj_Bw3TRi
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/44
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/44/d394d28eff41bef10c9331fb5b9d7842e5a671 to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/44/tmp_obj_9x33yp
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/44/tmp_obj_9x33yp
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/10
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/10/137bd18552d57e336b6898c44b705a4f300e8e to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/10/tmp_obj_ZU9dsw
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/10/tmp_obj_ZU9dsw
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/9a
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/9a/778deef167787a66a360841dbcbd18883c59b9 to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/9a/tmp_obj_nzeJ6z
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/9a/tmp_obj_nzeJ6z
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/2c
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/2c/a66163b155ba0171ba333a3f5c218689993c98 to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/2c/tmp_obj_1PKa6E
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/2c/tmp_obj_1PKa6E
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/3b/624adb8fb312441696ff61080cc0bf105e69a8 to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/3b/tmp_obj_JO4cNK
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/3b/tmp_obj_JO4cNK
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/9b
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/9b/b459fa3114d38588aaaef3de45810ea9009625 to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/9b/tmp_obj_bTrBqM
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/9b/tmp_obj_bTrBqM
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/26
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/26/33e5afc24dda9e9d84be363640cdaa3343a834 to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/26/tmp_obj_JWgHcR
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/26/tmp_obj_JWgHcR
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/d2
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/d2/3f9da282e3d4d194714a9e0a2beb8ba0a04364 to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/d2/tmp_obj_5l4YiX
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/d2/tmp_obj_5l4YiX
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/7a
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/7a/892960d0a7306d4160976cce54d7eb1611ad70 to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/7a/tmp_obj_jh6ijZ
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/7a/tmp_obj_jh6ijZ
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/60
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/60/3d03f64302322aa4eee2e43f449273392e99af to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/60/tmp_obj_Vu9jw0
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/60/tmp_obj_Vu9jw0
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/49
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/49/df2fde8206a864b669afe44fceaeb5bb8c9395 to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/49/tmp_obj_1zS2L4
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/49/tmp_obj_1zS2L4
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dd
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dd/8b9d60d0534f2a1596c9d11beb37631f8ea61c to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dd/tmp_obj_pMkV2a
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dd/tmp_obj_pMkV2a
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/92
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/92/96550c76a7858fb6c11ffa66e4ac2b943cf986 to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/92/tmp_obj_b7oS7e
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/92/tmp_obj_b7oS7e
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/b6
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/b6/79136f44c97093c12f9832c981bd7670fd1179 to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/b6/tmp_obj_LXGoyk
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/b6/tmp_obj_LXGoyk
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/43
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/43/a676f3c83fb11f2d7798d040ce5e7816989769 to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/43/tmp_obj_slDUjg
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/43/tmp_obj_slDUjg
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/a3
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/a3/e1296c2b9639097a33c3753c62f37d5994d95d to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/a3/tmp_obj_8Mu85h
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/a3/tmp_obj_8Mu85h
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/81
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/81/22aa0476eab35b74aa0bf8561afd803120acc4 to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/81/tmp_obj_iQDRSm
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/81/tmp_obj_iQDRSm
+  create hard link from /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dc/75cdb0ecf5cca4277a88fc4cff4261cfde7778 to /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dc/tmp_obj_yM3hos
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dc/tmp_obj_yM3hos
+  rename /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/shallow.lock to shallow
+  rename /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/packed-refs.lock
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/refs/tags/0.4.3.lock
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/logs
+  rename /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/htmldocs
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz
+  create directory /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/tests
+  rename /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/rosencrantz_3253529332
-  delete /tmp/nimblecache/rosencrantz_3253529332/rosencrantz.ini
-  delete /tmp/nimble_5859.out
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz_5859.nims
+  create directory /tmp/nimblecache/rosencrantz_3664905343
+  delete /tmp/nimblecache/rosencrantz_3664905343/rosencrantz.ini
+  delete /tmp/nimble_6278.out
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz_6278.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -295,21 +557,7 @@ rmdir('/tmp/nimble_5859')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/rosencrantz-0.4.3
   create directory /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz
-  change permissions of /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/jsonsupport.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/rosencrantz-0.4.3
-  create directory /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz
-  change permissions of /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/handlers.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/rosencrantz-0.4.3
-  create directory /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz
-  change permissions of /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/corssupport.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/formsupport.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -323,7 +571,14 @@ rmdir('/tmp/nimble_5859')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/rosencrantz-0.4.3
   create directory /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz
-  change permissions of /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/formsupport.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/corssupport.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/rosencrantz-0.4.3
+  create directory /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz
+  change permissions of /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/staticsupport.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -337,7 +592,7 @@ rmdir('/tmp/nimble_5859')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/rosencrantz-0.4.3
   create directory /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz
-  change permissions of /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/core.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/jsonsupport.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -351,79 +606,152 @@ rmdir('/tmp/nimble_5859')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/rosencrantz-0.4.3
   create directory /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz
-  change permissions of /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/staticsupport.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/handlers.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/rosencrantz-0.4.3
+  create directory /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz
+  change permissions of /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz/core.nim to rw-r--r--
   change permissions of /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz.nimble to rw-r--r--
   create directory /tmp
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/rosencrantz_1386748037
   delete /tmp/nimblecache/rosencrantz_1386748037/rosencrantz.ini
-  delete /tmp/nimble_5859.out
-  delete /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz_5859.nims
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.gitignore
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz.nim
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz.nimble
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/LICENSE
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.gitattributes
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/HEAD
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/config
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/logs/HEAD
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/logs
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/branches
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/packed-refs
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/refs/heads
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/refs/tags
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/refs
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks/pre-push.sample
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks/update.sample
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks/post-update.sample
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/hooks
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/index
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/info/exclude
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/info
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/shallow
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/description
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects/pack/pack-09b2d82b148d6eecbd87e193675a1b5dc3f065fc.idx
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects/pack/pack-09b2d82b148d6eecbd87e193675a1b5dc3f065fc.pack
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects/pack
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects/info
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git/objects
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/.git
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/shakespeare.jpg
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/test.sh
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/jsonsupport.nim
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/handlers.nim
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/corssupport.nim
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/headersupport.nim
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/formsupport.nim
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/custom.nim
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/core.nim
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/streamingsupport.nim
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz/staticsupport.nim
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/rosencrantz
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/README.md
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz.html
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/handlers.html
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/headersupport.html
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/staticsupport.html
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/formsupport.html
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/custom.html
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/jsonsupport.html
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/corssupport.html
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/core.html
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/htmldocs
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/tests/todo.nim
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/tests/client.nim
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/tests/server.nim
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz/tests
-  delete /tmp/nimble_5859/githubcom_andreaferrettirosencrantz
-  delete /tmp/nimble_5859
+  delete /tmp/nimble_6278.out
+  delete /home/runner/.nimble/pkgs/rosencrantz-0.4.3/rosencrantz_6278.nims
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/formsupport.nim
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/headersupport.nim
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/corssupport.nim
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/staticsupport.nim
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/custom.nim
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/jsonsupport.nim
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/streamingsupport.nim
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/handlers.nim
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz/core.nim
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/README.md
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/refs/tags
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/refs/heads
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/refs
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/info/exclude
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/info
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/branches
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/logs/HEAD
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/logs
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/description
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks/pre-push.sample
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks/update.sample
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks/post-update.sample
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/hooks
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/shallow
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/config
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/index
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/10/137bd18552d57e336b6898c44b705a4f300e8e
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/10
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/7a/892960d0a7306d4160976cce54d7eb1611ad70
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/7a
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/60/3d03f64302322aa4eee2e43f449273392e99af
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/60
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/info
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/a3/e1296c2b9639097a33c3753c62f37d5994d95d
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/a3
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/70/3c368538062069f187931ab69756f4ac504964
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/70
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/5f/06da1565434dab0103e751487bbb79cf941975
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/5f
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/9b/b459fa3114d38588aaaef3de45810ea9009625
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/9b
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/43/a676f3c83fb11f2d7798d040ce5e7816989769
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/43
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/81/22aa0476eab35b74aa0bf8561afd803120acc4
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/81
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/96/0e58ee4c4468bb8ea115895c1a75e50f384357
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/96
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/8d/ada3edaf50dbc082c9a125058f25def75e625a
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/8d
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/a6/185521994653d9191c753e811096f9d3359f95
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/a6
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/07/9b9012e6efda82c5133a985f38b06aef84d64e
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/07
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/80/acfe1514fddf581075683a314d626e0747ebbb
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/80
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/92/96550c76a7858fb6c11ffa66e4ac2b943cf986
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/92
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/59/e256757d1d996e8a21fd84436d7d733b2db36f
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/59
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/3b/624adb8fb312441696ff61080cc0bf105e69a8
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/3b/9462f0fa375daa5d736fc5f1b70074c1148639
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/3b
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/26/33e5afc24dda9e9d84be363640cdaa3343a834
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/26
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/ad/74c6bfaeb0ff6e71b861de4a823643adaff03f
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/ad
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/5a/24c4f2dd003a6b8f24744dcf38a5bb81d1f1ad
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/5a
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/9a/778deef167787a66a360841dbcbd18883c59b9
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/9a
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/49/df2fde8206a864b669afe44fceaeb5bb8c9395
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/49
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/b6/79136f44c97093c12f9832c981bd7670fd1179
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/b6
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/d2/3f9da282e3d4d194714a9e0a2beb8ba0a04364
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/d2
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/0e/fa9cf6ed54e344fd33a4184ddc95e4d88a5faa
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/0e
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dd/8b9d60d0534f2a1596c9d11beb37631f8ea61c
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dd
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/2c/a66163b155ba0171ba333a3f5c218689993c98
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/2c
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/pack
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/6c/de873d3eeedde5270d5502c6526bcf74a27a57
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/6c
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/06/f104a45efb99db3d7407dbca7266287b243bae
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/06
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/46/4ae0a64e6691005676c743902738fd4979ba22
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/46
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/44/d394d28eff41bef10c9331fb5b9d7842e5a671
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/44
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dc/62e9302ab9d475b35b62c7c9d1c5adca55381a
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dc/75cdb0ecf5cca4277a88fc4cff4261cfde7778
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/dc
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/83/7c634fdee8b254ea2af8e50acd6035099d9bd2
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects/83
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/objects
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/packed-refs
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git/HEAD
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.git
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/headersupport.html
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/formsupport.html
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/staticsupport.html
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/jsonsupport.html
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/corssupport.html
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/core.html
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/custom.html
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz/handlers.html
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/htmldocs/rosencrantz.html
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/htmldocs
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz.nimble
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.gitattributes
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/rosencrantz.nim
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/tests/todo.nim
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/tests/server.nim
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/tests/client.nim
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/tests
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/shakespeare.jpg
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/test.sh
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/.gitignore
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz/LICENSE
+  delete /tmp/nimble_6278/githubcom_andreaferrettirosencrantz
+  delete /tmp/nimble_6278

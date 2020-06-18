@@ -1,67 +1,110 @@
     Reading official package list
 Downloading https://github.com/nim-lang/redis using git
     Cloning latest tagged version: v0.3.0
-  Verifying dependencies for redis@0.3.0
- Installing redis@0.3.0
-    Copying file /tmp/nimble_3889/githubcom_nimlangredis/src/redis.nim to /home/runner/.nimble/pkgs/redis-0.3.0/redis.nim
-    Copying file /tmp/nimble_3889/githubcom_nimlangredis/redis.nimble to /home/runner/.nimble/pkgs/redis-0.3.0/redis.nimble
-   Success: redis installed successfully.
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_3889', 0x00000000000001ff)
-mkdir('/tmp/nimble_3889/githubcom_nimlangredis', 0x00000000000001ff)
-rmdir('/tmp/nimble_3889/githubcom_nimlangredis')
-mkdir('/tmp/nimble_3889/githubcom_nimlangredis', 0x00000000000001ff)
-mkdir('/tmp/nimble_3889/githubcom_nimlangredis/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_3889/githubcom_nimlangredis/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3889/githubcom_nimlangredis/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3889/githubcom_nimlangredis/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3889/githubcom_nimlangredis/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3889/githubcom_nimlangredis/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_3889/githubcom_nimlangredis/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_3889/githubcom_nimlangredis/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_3889/githubcom_nimlangredis/.git/HEAD.lock', '/tmp/nimble_3889/githubcom_nimlangredis/.git/HEAD')
-rename('/tmp/nimble_3889/githubcom_nimlangredis/.git/config.lock', '/tmp/nimble_3889/githubcom_nimlangredis/.git/config')
-chmod('/tmp/nimble_3889/githubcom_nimlangredis/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_3889/githubcom_nimlangredis/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_3889/githubcom_nimlangredis/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3889/githubcom_nimlangredis/.git/config.lock', '/tmp/nimble_3889/githubcom_nimlangredis/.git/config')
-chmod('/tmp/nimble_3889/githubcom_nimlangredis/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3889/githubcom_nimlangredis/.git/config.lock', '/tmp/nimble_3889/githubcom_nimlangredis/.git/config')
-chmod('/tmp/nimble_3889/githubcom_nimlangredis/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3889/githubcom_nimlangredis/.git/config.lock', '/tmp/nimble_3889/githubcom_nimlangredis/.git/config')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/t4g3MaQ')
-symlink('testing', '/tmp/nimble_3889/githubcom_nimlangredis/.git/t4g3MaQ')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/t4g3MaQ')
-mkdir('/tmp/nimble_3889/githubcom_nimlangredis/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_3889/githubcom_nimlangredis/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_3889/githubcom_nimlangredis/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_3889/githubcom_nimlangredis/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3889/githubcom_nimlangredis/.git/config.lock', '/tmp/nimble_3889/githubcom_nimlangredis/.git/config')
-chmod('/tmp/nimble_3889/githubcom_nimlangredis/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3889/githubcom_nimlangredis/.git/config.lock', '/tmp/nimble_3889/githubcom_nimlangredis/.git/config')
-chmod('/tmp/nimble_3889/githubcom_nimlangredis/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3889/githubcom_nimlangredis/.git/config.lock', '/tmp/nimble_3889/githubcom_nimlangredis/.git/config')
-link('/tmp/nimble_3889/githubcom_nimlangredis/.git/objects/pack/tmp_pack_GTSUPJ', '/tmp/nimble_3889/githubcom_nimlangredis/.git/objects/pack/pack-3b08c96c97b8df0cf44fd8ef74c6db25565cb687.pack')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/objects/pack/tmp_pack_GTSUPJ')
-link('/tmp/nimble_3889/githubcom_nimlangredis/.git/objects/pack/tmp_idx_sWtR7V', '/tmp/nimble_3889/githubcom_nimlangredis/.git/objects/pack/pack-3b08c96c97b8df0cf44fd8ef74c6db25565cb687.idx')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/objects/pack/tmp_idx_sWtR7V')
-rename('/tmp/nimble_3889/githubcom_nimlangredis/.git/shallow.lock', '/tmp/nimble_3889/githubcom_nimlangredis/.git/shallow')
-rename('/tmp/nimble_3889/githubcom_nimlangredis/.git/packed-refs.new', '/tmp/nimble_3889/githubcom_nimlangredis/.git/packed-refs')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/packed-refs.lock')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/refs/tags/v0.3.0.lock')
-mkdir('/tmp/nimble_3889/githubcom_nimlangredis/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_3889/githubcom_nimlangredis/.git/HEAD.lock', '/tmp/nimble_3889/githubcom_nimlangredis/.git/HEAD')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/objects/pack/pack-3b08c96c97b8df0cf44fd8ef74c6db25565cb687.keep')
+mkdir('/tmp/nimble_4303', 0x00000000000001ff)
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis', 0x00000000000001ff)
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis')
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis', 0x00000000000001ff)
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_4303/githubcom_nimlangredis/.git/HEAD.lock', '/tmp/nimble_4303/githubcom_nimlangredis/.git/HEAD')
+rename('/tmp/nimble_4303/githubcom_nimlangredis/.git/config.lock', '/tmp/nimble_4303/githubcom_nimlangredis/.git/config')
+chmod('/tmp/nimble_4303/githubcom_nimlangredis/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_4303/githubcom_nimlangredis/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_4303/githubcom_nimlangredis/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4303/githubcom_nimlangredis/.git/config.lock', '/tmp/nimble_4303/githubcom_nimlangredis/.git/config')
+chmod('/tmp/nimble_4303/githubcom_nimlangredis/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4303/githubcom_nimlangredis/.git/config.lock', '/tmp/nimble_4303/githubcom_nimlangredis/.git/config')
+chmod('/tmp/nimble_4303/githubcom_nimlangredis/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4303/githubcom_nimlangredis/.git/config.lock', '/tmp/nimble_4303/githubcom_nimlangredis/.git/config')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/thU84rB')
+symlink('testing', '/tmp/nimble_4303/githubcom_nimlangredis/.git/thU84rB')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/thU84rB')
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_4303/githubcom_nimlangredis/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4303/githubcom_nimlangredis/.git/config.lock', '/tmp/nimble_4303/githubcom_nimlangredis/.git/config')
+chmod('/tmp/nimble_4303/githubcom_nimlangredis/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4303/githubcom_nimlangredis/.git/config.lock', '/tmp/nimble_4303/githubcom_nimlangredis/.git/config')
+chmod('/tmp/nimble_4303/githubcom_nimlangredis/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4303/githubcom_nimlangredis/.git/config.lock', '/tmp/nimble_4303/githubcom_nimlangredis/.git/config')
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/f1', 0x00000000000001ff)
+link('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/f1/tmp_obj_yi4gn5', '/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/f1/d67f91638340e5a7bc24fc6243ad769cf63455')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/f1/tmp_obj_yi4gn5')
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/5b', 0x00000000000001ff)
+link('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/5b/tmp_obj_CCNlqa', '/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/5b/66c1c228daa1fa56a063fba53d28356f601854')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/5b/tmp_obj_CCNlqa')
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/85', 0x00000000000001ff)
+link('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/85/tmp_obj_UtK6uf', '/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/85/00a0572023516b1997ea7fa5e7d64a060d770f')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/85/tmp_obj_UtK6uf')
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/e0', 0x00000000000001ff)
+link('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/e0/tmp_obj_WOS5Yg', '/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/e0/14135caf4bf8ca7080ae936bee9b495a2c7099')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/e0/tmp_obj_WOS5Yg')
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/87', 0x00000000000001ff)
+link('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/87/tmp_obj_FTnKDe', '/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/87/d28d4302cda0ca9bcc8e44b766ca373b3b9ba0')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/87/tmp_obj_FTnKDe')
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/ba', 0x00000000000001ff)
+link('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/ba/tmp_obj_9i5ppj', '/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/ba/1866e93c9ca45ccc8aded629d9fd19f0be0c39')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/ba/tmp_obj_9i5ppj')
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/4c', 0x00000000000001ff)
+link('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/4c/tmp_obj_FFY6rk', '/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/4c/a2cb2cfbd512ba04a4ef974ce2d3496e53125a')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/4c/tmp_obj_FFY6rk')
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/0e', 0x00000000000001ff)
+link('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/0e/tmp_obj_Pq6Jvo', '/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/0e/6f1e365e3992fa7e56b2a5df813c272ec3ed4f')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/0e/tmp_obj_Pq6Jvo')
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/19', 0x00000000000001ff)
+link('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/19/tmp_obj_DMalVu', '/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/19/71a23cb0a89192d05050a5d5db02d768650b11')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/19/tmp_obj_DMalVu')
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/75', 0x00000000000001ff)
+link('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/75/tmp_obj_PE5Law', '/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/75/00fd6eeb649f89c4f7e95cab99ceab2dc2f7bc')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/75/tmp_obj_PE5Law')
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/df', 0x00000000000001ff)
+link('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/df/tmp_obj_1ynYaA', '/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/df/66ab2f8389e7177f2f4b737b5cecef25c3cd1c')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/df/tmp_obj_1ynYaA')
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/8d', 0x00000000000001ff)
+link('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/8d/tmp_obj_7ddZqG', '/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/8d/d3d044c11f49128f5bf9a27e7a886c7cac5dda')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/8d/tmp_obj_7ddZqG')
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/7a', 0x00000000000001ff)
+link('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/7a/tmp_obj_FTJXmJ', '/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/7a/4db998186b2a971b98b074649627f5c7cfd0b1')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/7a/tmp_obj_FTJXmJ')
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/d5', 0x00000000000001ff)
+link('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/d5/tmp_obj_Z14qGO', '/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/d5/a265d41f441e06c5d76edc234f4cf8a0a5950c')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/d5/tmp_obj_Z14qGO')
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/86', 0x00000000000001ff)
+link('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/86/tmp_obj_JzmJCT', '/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/86/c5998b0642d750f991114b1ac188e9551d7308')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/86/tmp_obj_JzmJCT')
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/ec', 0x00000000000001ff)  Verifying dependencies for redis@0.3.0
+ Installing redis@0.3.0
+    Copying file /tmp/nimble_4303/githubcom_nimlangredis/src/redis.nim to /home/runner/.nimble/pkgs/redis-0.3.0/redis.nim
+    Copying file /tmp/nimble_4303/githubcom_nimlangredis/redis.nimble to /home/runner/.nimble/pkgs/redis-0.3.0/redis.nimble
+   Success: redis installed successfully.
+
+link('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/ec/tmp_obj_DGfxxY', '/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/ec/3aef4df3343931fcf960ea25811b05b49c629e')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/ec/tmp_obj_DGfxxY')
+rename('/tmp/nimble_4303/githubcom_nimlangredis/.git/shallow.lock', '/tmp/nimble_4303/githubcom_nimlangredis/.git/shallow')
+rename('/tmp/nimble_4303/githubcom_nimlangredis/.git/packed-refs.new', '/tmp/nimble_4303/githubcom_nimlangredis/.git/packed-refs')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/packed-refs.lock')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/refs/tags/v0.3.0.lock')
+mkdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_4303/githubcom_nimlangredis/.git/HEAD.lock', '/tmp/nimble_4303/githubcom_nimlangredis/.git/HEAD')
 mkdir('.circleci', 0x00000000000001ff)
 mkdir('src', 0x00000000000001ff)
 mkdir('tests', 0x00000000000001ff)
-rename('/tmp/nimble_3889/githubcom_nimlangredis/.git/index.lock', '/tmp/nimble_3889/githubcom_nimlangredis/.git/index')
+rename('/tmp/nimble_4303/githubcom_nimlangredis/.git/index.lock', '/tmp/nimble_4303/githubcom_nimlangredis/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/redis_3457204526', 0x00000000000001ff)
-unlink('/tmp/nimblecache/redis_3457204526/redis.ini')
-unlink('/tmp/nimble_3889.out')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/redis_3889.nims')
+mkdir('/tmp/nimblecache/redis_3390402646', 0x00000000000001ff)
+unlink('/tmp/nimblecache/redis_3390402646/redis.ini')
+unlink('/tmp/nimble_4303.out')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/redis_4303.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -78,112 +121,185 @@ mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/redis_3607102069', 0x00000000000001ff)
 unlink('/tmp/nimblecache/redis_3607102069/redis.ini')
-unlink('/tmp/nimble_3889.out')
-unlink('/home/runner/.nimble/pkgs/redis-0.3.0/redis_3889.nims')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/copying.txt')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/src/redis.nim')
-rmdir('/tmp/nimble_3889/githubcom_nimlangredis/src')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.editorconfig')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.gitignore')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.circleci/config.yml')
-rmdir('/tmp/nimble_3889/githubcom_nimlangredis/.circleci')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/redis.nimble')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/HEAD')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/config')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/logs/HEAD')
-rmdir('/tmp/nimble_3889/githubcom_nimlangredis/.git/logs')
-rmdir('/tmp/nimble_3889/githubcom_nimlangredis/.git/branches')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/packed-refs')
-rmdir('/tmp/nimble_3889/githubcom_nimlangredis/.git/refs/heads')
-rmdir('/tmp/nimble_3889/githubcom_nimlangredis/.git/refs/tags')
-rmdir('/tmp/nimble_3889/githubcom_nimlangredis/.git/refs')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/hooks/update.sample')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_3889/githubcom_nimlangredis/.git/hooks')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/index')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/info/exclude')
-rmdir('/tmp/nimble_3889/githubcom_nimlangredis/.git/info')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/shallow')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/description')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/objects/pack/pack-3b08c96c97b8df0cf44fd8ef74c6db25565cb687.idx')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/.git/objects/pack/pack-3b08c96c97b8df0cf44fd8ef74c6db25565cb687.pack')
-rmdir('/tmp/nimble_3889/githubcom_nimlangredis/.git/objects/pack')
-rmdir('/tmp/nimble_3889/githubcom_nimlangredis/.git/objects/info')
-rmdir('/tmp/nimble_3889/githubcom_nimlangredis/.git/objects')
-rmdir('/tmp/nimble_3889/githubcom_nimlangredis/.git')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/readme.md')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/tests/main.nim')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/tests/tawaitorder.nim')
-unlink('/tmp/nimble_3889/githubcom_nimlangredis/tests/nim.cfg')
-rmdir('/tmp/nimble_3889/githubcom_nimlangredis/tests')
-rmdir('/tmp/nimble_3889/githubcom_nimlangredis')
-rmdir('/tmp/nimble_3889')
+unlink('/tmp/nimble_4303.out')
+unlink('/home/runner/.nimble/pkgs/redis-0.3.0/redis_4303.nims')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/refs/tags')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/refs/heads')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/refs')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/info/exclude')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/info')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/branches')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/logs/HEAD')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/logs')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/description')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/hooks/update.sample')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/hooks')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/shallow')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/config')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/index')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/7a/4db998186b2a971b98b074649627f5c7cfd0b1')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/7a')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/e0/14135caf4bf8ca7080ae936bee9b495a2c7099')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/e0')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/ec/3aef4df3343931fcf960ea25811b05b49c629e')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/ec')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/19/71a23cb0a89192d05050a5d5db02d768650b11')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/19')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/info')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/87/d28d4302cda0ca9bcc8e44b766ca373b3b9ba0')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/87')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/5b/66c1c228daa1fa56a063fba53d28356f601854')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/5b')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/85/00a0572023516b1997ea7fa5e7d64a060d770f')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/85')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/df/66ab2f8389e7177f2f4b737b5cecef25c3cd1c')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/df')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/8d/d3d044c11f49128f5bf9a27e7a886c7cac5dda')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/8d')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/f1/d67f91638340e5a7bc24fc6243ad769cf63455')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/f1')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/86/c5998b0642d750f991114b1ac188e9551d7308')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/86')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/0e/6f1e365e3992fa7e56b2a5df813c272ec3ed4f')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/0e')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/ba/1866e93c9ca45ccc8aded629d9fd19f0be0c39')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/ba')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/75/00fd6eeb649f89c4f7e95cab99ceab2dc2f7bc')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/75')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/pack')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/4c/a2cb2cfbd512ba04a4ef974ce2d3496e53125a')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/4c')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/d5/a265d41f441e06c5d76edc234f4cf8a0a5950c')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects/d5')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git/objects')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/packed-refs')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.git/HEAD')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.git')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.circleci/config.yml')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/.circleci')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/src/redis.nim')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/src')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/copying.txt')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/readme.md')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.editorconfig')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/redis.nimble')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/tests/nim.cfg')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/tests/tawaitorder.nim')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/tests/main.nim')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis/tests')
+unlink('/tmp/nimble_4303/githubcom_nimlangredis/.gitignore')
+rmdir('/tmp/nimble_4303/githubcom_nimlangredis')
+rmdir('/tmp/nimble_4303')
   create directory /tmp
-  create directory /tmp/nimble_3889
-  create directory /tmp/nimble_3889/githubcom_nimlangredis
-  delete /tmp/nimble_3889/githubcom_nimlangredis
-  create directory /tmp/nimble_3889/githubcom_nimlangredis
-  create directory /tmp/nimble_3889/githubcom_nimlangredis/.git
-  create directory /tmp/nimble_3889/githubcom_nimlangredis/.git
-  create directory /tmp/nimble_3889/githubcom_nimlangredis/.git/branches
-  create directory /tmp/nimble_3889/githubcom_nimlangredis/.git/hooks
-  create directory /tmp/nimble_3889/githubcom_nimlangredis/.git/info
-  create directory /tmp/nimble_3889/githubcom_nimlangredis/.git/refs
-  create directory /tmp/nimble_3889/githubcom_nimlangredis/.git/refs/heads
-  create directory /tmp/nimble_3889/githubcom_nimlangredis/.git/refs/tags
-  rename /tmp/nimble_3889/githubcom_nimlangredis/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_3889/githubcom_nimlangredis/.git/config.lock to config
-  change permissions of /tmp/nimble_3889/githubcom_nimlangredis/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_3889/githubcom_nimlangredis/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_3889/githubcom_nimlangredis/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3889/githubcom_nimlangredis/.git/config.lock to config
-  change permissions of /tmp/nimble_3889/githubcom_nimlangredis/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3889/githubcom_nimlangredis/.git/config.lock to config
-  change permissions of /tmp/nimble_3889/githubcom_nimlangredis/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3889/githubcom_nimlangredis/.git/config.lock to config
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/t4g3MaQ
-  create symbolic link from /tmp/nimble_3889/githubcom_nimlangredis/.git/t4g3MaQ to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/t4g3MaQ
-  create directory /tmp/nimble_3889/githubcom_nimlangredis/.git/objects
-  create directory /tmp/nimble_3889/githubcom_nimlangredis/.git/objects/pack
-  create directory /tmp/nimble_3889/githubcom_nimlangredis/.git/objects/info
-  change permissions of /tmp/nimble_3889/githubcom_nimlangredis/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3889/githubcom_nimlangredis/.git/config.lock to config
-  change permissions of /tmp/nimble_3889/githubcom_nimlangredis/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3889/githubcom_nimlangredis/.git/config.lock to config
-  change permissions of /tmp/nimble_3889/githubcom_nimlangredis/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3889/githubcom_nimlangredis/.git/config.lock to config
-  create hard link from /tmp/nimble_3889/githubcom_nimlangredis/.git/objects/pack/pack-3b08c96c97b8df0cf44fd8ef74c6db25565cb687.pack to /tmp/nimble_3889/githubcom_nimlangredis/.git/objects/pack/tmp_pack_GTSUPJ
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/objects/pack/tmp_pack_GTSUPJ
-  create hard link from /tmp/nimble_3889/githubcom_nimlangredis/.git/objects/pack/pack-3b08c96c97b8df0cf44fd8ef74c6db25565cb687.idx to /tmp/nimble_3889/githubcom_nimlangredis/.git/objects/pack/tmp_idx_sWtR7V
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/objects/pack/tmp_idx_sWtR7V
-  rename /tmp/nimble_3889/githubcom_nimlangredis/.git/shallow.lock to shallow
-  rename /tmp/nimble_3889/githubcom_nimlangredis/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/packed-refs.lock
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/refs/tags/v0.3.0.lock
-  create directory /tmp/nimble_3889/githubcom_nimlangredis/.git/logs
-  rename /tmp/nimble_3889/githubcom_nimlangredis/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/objects/pack/pack-3b08c96c97b8df0cf44fd8ef74c6db25565cb687.keep
-  create directory /tmp/nimble_3889/githubcom_nimlangredis/.circleci
-  create directory /tmp/nimble_3889/githubcom_nimlangredis/src
-  create directory /tmp/nimble_3889/githubcom_nimlangredis/tests
-  rename /tmp/nimble_3889/githubcom_nimlangredis/.git/index.lock to index
+  create directory /tmp/nimble_4303
+  create directory /tmp/nimble_4303/githubcom_nimlangredis
+  delete /tmp/nimble_4303/githubcom_nimlangredis
+  create directory /tmp/nimble_4303/githubcom_nimlangredis
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git/info
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git/branches
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git/hooks
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git/refs
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git/refs/heads
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git/refs/tags
+  rename /tmp/nimble_4303/githubcom_nimlangredis/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_4303/githubcom_nimlangredis/.git/config.lock to config
+  change permissions of /tmp/nimble_4303/githubcom_nimlangredis/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_4303/githubcom_nimlangredis/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_4303/githubcom_nimlangredis/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4303/githubcom_nimlangredis/.git/config.lock to config
+  change permissions of /tmp/nimble_4303/githubcom_nimlangredis/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4303/githubcom_nimlangredis/.git/config.lock to config
+  change permissions of /tmp/nimble_4303/githubcom_nimlangredis/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4303/githubcom_nimlangredis/.git/config.lock to config
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/thU84rB
+  create symbolic link from /tmp/nimble_4303/githubcom_nimlangredis/.git/thU84rB to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/thU84rB
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git/objects
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/pack
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/info
+  change permissions of /tmp/nimble_4303/githubcom_nimlangredis/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4303/githubcom_nimlangredis/.git/config.lock to config
+  change permissions of /tmp/nimble_4303/githubcom_nimlangredis/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4303/githubcom_nimlangredis/.git/config.lock to config
+  change permissions of /tmp/nimble_4303/githubcom_nimlangredis/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4303/githubcom_nimlangredis/.git/config.lock to config
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/f1
+  create hard link from /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/f1/d67f91638340e5a7bc24fc6243ad769cf63455 to /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/f1/tmp_obj_yi4gn5
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/f1/tmp_obj_yi4gn5
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/5b
+  create hard link from /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/5b/66c1c228daa1fa56a063fba53d28356f601854 to /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/5b/tmp_obj_CCNlqa
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/5b/tmp_obj_CCNlqa
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/85
+  create hard link from /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/85/00a0572023516b1997ea7fa5e7d64a060d770f to /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/85/tmp_obj_UtK6uf
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/85/tmp_obj_UtK6uf
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/e0
+  create hard link from /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/e0/14135caf4bf8ca7080ae936bee9b495a2c7099 to /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/e0/tmp_obj_WOS5Yg
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/e0/tmp_obj_WOS5Yg
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/87
+  create hard link from /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/87/d28d4302cda0ca9bcc8e44b766ca373b3b9ba0 to /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/87/tmp_obj_FTnKDe
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/87/tmp_obj_FTnKDe
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/ba
+  create hard link from /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/ba/1866e93c9ca45ccc8aded629d9fd19f0be0c39 to /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/ba/tmp_obj_9i5ppj
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/ba/tmp_obj_9i5ppj
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/4c
+  create hard link from /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/4c/a2cb2cfbd512ba04a4ef974ce2d3496e53125a to /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/4c/tmp_obj_FFY6rk
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/4c/tmp_obj_FFY6rk
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/0e
+  create hard link from /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/0e/6f1e365e3992fa7e56b2a5df813c272ec3ed4f to /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/0e/tmp_obj_Pq6Jvo
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/0e/tmp_obj_Pq6Jvo
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/19
+  create hard link from /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/19/71a23cb0a89192d05050a5d5db02d768650b11 to /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/19/tmp_obj_DMalVu
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/19/tmp_obj_DMalVu
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/75
+  create hard link from /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/75/00fd6eeb649f89c4f7e95cab99ceab2dc2f7bc to /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/75/tmp_obj_PE5Law
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/75/tmp_obj_PE5Law
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/df
+  create hard link from /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/df/66ab2f8389e7177f2f4b737b5cecef25c3cd1c to /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/df/tmp_obj_1ynYaA
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/df/tmp_obj_1ynYaA
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/8d
+  create hard link from /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/8d/d3d044c11f49128f5bf9a27e7a886c7cac5dda to /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/8d/tmp_obj_7ddZqG
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/8d/tmp_obj_7ddZqG
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/7a
+  create hard link from /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/7a/4db998186b2a971b98b074649627f5c7cfd0b1 to /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/7a/tmp_obj_FTJXmJ
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/7a/tmp_obj_FTJXmJ
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/d5
+  create hard link from /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/d5/a265d41f441e06c5d76edc234f4cf8a0a5950c to /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/d5/tmp_obj_Z14qGO
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/d5/tmp_obj_Z14qGO
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/86
+  create hard link from /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/86/c5998b0642d750f991114b1ac188e9551d7308 to /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/86/tmp_obj_JzmJCT
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/86/tmp_obj_JzmJCT
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/ec
+  create hard link from /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/ec/3aef4df3343931fcf960ea25811b05b49c629e to /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/ec/tmp_obj_DGfxxY
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/ec/tmp_obj_DGfxxY
+  rename /tmp/nimble_4303/githubcom_nimlangredis/.git/shallow.lock to shallow
+  rename /tmp/nimble_4303/githubcom_nimlangredis/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/packed-refs.lock
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/refs/tags/v0.3.0.lock
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.git/logs
+  rename /tmp/nimble_4303/githubcom_nimlangredis/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/.circleci
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/src
+  create directory /tmp/nimble_4303/githubcom_nimlangredis/tests
+  rename /tmp/nimble_4303/githubcom_nimlangredis/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/redis_3457204526
-  delete /tmp/nimblecache/redis_3457204526/redis.ini
-  delete /tmp/nimble_3889.out
-  delete /tmp/nimble_3889/githubcom_nimlangredis/redis_3889.nims
+  create directory /tmp/nimblecache/redis_3390402646
+  delete /tmp/nimblecache/redis_3390402646/redis.ini
+  delete /tmp/nimble_4303.out
+  delete /tmp/nimble_4303/githubcom_nimlangredis/redis_4303.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -200,53 +316,83 @@ rmdir('/tmp/nimble_3889')
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/redis_3607102069
   delete /tmp/nimblecache/redis_3607102069/redis.ini
-  delete /tmp/nimble_3889.out
-  delete /home/runner/.nimble/pkgs/redis-0.3.0/redis_3889.nims
-  delete /tmp/nimble_3889/githubcom_nimlangredis/copying.txt
-  delete /tmp/nimble_3889/githubcom_nimlangredis/src/redis.nim
-  delete /tmp/nimble_3889/githubcom_nimlangredis/src
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.editorconfig
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.gitignore
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.circleci/config.yml
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.circleci
-  delete /tmp/nimble_3889/githubcom_nimlangredis/redis.nimble
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/HEAD
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/config
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/logs/HEAD
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/logs
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/branches
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/packed-refs
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/refs/heads
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/refs/tags
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/refs
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/hooks/pre-push.sample
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/hooks/update.sample
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/hooks/post-update.sample
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/hooks
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/index
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/info/exclude
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/info
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/shallow
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/description
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/objects/pack/pack-3b08c96c97b8df0cf44fd8ef74c6db25565cb687.idx
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/objects/pack/pack-3b08c96c97b8df0cf44fd8ef74c6db25565cb687.pack
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/objects/pack
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/objects/info
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git/objects
-  delete /tmp/nimble_3889/githubcom_nimlangredis/.git
-  delete /tmp/nimble_3889/githubcom_nimlangredis/readme.md
-  delete /tmp/nimble_3889/githubcom_nimlangredis/tests/main.nim
-  delete /tmp/nimble_3889/githubcom_nimlangredis/tests/tawaitorder.nim
-  delete /tmp/nimble_3889/githubcom_nimlangredis/tests/nim.cfg
-  delete /tmp/nimble_3889/githubcom_nimlangredis/tests
-  delete /tmp/nimble_3889/githubcom_nimlangredis
-  delete /tmp/nimble_3889
+  delete /tmp/nimble_4303.out
+  delete /home/runner/.nimble/pkgs/redis-0.3.0/redis_4303.nims
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/refs/tags
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/refs/heads
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/refs
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/info/exclude
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/info
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/branches
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/logs/HEAD
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/logs
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/description
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/hooks/pre-push.sample
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/hooks/update.sample
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/hooks/post-update.sample
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/hooks
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/shallow
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/config
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/index
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/7a/4db998186b2a971b98b074649627f5c7cfd0b1
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/7a
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/e0/14135caf4bf8ca7080ae936bee9b495a2c7099
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/e0
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/ec/3aef4df3343931fcf960ea25811b05b49c629e
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/ec
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/19/71a23cb0a89192d05050a5d5db02d768650b11
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/19
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/info
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/87/d28d4302cda0ca9bcc8e44b766ca373b3b9ba0
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/87
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/5b/66c1c228daa1fa56a063fba53d28356f601854
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/5b
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/85/00a0572023516b1997ea7fa5e7d64a060d770f
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/85
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/df/66ab2f8389e7177f2f4b737b5cecef25c3cd1c
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/df
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/8d/d3d044c11f49128f5bf9a27e7a886c7cac5dda
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/8d
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/f1/d67f91638340e5a7bc24fc6243ad769cf63455
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/f1
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/86/c5998b0642d750f991114b1ac188e9551d7308
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/86
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/0e/6f1e365e3992fa7e56b2a5df813c272ec3ed4f
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/0e
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/ba/1866e93c9ca45ccc8aded629d9fd19f0be0c39
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/ba
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/75/00fd6eeb649f89c4f7e95cab99ceab2dc2f7bc
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/75
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/pack
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/4c/a2cb2cfbd512ba04a4ef974ce2d3496e53125a
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/4c
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/d5/a265d41f441e06c5d76edc234f4cf8a0a5950c
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects/d5
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/objects
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/packed-refs
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git/HEAD
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.git
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.circleci/config.yml
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.circleci
+  delete /tmp/nimble_4303/githubcom_nimlangredis/src/redis.nim
+  delete /tmp/nimble_4303/githubcom_nimlangredis/src
+  delete /tmp/nimble_4303/githubcom_nimlangredis/copying.txt
+  delete /tmp/nimble_4303/githubcom_nimlangredis/readme.md
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.editorconfig
+  delete /tmp/nimble_4303/githubcom_nimlangredis/redis.nimble
+  delete /tmp/nimble_4303/githubcom_nimlangredis/tests/nim.cfg
+  delete /tmp/nimble_4303/githubcom_nimlangredis/tests/tawaitorder.nim
+  delete /tmp/nimble_4303/githubcom_nimlangredis/tests/main.nim
+  delete /tmp/nimble_4303/githubcom_nimlangredis/tests
+  delete /tmp/nimble_4303/githubcom_nimlangredis/.gitignore
+  delete /tmp/nimble_4303/githubcom_nimlangredis
+  delete /tmp/nimble_4303

@@ -1,84 +1,192 @@
     Reading official package list
 Downloading https://github.com/zedeus/redpool using git
-       Info /tmp/nimble_15818/githubcom_zedeusredpool/redpool_15818.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /tmp/nimble_15818/githubcom_zedeusredpool/redpool_15818.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+       Info /tmp/nimble_16598/githubcom_zedeusredpool/redpool_16598.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /tmp/nimble_16598/githubcom_zedeusredpool/redpool_16598.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
   Verifying dependencies for redpool@0.1.0
     Reading official package list
-   Checking for redis@>= 0.3.0
-      Info: Dependency on redis@>= 0.3.0 already satisfied
-  Verifying dependencies for redis@0.3.0
- Installing redpool@0.1.0
-    Copying file /tmp/nimble_15818/githubcom_zedeusredpool/src/redpool.nim to /home/runner/.nimble/pkgs/redpool-0.1.0/redpool.nim
-    Copying file /tmp/nimble_15818/githubcom_zedeusredpool/redpool.nimble to /home/runner/.nimble/pkgs/redpool-0.1.0/redpool.nimble
-   Success: redpool installed successfully.
-       Info /home/runner/.nimble/pkgs/redpool-0.1.0/redpool_15818.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /home/runner/.nimble/pkgs/redpool-0.1.0/redpool_15818.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+   Checking for https://github.com/zedeus/redis@#94bcbf1
+ Installing https://github.com/zedeus/redis@#94bcbf1
+Downloading https://github.com/zedeus/redis using git
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_15818', 0x00000000000001ff)
-mkdir('/tmp/nimble_15818/githubcom_zedeusredpool', 0x00000000000001ff)
-rmdir('/tmp/nimble_15818/githubcom_zedeusredpool')
-mkdir('/tmp/nimble_15818/githubcom_zedeusredpool', 0x00000000000001ff)
-mkdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_15818/githubcom_zedeusredpool/.git/HEAD.lock', '/tmp/nimble_15818/githubcom_zedeusredpool/.git/HEAD')
-rename('/tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock', '/tmp/nimble_15818/githubcom_zedeusredpool/.git/config')
-chmod('/tmp/nimble_15818/githubcom_zedeusredpool/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_15818/githubcom_zedeusredpool/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock', '/tmp/nimble_15818/githubcom_zedeusredpool/.git/config')
-chmod('/tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock', '/tmp/nimble_15818/githubcom_zedeusredpool/.git/config')
-chmod('/tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock', '/tmp/nimble_15818/githubcom_zedeusredpool/.git/config')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/tNybyNc')
-symlink('testing', '/tmp/nimble_15818/githubcom_zedeusredpool/.git/tNybyNc')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/tNybyNc')
-mkdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock', '/tmp/nimble_15818/githubcom_zedeusredpool/.git/config')
-chmod('/tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock', '/tmp/nimble_15818/githubcom_zedeusredpool/.git/config')
-chmod('/tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock', '/tmp/nimble_15818/githubcom_zedeusredpool/.git/config')
-link('/tmp/nimble_15818/githubcom_zedeusredpool/.git/objects/pack/tmp_pack_8NBaWj', '/tmp/nimble_15818/githubcom_zedeusredpool/.git/objects/pack/pack-a76c8235670db4d32e66b0c7cf66696b380422fc.pack')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/objects/pack/tmp_pack_8NBaWj')
-link('/tmp/nimble_15818/githubcom_zedeusredpool/.git/objects/pack/tmp_idx_wOpZhp', '/tmp/nimble_15818/githubcom_zedeusredpool/.git/objects/pack/pack-a76c8235670db4d32e66b0c7cf66696b380422fc.idx')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/objects/pack/tmp_idx_wOpZhp')
-rename('/tmp/nimble_15818/githubcom_zedeusredpool/.git/shallow.lock', '/tmp/nimble_15818/githubcom_zedeusredpool/.git/shallow')
-rename('/tmp/nimble_15818/githubcom_zedeusredpool/.git/packed-refs.new', '/tmp/nimble_15818/githubcom_zedeusredpool/.git/packed-refs')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/packed-refs.lock')
-mkdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/refs/remotes/origin', 0x00000000000001ff)
-mkdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/logs', 0x00000000000001ff)
-mkdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/logs/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/logs/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/logs/refs/remotes/origin', 0x00000000000001ff)
-rename('/tmp/nimble_15818/githubcom_zedeusredpool/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_15818/githubcom_zedeusredpool/.git/refs/remotes/origin/HEAD')
-rename('/tmp/nimble_15818/githubcom_zedeusredpool/.git/HEAD.lock', '/tmp/nimble_15818/githubcom_zedeusredpool/.git/HEAD')
-mkdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/logs/refs/heads', 0x00000000000001ff)
-rename('/tmp/nimble_15818/githubcom_zedeusredpool/.git/refs/heads/master.lock', '/tmp/nimble_15818/githubcom_zedeusredpool/.git/refs/heads/master')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/HEAD.lock')
-chmod('/tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock', '/tmp/nimble_15818/githubcom_zedeusredpool/.git/config')
-chmod('/tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock', '/tmp/nimble_15818/githubcom_zedeusredpool/.git/config')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/objects/pack/pack-a76c8235670db4d32e66b0c7cf66696b380422fc.keep')
+mkdir('/tmp/nimble_16598', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredpool', 0x00000000000001ff)
+rmdir('/tmp/nimble_16598/githubcom_zedeusredpool')
+mkdir('/tmp/nimble_16598/githubcom_zedeusredpool', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_16598/githubcom_zedeusredpool/.git/HEAD.lock', '/tmp/nimble_16598/githubcom_zedeusredpool/.git/HEAD')
+rename('/tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock', '/tmp/nimble_16598/githubcom_zedeusredpool/.git/config')
+chmod('/tmp/nimble_16598/githubcom_zedeusredpool/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_16598/githubcom_zedeusredpool/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock', '/tmp/nimble_16598/githubcom_zedeusredpool/.git/config')
+chmod('/tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock', '/tmp/nimble_16598/githubcom_zedeusredpool/.git/config')
+chmod('/tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock', '/tmp/nimble_16598/githubcom_zedeusredpool/.git/config')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/tjBlwNG')
+symlink('testing', '/tmp/nimble_16598/githubcom_zedeusredpool/.git/tjBlwNG')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/tjBlwNG')
+mkdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock', '/tmp/nimble_16598/githubcom_zedeusredpool/.git/config')
+chmod('/tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock', '/tmp/nimble_16598/githubcom_zedeusredpool/.git/config')
+chmod('/tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock', '/tmp/nimble_16598/githubcom_zedeusredpool/.git/config')
+mkdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/57', 0x00000000000001ff)
+link('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/57/tmp_obj_LtByJd', '/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/57/aeb25dd971bd790d758004cfee62b1fee93ba4')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/57/tmp_obj_LtByJd')
+mkdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/42', 0x00000000000001ff)
+link('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/42/tmp_obj_xIwyFf', '/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/42/2f5b642fa045d94ca7d11c046f649c6eb590a6')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/42/tmp_obj_xIwyFf')
+mkdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/94', 0x00000000000001ff)
+link('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/94/tmp_obj_L7xoWj', '/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/94/f48ad4bb60c076041e676e96c76cbcaec62305')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/94/tmp_obj_L7xoWj')
+mkdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/58', 0x00000000000001ff)
+link('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/58/tmp_obj_rZQhwq', '/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/58/93760a62b0f9d30b316c55dbad4987076b1ddf')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/58/tmp_obj_rZQhwq')
+mkdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/f1', 0x00000000000001ff)
+link('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/f1/tmp_obj_TXAvpu', '/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/f1/8306371650667a5f1a30082a2bcc255c2eae57')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/f1/tmp_obj_TXAvpu')
+mkdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/62', 0x00000000000001ff)
+link('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/62/tmp_obj_RmcE7v', '/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/62/f782bb6df31ebb64942fa077f5431bcb47a844')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/62/tmp_obj_RmcE7v')
+rename('/tmp/nimble_16598/githubcom_zedeusredpool/.git/shallow.lock', '/tmp/nimble_16598/githubcom_zedeusredpool/.git/shallow')
+rename('/tmp/nimble_16598/githubcom_zedeusredpool/.git/packed-refs.new', '/tmp/nimble_16598/githubcom_zedeusredpool/.git/packed-refs')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/packed-refs.lock')
+mkdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_16598/githubcom_zedeusredpool/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_16598/githubcom_zedeusredpool/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_16598/githubcom_zedeusredpool/.git/HEAD.lock', '/tmp/nimble_16598/githubcom_zedeusredpool/.git/HEAD')
+mkdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_16598/githubcom_zedeusredpool/.git/refs/heads/master.lock', '/tmp/nimble_16598/githubcom_zedeusredpool/.git/refs/heads/master')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/HEAD.lock')
+chmod('/tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock', '/tmp/nimble_16598/githubcom_zedeusredpool/.git/config')
+chmod('/tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock', '/tmp/nimble_16598/githubcom_zedeusredpool/.git/config')
 mkdir('src', 0x00000000000001ff)
-rename('/tmp/nimble_15818/githubcom_zedeusredpool/.git/index.lock', '/tmp/nimble_15818/githubcom_zedeusredpool/.git/index')
+rename('/tmp/nimble_16598/githubcom_zedeusredpool/.git/index.lock', '/tmp/nimble_16598/githubcom_zedeusredpool/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/redpool_1993282604', 0x00000000000001ff)
-unlink('/tmp/nimblecache/redpool_1993282604/redpool.ini')
-unlink('/tmp/nimble_15818.out')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/redpool_15818.nims')
+mkdir('/tmp/nimblecache/redpool_4109804542', 0x00000000000001ff)
+unlink('/tmp/nimblecache/redpool_4109804542/redpool.ini')
+unlink('/tmp/nimble_16598.out')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/redpool_16598.nims')
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1', 0x00000000000001ff)
+rmdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1')
+mkdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/branches/', 0x00000000000001ff)  Verifying dependencies for redis@#94bcbf1
+ Installing redis@#94bcbf1
+    Copying file /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/src/redis.nim to /home/runner/.nimble/pkgs/redis-#94bcbf1/redis.nim
+    Copying file /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/redis.nimble to /home/runner/.nimble/pkgs/redis-#94bcbf1/redis.nimble
+   Success: redis installed successfully.
+ Installing redpool@0.1.0
+    Copying file /tmp/nimble_16598/githubcom_zedeusredpool/src/redpool.nim to /home/runner/.nimble/pkgs/redpool-0.1.0/redpool.nim
+    Copying file /tmp/nimble_16598/githubcom_zedeusredpool/redpool.nimble to /home/runner/.nimble/pkgs/redpool-0.1.0/redpool.nimble
+   Success: redpool installed successfully.
+
+mkdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/HEAD.lock', '/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/HEAD')
+rename('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock', '/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config')
+chmod('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock', '/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config')
+chmod('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock', '/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config')
+chmod('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock', '/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/tQnxR7A')
+symlink('testing', '/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/tQnxR7A')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/tQnxR7A')
+mkdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock', '/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config')
+chmod('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock', '/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config')
+chmod('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock', '/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config')
+link('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects/pack/tmp_pack_y2g1p4', '/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects/pack/pack-49d8c930a2b45ec6c20ac0fc82a1979b877554d7.pack')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects/pack/tmp_pack_y2g1p4')
+link('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects/pack/tmp_idx_1eCCzE', '/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects/pack/pack-49d8c930a2b45ec6c20ac0fc82a1979b877554d7.idx')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects/pack/tmp_idx_1eCCzE')
+rename('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/packed-refs.new', '/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/packed-refs')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/packed-refs.lock')
+mkdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/HEAD.lock', '/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/HEAD')
+mkdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs/heads/master.lock', '/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs/heads/master')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/HEAD.lock')
+chmod('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock', '/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config')
+chmod('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock', '/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects/pack/pack-49d8c930a2b45ec6c20ac0fc82a1979b877554d7.keep')
+mkdir('.circleci', 0x00000000000001ff)
+mkdir('src', 0x00000000000001ff)
+mkdir('tests', 0x00000000000001ff)
+rename('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/index.lock', '/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/index')
+rename('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/index.lock', '/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/index')
+rename('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/HEAD.lock', '/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/HEAD')
+unlink('.git/SQUASH_MSG')
+unlink('.git/MERGE_HEAD')
+unlink('.git/MERGE_RR')
+unlink('.git/MERGE_MSG')
+unlink('.git/MERGE_MODE')
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/redis_801887804', 0x00000000000001ff)
+unlink('/tmp/nimblecache/redis_801887804/redis.ini')
+unlink('/tmp/nimble_16598.out')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/redis_16598.nims')
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/redis-#94bcbf1', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/redis-#94bcbf1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/redis-#94bcbf1/redis.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/redis-#94bcbf1/redis.nimble', 0x00000000000001a4)
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimblecache', 0x00000000000001ff)
+mkdir('/tmp/nimblecache/redis_68172462', 0x00000000000001ff)
+unlink('/tmp/nimblecache/redis_68172462/redis.ini')
+unlink('/tmp/nimble_16598.out')
+unlink('/home/runner/.nimble/pkgs/redis-#94bcbf1/redis_16598.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -95,123 +203,296 @@ mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/redpool_2089858810', 0x00000000000001ff)
 unlink('/tmp/nimblecache/redpool_2089858810/redpool.ini')
-unlink('/tmp/nimble_15818.out')
-unlink('/home/runner/.nimble/pkgs/redpool-0.1.0/redpool_15818.nims')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/src/redpool.nim')
-rmdir('/tmp/nimble_15818/githubcom_zedeusredpool/src')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/HEAD')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/config')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/logs/HEAD')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/logs/refs/heads/master')
-rmdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/logs/refs/heads')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/logs/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/logs/refs/remotes/origin')
-rmdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/logs/refs/remotes')
-rmdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/logs/refs')
-rmdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/logs')
-rmdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/branches')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/packed-refs')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/refs/heads/master')
-rmdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/refs/heads')
-rmdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/refs/tags')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/refs/remotes/origin')
-rmdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/refs/remotes')
-rmdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/refs')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks/update.sample')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/index')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/info/exclude')
-rmdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/info')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/shallow')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/description')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/objects/pack/pack-a76c8235670db4d32e66b0c7cf66696b380422fc.pack')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/.git/objects/pack/pack-a76c8235670db4d32e66b0c7cf66696b380422fc.idx')
-rmdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/objects/pack')
-rmdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/objects/info')
-rmdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git/objects')
-rmdir('/tmp/nimble_15818/githubcom_zedeusredpool/.git')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/redpool.nimble')
-unlink('/tmp/nimble_15818/githubcom_zedeusredpool/README.md')
-rmdir('/tmp/nimble_15818/githubcom_zedeusredpool')
-rmdir('/tmp/nimble_15818')
+       Info /home/runner/.nimble/pkgs/redpool-0.1.0/redpool_16598.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /home/runner/.nimble/pkgs/redpool-0.1.0/redpool_16598.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+unlink('/tmp/nimble_16598.out')
+unlink('/home/runner/.nimble/pkgs/redpool-0.1.0/redpool_16598.nims')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs/remotes')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs/tags')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs/heads/master')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs/heads')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/info/exclude')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/info')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/branches')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/logs/refs/remotes')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/logs/refs/heads')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/logs/refs')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/logs/HEAD')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/logs')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/description')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks/update.sample')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/index')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects/info')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects/pack/pack-49d8c930a2b45ec6c20ac0fc82a1979b877554d7.pack')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects/pack/pack-49d8c930a2b45ec6c20ac0fc82a1979b877554d7.idx')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects/pack')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/packed-refs')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/HEAD')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.circleci/config.yml')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.circleci')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/src/redis.nim')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/src')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/copying.txt')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/readme.md')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.editorconfig')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/redis.nimble')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/tests/nim.cfg')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/tests/tawaitorder.nim')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/tests/main.nim')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/tests')
+unlink('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.gitignore')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/redpool.nimble')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/README.md')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/refs/remotes')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/refs/tags')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/refs/heads/master')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/refs/heads')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/refs')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/info/exclude')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/info')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/branches')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/logs/refs/remotes')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/logs/refs/heads')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/logs/refs')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/logs/HEAD')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/logs')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/description')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks/update.sample')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/shallow')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/config')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/index')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/94/f48ad4bb60c076041e676e96c76cbcaec62305')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/94')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/info')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/62/f782bb6df31ebb64942fa077f5431bcb47a844')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/62')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/58/93760a62b0f9d30b316c55dbad4987076b1ddf')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/58')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/57/aeb25dd971bd790d758004cfee62b1fee93ba4')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/57')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/f1/8306371650667a5f1a30082a2bcc255c2eae57')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/f1')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/42/2f5b642fa045d94ca7d11c046f649c6eb590a6')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/42')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/pack')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git/objects')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/packed-refs')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/.git/HEAD')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredpool/.git')
+unlink('/tmp/nimble_16598/githubcom_zedeusredpool/src/redpool.nim')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredpool/src')
+rmdir('/tmp/nimble_16598/githubcom_zedeusredpool')
+rmdir('/tmp/nimble_16598')
   create directory /tmp
-  create directory /tmp/nimble_15818
-  create directory /tmp/nimble_15818/githubcom_zedeusredpool
-  delete /tmp/nimble_15818/githubcom_zedeusredpool
-  create directory /tmp/nimble_15818/githubcom_zedeusredpool
-  create directory /tmp/nimble_15818/githubcom_zedeusredpool/.git
-  create directory /tmp/nimble_15818/githubcom_zedeusredpool/.git
-  create directory /tmp/nimble_15818/githubcom_zedeusredpool/.git/branches
-  create directory /tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks
-  create directory /tmp/nimble_15818/githubcom_zedeusredpool/.git/info
-  create directory /tmp/nimble_15818/githubcom_zedeusredpool/.git/refs
-  create directory /tmp/nimble_15818/githubcom_zedeusredpool/.git/refs/heads
-  create directory /tmp/nimble_15818/githubcom_zedeusredpool/.git/refs/tags
-  rename /tmp/nimble_15818/githubcom_zedeusredpool/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock to config
-  change permissions of /tmp/nimble_15818/githubcom_zedeusredpool/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_15818/githubcom_zedeusredpool/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock to config
-  change permissions of /tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock to config
-  change permissions of /tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock to config
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/tNybyNc
-  create symbolic link from /tmp/nimble_15818/githubcom_zedeusredpool/.git/tNybyNc to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/tNybyNc
-  create directory /tmp/nimble_15818/githubcom_zedeusredpool/.git/objects
-  create directory /tmp/nimble_15818/githubcom_zedeusredpool/.git/objects/pack
-  create directory /tmp/nimble_15818/githubcom_zedeusredpool/.git/objects/info
-  change permissions of /tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock to config
-  change permissions of /tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock to config
-  change permissions of /tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock to config
-  create hard link from /tmp/nimble_15818/githubcom_zedeusredpool/.git/objects/pack/pack-a76c8235670db4d32e66b0c7cf66696b380422fc.pack to /tmp/nimble_15818/githubcom_zedeusredpool/.git/objects/pack/tmp_pack_8NBaWj
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/objects/pack/tmp_pack_8NBaWj
-  create hard link from /tmp/nimble_15818/githubcom_zedeusredpool/.git/objects/pack/pack-a76c8235670db4d32e66b0c7cf66696b380422fc.idx to /tmp/nimble_15818/githubcom_zedeusredpool/.git/objects/pack/tmp_idx_wOpZhp
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/objects/pack/tmp_idx_wOpZhp
-  rename /tmp/nimble_15818/githubcom_zedeusredpool/.git/shallow.lock to shallow
-  rename /tmp/nimble_15818/githubcom_zedeusredpool/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/packed-refs.lock
-  create directory /tmp/nimble_15818/githubcom_zedeusredpool/.git/refs/remotes
-  create directory /tmp/nimble_15818/githubcom_zedeusredpool/.git/refs/remotes/origin
-  create directory /tmp/nimble_15818/githubcom_zedeusredpool/.git/logs
-  create directory /tmp/nimble_15818/githubcom_zedeusredpool/.git/logs/refs
-  create directory /tmp/nimble_15818/githubcom_zedeusredpool/.git/logs/refs/remotes
-  create directory /tmp/nimble_15818/githubcom_zedeusredpool/.git/logs/refs/remotes/origin
-  rename /tmp/nimble_15818/githubcom_zedeusredpool/.git/refs/remotes/origin/HEAD.lock to HEAD
-  rename /tmp/nimble_15818/githubcom_zedeusredpool/.git/HEAD.lock to HEAD
-  create directory /tmp/nimble_15818/githubcom_zedeusredpool/.git/logs/refs/heads
-  rename /tmp/nimble_15818/githubcom_zedeusredpool/.git/refs/heads/master.lock to master
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/HEAD.lock
-  change permissions of /tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock to config
-  change permissions of /tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_15818/githubcom_zedeusredpool/.git/config.lock to config
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/objects/pack/pack-a76c8235670db4d32e66b0c7cf66696b380422fc.keep
-  create directory /tmp/nimble_15818/githubcom_zedeusredpool/src
-  rename /tmp/nimble_15818/githubcom_zedeusredpool/.git/index.lock to index
+  create directory /tmp/nimble_16598
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool
+  delete /tmp/nimble_16598/githubcom_zedeusredpool
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool/.git
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool/.git
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool/.git/info
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool/.git/branches
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool/.git/refs
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool/.git/refs/heads
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool/.git/refs/tags
+  rename /tmp/nimble_16598/githubcom_zedeusredpool/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock to config
+  change permissions of /tmp/nimble_16598/githubcom_zedeusredpool/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_16598/githubcom_zedeusredpool/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock to config
+  change permissions of /tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock to config
+  change permissions of /tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock to config
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/tjBlwNG
+  create symbolic link from /tmp/nimble_16598/githubcom_zedeusredpool/.git/tjBlwNG to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/tjBlwNG
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/pack
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/info
+  change permissions of /tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock to config
+  change permissions of /tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock to config
+  change permissions of /tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock to config
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/57
+  create hard link from /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/57/aeb25dd971bd790d758004cfee62b1fee93ba4 to /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/57/tmp_obj_LtByJd
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/57/tmp_obj_LtByJd
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/42
+  create hard link from /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/42/2f5b642fa045d94ca7d11c046f649c6eb590a6 to /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/42/tmp_obj_xIwyFf
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/42/tmp_obj_xIwyFf
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/94
+  create hard link from /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/94/f48ad4bb60c076041e676e96c76cbcaec62305 to /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/94/tmp_obj_L7xoWj
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/94/tmp_obj_L7xoWj
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/58
+  create hard link from /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/58/93760a62b0f9d30b316c55dbad4987076b1ddf to /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/58/tmp_obj_rZQhwq
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/58/tmp_obj_rZQhwq
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/f1
+  create hard link from /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/f1/8306371650667a5f1a30082a2bcc255c2eae57 to /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/f1/tmp_obj_TXAvpu
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/f1/tmp_obj_TXAvpu
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/62
+  create hard link from /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/62/f782bb6df31ebb64942fa077f5431bcb47a844 to /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/62/tmp_obj_RmcE7v
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/62/tmp_obj_RmcE7v
+  rename /tmp/nimble_16598/githubcom_zedeusredpool/.git/shallow.lock to shallow
+  rename /tmp/nimble_16598/githubcom_zedeusredpool/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/packed-refs.lock
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool/.git/refs/remotes
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool/.git/refs/remotes/origin
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool/.git/logs
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool/.git/logs/refs
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool/.git/logs/refs/remotes
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_16598/githubcom_zedeusredpool/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_16598/githubcom_zedeusredpool/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool/.git/logs/refs/heads
+  rename /tmp/nimble_16598/githubcom_zedeusredpool/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/HEAD.lock
+  change permissions of /tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock to config
+  change permissions of /tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16598/githubcom_zedeusredpool/.git/config.lock to config
+  create directory /tmp/nimble_16598/githubcom_zedeusredpool/src
+  rename /tmp/nimble_16598/githubcom_zedeusredpool/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/redpool_1993282604
-  delete /tmp/nimblecache/redpool_1993282604/redpool.ini
-  delete /tmp/nimble_15818.out
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/redpool_15818.nims
+  create directory /tmp/nimblecache/redpool_4109804542
+  delete /tmp/nimblecache/redpool_4109804542/redpool.ini
+  delete /tmp/nimble_16598.out
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/redpool_16598.nims
+  create directory /tmp
+  create directory /tmp/nimble_16598
+  create directory /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1
+  create directory /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1
+  create directory /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git
+  create directory /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git
+  create directory /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/info
+  create directory /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/branches
+  create directory /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks
+  create directory /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs
+  create directory /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs/heads
+  create directory /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs/tags
+  rename /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock to config
+  change permissions of /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock to config
+  change permissions of /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock to config
+  change permissions of /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock to config
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/tQnxR7A
+  create symbolic link from /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/tQnxR7A to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/tQnxR7A
+  create directory /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects
+  create directory /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects/pack
+  create directory /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects/info
+  change permissions of /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock to config
+  change permissions of /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock to config
+  change permissions of /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock to config
+  create hard link from /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects/pack/pack-49d8c930a2b45ec6c20ac0fc82a1979b877554d7.pack to /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects/pack/tmp_pack_y2g1p4
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects/pack/tmp_pack_y2g1p4
+  create hard link from /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects/pack/pack-49d8c930a2b45ec6c20ac0fc82a1979b877554d7.idx to /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects/pack/tmp_idx_1eCCzE
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects/pack/tmp_idx_1eCCzE
+  rename /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/packed-refs.lock
+  create directory /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs/remotes
+  create directory /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs/remotes/origin
+  create directory /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/logs
+  create directory /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/logs/refs
+  create directory /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/logs/refs/remotes
+  create directory /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/logs/refs/heads
+  rename /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/HEAD.lock
+  change permissions of /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock to config
+  change permissions of /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config.lock to config
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects/pack/pack-49d8c930a2b45ec6c20ac0fc82a1979b877554d7.keep
+  create directory /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.circleci
+  create directory /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/src
+  create directory /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/tests
+  rename /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/index.lock to index
+  rename /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/index.lock to index
+  rename /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/HEAD.lock to HEAD
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/SQUASH_MSG
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/MERGE_HEAD
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/MERGE_RR
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/MERGE_MSG
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/MERGE_MODE
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/redis_801887804
+  delete /tmp/nimblecache/redis_801887804/redis.ini
+  delete /tmp/nimble_16598.out
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/redis_16598.nims
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/redis-#94bcbf1
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/redis-#94bcbf1
+  change permissions of /home/runner/.nimble/pkgs/redis-#94bcbf1/redis.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/redis-#94bcbf1/redis.nimble to rw-r--r--
+  create directory /tmp
+  create directory /tmp/nimblecache
+  create directory /tmp/nimblecache/redis_68172462
+  delete /tmp/nimblecache/redis_68172462/redis.ini
+  delete /tmp/nimble_16598.out
+  delete /home/runner/.nimble/pkgs/redis-#94bcbf1/redis_16598.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -228,54 +509,120 @@ rmdir('/tmp/nimble_15818')
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/redpool_2089858810
   delete /tmp/nimblecache/redpool_2089858810/redpool.ini
-  delete /tmp/nimble_15818.out
-  delete /home/runner/.nimble/pkgs/redpool-0.1.0/redpool_15818.nims
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/src/redpool.nim
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/src
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/HEAD
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/config
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/logs/HEAD
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/logs/refs/heads/master
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/logs/refs/heads
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/logs/refs/remotes/origin/HEAD
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/logs/refs/remotes/origin
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/logs/refs/remotes
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/logs/refs
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/logs
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/branches
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/packed-refs
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/refs/heads/master
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/refs/heads
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/refs/tags
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/refs/remotes/origin/HEAD
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/refs/remotes/origin
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/refs/remotes
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/refs
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks/pre-push.sample
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks/update.sample
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks/post-update.sample
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/hooks
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/index
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/info/exclude
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/info
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/shallow
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/description
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/objects/pack/pack-a76c8235670db4d32e66b0c7cf66696b380422fc.pack
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/objects/pack/pack-a76c8235670db4d32e66b0c7cf66696b380422fc.idx
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/objects/pack
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/objects/info
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git/objects
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/.git
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/redpool.nimble
-  delete /tmp/nimble_15818/githubcom_zedeusredpool/README.md
-  delete /tmp/nimble_15818/githubcom_zedeusredpool
-  delete /tmp/nimble_15818
+  delete /tmp/nimble_16598.out
+  delete /home/runner/.nimble/pkgs/redpool-0.1.0/redpool_16598.nims
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs/remotes/origin
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs/remotes
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs/tags
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs/heads/master
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs/heads
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/refs
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/info/exclude
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/info
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/branches
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/logs/refs/remotes
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/logs/refs/heads/master
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/logs/refs/heads
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/logs/refs
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/logs/HEAD
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/logs
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/description
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks/pre-push.sample
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks/update.sample
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks/post-update.sample
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/hooks
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/config
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/index
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects/info
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects/pack/pack-49d8c930a2b45ec6c20ac0fc82a1979b877554d7.pack
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects/pack/pack-49d8c930a2b45ec6c20ac0fc82a1979b877554d7.idx
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects/pack
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/objects
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/packed-refs
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git/HEAD
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.git
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.circleci/config.yml
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.circleci
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/src/redis.nim
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/src
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/copying.txt
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/readme.md
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.editorconfig
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/redis.nimble
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/tests/nim.cfg
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/tests/tawaitorder.nim
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/tests/main.nim
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/tests
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1/.gitignore
+  delete /tmp/nimble_16598/githubcom_zedeusredis_#94bcbf1
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/redpool.nimble
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/README.md
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/refs/remotes/origin
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/refs/remotes
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/refs/tags
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/refs/heads/master
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/refs/heads
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/refs
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/info/exclude
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/info
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/branches
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/logs/refs/remotes
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/logs/refs/heads/master
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/logs/refs/heads
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/logs/refs
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/logs/HEAD
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/logs
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/description
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks/pre-push.sample
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks/update.sample
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks/post-update.sample
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/hooks
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/shallow
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/config
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/index
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/94/f48ad4bb60c076041e676e96c76cbcaec62305
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/94
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/info
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/62/f782bb6df31ebb64942fa077f5431bcb47a844
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/62
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/58/93760a62b0f9d30b316c55dbad4987076b1ddf
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/58
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/57/aeb25dd971bd790d758004cfee62b1fee93ba4
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/57
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/f1/8306371650667a5f1a30082a2bcc255c2eae57
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/f1
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/42/2f5b642fa045d94ca7d11c046f649c6eb590a6
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/42
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects/pack
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/objects
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/packed-refs
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git/HEAD
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/.git
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/src/redpool.nim
+  delete /tmp/nimble_16598/githubcom_zedeusredpool/src
+  delete /tmp/nimble_16598/githubcom_zedeusredpool
+  delete /tmp/nimble_16598

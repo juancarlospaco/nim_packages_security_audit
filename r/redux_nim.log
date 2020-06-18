@@ -1,64 +1,148 @@
     Reading official package list
 Downloading https://github.com/M4RC3L05/redux-nim using git
     Cloning latest tagged version: v1.0.3
-       Info /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/redux_nim_9415.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/redux_nim_9415.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
-  Verifying dependencies for redux_nim@1.0.3
- Installing redux_nim@1.0.3
-    Copying file /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/src/redux_nim.nim to /home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim.nim
-    Copying file /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/src/redux_nim/compose.nim to /home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim/compose.nim
-    Copying file /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/src/redux_nim/arrUtils.nim to /home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim/arrUtils.nim
-    Copying file /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/src/redux_nim.html to /home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim.html
-    Copying file /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/redux_nim.nimble to /home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim.nimble
-   Success: redux_nim installed successfully.
-       Info /home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim_9415.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim_9415.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_9415', 0x00000000000001ff)
-mkdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim', 0x00000000000001ff)
-rmdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim')
-mkdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim', 0x00000000000001ff)
-mkdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/HEAD.lock', '/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/HEAD')
-rename('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config.lock', '/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config')
-chmod('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config.lock', '/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config')
-chmod('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config.lock', '/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config')
-chmod('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config.lock', '/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/tNDgihw')
-symlink('testing', '/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/tNDgihw')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/tNDgihw')
-mkdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config.lock', '/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config')
-chmod('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config.lock', '/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config')
-chmod('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config.lock', '/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config')
-link('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects/pack/tmp_pack_pzu8H1', '/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects/pack/pack-ca958ef181b633624b7b5d88446a2553d0c3065c.pack')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects/pack/tmp_pack_pzu8H1')
-link('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects/pack/tmp_idx_kEL8Wb', '/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects/pack/pack-ca958ef181b633624b7b5d88446a2553d0c3065c.idx')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects/pack/tmp_idx_kEL8Wb')
-rename('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/shallow.lock', '/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/shallow')
-rename('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/packed-refs.new', '/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/packed-refs')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/packed-refs.lock')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/refs/tags/v1.0.3.lock')
-mkdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/HEAD.lock', '/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/HEAD')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects/pack/pack-ca958ef181b633624b7b5d88446a2553d0c3065c.keep')
+mkdir('/tmp/nimble_9767', 0x00000000000001ff)
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim', 0x00000000000001ff)
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim', 0x00000000000001ff)
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/HEAD.lock', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/HEAD')
+rename('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config.lock', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config')
+chmod('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config.lock', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config')
+chmod('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config.lock', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config')
+chmod('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config.lock', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/tqctfFr')
+symlink('testing', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/tqctfFr')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/tqctfFr')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config.lock', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config')
+chmod('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config.lock', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config')
+chmod('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config.lock', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/8e', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/8e/tmp_obj_ppkizP', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/8e/594720c89b4a142cdafb36954179da5a23d8a1')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/8e/tmp_obj_ppkizP')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/58', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/58/tmp_obj_hfpKFQ', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/58/ba20ccb6278c4ba48f45bbb6932ebd1cc059d1')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/58/tmp_obj_hfpKFQ')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a6', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a6/tmp_obj_7fGzaX', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a6/9a728a3d48933289b599a9dd568cebec0aec50')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a6/tmp_obj_7fGzaX')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/db', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/db/tmp_obj_JtHx6X', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/db/4815014901368a791f232f40c76e7edbf3b20b')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/db/tmp_obj_JtHx6X')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/da', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/da/tmp_obj_xDzvb3', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/da/35564b76f8d57fd1d2928de1cb29b77ef495be')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/da/tmp_obj_xDzvb3')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/6c', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/6c/tmp_obj_lxT1Q6', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/6c/db80bb04c4908e2921214a8fc726f9ad4341b8')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/6c/tmp_obj_lxT1Q6')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b6', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b6/tmp_obj_9mhfTb', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b6/42e64bb8625062d881e3c2f9bf1db468691718')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b6/tmp_obj_9mhfTb')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/82', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/82/tmp_obj_d94Cai', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/82/fd13391809b390a1960c206de8b69ad30ff95c')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/82/tmp_obj_d94Cai')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/fa', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/fa/tmp_obj_C85qcb', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/fa/80d850bb9c343d1d27f45ba5343956c9bfc3ef')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/fa/tmp_obj_C85qcb')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/24', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/24/tmp_obj_sBJC0e', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/24/58013226e015959fb03967e907061fe7d79db6')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/24/tmp_obj_sBJC0e')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/19', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/19/tmp_obj_A9Qwjl', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/19/164d30f0789570790ff530b1061e068dc0919d')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/19/tmp_obj_A9Qwjl')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a5', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a5/tmp_obj_8gOdnq', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a5/19e9340aca7eeb92c0e90265fb47c78c28026d')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a5/tmp_obj_8gOdnq')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/3c', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/3c/tmp_obj_sBvj8t', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/3c/44241cc4f49d29009e01f1f221d04f0d64b68b')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/3c/tmp_obj_sBvj8t')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/26', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/26/tmp_obj_ueLFiz', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/26/e8a8533484116bb5219e0676b40993b9ea8dcd')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/26/tmp_obj_ueLFiz')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/e7', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/e7/tmp_obj_gtSPKA', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/e7/474caf681f05c7a66ff07149764c52ebf75068')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/e7/tmp_obj_gtSPKA')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/2f', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/2f/tmp_obj_qYFmkF', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/2f/69ea16d109ad21f03299380951eea2fa4a111b')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/2f/tmp_obj_qYFmkF')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a7', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a7/tmp_obj_ikDusJ', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a7/cc7d74d9aa8774c72bc8c3687dec23be4d7516')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a7/tmp_obj_ikDusJ')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/1f', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/1f/tmp_obj_oHRMiO', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/1f/449479444f2c0fea5f16fb2b9c7d1d132eca09')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/1f/tmp_obj_oHRMiO')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/c4', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/c4/tmp_obj_gRg8sU', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/c4/0de4a48142f1544a7fa09e6819387003317c46')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/c4/tmp_obj_gRg8sU')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b5', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b5/tmp_obj_CYG240', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b5/a8a49893e188ce1cbfa9a566834b880a7526fe')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b5/tmp_obj_CYG240')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/ac', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/ac/tmp_obj_Ef7bZ7', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/ac/4aadc524ce91d37951862a47ff9dc07cce2d4a')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/ac/tmp_obj_Ef7bZ7')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/47', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/47/tmp_obj_yYtVwf', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/47/1392c200a1fc91a47d7a21bd158f355304f0c7')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/47/tmp_obj_yYtVwf')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/1a', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/1a/tmp_obj_q6vnOg', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/1a/1e6b582013d18d324d6c67c3881233082c6041')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/1a/tmp_obj_q6vnOg')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/09', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/09/tmp_obj_hIGBAe', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/09/bb1fa2ded2aafe902d1c56c9f0e6cba6d33c8d')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/09/tmp_obj_hIGBAe')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/5d', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/5d/tmp_obj_3kg8fj', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/5d/217c3abbdd9fd5c5c6801579a2070165d09a42')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/5d/tmp_obj_3kg8fj')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/53', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/53/tmp_obj_Hnlvon', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/53/a4f36227e8ddfd3fa8b1faeff8f0dea23244ae')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/53/tmp_obj_Hnlvon')
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b6/tmp_obj_L5mr1p', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b6/6c6c56f6a8499d0740de045db0158ca4123243')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b6/tmp_obj_L5mr1p')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/93', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/93/tmp_obj_leORSq', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/93/3739e293821ebfe240ca4409c2132d5b88cf22')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/93/tmp_obj_leORSq')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/9e', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/9e/tmp_obj_z3s94s', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/9e/7adf2144ba4388d96c0e3750292cbdb24940a8')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/9e/tmp_obj_z3s94s')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/08', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/08/tmp_obj_Bmy7Oy', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/08/abf28c3a5dcfbaed7b842fe7a97ea334058ac0')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/08/tmp_obj_Bmy7Oy')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/3b', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/3b/tmp_obj_zbrGXD', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/3b/tmp_obj_zbrGXD')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/8d', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/8d/tmp_obj_VOtu0E', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/8d/0fdfd4bc505182e67e58ae04db6505143a7087')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/8d/tmp_obj_VOtu0E')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/e2', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/e2/tmp_obj_RG8QsL', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/e2/ebe2f7b1bcddef1d92a1ef1cd5159192bf6a05')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/e2/tmp_obj_RG8QsL')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/9a', 0x00000000000001ff)
+link('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/9a/tmp_obj_jntEAP', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/9a/90945f55e33db1cb718b80a87e0e23e78ed910')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/9a/tmp_obj_jntEAP')
+rename('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/shallow.lock', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/shallow')
+rename('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/packed-refs.new', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/packed-refs')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/packed-refs.lock')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/refs/tags/v1.0.3.lock')
+mkdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/HEAD.lock', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/HEAD')
 mkdir('docs', 0x00000000000001ff)
 mkdir('docs/redux_nim', 0x00000000000001ff)
 mkdir('examples', 0x00000000000001ff)
@@ -68,13 +152,25 @@ mkdir('examples/tasksApp/models', 0x00000000000001ff)
 mkdir('src', 0x00000000000001ff)
 mkdir('src/redux_nim', 0x00000000000001ff)
 mkdir('tests', 0x00000000000001ff)
-rename('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/index.lock', '/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/index')
+rename('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/index.lock', '/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/index')       Info /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/redux_nim_9767.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/redux_nim_9767.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+  Verifying dependencies for redux_nim@1.0.3
+ Installing redux_nim@1.0.3
+    Copying file /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/src/redux_nim.nim to /home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim.nim
+    Copying file /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/src/redux_nim/arrUtils.nim to /home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim/arrUtils.nim
+    Copying file /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/src/redux_nim/compose.nim to /home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim/compose.nim
+    Copying file /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/src/redux_nim.html to /home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim.html
+    Copying file /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/redux_nim.nimble to /home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim.nimble
+   Success: redux_nim installed successfully.
+       Info /home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim_9767.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim_9767.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/redux_nim_4124505131', 0x00000000000001ff)
-unlink('/tmp/nimblecache/redux_nim_4124505131/redux_nim.ini')
-unlink('/tmp/nimble_9415.out')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/redux_nim_9415.nims')
+mkdir('/tmp/nimblecache/redux_nim_2828382967', 0x00000000000001ff)
+unlink('/tmp/nimblecache/redux_nim_2828382967/redux_nim.ini')
+unlink('/tmp/nimble_9767.out')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/redux_nim_9767.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -92,14 +188,14 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/redux_nim-1.0.3', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim/compose.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim/arrUtils.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/redux_nim-1.0.3', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim/arrUtils.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim/compose.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -111,136 +207,297 @@ mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/redux_nim_3038564659', 0x00000000000001ff)
 unlink('/tmp/nimblecache/redux_nim_3038564659/redux_nim.ini')
-unlink('/tmp/nimble_9415.out')
-unlink('/home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim_9415.nims')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/examples/combiningReducers/main.nim')
-rmdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/examples/combiningReducers')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/examples/tasksApp/models/Task.nim')
-rmdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/examples/tasksApp/models')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/examples/tasksApp/index.nim')
-rmdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/examples/tasksApp')
-rmdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/examples')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/src/redux_nim.nim')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/src/redux_nim/compose.nim')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/src/redux_nim/arrUtils.nim')
-rmdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/src/redux_nim')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/src/redux_nim.html')
-rmdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/src')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.editorconfig')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.gitignore')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/LICENCE.md')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/appveyor.yml')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/genDocs.sh')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.travis.yml')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/docs/redux_nim/compose.html')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/docs/redux_nim/arrUtils.html')
-rmdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/docs/redux_nim')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/docs/index.html')
-rmdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/docs')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/HEAD')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/logs/HEAD')
-rmdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/logs')
-rmdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/branches')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/packed-refs')
-rmdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/refs/heads')
-rmdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/refs/tags')
-rmdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/refs')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks/update.sample')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/index')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/info/exclude')
-rmdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/info')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/shallow')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/description')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects/pack/pack-ca958ef181b633624b7b5d88446a2553d0c3065c.idx')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects/pack/pack-ca958ef181b633624b7b5d88446a2553d0c3065c.pack')
-rmdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects/pack')
-rmdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects/info')
-rmdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects')
-rmdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/README.md')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/redux_nim.nimble')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/tests/tests_redux.nim')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/tests/config.nims')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/tests/tests_arrUtils.nim')
-unlink('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/tests/tests_compose.nim')
-rmdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim/tests')
-rmdir('/tmp/nimble_9415/githubcom_M4RC3L05reduxnim')
-rmdir('/tmp/nimble_9415')
+unlink('/tmp/nimble_9767.out')
+unlink('/home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim_9767.nims')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/docs/redux_nim/arrUtils.html')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/docs/redux_nim/compose.html')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/docs/redux_nim')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/docs/index.html')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/docs')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/README.md')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/appveyor.yml')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/refs/tags')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/refs/heads')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/refs')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/info/exclude')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/info')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/branches')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/logs/HEAD')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/logs')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/description')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks/update.sample')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/shallow')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/index')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b5/a8a49893e188ce1cbfa9a566834b880a7526fe')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b5')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/93/3739e293821ebfe240ca4409c2132d5b88cf22')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/93')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/19/164d30f0789570790ff530b1061e068dc0919d')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/19')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/82/fd13391809b390a1960c206de8b69ad30ff95c')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/82')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/ac/4aadc524ce91d37951862a47ff9dc07cce2d4a')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/ac')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/info')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/e2/ebe2f7b1bcddef1d92a1ef1cd5159192bf6a05')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/e2')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/08/abf28c3a5dcfbaed7b842fe7a97ea334058ac0')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/08')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/c4/0de4a48142f1544a7fa09e6819387003317c46')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/c4')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/fa/80d850bb9c343d1d27f45ba5343956c9bfc3ef')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/fa')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/1a/1e6b582013d18d324d6c67c3881233082c6041')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/1a')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/47/1392c200a1fc91a47d7a21bd158f355304f0c7')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/47')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/3c/44241cc4f49d29009e01f1f221d04f0d64b68b')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/3c')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/58/ba20ccb6278c4ba48f45bbb6932ebd1cc059d1')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/58')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/8d/0fdfd4bc505182e67e58ae04db6505143a7087')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/8d')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a6/9a728a3d48933289b599a9dd568cebec0aec50')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a6')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a5/19e9340aca7eeb92c0e90265fb47c78c28026d')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a5')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/2f/69ea16d109ad21f03299380951eea2fa4a111b')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/2f')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a7/cc7d74d9aa8774c72bc8c3687dec23be4d7516')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a7')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/3b')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/26/e8a8533484116bb5219e0676b40993b9ea8dcd')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/26')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/8e/594720c89b4a142cdafb36954179da5a23d8a1')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/8e')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/9a/90945f55e33db1cb718b80a87e0e23e78ed910')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/9a')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/5d/217c3abbdd9fd5c5c6801579a2070165d09a42')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/5d')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/9e/7adf2144ba4388d96c0e3750292cbdb24940a8')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/9e')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/da/35564b76f8d57fd1d2928de1cb29b77ef495be')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/da')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b6/6c6c56f6a8499d0740de045db0158ca4123243')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b6/42e64bb8625062d881e3c2f9bf1db468691718')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b6')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/e7/474caf681f05c7a66ff07149764c52ebf75068')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/e7')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/24/58013226e015959fb03967e907061fe7d79db6')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/24')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/1f/449479444f2c0fea5f16fb2b9c7d1d132eca09')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/1f')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/53/a4f36227e8ddfd3fa8b1faeff8f0dea23244ae')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/53')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/db/4815014901368a791f232f40c76e7edbf3b20b')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/db')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/09/bb1fa2ded2aafe902d1c56c9f0e6cba6d33c8d')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/09')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/pack')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/6c/db80bb04c4908e2921214a8fc726f9ad4341b8')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/6c')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/packed-refs')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/HEAD')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/src/redux_nim.nim')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/src/redux_nim/arrUtils.nim')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/src/redux_nim/compose.nim')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/src/redux_nim')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/src/redux_nim.html')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/src')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/redux_nim.nimble')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/examples/tasksApp/index.nim')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/examples/tasksApp/models/Task.nim')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/examples/tasksApp/models')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/examples/tasksApp')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/examples/combiningReducers/main.nim')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/examples/combiningReducers')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/examples')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/genDocs.sh')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.travis.yml')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.editorconfig')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/tests/config.nims')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/tests/tests_redux.nim')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/tests/tests_compose.nim')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/tests/tests_arrUtils.nim')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/tests')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.gitignore')
+unlink('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim/LICENCE.md')
+rmdir('/tmp/nimble_9767/githubcom_M4RC3L05reduxnim')
+rmdir('/tmp/nimble_9767')
   create directory /tmp
-  create directory /tmp/nimble_9415
-  create directory /tmp/nimble_9415/githubcom_M4RC3L05reduxnim
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim
-  create directory /tmp/nimble_9415/githubcom_M4RC3L05reduxnim
-  create directory /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git
-  create directory /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git
-  create directory /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/branches
-  create directory /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks
-  create directory /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/info
-  create directory /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/refs
-  create directory /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/refs/heads
-  create directory /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/refs/tags
-  rename /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config.lock to config
-  change permissions of /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config.lock to config
-  change permissions of /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config.lock to config
-  change permissions of /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config.lock to config
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/tNDgihw
-  create symbolic link from /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/tNDgihw to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/tNDgihw
-  create directory /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects
-  create directory /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects/pack
-  create directory /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects/info
-  change permissions of /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config.lock to config
-  change permissions of /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config.lock to config
-  change permissions of /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config.lock to config
-  create hard link from /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects/pack/pack-ca958ef181b633624b7b5d88446a2553d0c3065c.pack to /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects/pack/tmp_pack_pzu8H1
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects/pack/tmp_pack_pzu8H1
-  create hard link from /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects/pack/pack-ca958ef181b633624b7b5d88446a2553d0c3065c.idx to /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects/pack/tmp_idx_kEL8Wb
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects/pack/tmp_idx_kEL8Wb
-  rename /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/shallow.lock to shallow
-  rename /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/packed-refs.lock
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/refs/tags/v1.0.3.lock
-  create directory /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/logs
-  rename /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects/pack/pack-ca958ef181b633624b7b5d88446a2553d0c3065c.keep
-  create directory /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/docs
-  create directory /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/docs/redux_nim
-  create directory /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/examples
-  create directory /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/examples/combiningReducers
-  create directory /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/examples/tasksApp
-  create directory /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/examples/tasksApp/models
-  create directory /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/src
-  create directory /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/src/redux_nim
-  create directory /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/tests
-  rename /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/index.lock to index
+  create directory /tmp/nimble_9767
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/info
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/branches
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/refs
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/refs/heads
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/refs/tags
+  rename /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config.lock to config
+  change permissions of /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config.lock to config
+  change permissions of /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config.lock to config
+  change permissions of /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config.lock to config
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/tqctfFr
+  create symbolic link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/tqctfFr to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/tqctfFr
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/pack
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/info
+  change permissions of /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config.lock to config
+  change permissions of /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config.lock to config
+  change permissions of /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config.lock to config
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/8e
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/8e/594720c89b4a142cdafb36954179da5a23d8a1 to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/8e/tmp_obj_ppkizP
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/8e/tmp_obj_ppkizP
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/58
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/58/ba20ccb6278c4ba48f45bbb6932ebd1cc059d1 to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/58/tmp_obj_hfpKFQ
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/58/tmp_obj_hfpKFQ
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a6
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a6/9a728a3d48933289b599a9dd568cebec0aec50 to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a6/tmp_obj_7fGzaX
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a6/tmp_obj_7fGzaX
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/db
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/db/4815014901368a791f232f40c76e7edbf3b20b to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/db/tmp_obj_JtHx6X
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/db/tmp_obj_JtHx6X
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/da
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/da/35564b76f8d57fd1d2928de1cb29b77ef495be to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/da/tmp_obj_xDzvb3
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/da/tmp_obj_xDzvb3
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/6c
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/6c/db80bb04c4908e2921214a8fc726f9ad4341b8 to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/6c/tmp_obj_lxT1Q6
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/6c/tmp_obj_lxT1Q6
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b6
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b6/42e64bb8625062d881e3c2f9bf1db468691718 to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b6/tmp_obj_9mhfTb
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b6/tmp_obj_9mhfTb
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/82
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/82/fd13391809b390a1960c206de8b69ad30ff95c to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/82/tmp_obj_d94Cai
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/82/tmp_obj_d94Cai
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/fa
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/fa/80d850bb9c343d1d27f45ba5343956c9bfc3ef to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/fa/tmp_obj_C85qcb
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/fa/tmp_obj_C85qcb
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/24
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/24/58013226e015959fb03967e907061fe7d79db6 to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/24/tmp_obj_sBJC0e
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/24/tmp_obj_sBJC0e
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/19
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/19/164d30f0789570790ff530b1061e068dc0919d to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/19/tmp_obj_A9Qwjl
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/19/tmp_obj_A9Qwjl
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a5
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a5/19e9340aca7eeb92c0e90265fb47c78c28026d to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a5/tmp_obj_8gOdnq
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a5/tmp_obj_8gOdnq
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/3c
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/3c/44241cc4f49d29009e01f1f221d04f0d64b68b to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/3c/tmp_obj_sBvj8t
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/3c/tmp_obj_sBvj8t
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/26
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/26/e8a8533484116bb5219e0676b40993b9ea8dcd to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/26/tmp_obj_ueLFiz
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/26/tmp_obj_ueLFiz
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/e7
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/e7/474caf681f05c7a66ff07149764c52ebf75068 to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/e7/tmp_obj_gtSPKA
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/e7/tmp_obj_gtSPKA
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/2f
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/2f/69ea16d109ad21f03299380951eea2fa4a111b to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/2f/tmp_obj_qYFmkF
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/2f/tmp_obj_qYFmkF
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a7
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a7/cc7d74d9aa8774c72bc8c3687dec23be4d7516 to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a7/tmp_obj_ikDusJ
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a7/tmp_obj_ikDusJ
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/1f
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/1f/449479444f2c0fea5f16fb2b9c7d1d132eca09 to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/1f/tmp_obj_oHRMiO
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/1f/tmp_obj_oHRMiO
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/c4
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/c4/0de4a48142f1544a7fa09e6819387003317c46 to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/c4/tmp_obj_gRg8sU
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/c4/tmp_obj_gRg8sU
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b5
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b5/a8a49893e188ce1cbfa9a566834b880a7526fe to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b5/tmp_obj_CYG240
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b5/tmp_obj_CYG240
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/ac
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/ac/4aadc524ce91d37951862a47ff9dc07cce2d4a to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/ac/tmp_obj_Ef7bZ7
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/ac/tmp_obj_Ef7bZ7
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/47
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/47/1392c200a1fc91a47d7a21bd158f355304f0c7 to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/47/tmp_obj_yYtVwf
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/47/tmp_obj_yYtVwf
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/1a
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/1a/1e6b582013d18d324d6c67c3881233082c6041 to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/1a/tmp_obj_q6vnOg
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/1a/tmp_obj_q6vnOg
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/09
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/09/bb1fa2ded2aafe902d1c56c9f0e6cba6d33c8d to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/09/tmp_obj_hIGBAe
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/09/tmp_obj_hIGBAe
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/5d
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/5d/217c3abbdd9fd5c5c6801579a2070165d09a42 to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/5d/tmp_obj_3kg8fj
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/5d/tmp_obj_3kg8fj
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/53
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/53/a4f36227e8ddfd3fa8b1faeff8f0dea23244ae to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/53/tmp_obj_Hnlvon
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/53/tmp_obj_Hnlvon
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b6/6c6c56f6a8499d0740de045db0158ca4123243 to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b6/tmp_obj_L5mr1p
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b6/tmp_obj_L5mr1p
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/93
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/93/3739e293821ebfe240ca4409c2132d5b88cf22 to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/93/tmp_obj_leORSq
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/93/tmp_obj_leORSq
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/9e
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/9e/7adf2144ba4388d96c0e3750292cbdb24940a8 to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/9e/tmp_obj_z3s94s
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/9e/tmp_obj_z3s94s
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/08
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/08/abf28c3a5dcfbaed7b842fe7a97ea334058ac0 to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/08/tmp_obj_Bmy7Oy
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/08/tmp_obj_Bmy7Oy
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/3b
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6 to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/3b/tmp_obj_zbrGXD
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/3b/tmp_obj_zbrGXD
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/8d
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/8d/0fdfd4bc505182e67e58ae04db6505143a7087 to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/8d/tmp_obj_VOtu0E
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/8d/tmp_obj_VOtu0E
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/e2
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/e2/ebe2f7b1bcddef1d92a1ef1cd5159192bf6a05 to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/e2/tmp_obj_RG8QsL
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/e2/tmp_obj_RG8QsL
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/9a
+  create hard link from /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/9a/90945f55e33db1cb718b80a87e0e23e78ed910 to /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/9a/tmp_obj_jntEAP
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/9a/tmp_obj_jntEAP
+  rename /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/shallow.lock to shallow
+  rename /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/packed-refs.lock
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/refs/tags/v1.0.3.lock
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/logs
+  rename /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/docs
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/docs/redux_nim
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/examples
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/examples/combiningReducers
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/examples/tasksApp
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/examples/tasksApp/models
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/src
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/src/redux_nim
+  create directory /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/tests
+  rename /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/redux_nim_4124505131
-  delete /tmp/nimblecache/redux_nim_4124505131/redux_nim.ini
-  delete /tmp/nimble_9415.out
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/redux_nim_9415.nims
+  create directory /tmp/nimblecache/redux_nim_2828382967
+  delete /tmp/nimblecache/redux_nim_2828382967/redux_nim.ini
+  delete /tmp/nimble_9767.out
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/redux_nim_9767.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -258,14 +515,14 @@ rmdir('/tmp/nimble_9415')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/redux_nim-1.0.3
   create directory /home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim
-  change permissions of /home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim/compose.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim/arrUtils.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/redux_nim-1.0.3
   create directory /home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim
-  change permissions of /home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim/arrUtils.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim/compose.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -277,71 +534,136 @@ rmdir('/tmp/nimble_9415')
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/redux_nim_3038564659
   delete /tmp/nimblecache/redux_nim_3038564659/redux_nim.ini
-  delete /tmp/nimble_9415.out
-  delete /home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim_9415.nims
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/examples/combiningReducers/main.nim
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/examples/combiningReducers
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/examples/tasksApp/models/Task.nim
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/examples/tasksApp/models
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/examples/tasksApp/index.nim
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/examples/tasksApp
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/examples
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/src/redux_nim.nim
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/src/redux_nim/compose.nim
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/src/redux_nim/arrUtils.nim
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/src/redux_nim
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/src/redux_nim.html
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/src
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.editorconfig
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.gitignore
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/LICENCE.md
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/appveyor.yml
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/genDocs.sh
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.travis.yml
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/docs/redux_nim/compose.html
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/docs/redux_nim/arrUtils.html
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/docs/redux_nim
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/docs/index.html
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/docs
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/HEAD
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/config
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/logs/HEAD
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/logs
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/branches
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/packed-refs
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/refs/heads
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/refs/tags
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/refs
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks/pre-push.sample
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks/update.sample
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks/post-update.sample
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/hooks
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/index
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/info/exclude
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/info
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/shallow
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/description
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects/pack/pack-ca958ef181b633624b7b5d88446a2553d0c3065c.idx
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects/pack/pack-ca958ef181b633624b7b5d88446a2553d0c3065c.pack
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects/pack
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects/info
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git/objects
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/.git
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/README.md
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/redux_nim.nimble
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/tests/tests_redux.nim
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/tests/config.nims
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/tests/tests_arrUtils.nim
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/tests/tests_compose.nim
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim/tests
-  delete /tmp/nimble_9415/githubcom_M4RC3L05reduxnim
-  delete /tmp/nimble_9415
+  delete /tmp/nimble_9767.out
+  delete /home/runner/.nimble/pkgs/redux_nim-1.0.3/redux_nim_9767.nims
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/docs/redux_nim/arrUtils.html
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/docs/redux_nim/compose.html
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/docs/redux_nim
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/docs/index.html
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/docs
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/README.md
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/appveyor.yml
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/refs/tags
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/refs/heads
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/refs
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/info/exclude
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/info
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/branches
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/logs/HEAD
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/logs
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/description
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks/pre-push.sample
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks/update.sample
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks/post-update.sample
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/hooks
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/shallow
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/config
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/index
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b5/a8a49893e188ce1cbfa9a566834b880a7526fe
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b5
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/93/3739e293821ebfe240ca4409c2132d5b88cf22
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/93
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/19/164d30f0789570790ff530b1061e068dc0919d
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/19
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/82/fd13391809b390a1960c206de8b69ad30ff95c
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/82
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/ac/4aadc524ce91d37951862a47ff9dc07cce2d4a
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/ac
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/info
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/e2/ebe2f7b1bcddef1d92a1ef1cd5159192bf6a05
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/e2
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/08/abf28c3a5dcfbaed7b842fe7a97ea334058ac0
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/08
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/c4/0de4a48142f1544a7fa09e6819387003317c46
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/c4
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/fa/80d850bb9c343d1d27f45ba5343956c9bfc3ef
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/fa
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/1a/1e6b582013d18d324d6c67c3881233082c6041
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/1a
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/47/1392c200a1fc91a47d7a21bd158f355304f0c7
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/47
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/3c/44241cc4f49d29009e01f1f221d04f0d64b68b
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/3c
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/58/ba20ccb6278c4ba48f45bbb6932ebd1cc059d1
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/58
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/8d/0fdfd4bc505182e67e58ae04db6505143a7087
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/8d
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a6/9a728a3d48933289b599a9dd568cebec0aec50
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a6
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a5/19e9340aca7eeb92c0e90265fb47c78c28026d
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a5
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/2f/69ea16d109ad21f03299380951eea2fa4a111b
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/2f
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a7/cc7d74d9aa8774c72bc8c3687dec23be4d7516
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/a7
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/3b
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/26/e8a8533484116bb5219e0676b40993b9ea8dcd
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/26
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/8e/594720c89b4a142cdafb36954179da5a23d8a1
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/8e
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/9a/90945f55e33db1cb718b80a87e0e23e78ed910
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/9a
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/5d/217c3abbdd9fd5c5c6801579a2070165d09a42
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/5d
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/9e/7adf2144ba4388d96c0e3750292cbdb24940a8
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/9e
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/da/35564b76f8d57fd1d2928de1cb29b77ef495be
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/da
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b6/6c6c56f6a8499d0740de045db0158ca4123243
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b6/42e64bb8625062d881e3c2f9bf1db468691718
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/b6
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/e7/474caf681f05c7a66ff07149764c52ebf75068
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/e7
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/24/58013226e015959fb03967e907061fe7d79db6
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/24
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/1f/449479444f2c0fea5f16fb2b9c7d1d132eca09
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/1f
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/53/a4f36227e8ddfd3fa8b1faeff8f0dea23244ae
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/53
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/db/4815014901368a791f232f40c76e7edbf3b20b
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/db
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/09/bb1fa2ded2aafe902d1c56c9f0e6cba6d33c8d
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/09
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/pack
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/6c/db80bb04c4908e2921214a8fc726f9ad4341b8
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects/6c
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/objects
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/packed-refs
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git/HEAD
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.git
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/src/redux_nim.nim
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/src/redux_nim/arrUtils.nim
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/src/redux_nim/compose.nim
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/src/redux_nim
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/src/redux_nim.html
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/src
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/redux_nim.nimble
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/examples/tasksApp/index.nim
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/examples/tasksApp/models/Task.nim
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/examples/tasksApp/models
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/examples/tasksApp
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/examples/combiningReducers/main.nim
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/examples/combiningReducers
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/examples
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/genDocs.sh
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.travis.yml
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.editorconfig
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/tests/config.nims
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/tests/tests_redux.nim
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/tests/tests_compose.nim
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/tests/tests_arrUtils.nim
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/tests
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/.gitignore
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim/LICENCE.md
+  delete /tmp/nimble_9767/githubcom_M4RC3L05reduxnim
+  delete /tmp/nimble_9767
