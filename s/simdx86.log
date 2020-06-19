@@ -1,79 +1,178 @@
     Reading official package list
 Downloading https://github.com/nimlibs/simdX86 using git
-       Info /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86_11664.nims(6, 8) Warning: import os.nim instead; ospaths is deprecated [Deprecated]
-  Verifying dependencies for simdX86@0.1.0
- Installing simdX86@0.1.0
-    Copying file /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86.nim
-    Copying file /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdAvx.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvx.nim
-    Copying file /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdSseIntrin.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdSseIntrin.nim
-    Copying file /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvxGeneric.c2nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdAvxGeneric.c2nim
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_11664', 0x00000000000001ff)
-mkdir('/tmp/nimble_11664/githubcom_nimlibssimdX86', 0x00000000000001ff)
-rmdir('/tmp/nimble_11664/githubcom_nimlibssimdX86')
-mkdir('/tmp/nimble_11664/githubcom_nimlibssimdX86', 0x00000000000001ff)
-mkdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/HEAD.lock', '/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/HEAD')
-rename('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock', '/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config')
-chmod('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock', '/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config')
-chmod('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock', '/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config')
-chmod('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock', '/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/tTCJtrK')
-symlink('testing', '/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/tTCJtrK')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/tTCJtrK')
-mkdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock', '/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config')
-chmod('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock', '/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config')
-chmod('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock', '/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config')
-link('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects/pack/tmp_pack_Xc4tpm', '/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects/pack/pack-055261f0a939db1c8bbb64b1ae001cc03e565cc5.pack')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects/pack/tmp_pack_Xc4tpm')
-link('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects/pack/tmp_idx_jqnBCD', '/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects/pack/pack-055261f0a939db1c8bbb64b1ae001cc03e565cc5.idx')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects/pack/tmp_idx_jqnBCD')
-rename('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/shallow.lock', '/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/shallow')
-rename('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/packed-refs.new', '/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/packed-refs')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/packed-refs.lock')
-mkdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs/remotes/origin', 0x00000000000001ff)
-mkdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/logs', 0x00000000000001ff)
-mkdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/logs/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/logs/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/logs/refs/remotes/origin', 0x00000000000001ff)
-rename('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs/remotes/origin/HEAD')
-rename('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/HEAD.lock', '/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/HEAD')
-mkdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/logs/refs/heads', 0x00000000000001ff)
-rename('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs/heads/master.lock', '/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs/heads/master')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/HEAD.lock')
-chmod('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock', '/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config')
-chmod('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock', '/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects/pack/pack-055261f0a939db1c8bbb64b1ae001cc03e565cc5.keep')
+mkdir('/tmp/nimble_19611', 0x00000000000001ff)
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86', 0x00000000000001ff)
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86', 0x00000000000001ff)
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/HEAD.lock', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/HEAD')
+rename('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config')
+chmod('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config')
+chmod('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config')
+chmod('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/tkj0tHl')
+symlink('testing', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/tkj0tHl')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/tkj0tHl')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config')
+chmod('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config')
+chmod('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d8', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d8/tmp_obj_vWbMIo', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d8/e00afc7c09b09b19643179705448eba6060b3d')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d8/tmp_obj_vWbMIo')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d7', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d7/tmp_obj_Z3bAfr', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d7/1a677d2a7333500e9ea78764a671ad3e2a399d')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d7/tmp_obj_Z3bAfr')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/67', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/67/tmp_obj_zU5Dvv', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/67/d9b34c6cecad82ad17197ffa5db4860caf9037')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/67/tmp_obj_zU5Dvv')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/31', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/31/tmp_obj_tXa5Cy', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/31/0defafc5526f2dbf8295219a2fec4abe88283d')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/31/tmp_obj_tXa5Cy')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/4e', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/4e/tmp_obj_FlGSyC', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/4e/a9251caee7cceec785e20edd19c038f1af5317')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/4e/tmp_obj_FlGSyC')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/48', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/48/tmp_obj_PYHyqH', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/48/4f664a68c5708207b95818a99552e59a519313')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/48/tmp_obj_PYHyqH')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/c1', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/c1/tmp_obj_71kqHN', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/c1/d727e4ac40be9e46324e9f14ac99f8722cb0ea')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/c1/tmp_obj_71kqHN')
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d7/tmp_obj_FfpDeO', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d7/bfd35d591942b012c4276cac06371be9ad0d22')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d7/tmp_obj_FfpDeO')
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/48/tmp_obj_fqvgkU', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/48/06e63c0802c9267d035cfd2fd74fa894c7452b')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/48/tmp_obj_fqvgkU')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/5d', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/5d/tmp_obj_z2loEV', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/5d/da89bc6646aa223d22af56e9d3fbd6a9bd0869')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/5d/tmp_obj_z2loEV')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/32', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/32/tmp_obj_nkSSk0', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/32/90abaf26f2e1d61f0da183069b423bd73c9b3a')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/32/tmp_obj_nkSSk0')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/ac', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/ac/tmp_obj_HYnXC2', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/ac/dd1574580c51f33b23a2bc2a801c317cf7db2d')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/ac/tmp_obj_HYnXC2')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d3', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d3/tmp_obj_t92xz9', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d3/affef8095907e19e1bf12d0fb9c4f0df7535f0')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d3/tmp_obj_t92xz9')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/5a', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/5a/tmp_obj_1ICR0b', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/5a/865bac78eaf5065db35101c3202dd424897626')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/5a/tmp_obj_1ICR0b')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/b9', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/b9/tmp_obj_nGzVxe', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/b9/ef79668e2bf6a015bd8cb73e24084fab63b8dc')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/b9/tmp_obj_nGzVxe')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/60', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/60/tmp_obj_BB1S7j', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/60/f5f7a5ef866107d1e36e4ef2bd6589104b25be')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/60/tmp_obj_BB1S7j')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/71', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/71/tmp_obj_kXg9na', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/71/d798cea1989e81b4971894d31d45304992a826')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/71/tmp_obj_kXg9na')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/aa', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/aa/tmp_obj_CUiL3g', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/aa/391d2434dcaa6bed9901584e363e311b54f9bf')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/aa/tmp_obj_CUiL3g')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/a9', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/a9/tmp_obj_4esGLh', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/a9/785bc4c02848a15014260d8b926f14652fed5b')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/a9/tmp_obj_4esGLh')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d0', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d0/tmp_obj_sJB2Sj', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d0/1a53c2f019206a76d768be6b0f45ed567a12fb')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d0/tmp_obj_sJB2Sj')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/07', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/07/tmp_obj_CKFHEs', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/07/14f658a450d916ec14c7d3215776798845b2e3')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/07/tmp_obj_CKFHEs')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/b3', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/b3/tmp_obj_gTF4oD', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/b3/bf8faf3649964425b7b294206f416151fa22fb')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/b3/tmp_obj_gTF4oD')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/dd', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/dd/tmp_obj_Gw1i0J', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/dd/40c1d2f323c1accf4533e0e7a83e8f1d845292')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/dd/tmp_obj_Gw1i0J')
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/07/tmp_obj_sRR2hO', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/07/65ba21ef968c4ef188e4cd3637a1094df5d94e')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/07/tmp_obj_sRR2hO')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/97', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/97/tmp_obj_yyQd7Q', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/97/42d30f9f9f862427cfa7cbd8bd3ced59274743')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/97/tmp_obj_yyQd7Q')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/93', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/93/tmp_obj_icDS5Y', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/93/d8d5af4814ae44ce8ed872811d584ac2ff89f2')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/93/tmp_obj_icDS5Y')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/a3', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/a3/tmp_obj_69i5H0', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/a3/ddfee7c184c149b941472da452a5c1a8bb8ae8')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/a3/tmp_obj_69i5H0')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/9c', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/9c/tmp_obj_i63bi8', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/9c/84b3a0743f463617bee273a33ae466af412e01')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/9c/tmp_obj_i63bi8')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/8e', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/8e/tmp_obj_iUd6Y9', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/8e/5e1d98da69724e6c11d135d944043aefcde702')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/8e/tmp_obj_iUd6Y9')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/61', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/61/tmp_obj_WKGIJh', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/61/88e0370f5ad9cf45f7f7519e3794dafddb41a3')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/61/tmp_obj_WKGIJh')
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d3/tmp_obj_YHAO3j', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d3/f9ae51a1e65586e510e9b0f53e9e53e17b78bf')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d3/tmp_obj_YHAO3j')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/ba', 0x00000000000001ff)
+link('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/ba/tmp_obj_7mCl7a', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/ba/18b4745553a8083fcf922a3523ab5cedf52450')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/ba/tmp_obj_7mCl7a')
+rename('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/shallow.lock', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/shallow')
+rename('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/packed-refs.new', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/packed-refs')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/packed-refs.lock')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/HEAD.lock', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/HEAD')
+mkdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs/heads/master.lock', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs/heads/master')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/HEAD.lock')
+chmod('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config')
+chmod('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config')
 mkdir('simdX86', 0x00000000000001ff)
 mkdir('simdX86/c2nimsrc', 0x00000000000001ff)
-rename('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/index.lock', '/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/index')
+rename('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/index.lock', '/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/simdX86_240348061', 0x00000000000001ff)
-unlink('/tmp/nimblecache/simdX86_240348061/simdX86.ini')
-unlink('/tmp/nimble_11664.out')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86_11664.nims')
+mkdir('/tmp/nimblecache/simdX86_1374101338', 0x00000000000001ff)       Info /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86_19611.nims(6, 8) Warning: import os.nim instead; ospaths is deprecated [Deprecated]
+  Verifying dependencies for simdX86@0.1.0
+ Installing simdX86@0.1.0
+    Copying file /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86.nim
+    Copying file /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdAvx512.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvx512.nim
+    Copying file /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvx.h to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdAvx.h
+    Copying file /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvx512Intrin.c2nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdAvx512Intrin.c2nim
+    Copying file /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdSseGeneric.c2nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdSseGeneric.c2nim
+    Copying file /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/process.nims to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/process.nims
+    Copying file /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvx512Generic.c2nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdAvx512Generic.c2nim
+    Copying file /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdSseIntrin.c2nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdSseIntrin.c2nim
+    Copying file /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvxIntrin.c2nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdAvxIntrin.c2nim
+    Copying file /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvx512.h to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdAvx512.h
+    Copying file /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdSse.h to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdSse.h
+    Copying file /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvxGeneric.c2nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdAvxGeneric.c2nim
+    Copying file /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdSse.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdSse.nim
+    Copying file /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdAvx512Intrin.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvx512Intrin.nim
+    Copying file /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdSseTest.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdSseTest.nim
+    Copying file /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdAvxGeneric.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvxGeneric.nim
+
+unlink('/tmp/nimblecache/simdX86_1374101338/simdX86.ini')
+unlink('/tmp/nimble_19611.out')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86_19611.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -91,39 +190,7 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvx.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdSseIntrin.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdAvxGeneric.c2nim', 0x00000000000001a4)    Copying file /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvx.h to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdAvx.h
-    Copying file /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdSseGeneric.c2nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdSseGeneric.c2nim
-    Copying file /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdSse.h to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdSse.h
-    Copying file /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvx512Intrin.c2nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdAvx512Intrin.c2nim
-    Copying file /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdSseIntrin.c2nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdSseIntrin.c2nim
-    Copying file /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/process.nims to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/process.nims
-    Copying file /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvx512Generic.c2nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdAvx512Generic.c2nim
-    Copying file /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvx512.h to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdAvx512.h
-    Copying file /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvxIntrin.c2nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdAvxIntrin.c2nim
-    Copying file /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdAvx512Intrin.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvx512Intrin.nim
-    Copying file /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdAvx512.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvx512.nim
-    Copying file /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdAvxIntrin.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvxIntrin.nim
-    Copying file /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdAvx512Generic.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvx512Generic.nim
-    Copying file /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdSse.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdSse.nim
-    Copying file /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdAvx512Test.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvx512Test.nim
-    Copying file /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdX86Types.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdX86Types.nim
-    Copying file /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdSseGeneric.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdSseGeneric.nim
-
+chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvx512.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -139,22 +206,6 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdSseGeneric.c2nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdSse.h', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdAvx512Intrin.c2nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
@@ -163,7 +214,7 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdSseIntrin.c2nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdSseGeneric.c2nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -187,7 +238,7 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdAvx512.h', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdSseIntrin.c2nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -202,28 +253,24 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvx512Intrin.nim', 0x00000000000001a4)
+mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdAvx512.h', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvx512.nim', 0x00000000000001a4)
+mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdSse.h', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvxIntrin.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvx512Generic.nim', 0x00000000000001a4)
+mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdAvxGeneric.c2nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -231,6 +278,60 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdSse.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvx512Intrin.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdSseTest.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvxGeneric.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)    Copying file /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdSseIntrin.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdSseIntrin.nim
+    Copying file /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdAvx.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvx.nim
+    Copying file /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdAvxTest.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvxTest.nim
+    Copying file /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdAvx512Test.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvx512Test.nim
+    Copying file /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdX86Types.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdX86Types.nim
+    Copying file /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdAvx512Generic.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvx512Generic.nim
+    Copying file /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdSseGeneric.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdSseGeneric.nim
+    Copying file /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdX86Test.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdX86Test.nim
+    Copying file /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdAvxIntrin.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvxIntrin.nim
+    Copying file /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86.nimble to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86.nimble
+   Success: simdX86 installed successfully.
+       Info /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86_19611.nims(6, 8) Warning: import os.nim instead; ospaths is deprecated [Deprecated]
+
+mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdSseIntrin.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvx.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvxTest.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -251,28 +352,14 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdSseGeneric.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)    Copying file /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdSseTest.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdSseTest.nim
-    Copying file /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdAvxTest.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvxTest.nim
-    Copying file /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdX86Test.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdX86Test.nim
-    Copying file /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdAvxGeneric.nim to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvxGeneric.nim
-    Copying file /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86.nimble to /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86.nimble
-   Success: simdX86 installed successfully.
-       Info /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86_11664.nims(6, 8) Warning: import os.nim instead; ospaths is deprecated [Deprecated]
-
-mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdSseTest.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvx512Generic.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvxTest.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdSseGeneric.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -286,157 +373,302 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvxGeneric.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvxIntrin.nim', 0x00000000000001a4)
 chmod('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86.nimble', 0x00000000000001a4)
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/simdX86_3650285766', 0x00000000000001ff)
 unlink('/tmp/nimblecache/simdX86_3650285766/simdX86.ini')
-unlink('/tmp/nimble_11664.out')
-unlink('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86_11664.nims')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86.nim')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/README.md')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs/remotes/origin')
-rmdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs/remotes')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs/heads/master')
-rmdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs/heads')
-rmdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs/tags')
-rmdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/logs/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/logs/refs/remotes/origin')
-rmdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/logs/refs/remotes')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/logs/refs/heads/master')
-rmdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/logs/refs/heads')
-rmdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/logs/refs')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/logs/HEAD')
-rmdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/logs')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/packed-refs')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/HEAD')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/description')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks/update.sample')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks/post-update.sample')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks/pre-merge-commit.sample')
-rmdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects/pack/pack-055261f0a939db1c8bbb64b1ae001cc03e565cc5.pack')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects/pack/pack-055261f0a939db1c8bbb64b1ae001cc03e565cc5.idx')
-rmdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects/pack')
-rmdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects/info')
-rmdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects')
-rmdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/branches')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/index')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/info/exclude')
-rmdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/info')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git/shallow')
-rmdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/.git')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86.nimble')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/.gitignore')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdAvx.nim')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdSseIntrin.nim')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvxGeneric.c2nim')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvx.h')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdSseGeneric.c2nim')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdSse.h')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvx512Intrin.c2nim')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdSseIntrin.c2nim')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/process.nims')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvx512Generic.c2nim')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvx512.h')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvxIntrin.c2nim')
-rmdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdAvx512Intrin.nim')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdAvx512.nim')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdAvxIntrin.nim')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdAvx512Generic.nim')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdSse.nim')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdAvx512Test.nim')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdX86Types.nim')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdSseGeneric.nim')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdSseTest.nim')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdAvxTest.nim')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdX86Test.nim')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdAvxGeneric.nim')
-rmdir('/tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86')
-unlink('/tmp/nimble_11664/githubcom_nimlibssimdX86/LICENSE')
-rmdir('/tmp/nimble_11664/githubcom_nimlibssimdX86')
-rmdir('/tmp/nimble_11664')
+unlink('/tmp/nimble_19611.out')
+unlink('/home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86_19611.nims')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdAvx512.nim')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvx.h')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvx512Intrin.c2nim')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdSseGeneric.c2nim')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/process.nims')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvx512Generic.c2nim')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdSseIntrin.c2nim')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvxIntrin.c2nim')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvx512.h')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdSse.h')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvxGeneric.c2nim')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdSse.nim')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdAvx512Intrin.nim')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdSseTest.nim')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdAvxGeneric.nim')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdSseIntrin.nim')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdAvx.nim')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdAvxTest.nim')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdAvx512Test.nim')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdX86Types.nim')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdAvx512Generic.nim')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdSseGeneric.nim')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdX86Test.nim')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdAvxIntrin.nim')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/README.md')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs/remotes')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs/tags')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs/heads/master')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs/heads')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/info/exclude')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/info')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/branches')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/logs/refs/remotes')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/logs/refs/heads')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/logs/refs')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/logs/HEAD')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/logs')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/description')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks/update.sample')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/shallow')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/index')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/97/42d30f9f9f862427cfa7cbd8bd3ced59274743')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/97')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/60/f5f7a5ef866107d1e36e4ef2bd6589104b25be')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/60')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/4e/a9251caee7cceec785e20edd19c038f1af5317')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/4e')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/93/d8d5af4814ae44ce8ed872811d584ac2ff89f2')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/93')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/61/88e0370f5ad9cf45f7f7519e3794dafddb41a3')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/61')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/31/0defafc5526f2dbf8295219a2fec4abe88283d')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/31')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/ac/dd1574580c51f33b23a2bc2a801c317cf7db2d')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/ac')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/9c/84b3a0743f463617bee273a33ae466af412e01')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/9c')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/info')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d8/e00afc7c09b09b19643179705448eba6060b3d')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d8')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/a3/ddfee7c184c149b941472da452a5c1a8bb8ae8')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/a3')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/48/4f664a68c5708207b95818a99552e59a519313')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/48/06e63c0802c9267d035cfd2fd74fa894c7452b')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/48')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/c1/d727e4ac40be9e46324e9f14ac99f8722cb0ea')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/c1')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/32/90abaf26f2e1d61f0da183069b423bd73c9b3a')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/32')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d3/f9ae51a1e65586e510e9b0f53e9e53e17b78bf')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d3/affef8095907e19e1bf12d0fb9c4f0df7535f0')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d3')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/07/14f658a450d916ec14c7d3215776798845b2e3')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/07/65ba21ef968c4ef188e4cd3637a1094df5d94e')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/07')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/71/d798cea1989e81b4971894d31d45304992a826')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/71')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/67/d9b34c6cecad82ad17197ffa5db4860caf9037')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/67')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/b3/bf8faf3649964425b7b294206f416151fa22fb')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/b3')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/b9/ef79668e2bf6a015bd8cb73e24084fab63b8dc')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/b9')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/8e/5e1d98da69724e6c11d135d944043aefcde702')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/8e')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/5a/865bac78eaf5065db35101c3202dd424897626')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/5a')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d7/1a677d2a7333500e9ea78764a671ad3e2a399d')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d7/bfd35d591942b012c4276cac06371be9ad0d22')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d7')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/5d/da89bc6646aa223d22af56e9d3fbd6a9bd0869')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/5d')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/aa/391d2434dcaa6bed9901584e363e311b54f9bf')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/aa')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/a9/785bc4c02848a15014260d8b926f14652fed5b')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/a9')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d0/1a53c2f019206a76d768be6b0f45ed567a12fb')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d0')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/ba/18b4745553a8083fcf922a3523ab5cedf52450')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/ba')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/dd/40c1d2f323c1accf4533e0e7a83e8f1d845292')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/dd')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/pack')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/packed-refs')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git/HEAD')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86/.git')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86.nim')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86.nimble')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/.gitignore')
+unlink('/tmp/nimble_19611/githubcom_nimlibssimdX86/LICENSE')
+rmdir('/tmp/nimble_19611/githubcom_nimlibssimdX86')
+rmdir('/tmp/nimble_19611')
   create directory /tmp
-  create directory /tmp/nimble_11664
-  create directory /tmp/nimble_11664/githubcom_nimlibssimdX86
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86
-  create directory /tmp/nimble_11664/githubcom_nimlibssimdX86
-  create directory /tmp/nimble_11664/githubcom_nimlibssimdX86/.git
-  create directory /tmp/nimble_11664/githubcom_nimlibssimdX86/.git
-  create directory /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks
-  create directory /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/branches
-  create directory /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/info
-  create directory /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs
-  create directory /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs/heads
-  create directory /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs/tags
-  rename /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock to config
-  change permissions of /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock to config
-  change permissions of /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock to config
-  change permissions of /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock to config
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/tTCJtrK
-  create symbolic link from /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/tTCJtrK to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/tTCJtrK
-  create directory /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects
-  create directory /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects/pack
-  create directory /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects/info
-  change permissions of /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock to config
-  change permissions of /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock to config
-  change permissions of /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock to config
-  create hard link from /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects/pack/pack-055261f0a939db1c8bbb64b1ae001cc03e565cc5.pack to /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects/pack/tmp_pack_Xc4tpm
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects/pack/tmp_pack_Xc4tpm
-  create hard link from /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects/pack/pack-055261f0a939db1c8bbb64b1ae001cc03e565cc5.idx to /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects/pack/tmp_idx_jqnBCD
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects/pack/tmp_idx_jqnBCD
-  rename /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/shallow.lock to shallow
-  rename /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/packed-refs.lock
-  create directory /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs/remotes
-  create directory /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs/remotes/origin
-  create directory /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/logs
-  create directory /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/logs/refs
-  create directory /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/logs/refs/remotes
-  create directory /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/logs/refs/remotes/origin
-  rename /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs/remotes/origin/HEAD.lock to HEAD
-  rename /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/HEAD.lock to HEAD
-  create directory /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/logs/refs/heads
-  rename /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs/heads/master.lock to master
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/HEAD.lock
-  change permissions of /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock to config
-  change permissions of /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config.lock to config
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects/pack/pack-055261f0a939db1c8bbb64b1ae001cc03e565cc5.keep
-  create directory /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86
-  create directory /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc
-  rename /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/index.lock to index
+  create directory /tmp/nimble_19611
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/info
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/branches
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs/heads
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs/tags
+  rename /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock to config
+  change permissions of /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock to config
+  change permissions of /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock to config
+  change permissions of /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock to config
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/tkj0tHl
+  create symbolic link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/tkj0tHl to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/tkj0tHl
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/pack
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/info
+  change permissions of /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock to config
+  change permissions of /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock to config
+  change permissions of /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock to config
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d8
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d8/e00afc7c09b09b19643179705448eba6060b3d to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d8/tmp_obj_vWbMIo
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d8/tmp_obj_vWbMIo
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d7
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d7/1a677d2a7333500e9ea78764a671ad3e2a399d to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d7/tmp_obj_Z3bAfr
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d7/tmp_obj_Z3bAfr
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/67
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/67/d9b34c6cecad82ad17197ffa5db4860caf9037 to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/67/tmp_obj_zU5Dvv
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/67/tmp_obj_zU5Dvv
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/31
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/31/0defafc5526f2dbf8295219a2fec4abe88283d to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/31/tmp_obj_tXa5Cy
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/31/tmp_obj_tXa5Cy
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/4e
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/4e/a9251caee7cceec785e20edd19c038f1af5317 to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/4e/tmp_obj_FlGSyC
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/4e/tmp_obj_FlGSyC
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/48
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/48/4f664a68c5708207b95818a99552e59a519313 to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/48/tmp_obj_PYHyqH
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/48/tmp_obj_PYHyqH
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/c1
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/c1/d727e4ac40be9e46324e9f14ac99f8722cb0ea to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/c1/tmp_obj_71kqHN
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/c1/tmp_obj_71kqHN
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d7/bfd35d591942b012c4276cac06371be9ad0d22 to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d7/tmp_obj_FfpDeO
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d7/tmp_obj_FfpDeO
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/48/06e63c0802c9267d035cfd2fd74fa894c7452b to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/48/tmp_obj_fqvgkU
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/48/tmp_obj_fqvgkU
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/5d
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/5d/da89bc6646aa223d22af56e9d3fbd6a9bd0869 to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/5d/tmp_obj_z2loEV
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/5d/tmp_obj_z2loEV
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/32
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/32/90abaf26f2e1d61f0da183069b423bd73c9b3a to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/32/tmp_obj_nkSSk0
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/32/tmp_obj_nkSSk0
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/ac
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/ac/dd1574580c51f33b23a2bc2a801c317cf7db2d to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/ac/tmp_obj_HYnXC2
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/ac/tmp_obj_HYnXC2
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d3
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d3/affef8095907e19e1bf12d0fb9c4f0df7535f0 to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d3/tmp_obj_t92xz9
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d3/tmp_obj_t92xz9
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/5a
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/5a/865bac78eaf5065db35101c3202dd424897626 to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/5a/tmp_obj_1ICR0b
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/5a/tmp_obj_1ICR0b
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/b9
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/b9/ef79668e2bf6a015bd8cb73e24084fab63b8dc to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/b9/tmp_obj_nGzVxe
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/b9/tmp_obj_nGzVxe
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/60
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/60/f5f7a5ef866107d1e36e4ef2bd6589104b25be to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/60/tmp_obj_BB1S7j
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/60/tmp_obj_BB1S7j
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/71
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/71/d798cea1989e81b4971894d31d45304992a826 to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/71/tmp_obj_kXg9na
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/71/tmp_obj_kXg9na
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/aa
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/aa/391d2434dcaa6bed9901584e363e311b54f9bf to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/aa/tmp_obj_CUiL3g
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/aa/tmp_obj_CUiL3g
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/a9
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/a9/785bc4c02848a15014260d8b926f14652fed5b to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/a9/tmp_obj_4esGLh
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/a9/tmp_obj_4esGLh
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d0
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d0/1a53c2f019206a76d768be6b0f45ed567a12fb to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d0/tmp_obj_sJB2Sj
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d0/tmp_obj_sJB2Sj
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/07
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/07/14f658a450d916ec14c7d3215776798845b2e3 to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/07/tmp_obj_CKFHEs
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/07/tmp_obj_CKFHEs
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/b3
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/b3/bf8faf3649964425b7b294206f416151fa22fb to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/b3/tmp_obj_gTF4oD
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/b3/tmp_obj_gTF4oD
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/dd
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/dd/40c1d2f323c1accf4533e0e7a83e8f1d845292 to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/dd/tmp_obj_Gw1i0J
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/dd/tmp_obj_Gw1i0J
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/07/65ba21ef968c4ef188e4cd3637a1094df5d94e to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/07/tmp_obj_sRR2hO
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/07/tmp_obj_sRR2hO
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/97
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/97/42d30f9f9f862427cfa7cbd8bd3ced59274743 to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/97/tmp_obj_yyQd7Q
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/97/tmp_obj_yyQd7Q
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/93
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/93/d8d5af4814ae44ce8ed872811d584ac2ff89f2 to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/93/tmp_obj_icDS5Y
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/93/tmp_obj_icDS5Y
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/a3
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/a3/ddfee7c184c149b941472da452a5c1a8bb8ae8 to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/a3/tmp_obj_69i5H0
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/a3/tmp_obj_69i5H0
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/9c
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/9c/84b3a0743f463617bee273a33ae466af412e01 to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/9c/tmp_obj_i63bi8
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/9c/tmp_obj_i63bi8
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/8e
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/8e/5e1d98da69724e6c11d135d944043aefcde702 to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/8e/tmp_obj_iUd6Y9
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/8e/tmp_obj_iUd6Y9
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/61
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/61/88e0370f5ad9cf45f7f7519e3794dafddb41a3 to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/61/tmp_obj_WKGIJh
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/61/tmp_obj_WKGIJh
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d3/f9ae51a1e65586e510e9b0f53e9e53e17b78bf to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d3/tmp_obj_YHAO3j
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d3/tmp_obj_YHAO3j
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/ba
+  create hard link from /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/ba/18b4745553a8083fcf922a3523ab5cedf52450 to /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/ba/tmp_obj_7mCl7a
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/ba/tmp_obj_7mCl7a
+  rename /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/shallow.lock to shallow
+  rename /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/packed-refs.lock
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs/remotes
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs/remotes/origin
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/logs
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/logs/refs
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/logs/refs/remotes
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/logs/refs/heads
+  rename /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/HEAD.lock
+  change permissions of /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock to config
+  change permissions of /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config.lock to config
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86
+  create directory /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc
+  rename /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/simdX86_240348061
-  delete /tmp/nimblecache/simdX86_240348061/simdX86.ini
-  delete /tmp/nimble_11664.out
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86_11664.nims
+  create directory /tmp/nimblecache/simdX86_1374101338
+  delete /tmp/nimblecache/simdX86_1374101338/simdX86.ini
+  delete /tmp/nimble_19611.out
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86_19611.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -454,22 +686,7 @@ rmdir('/tmp/nimble_11664')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/simdX86-0.1.0
   create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86
-  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvx.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0
-  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86
-  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdSseIntrin.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0
-  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86
-  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc
-  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdAvxGeneric.c2nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvx512.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -485,22 +702,6 @@ rmdir('/tmp/nimble_11664')
   create directory /home/runner/.nimble/pkgs/simdX86-0.1.0
   create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86
   create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc
-  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdSseGeneric.c2nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0
-  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86
-  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc
-  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdSse.h to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0
-  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86
-  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc
   change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdAvx512Intrin.c2nim to rw-r--r--
   create directory /home
   create directory /home/runner
@@ -509,7 +710,7 @@ rmdir('/tmp/nimble_11664')
   create directory /home/runner/.nimble/pkgs/simdX86-0.1.0
   create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86
   create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc
-  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdSseIntrin.c2nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdSseGeneric.c2nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -533,7 +734,7 @@ rmdir('/tmp/nimble_11664')
   create directory /home/runner/.nimble/pkgs/simdX86-0.1.0
   create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86
   create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc
-  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdAvx512.h to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdSseIntrin.c2nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -548,28 +749,24 @@ rmdir('/tmp/nimble_11664')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/simdX86-0.1.0
   create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86
-  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvx512Intrin.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc
+  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdAvx512.h to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/simdX86-0.1.0
   create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86
-  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvx512.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc
+  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdSse.h to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/simdX86-0.1.0
   create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86
-  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvxIntrin.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0
-  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86
-  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvx512Generic.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc
+  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/c2nimsrc/simdAvxGeneric.c2nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -577,6 +774,48 @@ rmdir('/tmp/nimble_11664')
   create directory /home/runner/.nimble/pkgs/simdX86-0.1.0
   create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86
   change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdSse.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0
+  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86
+  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvx512Intrin.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0
+  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86
+  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdSseTest.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0
+  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86
+  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvxGeneric.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0
+  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86
+  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdSseIntrin.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0
+  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86
+  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvx.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0
+  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86
+  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvxTest.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -597,21 +836,14 @@ rmdir('/tmp/nimble_11664')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/simdX86-0.1.0
   create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86
+  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvx512Generic.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0
+  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86
   change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdSseGeneric.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0
-  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86
-  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdSseTest.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0
-  create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86
-  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvxTest.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -625,87 +857,145 @@ rmdir('/tmp/nimble_11664')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/simdX86-0.1.0
   create directory /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86
-  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvxGeneric.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86/simdAvxIntrin.nim to rw-r--r--
   change permissions of /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86.nimble to rw-r--r--
   create directory /tmp
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/simdX86_3650285766
   delete /tmp/nimblecache/simdX86_3650285766/simdX86.ini
-  delete /tmp/nimble_11664.out
-  delete /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86_11664.nims
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86.nim
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/README.md
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs/remotes/origin/HEAD
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs/remotes/origin
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs/remotes
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs/heads/master
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs/heads
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs/tags
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/refs
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/config
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/logs/refs/remotes/origin/HEAD
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/logs/refs/remotes/origin
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/logs/refs/remotes
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/logs/refs/heads/master
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/logs/refs/heads
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/logs/refs
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/logs/HEAD
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/logs
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/packed-refs
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/HEAD
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/description
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks/update.sample
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks/pre-push.sample
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks/post-update.sample
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/hooks
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects/pack/pack-055261f0a939db1c8bbb64b1ae001cc03e565cc5.pack
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects/pack/pack-055261f0a939db1c8bbb64b1ae001cc03e565cc5.idx
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects/pack
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects/info
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/objects
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/branches
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/index
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/info/exclude
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/info
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git/shallow
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.git
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86.nimble
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/.gitignore
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdAvx.nim
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdSseIntrin.nim
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvxGeneric.c2nim
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvx.h
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdSseGeneric.c2nim
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdSse.h
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvx512Intrin.c2nim
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdSseIntrin.c2nim
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/process.nims
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvx512Generic.c2nim
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvx512.h
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvxIntrin.c2nim
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/c2nimsrc
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdAvx512Intrin.nim
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdAvx512.nim
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdAvxIntrin.nim
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdAvx512Generic.nim
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdSse.nim
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdAvx512Test.nim
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdX86Types.nim
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdSseGeneric.nim
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdSseTest.nim
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdAvxTest.nim
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdX86Test.nim
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86/simdAvxGeneric.nim
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/simdX86
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86/LICENSE
-  delete /tmp/nimble_11664/githubcom_nimlibssimdX86
-  delete /tmp/nimble_11664
+  delete /tmp/nimble_19611.out
+  delete /home/runner/.nimble/pkgs/simdX86-0.1.0/simdX86_19611.nims
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdAvx512.nim
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvx.h
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvx512Intrin.c2nim
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdSseGeneric.c2nim
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/process.nims
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvx512Generic.c2nim
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdSseIntrin.c2nim
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvxIntrin.c2nim
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvx512.h
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdSse.h
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc/simdAvxGeneric.c2nim
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/c2nimsrc
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdSse.nim
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdAvx512Intrin.nim
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdSseTest.nim
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdAvxGeneric.nim
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdSseIntrin.nim
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdAvx.nim
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdAvxTest.nim
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdAvx512Test.nim
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdX86Types.nim
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdAvx512Generic.nim
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdSseGeneric.nim
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdX86Test.nim
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86/simdAvxIntrin.nim
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/README.md
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs/remotes/origin
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs/remotes
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs/tags
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs/heads/master
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs/heads
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/refs
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/info/exclude
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/info
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/branches
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/logs/refs/remotes
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/logs/refs/heads/master
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/logs/refs/heads
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/logs/refs
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/logs/HEAD
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/logs
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/description
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks/pre-push.sample
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks/update.sample
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks/post-update.sample
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/hooks
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/shallow
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/config
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/index
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/97/42d30f9f9f862427cfa7cbd8bd3ced59274743
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/97
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/60/f5f7a5ef866107d1e36e4ef2bd6589104b25be
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/60
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/4e/a9251caee7cceec785e20edd19c038f1af5317
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/4e
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/93/d8d5af4814ae44ce8ed872811d584ac2ff89f2
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/93
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/61/88e0370f5ad9cf45f7f7519e3794dafddb41a3
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/61
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/31/0defafc5526f2dbf8295219a2fec4abe88283d
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/31
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/ac/dd1574580c51f33b23a2bc2a801c317cf7db2d
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/ac
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/9c/84b3a0743f463617bee273a33ae466af412e01
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/9c
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/info
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d8/e00afc7c09b09b19643179705448eba6060b3d
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d8
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/a3/ddfee7c184c149b941472da452a5c1a8bb8ae8
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/a3
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/48/4f664a68c5708207b95818a99552e59a519313
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/48/06e63c0802c9267d035cfd2fd74fa894c7452b
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/48
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/c1/d727e4ac40be9e46324e9f14ac99f8722cb0ea
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/c1
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/32/90abaf26f2e1d61f0da183069b423bd73c9b3a
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/32
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d3/f9ae51a1e65586e510e9b0f53e9e53e17b78bf
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d3/affef8095907e19e1bf12d0fb9c4f0df7535f0
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d3
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/07/14f658a450d916ec14c7d3215776798845b2e3
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/07/65ba21ef968c4ef188e4cd3637a1094df5d94e
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/07
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/71/d798cea1989e81b4971894d31d45304992a826
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/71
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/67/d9b34c6cecad82ad17197ffa5db4860caf9037
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/67
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/b3/bf8faf3649964425b7b294206f416151fa22fb
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/b3
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/b9/ef79668e2bf6a015bd8cb73e24084fab63b8dc
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/b9
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/8e/5e1d98da69724e6c11d135d944043aefcde702
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/8e
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/5a/865bac78eaf5065db35101c3202dd424897626
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/5a
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d7/1a677d2a7333500e9ea78764a671ad3e2a399d
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d7/bfd35d591942b012c4276cac06371be9ad0d22
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d7
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/5d/da89bc6646aa223d22af56e9d3fbd6a9bd0869
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/5d
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/aa/391d2434dcaa6bed9901584e363e311b54f9bf
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/aa
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/a9/785bc4c02848a15014260d8b926f14652fed5b
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/a9
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d0/1a53c2f019206a76d768be6b0f45ed567a12fb
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/d0
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/ba/18b4745553a8083fcf922a3523ab5cedf52450
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/ba
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/dd/40c1d2f323c1accf4533e0e7a83e8f1d845292
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/dd
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects/pack
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/objects
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/packed-refs
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git/HEAD
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.git
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86.nim
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/simdX86.nimble
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/.gitignore
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86/LICENSE
+  delete /tmp/nimble_19611/githubcom_nimlibssimdX86
+  delete /tmp/nimble_19611

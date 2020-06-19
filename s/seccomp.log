@@ -1,65 +1,96 @@
     Reading official package list
 Downloading https://github.com/FedericoCeratto/nim-seccomp using git
     Cloning latest tagged version: 0.2.0
-  Verifying dependencies for seccomp@0.2.0
- Installing seccomp@0.2.0
-    Copying file /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/seccomp.nim to /home/runner/.nimble/pkgs/seccomp-0.2.0/seccomp.nim
-    Copying file /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/seccomp.nimble to /home/runner/.nimble/pkgs/seccomp-0.2.0/seccomp.nimble
-   Success: seccomp installed successfully.
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_7162', 0x00000000000001ff)
-mkdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp', 0x00000000000001ff)
-rmdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp')
-mkdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp', 0x00000000000001ff)
-mkdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/HEAD.lock', '/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/HEAD')
-rename('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config.lock', '/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config')
-chmod('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config.lock', '/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config')
-chmod('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config.lock', '/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config')
-chmod('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config.lock', '/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/tTenoJb')
-symlink('testing', '/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/tTenoJb')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/tTenoJb')
-mkdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config.lock', '/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config')
-chmod('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config.lock', '/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config')
-chmod('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config.lock', '/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config')
-link('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects/pack/tmp_pack_s9xnqq', '/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects/pack/pack-f3d755262cd5d2faa201c3b25dcfd26e92403b17.pack')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects/pack/tmp_pack_s9xnqq')
-link('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects/pack/tmp_idx_8K2igr', '/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects/pack/pack-f3d755262cd5d2faa201c3b25dcfd26e92403b17.idx')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects/pack/tmp_idx_8K2igr')
-rename('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/shallow.lock', '/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/shallow')
-rename('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/packed-refs.new', '/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/packed-refs')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/packed-refs.lock')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/refs/tags/0.2.0.lock')
-mkdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/HEAD.lock', '/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/HEAD')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects/pack/pack-f3d755262cd5d2faa201c3b25dcfd26e92403b17.keep')
+mkdir('/tmp/nimble_10820', 0x00000000000001ff)
+mkdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp', 0x00000000000001ff)
+rmdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp')
+mkdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp', 0x00000000000001ff)
+mkdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/HEAD.lock', '/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/HEAD')
+rename('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config.lock', '/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config')
+chmod('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config.lock', '/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config')
+chmod('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config.lock', '/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config')
+chmod('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config.lock', '/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/tJu8v0T')
+symlink('testing', '/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/tJu8v0T')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/tJu8v0T')
+mkdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config.lock', '/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config')
+chmod('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config.lock', '/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config')
+chmod('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config.lock', '/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config')
+mkdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/c6', 0x00000000000001ff)
+link('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/c6/tmp_obj_xr7Czf', '/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/c6/76263b5183b8a1805cdf86bdd10d05ad6d65fe')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/c6/tmp_obj_xr7Czf')
+mkdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/65', 0x00000000000001ff)
+link('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/65/tmp_obj_p1fzuk', '/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/65/302cf8dea3b5fc5f8536a00b76bc6f21adbb62')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/65/tmp_obj_p1fzuk')
+mkdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/66', 0x00000000000001ff)
+link('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/66/tmp_obj_IVnNhe', '/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/66/3ac8b8832374a2a11ae01c64bd531d41d4f6a1')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/66/tmp_obj_IVnNhe')
+mkdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/42', 0x00000000000001ff)
+link('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/42/tmp_obj_clDMcf', '/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/42/f76c6c4e4fe1c2c3a4d8d61512b9dd5c8e9a4c')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/42/tmp_obj_clDMcf')
+mkdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/43', 0x00000000000001ff)
+link('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/43/tmp_obj_Y3jdKl', '/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/43/62b49151d7b34ef83b3067a8f9c9f877d72a0e')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/43/tmp_obj_Y3jdKl')
+mkdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/7a', 0x00000000000001ff)
+link('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/7a/tmp_obj_YHCcAo', '/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/7a/d1011b4e5c1d9f8fa367f8e5ccb4a9953f7e67')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/7a/tmp_obj_YHCcAo')
+mkdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/6e', 0x00000000000001ff)
+link('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/6e/tmp_obj_iismru', '/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/6e/9e61079c970d03a6ff47e30d020dbf2c7d8d57')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/6e/tmp_obj_iismru')
+mkdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/fd', 0x00000000000001ff)
+link('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/fd/tmp_obj_cLgojw', '/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/fd/27de6218747f77c3005d0f978580ee8880599f')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/fd/tmp_obj_cLgojw')
+mkdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/93', 0x00000000000001ff)
+link('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/93/tmp_obj_cXAlSA', '/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/93/150aeb240bbe01910372c716f4346eb17be7d2')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/93/tmp_obj_cXAlSA')
+mkdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/df', 0x00000000000001ff)
+link('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/df/tmp_obj_cXSUtF', '/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/df/413960c46b105979b92669a24b0a861f1e3f7c')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/df/tmp_obj_cXSUtF')
+mkdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/3f', 0x00000000000001ff)
+link('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/3f/tmp_obj_yIvpQJ', '/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/3f/f83560c478c417ff0b55d0fd4def81a64db750')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/3f/tmp_obj_yIvpQJ')
+mkdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/e7', 0x00000000000001ff)
+link('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/e7/tmp_obj_qyq0XP', '/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/e7/7d5ef4c1642b91286d7b85a200118707a52f95')  Verifying dependencies for seccomp@0.2.0
+ Installing seccomp@0.2.0
+    Copying file /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/seccomp.nim to /home/runner/.nimble/pkgs/seccomp-0.2.0/seccomp.nim
+    Copying file /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/seccomp.nimble to /home/runner/.nimble/pkgs/seccomp-0.2.0/seccomp.nimble
+   Success: seccomp installed successfully.
+
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/e7/tmp_obj_qyq0XP')
+rename('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/shallow.lock', '/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/shallow')
+rename('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/packed-refs.new', '/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/packed-refs')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/packed-refs.lock')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/refs/tags/0.2.0.lock')
+mkdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/HEAD.lock', '/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/HEAD')
 mkdir('tests', 0x00000000000001ff)
-rename('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/index.lock', '/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/index')
+rename('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/index.lock', '/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/seccomp_3181418060', 0x00000000000001ff)
-unlink('/tmp/nimblecache/seccomp_3181418060/seccomp.ini')
-unlink('/tmp/nimble_7162.out')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/seccomp_7162.nims')
+mkdir('/tmp/nimblecache/seccomp_1534620619', 0x00000000000001ff)
+unlink('/tmp/nimblecache/seccomp_1534620619/seccomp.ini')
+unlink('/tmp/nimble_10820.out')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/seccomp_10820.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -76,107 +107,160 @@ mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/seccomp_2373019588', 0x00000000000001ff)
 unlink('/tmp/nimblecache/seccomp_2373019588/seccomp.ini')
-unlink('/tmp/nimble_7162.out')
-unlink('/home/runner/.nimble/pkgs/seccomp-0.2.0/seccomp_7162.nims')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/seccomp_lowlevel.nim')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/tests/basic_test.nim')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/tests/trigger_seccomp.nim')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/tests/syscall_num.nim')
-rmdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/tests')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/README.adoc')
-rmdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/refs/heads')
-rmdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/refs/tags')
-rmdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/refs')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/logs/HEAD')
-rmdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/logs')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/packed-refs')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/HEAD')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/description')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks/update.sample')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks/post-update.sample')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks/pre-merge-commit.sample')
-rmdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects/pack/pack-f3d755262cd5d2faa201c3b25dcfd26e92403b17.idx')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects/pack/pack-f3d755262cd5d2faa201c3b25dcfd26e92403b17.pack')
-rmdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects/pack')
-rmdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects/info')
-rmdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects')
-rmdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/branches')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/index')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/info/exclude')
-rmdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/info')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/shallow')
-rmdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.gitignore')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/seccomp.nim')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/LICENSE')
-unlink('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/seccomp.nimble')
-rmdir('/tmp/nimble_7162/githubcom_FedericoCerattonimseccomp')
-rmdir('/tmp/nimble_7162')
+unlink('/tmp/nimble_10820.out')
+unlink('/home/runner/.nimble/pkgs/seccomp-0.2.0/seccomp_10820.nims')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/seccomp.nimble')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/seccomp.nim')
+rmdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/refs/tags')
+rmdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/refs/heads')
+rmdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/refs')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/info/exclude')
+rmdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/info')
+rmdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/branches')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/logs/HEAD')
+rmdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/logs')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/description')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks/update.sample')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/shallow')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/index')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/7a/d1011b4e5c1d9f8fa367f8e5ccb4a9953f7e67')
+rmdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/7a')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/93/150aeb240bbe01910372c716f4346eb17be7d2')
+rmdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/93')
+rmdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/info')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/c6/76263b5183b8a1805cdf86bdd10d05ad6d65fe')
+rmdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/c6')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/66/3ac8b8832374a2a11ae01c64bd531d41d4f6a1')
+rmdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/66')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/df/413960c46b105979b92669a24b0a861f1e3f7c')
+rmdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/df')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/43/62b49151d7b34ef83b3067a8f9c9f877d72a0e')
+rmdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/43')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/65/302cf8dea3b5fc5f8536a00b76bc6f21adbb62')
+rmdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/65')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/e7/7d5ef4c1642b91286d7b85a200118707a52f95')
+rmdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/e7')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/3f/f83560c478c417ff0b55d0fd4def81a64db750')
+rmdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/3f')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/42/f76c6c4e4fe1c2c3a4d8d61512b9dd5c8e9a4c')
+rmdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/42')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/fd/27de6218747f77c3005d0f978580ee8880599f')
+rmdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/fd')
+rmdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/pack')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/6e/9e61079c970d03a6ff47e30d020dbf2c7d8d57')
+rmdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/6e')
+rmdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/packed-refs')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/HEAD')
+rmdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/seccomp_lowlevel.nim')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/tests/basic_test.nim')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/tests/syscall_num.nim')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/tests/trigger_seccomp.nim')
+rmdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/tests')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/README.adoc')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.gitignore')
+unlink('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/LICENSE')
+rmdir('/tmp/nimble_10820/githubcom_FedericoCerattonimseccomp')
+rmdir('/tmp/nimble_10820')
   create directory /tmp
-  create directory /tmp/nimble_7162
-  create directory /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp
-  create directory /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp
-  create directory /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git
-  create directory /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git
-  create directory /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks
-  create directory /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/branches
-  create directory /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/info
-  create directory /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/refs
-  create directory /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/refs/heads
-  create directory /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/refs/tags
-  rename /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config.lock to config
-  change permissions of /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config.lock to config
-  change permissions of /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config.lock to config
-  change permissions of /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config.lock to config
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/tTenoJb
-  create symbolic link from /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/tTenoJb to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/tTenoJb
-  create directory /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects
-  create directory /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects/pack
-  create directory /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects/info
-  change permissions of /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config.lock to config
-  change permissions of /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config.lock to config
-  change permissions of /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config.lock to config
-  create hard link from /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects/pack/pack-f3d755262cd5d2faa201c3b25dcfd26e92403b17.pack to /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects/pack/tmp_pack_s9xnqq
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects/pack/tmp_pack_s9xnqq
-  create hard link from /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects/pack/pack-f3d755262cd5d2faa201c3b25dcfd26e92403b17.idx to /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects/pack/tmp_idx_8K2igr
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects/pack/tmp_idx_8K2igr
-  rename /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/shallow.lock to shallow
-  rename /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/packed-refs.lock
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/refs/tags/0.2.0.lock
-  create directory /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/logs
-  rename /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects/pack/pack-f3d755262cd5d2faa201c3b25dcfd26e92403b17.keep
-  create directory /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/tests
-  rename /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/index.lock to index
+  create directory /tmp/nimble_10820
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/info
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/branches
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/refs
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/refs/heads
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/refs/tags
+  rename /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config.lock to config
+  change permissions of /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config.lock to config
+  change permissions of /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config.lock to config
+  change permissions of /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config.lock to config
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/tJu8v0T
+  create symbolic link from /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/tJu8v0T to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/tJu8v0T
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/pack
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/info
+  change permissions of /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config.lock to config
+  change permissions of /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config.lock to config
+  change permissions of /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config.lock to config
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/c6
+  create hard link from /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/c6/76263b5183b8a1805cdf86bdd10d05ad6d65fe to /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/c6/tmp_obj_xr7Czf
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/c6/tmp_obj_xr7Czf
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/65
+  create hard link from /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/65/302cf8dea3b5fc5f8536a00b76bc6f21adbb62 to /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/65/tmp_obj_p1fzuk
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/65/tmp_obj_p1fzuk
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/66
+  create hard link from /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/66/3ac8b8832374a2a11ae01c64bd531d41d4f6a1 to /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/66/tmp_obj_IVnNhe
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/66/tmp_obj_IVnNhe
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/42
+  create hard link from /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/42/f76c6c4e4fe1c2c3a4d8d61512b9dd5c8e9a4c to /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/42/tmp_obj_clDMcf
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/42/tmp_obj_clDMcf
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/43
+  create hard link from /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/43/62b49151d7b34ef83b3067a8f9c9f877d72a0e to /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/43/tmp_obj_Y3jdKl
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/43/tmp_obj_Y3jdKl
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/7a
+  create hard link from /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/7a/d1011b4e5c1d9f8fa367f8e5ccb4a9953f7e67 to /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/7a/tmp_obj_YHCcAo
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/7a/tmp_obj_YHCcAo
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/6e
+  create hard link from /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/6e/9e61079c970d03a6ff47e30d020dbf2c7d8d57 to /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/6e/tmp_obj_iismru
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/6e/tmp_obj_iismru
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/fd
+  create hard link from /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/fd/27de6218747f77c3005d0f978580ee8880599f to /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/fd/tmp_obj_cLgojw
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/fd/tmp_obj_cLgojw
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/93
+  create hard link from /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/93/150aeb240bbe01910372c716f4346eb17be7d2 to /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/93/tmp_obj_cXAlSA
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/93/tmp_obj_cXAlSA
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/df
+  create hard link from /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/df/413960c46b105979b92669a24b0a861f1e3f7c to /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/df/tmp_obj_cXSUtF
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/df/tmp_obj_cXSUtF
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/3f
+  create hard link from /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/3f/f83560c478c417ff0b55d0fd4def81a64db750 to /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/3f/tmp_obj_yIvpQJ
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/3f/tmp_obj_yIvpQJ
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/e7
+  create hard link from /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/e7/7d5ef4c1642b91286d7b85a200118707a52f95 to /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/e7/tmp_obj_qyq0XP
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/e7/tmp_obj_qyq0XP
+  rename /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/shallow.lock to shallow
+  rename /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/packed-refs.lock
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/refs/tags/0.2.0.lock
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/logs
+  rename /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/tests
+  rename /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/seccomp_3181418060
-  delete /tmp/nimblecache/seccomp_3181418060/seccomp.ini
-  delete /tmp/nimble_7162.out
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/seccomp_7162.nims
+  create directory /tmp/nimblecache/seccomp_1534620619
+  delete /tmp/nimblecache/seccomp_1534620619/seccomp.ini
+  delete /tmp/nimble_10820.out
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/seccomp_10820.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -193,50 +277,72 @@ rmdir('/tmp/nimble_7162')
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/seccomp_2373019588
   delete /tmp/nimblecache/seccomp_2373019588/seccomp.ini
-  delete /tmp/nimble_7162.out
-  delete /home/runner/.nimble/pkgs/seccomp-0.2.0/seccomp_7162.nims
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/seccomp_lowlevel.nim
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/tests/basic_test.nim
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/tests/trigger_seccomp.nim
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/tests/syscall_num.nim
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/tests
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/README.adoc
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/refs/heads
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/refs/tags
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/refs
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/config
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/logs/HEAD
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/logs
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/packed-refs
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/HEAD
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/description
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks/update.sample
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks/pre-push.sample
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks/post-update.sample
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/hooks
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects/pack/pack-f3d755262cd5d2faa201c3b25dcfd26e92403b17.idx
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects/pack/pack-f3d755262cd5d2faa201c3b25dcfd26e92403b17.pack
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects/pack
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects/info
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/objects
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/branches
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/index
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/info/exclude
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/info
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git/shallow
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.git
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/.gitignore
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/seccomp.nim
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/LICENSE
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp/seccomp.nimble
-  delete /tmp/nimble_7162/githubcom_FedericoCerattonimseccomp
-  delete /tmp/nimble_7162
+  delete /tmp/nimble_10820.out
+  delete /home/runner/.nimble/pkgs/seccomp-0.2.0/seccomp_10820.nims
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/seccomp.nimble
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/seccomp.nim
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/refs/tags
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/refs/heads
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/refs
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/info/exclude
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/info
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/branches
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/logs/HEAD
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/logs
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/description
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks/pre-push.sample
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks/update.sample
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks/post-update.sample
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/hooks
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/shallow
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/config
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/index
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/7a/d1011b4e5c1d9f8fa367f8e5ccb4a9953f7e67
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/7a
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/93/150aeb240bbe01910372c716f4346eb17be7d2
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/93
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/info
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/c6/76263b5183b8a1805cdf86bdd10d05ad6d65fe
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/c6
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/66/3ac8b8832374a2a11ae01c64bd531d41d4f6a1
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/66
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/df/413960c46b105979b92669a24b0a861f1e3f7c
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/df
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/43/62b49151d7b34ef83b3067a8f9c9f877d72a0e
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/43
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/65/302cf8dea3b5fc5f8536a00b76bc6f21adbb62
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/65
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/e7/7d5ef4c1642b91286d7b85a200118707a52f95
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/e7
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/3f/f83560c478c417ff0b55d0fd4def81a64db750
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/3f
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/42/f76c6c4e4fe1c2c3a4d8d61512b9dd5c8e9a4c
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/42
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/fd/27de6218747f77c3005d0f978580ee8880599f
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/fd
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/pack
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/6e/9e61079c970d03a6ff47e30d020dbf2c7d8d57
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects/6e
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/objects
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/packed-refs
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git/HEAD
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.git
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/seccomp_lowlevel.nim
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/tests/basic_test.nim
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/tests/syscall_num.nim
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/tests/trigger_seccomp.nim
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/tests
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/README.adoc
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/.gitignore
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp/LICENSE
+  delete /tmp/nimble_10820/githubcom_FedericoCerattonimseccomp
+  delete /tmp/nimble_10820

@@ -1,69 +1,130 @@
     Reading official package list
 Downloading https://github.com/JeffersonLab/serializetools using git
     Cloning latest tagged version: v1.13.0
-  Verifying dependencies for serializetools@1.13.0
- Installing serializetools@1.13.0
-    Copying file /tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools/serializebin.nim to /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/serializebin.nim
-    Copying file /tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools/serialstring.nim to /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/serialstring.nim
-    Copying file /tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools/array1d.nim to /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/array1d.nim
-    Copying file /tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools/array3d.nim to /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/array3d.nim
-    Copying file /tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools/crc32.nim to /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/crc32.nim
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_9124', 0x00000000000001ff)
-mkdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools', 0x00000000000001ff)
-rmdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools')
-mkdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools', 0x00000000000001ff)
-mkdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/HEAD.lock', '/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/HEAD')
-rename('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config.lock', '/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config')
-chmod('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config.lock', '/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config')
-chmod('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config.lock', '/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config')
-chmod('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config.lock', '/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/tOIGxZV')
-symlink('testing', '/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/tOIGxZV')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/tOIGxZV')
-mkdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config.lock', '/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config')
-chmod('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config.lock', '/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config')
-chmod('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config.lock', '/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config')
-link('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects/pack/tmp_pack_qUCYod', '/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects/pack/pack-f74f33214521f27c0a0768ebbe7ead067ab3e470.pack')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects/pack/tmp_pack_qUCYod')
-link('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects/pack/tmp_idx_EpxDSl', '/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects/pack/pack-f74f33214521f27c0a0768ebbe7ead067ab3e470.idx')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects/pack/tmp_idx_EpxDSl')
-rename('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/shallow.lock', '/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/shallow')
-rename('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/packed-refs.new', '/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/packed-refs')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/packed-refs.lock')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/refs/tags/v1.13.0.lock')
-mkdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/HEAD.lock', '/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/HEAD')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects/pack/pack-f74f33214521f27c0a0768ebbe7ead067ab3e470.keep')
+mkdir('/tmp/nimble_14584', 0x00000000000001ff)
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools', 0x00000000000001ff)
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools')
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools', 0x00000000000001ff)
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/HEAD.lock', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/HEAD')
+rename('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config.lock', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config')
+chmod('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config.lock', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config')
+chmod('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config.lock', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config')
+chmod('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config.lock', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/tprn4Dg')
+symlink('testing', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/tprn4Dg')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/tprn4Dg')
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config.lock', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config')
+chmod('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config.lock', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config')
+chmod('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config.lock', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config')
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/6a', 0x00000000000001ff)
+link('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/6a/tmp_obj_5jQPVU', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/6a/e579a87840cd569325da7789bc14fe64d6c238')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/6a/tmp_obj_5jQPVU')
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/ea', 0x00000000000001ff)
+link('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/ea/tmp_obj_HT8yQV', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/ea/8211740ddb8d00713a5a6880cf95fc33043fd2')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/ea/tmp_obj_HT8yQV')
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/93', 0x00000000000001ff)
+link('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/93/tmp_obj_DhQsj0', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/93/0d90f2ffa51c4b29ccfdb69e0b899359a63f06')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/93/tmp_obj_DhQsj0')
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/d7', 0x00000000000001ff)
+link('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/d7/tmp_obj_7sCse2', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/d7/6014c6f882f86e1a98a2609532eb6d1191bd52')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/d7/tmp_obj_7sCse2')
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/be', 0x00000000000001ff)
+link('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/be/tmp_obj_J4Hkd5', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/be/cc61a5e7af13ff086edf1f08616266f069b34c')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/be/tmp_obj_J4Hkd5')
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1c', 0x00000000000001ff)
+link('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1c/tmp_obj_tS7y79', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1c/dba649dd935382765f6085174278c124fea9d0')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1c/tmp_obj_tS7y79')
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/79', 0x00000000000001ff)
+link('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/79/tmp_obj_3QbG7d', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/79/710e2a254a8e3591f351b9de08601a61b4a292')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/79/tmp_obj_3QbG7d')
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/f3', 0x00000000000001ff)
+link('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/f3/tmp_obj_1d26qk', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/f3/1f58b01d9396099a2b2c9837630a9cb1187118')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/f3/tmp_obj_1d26qk')
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/7c', 0x00000000000001ff)
+link('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/7c/tmp_obj_GOn8zg', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/7c/598fefb5d73aa2f27d80f2c5c2827ed6b41fd3')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/7c/tmp_obj_GOn8zg')
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/88', 0x00000000000001ff)
+link('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/88/tmp_obj_odfJDn', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/88/fd54301a7985b8434073df53b5f1453f1e5ae2')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/88/tmp_obj_odfJDn')
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/02', 0x00000000000001ff)
+link('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/02/tmp_obj_Ubm5er', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/02/fb84f67a219dc45fa913a81cc2ccb5618ee991')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/02/tmp_obj_Ubm5er')
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1d', 0x00000000000001ff)
+link('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1d/tmp_obj_e8s8cz', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1d/7969cee3e65e5acded435496e65fe6134fc053')  Verifying dependencies for serializetools@1.13.0
+ Installing serializetools@1.13.0
+    Copying file /tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools/crc32.nim to /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/crc32.nim
+    Copying file /tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools/array2d.nim to /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/array2d.nim
+    Copying file /tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools/serialstring.nim to /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/serialstring.nim
+    Copying file /tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools/serializexml.nim to /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/serializexml.nim
+    Copying file /tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools/serializebin.nim to /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/serializebin.nim
+
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1d/tmp_obj_e8s8cz')
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/b6', 0x00000000000001ff)
+link('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/b6/tmp_obj_Y36f9z', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/b6/76d9a2330c999b10fe521d677b7935d3c43c96')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/b6/tmp_obj_Y36f9z')
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/4b', 0x00000000000001ff)
+link('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/4b/tmp_obj_KsdNOF', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/4b/4ac9d668f8f31477cd8a1f50fa32f7732d2f65')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/4b/tmp_obj_KsdNOF')
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1e', 0x00000000000001ff)
+link('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1e/tmp_obj_muYpgL', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1e/d5d9ba066e9887bd7f56315bf219e219e5959a')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1e/tmp_obj_muYpgL')
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/13', 0x00000000000001ff)
+link('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/13/tmp_obj_u6FdjP', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/13/0619e5258becda61830ee09422a22a7dfccc5c')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/13/tmp_obj_u6FdjP')
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/59', 0x00000000000001ff)
+link('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/59/tmp_obj_i68qRQ', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/59/d258522c2dd9251419d6cb6e72765872348b82')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/59/tmp_obj_i68qRQ')
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/45', 0x00000000000001ff)
+link('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/45/tmp_obj_qw84qT', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/45/c9f18e12938d828a11fe14cff34f5fb23ed575')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/45/tmp_obj_qw84qT')
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/c5', 0x00000000000001ff)
+link('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/c5/tmp_obj_YBMeqY', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/c5/4119098a0f839871859a96bb8ded635cb423d1')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/c5/tmp_obj_YBMeqY')
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/a9', 0x00000000000001ff)
+link('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/a9/tmp_obj_oL0SM3', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/a9/e72c469469d27f2491e49c894b886cf358cc59')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/a9/tmp_obj_oL0SM3')
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/d4', 0x00000000000001ff)
+link('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/d4/tmp_obj_gDSlP4', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/d4/5c0f7731fe15425a421eb3e4f0f40c7859a731')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/d4/tmp_obj_gDSlP4')
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/56', 0x00000000000001ff)
+link('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/56/tmp_obj_EN7HI9', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/56/695c7bc9b83f6b67cc7e976a5b557e729add90')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/56/tmp_obj_EN7HI9')
+rename('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/shallow.lock', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/shallow')
+rename('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/packed-refs.new', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/packed-refs')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/packed-refs.lock')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/refs/tags/v1.13.0.lock')
+mkdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/HEAD.lock', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/HEAD')
 mkdir('docs', 0x00000000000001ff)
 mkdir('serializetools', 0x00000000000001ff)
 mkdir('tests', 0x00000000000001ff)
-rename('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/index.lock', '/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/index')
+rename('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/index.lock', '/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/serializetools_3671193566', 0x00000000000001ff)
-unlink('/tmp/nimblecache/serializetools_3671193566/serializetools.ini')
-unlink('/tmp/nimble_9124.out')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools_9124.nims')
+mkdir('/tmp/nimblecache/serializetools_2442307705', 0x00000000000001ff)
+unlink('/tmp/nimblecache/serializetools_2442307705/serializetools.ini')
+unlink('/tmp/nimble_14584.out')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools_14584.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -75,39 +136,7 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/serializetools-1.13.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/serializebin.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/serializetools-1.13.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/serialstring.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/serializetools-1.13.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/array1d.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/serializetools-1.13.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/array3d.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/serializetools-1.13.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/crc32.nim', 0x00000000000001a4)    Copying file /tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools/array2d.nim to /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/array2d.nim
-    Copying file /tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools/serializexml.nim to /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/serializexml.nim
-    Copying file /tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools.nimble to /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools.nimble
-   Success: serializetools installed successfully.
-
+chmod('/home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/crc32.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -121,158 +150,265 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/serializetools-1.13.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/serialstring.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/serializetools-1.13.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/serializexml.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/serializetools-1.13.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/serializebin.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)    Copying file /tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools/array3d.nim to /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/array3d.nim
+    Copying file /tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools/array1d.nim to /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/array1d.nim
+    Copying file /tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools.nimble to /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools.nimble
+   Success: serializetools installed successfully.
+
+mkdir('/home/runner/.nimble/pkgs/serializetools-1.13.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/array3d.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/serializetools-1.13.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/array1d.nim', 0x00000000000001a4)
 chmod('/home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools.nimble', 0x00000000000001a4)
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/serializetools_1832517482', 0x00000000000001ff)
 unlink('/tmp/nimblecache/serializetools_1832517482/serializetools.ini')
-unlink('/tmp/nimble_9124.out')
-unlink('/home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools_9124.nims')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.travis.yml')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/tests/test_xml.nim')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/tests/test_binary.nim')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/tests/nim.cfg')
-rmdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/tests')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools.nimble')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/docs/serializexml.html')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/docs/array1d.html')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/docs/serializebin.html')
-rmdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/docs')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/README.md')
-rmdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/refs/heads')
-rmdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/refs/tags')
-rmdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/refs')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/logs/HEAD')
-rmdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/logs')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/packed-refs')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/HEAD')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/description')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks/update.sample')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks/post-update.sample')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks/pre-merge-commit.sample')
-rmdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects/pack/pack-f74f33214521f27c0a0768ebbe7ead067ab3e470.idx')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects/pack/pack-f74f33214521f27c0a0768ebbe7ead067ab3e470.pack')
-rmdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects/pack')
-rmdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects/info')
-rmdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects')
-rmdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/branches')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/index')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/info/exclude')
-rmdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/info')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/shallow')
-rmdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/.gitignore')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools/serializebin.nim')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools/serialstring.nim')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools/array1d.nim')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools/array3d.nim')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools/crc32.nim')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools/array2d.nim')
-unlink('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools/serializexml.nim')
-rmdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools')
-rmdir('/tmp/nimble_9124/githubcom_JeffersonLabserializetools')
-rmdir('/tmp/nimble_9124')
+unlink('/tmp/nimble_14584.out')
+unlink('/home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools_14584.nims')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/docs/serializexml.html')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/docs/array1d.html')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/docs/serializebin.html')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/docs')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/README.md')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/refs/tags')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/refs/heads')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/refs')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/info/exclude')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/info')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/branches')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/logs/HEAD')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/logs')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/description')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks/update.sample')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/shallow')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/index')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/79/710e2a254a8e3591f351b9de08601a61b4a292')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/79')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/7c/598fefb5d73aa2f27d80f2c5c2827ed6b41fd3')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/7c')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/93/0d90f2ffa51c4b29ccfdb69e0b899359a63f06')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/93')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/ea/8211740ddb8d00713a5a6880cf95fc33043fd2')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/ea')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/info')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1e/d5d9ba066e9887bd7f56315bf219e219e5959a')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1e')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/be/cc61a5e7af13ff086edf1f08616266f069b34c')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/be')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/c5/4119098a0f839871859a96bb8ded635cb423d1')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/c5')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/13/0619e5258becda61830ee09422a22a7dfccc5c')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/13')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/4b/4ac9d668f8f31477cd8a1f50fa32f7732d2f65')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/4b')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1d/7969cee3e65e5acded435496e65fe6134fc053')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1d')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/59/d258522c2dd9251419d6cb6e72765872348b82')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/59')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1c/dba649dd935382765f6085174278c124fea9d0')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1c')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/d7/6014c6f882f86e1a98a2609532eb6d1191bd52')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/d7')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/b6/76d9a2330c999b10fe521d677b7935d3c43c96')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/b6')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/a9/e72c469469d27f2491e49c894b886cf358cc59')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/a9')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/f3/1f58b01d9396099a2b2c9837630a9cb1187118')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/f3')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/88/fd54301a7985b8434073df53b5f1453f1e5ae2')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/88')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/56/695c7bc9b83f6b67cc7e976a5b557e729add90')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/56')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/45/c9f18e12938d828a11fe14cff34f5fb23ed575')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/45')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/d4/5c0f7731fe15425a421eb3e4f0f40c7859a731')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/d4')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/6a/e579a87840cd569325da7789bc14fe64d6c238')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/6a')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/pack')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/02/fb84f67a219dc45fa913a81cc2ccb5618ee991')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/02')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/packed-refs')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/HEAD')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.travis.yml')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/tests/test_xml.nim')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/tests/test_binary.nim')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/tests/nim.cfg')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/tests')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools.nimble')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/.gitignore')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools/crc32.nim')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools/array2d.nim')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools/serialstring.nim')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools/serializexml.nim')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools/serializebin.nim')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools/array3d.nim')
+unlink('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools/array1d.nim')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools')
+rmdir('/tmp/nimble_14584/githubcom_JeffersonLabserializetools')
+rmdir('/tmp/nimble_14584')
   create directory /tmp
-  create directory /tmp/nimble_9124
-  create directory /tmp/nimble_9124/githubcom_JeffersonLabserializetools
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools
-  create directory /tmp/nimble_9124/githubcom_JeffersonLabserializetools
-  create directory /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git
-  create directory /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git
-  create directory /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks
-  create directory /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/branches
-  create directory /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/info
-  create directory /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/refs
-  create directory /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/refs/heads
-  create directory /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/refs/tags
-  rename /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config.lock to config
-  change permissions of /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config.lock to config
-  change permissions of /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config.lock to config
-  change permissions of /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config.lock to config
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/tOIGxZV
-  create symbolic link from /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/tOIGxZV to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/tOIGxZV
-  create directory /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects
-  create directory /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects/pack
-  create directory /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects/info
-  change permissions of /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config.lock to config
-  change permissions of /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config.lock to config
-  change permissions of /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config.lock to config
-  create hard link from /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects/pack/pack-f74f33214521f27c0a0768ebbe7ead067ab3e470.pack to /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects/pack/tmp_pack_qUCYod
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects/pack/tmp_pack_qUCYod
-  create hard link from /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects/pack/pack-f74f33214521f27c0a0768ebbe7ead067ab3e470.idx to /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects/pack/tmp_idx_EpxDSl
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects/pack/tmp_idx_EpxDSl
-  rename /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/shallow.lock to shallow
-  rename /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/packed-refs.lock
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/refs/tags/v1.13.0.lock
-  create directory /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/logs
-  rename /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects/pack/pack-f74f33214521f27c0a0768ebbe7ead067ab3e470.keep
-  create directory /tmp/nimble_9124/githubcom_JeffersonLabserializetools/docs
-  create directory /tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools
-  create directory /tmp/nimble_9124/githubcom_JeffersonLabserializetools/tests
-  rename /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/index.lock to index
+  create directory /tmp/nimble_14584
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/info
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/branches
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/refs
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/refs/heads
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/refs/tags
+  rename /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config.lock to config
+  change permissions of /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config.lock to config
+  change permissions of /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config.lock to config
+  change permissions of /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config.lock to config
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/tprn4Dg
+  create symbolic link from /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/tprn4Dg to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/tprn4Dg
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/pack
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/info
+  change permissions of /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config.lock to config
+  change permissions of /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config.lock to config
+  change permissions of /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config.lock to config
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/6a
+  create hard link from /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/6a/e579a87840cd569325da7789bc14fe64d6c238 to /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/6a/tmp_obj_5jQPVU
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/6a/tmp_obj_5jQPVU
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/ea
+  create hard link from /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/ea/8211740ddb8d00713a5a6880cf95fc33043fd2 to /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/ea/tmp_obj_HT8yQV
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/ea/tmp_obj_HT8yQV
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/93
+  create hard link from /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/93/0d90f2ffa51c4b29ccfdb69e0b899359a63f06 to /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/93/tmp_obj_DhQsj0
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/93/tmp_obj_DhQsj0
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/d7
+  create hard link from /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/d7/6014c6f882f86e1a98a2609532eb6d1191bd52 to /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/d7/tmp_obj_7sCse2
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/d7/tmp_obj_7sCse2
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/be
+  create hard link from /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/be/cc61a5e7af13ff086edf1f08616266f069b34c to /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/be/tmp_obj_J4Hkd5
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/be/tmp_obj_J4Hkd5
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1c
+  create hard link from /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1c/dba649dd935382765f6085174278c124fea9d0 to /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1c/tmp_obj_tS7y79
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1c/tmp_obj_tS7y79
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/79
+  create hard link from /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/79/710e2a254a8e3591f351b9de08601a61b4a292 to /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/79/tmp_obj_3QbG7d
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/79/tmp_obj_3QbG7d
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/f3
+  create hard link from /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/f3/1f58b01d9396099a2b2c9837630a9cb1187118 to /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/f3/tmp_obj_1d26qk
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/f3/tmp_obj_1d26qk
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/7c
+  create hard link from /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/7c/598fefb5d73aa2f27d80f2c5c2827ed6b41fd3 to /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/7c/tmp_obj_GOn8zg
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/7c/tmp_obj_GOn8zg
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/88
+  create hard link from /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/88/fd54301a7985b8434073df53b5f1453f1e5ae2 to /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/88/tmp_obj_odfJDn
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/88/tmp_obj_odfJDn
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/02
+  create hard link from /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/02/fb84f67a219dc45fa913a81cc2ccb5618ee991 to /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/02/tmp_obj_Ubm5er
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/02/tmp_obj_Ubm5er
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1d
+  create hard link from /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1d/7969cee3e65e5acded435496e65fe6134fc053 to /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1d/tmp_obj_e8s8cz
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1d/tmp_obj_e8s8cz
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/b6
+  create hard link from /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/b6/76d9a2330c999b10fe521d677b7935d3c43c96 to /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/b6/tmp_obj_Y36f9z
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/b6/tmp_obj_Y36f9z
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/4b
+  create hard link from /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/4b/4ac9d668f8f31477cd8a1f50fa32f7732d2f65 to /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/4b/tmp_obj_KsdNOF
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/4b/tmp_obj_KsdNOF
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1e
+  create hard link from /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1e/d5d9ba066e9887bd7f56315bf219e219e5959a to /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1e/tmp_obj_muYpgL
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1e/tmp_obj_muYpgL
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/13
+  create hard link from /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/13/0619e5258becda61830ee09422a22a7dfccc5c to /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/13/tmp_obj_u6FdjP
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/13/tmp_obj_u6FdjP
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/59
+  create hard link from /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/59/d258522c2dd9251419d6cb6e72765872348b82 to /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/59/tmp_obj_i68qRQ
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/59/tmp_obj_i68qRQ
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/45
+  create hard link from /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/45/c9f18e12938d828a11fe14cff34f5fb23ed575 to /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/45/tmp_obj_qw84qT
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/45/tmp_obj_qw84qT
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/c5
+  create hard link from /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/c5/4119098a0f839871859a96bb8ded635cb423d1 to /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/c5/tmp_obj_YBMeqY
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/c5/tmp_obj_YBMeqY
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/a9
+  create hard link from /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/a9/e72c469469d27f2491e49c894b886cf358cc59 to /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/a9/tmp_obj_oL0SM3
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/a9/tmp_obj_oL0SM3
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/d4
+  create hard link from /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/d4/5c0f7731fe15425a421eb3e4f0f40c7859a731 to /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/d4/tmp_obj_gDSlP4
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/d4/tmp_obj_gDSlP4
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/56
+  create hard link from /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/56/695c7bc9b83f6b67cc7e976a5b557e729add90 to /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/56/tmp_obj_EN7HI9
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/56/tmp_obj_EN7HI9
+  rename /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/shallow.lock to shallow
+  rename /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/packed-refs.lock
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/refs/tags/v1.13.0.lock
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/logs
+  rename /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/docs
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools
+  create directory /tmp/nimble_14584/githubcom_JeffersonLabserializetools/tests
+  rename /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/serializetools_3671193566
-  delete /tmp/nimblecache/serializetools_3671193566/serializetools.ini
-  delete /tmp/nimble_9124.out
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools_9124.nims
+  create directory /tmp/nimblecache/serializetools_2442307705
+  delete /tmp/nimblecache/serializetools_2442307705/serializetools.ini
+  delete /tmp/nimble_14584.out
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools_14584.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/serializetools-1.13.0
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/serializetools-1.13.0
-  create directory /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools
-  change permissions of /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/serializebin.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/serializetools-1.13.0
-  create directory /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools
-  change permissions of /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/serialstring.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/serializetools-1.13.0
-  create directory /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools
-  change permissions of /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/array1d.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/serializetools-1.13.0
-  create directory /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools
-  change permissions of /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/array3d.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -293,66 +429,136 @@ rmdir('/tmp/nimble_9124')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/serializetools-1.13.0
   create directory /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools
+  change permissions of /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/serialstring.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/serializetools-1.13.0
+  create directory /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools
   change permissions of /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/serializexml.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/serializetools-1.13.0
+  create directory /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools
+  change permissions of /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/serializebin.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/serializetools-1.13.0
+  create directory /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools
+  change permissions of /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/array3d.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/serializetools-1.13.0
+  create directory /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools
+  change permissions of /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools/array1d.nim to rw-r--r--
   change permissions of /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools.nimble to rw-r--r--
   create directory /tmp
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/serializetools_1832517482
   delete /tmp/nimblecache/serializetools_1832517482/serializetools.ini
-  delete /tmp/nimble_9124.out
-  delete /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools_9124.nims
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.travis.yml
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/tests/test_xml.nim
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/tests/test_binary.nim
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/tests/nim.cfg
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/tests
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools.nimble
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/docs/serializexml.html
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/docs/array1d.html
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/docs/serializebin.html
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/docs
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/README.md
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/refs/heads
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/refs/tags
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/refs
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/config
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/logs/HEAD
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/logs
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/packed-refs
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/HEAD
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/description
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks/update.sample
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks/pre-push.sample
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks/post-update.sample
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/hooks
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects/pack/pack-f74f33214521f27c0a0768ebbe7ead067ab3e470.idx
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects/pack/pack-f74f33214521f27c0a0768ebbe7ead067ab3e470.pack
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects/pack
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects/info
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/objects
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/branches
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/index
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/info/exclude
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/info
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git/shallow
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.git
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/.gitignore
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools/serializebin.nim
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools/serialstring.nim
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools/array1d.nim
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools/array3d.nim
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools/crc32.nim
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools/array2d.nim
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools/serializexml.nim
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools/serializetools
-  delete /tmp/nimble_9124/githubcom_JeffersonLabserializetools
-  delete /tmp/nimble_9124
+  delete /tmp/nimble_14584.out
+  delete /home/runner/.nimble/pkgs/serializetools-1.13.0/serializetools_14584.nims
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/docs/serializexml.html
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/docs/array1d.html
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/docs/serializebin.html
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/docs
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/README.md
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/refs/tags
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/refs/heads
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/refs
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/info/exclude
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/info
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/branches
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/logs/HEAD
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/logs
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/description
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks/pre-push.sample
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks/update.sample
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks/post-update.sample
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/hooks
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/shallow
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/config
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/index
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/79/710e2a254a8e3591f351b9de08601a61b4a292
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/79
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/7c/598fefb5d73aa2f27d80f2c5c2827ed6b41fd3
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/7c
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/93/0d90f2ffa51c4b29ccfdb69e0b899359a63f06
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/93
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/ea/8211740ddb8d00713a5a6880cf95fc33043fd2
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/ea
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/info
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1e/d5d9ba066e9887bd7f56315bf219e219e5959a
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1e
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/be/cc61a5e7af13ff086edf1f08616266f069b34c
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/be
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/c5/4119098a0f839871859a96bb8ded635cb423d1
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/c5
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/13/0619e5258becda61830ee09422a22a7dfccc5c
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/13
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/4b/4ac9d668f8f31477cd8a1f50fa32f7732d2f65
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/4b
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1d/7969cee3e65e5acded435496e65fe6134fc053
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1d
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/59/d258522c2dd9251419d6cb6e72765872348b82
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/59
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1c/dba649dd935382765f6085174278c124fea9d0
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/1c
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/d7/6014c6f882f86e1a98a2609532eb6d1191bd52
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/d7
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/b6/76d9a2330c999b10fe521d677b7935d3c43c96
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/b6
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/a9/e72c469469d27f2491e49c894b886cf358cc59
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/a9
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/f3/1f58b01d9396099a2b2c9837630a9cb1187118
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/f3
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/88/fd54301a7985b8434073df53b5f1453f1e5ae2
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/88
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/56/695c7bc9b83f6b67cc7e976a5b557e729add90
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/56
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/45/c9f18e12938d828a11fe14cff34f5fb23ed575
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/45
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/d4/5c0f7731fe15425a421eb3e4f0f40c7859a731
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/d4
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/6a/e579a87840cd569325da7789bc14fe64d6c238
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/6a
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/pack
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/02/fb84f67a219dc45fa913a81cc2ccb5618ee991
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects/02
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/objects
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/packed-refs
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git/HEAD
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.git
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.travis.yml
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/tests/test_xml.nim
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/tests/test_binary.nim
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/tests/nim.cfg
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/tests
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools.nimble
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/.gitignore
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools/crc32.nim
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools/array2d.nim
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools/serialstring.nim
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools/serializexml.nim
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools/serializebin.nim
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools/array3d.nim
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools/array1d.nim
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools/serializetools
+  delete /tmp/nimble_14584/githubcom_JeffersonLabserializetools
+  delete /tmp/nimble_14584

@@ -1,287 +1,369 @@
     Reading official package list
 Downloading https://github.com/ul/soundio using git
-       Info /tmp/nimble_12853/githubcom_ulsoundio/soundio_12853.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /tmp/nimble_12853/githubcom_ulsoundio/soundio_12853.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
-  Verifying dependencies for soundio@0.1.0
- Installing soundio@0.1.0
-    Copying file /tmp/nimble_12853/githubcom_ulsoundio/src/soundio.nim to /home/runner/.nimble/pkgs/soundio-0.1.0/soundio.nim
-    Copying file /tmp/nimble_12853/githubcom_ulsoundio/soundio.nimble to /home/runner/.nimble/pkgs/soundio-0.1.0/soundio.nimble
-   Success: soundio installed successfully.
-       Info /home/runner/.nimble/pkgs/soundio-0.1.0/soundio_12853.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /home/runner/.nimble/pkgs/soundio-0.1.0/soundio_12853.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_12853', 0x00000000000001ff)
-mkdir('/tmp/nimble_12853/githubcom_ulsoundio', 0x00000000000001ff)
-rmdir('/tmp/nimble_12853/githubcom_ulsoundio')
-mkdir('/tmp/nimble_12853/githubcom_ulsoundio', 0x00000000000001ff)
-mkdir('/tmp/nimble_12853/githubcom_ulsoundio/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_12853/githubcom_ulsoundio/.git/HEAD.lock', '/tmp/nimble_12853/githubcom_ulsoundio/.git/HEAD')
-rename('/tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock', '/tmp/nimble_12853/githubcom_ulsoundio/.git/config')
-chmod('/tmp/nimble_12853/githubcom_ulsoundio/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_12853/githubcom_ulsoundio/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock', '/tmp/nimble_12853/githubcom_ulsoundio/.git/config')
-chmod('/tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock', '/tmp/nimble_12853/githubcom_ulsoundio/.git/config')
-chmod('/tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock', '/tmp/nimble_12853/githubcom_ulsoundio/.git/config')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/tlfkbQD')
-symlink('testing', '/tmp/nimble_12853/githubcom_ulsoundio/.git/tlfkbQD')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/tlfkbQD')
-mkdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock', '/tmp/nimble_12853/githubcom_ulsoundio/.git/config')
-chmod('/tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock', '/tmp/nimble_12853/githubcom_ulsoundio/.git/config')
-chmod('/tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock', '/tmp/nimble_12853/githubcom_ulsoundio/.git/config')
-link('/tmp/nimble_12853/githubcom_ulsoundio/.git/objects/pack/tmp_pack_7JbXsu', '/tmp/nimble_12853/githubcom_ulsoundio/.git/objects/pack/pack-0b96e2bf3c851c5550518bd5f41364d1e0e86091.pack')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/objects/pack/tmp_pack_7JbXsu')
-link('/tmp/nimble_12853/githubcom_ulsoundio/.git/objects/pack/tmp_idx_b4AxLw', '/tmp/nimble_12853/githubcom_ulsoundio/.git/objects/pack/pack-0b96e2bf3c851c5550518bd5f41364d1e0e86091.idx')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/objects/pack/tmp_idx_b4AxLw')
-rename('/tmp/nimble_12853/githubcom_ulsoundio/.git/shallow.lock', '/tmp/nimble_12853/githubcom_ulsoundio/.git/shallow')
-rename('/tmp/nimble_12853/githubcom_ulsoundio/.git/packed-refs.new', '/tmp/nimble_12853/githubcom_ulsoundio/.git/packed-refs')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/packed-refs.lock')
-mkdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/refs/remotes/origin', 0x00000000000001ff)
-mkdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/logs', 0x00000000000001ff)
-mkdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/logs/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/logs/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/logs/refs/remotes/origin', 0x00000000000001ff)
-rename('/tmp/nimble_12853/githubcom_ulsoundio/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_12853/githubcom_ulsoundio/.git/refs/remotes/origin/HEAD')
-rename('/tmp/nimble_12853/githubcom_ulsoundio/.git/HEAD.lock', '/tmp/nimble_12853/githubcom_ulsoundio/.git/HEAD')
-mkdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/logs/refs/heads', 0x00000000000001ff)
-rename('/tmp/nimble_12853/githubcom_ulsoundio/.git/refs/heads/master.lock', '/tmp/nimble_12853/githubcom_ulsoundio/.git/refs/heads/master')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/HEAD.lock')
-chmod('/tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock', '/tmp/nimble_12853/githubcom_ulsoundio/.git/config')
-chmod('/tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock', '/tmp/nimble_12853/githubcom_ulsoundio/.git/config')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/objects/pack/pack-0b96e2bf3c851c5550518bd5f41364d1e0e86091.keep')
+mkdir('/tmp/nimble_21795', 0x00000000000001ff)
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio', 0x00000000000001ff)
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio')
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio', 0x00000000000001ff)
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_21795/githubcom_ulsoundio/.git/HEAD.lock', '/tmp/nimble_21795/githubcom_ulsoundio/.git/HEAD')
+rename('/tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock', '/tmp/nimble_21795/githubcom_ulsoundio/.git/config')
+chmod('/tmp/nimble_21795/githubcom_ulsoundio/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_21795/githubcom_ulsoundio/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock', '/tmp/nimble_21795/githubcom_ulsoundio/.git/config')
+chmod('/tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock', '/tmp/nimble_21795/githubcom_ulsoundio/.git/config')
+chmod('/tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock', '/tmp/nimble_21795/githubcom_ulsoundio/.git/config')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/tcBpRTf')
+symlink('testing', '/tmp/nimble_21795/githubcom_ulsoundio/.git/tcBpRTf')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/tcBpRTf')
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock', '/tmp/nimble_21795/githubcom_ulsoundio/.git/config')
+chmod('/tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock', '/tmp/nimble_21795/githubcom_ulsoundio/.git/config')
+chmod('/tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock', '/tmp/nimble_21795/githubcom_ulsoundio/.git/config')
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/cc', 0x00000000000001ff)
+link('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/cc/tmp_obj_I9YTKz', '/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/cc/de07dfa0e4ebf95f9ae1088a087c5ef50ea5ea')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/cc/tmp_obj_I9YTKz')
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/11', 0x00000000000001ff)
+link('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/11/tmp_obj_2XjQCA', '/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/11/3e022dfcbe42b81654a79687602124fd9b0e7e')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/11/tmp_obj_2XjQCA')
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/67', 0x00000000000001ff)
+link('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/67/tmp_obj_QlhtFF', '/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/67/3c46e231c3de0e266d0965973fc21d0359635a')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/67/tmp_obj_QlhtFF')
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/b8', 0x00000000000001ff)
+link('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/b8/tmp_obj_sPYcfL', '/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/b8/c67e703a3e9068184bfd0345c3a61faf6e238c')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/b8/tmp_obj_sPYcfL')
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/ba', 0x00000000000001ff)
+link('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/ba/tmp_obj_CEEGLM', '/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/ba/42cc7d13a609aec1d8017454c6c974f9f1b9d7')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/ba/tmp_obj_CEEGLM')
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/7e', 0x00000000000001ff)
+link('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/7e/tmp_obj_0oacEO', '/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/7e/0f76ff5105e9cf4914a9bb58099aae26319798')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/7e/tmp_obj_0oacEO')
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/01', 0x00000000000001ff)
+link('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/01/tmp_obj_G2XUOT', '/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/01/f82f4bdea7cbceb659a61eba9f514b97f24776')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/01/tmp_obj_G2XUOT')
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/82', 0x00000000000001ff)
+link('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/82/tmp_obj_uE4inZ', '/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/82/73f60c1b717c98c8f0e292131d9fc7263d84f2')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/82/tmp_obj_uE4inZ')
+link('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/11/tmp_obj_0aLWQ0', '/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/11/ef3aa36e3885e6dcc7f32146a613883e18b926')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/11/tmp_obj_0aLWQ0')
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/b0', 0x00000000000001ff)
+link('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/b0/tmp_obj_ER4484', '/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/b0/2d7855b0e7ca387467940c574c668ed0e37eef')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/b0/tmp_obj_ER4484')
+rename('/tmp/nimble_21795/githubcom_ulsoundio/.git/shallow.lock', '/tmp/nimble_21795/githubcom_ulsoundio/.git/shallow')
+rename('/tmp/nimble_21795/githubcom_ulsoundio/.git/packed-refs.new', '/tmp/nimble_21795/githubcom_ulsoundio/.git/packed-refs')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/packed-refs.lock')
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_21795/githubcom_ulsoundio/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_21795/githubcom_ulsoundio/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_21795/githubcom_ulsoundio/.git/HEAD.lock', '/tmp/nimble_21795/githubcom_ulsoundio/.git/HEAD')
+mkdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_21795/githubcom_ulsoundio/.git/refs/heads/master.lock', '/tmp/nimble_21795/githubcom_ulsoundio/.git/refs/heads/master')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/HEAD.lock')
+chmod('/tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock', '/tmp/nimble_21795/githubcom_ulsoundio/.git/config')
+chmod('/tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock', '/tmp/nimble_21795/githubcom_ulsoundio/.git/config')
 mkdir('examples', 0x00000000000001ff)
 mkdir('src', 0x00000000000001ff)
-rename('/tmp/nimble_12853/githubcom_ulsoundio/.git/index.lock', '/tmp/nimble_12853/githubcom_ulsoundio/.git/index')
-mkdir('/tmp', 0x00000000000001ff)
+rename('/tmp/nimble_21795/githubcom_ulsoundio/.git/index.lock', '/tmp/nimble_21795/githubcom_ulsoundio/.git/index')
+mkdir('/tmp', 0x00000000000001ff)       Info /tmp/nimble_21795/githubcom_ulsoundio/soundio_21795.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /tmp/nimble_21795/githubcom_ulsoundio/soundio_21795.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+  Verifying dependencies for soundio@0.2.0
+ Installing soundio@0.2.0
+    Copying file /tmp/nimble_21795/githubcom_ulsoundio/src/soundio.nim to /home/runner/.nimble/pkgs/soundio-0.2.0/soundio.nim
+    Copying file /tmp/nimble_21795/githubcom_ulsoundio/soundio.nimble to /home/runner/.nimble/pkgs/soundio-0.2.0/soundio.nimble
+   Success: soundio installed successfully.
+       Info /home/runner/.nimble/pkgs/soundio-0.2.0/soundio_21795.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /home/runner/.nimble/pkgs/soundio-0.2.0/soundio_21795.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/soundio_1400441035', 0x00000000000001ff)
-unlink('/tmp/nimblecache/soundio_1400441035/soundio.ini')
-unlink('/tmp/nimble_12853.out')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/soundio_12853.nims')
+mkdir('/tmp/nimblecache/soundio_3898776963', 0x00000000000001ff)
+unlink('/tmp/nimblecache/soundio_3898776963/soundio.ini')
+unlink('/tmp/nimble_21795.out')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/soundio_21795.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/soundio-0.1.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/soundio-0.2.0', 0x00000000000001ff)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/soundio-0.1.0', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/soundio-0.1.0/soundio.nim', 0x00000000000001a4)
-chmod('/home/runner/.nimble/pkgs/soundio-0.1.0/soundio.nimble', 0x00000000000001a4)
+mkdir('/home/runner/.nimble/pkgs/soundio-0.2.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/soundio-0.2.0/soundio.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/soundio-0.2.0/soundio.nimble', 0x00000000000001a4)
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/soundio_3393584174', 0x00000000000001ff)
-unlink('/tmp/nimblecache/soundio_3393584174/soundio.ini')
-unlink('/tmp/nimble_12853.out')
-unlink('/home/runner/.nimble/pkgs/soundio-0.1.0/soundio_12853.nims')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/examples/sine.nim')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/examples/nim.cfg')
-rmdir('/tmp/nimble_12853/githubcom_ulsoundio/examples')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/README.adoc')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/refs/remotes/origin')
-rmdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/refs/remotes')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/refs/heads/master')
-rmdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/refs/heads')
-rmdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/refs/tags')
-rmdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/refs')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/config')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/logs/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/logs/refs/remotes/origin')
-rmdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/logs/refs/remotes')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/logs/refs/heads/master')
-rmdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/logs/refs/heads')
-rmdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/logs/refs')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/logs/HEAD')
-rmdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/logs')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/packed-refs')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/HEAD')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/description')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/hooks/update.sample')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/hooks/post-update.sample')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/hooks/pre-merge-commit.sample')
-rmdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/hooks')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/objects/pack/pack-0b96e2bf3c851c5550518bd5f41364d1e0e86091.pack')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/objects/pack/pack-0b96e2bf3c851c5550518bd5f41364d1e0e86091.idx')
-rmdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/objects/pack')
-rmdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/objects/info')
-rmdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/objects')
-rmdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/branches')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/index')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/info/exclude')
-rmdir('/tmp/nimble_12853/githubcom_ulsoundio/.git/info')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.git/shallow')
-rmdir('/tmp/nimble_12853/githubcom_ulsoundio/.git')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/soundio.nimble')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/.gitignore')
-unlink('/tmp/nimble_12853/githubcom_ulsoundio/src/soundio.nim')
-rmdir('/tmp/nimble_12853/githubcom_ulsoundio/src')
-rmdir('/tmp/nimble_12853/githubcom_ulsoundio')
-rmdir('/tmp/nimble_12853')
+mkdir('/tmp/nimblecache/soundio_2604739607', 0x00000000000001ff)
+unlink('/tmp/nimblecache/soundio_2604739607/soundio.ini')
+unlink('/tmp/nimble_21795.out')
+unlink('/home/runner/.nimble/pkgs/soundio-0.2.0/soundio_21795.nims')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/refs/remotes')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/refs/tags')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/refs/heads/master')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/refs/heads')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/refs')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/info/exclude')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/info')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/branches')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/logs/refs/remotes')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/logs/refs/heads')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/logs/refs')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/logs/HEAD')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/logs')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/description')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/hooks/update.sample')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/hooks')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/shallow')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/config')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/index')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/82/73f60c1b717c98c8f0e292131d9fc7263d84f2')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/82')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/info')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/b0/2d7855b0e7ca387467940c574c668ed0e37eef')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/b0')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/11/ef3aa36e3885e6dcc7f32146a613883e18b926')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/11/3e022dfcbe42b81654a79687602124fd9b0e7e')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/11')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/67/3c46e231c3de0e266d0965973fc21d0359635a')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/67')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/cc/de07dfa0e4ebf95f9ae1088a087c5ef50ea5ea')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/cc')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/01/f82f4bdea7cbceb659a61eba9f514b97f24776')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/01')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/b8/c67e703a3e9068184bfd0345c3a61faf6e238c')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/b8')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/ba/42cc7d13a609aec1d8017454c6c974f9f1b9d7')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/ba')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/7e/0f76ff5105e9cf4914a9bb58099aae26319798')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/7e')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects/pack')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/.git/objects')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/packed-refs')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.git/HEAD')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/.git')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/src/soundio.nim')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/src')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/examples/nim.cfg')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/examples/sine.nim')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio/examples')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/soundio.nimble')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/README.adoc')
+unlink('/tmp/nimble_21795/githubcom_ulsoundio/.gitignore')
+rmdir('/tmp/nimble_21795/githubcom_ulsoundio')
+rmdir('/tmp/nimble_21795')
   create directory /tmp
-  create directory /tmp/nimble_12853
-  create directory /tmp/nimble_12853/githubcom_ulsoundio
-  delete /tmp/nimble_12853/githubcom_ulsoundio
-  create directory /tmp/nimble_12853/githubcom_ulsoundio
-  create directory /tmp/nimble_12853/githubcom_ulsoundio/.git
-  create directory /tmp/nimble_12853/githubcom_ulsoundio/.git
-  create directory /tmp/nimble_12853/githubcom_ulsoundio/.git/hooks
-  create directory /tmp/nimble_12853/githubcom_ulsoundio/.git/branches
-  create directory /tmp/nimble_12853/githubcom_ulsoundio/.git/info
-  create directory /tmp/nimble_12853/githubcom_ulsoundio/.git/refs
-  create directory /tmp/nimble_12853/githubcom_ulsoundio/.git/refs/heads
-  create directory /tmp/nimble_12853/githubcom_ulsoundio/.git/refs/tags
-  rename /tmp/nimble_12853/githubcom_ulsoundio/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock to config
-  change permissions of /tmp/nimble_12853/githubcom_ulsoundio/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_12853/githubcom_ulsoundio/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock to config
-  change permissions of /tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock to config
-  change permissions of /tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock to config
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/tlfkbQD
-  create symbolic link from /tmp/nimble_12853/githubcom_ulsoundio/.git/tlfkbQD to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/tlfkbQD
-  create directory /tmp/nimble_12853/githubcom_ulsoundio/.git/objects
-  create directory /tmp/nimble_12853/githubcom_ulsoundio/.git/objects/pack
-  create directory /tmp/nimble_12853/githubcom_ulsoundio/.git/objects/info
-  change permissions of /tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock to config
-  change permissions of /tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock to config
-  change permissions of /tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock to config
-  create hard link from /tmp/nimble_12853/githubcom_ulsoundio/.git/objects/pack/pack-0b96e2bf3c851c5550518bd5f41364d1e0e86091.pack to /tmp/nimble_12853/githubcom_ulsoundio/.git/objects/pack/tmp_pack_7JbXsu
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/objects/pack/tmp_pack_7JbXsu
-  create hard link from /tmp/nimble_12853/githubcom_ulsoundio/.git/objects/pack/pack-0b96e2bf3c851c5550518bd5f41364d1e0e86091.idx to /tmp/nimble_12853/githubcom_ulsoundio/.git/objects/pack/tmp_idx_b4AxLw
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/objects/pack/tmp_idx_b4AxLw
-  rename /tmp/nimble_12853/githubcom_ulsoundio/.git/shallow.lock to shallow
-  rename /tmp/nimble_12853/githubcom_ulsoundio/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/packed-refs.lock
-  create directory /tmp/nimble_12853/githubcom_ulsoundio/.git/refs/remotes
-  create directory /tmp/nimble_12853/githubcom_ulsoundio/.git/refs/remotes/origin
-  create directory /tmp/nimble_12853/githubcom_ulsoundio/.git/logs
-  create directory /tmp/nimble_12853/githubcom_ulsoundio/.git/logs/refs
-  create directory /tmp/nimble_12853/githubcom_ulsoundio/.git/logs/refs/remotes
-  create directory /tmp/nimble_12853/githubcom_ulsoundio/.git/logs/refs/remotes/origin
-  rename /tmp/nimble_12853/githubcom_ulsoundio/.git/refs/remotes/origin/HEAD.lock to HEAD
-  rename /tmp/nimble_12853/githubcom_ulsoundio/.git/HEAD.lock to HEAD
-  create directory /tmp/nimble_12853/githubcom_ulsoundio/.git/logs/refs/heads
-  rename /tmp/nimble_12853/githubcom_ulsoundio/.git/refs/heads/master.lock to master
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/HEAD.lock
-  change permissions of /tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock to config
-  change permissions of /tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12853/githubcom_ulsoundio/.git/config.lock to config
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/objects/pack/pack-0b96e2bf3c851c5550518bd5f41364d1e0e86091.keep
-  create directory /tmp/nimble_12853/githubcom_ulsoundio/examples
-  create directory /tmp/nimble_12853/githubcom_ulsoundio/src
-  rename /tmp/nimble_12853/githubcom_ulsoundio/.git/index.lock to index
+  create directory /tmp/nimble_21795
+  create directory /tmp/nimble_21795/githubcom_ulsoundio
+  delete /tmp/nimble_21795/githubcom_ulsoundio
+  create directory /tmp/nimble_21795/githubcom_ulsoundio
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git/info
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git/branches
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git/hooks
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git/refs
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git/refs/heads
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git/refs/tags
+  rename /tmp/nimble_21795/githubcom_ulsoundio/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock to config
+  change permissions of /tmp/nimble_21795/githubcom_ulsoundio/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_21795/githubcom_ulsoundio/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock to config
+  change permissions of /tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock to config
+  change permissions of /tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock to config
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/tcBpRTf
+  create symbolic link from /tmp/nimble_21795/githubcom_ulsoundio/.git/tcBpRTf to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/tcBpRTf
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git/objects
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/pack
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/info
+  change permissions of /tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock to config
+  change permissions of /tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock to config
+  change permissions of /tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock to config
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/cc
+  create hard link from /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/cc/de07dfa0e4ebf95f9ae1088a087c5ef50ea5ea to /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/cc/tmp_obj_I9YTKz
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/cc/tmp_obj_I9YTKz
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/11
+  create hard link from /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/11/3e022dfcbe42b81654a79687602124fd9b0e7e to /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/11/tmp_obj_2XjQCA
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/11/tmp_obj_2XjQCA
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/67
+  create hard link from /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/67/3c46e231c3de0e266d0965973fc21d0359635a to /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/67/tmp_obj_QlhtFF
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/67/tmp_obj_QlhtFF
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/b8
+  create hard link from /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/b8/c67e703a3e9068184bfd0345c3a61faf6e238c to /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/b8/tmp_obj_sPYcfL
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/b8/tmp_obj_sPYcfL
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/ba
+  create hard link from /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/ba/42cc7d13a609aec1d8017454c6c974f9f1b9d7 to /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/ba/tmp_obj_CEEGLM
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/ba/tmp_obj_CEEGLM
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/7e
+  create hard link from /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/7e/0f76ff5105e9cf4914a9bb58099aae26319798 to /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/7e/tmp_obj_0oacEO
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/7e/tmp_obj_0oacEO
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/01
+  create hard link from /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/01/f82f4bdea7cbceb659a61eba9f514b97f24776 to /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/01/tmp_obj_G2XUOT
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/01/tmp_obj_G2XUOT
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/82
+  create hard link from /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/82/73f60c1b717c98c8f0e292131d9fc7263d84f2 to /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/82/tmp_obj_uE4inZ
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/82/tmp_obj_uE4inZ
+  create hard link from /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/11/ef3aa36e3885e6dcc7f32146a613883e18b926 to /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/11/tmp_obj_0aLWQ0
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/11/tmp_obj_0aLWQ0
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/b0
+  create hard link from /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/b0/2d7855b0e7ca387467940c574c668ed0e37eef to /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/b0/tmp_obj_ER4484
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/b0/tmp_obj_ER4484
+  rename /tmp/nimble_21795/githubcom_ulsoundio/.git/shallow.lock to shallow
+  rename /tmp/nimble_21795/githubcom_ulsoundio/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/packed-refs.lock
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git/refs/remotes
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git/refs/remotes/origin
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git/logs
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git/logs/refs
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git/logs/refs/remotes
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_21795/githubcom_ulsoundio/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_21795/githubcom_ulsoundio/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/.git/logs/refs/heads
+  rename /tmp/nimble_21795/githubcom_ulsoundio/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/HEAD.lock
+  change permissions of /tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock to config
+  change permissions of /tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_21795/githubcom_ulsoundio/.git/config.lock to config
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/examples
+  create directory /tmp/nimble_21795/githubcom_ulsoundio/src
+  rename /tmp/nimble_21795/githubcom_ulsoundio/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/soundio_1400441035
-  delete /tmp/nimblecache/soundio_1400441035/soundio.ini
-  delete /tmp/nimble_12853.out
-  delete /tmp/nimble_12853/githubcom_ulsoundio/soundio_12853.nims
+  create directory /tmp/nimblecache/soundio_3898776963
+  delete /tmp/nimblecache/soundio_3898776963/soundio.ini
+  delete /tmp/nimble_21795.out
+  delete /tmp/nimble_21795/githubcom_ulsoundio/soundio_21795.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/soundio-0.1.0
+  create directory /home/runner/.nimble/pkgs/soundio-0.2.0
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/soundio-0.1.0
-  change permissions of /home/runner/.nimble/pkgs/soundio-0.1.0/soundio.nim to rw-r--r--
-  change permissions of /home/runner/.nimble/pkgs/soundio-0.1.0/soundio.nimble to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/soundio-0.2.0
+  change permissions of /home/runner/.nimble/pkgs/soundio-0.2.0/soundio.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/soundio-0.2.0/soundio.nimble to rw-r--r--
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/soundio_3393584174
-  delete /tmp/nimblecache/soundio_3393584174/soundio.ini
-  delete /tmp/nimble_12853.out
-  delete /home/runner/.nimble/pkgs/soundio-0.1.0/soundio_12853.nims
-  delete /tmp/nimble_12853/githubcom_ulsoundio/examples/sine.nim
-  delete /tmp/nimble_12853/githubcom_ulsoundio/examples/nim.cfg
-  delete /tmp/nimble_12853/githubcom_ulsoundio/examples
-  delete /tmp/nimble_12853/githubcom_ulsoundio/README.adoc
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/refs/remotes/origin/HEAD
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/refs/remotes/origin
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/refs/remotes
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/refs/heads/master
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/refs/heads
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/refs/tags
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/refs
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/config
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/logs/refs/remotes/origin/HEAD
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/logs/refs/remotes/origin
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/logs/refs/remotes
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/logs/refs/heads/master
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/logs/refs/heads
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/logs/refs
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/logs/HEAD
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/logs
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/packed-refs
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/HEAD
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/description
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/hooks/update.sample
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/hooks/pre-push.sample
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/hooks/post-update.sample
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/hooks
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/objects/pack/pack-0b96e2bf3c851c5550518bd5f41364d1e0e86091.pack
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/objects/pack/pack-0b96e2bf3c851c5550518bd5f41364d1e0e86091.idx
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/objects/pack
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/objects/info
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/objects
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/branches
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/index
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/info/exclude
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/info
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git/shallow
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.git
-  delete /tmp/nimble_12853/githubcom_ulsoundio/soundio.nimble
-  delete /tmp/nimble_12853/githubcom_ulsoundio/.gitignore
-  delete /tmp/nimble_12853/githubcom_ulsoundio/src/soundio.nim
-  delete /tmp/nimble_12853/githubcom_ulsoundio/src
-  delete /tmp/nimble_12853/githubcom_ulsoundio
-  delete /tmp/nimble_12853
+  create directory /tmp/nimblecache/soundio_2604739607
+  delete /tmp/nimblecache/soundio_2604739607/soundio.ini
+  delete /tmp/nimble_21795.out
+  delete /home/runner/.nimble/pkgs/soundio-0.2.0/soundio_21795.nims
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/refs/remotes/origin
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/refs/remotes
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/refs/tags
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/refs/heads/master
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/refs/heads
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/refs
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/info/exclude
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/info
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/branches
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/logs/refs/remotes
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/logs/refs/heads/master
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/logs/refs/heads
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/logs/refs
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/logs/HEAD
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/logs
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/description
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/hooks/pre-push.sample
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/hooks/update.sample
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/hooks/post-update.sample
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/hooks
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/shallow
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/config
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/index
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/82/73f60c1b717c98c8f0e292131d9fc7263d84f2
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/82
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/info
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/b0/2d7855b0e7ca387467940c574c668ed0e37eef
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/b0
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/11/ef3aa36e3885e6dcc7f32146a613883e18b926
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/11/3e022dfcbe42b81654a79687602124fd9b0e7e
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/11
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/67/3c46e231c3de0e266d0965973fc21d0359635a
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/67
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/cc/de07dfa0e4ebf95f9ae1088a087c5ef50ea5ea
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/cc
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/01/f82f4bdea7cbceb659a61eba9f514b97f24776
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/01
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/b8/c67e703a3e9068184bfd0345c3a61faf6e238c
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/b8
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/ba/42cc7d13a609aec1d8017454c6c974f9f1b9d7
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/ba
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/7e/0f76ff5105e9cf4914a9bb58099aae26319798
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/7e
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects/pack
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/objects
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/packed-refs
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git/HEAD
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.git
+  delete /tmp/nimble_21795/githubcom_ulsoundio/src/soundio.nim
+  delete /tmp/nimble_21795/githubcom_ulsoundio/src
+  delete /tmp/nimble_21795/githubcom_ulsoundio/examples/nim.cfg
+  delete /tmp/nimble_21795/githubcom_ulsoundio/examples/sine.nim
+  delete /tmp/nimble_21795/githubcom_ulsoundio/examples
+  delete /tmp/nimble_21795/githubcom_ulsoundio/soundio.nimble
+  delete /tmp/nimble_21795/githubcom_ulsoundio/README.adoc
+  delete /tmp/nimble_21795/githubcom_ulsoundio/.gitignore
+  delete /tmp/nimble_21795/githubcom_ulsoundio
+  delete /tmp/nimble_21795

@@ -1,85 +1,144 @@
     Reading official package list
 Downloading https://github.com/genotrance/shared using git
-  Verifying dependencies for shared@0.1.0
- Installing shared@0.1.0
-    Copying file /tmp/nimble_16574/githubcom_genotranceshared/shared/string.nim to /home/runner/.nimble/pkgs/shared-0.1.0/shared/string.nim
-    Copying file /tmp/nimble_16574/githubcom_genotranceshared/shared/seq.nim to /home/runner/.nimble/pkgs/shared-0.1.0/shared/seq.nim
-    Copying file /tmp/nimble_16574/githubcom_genotranceshared/shared/private/common.nim to /home/runner/.nimble/pkgs/shared-0.1.0/shared/private/common.nim
-    Copying file /tmp/nimble_16574/githubcom_genotranceshared/shared.nimble to /home/runner/.nimble/pkgs/shared-0.1.0/shared.nimble
-   Success: shared installed successfully.
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_16574', 0x00000000000001ff)
-mkdir('/tmp/nimble_16574/githubcom_genotranceshared', 0x00000000000001ff)
-rmdir('/tmp/nimble_16574/githubcom_genotranceshared')
-mkdir('/tmp/nimble_16574/githubcom_genotranceshared', 0x00000000000001ff)
-mkdir('/tmp/nimble_16574/githubcom_genotranceshared/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_16574/githubcom_genotranceshared/.git/HEAD.lock', '/tmp/nimble_16574/githubcom_genotranceshared/.git/HEAD')
-rename('/tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock', '/tmp/nimble_16574/githubcom_genotranceshared/.git/config')
-chmod('/tmp/nimble_16574/githubcom_genotranceshared/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_16574/githubcom_genotranceshared/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock', '/tmp/nimble_16574/githubcom_genotranceshared/.git/config')
-chmod('/tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock', '/tmp/nimble_16574/githubcom_genotranceshared/.git/config')
-chmod('/tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock', '/tmp/nimble_16574/githubcom_genotranceshared/.git/config')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/tyc7eU0')
-symlink('testing', '/tmp/nimble_16574/githubcom_genotranceshared/.git/tyc7eU0')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/tyc7eU0')
-mkdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock', '/tmp/nimble_16574/githubcom_genotranceshared/.git/config')
-chmod('/tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock', '/tmp/nimble_16574/githubcom_genotranceshared/.git/config')
-chmod('/tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock', '/tmp/nimble_16574/githubcom_genotranceshared/.git/config')
-link('/tmp/nimble_16574/githubcom_genotranceshared/.git/objects/pack/tmp_pack_yVTpqG', '/tmp/nimble_16574/githubcom_genotranceshared/.git/objects/pack/pack-4dfb43329b6e8702184cdc103a4abe5a74e96bb2.pack')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/objects/pack/tmp_pack_yVTpqG')
-link('/tmp/nimble_16574/githubcom_genotranceshared/.git/objects/pack/tmp_idx_mPj5UK', '/tmp/nimble_16574/githubcom_genotranceshared/.git/objects/pack/pack-4dfb43329b6e8702184cdc103a4abe5a74e96bb2.idx')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/objects/pack/tmp_idx_mPj5UK')
-rename('/tmp/nimble_16574/githubcom_genotranceshared/.git/shallow.lock', '/tmp/nimble_16574/githubcom_genotranceshared/.git/shallow')
-rename('/tmp/nimble_16574/githubcom_genotranceshared/.git/packed-refs.new', '/tmp/nimble_16574/githubcom_genotranceshared/.git/packed-refs')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/packed-refs.lock')
-mkdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/refs/remotes/origin', 0x00000000000001ff)
-mkdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/logs', 0x00000000000001ff)
-mkdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/logs/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/logs/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/logs/refs/remotes/origin', 0x00000000000001ff)
-rename('/tmp/nimble_16574/githubcom_genotranceshared/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_16574/githubcom_genotranceshared/.git/refs/remotes/origin/HEAD')
-rename('/tmp/nimble_16574/githubcom_genotranceshared/.git/HEAD.lock', '/tmp/nimble_16574/githubcom_genotranceshared/.git/HEAD')
-mkdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/logs/refs/heads', 0x00000000000001ff)
-rename('/tmp/nimble_16574/githubcom_genotranceshared/.git/refs/heads/master.lock', '/tmp/nimble_16574/githubcom_genotranceshared/.git/refs/heads/master')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/HEAD.lock')
-chmod('/tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock', '/tmp/nimble_16574/githubcom_genotranceshared/.git/config')
-chmod('/tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock', '/tmp/nimble_16574/githubcom_genotranceshared/.git/config')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/objects/pack/pack-4dfb43329b6e8702184cdc103a4abe5a74e96bb2.keep')
+mkdir('/tmp/nimble_28696', 0x00000000000001ff)
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared', 0x00000000000001ff)
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared')
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared', 0x00000000000001ff)
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_28696/githubcom_genotranceshared/.git/HEAD.lock', '/tmp/nimble_28696/githubcom_genotranceshared/.git/HEAD')
+rename('/tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock', '/tmp/nimble_28696/githubcom_genotranceshared/.git/config')
+chmod('/tmp/nimble_28696/githubcom_genotranceshared/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_28696/githubcom_genotranceshared/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock', '/tmp/nimble_28696/githubcom_genotranceshared/.git/config')
+chmod('/tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock', '/tmp/nimble_28696/githubcom_genotranceshared/.git/config')
+chmod('/tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock', '/tmp/nimble_28696/githubcom_genotranceshared/.git/config')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/tPjLxHw')
+symlink('testing', '/tmp/nimble_28696/githubcom_genotranceshared/.git/tPjLxHw')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/tPjLxHw')
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock', '/tmp/nimble_28696/githubcom_genotranceshared/.git/config')
+chmod('/tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock', '/tmp/nimble_28696/githubcom_genotranceshared/.git/config')
+chmod('/tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock', '/tmp/nimble_28696/githubcom_genotranceshared/.git/config')
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/de', 0x00000000000001ff)
+link('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/de/tmp_obj_wX8HPU', '/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/de/e3eff487c4af3c8f9e71ca8ddbb90a9e36da14')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/de/tmp_obj_wX8HPU')
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/e1', 0x00000000000001ff)
+link('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/e1/tmp_obj_0qQMMY', '/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/e1/4a0345c128588c8d68957cc736df33a28a29bb')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/e1/tmp_obj_0qQMMY')
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/90', 0x00000000000001ff)
+link('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/90/tmp_obj_ohVuZZ', '/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/90/d7fb0f8116dd9ede81db2d2939eebe983d2b13')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/90/tmp_obj_ohVuZZ')
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/26', 0x00000000000001ff)
+link('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/26/tmp_obj_g9YnO4', '/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/26/7b9bc1cd65867c94957389119428803a931f70')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/26/tmp_obj_g9YnO4')
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/14', 0x00000000000001ff)
+link('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/14/tmp_obj_4al1nb', '/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/14/0e1022afecd816dc1fa6abcae942fdc3d80201')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/14/tmp_obj_4al1nb')
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/92', 0x00000000000001ff)
+link('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/92/tmp_obj_G6oZ8b', '/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/92/290c8ad051e1f9de203bdb6b3bac552e95a93c')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/92/tmp_obj_G6oZ8b')
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/65', 0x00000000000001ff)
+link('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/65/tmp_obj_a0ZTdg', '/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/65/17ff0073e9915538d900b6e437b02d2953d139')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/65/tmp_obj_a0ZTdg')
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/9d', 0x00000000000001ff)
+link('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/9d/tmp_obj_PMqG3d', '/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/9d/57ecf93d44e4dd38914a82c69e6d0c99f2f583')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/9d/tmp_obj_PMqG3d')
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/19', 0x00000000000001ff)
+link('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/19/tmp_obj_d1Nv6g', '/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/19/9a3bb6053f76115cc2414c42bed07562a1000f')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/19/tmp_obj_d1Nv6g')
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/04', 0x00000000000001ff)
+link('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/04/tmp_obj_XwYimj', '/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/04/3a7b62b9a8a25801c9478ebfa8ce1af0a44ab8')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/04/tmp_obj_XwYimj')
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/43', 0x00000000000001ff)
+link('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/43/tmp_obj_DegUzn', '/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/43/8a359c7ec43df68b80c551b6cbb1b36d03fa3c')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/43/tmp_obj_DegUzn')
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/95', 0x00000000000001ff)
+link('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/95/tmp_obj_byjPSo', '/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/95/8a52ef958fc9afe6c006ec397dceeb79176999')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/95/tmp_obj_byjPSo')
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/0b', 0x00000000000001ff)
+link('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/0b/tmp_obj_vWI8Bt', '/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/0b/3fb71d54316fbf7abab1f701ffdf5eeb9029af')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/0b/tmp_obj_vWI8Bt')
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/48', 0x00000000000001ff)
+link('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/48/tmp_obj_7BKHCB', '/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/48/e0925b782876780ef168090890b47c00cf1ec6')  Verifying dependencies for shared@0.1.0
+ Installing shared@0.1.0
+    Copying file /tmp/nimble_28696/githubcom_genotranceshared/shared/private/common.nim to /home/runner/.nimble/pkgs/shared-0.1.0/shared/private/common.nim
+    Copying file /tmp/nimble_28696/githubcom_genotranceshared/shared/string.nim to /home/runner/.nimble/pkgs/shared-0.1.0/shared/string.nim
+    Copying file /tmp/nimble_28696/githubcom_genotranceshared/shared/seq.nim to /home/runner/.nimble/pkgs/shared-0.1.0/shared/seq.nim
+    Copying file /tmp/nimble_28696/githubcom_genotranceshared/shared.nimble to /home/runner/.nimble/pkgs/shared-0.1.0/shared.nimble
+   Success: shared installed successfully.
+
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/48/tmp_obj_7BKHCB')
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/be', 0x00000000000001ff)
+link('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/be/tmp_obj_dJGGZC', '/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/be/a06c81e82cd4c8da4ddec14c868a5902056a36')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/be/tmp_obj_dJGGZC')
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/16', 0x00000000000001ff)
+link('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/16/tmp_obj_HkoHrH', '/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/16/2c1dedcdcf4892d22ce6aa713ac05d2af5a217')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/16/tmp_obj_HkoHrH')
+link('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/90/tmp_obj_DkPwlK', '/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/90/2ffe95dab0169f718447bad2b3d58c7243588c')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/90/tmp_obj_DkPwlK')
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/61', 0x00000000000001ff)
+link('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/61/tmp_obj_RRuTdO', '/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/61/7be644f9e1451eb2009315f0b97c3c2e6d52de')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/61/tmp_obj_RRuTdO')
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/09', 0x00000000000001ff)
+link('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/09/tmp_obj_1YVcpQ', '/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/09/741e5a94cb36598694ccd0f57a110cb7d822bd')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/09/tmp_obj_1YVcpQ')
+rename('/tmp/nimble_28696/githubcom_genotranceshared/.git/shallow.lock', '/tmp/nimble_28696/githubcom_genotranceshared/.git/shallow')
+rename('/tmp/nimble_28696/githubcom_genotranceshared/.git/packed-refs.new', '/tmp/nimble_28696/githubcom_genotranceshared/.git/packed-refs')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/packed-refs.lock')
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_28696/githubcom_genotranceshared/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_28696/githubcom_genotranceshared/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_28696/githubcom_genotranceshared/.git/HEAD.lock', '/tmp/nimble_28696/githubcom_genotranceshared/.git/HEAD')
+mkdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_28696/githubcom_genotranceshared/.git/refs/heads/master.lock', '/tmp/nimble_28696/githubcom_genotranceshared/.git/refs/heads/master')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/HEAD.lock')
+chmod('/tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock', '/tmp/nimble_28696/githubcom_genotranceshared/.git/config')
+chmod('/tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock', '/tmp/nimble_28696/githubcom_genotranceshared/.git/config')
 mkdir('shared', 0x00000000000001ff)
 mkdir('shared/private', 0x00000000000001ff)
 mkdir('tests', 0x00000000000001ff)
-rename('/tmp/nimble_16574/githubcom_genotranceshared/.git/index.lock', '/tmp/nimble_16574/githubcom_genotranceshared/.git/index')
+rename('/tmp/nimble_28696/githubcom_genotranceshared/.git/index.lock', '/tmp/nimble_28696/githubcom_genotranceshared/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/shared_1439110537', 0x00000000000001ff)
-unlink('/tmp/nimblecache/shared_1439110537/shared.ini')
-unlink('/tmp/nimble_16574.out')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/shared_16574.nims')
+mkdir('/tmp/nimblecache/shared_1797388264', 0x00000000000001ff)
+unlink('/tmp/nimblecache/shared_1797388264/shared.ini')
+unlink('/tmp/nimble_28696.out')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/shared_28696.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/shared-0.1.0', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/shared-0.1.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/shared-0.1.0/shared', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/shared-0.1.0/shared/private', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/shared-0.1.0/shared/private/common.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -94,156 +153,242 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/shared-0.1.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/shared-0.1.0/shared', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/shared-0.1.0/shared/seq.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/shared-0.1.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/shared-0.1.0/shared', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/shared-0.1.0/shared/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/shared-0.1.0/shared/private/common.nim', 0x00000000000001a4)
 chmod('/home/runner/.nimble/pkgs/shared-0.1.0/shared.nimble', 0x00000000000001a4)
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/shared_484241071', 0x00000000000001ff)
 unlink('/tmp/nimblecache/shared_484241071/shared.ini')
-unlink('/tmp/nimble_16574.out')
-unlink('/home/runner/.nimble/pkgs/shared-0.1.0/shared_16574.nims')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.travis.yml')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/tests/tperf.nim')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/tests/tseq.nim')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/tests/nim.cfg')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/tests/tstring.nim')
-rmdir('/tmp/nimble_16574/githubcom_genotranceshared/tests')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/README.md')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/refs/remotes/origin')
-rmdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/refs/remotes')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/refs/heads/master')
-rmdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/refs/heads')
-rmdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/refs/tags')
-rmdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/refs')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/config')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/logs/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/logs/refs/remotes/origin')
-rmdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/logs/refs/remotes')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/logs/refs/heads/master')
-rmdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/logs/refs/heads')
-rmdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/logs/refs')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/logs/HEAD')
-rmdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/logs')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/packed-refs')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/HEAD')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/description')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/hooks/update.sample')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/hooks/post-update.sample')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/hooks/pre-merge-commit.sample')
-rmdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/hooks')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/objects/pack/pack-4dfb43329b6e8702184cdc103a4abe5a74e96bb2.idx')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/objects/pack/pack-4dfb43329b6e8702184cdc103a4abe5a74e96bb2.pack')
-rmdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/objects/pack')
-rmdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/objects/info')
-rmdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/objects')
-rmdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/branches')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/index')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/info/exclude')
-rmdir('/tmp/nimble_16574/githubcom_genotranceshared/.git/info')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.git/shallow')
-rmdir('/tmp/nimble_16574/githubcom_genotranceshared/.git')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/shared/string.nim')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/shared/seq.nim')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/shared/private/common.nim')
-rmdir('/tmp/nimble_16574/githubcom_genotranceshared/shared/private')
-rmdir('/tmp/nimble_16574/githubcom_genotranceshared/shared')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/.gitignore')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/appveyor.yml')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/LICENSE')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/nim.cfg')
-unlink('/tmp/nimble_16574/githubcom_genotranceshared/shared.nimble')
-rmdir('/tmp/nimble_16574/githubcom_genotranceshared')
-rmdir('/tmp/nimble_16574')
+unlink('/tmp/nimble_28696.out')
+unlink('/home/runner/.nimble/pkgs/shared-0.1.0/shared_28696.nims')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/README.md')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/appveyor.yml')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/refs/remotes')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/refs/tags')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/refs/heads/master')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/refs/heads')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/refs')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/info/exclude')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/info')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/branches')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/logs/refs/remotes')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/logs/refs/heads')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/logs/refs')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/logs/HEAD')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/logs')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/description')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/hooks/update.sample')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/hooks')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/shallow')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/config')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/index')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/61/7be644f9e1451eb2009315f0b97c3c2e6d52de')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/61')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/14/0e1022afecd816dc1fa6abcae942fdc3d80201')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/14')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/19/9a3bb6053f76115cc2414c42bed07562a1000f')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/19')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/9d/57ecf93d44e4dd38914a82c69e6d0c99f2f583')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/9d')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/info')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/de/e3eff487c4af3c8f9e71ca8ddbb90a9e36da14')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/de')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/48/e0925b782876780ef168090890b47c00cf1ec6')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/48')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/be/a06c81e82cd4c8da4ddec14c868a5902056a36')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/be')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/43/8a359c7ec43df68b80c551b6cbb1b36d03fa3c')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/43')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/e1/4a0345c128588c8d68957cc736df33a28a29bb')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/e1')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/04/3a7b62b9a8a25801c9478ebfa8ce1af0a44ab8')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/04')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/92/290c8ad051e1f9de203bdb6b3bac552e95a93c')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/92')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/26/7b9bc1cd65867c94957389119428803a931f70')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/26')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/0b/3fb71d54316fbf7abab1f701ffdf5eeb9029af')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/0b')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/95/8a52ef958fc9afe6c006ec397dceeb79176999')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/95')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/16/2c1dedcdcf4892d22ce6aa713ac05d2af5a217')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/16')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/65/17ff0073e9915538d900b6e437b02d2953d139')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/65')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/09/741e5a94cb36598694ccd0f57a110cb7d822bd')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/09')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/pack')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/90/d7fb0f8116dd9ede81db2d2939eebe983d2b13')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/90/2ffe95dab0169f718447bad2b3d58c7243588c')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects/90')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git/objects')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/packed-refs')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.git/HEAD')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/.git')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/shared.nimble')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/shared/private/common.nim')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/shared/private')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/shared/string.nim')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/shared/seq.nim')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/shared')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.travis.yml')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/nim.cfg')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/tests/tperf.nim')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/tests/tseq.nim')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/tests/nim.cfg')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/tests/tstring.nim')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared/tests')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/.gitignore')
+unlink('/tmp/nimble_28696/githubcom_genotranceshared/LICENSE')
+rmdir('/tmp/nimble_28696/githubcom_genotranceshared')
+rmdir('/tmp/nimble_28696')
   create directory /tmp
-  create directory /tmp/nimble_16574
-  create directory /tmp/nimble_16574/githubcom_genotranceshared
-  delete /tmp/nimble_16574/githubcom_genotranceshared
-  create directory /tmp/nimble_16574/githubcom_genotranceshared
-  create directory /tmp/nimble_16574/githubcom_genotranceshared/.git
-  create directory /tmp/nimble_16574/githubcom_genotranceshared/.git
-  create directory /tmp/nimble_16574/githubcom_genotranceshared/.git/hooks
-  create directory /tmp/nimble_16574/githubcom_genotranceshared/.git/branches
-  create directory /tmp/nimble_16574/githubcom_genotranceshared/.git/info
-  create directory /tmp/nimble_16574/githubcom_genotranceshared/.git/refs
-  create directory /tmp/nimble_16574/githubcom_genotranceshared/.git/refs/heads
-  create directory /tmp/nimble_16574/githubcom_genotranceshared/.git/refs/tags
-  rename /tmp/nimble_16574/githubcom_genotranceshared/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock to config
-  change permissions of /tmp/nimble_16574/githubcom_genotranceshared/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_16574/githubcom_genotranceshared/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock to config
-  change permissions of /tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock to config
-  change permissions of /tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock to config
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/tyc7eU0
-  create symbolic link from /tmp/nimble_16574/githubcom_genotranceshared/.git/tyc7eU0 to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/tyc7eU0
-  create directory /tmp/nimble_16574/githubcom_genotranceshared/.git/objects
-  create directory /tmp/nimble_16574/githubcom_genotranceshared/.git/objects/pack
-  create directory /tmp/nimble_16574/githubcom_genotranceshared/.git/objects/info
-  change permissions of /tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock to config
-  change permissions of /tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock to config
-  change permissions of /tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock to config
-  create hard link from /tmp/nimble_16574/githubcom_genotranceshared/.git/objects/pack/pack-4dfb43329b6e8702184cdc103a4abe5a74e96bb2.pack to /tmp/nimble_16574/githubcom_genotranceshared/.git/objects/pack/tmp_pack_yVTpqG
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/objects/pack/tmp_pack_yVTpqG
-  create hard link from /tmp/nimble_16574/githubcom_genotranceshared/.git/objects/pack/pack-4dfb43329b6e8702184cdc103a4abe5a74e96bb2.idx to /tmp/nimble_16574/githubcom_genotranceshared/.git/objects/pack/tmp_idx_mPj5UK
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/objects/pack/tmp_idx_mPj5UK
-  rename /tmp/nimble_16574/githubcom_genotranceshared/.git/shallow.lock to shallow
-  rename /tmp/nimble_16574/githubcom_genotranceshared/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/packed-refs.lock
-  create directory /tmp/nimble_16574/githubcom_genotranceshared/.git/refs/remotes
-  create directory /tmp/nimble_16574/githubcom_genotranceshared/.git/refs/remotes/origin
-  create directory /tmp/nimble_16574/githubcom_genotranceshared/.git/logs
-  create directory /tmp/nimble_16574/githubcom_genotranceshared/.git/logs/refs
-  create directory /tmp/nimble_16574/githubcom_genotranceshared/.git/logs/refs/remotes
-  create directory /tmp/nimble_16574/githubcom_genotranceshared/.git/logs/refs/remotes/origin
-  rename /tmp/nimble_16574/githubcom_genotranceshared/.git/refs/remotes/origin/HEAD.lock to HEAD
-  rename /tmp/nimble_16574/githubcom_genotranceshared/.git/HEAD.lock to HEAD
-  create directory /tmp/nimble_16574/githubcom_genotranceshared/.git/logs/refs/heads
-  rename /tmp/nimble_16574/githubcom_genotranceshared/.git/refs/heads/master.lock to master
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/HEAD.lock
-  change permissions of /tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock to config
-  change permissions of /tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_16574/githubcom_genotranceshared/.git/config.lock to config
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/objects/pack/pack-4dfb43329b6e8702184cdc103a4abe5a74e96bb2.keep
-  create directory /tmp/nimble_16574/githubcom_genotranceshared/shared
-  create directory /tmp/nimble_16574/githubcom_genotranceshared/shared/private
-  create directory /tmp/nimble_16574/githubcom_genotranceshared/tests
-  rename /tmp/nimble_16574/githubcom_genotranceshared/.git/index.lock to index
+  create directory /tmp/nimble_28696
+  create directory /tmp/nimble_28696/githubcom_genotranceshared
+  delete /tmp/nimble_28696/githubcom_genotranceshared
+  create directory /tmp/nimble_28696/githubcom_genotranceshared
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/info
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/branches
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/hooks
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/refs
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/refs/heads
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/refs/tags
+  rename /tmp/nimble_28696/githubcom_genotranceshared/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock to config
+  change permissions of /tmp/nimble_28696/githubcom_genotranceshared/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_28696/githubcom_genotranceshared/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock to config
+  change permissions of /tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock to config
+  change permissions of /tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock to config
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/tPjLxHw
+  create symbolic link from /tmp/nimble_28696/githubcom_genotranceshared/.git/tPjLxHw to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/tPjLxHw
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/objects
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/pack
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/info
+  change permissions of /tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock to config
+  change permissions of /tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock to config
+  change permissions of /tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock to config
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/de
+  create hard link from /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/de/e3eff487c4af3c8f9e71ca8ddbb90a9e36da14 to /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/de/tmp_obj_wX8HPU
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/de/tmp_obj_wX8HPU
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/e1
+  create hard link from /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/e1/4a0345c128588c8d68957cc736df33a28a29bb to /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/e1/tmp_obj_0qQMMY
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/e1/tmp_obj_0qQMMY
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/90
+  create hard link from /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/90/d7fb0f8116dd9ede81db2d2939eebe983d2b13 to /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/90/tmp_obj_ohVuZZ
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/90/tmp_obj_ohVuZZ
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/26
+  create hard link from /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/26/7b9bc1cd65867c94957389119428803a931f70 to /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/26/tmp_obj_g9YnO4
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/26/tmp_obj_g9YnO4
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/14
+  create hard link from /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/14/0e1022afecd816dc1fa6abcae942fdc3d80201 to /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/14/tmp_obj_4al1nb
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/14/tmp_obj_4al1nb
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/92
+  create hard link from /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/92/290c8ad051e1f9de203bdb6b3bac552e95a93c to /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/92/tmp_obj_G6oZ8b
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/92/tmp_obj_G6oZ8b
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/65
+  create hard link from /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/65/17ff0073e9915538d900b6e437b02d2953d139 to /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/65/tmp_obj_a0ZTdg
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/65/tmp_obj_a0ZTdg
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/9d
+  create hard link from /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/9d/57ecf93d44e4dd38914a82c69e6d0c99f2f583 to /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/9d/tmp_obj_PMqG3d
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/9d/tmp_obj_PMqG3d
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/19
+  create hard link from /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/19/9a3bb6053f76115cc2414c42bed07562a1000f to /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/19/tmp_obj_d1Nv6g
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/19/tmp_obj_d1Nv6g
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/04
+  create hard link from /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/04/3a7b62b9a8a25801c9478ebfa8ce1af0a44ab8 to /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/04/tmp_obj_XwYimj
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/04/tmp_obj_XwYimj
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/43
+  create hard link from /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/43/8a359c7ec43df68b80c551b6cbb1b36d03fa3c to /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/43/tmp_obj_DegUzn
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/43/tmp_obj_DegUzn
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/95
+  create hard link from /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/95/8a52ef958fc9afe6c006ec397dceeb79176999 to /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/95/tmp_obj_byjPSo
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/95/tmp_obj_byjPSo
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/0b
+  create hard link from /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/0b/3fb71d54316fbf7abab1f701ffdf5eeb9029af to /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/0b/tmp_obj_vWI8Bt
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/0b/tmp_obj_vWI8Bt
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/48
+  create hard link from /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/48/e0925b782876780ef168090890b47c00cf1ec6 to /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/48/tmp_obj_7BKHCB
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/48/tmp_obj_7BKHCB
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/be
+  create hard link from /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/be/a06c81e82cd4c8da4ddec14c868a5902056a36 to /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/be/tmp_obj_dJGGZC
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/be/tmp_obj_dJGGZC
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/16
+  create hard link from /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/16/2c1dedcdcf4892d22ce6aa713ac05d2af5a217 to /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/16/tmp_obj_HkoHrH
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/16/tmp_obj_HkoHrH
+  create hard link from /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/90/2ffe95dab0169f718447bad2b3d58c7243588c to /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/90/tmp_obj_DkPwlK
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/90/tmp_obj_DkPwlK
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/61
+  create hard link from /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/61/7be644f9e1451eb2009315f0b97c3c2e6d52de to /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/61/tmp_obj_RRuTdO
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/61/tmp_obj_RRuTdO
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/09
+  create hard link from /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/09/741e5a94cb36598694ccd0f57a110cb7d822bd to /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/09/tmp_obj_1YVcpQ
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/09/tmp_obj_1YVcpQ
+  rename /tmp/nimble_28696/githubcom_genotranceshared/.git/shallow.lock to shallow
+  rename /tmp/nimble_28696/githubcom_genotranceshared/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/packed-refs.lock
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/refs/remotes
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/refs/remotes/origin
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/logs
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/logs/refs
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/logs/refs/remotes
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_28696/githubcom_genotranceshared/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_28696/githubcom_genotranceshared/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/.git/logs/refs/heads
+  rename /tmp/nimble_28696/githubcom_genotranceshared/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/HEAD.lock
+  change permissions of /tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock to config
+  change permissions of /tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_28696/githubcom_genotranceshared/.git/config.lock to config
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/shared
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/shared/private
+  create directory /tmp/nimble_28696/githubcom_genotranceshared/tests
+  rename /tmp/nimble_28696/githubcom_genotranceshared/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/shared_1439110537
-  delete /tmp/nimblecache/shared_1439110537/shared.ini
-  delete /tmp/nimble_16574.out
-  delete /tmp/nimble_16574/githubcom_genotranceshared/shared_16574.nims
+  create directory /tmp/nimblecache/shared_1797388264
+  delete /tmp/nimblecache/shared_1797388264/shared.ini
+  delete /tmp/nimble_28696.out
+  delete /tmp/nimble_28696/githubcom_genotranceshared/shared_28696.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/shared-0.1.0
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/shared-0.1.0
+  create directory /home/runner/.nimble/pkgs/shared-0.1.0/shared
+  create directory /home/runner/.nimble/pkgs/shared-0.1.0/shared/private
+  change permissions of /home/runner/.nimble/pkgs/shared-0.1.0/shared/private/common.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -258,80 +403,107 @@ rmdir('/tmp/nimble_16574')
   create directory /home/runner/.nimble/pkgs/shared-0.1.0
   create directory /home/runner/.nimble/pkgs/shared-0.1.0/shared
   change permissions of /home/runner/.nimble/pkgs/shared-0.1.0/shared/seq.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/shared-0.1.0
-  create directory /home/runner/.nimble/pkgs/shared-0.1.0/shared
-  create directory /home/runner/.nimble/pkgs/shared-0.1.0/shared/private
-  change permissions of /home/runner/.nimble/pkgs/shared-0.1.0/shared/private/common.nim to rw-r--r--
   change permissions of /home/runner/.nimble/pkgs/shared-0.1.0/shared.nimble to rw-r--r--
   create directory /tmp
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/shared_484241071
   delete /tmp/nimblecache/shared_484241071/shared.ini
-  delete /tmp/nimble_16574.out
-  delete /home/runner/.nimble/pkgs/shared-0.1.0/shared_16574.nims
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.travis.yml
-  delete /tmp/nimble_16574/githubcom_genotranceshared/tests/tperf.nim
-  delete /tmp/nimble_16574/githubcom_genotranceshared/tests/tseq.nim
-  delete /tmp/nimble_16574/githubcom_genotranceshared/tests/nim.cfg
-  delete /tmp/nimble_16574/githubcom_genotranceshared/tests/tstring.nim
-  delete /tmp/nimble_16574/githubcom_genotranceshared/tests
-  delete /tmp/nimble_16574/githubcom_genotranceshared/README.md
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/refs/remotes/origin/HEAD
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/refs/remotes/origin
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/refs/remotes
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/refs/heads/master
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/refs/heads
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/refs/tags
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/refs
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/config
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/logs/refs/remotes/origin/HEAD
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/logs/refs/remotes/origin
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/logs/refs/remotes
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/logs/refs/heads/master
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/logs/refs/heads
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/logs/refs
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/logs/HEAD
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/logs
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/packed-refs
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/HEAD
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/description
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/hooks/update.sample
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/hooks/pre-push.sample
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/hooks/post-update.sample
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/hooks
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/objects/pack/pack-4dfb43329b6e8702184cdc103a4abe5a74e96bb2.idx
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/objects/pack/pack-4dfb43329b6e8702184cdc103a4abe5a74e96bb2.pack
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/objects/pack
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/objects/info
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/objects
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/branches
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/index
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/info/exclude
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/info
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git/shallow
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.git
-  delete /tmp/nimble_16574/githubcom_genotranceshared/shared/string.nim
-  delete /tmp/nimble_16574/githubcom_genotranceshared/shared/seq.nim
-  delete /tmp/nimble_16574/githubcom_genotranceshared/shared/private/common.nim
-  delete /tmp/nimble_16574/githubcom_genotranceshared/shared/private
-  delete /tmp/nimble_16574/githubcom_genotranceshared/shared
-  delete /tmp/nimble_16574/githubcom_genotranceshared/.gitignore
-  delete /tmp/nimble_16574/githubcom_genotranceshared/appveyor.yml
-  delete /tmp/nimble_16574/githubcom_genotranceshared/LICENSE
-  delete /tmp/nimble_16574/githubcom_genotranceshared/nim.cfg
-  delete /tmp/nimble_16574/githubcom_genotranceshared/shared.nimble
-  delete /tmp/nimble_16574/githubcom_genotranceshared
-  delete /tmp/nimble_16574
+  delete /tmp/nimble_28696.out
+  delete /home/runner/.nimble/pkgs/shared-0.1.0/shared_28696.nims
+  delete /tmp/nimble_28696/githubcom_genotranceshared/README.md
+  delete /tmp/nimble_28696/githubcom_genotranceshared/appveyor.yml
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/refs/remotes/origin
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/refs/remotes
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/refs/tags
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/refs/heads/master
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/refs/heads
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/refs
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/info/exclude
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/info
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/branches
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/logs/refs/remotes
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/logs/refs/heads/master
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/logs/refs/heads
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/logs/refs
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/logs/HEAD
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/logs
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/description
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/hooks/pre-push.sample
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/hooks/update.sample
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/hooks/post-update.sample
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/hooks
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/shallow
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/config
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/index
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/61/7be644f9e1451eb2009315f0b97c3c2e6d52de
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/61
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/14/0e1022afecd816dc1fa6abcae942fdc3d80201
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/14
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/19/9a3bb6053f76115cc2414c42bed07562a1000f
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/19
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/9d/57ecf93d44e4dd38914a82c69e6d0c99f2f583
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/9d
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/info
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/de/e3eff487c4af3c8f9e71ca8ddbb90a9e36da14
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/de
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/48/e0925b782876780ef168090890b47c00cf1ec6
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/48
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/be/a06c81e82cd4c8da4ddec14c868a5902056a36
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/be
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/43/8a359c7ec43df68b80c551b6cbb1b36d03fa3c
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/43
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/e1/4a0345c128588c8d68957cc736df33a28a29bb
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/e1
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/04/3a7b62b9a8a25801c9478ebfa8ce1af0a44ab8
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/04
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/92/290c8ad051e1f9de203bdb6b3bac552e95a93c
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/92
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/26/7b9bc1cd65867c94957389119428803a931f70
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/26
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/0b/3fb71d54316fbf7abab1f701ffdf5eeb9029af
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/0b
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/95/8a52ef958fc9afe6c006ec397dceeb79176999
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/95
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/16/2c1dedcdcf4892d22ce6aa713ac05d2af5a217
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/16
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/65/17ff0073e9915538d900b6e437b02d2953d139
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/65
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/09/741e5a94cb36598694ccd0f57a110cb7d822bd
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/09
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/pack
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/90/d7fb0f8116dd9ede81db2d2939eebe983d2b13
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/90/2ffe95dab0169f718447bad2b3d58c7243588c
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects/90
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/objects
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/packed-refs
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git/HEAD
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.git
+  delete /tmp/nimble_28696/githubcom_genotranceshared/shared.nimble
+  delete /tmp/nimble_28696/githubcom_genotranceshared/shared/private/common.nim
+  delete /tmp/nimble_28696/githubcom_genotranceshared/shared/private
+  delete /tmp/nimble_28696/githubcom_genotranceshared/shared/string.nim
+  delete /tmp/nimble_28696/githubcom_genotranceshared/shared/seq.nim
+  delete /tmp/nimble_28696/githubcom_genotranceshared/shared
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.travis.yml
+  delete /tmp/nimble_28696/githubcom_genotranceshared/nim.cfg
+  delete /tmp/nimble_28696/githubcom_genotranceshared/tests/tperf.nim
+  delete /tmp/nimble_28696/githubcom_genotranceshared/tests/tseq.nim
+  delete /tmp/nimble_28696/githubcom_genotranceshared/tests/nim.cfg
+  delete /tmp/nimble_28696/githubcom_genotranceshared/tests/tstring.nim
+  delete /tmp/nimble_28696/githubcom_genotranceshared/tests
+  delete /tmp/nimble_28696/githubcom_genotranceshared/.gitignore
+  delete /tmp/nimble_28696/githubcom_genotranceshared/LICENSE
+  delete /tmp/nimble_28696/githubcom_genotranceshared
+  delete /tmp/nimble_28696

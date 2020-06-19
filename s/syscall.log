@@ -1,81 +1,124 @@
     Reading official package list
 Downloading https://github.com/def-/nim-syscall using git
-   Warning: Package 'syscall' has an incorrect structure. It should contain a single directory hierarchy for source files, named 'syscall', but file 'nr.nim' is in a directory named 'linux_x86' instead. This will be an error in the future.
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_5197', 0x00000000000001ff)
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall', 0x00000000000001ff)
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall')
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall', 0x00000000000001ff)
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_5197/githubcom_defnimsyscall/.git/HEAD.lock', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/HEAD')
+rename('/tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/config')
+chmod('/tmp/nimble_5197/githubcom_defnimsyscall/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_5197/githubcom_defnimsyscall/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/config')
+chmod('/tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/config')
+chmod('/tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/config')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/tkGPsh2')
+symlink('testing', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/tkGPsh2')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/tkGPsh2')
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/config')
+chmod('/tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/config')
+chmod('/tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/config')
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/09', 0x00000000000001ff)
+link('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/09/tmp_obj_0nU9Yb', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/09/c647b0c5798e8d3348f0ed90dbb5704d5e8159')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/09/tmp_obj_0nU9Yb')
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/0f', 0x00000000000001ff)
+link('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/0f/tmp_obj_O9DfBg', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/0f/a4452dbad45c149f30c552ab51ecf7b3700deb')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/0f/tmp_obj_O9DfBg')
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/7c', 0x00000000000001ff)
+link('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/7c/tmp_obj_uTOKjh', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/7c/8c74508f6b5acb0b5af9d5f1800fa9f3d2866e')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/7c/tmp_obj_uTOKjh')
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/cb', 0x00000000000001ff)
+link('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/cb/tmp_obj_0lPtmm', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/cb/4e11835279a9b99041b7bdd730062ea360a70a')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/cb/tmp_obj_0lPtmm')
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/0e', 0x00000000000001ff)
+link('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/0e/tmp_obj_GdgrUr', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/0e/d4c64ec83a5cfb1c069b63fc9dac6a03a3cba3')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/0e/tmp_obj_GdgrUr')
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/49', 0x00000000000001ff)
+link('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/49/tmp_obj_mfChJu', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/49/69eeea0ea9e51c5638791ab98ae187007f7d80')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/49/tmp_obj_mfChJu')
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/da', 0x00000000000001ff)
+link('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/da/tmp_obj_q9rwEz', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/da/199239f1ae5ff16d9ed7b279d917fc4e8c2686')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/da/tmp_obj_q9rwEz')
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/83', 0x00000000000001ff)
+link('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/83/tmp_obj_8vkyRA', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/83/5f9ed233d7d69e65b9852dcb7293bd5b7e5f92')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/83/tmp_obj_8vkyRA')
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/77', 0x00000000000001ff)
+link('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/77/tmp_obj_WROwAG', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/77/dc47cef947b8f1cb6a8d9ebf349828111431f5')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/77/tmp_obj_WROwAG')
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/c1', 0x00000000000001ff)
+link('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/c1/tmp_obj_oAiKxL', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/c1/be158c18b75787964ecc4162f8ed1f0c35848a')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/c1/tmp_obj_oAiKxL')
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/b5', 0x00000000000001ff)
+link('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/b5/tmp_obj_8r8COM', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/b5/9dacb3542e93e0f761612167eb099cd0de08ba')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/b5/tmp_obj_8r8COM')
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/c2', 0x00000000000001ff)
+link('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/c2/tmp_obj_kCG50T', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/c2/855924171a928004ef700018c7a0a1a77dcaea')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/c2/tmp_obj_kCG50T')
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/fe', 0x00000000000001ff)
+link('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/fe/tmp_obj_4tQkUV', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/fe/cbcb7ea17369e4c81dabcb8ae4cc192f2485da')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/fe/tmp_obj_4tQkUV')
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/cf', 0x00000000000001ff)
+link('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/cf/tmp_obj_8d3RL1', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/cf/7a0cb0c2a10c5ee0c9ceaf021a275e88cc0e00')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/cf/tmp_obj_8d3RL1')
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/35', 0x00000000000001ff)
+link('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/35/tmp_obj_sq09X2', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/35/7212b5f71977bea168cb74e4f3d2cae475aca7')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/35/tmp_obj_sq09X2')   Warning: Package 'syscall' has an incorrect structure. It should contain a single directory hierarchy for source files, named 'syscall', but file 'call.nim' is in a directory named 'linux_x86' instead. This will be an error in the future.
       Hint: If 'linux_x86' contains source files for building 'syscall', rename it to 'syscall'. Otherwise, prevent its installation by adding `skipDirs = @["linux_x86"]` to the .nimble file.
   Verifying dependencies for syscall@0.1
  Installing syscall@0.1
-    Copying file /tmp/nimble_4096/githubcom_defnimsyscall/src/syscall.nim to /home/runner/.nimble/pkgs/syscall-0.1/syscall.nim
-    Copying file /tmp/nimble_4096/githubcom_defnimsyscall/src/linux_x86/nr.nim to /home/runner/.nimble/pkgs/syscall-0.1/linux_x86/nr.nim
-    Copying file /tmp/nimble_4096/githubcom_defnimsyscall/src/linux_x86/call.nim to /home/runner/.nimble/pkgs/syscall-0.1/linux_x86/call.nim
-    Copying file /tmp/nimble_4096/githubcom_defnimsyscall/src/linux_x86_64/nr.nim to /home/runner/.nimble/pkgs/syscall-0.1/linux_x86_64/nr.nim
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_4096', 0x00000000000001ff)
-mkdir('/tmp/nimble_4096/githubcom_defnimsyscall', 0x00000000000001ff)
-rmdir('/tmp/nimble_4096/githubcom_defnimsyscall')
-mkdir('/tmp/nimble_4096/githubcom_defnimsyscall', 0x00000000000001ff)
-mkdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_4096/githubcom_defnimsyscall/.git/HEAD.lock', '/tmp/nimble_4096/githubcom_defnimsyscall/.git/HEAD')
-rename('/tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock', '/tmp/nimble_4096/githubcom_defnimsyscall/.git/config')
-chmod('/tmp/nimble_4096/githubcom_defnimsyscall/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_4096/githubcom_defnimsyscall/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock', '/tmp/nimble_4096/githubcom_defnimsyscall/.git/config')
-chmod('/tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock', '/tmp/nimble_4096/githubcom_defnimsyscall/.git/config')
-chmod('/tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock', '/tmp/nimble_4096/githubcom_defnimsyscall/.git/config')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/t8sd8lG')
-symlink('testing', '/tmp/nimble_4096/githubcom_defnimsyscall/.git/t8sd8lG')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/t8sd8lG')
-mkdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock', '/tmp/nimble_4096/githubcom_defnimsyscall/.git/config')
-chmod('/tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock', '/tmp/nimble_4096/githubcom_defnimsyscall/.git/config')
-chmod('/tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock', '/tmp/nimble_4096/githubcom_defnimsyscall/.git/config')
-link('/tmp/nimble_4096/githubcom_defnimsyscall/.git/objects/pack/tmp_pack_nBfat3', '/tmp/nimble_4096/githubcom_defnimsyscall/.git/objects/pack/pack-b29562a4760d85147553a2d2609f600230a24c9c.pack')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/objects/pack/tmp_pack_nBfat3')
-link('/tmp/nimble_4096/githubcom_defnimsyscall/.git/objects/pack/tmp_idx_XrJIh6', '/tmp/nimble_4096/githubcom_defnimsyscall/.git/objects/pack/pack-b29562a4760d85147553a2d2609f600230a24c9c.idx')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/objects/pack/tmp_idx_XrJIh6')
-rename('/tmp/nimble_4096/githubcom_defnimsyscall/.git/shallow.lock', '/tmp/nimble_4096/githubcom_defnimsyscall/.git/shallow')
-rename('/tmp/nimble_4096/githubcom_defnimsyscall/.git/packed-refs.new', '/tmp/nimble_4096/githubcom_defnimsyscall/.git/packed-refs')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/packed-refs.lock')
-mkdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/refs/remotes/origin', 0x00000000000001ff)
-mkdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/logs', 0x00000000000001ff)
-mkdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/logs/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/logs/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/logs/refs/remotes/origin', 0x00000000000001ff)
-rename('/tmp/nimble_4096/githubcom_defnimsyscall/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_4096/githubcom_defnimsyscall/.git/refs/remotes/origin/HEAD')
-rename('/tmp/nimble_4096/githubcom_defnimsyscall/.git/HEAD.lock', '/tmp/nimble_4096/githubcom_defnimsyscall/.git/HEAD')
-mkdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/logs/refs/heads', 0x00000000000001ff)
-rename('/tmp/nimble_4096/githubcom_defnimsyscall/.git/refs/heads/master.lock', '/tmp/nimble_4096/githubcom_defnimsyscall/.git/refs/heads/master')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/HEAD.lock')
-chmod('/tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock', '/tmp/nimble_4096/githubcom_defnimsyscall/.git/config')
-chmod('/tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock', '/tmp/nimble_4096/githubcom_defnimsyscall/.git/config')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/objects/pack/pack-b29562a4760d85147553a2d2609f600230a24c9c.keep')
+    Copying file /tmp/nimble_5197/githubcom_defnimsyscall/src/syscall.nim to /home/runner/.nimble/pkgs/syscall-0.1/syscall.nim
+    Copying file /tmp/nimble_5197/githubcom_defnimsyscall/src/linux_x86/call.nim to /home/runner/.nimble/pkgs/syscall-0.1/linux_x86/call.nim
+    Copying file /tmp/nimble_5197/githubcom_defnimsyscall/src/linux_x86/nr.nim to /home/runner/.nimble/pkgs/syscall-0.1/linux_x86/nr.nim
+    Copying file /tmp/nimble_5197/githubcom_defnimsyscall/src/linux_x86_64/call.nim to /home/runner/.nimble/pkgs/syscall-0.1/linux_x86_64/call.nim
+    Copying file /tmp/nimble_5197/githubcom_defnimsyscall/src/linux_x86_64/nr.nim to /home/runner/.nimble/pkgs/syscall-0.1/linux_x86_64/nr.nim
+    Copying file /tmp/nimble_5197/githubcom_defnimsyscall/syscall.nimble to /home/runner/.nimble/pkgs/syscall-0.1/syscall.nimble
+   Success: syscall installed successfully.
+
+rename('/tmp/nimble_5197/githubcom_defnimsyscall/.git/shallow.lock', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/shallow')
+rename('/tmp/nimble_5197/githubcom_defnimsyscall/.git/packed-refs.new', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/packed-refs')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/packed-refs.lock')
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_5197/githubcom_defnimsyscall/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_5197/githubcom_defnimsyscall/.git/HEAD.lock', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/HEAD')
+mkdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_5197/githubcom_defnimsyscall/.git/refs/heads/master.lock', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/refs/heads/master')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/HEAD.lock')
+chmod('/tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/config')
+chmod('/tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/config')
 mkdir('src', 0x00000000000001ff)
 mkdir('src/linux_x86', 0x00000000000001ff)
 mkdir('src/linux_x86_64', 0x00000000000001ff)
-rename('/tmp/nimble_4096/githubcom_defnimsyscall/.git/index.lock', '/tmp/nimble_4096/githubcom_defnimsyscall/.git/index')
+rename('/tmp/nimble_5197/githubcom_defnimsyscall/.git/index.lock', '/tmp/nimble_5197/githubcom_defnimsyscall/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/syscall_3488700638', 0x00000000000001ff)
-unlink('/tmp/nimblecache/syscall_3488700638/syscall.ini')
-unlink('/tmp/nimble_4096.out')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/syscall_4096.nims')
+mkdir('/tmp/nimblecache/syscall_2912295528', 0x00000000000001ff)
+unlink('/tmp/nimblecache/syscall_2912295528/syscall.ini')
+unlink('/tmp/nimble_5197.out')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/syscall_5197.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -93,14 +136,21 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/syscall-0.1', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/syscall-0.1/linux_x86', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/syscall-0.1/linux_x86/nr.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/syscall-0.1/linux_x86/call.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/syscall-0.1', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/syscall-0.1/linux_x86', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/syscall-0.1/linux_x86/call.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/syscall-0.1/linux_x86/nr.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/syscall-0.1', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/syscall-0.1/linux_x86_64', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/syscall-0.1/linux_x86_64/call.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -108,149 +158,207 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/syscall-0.1', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/syscall-0.1/linux_x86_64', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/syscall-0.1/linux_x86_64/nr.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/syscall-0.1', 0x00000000000001ff)    Copying file /tmp/nimble_4096/githubcom_defnimsyscall/src/linux_x86_64/call.nim to /home/runner/.nimble/pkgs/syscall-0.1/linux_x86_64/call.nim
-    Copying file /tmp/nimble_4096/githubcom_defnimsyscall/syscall.nimble to /home/runner/.nimble/pkgs/syscall-0.1/syscall.nimble
-   Success: syscall installed successfully.
-
-mkdir('/home/runner/.nimble/pkgs/syscall-0.1/linux_x86_64', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/syscall-0.1/linux_x86_64/call.nim', 0x00000000000001a4)
 chmod('/home/runner/.nimble/pkgs/syscall-0.1/syscall.nimble', 0x00000000000001a4)
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/syscall_2964771061', 0x00000000000001ff)
 unlink('/tmp/nimblecache/syscall_2964771061/syscall.ini')
-unlink('/tmp/nimble_4096.out')
-unlink('/home/runner/.nimble/pkgs/syscall-0.1/syscall_4096.nims')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/circle.yml')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/refs/remotes/origin')
-rmdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/refs/remotes')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/refs/heads/master')
-rmdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/refs/heads')
-rmdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/refs/tags')
-rmdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/refs')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/config')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/logs/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/logs/refs/remotes/origin')
-rmdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/logs/refs/remotes')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/logs/refs/heads/master')
-rmdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/logs/refs/heads')
-rmdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/logs/refs')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/logs/HEAD')
-rmdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/logs')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/packed-refs')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/HEAD')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/description')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks/update.sample')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks/post-update.sample')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks/pre-merge-commit.sample')
-rmdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/objects/pack/pack-b29562a4760d85147553a2d2609f600230a24c9c.pack')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/objects/pack/pack-b29562a4760d85147553a2d2609f600230a24c9c.idx')
-rmdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/objects/pack')
-rmdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/objects/info')
-rmdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/objects')
-rmdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/branches')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/index')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/info/exclude')
-rmdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git/info')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.git/shallow')
-rmdir('/tmp/nimble_4096/githubcom_defnimsyscall/.git')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/readme.md')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/syscall.nimble')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/.gitignore')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/license.txt')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/src/syscall.nim')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/src/linux_x86/nr.nim')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/src/linux_x86/call.nim')
-rmdir('/tmp/nimble_4096/githubcom_defnimsyscall/src/linux_x86')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/src/linux_x86_64/nr.nim')
-unlink('/tmp/nimble_4096/githubcom_defnimsyscall/src/linux_x86_64/call.nim')
-rmdir('/tmp/nimble_4096/githubcom_defnimsyscall/src/linux_x86_64')
-rmdir('/tmp/nimble_4096/githubcom_defnimsyscall/src')
-rmdir('/tmp/nimble_4096/githubcom_defnimsyscall')
-rmdir('/tmp/nimble_4096')
+unlink('/tmp/nimble_5197.out')
+unlink('/home/runner/.nimble/pkgs/syscall-0.1/syscall_5197.nims')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/refs/remotes')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/refs/tags')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/refs/heads/master')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/refs/heads')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/refs')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/info/exclude')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/info')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/branches')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/logs/refs/remotes')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/logs/refs/heads')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/logs/refs')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/logs/HEAD')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/logs')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/description')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks/update.sample')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/shallow')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/config')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/index')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/7c/8c74508f6b5acb0b5af9d5f1800fa9f3d2866e')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/7c')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/b5/9dacb3542e93e0f761612167eb099cd0de08ba')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/b5')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/info')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/0f/a4452dbad45c149f30c552ab51ecf7b3700deb')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/0f')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/35/7212b5f71977bea168cb74e4f3d2cae475aca7')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/35')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/c1/be158c18b75787964ecc4162f8ed1f0c35848a')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/c1')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/cb/4e11835279a9b99041b7bdd730062ea360a70a')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/cb')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/c2/855924171a928004ef700018c7a0a1a77dcaea')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/c2')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/da/199239f1ae5ff16d9ed7b279d917fc4e8c2686')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/da')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/cf/7a0cb0c2a10c5ee0c9ceaf021a275e88cc0e00')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/cf')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/49/69eeea0ea9e51c5638791ab98ae187007f7d80')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/49')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/0e/d4c64ec83a5cfb1c069b63fc9dac6a03a3cba3')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/0e')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/09/c647b0c5798e8d3348f0ed90dbb5704d5e8159')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/09')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/pack')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/fe/cbcb7ea17369e4c81dabcb8ae4cc192f2485da')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/fe')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/83/5f9ed233d7d69e65b9852dcb7293bd5b7e5f92')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/83')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/77/dc47cef947b8f1cb6a8d9ebf349828111431f5')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/77')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git/objects')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/packed-refs')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.git/HEAD')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/.git')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/src/syscall.nim')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/src/linux_x86/call.nim')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/src/linux_x86/nr.nim')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/src/linux_x86')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/src/linux_x86_64/call.nim')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/src/linux_x86_64/nr.nim')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/src/linux_x86_64')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall/src')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/circle.yml')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/readme.md')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/license.txt')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/syscall.nimble')
+unlink('/tmp/nimble_5197/githubcom_defnimsyscall/.gitignore')
+rmdir('/tmp/nimble_5197/githubcom_defnimsyscall')
+rmdir('/tmp/nimble_5197')
   create directory /tmp
-  create directory /tmp/nimble_4096
-  create directory /tmp/nimble_4096/githubcom_defnimsyscall
-  delete /tmp/nimble_4096/githubcom_defnimsyscall
-  create directory /tmp/nimble_4096/githubcom_defnimsyscall
-  create directory /tmp/nimble_4096/githubcom_defnimsyscall/.git
-  create directory /tmp/nimble_4096/githubcom_defnimsyscall/.git
-  create directory /tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks
-  create directory /tmp/nimble_4096/githubcom_defnimsyscall/.git/branches
-  create directory /tmp/nimble_4096/githubcom_defnimsyscall/.git/info
-  create directory /tmp/nimble_4096/githubcom_defnimsyscall/.git/refs
-  create directory /tmp/nimble_4096/githubcom_defnimsyscall/.git/refs/heads
-  create directory /tmp/nimble_4096/githubcom_defnimsyscall/.git/refs/tags
-  rename /tmp/nimble_4096/githubcom_defnimsyscall/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock to config
-  change permissions of /tmp/nimble_4096/githubcom_defnimsyscall/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_4096/githubcom_defnimsyscall/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock to config
-  change permissions of /tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock to config
-  change permissions of /tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock to config
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/t8sd8lG
-  create symbolic link from /tmp/nimble_4096/githubcom_defnimsyscall/.git/t8sd8lG to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/t8sd8lG
-  create directory /tmp/nimble_4096/githubcom_defnimsyscall/.git/objects
-  create directory /tmp/nimble_4096/githubcom_defnimsyscall/.git/objects/pack
-  create directory /tmp/nimble_4096/githubcom_defnimsyscall/.git/objects/info
-  change permissions of /tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock to config
-  change permissions of /tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock to config
-  change permissions of /tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock to config
-  create hard link from /tmp/nimble_4096/githubcom_defnimsyscall/.git/objects/pack/pack-b29562a4760d85147553a2d2609f600230a24c9c.pack to /tmp/nimble_4096/githubcom_defnimsyscall/.git/objects/pack/tmp_pack_nBfat3
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/objects/pack/tmp_pack_nBfat3
-  create hard link from /tmp/nimble_4096/githubcom_defnimsyscall/.git/objects/pack/pack-b29562a4760d85147553a2d2609f600230a24c9c.idx to /tmp/nimble_4096/githubcom_defnimsyscall/.git/objects/pack/tmp_idx_XrJIh6
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/objects/pack/tmp_idx_XrJIh6
-  rename /tmp/nimble_4096/githubcom_defnimsyscall/.git/shallow.lock to shallow
-  rename /tmp/nimble_4096/githubcom_defnimsyscall/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/packed-refs.lock
-  create directory /tmp/nimble_4096/githubcom_defnimsyscall/.git/refs/remotes
-  create directory /tmp/nimble_4096/githubcom_defnimsyscall/.git/refs/remotes/origin
-  create directory /tmp/nimble_4096/githubcom_defnimsyscall/.git/logs
-  create directory /tmp/nimble_4096/githubcom_defnimsyscall/.git/logs/refs
-  create directory /tmp/nimble_4096/githubcom_defnimsyscall/.git/logs/refs/remotes
-  create directory /tmp/nimble_4096/githubcom_defnimsyscall/.git/logs/refs/remotes/origin
-  rename /tmp/nimble_4096/githubcom_defnimsyscall/.git/refs/remotes/origin/HEAD.lock to HEAD
-  rename /tmp/nimble_4096/githubcom_defnimsyscall/.git/HEAD.lock to HEAD
-  create directory /tmp/nimble_4096/githubcom_defnimsyscall/.git/logs/refs/heads
-  rename /tmp/nimble_4096/githubcom_defnimsyscall/.git/refs/heads/master.lock to master
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/HEAD.lock
-  change permissions of /tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock to config
-  change permissions of /tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4096/githubcom_defnimsyscall/.git/config.lock to config
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/objects/pack/pack-b29562a4760d85147553a2d2609f600230a24c9c.keep
-  create directory /tmp/nimble_4096/githubcom_defnimsyscall/src
-  create directory /tmp/nimble_4096/githubcom_defnimsyscall/src/linux_x86
-  create directory /tmp/nimble_4096/githubcom_defnimsyscall/src/linux_x86_64
-  rename /tmp/nimble_4096/githubcom_defnimsyscall/.git/index.lock to index
+  create directory /tmp/nimble_5197
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall
+  delete /tmp/nimble_5197/githubcom_defnimsyscall
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/info
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/branches
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/refs
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/refs/heads
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/refs/tags
+  rename /tmp/nimble_5197/githubcom_defnimsyscall/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock to config
+  change permissions of /tmp/nimble_5197/githubcom_defnimsyscall/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_5197/githubcom_defnimsyscall/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock to config
+  change permissions of /tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock to config
+  change permissions of /tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock to config
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/tkGPsh2
+  create symbolic link from /tmp/nimble_5197/githubcom_defnimsyscall/.git/tkGPsh2 to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/tkGPsh2
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/pack
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/info
+  change permissions of /tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock to config
+  change permissions of /tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock to config
+  change permissions of /tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock to config
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/09
+  create hard link from /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/09/c647b0c5798e8d3348f0ed90dbb5704d5e8159 to /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/09/tmp_obj_0nU9Yb
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/09/tmp_obj_0nU9Yb
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/0f
+  create hard link from /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/0f/a4452dbad45c149f30c552ab51ecf7b3700deb to /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/0f/tmp_obj_O9DfBg
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/0f/tmp_obj_O9DfBg
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/7c
+  create hard link from /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/7c/8c74508f6b5acb0b5af9d5f1800fa9f3d2866e to /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/7c/tmp_obj_uTOKjh
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/7c/tmp_obj_uTOKjh
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/cb
+  create hard link from /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/cb/4e11835279a9b99041b7bdd730062ea360a70a to /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/cb/tmp_obj_0lPtmm
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/cb/tmp_obj_0lPtmm
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/0e
+  create hard link from /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/0e/d4c64ec83a5cfb1c069b63fc9dac6a03a3cba3 to /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/0e/tmp_obj_GdgrUr
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/0e/tmp_obj_GdgrUr
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/49
+  create hard link from /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/49/69eeea0ea9e51c5638791ab98ae187007f7d80 to /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/49/tmp_obj_mfChJu
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/49/tmp_obj_mfChJu
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/da
+  create hard link from /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/da/199239f1ae5ff16d9ed7b279d917fc4e8c2686 to /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/da/tmp_obj_q9rwEz
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/da/tmp_obj_q9rwEz
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/83
+  create hard link from /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/83/5f9ed233d7d69e65b9852dcb7293bd5b7e5f92 to /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/83/tmp_obj_8vkyRA
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/83/tmp_obj_8vkyRA
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/77
+  create hard link from /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/77/dc47cef947b8f1cb6a8d9ebf349828111431f5 to /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/77/tmp_obj_WROwAG
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/77/tmp_obj_WROwAG
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/c1
+  create hard link from /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/c1/be158c18b75787964ecc4162f8ed1f0c35848a to /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/c1/tmp_obj_oAiKxL
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/c1/tmp_obj_oAiKxL
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/b5
+  create hard link from /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/b5/9dacb3542e93e0f761612167eb099cd0de08ba to /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/b5/tmp_obj_8r8COM
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/b5/tmp_obj_8r8COM
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/c2
+  create hard link from /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/c2/855924171a928004ef700018c7a0a1a77dcaea to /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/c2/tmp_obj_kCG50T
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/c2/tmp_obj_kCG50T
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/fe
+  create hard link from /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/fe/cbcb7ea17369e4c81dabcb8ae4cc192f2485da to /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/fe/tmp_obj_4tQkUV
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/fe/tmp_obj_4tQkUV
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/cf
+  create hard link from /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/cf/7a0cb0c2a10c5ee0c9ceaf021a275e88cc0e00 to /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/cf/tmp_obj_8d3RL1
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/cf/tmp_obj_8d3RL1
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/35
+  create hard link from /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/35/7212b5f71977bea168cb74e4f3d2cae475aca7 to /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/35/tmp_obj_sq09X2
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/35/tmp_obj_sq09X2
+  rename /tmp/nimble_5197/githubcom_defnimsyscall/.git/shallow.lock to shallow
+  rename /tmp/nimble_5197/githubcom_defnimsyscall/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/packed-refs.lock
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/refs/remotes
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/refs/remotes/origin
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/logs
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/logs/refs
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/logs/refs/remotes
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_5197/githubcom_defnimsyscall/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_5197/githubcom_defnimsyscall/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/.git/logs/refs/heads
+  rename /tmp/nimble_5197/githubcom_defnimsyscall/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/HEAD.lock
+  change permissions of /tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock to config
+  change permissions of /tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5197/githubcom_defnimsyscall/.git/config.lock to config
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/src
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/src/linux_x86
+  create directory /tmp/nimble_5197/githubcom_defnimsyscall/src/linux_x86_64
+  rename /tmp/nimble_5197/githubcom_defnimsyscall/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/syscall_3488700638
-  delete /tmp/nimblecache/syscall_3488700638/syscall.ini
-  delete /tmp/nimble_4096.out
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/syscall_4096.nims
+  create directory /tmp/nimblecache/syscall_2912295528
+  delete /tmp/nimblecache/syscall_2912295528/syscall.ini
+  delete /tmp/nimble_5197.out
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/syscall_5197.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -268,21 +376,14 @@ rmdir('/tmp/nimble_4096')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/syscall-0.1
   create directory /home/runner/.nimble/pkgs/syscall-0.1/linux_x86
-  change permissions of /home/runner/.nimble/pkgs/syscall-0.1/linux_x86/nr.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/syscall-0.1
-  create directory /home/runner/.nimble/pkgs/syscall-0.1/linux_x86
   change permissions of /home/runner/.nimble/pkgs/syscall-0.1/linux_x86/call.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/syscall-0.1
-  create directory /home/runner/.nimble/pkgs/syscall-0.1/linux_x86_64
-  change permissions of /home/runner/.nimble/pkgs/syscall-0.1/linux_x86_64/nr.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/syscall-0.1/linux_x86
+  change permissions of /home/runner/.nimble/pkgs/syscall-0.1/linux_x86/nr.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -290,68 +391,103 @@ rmdir('/tmp/nimble_4096')
   create directory /home/runner/.nimble/pkgs/syscall-0.1
   create directory /home/runner/.nimble/pkgs/syscall-0.1/linux_x86_64
   change permissions of /home/runner/.nimble/pkgs/syscall-0.1/linux_x86_64/call.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/syscall-0.1
+  create directory /home/runner/.nimble/pkgs/syscall-0.1/linux_x86_64
+  change permissions of /home/runner/.nimble/pkgs/syscall-0.1/linux_x86_64/nr.nim to rw-r--r--
   change permissions of /home/runner/.nimble/pkgs/syscall-0.1/syscall.nimble to rw-r--r--
   create directory /tmp
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/syscall_2964771061
   delete /tmp/nimblecache/syscall_2964771061/syscall.ini
-  delete /tmp/nimble_4096.out
-  delete /home/runner/.nimble/pkgs/syscall-0.1/syscall_4096.nims
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/circle.yml
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/refs/remotes/origin/HEAD
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/refs/remotes/origin
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/refs/remotes
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/refs/heads/master
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/refs/heads
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/refs/tags
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/refs
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/config
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/logs/refs/remotes/origin/HEAD
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/logs/refs/remotes/origin
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/logs/refs/remotes
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/logs/refs/heads/master
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/logs/refs/heads
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/logs/refs
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/logs/HEAD
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/logs
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/packed-refs
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/HEAD
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/description
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks/update.sample
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks/pre-push.sample
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks/post-update.sample
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/hooks
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/objects/pack/pack-b29562a4760d85147553a2d2609f600230a24c9c.pack
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/objects/pack/pack-b29562a4760d85147553a2d2609f600230a24c9c.idx
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/objects/pack
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/objects/info
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/objects
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/branches
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/index
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/info/exclude
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/info
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git/shallow
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.git
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/readme.md
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/syscall.nimble
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/.gitignore
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/license.txt
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/src/syscall.nim
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/src/linux_x86/nr.nim
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/src/linux_x86/call.nim
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/src/linux_x86
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/src/linux_x86_64/nr.nim
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/src/linux_x86_64/call.nim
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/src/linux_x86_64
-  delete /tmp/nimble_4096/githubcom_defnimsyscall/src
-  delete /tmp/nimble_4096/githubcom_defnimsyscall
-  delete /tmp/nimble_4096
+  delete /tmp/nimble_5197.out
+  delete /home/runner/.nimble/pkgs/syscall-0.1/syscall_5197.nims
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/refs/remotes/origin
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/refs/remotes
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/refs/tags
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/refs/heads/master
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/refs/heads
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/refs
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/info/exclude
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/info
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/branches
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/logs/refs/remotes
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/logs/refs/heads/master
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/logs/refs/heads
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/logs/refs
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/logs/HEAD
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/logs
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/description
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks/pre-push.sample
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks/update.sample
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks/post-update.sample
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/hooks
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/shallow
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/config
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/index
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/7c/8c74508f6b5acb0b5af9d5f1800fa9f3d2866e
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/7c
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/b5/9dacb3542e93e0f761612167eb099cd0de08ba
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/b5
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/info
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/0f/a4452dbad45c149f30c552ab51ecf7b3700deb
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/0f
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/35/7212b5f71977bea168cb74e4f3d2cae475aca7
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/35
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/c1/be158c18b75787964ecc4162f8ed1f0c35848a
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/c1
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/cb/4e11835279a9b99041b7bdd730062ea360a70a
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/cb
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/c2/855924171a928004ef700018c7a0a1a77dcaea
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/c2
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/da/199239f1ae5ff16d9ed7b279d917fc4e8c2686
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/da
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/cf/7a0cb0c2a10c5ee0c9ceaf021a275e88cc0e00
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/cf
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/49/69eeea0ea9e51c5638791ab98ae187007f7d80
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/49
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/0e/d4c64ec83a5cfb1c069b63fc9dac6a03a3cba3
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/0e
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/09/c647b0c5798e8d3348f0ed90dbb5704d5e8159
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/09
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/pack
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/fe/cbcb7ea17369e4c81dabcb8ae4cc192f2485da
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/fe
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/83/5f9ed233d7d69e65b9852dcb7293bd5b7e5f92
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/83
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/77/dc47cef947b8f1cb6a8d9ebf349828111431f5
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects/77
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/objects
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/packed-refs
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git/HEAD
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.git
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/src/syscall.nim
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/src/linux_x86/call.nim
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/src/linux_x86/nr.nim
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/src/linux_x86
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/src/linux_x86_64/call.nim
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/src/linux_x86_64/nr.nim
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/src/linux_x86_64
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/src
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/circle.yml
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/readme.md
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/license.txt
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/syscall.nimble
+  delete /tmp/nimble_5197/githubcom_defnimsyscall/.gitignore
+  delete /tmp/nimble_5197/githubcom_defnimsyscall
+  delete /tmp/nimble_5197

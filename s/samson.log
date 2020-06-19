@@ -1,69 +1,183 @@
     Reading official package list
 Downloading https://github.com/GULPF/samson using git
-  Verifying dependencies for samson@0.1.0
- Installing samson@0.1.0
-    Copying file /tmp/nimble_17205/githubcom_GULPFsamson/src/samson.nim to /home/runner/.nimble/pkgs/samson-0.1.0/samson.nim
-    Copying file /tmp/nimble_17205/githubcom_GULPFsamson/src/samson/pragmas.nim to /home/runner/.nimble/pkgs/samson-0.1.0/samson/pragmas.nim
-    Copying file /tmp/nimble_17205/githubcom_GULPFsamson/src/samson/errors.nim to /home/runner/.nimble/pkgs/samson-0.1.0/samson/errors.nim
-    Copying file /tmp/nimble_17205/githubcom_GULPFsamson/src/samson/private/xtypetraits.nim to /home/runner/.nimble/pkgs/samson-0.1.0/samson/private/xtypetraits.nim
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_17205', 0x00000000000001ff)
-mkdir('/tmp/nimble_17205/githubcom_GULPFsamson', 0x00000000000001ff)
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson')
-mkdir('/tmp/nimble_17205/githubcom_GULPFsamson', 0x00000000000001ff)
-mkdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_17205/githubcom_GULPFsamson/.git/HEAD.lock', '/tmp/nimble_17205/githubcom_GULPFsamson/.git/HEAD')
-rename('/tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock', '/tmp/nimble_17205/githubcom_GULPFsamson/.git/config')
-chmod('/tmp/nimble_17205/githubcom_GULPFsamson/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_17205/githubcom_GULPFsamson/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock', '/tmp/nimble_17205/githubcom_GULPFsamson/.git/config')
-chmod('/tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock', '/tmp/nimble_17205/githubcom_GULPFsamson/.git/config')
-chmod('/tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock', '/tmp/nimble_17205/githubcom_GULPFsamson/.git/config')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/tdSTf0V')
-symlink('testing', '/tmp/nimble_17205/githubcom_GULPFsamson/.git/tdSTf0V')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/tdSTf0V')
-mkdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock', '/tmp/nimble_17205/githubcom_GULPFsamson/.git/config')
-chmod('/tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock', '/tmp/nimble_17205/githubcom_GULPFsamson/.git/config')
-chmod('/tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock', '/tmp/nimble_17205/githubcom_GULPFsamson/.git/config')
-link('/tmp/nimble_17205/githubcom_GULPFsamson/.git/objects/pack/tmp_pack_cERNB2', '/tmp/nimble_17205/githubcom_GULPFsamson/.git/objects/pack/pack-493255fb97b8fae74580618a038ab74d4bb302e6.pack')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/objects/pack/tmp_pack_cERNB2')
-link('/tmp/nimble_17205/githubcom_GULPFsamson/.git/objects/pack/tmp_idx_YwnKni', '/tmp/nimble_17205/githubcom_GULPFsamson/.git/objects/pack/pack-493255fb97b8fae74580618a038ab74d4bb302e6.idx')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/objects/pack/tmp_idx_YwnKni')
-rename('/tmp/nimble_17205/githubcom_GULPFsamson/.git/shallow.lock', '/tmp/nimble_17205/githubcom_GULPFsamson/.git/shallow')
-rename('/tmp/nimble_17205/githubcom_GULPFsamson/.git/packed-refs.new', '/tmp/nimble_17205/githubcom_GULPFsamson/.git/packed-refs')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/packed-refs.lock')
-mkdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/refs/remotes/origin', 0x00000000000001ff)
-mkdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/logs', 0x00000000000001ff)
-mkdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/logs/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/logs/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/logs/refs/remotes/origin', 0x00000000000001ff)
-rename('/tmp/nimble_17205/githubcom_GULPFsamson/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_17205/githubcom_GULPFsamson/.git/refs/remotes/origin/HEAD')
-rename('/tmp/nimble_17205/githubcom_GULPFsamson/.git/HEAD.lock', '/tmp/nimble_17205/githubcom_GULPFsamson/.git/HEAD')
-mkdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/logs/refs/heads', 0x00000000000001ff)
-rename('/tmp/nimble_17205/githubcom_GULPFsamson/.git/refs/heads/master.lock', '/tmp/nimble_17205/githubcom_GULPFsamson/.git/refs/heads/master')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/HEAD.lock')
-chmod('/tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock', '/tmp/nimble_17205/githubcom_GULPFsamson/.git/config')
-chmod('/tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock', '/tmp/nimble_17205/githubcom_GULPFsamson/.git/config')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/objects/pack/pack-493255fb97b8fae74580618a038ab74d4bb302e6.keep')
+mkdir('/tmp/nimble_29781', 0x00000000000001ff)
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson', 0x00000000000001ff)
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson', 0x00000000000001ff)
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_29781/githubcom_GULPFsamson/.git/HEAD.lock', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/HEAD')
+rename('/tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/config')
+chmod('/tmp/nimble_29781/githubcom_GULPFsamson/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_29781/githubcom_GULPFsamson/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/config')
+chmod('/tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/config')
+chmod('/tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/config')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/tZYEBzw')
+symlink('testing', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/tZYEBzw')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/tZYEBzw')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/config')
+chmod('/tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/config')
+chmod('/tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/config')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/71', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/71/tmp_obj_YPAZZr', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/71/ead61104302abfc0d4463c91f73a4126b2184c')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/71/tmp_obj_YPAZZr')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/f3', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/f3/tmp_obj_gb5rmt', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/f3/4e8ddfbc9f4273e2748b53cd90594e82334ef6')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/f3/tmp_obj_gb5rmt')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d2', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d2/tmp_obj_YBFXNz', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d2/1c547618019679b36e1409150f79ccde30b913')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d2/tmp_obj_YBFXNz')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/4b', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/4b/tmp_obj_yKQ7AA', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/4b/66ec4aeb329cd38d96b79ddac97a6054ae336a')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/4b/tmp_obj_yKQ7AA')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d8', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d8/tmp_obj_gX1BsG', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d8/9dfabcfab8712d8a57908670a52a27dde4094d')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d8/tmp_obj_gX1BsG')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/fe', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/fe/tmp_obj_eyjZuL', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/fe/6b462b82e1a7ad1a958b2a2e10e8186b50ddae')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/fe/tmp_obj_eyjZuL')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e8', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e8/tmp_obj_y80WfQ', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e8/aa7c148d6a2f1cc3ca9357de7fbf7fb2257c33')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e8/tmp_obj_y80WfQ')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/1d', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/1d/tmp_obj_EVg9bU', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/1d/73730c534121c8a3fea5a5a04465fc38a6b838')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/1d/tmp_obj_EVg9bU')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/ff', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/ff/tmp_obj_8mxC6Y', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/ff/8f19ce58ee728d83bf18bdb2aca0a33f5c79cc')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/ff/tmp_obj_8mxC6Y')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e7', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e7/tmp_obj_qmGtc4', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e7/7d217594d186e617b5e6b8c8d35149851bbc87')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e7/tmp_obj_qmGtc4')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d5', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d5/tmp_obj_25lUm8', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d5/0beb2719abb11502c02ddf6a480d9314b01340')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d5/tmp_obj_25lUm8')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/9a', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/9a/tmp_obj_mUuGI9', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/9a/0f702564e0b6d1eeab1c826a14bc1df4e172ce')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/9a/tmp_obj_mUuGI9')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/30', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/30/tmp_obj_ITWzYd', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/30/bb77cb7f6ad814a5e9db862e0a478ad474e137')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/30/tmp_obj_ITWzYd')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b1', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b1/tmp_obj_fpiCKb', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b1/1589e39a8067778e8125a0fdda497a04fc68e1')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b1/tmp_obj_fpiCKb')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b0', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b0/tmp_obj_HR5jkg', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b0/bdd86f7ef8f8019057f55c03ba33c08b377592')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b0/tmp_obj_HR5jkg')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/07', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/07/tmp_obj_hob9Mh', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/07/d488a7e823707c4259696b60946b3896626ea7')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/07/tmp_obj_hob9Mh')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/2a', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/2a/tmp_obj_de1r2n', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/2a/514509e35f59fbf4807ce5d4f26e1bdb90f0a7')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/2a/tmp_obj_de1r2n')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/0f', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/0f/tmp_obj_jNpcOr', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/0f/7ffc4139c641acb2a6b2668125be776af025d7')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/0f/tmp_obj_jNpcOr')
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e7/tmp_obj_nF8V2t', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e7/a49023da6bd6800f532d8da5eaf4d456b9eeb6')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e7/tmp_obj_nF8V2t')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/06', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/06/tmp_obj_dWvw6x', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/06/1934faf2e6e33d4661aa244037b5dc86102b3d')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/06/tmp_obj_dWvw6x')
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/07/tmp_obj_DFcuYz', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/07/61f324799a7d52f75ccd00f54e9e6b3f13349a')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/07/tmp_obj_DFcuYz')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e4', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e4/tmp_obj_fh8mQF', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e4/f8d3f0643a5de4de181834ad0f0c5f57035d30')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e4/tmp_obj_fh8mQF')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/31', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/31/tmp_obj_R8ljVK', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/31/97b4f878597878577f0f36caa50651e726181f')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/31/tmp_obj_R8ljVK')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/91', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/91/tmp_obj_Tb11lQ', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/91/e57578bf209ca18c993afbd225416d44adf4aa')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/91/tmp_obj_Tb11lQ')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/2c', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/2c/tmp_obj_5lFn7T', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/2c/58cb1201ba74d4ecfb74dcac63c6448717bdbd')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/2c/tmp_obj_5lFn7T')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/85', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/85/tmp_obj_zVPDHY', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/85/9c7163cd967aae150c52b2653e3a0f54eefac7')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/85/tmp_obj_zVPDHY')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/a4', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/a4/tmp_obj_tiZjq0', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/a4/64268146b8be5abf716317d7ef7eaded45a7a7')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/a4/tmp_obj_tiZjq0')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/a7', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/a7/tmp_obj_hW2P94', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/a7/b37df53f95b22eac24e7a7c55c4aa0c56974e9')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/a7/tmp_obj_hW2P94')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/aa', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/aa/tmp_obj_nhGhA9', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/aa/98aad4b96f7ef1a7611ea627ad5b3f691d3eb5')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/aa/tmp_obj_nhGhA9')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/69', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/69/tmp_obj_B0l7gf', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/69/bf8dc9c717c44e7e2a31e6ab0f84dad92ec58a')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/69/tmp_obj_B0l7gf')
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/69/tmp_obj_jHoF2h', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/69/365023999469358817986d4e3487f4c0dc32b5')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/69/tmp_obj_jHoF2h')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/37', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/37/tmp_obj_gETrbe', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/37/7a4f87e34c5d59dab4727041399f89d8352ef5')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/37/tmp_obj_gETrbe')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/6b', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/6b/tmp_obj_gI7bif', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/6b/3e55f9af4e2035221520349bda0f8a5572434f')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/6b/tmp_obj_gI7bif')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/66', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/66/tmp_obj_43bNHl', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/66/fb8cd76bffec970b56012c44385187de21ba1c')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/66/tmp_obj_43bNHl')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/83', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/83/tmp_obj_YSnRvq', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/83/c3021e03dbdfad980af1f2049aeb0efe0bb468')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/83/tmp_obj_YSnRvq')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/8e', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/8e/tmp_obj_2qo1iz', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/8e/2173ff3cd385f6cc0b0198f29e8454be9e7a4d')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/8e/tmp_obj_2qo1iz')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b2', 0x00000000000001ff)
+link('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b2/tmp_obj_8VOFqI', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b2/76bc9a344b048c153a79b1c26af46650beb59f')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b2/tmp_obj_8VOFqI')
+rename('/tmp/nimble_29781/githubcom_GULPFsamson/.git/shallow.lock', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/shallow')
+rename('/tmp/nimble_29781/githubcom_GULPFsamson/.git/packed-refs.new', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/packed-refs')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/packed-refs.lock')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_29781/githubcom_GULPFsamson/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/refs/remotes/origin/HEAD')  Verifying dependencies for samson@0.1.0
+ Installing samson@0.1.0
+    Copying file /tmp/nimble_29781/githubcom_GULPFsamson/src/samson/pragmas.nim to /home/runner/.nimble/pkgs/samson-0.1.0/samson/pragmas.nim
+    Copying file /tmp/nimble_29781/githubcom_GULPFsamson/src/samson/private/jtrees.nim to /home/runner/.nimble/pkgs/samson-0.1.0/samson/private/jtrees.nim
+    Copying file /tmp/nimble_29781/githubcom_GULPFsamson/src/samson/private/parser.nim to /home/runner/.nimble/pkgs/samson-0.1.0/samson/private/parser.nim
+    Copying file /tmp/nimble_29781/githubcom_GULPFsamson/src/samson/private/xunicode.nim to /home/runner/.nimble/pkgs/samson-0.1.0/samson/private/xunicode.nim
+    Copying file /tmp/nimble_29781/githubcom_GULPFsamson/src/samson/private/lexer.nim to /home/runner/.nimble/pkgs/samson-0.1.0/samson/private/lexer.nim
+    Copying file /tmp/nimble_29781/githubcom_GULPFsamson/src/samson/private/generated/unicode_data.nim to /home/runner/.nimble/pkgs/samson-0.1.0/samson/private/generated/unicode_data.nim
+    Copying file /tmp/nimble_29781/githubcom_GULPFsamson/src/samson/private/xtypetraits.nim to /home/runner/.nimble/pkgs/samson-0.1.0/samson/private/xtypetraits.nim
+    Copying file /tmp/nimble_29781/githubcom_GULPFsamson/src/samson/experimental/jsonvalues.nim to /home/runner/.nimble/pkgs/samson-0.1.0/samson/experimental/jsonvalues.nim
+    Copying file /tmp/nimble_29781/githubcom_GULPFsamson/src/samson/experimental/eithers.nim to /home/runner/.nimble/pkgs/samson-0.1.0/samson/experimental/eithers.nim
+    Copying file /tmp/nimble_29781/githubcom_GULPFsamson/src/samson/errors.nim to /home/runner/.nimble/pkgs/samson-0.1.0/samson/errors.nim
+    Copying file /tmp/nimble_29781/githubcom_GULPFsamson/src/samson.nim to /home/runner/.nimble/pkgs/samson-0.1.0/samson.nim
+    Copying file /tmp/nimble_29781/githubcom_GULPFsamson/samson.nimble to /home/runner/.nimble/pkgs/samson-0.1.0/samson.nimble
+   Success: samson installed successfully.
+
+rename('/tmp/nimble_29781/githubcom_GULPFsamson/.git/HEAD.lock', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/HEAD')
+mkdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_29781/githubcom_GULPFsamson/.git/refs/heads/master.lock', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/refs/heads/master')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/HEAD.lock')
+chmod('/tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/config')
+chmod('/tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/config')
+mkdir('.github', 0x00000000000001ff)
+mkdir('.github/workflows', 0x00000000000001ff)
 mkdir('docs', 0x00000000000001ff)
 mkdir('src', 0x00000000000001ff)
 mkdir('src/samson', 0x00000000000001ff)
@@ -73,24 +187,18 @@ mkdir('src/samson/private/generated', 0x00000000000001ff)
 mkdir('tests', 0x00000000000001ff)
 mkdir('tests/json5-official-tests', 0x00000000000001ff)
 mkdir('unicode_data', 0x00000000000001ff)
-rename('/tmp/nimble_17205/githubcom_GULPFsamson/.git/index.lock', '/tmp/nimble_17205/githubcom_GULPFsamson/.git/index')
+rename('/tmp/nimble_29781/githubcom_GULPFsamson/.git/index.lock', '/tmp/nimble_29781/githubcom_GULPFsamson/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/samson_3564131665', 0x00000000000001ff)
-unlink('/tmp/nimblecache/samson_3564131665/samson.ini')
-unlink('/tmp/nimble_17205.out')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/samson_17205.nims')
+mkdir('/tmp/nimblecache/samson_4203285637', 0x00000000000001ff)
+unlink('/tmp/nimblecache/samson_4203285637/samson.ini')
+unlink('/tmp/nimble_29781.out')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/samson_29781.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/samson-0.1.0', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/samson-0.1.0', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/samson-0.1.0/samson.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -104,24 +212,8 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/samson-0.1.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/samson-0.1.0/samson', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/samson-0.1.0/samson/errors.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/samson-0.1.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/samson-0.1.0/samson', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/samson-0.1.0/samson/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/samson-0.1.0/samson/private/xtypetraits.nim', 0x00000000000001a4)    Copying file /tmp/nimble_17205/githubcom_GULPFsamson/src/samson/private/parser.nim to /home/runner/.nimble/pkgs/samson-0.1.0/samson/private/parser.nim
-    Copying file /tmp/nimble_17205/githubcom_GULPFsamson/src/samson/private/generated/unicode_data.nim to /home/runner/.nimble/pkgs/samson-0.1.0/samson/private/generated/unicode_data.nim
-    Copying file /tmp/nimble_17205/githubcom_GULPFsamson/src/samson/private/jtrees.nim to /home/runner/.nimble/pkgs/samson-0.1.0/samson/private/jtrees.nim
-    Copying file /tmp/nimble_17205/githubcom_GULPFsamson/src/samson/private/lexer.nim to /home/runner/.nimble/pkgs/samson-0.1.0/samson/private/lexer.nim
-    Copying file /tmp/nimble_17205/githubcom_GULPFsamson/src/samson/private/xunicode.nim to /home/runner/.nimble/pkgs/samson-0.1.0/samson/private/xunicode.nim
-    Copying file /tmp/nimble_17205/githubcom_GULPFsamson/src/samson/experimental/eithers.nim to /home/runner/.nimble/pkgs/samson-0.1.0/samson/experimental/eithers.nim
-    Copying file /tmp/nimble_17205/githubcom_GULPFsamson/src/samson/experimental/jsonvalues.nim to /home/runner/.nimble/pkgs/samson-0.1.0/samson/experimental/jsonvalues.nim
-    Copying file /tmp/nimble_17205/githubcom_GULPFsamson/samson.nimble to /home/runner/.nimble/pkgs/samson-0.1.0/samson.nimble
-   Success: samson installed successfully.
-
+chmod('/home/runner/.nimble/pkgs/samson-0.1.0/samson/private/jtrees.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -130,6 +222,22 @@ mkdir('/home/runner/.nimble/pkgs/samson-0.1.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/samson-0.1.0/samson', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/samson-0.1.0/samson/private', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/samson-0.1.0/samson/private/parser.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/samson-0.1.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/samson-0.1.0/samson', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/samson-0.1.0/samson/private', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/samson-0.1.0/samson/private/xunicode.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/samson-0.1.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/samson-0.1.0/samson', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/samson-0.1.0/samson/private', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/samson-0.1.0/samson/private/lexer.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -146,23 +254,15 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/samson-0.1.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/samson-0.1.0/samson', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/samson-0.1.0/samson/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/samson-0.1.0/samson/private/jtrees.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/samson-0.1.0/samson/private/xtypetraits.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/samson-0.1.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/samson-0.1.0/samson', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/samson-0.1.0/samson/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/samson-0.1.0/samson/private/lexer.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/samson-0.1.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/samson-0.1.0/samson', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/samson-0.1.0/samson/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/samson-0.1.0/samson/private/xunicode.nim', 0x00000000000001a4)
+mkdir('/home/runner/.nimble/pkgs/samson-0.1.0/samson/experimental', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/samson-0.1.0/samson/experimental/jsonvalues.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -177,178 +277,354 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/samson-0.1.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/samson-0.1.0/samson', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/samson-0.1.0/samson/experimental', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/samson-0.1.0/samson/experimental/jsonvalues.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/samson-0.1.0/samson/errors.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/samson-0.1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/samson-0.1.0/samson.nim', 0x00000000000001a4)
 chmod('/home/runner/.nimble/pkgs/samson-0.1.0/samson.nimble', 0x00000000000001a4)
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/samson_1187569648', 0x00000000000001ff)
 unlink('/tmp/nimblecache/samson_1187569648/samson.ini')
-unlink('/tmp/nimble_17205.out')
-unlink('/home/runner/.nimble/pkgs/samson-0.1.0/samson_17205.nims')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/unicode_data/generate.nim')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/unicode_data/DerivedGeneralCategory.txt')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson/unicode_data')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/tests/README.md')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/tests/json5-inofficial-tests.json')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/tests/apitests.nim')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/tests/testrunner.nim')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson/tests/json5-official-tests')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/tests/json5-error-messages.json')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson/tests')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/docs/samson.html')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/docs/pragmas.html')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/docs/errors.html')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson/docs')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/README.md')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/refs/remotes/origin')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/refs/remotes')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/refs/heads/master')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/refs/heads')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/refs/tags')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/refs')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/config')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/logs/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/logs/refs/remotes/origin')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/logs/refs/remotes')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/logs/refs/heads/master')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/logs/refs/heads')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/logs/refs')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/logs/HEAD')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/logs')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/packed-refs')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/HEAD')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/description')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks/update.sample')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks/post-update.sample')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks/pre-merge-commit.sample')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/objects/pack/pack-493255fb97b8fae74580618a038ab74d4bb302e6.pack')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/objects/pack/pack-493255fb97b8fae74580618a038ab74d4bb302e6.idx')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/objects/pack')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/objects/info')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/objects')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/branches')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/index')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/info/exclude')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git/info')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/.git/shallow')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson/.git')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/samson.nimble')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/LICENSE')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/src/samson.nim')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/src/samson/pragmas.nim')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/src/samson/errors.nim')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/src/samson/private/xtypetraits.nim')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/src/samson/private/parser.nim')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/src/samson/private/generated/unicode_data.nim')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson/src/samson/private/generated')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/src/samson/private/jtrees.nim')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/src/samson/private/lexer.nim')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/src/samson/private/xunicode.nim')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson/src/samson/private')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/src/samson/experimental/eithers.nim')
-unlink('/tmp/nimble_17205/githubcom_GULPFsamson/src/samson/experimental/jsonvalues.nim')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson/src/samson/experimental')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson/src/samson')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson/src')
-rmdir('/tmp/nimble_17205/githubcom_GULPFsamson')
-rmdir('/tmp/nimble_17205')
+unlink('/tmp/nimble_29781.out')
+unlink('/home/runner/.nimble/pkgs/samson-0.1.0/samson_29781.nims')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/docs/pragmas.html')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/docs/errors.html')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/docs/samson.html')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/docs')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/README.md')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/samson.nimble')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.github/workflows/main.yml')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.github/workflows')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.github')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/refs/remotes')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/refs/tags')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/refs/heads/master')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/refs/heads')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/refs')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/info/exclude')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/info')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/branches')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/logs/refs/remotes')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/logs/refs/heads')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/logs/refs')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/logs/HEAD')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/logs')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/description')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks/update.sample')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/shallow')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/config')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/index')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b1/1589e39a8067778e8125a0fdda497a04fc68e1')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b1')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/91/e57578bf209ca18c993afbd225416d44adf4aa')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/91')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/2a/514509e35f59fbf4807ce5d4f26e1bdb90f0a7')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/2a')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/31/97b4f878597878577f0f36caa50651e726181f')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/31')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/info')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b0/bdd86f7ef8f8019057f55c03ba33c08b377592')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b0')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d8/9dfabcfab8712d8a57908670a52a27dde4094d')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d8')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/0f/7ffc4139c641acb2a6b2668125be776af025d7')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/0f')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/85/9c7163cd967aae150c52b2653e3a0f54eefac7')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/85')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/66/fb8cd76bffec970b56012c44385187de21ba1c')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/66')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/37/7a4f87e34c5d59dab4727041399f89d8352ef5')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/37')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/4b/66ec4aeb329cd38d96b79ddac97a6054ae336a')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/4b')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/69/bf8dc9c717c44e7e2a31e6ab0f84dad92ec58a')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/69/365023999469358817986d4e3487f4c0dc32b5')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/69')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/07/d488a7e823707c4259696b60946b3896626ea7')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/07/61f324799a7d52f75ccd00f54e9e6b3f13349a')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/07')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/71/ead61104302abfc0d4463c91f73a4126b2184c')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/71')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/1d/73730c534121c8a3fea5a5a04465fc38a6b838')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/1d')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/a7/b37df53f95b22eac24e7a7c55c4aa0c56974e9')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/a7')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/30/bb77cb7f6ad814a5e9db862e0a478ad474e137')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/30')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/a4/64268146b8be5abf716317d7ef7eaded45a7a7')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/a4')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/8e/2173ff3cd385f6cc0b0198f29e8454be9e7a4d')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/8e')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/9a/0f702564e0b6d1eeab1c826a14bc1df4e172ce')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/9a')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/aa/98aad4b96f7ef1a7611ea627ad5b3f691d3eb5')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/aa')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e8/aa7c148d6a2f1cc3ca9357de7fbf7fb2257c33')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e8')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d2/1c547618019679b36e1409150f79ccde30b913')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d2')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e7/a49023da6bd6800f532d8da5eaf4d456b9eeb6')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e7/7d217594d186e617b5e6b8c8d35149851bbc87')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e7')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b2/76bc9a344b048c153a79b1c26af46650beb59f')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b2')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/f3/4e8ddfbc9f4273e2748b53cd90594e82334ef6')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/f3')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e4/f8d3f0643a5de4de181834ad0f0c5f57035d30')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e4')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/6b/3e55f9af4e2035221520349bda0f8a5572434f')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/6b')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/2c/58cb1201ba74d4ecfb74dcac63c6448717bdbd')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/2c')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/ff/8f19ce58ee728d83bf18bdb2aca0a33f5c79cc')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/ff')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/pack')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/fe/6b462b82e1a7ad1a958b2a2e10e8186b50ddae')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/fe')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/06/1934faf2e6e33d4661aa244037b5dc86102b3d')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/06')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/83/c3021e03dbdfad980af1f2049aeb0efe0bb468')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/83')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d5/0beb2719abb11502c02ddf6a480d9314b01340')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d5')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git/objects')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/packed-refs')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/.git/HEAD')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/.git')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/src/samson/pragmas.nim')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/src/samson/private/jtrees.nim')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/src/samson/private/parser.nim')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/src/samson/private/xunicode.nim')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/src/samson/private/lexer.nim')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/src/samson/private/generated/unicode_data.nim')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/src/samson/private/generated')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/src/samson/private/xtypetraits.nim')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/src/samson/private')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/src/samson/experimental/jsonvalues.nim')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/src/samson/experimental/eithers.nim')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/src/samson/experimental')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/src/samson/errors.nim')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/src/samson')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/src/samson.nim')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/src')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/unicode_data/DerivedGeneralCategory.txt')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/unicode_data/generate.nim')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/unicode_data')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/tests/json5-error-messages.json')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/tests/README.md')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/tests/json5-official-tests')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/tests/apitests.nim')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/tests/json5-inofficial-tests.json')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/tests/testrunner.nim')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson/tests')
+unlink('/tmp/nimble_29781/githubcom_GULPFsamson/LICENSE')
+rmdir('/tmp/nimble_29781/githubcom_GULPFsamson')
+rmdir('/tmp/nimble_29781')
   create directory /tmp
-  create directory /tmp/nimble_17205
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson
-  delete /tmp/nimble_17205/githubcom_GULPFsamson
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/.git
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/.git
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/.git/branches
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/.git/info
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/.git/refs
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/.git/refs/heads
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/.git/refs/tags
-  rename /tmp/nimble_17205/githubcom_GULPFsamson/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock to config
-  change permissions of /tmp/nimble_17205/githubcom_GULPFsamson/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_17205/githubcom_GULPFsamson/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock to config
-  change permissions of /tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock to config
-  change permissions of /tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock to config
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/tdSTf0V
-  create symbolic link from /tmp/nimble_17205/githubcom_GULPFsamson/.git/tdSTf0V to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/tdSTf0V
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/.git/objects
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/.git/objects/pack
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/.git/objects/info
-  change permissions of /tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock to config
-  change permissions of /tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock to config
-  change permissions of /tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock to config
-  create hard link from /tmp/nimble_17205/githubcom_GULPFsamson/.git/objects/pack/pack-493255fb97b8fae74580618a038ab74d4bb302e6.pack to /tmp/nimble_17205/githubcom_GULPFsamson/.git/objects/pack/tmp_pack_cERNB2
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/objects/pack/tmp_pack_cERNB2
-  create hard link from /tmp/nimble_17205/githubcom_GULPFsamson/.git/objects/pack/pack-493255fb97b8fae74580618a038ab74d4bb302e6.idx to /tmp/nimble_17205/githubcom_GULPFsamson/.git/objects/pack/tmp_idx_YwnKni
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/objects/pack/tmp_idx_YwnKni
-  rename /tmp/nimble_17205/githubcom_GULPFsamson/.git/shallow.lock to shallow
-  rename /tmp/nimble_17205/githubcom_GULPFsamson/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/packed-refs.lock
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/.git/refs/remotes
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/.git/refs/remotes/origin
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/.git/logs
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/.git/logs/refs
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/.git/logs/refs/remotes
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/.git/logs/refs/remotes/origin
-  rename /tmp/nimble_17205/githubcom_GULPFsamson/.git/refs/remotes/origin/HEAD.lock to HEAD
-  rename /tmp/nimble_17205/githubcom_GULPFsamson/.git/HEAD.lock to HEAD
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/.git/logs/refs/heads
-  rename /tmp/nimble_17205/githubcom_GULPFsamson/.git/refs/heads/master.lock to master
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/HEAD.lock
-  change permissions of /tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock to config
-  change permissions of /tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_17205/githubcom_GULPFsamson/.git/config.lock to config
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/objects/pack/pack-493255fb97b8fae74580618a038ab74d4bb302e6.keep
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/docs
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/src
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/src/samson
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/src/samson/experimental
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/src/samson/private
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/src/samson/private/generated
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/tests
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/tests/json5-official-tests
-  create directory /tmp/nimble_17205/githubcom_GULPFsamson/unicode_data
-  rename /tmp/nimble_17205/githubcom_GULPFsamson/.git/index.lock to index
+  create directory /tmp/nimble_29781
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson
+  delete /tmp/nimble_29781/githubcom_GULPFsamson
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/info
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/branches
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/refs
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/refs/heads
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/refs/tags
+  rename /tmp/nimble_29781/githubcom_GULPFsamson/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock to config
+  change permissions of /tmp/nimble_29781/githubcom_GULPFsamson/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_29781/githubcom_GULPFsamson/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock to config
+  change permissions of /tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock to config
+  change permissions of /tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock to config
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/tZYEBzw
+  create symbolic link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/tZYEBzw to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/tZYEBzw
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/pack
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/info
+  change permissions of /tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock to config
+  change permissions of /tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock to config
+  change permissions of /tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock to config
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/71
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/71/ead61104302abfc0d4463c91f73a4126b2184c to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/71/tmp_obj_YPAZZr
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/71/tmp_obj_YPAZZr
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/f3
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/f3/4e8ddfbc9f4273e2748b53cd90594e82334ef6 to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/f3/tmp_obj_gb5rmt
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/f3/tmp_obj_gb5rmt
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d2
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d2/1c547618019679b36e1409150f79ccde30b913 to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d2/tmp_obj_YBFXNz
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d2/tmp_obj_YBFXNz
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/4b
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/4b/66ec4aeb329cd38d96b79ddac97a6054ae336a to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/4b/tmp_obj_yKQ7AA
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/4b/tmp_obj_yKQ7AA
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d8
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d8/9dfabcfab8712d8a57908670a52a27dde4094d to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d8/tmp_obj_gX1BsG
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d8/tmp_obj_gX1BsG
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/fe
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/fe/6b462b82e1a7ad1a958b2a2e10e8186b50ddae to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/fe/tmp_obj_eyjZuL
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/fe/tmp_obj_eyjZuL
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e8
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e8/aa7c148d6a2f1cc3ca9357de7fbf7fb2257c33 to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e8/tmp_obj_y80WfQ
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e8/tmp_obj_y80WfQ
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/1d
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/1d/73730c534121c8a3fea5a5a04465fc38a6b838 to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/1d/tmp_obj_EVg9bU
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/1d/tmp_obj_EVg9bU
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/ff
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/ff/8f19ce58ee728d83bf18bdb2aca0a33f5c79cc to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/ff/tmp_obj_8mxC6Y
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/ff/tmp_obj_8mxC6Y
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e7
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e7/7d217594d186e617b5e6b8c8d35149851bbc87 to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e7/tmp_obj_qmGtc4
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e7/tmp_obj_qmGtc4
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d5
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d5/0beb2719abb11502c02ddf6a480d9314b01340 to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d5/tmp_obj_25lUm8
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d5/tmp_obj_25lUm8
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/9a
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/9a/0f702564e0b6d1eeab1c826a14bc1df4e172ce to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/9a/tmp_obj_mUuGI9
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/9a/tmp_obj_mUuGI9
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/30
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/30/bb77cb7f6ad814a5e9db862e0a478ad474e137 to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/30/tmp_obj_ITWzYd
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/30/tmp_obj_ITWzYd
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b1
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b1/1589e39a8067778e8125a0fdda497a04fc68e1 to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b1/tmp_obj_fpiCKb
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b1/tmp_obj_fpiCKb
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b0
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b0/bdd86f7ef8f8019057f55c03ba33c08b377592 to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b0/tmp_obj_HR5jkg
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b0/tmp_obj_HR5jkg
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/07
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/07/d488a7e823707c4259696b60946b3896626ea7 to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/07/tmp_obj_hob9Mh
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/07/tmp_obj_hob9Mh
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/2a
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/2a/514509e35f59fbf4807ce5d4f26e1bdb90f0a7 to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/2a/tmp_obj_de1r2n
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/2a/tmp_obj_de1r2n
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/0f
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/0f/7ffc4139c641acb2a6b2668125be776af025d7 to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/0f/tmp_obj_jNpcOr
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/0f/tmp_obj_jNpcOr
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e7/a49023da6bd6800f532d8da5eaf4d456b9eeb6 to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e7/tmp_obj_nF8V2t
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e7/tmp_obj_nF8V2t
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/06
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/06/1934faf2e6e33d4661aa244037b5dc86102b3d to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/06/tmp_obj_dWvw6x
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/06/tmp_obj_dWvw6x
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/07/61f324799a7d52f75ccd00f54e9e6b3f13349a to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/07/tmp_obj_DFcuYz
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/07/tmp_obj_DFcuYz
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e4
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e4/f8d3f0643a5de4de181834ad0f0c5f57035d30 to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e4/tmp_obj_fh8mQF
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e4/tmp_obj_fh8mQF
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/31
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/31/97b4f878597878577f0f36caa50651e726181f to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/31/tmp_obj_R8ljVK
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/31/tmp_obj_R8ljVK
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/91
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/91/e57578bf209ca18c993afbd225416d44adf4aa to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/91/tmp_obj_Tb11lQ
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/91/tmp_obj_Tb11lQ
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/2c
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/2c/58cb1201ba74d4ecfb74dcac63c6448717bdbd to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/2c/tmp_obj_5lFn7T
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/2c/tmp_obj_5lFn7T
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/85
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/85/9c7163cd967aae150c52b2653e3a0f54eefac7 to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/85/tmp_obj_zVPDHY
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/85/tmp_obj_zVPDHY
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/a4
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/a4/64268146b8be5abf716317d7ef7eaded45a7a7 to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/a4/tmp_obj_tiZjq0
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/a4/tmp_obj_tiZjq0
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/a7
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/a7/b37df53f95b22eac24e7a7c55c4aa0c56974e9 to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/a7/tmp_obj_hW2P94
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/a7/tmp_obj_hW2P94
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/aa
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/aa/98aad4b96f7ef1a7611ea627ad5b3f691d3eb5 to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/aa/tmp_obj_nhGhA9
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/aa/tmp_obj_nhGhA9
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/69
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/69/bf8dc9c717c44e7e2a31e6ab0f84dad92ec58a to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/69/tmp_obj_B0l7gf
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/69/tmp_obj_B0l7gf
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/69/365023999469358817986d4e3487f4c0dc32b5 to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/69/tmp_obj_jHoF2h
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/69/tmp_obj_jHoF2h
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/37
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/37/7a4f87e34c5d59dab4727041399f89d8352ef5 to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/37/tmp_obj_gETrbe
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/37/tmp_obj_gETrbe
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/6b
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/6b/3e55f9af4e2035221520349bda0f8a5572434f to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/6b/tmp_obj_gI7bif
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/6b/tmp_obj_gI7bif
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/66
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/66/fb8cd76bffec970b56012c44385187de21ba1c to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/66/tmp_obj_43bNHl
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/66/tmp_obj_43bNHl
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/83
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/83/c3021e03dbdfad980af1f2049aeb0efe0bb468 to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/83/tmp_obj_YSnRvq
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/83/tmp_obj_YSnRvq
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/8e
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/8e/2173ff3cd385f6cc0b0198f29e8454be9e7a4d to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/8e/tmp_obj_2qo1iz
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/8e/tmp_obj_2qo1iz
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b2
+  create hard link from /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b2/76bc9a344b048c153a79b1c26af46650beb59f to /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b2/tmp_obj_8VOFqI
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b2/tmp_obj_8VOFqI
+  rename /tmp/nimble_29781/githubcom_GULPFsamson/.git/shallow.lock to shallow
+  rename /tmp/nimble_29781/githubcom_GULPFsamson/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/packed-refs.lock
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/refs/remotes
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/refs/remotes/origin
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/logs
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/logs/refs
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/logs/refs/remotes
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_29781/githubcom_GULPFsamson/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_29781/githubcom_GULPFsamson/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.git/logs/refs/heads
+  rename /tmp/nimble_29781/githubcom_GULPFsamson/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/HEAD.lock
+  change permissions of /tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock to config
+  change permissions of /tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_29781/githubcom_GULPFsamson/.git/config.lock to config
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.github
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/.github/workflows
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/docs
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/src
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/src/samson
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/src/samson/experimental
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/src/samson/private
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/src/samson/private/generated
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/tests
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/tests/json5-official-tests
+  create directory /tmp/nimble_29781/githubcom_GULPFsamson/unicode_data
+  rename /tmp/nimble_29781/githubcom_GULPFsamson/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/samson_3564131665
-  delete /tmp/nimblecache/samson_3564131665/samson.ini
-  delete /tmp/nimble_17205.out
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/samson_17205.nims
+  create directory /tmp/nimblecache/samson_4203285637
+  delete /tmp/nimblecache/samson_4203285637/samson.ini
+  delete /tmp/nimble_29781.out
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/samson_29781.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/samson-0.1.0
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/samson-0.1.0
-  change permissions of /home/runner/.nimble/pkgs/samson-0.1.0/samson.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -362,15 +638,8 @@ rmdir('/tmp/nimble_17205')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/samson-0.1.0
   create directory /home/runner/.nimble/pkgs/samson-0.1.0/samson
-  change permissions of /home/runner/.nimble/pkgs/samson-0.1.0/samson/errors.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/samson-0.1.0
-  create directory /home/runner/.nimble/pkgs/samson-0.1.0/samson
   create directory /home/runner/.nimble/pkgs/samson-0.1.0/samson/private
-  change permissions of /home/runner/.nimble/pkgs/samson-0.1.0/samson/private/xtypetraits.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/samson-0.1.0/samson/private/jtrees.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -379,6 +648,22 @@ rmdir('/tmp/nimble_17205')
   create directory /home/runner/.nimble/pkgs/samson-0.1.0/samson
   create directory /home/runner/.nimble/pkgs/samson-0.1.0/samson/private
   change permissions of /home/runner/.nimble/pkgs/samson-0.1.0/samson/private/parser.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/samson-0.1.0
+  create directory /home/runner/.nimble/pkgs/samson-0.1.0/samson
+  create directory /home/runner/.nimble/pkgs/samson-0.1.0/samson/private
+  change permissions of /home/runner/.nimble/pkgs/samson-0.1.0/samson/private/xunicode.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/samson-0.1.0
+  create directory /home/runner/.nimble/pkgs/samson-0.1.0/samson
+  create directory /home/runner/.nimble/pkgs/samson-0.1.0/samson/private
+  change permissions of /home/runner/.nimble/pkgs/samson-0.1.0/samson/private/lexer.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -395,23 +680,15 @@ rmdir('/tmp/nimble_17205')
   create directory /home/runner/.nimble/pkgs/samson-0.1.0
   create directory /home/runner/.nimble/pkgs/samson-0.1.0/samson
   create directory /home/runner/.nimble/pkgs/samson-0.1.0/samson/private
-  change permissions of /home/runner/.nimble/pkgs/samson-0.1.0/samson/private/jtrees.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/samson-0.1.0/samson/private/xtypetraits.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/samson-0.1.0
   create directory /home/runner/.nimble/pkgs/samson-0.1.0/samson
-  create directory /home/runner/.nimble/pkgs/samson-0.1.0/samson/private
-  change permissions of /home/runner/.nimble/pkgs/samson-0.1.0/samson/private/lexer.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/samson-0.1.0
-  create directory /home/runner/.nimble/pkgs/samson-0.1.0/samson
-  create directory /home/runner/.nimble/pkgs/samson-0.1.0/samson/private
-  change permissions of /home/runner/.nimble/pkgs/samson-0.1.0/samson/private/xunicode.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/samson-0.1.0/samson/experimental
+  change permissions of /home/runner/.nimble/pkgs/samson-0.1.0/samson/experimental/jsonvalues.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -426,90 +703,167 @@ rmdir('/tmp/nimble_17205')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/samson-0.1.0
   create directory /home/runner/.nimble/pkgs/samson-0.1.0/samson
-  create directory /home/runner/.nimble/pkgs/samson-0.1.0/samson/experimental
-  change permissions of /home/runner/.nimble/pkgs/samson-0.1.0/samson/experimental/jsonvalues.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/samson-0.1.0/samson/errors.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/samson-0.1.0
+  change permissions of /home/runner/.nimble/pkgs/samson-0.1.0/samson.nim to rw-r--r--
   change permissions of /home/runner/.nimble/pkgs/samson-0.1.0/samson.nimble to rw-r--r--
   create directory /tmp
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/samson_1187569648
   delete /tmp/nimblecache/samson_1187569648/samson.ini
-  delete /tmp/nimble_17205.out
-  delete /home/runner/.nimble/pkgs/samson-0.1.0/samson_17205.nims
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/unicode_data/generate.nim
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/unicode_data/DerivedGeneralCategory.txt
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/unicode_data
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/tests/README.md
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/tests/json5-inofficial-tests.json
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/tests/apitests.nim
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/tests/testrunner.nim
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/tests/json5-official-tests
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/tests/json5-error-messages.json
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/tests
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/docs/samson.html
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/docs/pragmas.html
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/docs/errors.html
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/docs
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/README.md
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/refs/remotes/origin/HEAD
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/refs/remotes/origin
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/refs/remotes
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/refs/heads/master
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/refs/heads
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/refs/tags
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/refs
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/config
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/logs/refs/remotes/origin/HEAD
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/logs/refs/remotes/origin
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/logs/refs/remotes
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/logs/refs/heads/master
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/logs/refs/heads
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/logs/refs
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/logs/HEAD
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/logs
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/packed-refs
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/HEAD
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/description
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks/update.sample
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks/pre-push.sample
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks/post-update.sample
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/hooks
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/objects/pack/pack-493255fb97b8fae74580618a038ab74d4bb302e6.pack
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/objects/pack/pack-493255fb97b8fae74580618a038ab74d4bb302e6.idx
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/objects/pack
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/objects/info
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/objects
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/branches
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/index
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/info/exclude
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/info
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git/shallow
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/.git
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/samson.nimble
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/LICENSE
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/src/samson.nim
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/src/samson/pragmas.nim
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/src/samson/errors.nim
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/src/samson/private/xtypetraits.nim
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/src/samson/private/parser.nim
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/src/samson/private/generated/unicode_data.nim
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/src/samson/private/generated
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/src/samson/private/jtrees.nim
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/src/samson/private/lexer.nim
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/src/samson/private/xunicode.nim
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/src/samson/private
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/src/samson/experimental/eithers.nim
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/src/samson/experimental/jsonvalues.nim
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/src/samson/experimental
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/src/samson
-  delete /tmp/nimble_17205/githubcom_GULPFsamson/src
-  delete /tmp/nimble_17205/githubcom_GULPFsamson
-  delete /tmp/nimble_17205
+  delete /tmp/nimble_29781.out
+  delete /home/runner/.nimble/pkgs/samson-0.1.0/samson_29781.nims
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/docs/pragmas.html
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/docs/errors.html
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/docs/samson.html
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/docs
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/README.md
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/samson.nimble
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.github/workflows/main.yml
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.github/workflows
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.github
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/refs/remotes/origin
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/refs/remotes
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/refs/tags
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/refs/heads/master
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/refs/heads
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/refs
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/info/exclude
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/info
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/branches
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/logs/refs/remotes
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/logs/refs/heads/master
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/logs/refs/heads
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/logs/refs
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/logs/HEAD
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/logs
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/description
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks/pre-push.sample
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks/update.sample
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks/post-update.sample
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/hooks
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/shallow
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/config
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/index
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b1/1589e39a8067778e8125a0fdda497a04fc68e1
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b1
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/91/e57578bf209ca18c993afbd225416d44adf4aa
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/91
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/2a/514509e35f59fbf4807ce5d4f26e1bdb90f0a7
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/2a
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/31/97b4f878597878577f0f36caa50651e726181f
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/31
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/info
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b0/bdd86f7ef8f8019057f55c03ba33c08b377592
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b0
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d8/9dfabcfab8712d8a57908670a52a27dde4094d
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d8
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/0f/7ffc4139c641acb2a6b2668125be776af025d7
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/0f
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/85/9c7163cd967aae150c52b2653e3a0f54eefac7
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/85
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/66/fb8cd76bffec970b56012c44385187de21ba1c
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/66
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/37/7a4f87e34c5d59dab4727041399f89d8352ef5
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/37
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/4b/66ec4aeb329cd38d96b79ddac97a6054ae336a
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/4b
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/69/bf8dc9c717c44e7e2a31e6ab0f84dad92ec58a
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/69/365023999469358817986d4e3487f4c0dc32b5
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/69
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/07/d488a7e823707c4259696b60946b3896626ea7
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/07/61f324799a7d52f75ccd00f54e9e6b3f13349a
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/07
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/71/ead61104302abfc0d4463c91f73a4126b2184c
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/71
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/1d/73730c534121c8a3fea5a5a04465fc38a6b838
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/1d
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/a7/b37df53f95b22eac24e7a7c55c4aa0c56974e9
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/a7
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/30/bb77cb7f6ad814a5e9db862e0a478ad474e137
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/30
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/a4/64268146b8be5abf716317d7ef7eaded45a7a7
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/a4
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/8e/2173ff3cd385f6cc0b0198f29e8454be9e7a4d
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/8e
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/9a/0f702564e0b6d1eeab1c826a14bc1df4e172ce
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/9a
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/aa/98aad4b96f7ef1a7611ea627ad5b3f691d3eb5
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/aa
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e8/aa7c148d6a2f1cc3ca9357de7fbf7fb2257c33
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e8
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d2/1c547618019679b36e1409150f79ccde30b913
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d2
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e7/a49023da6bd6800f532d8da5eaf4d456b9eeb6
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e7/7d217594d186e617b5e6b8c8d35149851bbc87
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e7
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b2/76bc9a344b048c153a79b1c26af46650beb59f
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/b2
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/f3/4e8ddfbc9f4273e2748b53cd90594e82334ef6
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/f3
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e4/f8d3f0643a5de4de181834ad0f0c5f57035d30
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/e4
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/6b/3e55f9af4e2035221520349bda0f8a5572434f
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/6b
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/2c/58cb1201ba74d4ecfb74dcac63c6448717bdbd
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/2c
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/ff/8f19ce58ee728d83bf18bdb2aca0a33f5c79cc
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/ff
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/pack
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/fe/6b462b82e1a7ad1a958b2a2e10e8186b50ddae
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/fe
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/06/1934faf2e6e33d4661aa244037b5dc86102b3d
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/06
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/83/c3021e03dbdfad980af1f2049aeb0efe0bb468
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/83
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d5/0beb2719abb11502c02ddf6a480d9314b01340
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects/d5
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/objects
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/packed-refs
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git/HEAD
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/.git
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/src/samson/pragmas.nim
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/src/samson/private/jtrees.nim
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/src/samson/private/parser.nim
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/src/samson/private/xunicode.nim
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/src/samson/private/lexer.nim
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/src/samson/private/generated/unicode_data.nim
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/src/samson/private/generated
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/src/samson/private/xtypetraits.nim
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/src/samson/private
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/src/samson/experimental/jsonvalues.nim
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/src/samson/experimental/eithers.nim
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/src/samson/experimental
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/src/samson/errors.nim
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/src/samson
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/src/samson.nim
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/src
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/unicode_data/DerivedGeneralCategory.txt
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/unicode_data/generate.nim
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/unicode_data
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/tests/json5-error-messages.json
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/tests/README.md
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/tests/json5-official-tests
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/tests/apitests.nim
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/tests/json5-inofficial-tests.json
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/tests/testrunner.nim
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/tests
+  delete /tmp/nimble_29781/githubcom_GULPFsamson/LICENSE
+  delete /tmp/nimble_29781/githubcom_GULPFsamson
+  delete /tmp/nimble_29781

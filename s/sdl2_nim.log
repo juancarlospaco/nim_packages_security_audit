@@ -1,65 +1,65 @@
     Reading official package list
 Downloading https://github.com/Vladar4/sdl2_nim using git
     Cloning latest tagged version: v2.0.12.0
-       Info /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2_nim_3398.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
-   Warning: Package 'sdl2_nim' has an incorrect structure. It should contain a single directory hierarchy for source files, named 'sdl2_nim', but file 'sdl_gpu.nim' is in a directory named 'sdl2' instead. This will be an error in the future.
+       Info /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2_nim_3886.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+   Warning: Package 'sdl2_nim' has an incorrect structure. It should contain a single directory hierarchy for source files, named 'sdl2_nim', but file 'sdl_gfx_primitives.nim' is in a directory named 'sdl2' instead. This will be an error in the future.
       Hint: If 'sdl2' contains source files for building 'sdl2_nim', rename it to 'sdl2_nim'. Otherwise, prevent its installation by adding `skipDirs = @["sdl2"]` to the .nimble file.
   Verifying dependencies for sdl2_nim@2.0.12.0
  Installing sdl2_nim@2.0.12.0
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-GFX-COPYING to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-GFX-COPYING
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/SMPEG-COPYING to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SMPEG-COPYING
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-README.txt to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-README.txt
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-MIXER-COPYING.txt to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-MIXER-COPYING.txt
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.8.md to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.8.md
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.7.md to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.7.md
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/README.md to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/README.md
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.12.md to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.12.md
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-GFX-COPYING to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-GFX-COPYING
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.12.md to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.12.md
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-CREDITS.txt to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-CREDITS.txt
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/SMPEG-COPYING to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SMPEG-COPYING
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/README.md to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/README.md
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-MIXER-COPYING.txt to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-MIXER-COPYING.txt
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-NET-COPYING.txt to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-NET-COPYING.txt
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/LINKS.md to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/LINKS.md
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_3398', 0x00000000000001ff)
-mkdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim', 0x00000000000001ff)
-rmdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim')
-mkdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim', 0x00000000000001ff)
-mkdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/HEAD.lock', '/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/HEAD')
-rename('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config.lock', '/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config')
-chmod('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config.lock', '/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config')
-chmod('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config.lock', '/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config')
-chmod('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config.lock', '/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/thf360s')
-symlink('testing', '/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/thf360s')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/thf360s')
-mkdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config.lock', '/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config')
-chmod('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config.lock', '/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config')
-chmod('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config.lock', '/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config')
-link('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects/pack/tmp_pack_5Y0Apj', '/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects/pack/pack-cf793879104672ac8268a9c9e1071335f4a051da.pack')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects/pack/tmp_pack_5Y0Apj')
-link('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects/pack/tmp_idx_rHZ17M', '/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects/pack/pack-cf793879104672ac8268a9c9e1071335f4a051da.idx')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects/pack/tmp_idx_rHZ17M')
-rename('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/shallow.lock', '/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/shallow')
-rename('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/packed-refs.new', '/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/packed-refs')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/packed-refs.lock')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/refs/tags/v2.0.12.0.lock')
-mkdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/HEAD.lock', '/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/HEAD')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects/pack/pack-cf793879104672ac8268a9c9e1071335f4a051da.keep')
+mkdir('/tmp/nimble_3886', 0x00000000000001ff)
+mkdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim', 0x00000000000001ff)
+rmdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim')
+mkdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim', 0x00000000000001ff)
+mkdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/HEAD.lock', '/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/HEAD')
+rename('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config.lock', '/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config')
+chmod('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config.lock', '/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config')
+chmod('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config.lock', '/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config')
+chmod('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config.lock', '/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/t5un7rZ')
+symlink('testing', '/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/t5un7rZ')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/t5un7rZ')
+mkdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config.lock', '/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config')
+chmod('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config.lock', '/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config')
+chmod('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config.lock', '/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config')
+link('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects/pack/tmp_pack_IkTFw4', '/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects/pack/pack-cf793879104672ac8268a9c9e1071335f4a051da.pack')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects/pack/tmp_pack_IkTFw4')
+link('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects/pack/tmp_idx_aljxBf', '/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects/pack/pack-cf793879104672ac8268a9c9e1071335f4a051da.idx')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects/pack/tmp_idx_aljxBf')
+rename('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/shallow.lock', '/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/shallow')
+rename('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/packed-refs.new', '/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/packed-refs')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/packed-refs.lock')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/refs/tags/v2.0.12.0.lock')
+mkdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/HEAD.lock', '/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/HEAD')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects/pack/pack-cf793879104672ac8268a9c9e1071335f4a051da.keep')
 mkdir('docs', 0x00000000000001ff)
 mkdir('docs/private', 0x00000000000001ff)
 mkdir('examples', 0x00000000000001ff)
@@ -69,13 +69,13 @@ mkdir('examples/mpg', 0x00000000000001ff)
 mkdir('examples/snd', 0x00000000000001ff)
 mkdir('sdl2', 0x00000000000001ff)
 mkdir('sdl2/private', 0x00000000000001ff)
-rename('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/index.lock', '/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/index')
+rename('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/index.lock', '/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/sdl2_nim_1889034453', 0x00000000000001ff)
-unlink('/tmp/nimblecache/sdl2_nim_1889034453/sdl2_nim.ini')
-unlink('/tmp/nimble_3398.out')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2_nim_3398.nims')
+mkdir('/tmp/nimblecache/sdl2_nim_1073272543', 0x00000000000001ff)
+unlink('/tmp/nimblecache/sdl2_nim_1073272543/sdl2_nim.ini')
+unlink('/tmp/nimble_3886.out')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2_nim_3886.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -92,7 +92,74 @@ mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.12.md', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-CREDITS.txt', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SMPEG-COPYING', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/README.md', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-MIXER-COPYING.txt', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-NET-COPYING.txt', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/LINKS.md', 0x00000000000001a4)    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2_nim.nimble to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2_nim.nimble
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.6.md to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.6.md
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-README.txt to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-README.txt
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-IMAGE-COPYING.txt to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-IMAGE-COPYING.txt
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.8.md to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.8.md
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.7.md to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.7.md
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.10.md to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.10.md
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_primitives.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gfx_primitives.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_framerate.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gfx_framerate.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_primitives_font.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gfx_primitives_font.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_syswm.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_syswm.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/messagebox.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/messagebox.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/system.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/system.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/mutex.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/mutex.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/error.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/error.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/timer.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/timer.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/video.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/video.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/mouse.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/mouse.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/gesture.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/gesture.nim
+
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2_nim.nimble', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.6.md', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -104,7 +171,7 @@ mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-MIXER-COPYING.txt', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-IMAGE-COPYING.txt', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -122,87 +189,21 @@ mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/README.md', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.12.md', 0x00000000000001a4)    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-NET-COPYING.txt to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-NET-COPYING.txt
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.9.md to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.9.md
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-README-SDL.txt to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-README-SDL.txt
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-CREDITS.txt to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-CREDITS.txt
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/LINKS.md to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/LINKS.md
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.6.md to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.6.md
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2_nim.nimble to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2_nim.nimble
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_gpu.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gpu.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_net.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_net.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_primitives_font.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gfx_primitives_font.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/loadso.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/loadso.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/keycode.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/keycode.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/power.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/power.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/sdl_init.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/sdl_init.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/scancode.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/scancode.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/sdl_libname.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/sdl_libname.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/cpuinfo.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/cpuinfo.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/thread.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/thread.nim
-
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-NET-COPYING.txt', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.9.md', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-README-SDL.txt', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-CREDITS.txt', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/LINKS.md', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.6.md', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2_nim.nimble', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.10.md', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gpu.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gfx_primitives.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_net.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gfx_framerate.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -216,8 +217,7 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/loadso.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_syswm.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -225,7 +225,7 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/keycode.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/messagebox.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -233,7 +233,7 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/power.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/system.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -241,7 +241,7 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/sdl_init.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/mutex.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -249,55 +249,7 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/scancode.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/sdl_libname.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/cpuinfo.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/thread.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/atomics.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/atomics.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/timer.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/timer.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/mouse.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/mouse.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/sensor.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/sensor.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/events.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/events.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/surface.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/surface.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/platform.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/platform.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/hints.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/hints.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/stdinc.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/stdinc.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/system.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/system.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/shape.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/shape.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/quit.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/quit.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/haptic.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/haptic.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/rect.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/rect.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/rwops.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/rwops.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/log.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/log.nim
-
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/atomics.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/error.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -313,6 +265,14 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/video.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/mouse.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
@@ -321,7 +281,23 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/sensor.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/gesture.nim', 0x00000000000001a4)    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/render.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/render.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/vulkan.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/vulkan.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/log.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/log.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/touch.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/touch.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/keyboard.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/keyboard.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/metal.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/metal.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/rwops.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/rwops.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/version.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/version.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/cpuinfo.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/cpuinfo.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/stdinc.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/stdinc.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/shape.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/shape.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/quit.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/quit.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/gamecontroller.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/gamecontroller.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/platform.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/platform.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/filesystem.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/filesystem.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/thread.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/thread.nim
+
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -329,7 +305,7 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/events.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/render.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -337,7 +313,7 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/surface.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/vulkan.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -345,7 +321,7 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/platform.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/log.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -353,7 +329,47 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/hints.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/touch.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/keyboard.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/metal.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/rwops.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/version.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/cpuinfo.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -362,14 +378,6 @@ mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/stdinc.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/system.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -393,7 +401,7 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/haptic.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/gamecontroller.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -401,87 +409,7 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/rect.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/rwops.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/log.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/render.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/render.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/version.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/version.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/error.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/error.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/audio.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/audio.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/metal.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/metal.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/gesture.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/gesture.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/filesystem.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/filesystem.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/touch.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/touch.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/messagebox.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/messagebox.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/pixels.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/pixels.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/keyboard.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/keyboard.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/vulkan.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/vulkan.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/blendmode.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/blendmode.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/gamecontroller.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/gamecontroller.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/revision.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/revision.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/video.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/video.nim
-
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/render.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/version.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/error.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/audio.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/metal.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/gesture.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/platform.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -497,15 +425,23 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/touch.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/messagebox.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/thread.nim', 0x00000000000001a4)    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/pixels.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/pixels.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/keycode.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/keycode.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/atomics.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/atomics.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/events.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/events.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/haptic.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/haptic.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/audio.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/audio.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/sdl_init.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/sdl_init.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/revision.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/revision.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/blendmode.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/blendmode.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/scancode.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/scancode.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/clipboard.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/clipboard.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/rect.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/rect.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/joystick.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/joystick.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/sensor.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/sensor.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/surface.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/surface.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/loadso.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/loadso.nim
+
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -521,7 +457,7 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/keyboard.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/keycode.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -529,7 +465,7 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/vulkan.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/atomics.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -537,7 +473,7 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/blendmode.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/events.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -545,7 +481,23 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/gamecontroller.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/haptic.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/audio.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/sdl_init.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -561,35 +513,15 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/video.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/blendmode.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/mutex.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/mutex.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/clipboard.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/clipboard.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/joystick.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/joystick.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/smpeg.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/smpeg.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_syswm.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_syswm.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_image.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_image.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_mixer.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_mixer.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_rotozoom.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gfx_rotozoom.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_primitives.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gfx_primitives.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_framerate.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gfx_framerate.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_ttf.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_ttf.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_imagefilter.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gfx_imagefilter.nim
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-TTF-COPYING.txt to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-TTF-COPYING.txt
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-IMAGE-COPYING.txt to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-IMAGE-COPYING.txt
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-COPYING.txt to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-COPYING.txt
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.10.md to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.10.md
-    Copying file /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2_nim.nimble to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2_nim.nimble
-   Success: sdl2_nim installed successfully.
-       Info /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2_nim_3398.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
-
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/mutex.nim', 0x00000000000001a4)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/scancode.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -605,6 +537,14 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/rect.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/joystick.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
@@ -612,28 +552,67 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl.nim', 0x00000000000001a4)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/sensor.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/smpeg.nim', 0x00000000000001a4)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/surface.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_syswm.nim', 0x00000000000001a4)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/loadso.nim', 0x00000000000001a4)    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/power.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/power.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/sdl_libname.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/sdl_libname.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/hints.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/hints.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_mixer.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_mixer.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_imagefilter.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gfx_imagefilter.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_ttf.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_ttf.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/smpeg.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/smpeg.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_rotozoom.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gfx_rotozoom.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_net.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_net.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_image.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_image.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_gpu.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gpu.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl.nim to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl.nim
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-TTF-COPYING.txt to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-TTF-COPYING.txt
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-README-SDL.txt to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-README-SDL.txt
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-COPYING.txt to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-COPYING.txt
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.9.md to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.9.md
+    Copying file /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2_nim.nimble to /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2_nim.nimble
+   Success: sdl2_nim installed successfully.
+       Info /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2_nim_3886.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_image.nim', 0x00000000000001a4)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/power.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/sdl_libname.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/hints.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -647,21 +626,7 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gfx_rotozoom.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gfx_primitives.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gfx_framerate.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gfx_imagefilter.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -675,7 +640,42 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gfx_imagefilter.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/smpeg.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gfx_rotozoom.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_net.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_image.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gpu.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -687,7 +687,7 @@ mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-IMAGE-COPYING.txt', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-README-SDL.txt', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -699,290 +699,290 @@ mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.10.md', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.9.md', 0x00000000000001a4)
 chmod('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2_nim.nimble', 0x00000000000001a4)
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/sdl2_nim_363807096', 0x00000000000001ff)
 unlink('/tmp/nimblecache/sdl2_nim_363807096/sdl2_nim.ini')
-unlink('/tmp/nimble_3398.out')
-unlink('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2_nim_3398.nims')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-GFX-COPYING')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/SMPEG-COPYING')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-README.txt')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-MIXER-COPYING.txt')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/snd/tack.wav')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/snd/tack.mp3')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/snd/Vintage Education.mp3')
-rmdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/snd')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex205_sdl_gfx_primitives.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex208_framerate.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex203_blending.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex201_textures.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/mpg/test.mpg')
-rmdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/mpg')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex601_smpeg.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex302_mouse.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex206_bitmap_fonts.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex103_events.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/README.md')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex102_logs.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex402_panning.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex502s_udp.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex210_pixels.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/img/img2.png')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/img/img1.png')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/img/img1a.png')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/img/cur1.png')
-rmdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/img')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex301_keyboard.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex202_transformations.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex211_opengl.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex501c_tcp.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex303_joystick.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex104_timers.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex501s_tcp.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex101_init.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex204_drawing.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex105_syswm.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex401_mixer.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/fnt/FSEX300.ttf')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/fnt/ascii_10x10.png')
-rmdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/fnt')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex502c_udp.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex207_ttf_fonts.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex209_viewports_and_scaling.nim')
-rmdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.8.md')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/sdl_image.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/index.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/sdl_gfx_rotozoom.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/sdl_syswm_windows.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/sdl_ttf.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/sdl_gfx_primitives_font.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/sdl_gfx_framerate.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/sdl_mixer.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/render.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/clipboard.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/pixels.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/stdinc.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/surface.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/metal.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/error.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/blendmode.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/quit.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/cpuinfo.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/loadso.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/messagebox.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/vulkan.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/keycode.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/shape.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/keyboard.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/touch.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/system.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/scancode.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/power.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/audio.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/revision.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/gesture.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/gamecontroller.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/rwops.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/version.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/atomics.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/mutex.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/mouse.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/platform.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/thread.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/haptic.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/hints.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/video.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/rect.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/sdl_init.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/log.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/sensor.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/filesystem.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/sdl_libname.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/timer.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/joystick.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/events.html')
-rmdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/smpeg.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/sdl_gfx_imagefilter.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/sdl_syswm_x11.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/sdl_gfx_primitives.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/sdl_syswm.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/sdl_gpu.html')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/sdl_net.html')
-rmdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.7.md')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/README.md')
-rmdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/refs/heads')
-rmdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/refs/tags')
-rmdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/refs')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/logs/HEAD')
-rmdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/logs')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/packed-refs')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/HEAD')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/description')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks/update.sample')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks/post-update.sample')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks/pre-merge-commit.sample')
-rmdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects/pack/pack-cf793879104672ac8268a9c9e1071335f4a051da.pack')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects/pack/pack-cf793879104672ac8268a9c9e1071335f4a051da.idx')
-rmdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects/pack')
-rmdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects/info')
-rmdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects')
-rmdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/branches')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/index')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/info/exclude')
-rmdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/info')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/shallow')
-rmdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.12.md')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-NET-COPYING.txt')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.9.md')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-README-SDL.txt')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-CREDITS.txt')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/LINKS.md')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.6.md')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2_nim.nimble')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_gpu.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_net.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_primitives_font.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/loadso.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/keycode.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/power.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/sdl_init.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/scancode.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/sdl_libname.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/cpuinfo.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/thread.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/atomics.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/timer.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/mouse.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/sensor.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/events.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/surface.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/platform.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/hints.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/stdinc.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/system.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/shape.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/quit.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/haptic.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/rect.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/rwops.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/log.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/render.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/version.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/error.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/audio.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/metal.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/gesture.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/filesystem.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/touch.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/messagebox.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/pixels.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/keyboard.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/vulkan.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/blendmode.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/gamecontroller.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/revision.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/video.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/mutex.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/clipboard.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/joystick.nim')
-rmdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/smpeg.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_syswm.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_image.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_mixer.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_rotozoom.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_primitives.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_framerate.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_ttf.nim')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_imagefilter.nim')
-rmdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-TTF-COPYING.txt')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-IMAGE-COPYING.txt')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-COPYING.txt')
-unlink('/tmp/nimble_3398/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.10.md')
-rmdir('/tmp/nimble_3398/githubcom_Vladar4sdl2nim')
-rmdir('/tmp/nimble_3398')
+unlink('/tmp/nimble_3886.out')
+unlink('/home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2_nim_3886.nims')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/sdl_mixer.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/smpeg.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/sdl_gfx_framerate.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/error.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/power.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/gamecontroller.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/system.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/rwops.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/atomics.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/filesystem.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/sensor.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/platform.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/keycode.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/surface.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/touch.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/render.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/thread.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/pixels.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/haptic.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/log.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/revision.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/stdinc.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/sdl_init.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/audio.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/vulkan.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/keyboard.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/mutex.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/events.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/joystick.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/messagebox.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/version.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/blendmode.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/mouse.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/scancode.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/cpuinfo.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/clipboard.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/rect.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/timer.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/sdl_libname.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/shape.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/metal.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/quit.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/video.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/loadso.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/gesture.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/hints.html')
+rmdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/sdl_image.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/sdl_ttf.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/sdl_syswm.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/sdl_net.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/sdl_gpu.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/sdl_gfx_rotozoom.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/sdl_syswm_x11.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/index.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/sdl_gfx_imagefilter.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/sdl_syswm_windows.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/sdl_gfx_primitives.html')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/sdl_gfx_primitives_font.html')
+rmdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-GFX-COPYING')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.12.md')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-CREDITS.txt')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/SMPEG-COPYING')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/README.md')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-MIXER-COPYING.txt')
+rmdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/refs/tags')
+rmdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/refs/heads')
+rmdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/refs')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/info/exclude')
+rmdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/info')
+rmdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/branches')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/logs/HEAD')
+rmdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/logs')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/description')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks/update.sample')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/shallow')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/index')
+rmdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects/info')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects/pack/pack-cf793879104672ac8268a9c9e1071335f4a051da.idx')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects/pack/pack-cf793879104672ac8268a9c9e1071335f4a051da.pack')
+rmdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects/pack')
+rmdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/packed-refs')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/HEAD')
+rmdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-NET-COPYING.txt')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/LINKS.md')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2_nim.nimble')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.6.md')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-README.txt')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-IMAGE-COPYING.txt')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex205_sdl_gfx_primitives.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex204_drawing.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex209_viewports_and_scaling.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex208_framerate.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex210_pixels.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/README.md')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex501c_tcp.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/img/cur1.png')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/img/img1.png')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/img/img2.png')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/img/img1a.png')
+rmdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/img')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex402_panning.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex401_mixer.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex502s_udp.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex102_logs.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex211_opengl.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex303_joystick.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex207_ttf_fonts.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex104_timers.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/fnt/ascii_10x10.png')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/fnt/FSEX300.ttf')
+rmdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/fnt')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex601_smpeg.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex301_keyboard.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex105_syswm.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/mpg/test.mpg')
+rmdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/mpg')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex502c_udp.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/snd/tack.wav')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/snd/tack.mp3')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/snd/Vintage Education.mp3')
+rmdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/snd')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex302_mouse.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex203_blending.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex201_textures.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex103_events.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex101_init.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex202_transformations.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex206_bitmap_fonts.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex501s_tcp.nim')
+rmdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.8.md')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.7.md')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.10.md')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_primitives.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_framerate.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_primitives_font.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_syswm.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/messagebox.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/system.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/mutex.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/error.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/timer.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/video.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/mouse.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/gesture.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/render.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/vulkan.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/log.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/touch.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/keyboard.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/metal.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/rwops.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/version.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/cpuinfo.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/stdinc.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/shape.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/quit.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/gamecontroller.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/platform.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/filesystem.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/thread.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/pixels.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/keycode.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/atomics.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/events.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/haptic.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/audio.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/sdl_init.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/revision.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/blendmode.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/scancode.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/clipboard.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/rect.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/joystick.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/sensor.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/surface.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/loadso.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/power.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/sdl_libname.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/hints.nim')
+rmdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_mixer.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_imagefilter.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_ttf.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/smpeg.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_rotozoom.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_net.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_image.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_gpu.nim')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl.nim')
+rmdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-TTF-COPYING.txt')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-README-SDL.txt')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-COPYING.txt')
+unlink('/tmp/nimble_3886/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.9.md')
+rmdir('/tmp/nimble_3886/githubcom_Vladar4sdl2nim')
+rmdir('/tmp/nimble_3886')
   create directory /tmp
-  create directory /tmp/nimble_3398
-  create directory /tmp/nimble_3398/githubcom_Vladar4sdl2nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim
-  create directory /tmp/nimble_3398/githubcom_Vladar4sdl2nim
-  create directory /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git
-  create directory /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git
-  create directory /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks
-  create directory /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/branches
-  create directory /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/info
-  create directory /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/refs
-  create directory /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/refs/heads
-  create directory /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/refs/tags
-  rename /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config.lock to config
-  change permissions of /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config.lock to config
-  change permissions of /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config.lock to config
-  change permissions of /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config.lock to config
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/thf360s
-  create symbolic link from /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/thf360s to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/thf360s
-  create directory /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects
-  create directory /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects/pack
-  create directory /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects/info
-  change permissions of /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config.lock to config
-  change permissions of /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config.lock to config
-  change permissions of /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config.lock to config
-  create hard link from /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects/pack/pack-cf793879104672ac8268a9c9e1071335f4a051da.pack to /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects/pack/tmp_pack_5Y0Apj
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects/pack/tmp_pack_5Y0Apj
-  create hard link from /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects/pack/pack-cf793879104672ac8268a9c9e1071335f4a051da.idx to /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects/pack/tmp_idx_rHZ17M
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects/pack/tmp_idx_rHZ17M
-  rename /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/shallow.lock to shallow
-  rename /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/packed-refs.lock
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/refs/tags/v2.0.12.0.lock
-  create directory /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/logs
-  rename /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects/pack/pack-cf793879104672ac8268a9c9e1071335f4a051da.keep
-  create directory /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs
-  create directory /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private
-  create directory /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples
-  create directory /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/fnt
-  create directory /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/img
-  create directory /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/mpg
-  create directory /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/snd
-  create directory /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2
-  create directory /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private
-  rename /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/index.lock to index
+  create directory /tmp/nimble_3886
+  create directory /tmp/nimble_3886/githubcom_Vladar4sdl2nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim
+  create directory /tmp/nimble_3886/githubcom_Vladar4sdl2nim
+  create directory /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git
+  create directory /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git
+  create directory /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/info
+  create directory /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/branches
+  create directory /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks
+  create directory /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/refs
+  create directory /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/refs/heads
+  create directory /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/refs/tags
+  rename /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config.lock to config
+  change permissions of /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config.lock to config
+  change permissions of /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config.lock to config
+  change permissions of /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config.lock to config
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/t5un7rZ
+  create symbolic link from /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/t5un7rZ to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/t5un7rZ
+  create directory /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects
+  create directory /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects/pack
+  create directory /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects/info
+  change permissions of /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config.lock to config
+  change permissions of /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config.lock to config
+  change permissions of /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config.lock to config
+  create hard link from /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects/pack/pack-cf793879104672ac8268a9c9e1071335f4a051da.pack to /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects/pack/tmp_pack_IkTFw4
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects/pack/tmp_pack_IkTFw4
+  create hard link from /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects/pack/pack-cf793879104672ac8268a9c9e1071335f4a051da.idx to /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects/pack/tmp_idx_aljxBf
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects/pack/tmp_idx_aljxBf
+  rename /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/shallow.lock to shallow
+  rename /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/packed-refs.lock
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/refs/tags/v2.0.12.0.lock
+  create directory /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/logs
+  rename /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/HEAD.lock to HEAD
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects/pack/pack-cf793879104672ac8268a9c9e1071335f4a051da.keep
+  create directory /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs
+  create directory /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private
+  create directory /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples
+  create directory /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/fnt
+  create directory /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/img
+  create directory /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/mpg
+  create directory /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/snd
+  create directory /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2
+  create directory /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private
+  rename /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/sdl2_nim_1889034453
-  delete /tmp/nimblecache/sdl2_nim_1889034453/sdl2_nim.ini
-  delete /tmp/nimble_3398.out
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2_nim_3398.nims
+  create directory /tmp/nimblecache/sdl2_nim_1073272543
+  delete /tmp/nimblecache/sdl2_nim_1073272543/sdl2_nim.ini
+  delete /tmp/nimble_3886.out
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2_nim_3886.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -999,7 +999,55 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.12.md to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-CREDITS.txt to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SMPEG-COPYING to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/README.md to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-MIXER-COPYING.txt to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-NET-COPYING.txt to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/LINKS.md to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2_nim.nimble to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.6.md to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1011,7 +1059,7 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-MIXER-COPYING.txt to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-IMAGE-COPYING.txt to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1029,69 +1077,21 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/README.md to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.12.md to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-NET-COPYING.txt to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.9.md to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-README-SDL.txt to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-CREDITS.txt to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/LINKS.md to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.6.md to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2_nim.nimble to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.10.md to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gpu.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gfx_primitives.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_net.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gfx_framerate.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1105,8 +1105,7 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/loadso.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_syswm.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1114,7 +1113,7 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/keycode.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/messagebox.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1122,7 +1121,7 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/power.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/system.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1130,7 +1129,7 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/sdl_init.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/mutex.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1138,39 +1137,7 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/scancode.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/sdl_libname.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/cpuinfo.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/thread.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/atomics.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/error.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1186,6 +1153,14 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/video.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
   change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/mouse.nim to rw-r--r--
   create directory /home
   create directory /home/runner
@@ -1194,7 +1169,7 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/sensor.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/gesture.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1202,7 +1177,7 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/events.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/render.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1210,7 +1185,7 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/surface.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/vulkan.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1218,7 +1193,7 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/platform.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/log.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1226,7 +1201,47 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/hints.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/touch.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/keyboard.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/metal.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/rwops.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/version.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/cpuinfo.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1235,14 +1250,6 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
   change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/stdinc.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/system.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1266,7 +1273,7 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/haptic.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/gamecontroller.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1274,71 +1281,7 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/rect.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/rwops.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/log.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/render.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/version.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/error.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/audio.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/metal.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/gesture.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/platform.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1354,15 +1297,7 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/touch.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/messagebox.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/thread.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1378,7 +1313,7 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/keyboard.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/keycode.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1386,7 +1321,7 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/vulkan.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/atomics.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1394,7 +1329,7 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/blendmode.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/events.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1402,7 +1337,23 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/gamecontroller.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/haptic.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/audio.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/sdl_init.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1418,7 +1369,7 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/video.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/blendmode.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1426,7 +1377,7 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/mutex.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/scancode.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1442,6 +1393,14 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/rect.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
   change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/joystick.nim to rw-r--r--
   create directory /home
   create directory /home/runner
@@ -1449,28 +1408,48 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/sensor.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/smpeg.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/surface.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_syswm.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/loadso.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_image.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/power.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/sdl_libname.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/private/hints.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1484,21 +1463,7 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gfx_rotozoom.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gfx_primitives.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gfx_framerate.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gfx_imagefilter.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1512,7 +1477,42 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gfx_imagefilter.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/smpeg.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gfx_rotozoom.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_net.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_image.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl_gpu.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
+  create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2/sdl.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1524,7 +1524,7 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-IMAGE-COPYING.txt to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/SDL-README-SDL.txt to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1536,225 +1536,225 @@ rmdir('/tmp/nimble_3398')
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0
-  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.10.md to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/CHANGELOG-2.0.9.md to rw-r--r--
   change permissions of /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2_nim.nimble to rw-r--r--
   create directory /tmp
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/sdl2_nim_363807096
   delete /tmp/nimblecache/sdl2_nim_363807096/sdl2_nim.ini
-  delete /tmp/nimble_3398.out
-  delete /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2_nim_3398.nims
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-GFX-COPYING
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/SMPEG-COPYING
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-README.txt
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-MIXER-COPYING.txt
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/snd/tack.wav
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/snd/tack.mp3
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/snd/Vintage Education.mp3
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/snd
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex205_sdl_gfx_primitives.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex208_framerate.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex203_blending.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex201_textures.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/mpg/test.mpg
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/mpg
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex601_smpeg.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex302_mouse.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex206_bitmap_fonts.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex103_events.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/README.md
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex102_logs.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex402_panning.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex502s_udp.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex210_pixels.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/img/img2.png
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/img/img1.png
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/img/img1a.png
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/img/cur1.png
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/img
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex301_keyboard.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex202_transformations.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex211_opengl.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex501c_tcp.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex303_joystick.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex104_timers.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex501s_tcp.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex101_init.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex204_drawing.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex105_syswm.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex401_mixer.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/fnt/FSEX300.ttf
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/fnt/ascii_10x10.png
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/fnt
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex502c_udp.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex207_ttf_fonts.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples/ex209_viewports_and_scaling.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/examples
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.8.md
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/sdl_image.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/index.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/sdl_gfx_rotozoom.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/sdl_syswm_windows.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/sdl_ttf.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/sdl_gfx_primitives_font.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/sdl_gfx_framerate.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/sdl_mixer.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/render.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/clipboard.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/pixels.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/stdinc.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/surface.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/metal.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/error.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/blendmode.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/quit.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/cpuinfo.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/loadso.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/messagebox.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/vulkan.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/keycode.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/shape.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/keyboard.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/touch.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/system.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/scancode.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/power.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/audio.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/revision.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/gesture.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/gamecontroller.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/rwops.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/version.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/atomics.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/mutex.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/mouse.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/platform.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/thread.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/haptic.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/hints.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/video.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/rect.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/sdl_init.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/log.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/sensor.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/filesystem.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/sdl_libname.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/timer.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/joystick.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private/events.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/private
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/smpeg.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/sdl_gfx_imagefilter.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/sdl_syswm_x11.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/sdl_gfx_primitives.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/sdl_syswm.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/sdl_gpu.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs/sdl_net.html
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/docs
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.7.md
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/README.md
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/refs/heads
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/refs/tags
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/refs
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/config
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/logs/HEAD
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/logs
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/packed-refs
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/HEAD
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/description
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks/update.sample
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks/pre-push.sample
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks/post-update.sample
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/hooks
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects/pack/pack-cf793879104672ac8268a9c9e1071335f4a051da.pack
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects/pack/pack-cf793879104672ac8268a9c9e1071335f4a051da.idx
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects/pack
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects/info
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/objects
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/branches
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/index
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/info/exclude
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/info
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git/shallow
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/.git
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.12.md
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-NET-COPYING.txt
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.9.md
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-README-SDL.txt
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-CREDITS.txt
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/LINKS.md
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.6.md
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2_nim.nimble
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_gpu.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_net.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_primitives_font.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/loadso.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/keycode.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/power.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/sdl_init.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/scancode.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/sdl_libname.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/cpuinfo.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/thread.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/atomics.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/timer.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/mouse.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/sensor.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/events.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/surface.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/platform.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/hints.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/stdinc.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/system.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/shape.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/quit.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/haptic.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/rect.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/rwops.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/log.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/render.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/version.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/error.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/audio.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/metal.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/gesture.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/filesystem.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/touch.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/messagebox.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/pixels.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/keyboard.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/vulkan.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/blendmode.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/gamecontroller.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/revision.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/video.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/mutex.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/clipboard.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private/joystick.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/private
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/smpeg.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_syswm.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_image.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_mixer.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_rotozoom.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_primitives.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_framerate.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_ttf.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_imagefilter.nim
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/sdl2
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-TTF-COPYING.txt
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-IMAGE-COPYING.txt
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/SDL-COPYING.txt
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.10.md
-  delete /tmp/nimble_3398/githubcom_Vladar4sdl2nim
-  delete /tmp/nimble_3398
+  delete /tmp/nimble_3886.out
+  delete /home/runner/.nimble/pkgs/sdl2_nim-2.0.12.0/sdl2_nim_3886.nims
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/sdl_mixer.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/smpeg.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/sdl_gfx_framerate.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/error.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/power.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/gamecontroller.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/system.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/rwops.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/atomics.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/filesystem.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/sensor.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/platform.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/keycode.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/surface.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/touch.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/render.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/thread.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/pixels.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/haptic.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/log.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/revision.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/stdinc.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/sdl_init.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/audio.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/vulkan.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/keyboard.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/mutex.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/events.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/joystick.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/messagebox.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/version.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/blendmode.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/mouse.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/scancode.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/cpuinfo.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/clipboard.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/rect.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/timer.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/sdl_libname.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/shape.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/metal.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/quit.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/video.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/loadso.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/gesture.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private/hints.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/private
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/sdl_image.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/sdl_ttf.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/sdl_syswm.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/sdl_net.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/sdl_gpu.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/sdl_gfx_rotozoom.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/sdl_syswm_x11.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/index.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/sdl_gfx_imagefilter.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/sdl_syswm_windows.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/sdl_gfx_primitives.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs/sdl_gfx_primitives_font.html
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/docs
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-GFX-COPYING
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.12.md
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-CREDITS.txt
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/SMPEG-COPYING
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/README.md
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-MIXER-COPYING.txt
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/refs/tags
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/refs/heads
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/refs
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/info/exclude
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/info
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/branches
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/logs/HEAD
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/logs
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/description
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks/pre-push.sample
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks/update.sample
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks/post-update.sample
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/hooks
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/shallow
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/config
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/index
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects/info
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects/pack/pack-cf793879104672ac8268a9c9e1071335f4a051da.idx
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects/pack/pack-cf793879104672ac8268a9c9e1071335f4a051da.pack
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects/pack
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/objects
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/packed-refs
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git/HEAD
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/.git
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-NET-COPYING.txt
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/LINKS.md
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2_nim.nimble
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.6.md
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-README.txt
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-IMAGE-COPYING.txt
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex205_sdl_gfx_primitives.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex204_drawing.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex209_viewports_and_scaling.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex208_framerate.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex210_pixels.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/README.md
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex501c_tcp.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/img/cur1.png
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/img/img1.png
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/img/img2.png
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/img/img1a.png
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/img
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex402_panning.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex401_mixer.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex502s_udp.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex102_logs.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex211_opengl.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex303_joystick.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex207_ttf_fonts.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex104_timers.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/fnt/ascii_10x10.png
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/fnt/FSEX300.ttf
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/fnt
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex601_smpeg.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex301_keyboard.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex105_syswm.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/mpg/test.mpg
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/mpg
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex502c_udp.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/snd/tack.wav
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/snd/tack.mp3
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/snd/Vintage Education.mp3
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/snd
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex302_mouse.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex203_blending.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex201_textures.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex103_events.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex101_init.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex202_transformations.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex206_bitmap_fonts.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples/ex501s_tcp.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/examples
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.8.md
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.7.md
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.10.md
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_primitives.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_framerate.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_primitives_font.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_syswm.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/messagebox.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/system.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/mutex.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/error.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/timer.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/video.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/mouse.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/gesture.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/render.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/vulkan.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/log.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/touch.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/keyboard.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/metal.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/rwops.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/version.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/cpuinfo.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/stdinc.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/shape.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/quit.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/gamecontroller.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/platform.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/filesystem.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/thread.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/pixels.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/keycode.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/atomics.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/events.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/haptic.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/audio.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/sdl_init.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/revision.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/blendmode.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/scancode.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/clipboard.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/rect.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/joystick.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/sensor.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/surface.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/loadso.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/power.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/sdl_libname.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private/hints.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/private
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_mixer.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_imagefilter.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_ttf.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/smpeg.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_gfx_rotozoom.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_net.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_image.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl_gpu.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2/sdl.nim
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/sdl2
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-TTF-COPYING.txt
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-README-SDL.txt
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/SDL-COPYING.txt
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim/CHANGELOG-2.0.9.md
+  delete /tmp/nimble_3886/githubcom_Vladar4sdl2nim
+  delete /tmp/nimble_3886

@@ -1,246 +1,370 @@
     Reading official package list
 Downloading https://github.com/Vindaar/shell using git
-    Cloning latest tagged version: v0.3.0
-  Verifying dependencies for shell@0.3.0
- Installing shell@0.3.0
-    Copying file /tmp/nimble_17279/githubcom_Vindaarshell/shell.nim to /home/runner/.nimble/pkgs/shell-0.3.0/shell.nim
-    Copying file /tmp/nimble_17279/githubcom_Vindaarshell/shell.nimble to /home/runner/.nimble/pkgs/shell-0.3.0/shell.nimble
-   Success: shell installed successfully.
+    Cloning latest tagged version: v0.4.0
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_17279', 0x00000000000001ff)
-mkdir('/tmp/nimble_17279/githubcom_Vindaarshell', 0x00000000000001ff)
-rmdir('/tmp/nimble_17279/githubcom_Vindaarshell')
-mkdir('/tmp/nimble_17279/githubcom_Vindaarshell', 0x00000000000001ff)
-mkdir('/tmp/nimble_17279/githubcom_Vindaarshell/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_17279/githubcom_Vindaarshell/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_17279/githubcom_Vindaarshell/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_17279/githubcom_Vindaarshell/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_17279/githubcom_Vindaarshell/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_17279/githubcom_Vindaarshell/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_17279/githubcom_Vindaarshell/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_17279/githubcom_Vindaarshell/.git/HEAD.lock', '/tmp/nimble_17279/githubcom_Vindaarshell/.git/HEAD')
-rename('/tmp/nimble_17279/githubcom_Vindaarshell/.git/config.lock', '/tmp/nimble_17279/githubcom_Vindaarshell/.git/config')
-chmod('/tmp/nimble_17279/githubcom_Vindaarshell/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_17279/githubcom_Vindaarshell/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_17279/githubcom_Vindaarshell/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_17279/githubcom_Vindaarshell/.git/config.lock', '/tmp/nimble_17279/githubcom_Vindaarshell/.git/config')
-chmod('/tmp/nimble_17279/githubcom_Vindaarshell/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_17279/githubcom_Vindaarshell/.git/config.lock', '/tmp/nimble_17279/githubcom_Vindaarshell/.git/config')
-chmod('/tmp/nimble_17279/githubcom_Vindaarshell/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_17279/githubcom_Vindaarshell/.git/config.lock', '/tmp/nimble_17279/githubcom_Vindaarshell/.git/config')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/tVmyPbK')
-symlink('testing', '/tmp/nimble_17279/githubcom_Vindaarshell/.git/tVmyPbK')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/tVmyPbK')
-mkdir('/tmp/nimble_17279/githubcom_Vindaarshell/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_17279/githubcom_Vindaarshell/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_17279/githubcom_Vindaarshell/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_17279/githubcom_Vindaarshell/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_17279/githubcom_Vindaarshell/.git/config.lock', '/tmp/nimble_17279/githubcom_Vindaarshell/.git/config')
-chmod('/tmp/nimble_17279/githubcom_Vindaarshell/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_17279/githubcom_Vindaarshell/.git/config.lock', '/tmp/nimble_17279/githubcom_Vindaarshell/.git/config')
-chmod('/tmp/nimble_17279/githubcom_Vindaarshell/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_17279/githubcom_Vindaarshell/.git/config.lock', '/tmp/nimble_17279/githubcom_Vindaarshell/.git/config')
-link('/tmp/nimble_17279/githubcom_Vindaarshell/.git/objects/pack/tmp_pack_qglT1b', '/tmp/nimble_17279/githubcom_Vindaarshell/.git/objects/pack/pack-05416b1be44c8083d1fe0f0f98cfc4a5dc8ea455.pack')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/objects/pack/tmp_pack_qglT1b')
-link('/tmp/nimble_17279/githubcom_Vindaarshell/.git/objects/pack/tmp_idx_MTtY1f', '/tmp/nimble_17279/githubcom_Vindaarshell/.git/objects/pack/pack-05416b1be44c8083d1fe0f0f98cfc4a5dc8ea455.idx')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/objects/pack/tmp_idx_MTtY1f')
-rename('/tmp/nimble_17279/githubcom_Vindaarshell/.git/shallow.lock', '/tmp/nimble_17279/githubcom_Vindaarshell/.git/shallow')
-rename('/tmp/nimble_17279/githubcom_Vindaarshell/.git/packed-refs.new', '/tmp/nimble_17279/githubcom_Vindaarshell/.git/packed-refs')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/packed-refs.lock')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/refs/tags/v0.3.0.lock')
-mkdir('/tmp/nimble_17279/githubcom_Vindaarshell/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_17279/githubcom_Vindaarshell/.git/HEAD.lock', '/tmp/nimble_17279/githubcom_Vindaarshell/.git/HEAD')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/objects/pack/pack-05416b1be44c8083d1fe0f0f98cfc4a5dc8ea455.keep')
+mkdir('/tmp/nimble_29941', 0x00000000000001ff)
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell', 0x00000000000001ff)
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell')
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell', 0x00000000000001ff)
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_29941/githubcom_Vindaarshell/.git/HEAD.lock', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/HEAD')
+rename('/tmp/nimble_29941/githubcom_Vindaarshell/.git/config.lock', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/config')
+chmod('/tmp/nimble_29941/githubcom_Vindaarshell/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_29941/githubcom_Vindaarshell/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_29941/githubcom_Vindaarshell/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_29941/githubcom_Vindaarshell/.git/config.lock', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/config')
+chmod('/tmp/nimble_29941/githubcom_Vindaarshell/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_29941/githubcom_Vindaarshell/.git/config.lock', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/config')
+chmod('/tmp/nimble_29941/githubcom_Vindaarshell/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_29941/githubcom_Vindaarshell/.git/config.lock', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/config')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/tPBQsfd')
+symlink('testing', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/tPBQsfd')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/tPBQsfd')
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_29941/githubcom_Vindaarshell/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_29941/githubcom_Vindaarshell/.git/config.lock', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/config')
+chmod('/tmp/nimble_29941/githubcom_Vindaarshell/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_29941/githubcom_Vindaarshell/.git/config.lock', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/config')
+chmod('/tmp/nimble_29941/githubcom_Vindaarshell/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_29941/githubcom_Vindaarshell/.git/config.lock', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/config')
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/4b', 0x00000000000001ff)
+link('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/4b/tmp_obj_bwNhxJ', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/4b/c09cfdbd4f2b3c04a09cf5a92f8605cb9b3782')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/4b/tmp_obj_bwNhxJ')
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/6e', 0x00000000000001ff)
+link('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/6e/tmp_obj_jgp0nP', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/6e/c23fa9d29435b406971da7146897ea25db0364')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/6e/tmp_obj_jgp0nP')
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/90', 0x00000000000001ff)
+link('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/90/tmp_obj_ngiNmR', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/90/a1f4a5d3eaaba87861156f710e882d20ae4a86')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/90/tmp_obj_ngiNmR')
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/49', 0x00000000000001ff)
+link('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/49/tmp_obj_9GdofX', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/49/e56dba1201b9f53a23bb5c06e0060be8ff7923')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/49/tmp_obj_9GdofX')
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/0f', 0x00000000000001ff)
+link('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/0f/tmp_obj_3rZxq1', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/0f/dd5883d6b1ec481acac03912d17dbcf68a919b')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/0f/tmp_obj_3rZxq1')
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/55', 0x00000000000001ff)
+link('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/55/tmp_obj_LUEf15', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/55/6bd3453d5980ac82be262059202e0910e71da9')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/55/tmp_obj_LUEf15')
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/05', 0x00000000000001ff)
+link('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/05/tmp_obj_rQnV5a', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/05/cce9e025e39ac7dc7bd57d3a0cf08db79f67c4')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/05/tmp_obj_rQnV5a')
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/dd', 0x00000000000001ff)
+link('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/dd/tmp_obj_tbI45b', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/dd/13fa11234982d0d41a8d58b7c446e2df6b8319')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/dd/tmp_obj_tbI45b')
+link('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/05/tmp_obj_3jZDYh', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/05/f86b6b7aabfe8b73b4f08ab39cdb29742c81c7')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/05/tmp_obj_3jZDYh')
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/3c', 0x00000000000001ff)
+link('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/3c/tmp_obj_C9Aueb', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/3c/5e65cc332cd79f93ed700fe8ce9aa2bfb4b954')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/3c/tmp_obj_C9Aueb')
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/3b', 0x00000000000001ff)
+link('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/3b/tmp_obj_8DeRHc', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/3b/tmp_obj_8DeRHc')
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/42', 0x00000000000001ff)
+link('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/42/tmp_obj_oynNpi', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/42/7fba559e62ae847776d1d2a04f07d3ca738e29')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/42/tmp_obj_oynNpi')
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/ae', 0x00000000000001ff)
+link('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/ae/tmp_obj_2y7r4j', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/ae/caa47bd73e79b10c1de198611bad52bf2fadb0')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/ae/tmp_obj_2y7r4j')
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/08', 0x00000000000001ff)
+link('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/08/tmp_obj_YUdDfq', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/08/821725d74aa85013c58158a9c9eec763970995')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/08/tmp_obj_YUdDfq')
+rename('/tmp/nimble_29941/githubcom_Vindaarshell/.git/shallow.lock', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/shallow')
+rename('/tmp/nimble_29941/githubcom_Vindaarshell/.git/packed-refs.new', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/packed-refs')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/packed-refs.lock')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/refs/tags/v0.4.0.lock')  Verifying dependencies for shell@0.4.0
+ Installing shell@0.4.0
+    Copying file /tmp/nimble_29941/githubcom_Vindaarshell/shell.nim to /home/runner/.nimble/pkgs/shell-0.4.0/shell.nim
+    Copying file /tmp/nimble_29941/githubcom_Vindaarshell/shell.nimble to /home/runner/.nimble/pkgs/shell-0.4.0/shell.nimble
+   Success: shell installed successfully.
+
+mkdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_29941/githubcom_Vindaarshell/.git/HEAD.lock', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/HEAD')
 mkdir('tests', 0x00000000000001ff)
 mkdir('tests/anotherDir', 0x00000000000001ff)
-rename('/tmp/nimble_17279/githubcom_Vindaarshell/.git/index.lock', '/tmp/nimble_17279/githubcom_Vindaarshell/.git/index')
+rename('/tmp/nimble_29941/githubcom_Vindaarshell/.git/index.lock', '/tmp/nimble_29941/githubcom_Vindaarshell/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/shell_1544389712', 0x00000000000001ff)
-unlink('/tmp/nimblecache/shell_1544389712/shell.ini')
-unlink('/tmp/nimble_17279.out')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/shell_17279.nims')
+mkdir('/tmp/nimblecache/shell_902534785', 0x00000000000001ff)
+unlink('/tmp/nimblecache/shell_902534785/shell.ini')
+unlink('/tmp/nimble_29941.out')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/shell_29941.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/shell-0.3.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/shell-0.4.0', 0x00000000000001ff)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/shell-0.3.0', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/shell-0.3.0/shell.nim', 0x00000000000001a4)
-chmod('/home/runner/.nimble/pkgs/shell-0.3.0/shell.nimble', 0x00000000000001a4)
+mkdir('/home/runner/.nimble/pkgs/shell-0.4.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/shell-0.4.0/shell.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/shell-0.4.0/shell.nimble', 0x00000000000001a4)
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/shell_2279807387', 0x00000000000001ff)
-unlink('/tmp/nimblecache/shell_2279807387/shell.ini')
-unlink('/tmp/nimble_17279.out')
-unlink('/home/runner/.nimble/pkgs/shell-0.3.0/shell_17279.nims')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.travis.yml')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/tests/config.nims')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/tests/anotherDir/runAnotherTest.nims')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/tests/anotherDir/tCorrectDir.nims')
-rmdir('/tmp/nimble_17279/githubcom_Vindaarshell/tests/anotherDir')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/tests/tShell.nim')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/tests/tNimScript.nims')
-rmdir('/tmp/nimble_17279/githubcom_Vindaarshell/tests')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/shell.nimble')
-rmdir('/tmp/nimble_17279/githubcom_Vindaarshell/.git/refs/heads')
-rmdir('/tmp/nimble_17279/githubcom_Vindaarshell/.git/refs/tags')
-rmdir('/tmp/nimble_17279/githubcom_Vindaarshell/.git/refs')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/config')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/logs/HEAD')
-rmdir('/tmp/nimble_17279/githubcom_Vindaarshell/.git/logs')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/packed-refs')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/HEAD')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/description')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks/update.sample')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks/post-update.sample')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks/pre-merge-commit.sample')
-rmdir('/tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/objects/pack/pack-05416b1be44c8083d1fe0f0f98cfc4a5dc8ea455.pack')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/objects/pack/pack-05416b1be44c8083d1fe0f0f98cfc4a5dc8ea455.idx')
-rmdir('/tmp/nimble_17279/githubcom_Vindaarshell/.git/objects/pack')
-rmdir('/tmp/nimble_17279/githubcom_Vindaarshell/.git/objects/info')
-rmdir('/tmp/nimble_17279/githubcom_Vindaarshell/.git/objects')
-rmdir('/tmp/nimble_17279/githubcom_Vindaarshell/.git/branches')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/index')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/info/exclude')
-rmdir('/tmp/nimble_17279/githubcom_Vindaarshell/.git/info')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/.git/shallow')
-rmdir('/tmp/nimble_17279/githubcom_Vindaarshell/.git')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/shell.nim')
-unlink('/tmp/nimble_17279/githubcom_Vindaarshell/README.org')
-rmdir('/tmp/nimble_17279/githubcom_Vindaarshell')
-rmdir('/tmp/nimble_17279')
+mkdir('/tmp/nimblecache/shell_367757924', 0x00000000000001ff)
+unlink('/tmp/nimblecache/shell_367757924/shell.ini')
+unlink('/tmp/nimble_29941.out')
+unlink('/home/runner/.nimble/pkgs/shell-0.4.0/shell_29941.nims')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/shell.nimble')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/refs/tags')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/refs/heads')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/refs')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/info/exclude')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/info')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/branches')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/logs/HEAD')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/logs')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/description')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks/update.sample')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/shallow')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/config')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/index')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/info')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/08/821725d74aa85013c58158a9c9eec763970995')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/08')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/ae/caa47bd73e79b10c1de198611bad52bf2fadb0')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/ae')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/0f/dd5883d6b1ec481acac03912d17dbcf68a919b')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/0f')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/3c/5e65cc332cd79f93ed700fe8ce9aa2bfb4b954')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/3c')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/05/cce9e025e39ac7dc7bd57d3a0cf08db79f67c4')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/05/f86b6b7aabfe8b73b4f08ab39cdb29742c81c7')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/05')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/4b/c09cfdbd4f2b3c04a09cf5a92f8605cb9b3782')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/4b')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/3b')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/49/e56dba1201b9f53a23bb5c06e0060be8ff7923')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/49')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/55/6bd3453d5980ac82be262059202e0910e71da9')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/55')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/dd/13fa11234982d0d41a8d58b7c446e2df6b8319')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/dd')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/42/7fba559e62ae847776d1d2a04f07d3ca738e29')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/42')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/pack')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/6e/c23fa9d29435b406971da7146897ea25db0364')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/6e')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/90/a1f4a5d3eaaba87861156f710e882d20ae4a86')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/90')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git/objects')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/packed-refs')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.git/HEAD')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell/.git')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/shell.nim')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/README.org')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/.travis.yml')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/tests/config.nims')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/tests/tNimScript.nims')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/tests/tException.nim')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/tests/tShell.nim')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/tests/anotherDir/runAnotherTest.nims')
+unlink('/tmp/nimble_29941/githubcom_Vindaarshell/tests/anotherDir/tCorrectDir.nims')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell/tests/anotherDir')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell/tests')
+rmdir('/tmp/nimble_29941/githubcom_Vindaarshell')
+rmdir('/tmp/nimble_29941')
   create directory /tmp
-  create directory /tmp/nimble_17279
-  create directory /tmp/nimble_17279/githubcom_Vindaarshell
-  delete /tmp/nimble_17279/githubcom_Vindaarshell
-  create directory /tmp/nimble_17279/githubcom_Vindaarshell
-  create directory /tmp/nimble_17279/githubcom_Vindaarshell/.git
-  create directory /tmp/nimble_17279/githubcom_Vindaarshell/.git
-  create directory /tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks
-  create directory /tmp/nimble_17279/githubcom_Vindaarshell/.git/branches
-  create directory /tmp/nimble_17279/githubcom_Vindaarshell/.git/info
-  create directory /tmp/nimble_17279/githubcom_Vindaarshell/.git/refs
-  create directory /tmp/nimble_17279/githubcom_Vindaarshell/.git/refs/heads
-  create directory /tmp/nimble_17279/githubcom_Vindaarshell/.git/refs/tags
-  rename /tmp/nimble_17279/githubcom_Vindaarshell/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_17279/githubcom_Vindaarshell/.git/config.lock to config
-  change permissions of /tmp/nimble_17279/githubcom_Vindaarshell/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_17279/githubcom_Vindaarshell/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_17279/githubcom_Vindaarshell/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_17279/githubcom_Vindaarshell/.git/config.lock to config
-  change permissions of /tmp/nimble_17279/githubcom_Vindaarshell/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_17279/githubcom_Vindaarshell/.git/config.lock to config
-  change permissions of /tmp/nimble_17279/githubcom_Vindaarshell/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_17279/githubcom_Vindaarshell/.git/config.lock to config
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/tVmyPbK
-  create symbolic link from /tmp/nimble_17279/githubcom_Vindaarshell/.git/tVmyPbK to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/tVmyPbK
-  create directory /tmp/nimble_17279/githubcom_Vindaarshell/.git/objects
-  create directory /tmp/nimble_17279/githubcom_Vindaarshell/.git/objects/pack
-  create directory /tmp/nimble_17279/githubcom_Vindaarshell/.git/objects/info
-  change permissions of /tmp/nimble_17279/githubcom_Vindaarshell/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_17279/githubcom_Vindaarshell/.git/config.lock to config
-  change permissions of /tmp/nimble_17279/githubcom_Vindaarshell/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_17279/githubcom_Vindaarshell/.git/config.lock to config
-  change permissions of /tmp/nimble_17279/githubcom_Vindaarshell/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_17279/githubcom_Vindaarshell/.git/config.lock to config
-  create hard link from /tmp/nimble_17279/githubcom_Vindaarshell/.git/objects/pack/pack-05416b1be44c8083d1fe0f0f98cfc4a5dc8ea455.pack to /tmp/nimble_17279/githubcom_Vindaarshell/.git/objects/pack/tmp_pack_qglT1b
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/objects/pack/tmp_pack_qglT1b
-  create hard link from /tmp/nimble_17279/githubcom_Vindaarshell/.git/objects/pack/pack-05416b1be44c8083d1fe0f0f98cfc4a5dc8ea455.idx to /tmp/nimble_17279/githubcom_Vindaarshell/.git/objects/pack/tmp_idx_MTtY1f
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/objects/pack/tmp_idx_MTtY1f
-  rename /tmp/nimble_17279/githubcom_Vindaarshell/.git/shallow.lock to shallow
-  rename /tmp/nimble_17279/githubcom_Vindaarshell/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/packed-refs.lock
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/refs/tags/v0.3.0.lock
-  create directory /tmp/nimble_17279/githubcom_Vindaarshell/.git/logs
-  rename /tmp/nimble_17279/githubcom_Vindaarshell/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/objects/pack/pack-05416b1be44c8083d1fe0f0f98cfc4a5dc8ea455.keep
-  create directory /tmp/nimble_17279/githubcom_Vindaarshell/tests
-  create directory /tmp/nimble_17279/githubcom_Vindaarshell/tests/anotherDir
-  rename /tmp/nimble_17279/githubcom_Vindaarshell/.git/index.lock to index
+  create directory /tmp/nimble_29941
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell
+  delete /tmp/nimble_29941/githubcom_Vindaarshell
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/.git
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/.git
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/.git/info
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/.git/branches
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/.git/refs
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/.git/refs/heads
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/.git/refs/tags
+  rename /tmp/nimble_29941/githubcom_Vindaarshell/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_29941/githubcom_Vindaarshell/.git/config.lock to config
+  change permissions of /tmp/nimble_29941/githubcom_Vindaarshell/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_29941/githubcom_Vindaarshell/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_29941/githubcom_Vindaarshell/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_29941/githubcom_Vindaarshell/.git/config.lock to config
+  change permissions of /tmp/nimble_29941/githubcom_Vindaarshell/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_29941/githubcom_Vindaarshell/.git/config.lock to config
+  change permissions of /tmp/nimble_29941/githubcom_Vindaarshell/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_29941/githubcom_Vindaarshell/.git/config.lock to config
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/tPBQsfd
+  create symbolic link from /tmp/nimble_29941/githubcom_Vindaarshell/.git/tPBQsfd to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/tPBQsfd
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/pack
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/info
+  change permissions of /tmp/nimble_29941/githubcom_Vindaarshell/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_29941/githubcom_Vindaarshell/.git/config.lock to config
+  change permissions of /tmp/nimble_29941/githubcom_Vindaarshell/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_29941/githubcom_Vindaarshell/.git/config.lock to config
+  change permissions of /tmp/nimble_29941/githubcom_Vindaarshell/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_29941/githubcom_Vindaarshell/.git/config.lock to config
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/4b
+  create hard link from /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/4b/c09cfdbd4f2b3c04a09cf5a92f8605cb9b3782 to /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/4b/tmp_obj_bwNhxJ
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/4b/tmp_obj_bwNhxJ
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/6e
+  create hard link from /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/6e/c23fa9d29435b406971da7146897ea25db0364 to /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/6e/tmp_obj_jgp0nP
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/6e/tmp_obj_jgp0nP
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/90
+  create hard link from /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/90/a1f4a5d3eaaba87861156f710e882d20ae4a86 to /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/90/tmp_obj_ngiNmR
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/90/tmp_obj_ngiNmR
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/49
+  create hard link from /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/49/e56dba1201b9f53a23bb5c06e0060be8ff7923 to /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/49/tmp_obj_9GdofX
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/49/tmp_obj_9GdofX
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/0f
+  create hard link from /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/0f/dd5883d6b1ec481acac03912d17dbcf68a919b to /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/0f/tmp_obj_3rZxq1
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/0f/tmp_obj_3rZxq1
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/55
+  create hard link from /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/55/6bd3453d5980ac82be262059202e0910e71da9 to /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/55/tmp_obj_LUEf15
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/55/tmp_obj_LUEf15
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/05
+  create hard link from /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/05/cce9e025e39ac7dc7bd57d3a0cf08db79f67c4 to /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/05/tmp_obj_rQnV5a
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/05/tmp_obj_rQnV5a
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/dd
+  create hard link from /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/dd/13fa11234982d0d41a8d58b7c446e2df6b8319 to /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/dd/tmp_obj_tbI45b
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/dd/tmp_obj_tbI45b
+  create hard link from /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/05/f86b6b7aabfe8b73b4f08ab39cdb29742c81c7 to /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/05/tmp_obj_3jZDYh
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/05/tmp_obj_3jZDYh
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/3c
+  create hard link from /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/3c/5e65cc332cd79f93ed700fe8ce9aa2bfb4b954 to /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/3c/tmp_obj_C9Aueb
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/3c/tmp_obj_C9Aueb
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/3b
+  create hard link from /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6 to /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/3b/tmp_obj_8DeRHc
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/3b/tmp_obj_8DeRHc
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/42
+  create hard link from /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/42/7fba559e62ae847776d1d2a04f07d3ca738e29 to /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/42/tmp_obj_oynNpi
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/42/tmp_obj_oynNpi
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/ae
+  create hard link from /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/ae/caa47bd73e79b10c1de198611bad52bf2fadb0 to /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/ae/tmp_obj_2y7r4j
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/ae/tmp_obj_2y7r4j
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/08
+  create hard link from /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/08/821725d74aa85013c58158a9c9eec763970995 to /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/08/tmp_obj_YUdDfq
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/08/tmp_obj_YUdDfq
+  rename /tmp/nimble_29941/githubcom_Vindaarshell/.git/shallow.lock to shallow
+  rename /tmp/nimble_29941/githubcom_Vindaarshell/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/packed-refs.lock
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/refs/tags/v0.4.0.lock
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/.git/logs
+  rename /tmp/nimble_29941/githubcom_Vindaarshell/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/tests
+  create directory /tmp/nimble_29941/githubcom_Vindaarshell/tests/anotherDir
+  rename /tmp/nimble_29941/githubcom_Vindaarshell/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/shell_1544389712
-  delete /tmp/nimblecache/shell_1544389712/shell.ini
-  delete /tmp/nimble_17279.out
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/shell_17279.nims
+  create directory /tmp/nimblecache/shell_902534785
+  delete /tmp/nimblecache/shell_902534785/shell.ini
+  delete /tmp/nimble_29941.out
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/shell_29941.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/shell-0.3.0
+  create directory /home/runner/.nimble/pkgs/shell-0.4.0
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/shell-0.3.0
-  change permissions of /home/runner/.nimble/pkgs/shell-0.3.0/shell.nim to rw-r--r--
-  change permissions of /home/runner/.nimble/pkgs/shell-0.3.0/shell.nimble to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/shell-0.4.0
+  change permissions of /home/runner/.nimble/pkgs/shell-0.4.0/shell.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/shell-0.4.0/shell.nimble to rw-r--r--
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/shell_2279807387
-  delete /tmp/nimblecache/shell_2279807387/shell.ini
-  delete /tmp/nimble_17279.out
-  delete /home/runner/.nimble/pkgs/shell-0.3.0/shell_17279.nims
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.travis.yml
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/tests/config.nims
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/tests/anotherDir/runAnotherTest.nims
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/tests/anotherDir/tCorrectDir.nims
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/tests/anotherDir
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/tests/tShell.nim
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/tests/tNimScript.nims
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/tests
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/shell.nimble
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/refs/heads
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/refs/tags
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/refs
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/config
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/logs/HEAD
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/logs
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/packed-refs
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/HEAD
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/description
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks/update.sample
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks/pre-push.sample
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks/post-update.sample
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/hooks
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/objects/pack/pack-05416b1be44c8083d1fe0f0f98cfc4a5dc8ea455.pack
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/objects/pack/pack-05416b1be44c8083d1fe0f0f98cfc4a5dc8ea455.idx
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/objects/pack
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/objects/info
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/objects
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/branches
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/index
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/info/exclude
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/info
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git/shallow
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/.git
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/shell.nim
-  delete /tmp/nimble_17279/githubcom_Vindaarshell/README.org
-  delete /tmp/nimble_17279/githubcom_Vindaarshell
-  delete /tmp/nimble_17279
+  create directory /tmp/nimblecache/shell_367757924
+  delete /tmp/nimblecache/shell_367757924/shell.ini
+  delete /tmp/nimble_29941.out
+  delete /home/runner/.nimble/pkgs/shell-0.4.0/shell_29941.nims
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/shell.nimble
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/refs/tags
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/refs/heads
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/refs
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/info/exclude
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/info
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/branches
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/logs/HEAD
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/logs
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/description
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks/pre-push.sample
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks/update.sample
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks/post-update.sample
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/hooks
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/shallow
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/config
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/index
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/info
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/08/821725d74aa85013c58158a9c9eec763970995
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/08
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/ae/caa47bd73e79b10c1de198611bad52bf2fadb0
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/ae
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/0f/dd5883d6b1ec481acac03912d17dbcf68a919b
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/0f
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/3c/5e65cc332cd79f93ed700fe8ce9aa2bfb4b954
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/3c
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/05/cce9e025e39ac7dc7bd57d3a0cf08db79f67c4
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/05/f86b6b7aabfe8b73b4f08ab39cdb29742c81c7
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/05
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/4b/c09cfdbd4f2b3c04a09cf5a92f8605cb9b3782
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/4b
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/3b
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/49/e56dba1201b9f53a23bb5c06e0060be8ff7923
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/49
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/55/6bd3453d5980ac82be262059202e0910e71da9
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/55
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/dd/13fa11234982d0d41a8d58b7c446e2df6b8319
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/dd
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/42/7fba559e62ae847776d1d2a04f07d3ca738e29
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/42
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/pack
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/6e/c23fa9d29435b406971da7146897ea25db0364
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/6e
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/90/a1f4a5d3eaaba87861156f710e882d20ae4a86
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects/90
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/objects
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/packed-refs
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git/HEAD
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.git
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/shell.nim
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/README.org
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/.travis.yml
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/tests/config.nims
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/tests/tNimScript.nims
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/tests/tException.nim
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/tests/tShell.nim
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/tests/anotherDir/runAnotherTest.nims
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/tests/anotherDir/tCorrectDir.nims
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/tests/anotherDir
+  delete /tmp/nimble_29941/githubcom_Vindaarshell/tests
+  delete /tmp/nimble_29941/githubcom_Vindaarshell
+  delete /tmp/nimble_29941
