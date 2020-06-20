@@ -1,71 +1,98 @@
     Reading official package list
 Downloading https://github.com/tervay/the-nim-alliance using git
     Cloning latest tagged version: v0.1.4
-       Info /tmp/nimble_23543/githubcom_tervaythenimalliance/the_nim_alliance_23543.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /tmp/nimble_23543/githubcom_tervaythenimalliance/the_nim_alliance_23543.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
-  Verifying dependencies for the_nim_alliance@0.1.4
-   Warning: No nimblemeta.json file found in /home/runner/.nimble/pkgs/treesitter_typescript-0.1.1
- Installing the_nim_alliance@0.1.4
-    Copying file /tmp/nimble_23543/githubcom_tervaythenimalliance/src/the_nim_alliance.nim to /home/runner/.nimble/pkgs/the_nim_alliance-0.1.4/the_nim_alliance.nim
-    Copying file /tmp/nimble_23543/githubcom_tervaythenimalliance/the_nim_alliance.nimble to /home/runner/.nimble/pkgs/the_nim_alliance-0.1.4/the_nim_alliance.nimble
-   Success: the_nim_alliance installed successfully.
-       Info /home/runner/.nimble/pkgs/the_nim_alliance-0.1.4/the_nim_alliance_23543.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /home/runner/.nimble/pkgs/the_nim_alliance-0.1.4/the_nim_alliance_23543.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_23543', 0x00000000000001ff)
-mkdir('/tmp/nimble_23543/githubcom_tervaythenimalliance', 0x00000000000001ff)
-rmdir('/tmp/nimble_23543/githubcom_tervaythenimalliance')
-mkdir('/tmp/nimble_23543/githubcom_tervaythenimalliance', 0x00000000000001ff)
-mkdir('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/HEAD.lock', '/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/HEAD')
-rename('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config.lock', '/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config')
-chmod('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config.lock', '/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config')
-chmod('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config.lock', '/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config')
-chmod('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config.lock', '/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/tA5ymxB')
-symlink('testing', '/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/tA5ymxB')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/tA5ymxB')
-mkdir('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config.lock', '/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config')
-chmod('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config.lock', '/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config')
-chmod('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config.lock', '/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config')
-link('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects/pack/tmp_pack_NSuc9j', '/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects/pack/pack-47fefa12b47a192c1838e905853dcd67af9f15e9.pack')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects/pack/tmp_pack_NSuc9j')
-link('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects/pack/tmp_idx_zpB3Hw', '/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects/pack/pack-47fefa12b47a192c1838e905853dcd67af9f15e9.idx')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects/pack/tmp_idx_zpB3Hw')
-rename('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/shallow.lock', '/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/shallow')
-rename('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/packed-refs.new', '/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/packed-refs')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/packed-refs.lock')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/refs/tags/v0.1.4.lock')
-mkdir('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/HEAD.lock', '/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/HEAD')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects/pack/pack-47fefa12b47a192c1838e905853dcd67af9f15e9.keep')
+mkdir('/tmp/nimble_24790', 0x00000000000001ff)
+mkdir('/tmp/nimble_24790/githubcom_tervaythenimalliance', 0x00000000000001ff)
+rmdir('/tmp/nimble_24790/githubcom_tervaythenimalliance')
+mkdir('/tmp/nimble_24790/githubcom_tervaythenimalliance', 0x00000000000001ff)
+mkdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/HEAD.lock', '/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/HEAD')
+rename('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config.lock', '/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config')
+chmod('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config.lock', '/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config')
+chmod('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config.lock', '/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config')
+chmod('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config.lock', '/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/tI9mPuL')
+symlink('testing', '/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/tI9mPuL')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/tI9mPuL')
+mkdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config.lock', '/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config')
+chmod('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config.lock', '/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config')
+chmod('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config.lock', '/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config')
+mkdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/65', 0x00000000000001ff)
+link('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/65/tmp_obj_Q9YNzH', '/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/65/462de9446ae5537718b3637db28517c471b94a')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/65/tmp_obj_Q9YNzH')
+mkdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/a2', 0x00000000000001ff)
+link('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/a2/tmp_obj_SAqZzM', '/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/a2/f60c3da741cba6f3f213a7f31e80563e44f4d0')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/a2/tmp_obj_SAqZzM')
+mkdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/64', 0x00000000000001ff)
+link('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/64/tmp_obj_4A7gFQ', '/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/64/99ed07ed026e8d5fa785e9a21da10e33427167')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/64/tmp_obj_4A7gFQ')
+mkdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/f7', 0x00000000000001ff)
+link('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/f7/tmp_obj_QX4nvV', '/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/f7/ac94534ae4a8c52b86f63c14382019b111fae5')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/f7/tmp_obj_QX4nvV')
+mkdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/b0', 0x00000000000001ff)
+link('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/b0/tmp_obj_gh81z1', '/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/b0/f546dfe7998470a1cc1e41e78f4f7428e38cdf')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/b0/tmp_obj_gh81z1')
+mkdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/e6', 0x00000000000001ff)
+link('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/e6/tmp_obj_MlIzO5', '/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/e6/298c3b0c023eda8043d23d101f4636458259f4')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/e6/tmp_obj_MlIzO5')
+mkdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/97', 0x00000000000001ff)
+link('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/97/tmp_obj_eeDkja', '/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/97/4aa65f51ab465b570e329dc49f334510834ee3')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/97/tmp_obj_eeDkja')
+mkdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/74', 0x00000000000001ff)
+link('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/74/tmp_obj_IhHH4b', '/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/74/2a2b7bf18785bc8aaca0a299d852beeaa0c618')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/74/tmp_obj_IhHH4b')
+mkdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/3b', 0x00000000000001ff)
+link('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/3b/tmp_obj_Q5Ysug', '/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/3b/tmp_obj_Q5Ysug')
+mkdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/d4', 0x00000000000001ff)
+link('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/d4/tmp_obj_Fi9era', '/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/d4/ce0fad714369f7bd3d64c5ce2942e598d7fe8d')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/d4/tmp_obj_Fi9era')
+mkdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/f0', 0x00000000000001ff)
+link('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/f0/tmp_obj_t6VJbh', '/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/f0/f636cf5f89269e28c0d8d89a3a13f1e392fd6a')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/f0/tmp_obj_t6VJbh')
+rename('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/shallow.lock', '/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/shallow')
+rename('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/packed-refs.new', '/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/packed-refs')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/packed-refs.lock')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/refs/tags/v0.1.4.lock')
+mkdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/HEAD.lock', '/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/HEAD')       Info /tmp/nimble_24790/githubcom_tervaythenimalliance/the_nim_alliance_24790.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /tmp/nimble_24790/githubcom_tervaythenimalliance/the_nim_alliance_24790.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+  Verifying dependencies for the_nim_alliance@0.1.4
+ Installing the_nim_alliance@0.1.4
+    Copying file /tmp/nimble_24790/githubcom_tervaythenimalliance/src/the_nim_alliance.nim to /home/runner/.nimble/pkgs/the_nim_alliance-0.1.4/the_nim_alliance.nim
+    Copying file /tmp/nimble_24790/githubcom_tervaythenimalliance/the_nim_alliance.nimble to /home/runner/.nimble/pkgs/the_nim_alliance-0.1.4/the_nim_alliance.nimble
+   Success: the_nim_alliance installed successfully.
+       Info /home/runner/.nimble/pkgs/the_nim_alliance-0.1.4/the_nim_alliance_24790.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /home/runner/.nimble/pkgs/the_nim_alliance-0.1.4/the_nim_alliance_24790.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+
 mkdir('src', 0x00000000000001ff)
 mkdir('tests', 0x00000000000001ff)
-rename('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/index.lock', '/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/index')
+rename('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/index.lock', '/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/the_nim_alliance_1941351606', 0x00000000000001ff)
-unlink('/tmp/nimblecache/the_nim_alliance_1941351606/the_nim_alliance.ini')
-unlink('/tmp/nimble_23543.out')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/the_nim_alliance_23543.nims')
+mkdir('/tmp/nimblecache/the_nim_alliance_3068048121', 0x00000000000001ff)
+unlink('/tmp/nimblecache/the_nim_alliance_3068048121/the_nim_alliance.ini')
+unlink('/tmp/nimble_24790.out')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/the_nim_alliance_24790.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -82,107 +109,155 @@ mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/the_nim_alliance_1548023356', 0x00000000000001ff)
 unlink('/tmp/nimblecache/the_nim_alliance_1548023356/the_nim_alliance.ini')
-unlink('/tmp/nimble_23543.out')
-unlink('/home/runner/.nimble/pkgs/the_nim_alliance-0.1.4/the_nim_alliance_23543.nims')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/LICENSE.txt')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/src/the_nim_alliance.nim')
-rmdir('/tmp/nimble_23543/githubcom_tervaythenimalliance/src')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.gitignore')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/HEAD')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/logs/HEAD')
-rmdir('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/logs')
-rmdir('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/branches')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/packed-refs')
-rmdir('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/refs/heads')
-rmdir('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/refs/tags')
-rmdir('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/refs')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks/update.sample')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/index')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/info/exclude')
-rmdir('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/info')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/shallow')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/description')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects/pack/pack-47fefa12b47a192c1838e905853dcd67af9f15e9.pack')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects/pack/pack-47fefa12b47a192c1838e905853dcd67af9f15e9.idx')
-rmdir('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects/pack')
-rmdir('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects/info')
-rmdir('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects')
-rmdir('/tmp/nimble_23543/githubcom_tervaythenimalliance/.git')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/the_nim_alliance.nimble')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/README.md')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/tests/test1.nim')
-unlink('/tmp/nimble_23543/githubcom_tervaythenimalliance/tests/config.nims')
-rmdir('/tmp/nimble_23543/githubcom_tervaythenimalliance/tests')
-rmdir('/tmp/nimble_23543/githubcom_tervaythenimalliance')
-rmdir('/tmp/nimble_23543')
+unlink('/tmp/nimble_24790.out')
+unlink('/home/runner/.nimble/pkgs/the_nim_alliance-0.1.4/the_nim_alliance_24790.nims')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/the_nim_alliance.nimble')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/README.md')
+rmdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/refs/tags')
+rmdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/refs/heads')
+rmdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/refs')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/info/exclude')
+rmdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/info')
+rmdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/branches')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/logs/HEAD')
+rmdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/logs')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/description')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks/update.sample')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/shallow')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/index')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/97/4aa65f51ab465b570e329dc49f334510834ee3')
+rmdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/97')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/64/99ed07ed026e8d5fa785e9a21da10e33427167')
+rmdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/64')
+rmdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/info')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/b0/f546dfe7998470a1cc1e41e78f4f7428e38cdf')
+rmdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/b0')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/a2/f60c3da741cba6f3f213a7f31e80563e44f4d0')
+rmdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/a2')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/f7/ac94534ae4a8c52b86f63c14382019b111fae5')
+rmdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/f7')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/f0/f636cf5f89269e28c0d8d89a3a13f1e392fd6a')
+rmdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/f0')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6')
+rmdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/3b')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/65/462de9446ae5537718b3637db28517c471b94a')
+rmdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/65')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/74/2a2b7bf18785bc8aaca0a299d852beeaa0c618')
+rmdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/74')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/d4/ce0fad714369f7bd3d64c5ce2942e598d7fe8d')
+rmdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/d4')
+rmdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/pack')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/e6/298c3b0c023eda8043d23d101f4636458259f4')
+rmdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/e6')
+rmdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/packed-refs')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git/HEAD')
+rmdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/.git')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/src/the_nim_alliance.nim')
+rmdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/src')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/LICENSE.txt')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/tests/config.nims')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/tests/test1.nim')
+rmdir('/tmp/nimble_24790/githubcom_tervaythenimalliance/tests')
+unlink('/tmp/nimble_24790/githubcom_tervaythenimalliance/.gitignore')
+rmdir('/tmp/nimble_24790/githubcom_tervaythenimalliance')
+rmdir('/tmp/nimble_24790')
   create directory /tmp
-  create directory /tmp/nimble_23543
-  create directory /tmp/nimble_23543/githubcom_tervaythenimalliance
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance
-  create directory /tmp/nimble_23543/githubcom_tervaythenimalliance
-  create directory /tmp/nimble_23543/githubcom_tervaythenimalliance/.git
-  create directory /tmp/nimble_23543/githubcom_tervaythenimalliance/.git
-  create directory /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/branches
-  create directory /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks
-  create directory /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/info
-  create directory /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/refs
-  create directory /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/refs/heads
-  create directory /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/refs/tags
-  rename /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config.lock to config
-  change permissions of /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config.lock to config
-  change permissions of /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config.lock to config
-  change permissions of /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config.lock to config
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/tA5ymxB
-  create symbolic link from /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/tA5ymxB to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/tA5ymxB
-  create directory /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects
-  create directory /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects/pack
-  create directory /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects/info
-  change permissions of /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config.lock to config
-  change permissions of /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config.lock to config
-  change permissions of /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config.lock to config
-  create hard link from /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects/pack/pack-47fefa12b47a192c1838e905853dcd67af9f15e9.pack to /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects/pack/tmp_pack_NSuc9j
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects/pack/tmp_pack_NSuc9j
-  create hard link from /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects/pack/pack-47fefa12b47a192c1838e905853dcd67af9f15e9.idx to /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects/pack/tmp_idx_zpB3Hw
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects/pack/tmp_idx_zpB3Hw
-  rename /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/shallow.lock to shallow
-  rename /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/packed-refs.lock
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/refs/tags/v0.1.4.lock
-  create directory /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/logs
-  rename /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects/pack/pack-47fefa12b47a192c1838e905853dcd67af9f15e9.keep
-  create directory /tmp/nimble_23543/githubcom_tervaythenimalliance/src
-  create directory /tmp/nimble_23543/githubcom_tervaythenimalliance/tests
-  rename /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/index.lock to index
+  create directory /tmp/nimble_24790
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance/.git
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance/.git
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/info
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/branches
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/refs
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/refs/heads
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/refs/tags
+  rename /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config.lock to config
+  change permissions of /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config.lock to config
+  change permissions of /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config.lock to config
+  change permissions of /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config.lock to config
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/tI9mPuL
+  create symbolic link from /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/tI9mPuL to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/tI9mPuL
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/pack
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/info
+  change permissions of /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config.lock to config
+  change permissions of /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config.lock to config
+  change permissions of /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config.lock to config
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/65
+  create hard link from /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/65/462de9446ae5537718b3637db28517c471b94a to /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/65/tmp_obj_Q9YNzH
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/65/tmp_obj_Q9YNzH
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/a2
+  create hard link from /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/a2/f60c3da741cba6f3f213a7f31e80563e44f4d0 to /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/a2/tmp_obj_SAqZzM
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/a2/tmp_obj_SAqZzM
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/64
+  create hard link from /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/64/99ed07ed026e8d5fa785e9a21da10e33427167 to /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/64/tmp_obj_4A7gFQ
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/64/tmp_obj_4A7gFQ
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/f7
+  create hard link from /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/f7/ac94534ae4a8c52b86f63c14382019b111fae5 to /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/f7/tmp_obj_QX4nvV
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/f7/tmp_obj_QX4nvV
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/b0
+  create hard link from /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/b0/f546dfe7998470a1cc1e41e78f4f7428e38cdf to /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/b0/tmp_obj_gh81z1
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/b0/tmp_obj_gh81z1
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/e6
+  create hard link from /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/e6/298c3b0c023eda8043d23d101f4636458259f4 to /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/e6/tmp_obj_MlIzO5
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/e6/tmp_obj_MlIzO5
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/97
+  create hard link from /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/97/4aa65f51ab465b570e329dc49f334510834ee3 to /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/97/tmp_obj_eeDkja
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/97/tmp_obj_eeDkja
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/74
+  create hard link from /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/74/2a2b7bf18785bc8aaca0a299d852beeaa0c618 to /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/74/tmp_obj_IhHH4b
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/74/tmp_obj_IhHH4b
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/3b
+  create hard link from /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6 to /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/3b/tmp_obj_Q5Ysug
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/3b/tmp_obj_Q5Ysug
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/d4
+  create hard link from /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/d4/ce0fad714369f7bd3d64c5ce2942e598d7fe8d to /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/d4/tmp_obj_Fi9era
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/d4/tmp_obj_Fi9era
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/f0
+  create hard link from /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/f0/f636cf5f89269e28c0d8d89a3a13f1e392fd6a to /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/f0/tmp_obj_t6VJbh
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/f0/tmp_obj_t6VJbh
+  rename /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/shallow.lock to shallow
+  rename /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/packed-refs.lock
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/refs/tags/v0.1.4.lock
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/logs
+  rename /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance/src
+  create directory /tmp/nimble_24790/githubcom_tervaythenimalliance/tests
+  rename /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/the_nim_alliance_1941351606
-  delete /tmp/nimblecache/the_nim_alliance_1941351606/the_nim_alliance.ini
-  delete /tmp/nimble_23543.out
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/the_nim_alliance_23543.nims
+  create directory /tmp/nimblecache/the_nim_alliance_3068048121
+  delete /tmp/nimblecache/the_nim_alliance_3068048121/the_nim_alliance.ini
+  delete /tmp/nimble_24790.out
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/the_nim_alliance_24790.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -199,49 +274,69 @@ rmdir('/tmp/nimble_23543')
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/the_nim_alliance_1548023356
   delete /tmp/nimblecache/the_nim_alliance_1548023356/the_nim_alliance.ini
-  delete /tmp/nimble_23543.out
-  delete /home/runner/.nimble/pkgs/the_nim_alliance-0.1.4/the_nim_alliance_23543.nims
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/LICENSE.txt
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/src/the_nim_alliance.nim
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/src
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.gitignore
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/HEAD
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/config
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/logs/HEAD
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/logs
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/branches
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/packed-refs
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/refs/heads
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/refs/tags
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/refs
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks/pre-push.sample
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks/update.sample
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks/post-update.sample
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/hooks
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/index
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/info/exclude
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/info
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/shallow
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/description
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects/pack/pack-47fefa12b47a192c1838e905853dcd67af9f15e9.pack
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects/pack/pack-47fefa12b47a192c1838e905853dcd67af9f15e9.idx
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects/pack
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects/info
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git/objects
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/.git
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/the_nim_alliance.nimble
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/README.md
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/tests/test1.nim
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/tests/config.nims
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance/tests
-  delete /tmp/nimble_23543/githubcom_tervaythenimalliance
-  delete /tmp/nimble_23543
+  delete /tmp/nimble_24790.out
+  delete /home/runner/.nimble/pkgs/the_nim_alliance-0.1.4/the_nim_alliance_24790.nims
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/the_nim_alliance.nimble
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/README.md
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/refs/tags
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/refs/heads
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/refs
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/info/exclude
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/info
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/branches
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/logs/HEAD
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/logs
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/description
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks/pre-push.sample
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks/update.sample
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks/post-update.sample
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/hooks
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/shallow
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/config
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/index
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/97/4aa65f51ab465b570e329dc49f334510834ee3
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/97
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/64/99ed07ed026e8d5fa785e9a21da10e33427167
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/64
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/info
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/b0/f546dfe7998470a1cc1e41e78f4f7428e38cdf
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/b0
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/a2/f60c3da741cba6f3f213a7f31e80563e44f4d0
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/a2
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/f7/ac94534ae4a8c52b86f63c14382019b111fae5
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/f7
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/f0/f636cf5f89269e28c0d8d89a3a13f1e392fd6a
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/f0
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/3b
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/65/462de9446ae5537718b3637db28517c471b94a
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/65
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/74/2a2b7bf18785bc8aaca0a299d852beeaa0c618
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/74
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/d4/ce0fad714369f7bd3d64c5ce2942e598d7fe8d
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/d4
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/pack
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/e6/298c3b0c023eda8043d23d101f4636458259f4
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects/e6
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/objects
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/packed-refs
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git/HEAD
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.git
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/src/the_nim_alliance.nim
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/src
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/LICENSE.txt
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/tests/config.nims
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/tests/test1.nim
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/tests
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance/.gitignore
+  delete /tmp/nimble_24790/githubcom_tervaythenimalliance
+  delete /tmp/nimble_24790
