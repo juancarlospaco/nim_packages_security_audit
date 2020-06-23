@@ -4,188 +4,268 @@ Downloading https://github.com/rspeer/wiki2text.git using git
   Verifying dependencies for wiki2text@0.2.1
  Installing wiki2text@0.2.1
    Building wiki2text/wiki2text using c backend
+  Executing "/home/runner/.nimble/bin/nim" c --noNimblePath -d:NimblePkgVersion=0.2.1 -d:release -o:"/tmp/nimble_3752/githubcom_rspeerwiki2textgit/wiki2text" "/tmp/nimble_3752/githubcom_rspeerwiki2textgit/wiki2text.nim"
     Prompt: Build failed for 'wiki2text@0.2.1', would you like to try installing 'wiki2text@#head' (latest unstable)? -> [forced yes]
     Reading official package list
 Downloading https://github.com/rspeer/wiki2text.git using git
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit', 0x00000000000001ff)
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit')
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/HEAD.lock', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/HEAD')
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config.lock', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config')
-chmod('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config.lock', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config')
-chmod('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config.lock', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config')
-chmod('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config.lock', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/tvP20nt')
-symlink('testing', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/tvP20nt')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/tvP20nt')
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config.lock', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config')
-chmod('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config.lock', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config')
-chmod('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config.lock', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config')
-link('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects/pack/tmp_pack_bdqOhV', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects/pack/pack-244bed77234d797319df30df80456565b15bcb40.pack')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects/pack/tmp_pack_bdqOhV')
-link('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects/pack/tmp_idx_brJ4q1', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects/pack/pack-244bed77234d797319df30df80456565b15bcb40.idx')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects/pack/tmp_idx_brJ4q1')
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/shallow.lock', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/shallow')
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/packed-refs.new', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/packed-refs')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/packed-refs.lock')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/refs/tags/v0.2.1.lock')
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/HEAD.lock', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/HEAD')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects/pack/pack-244bed77234d797319df30df80456565b15bcb40.keep')
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/index.lock', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/index')
+mkdir('/tmp/nimble_3752', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit', 0x00000000000001ff)
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit')
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/HEAD.lock', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/HEAD')
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config.lock', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config')
+chmod('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config.lock', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config')
+chmod('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config.lock', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config')
+chmod('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config.lock', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/twL9YTa')
+symlink('testing', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/twL9YTa')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/twL9YTa')
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config.lock', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config')
+chmod('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config.lock', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config')
+chmod('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config.lock', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config')
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/ae', 0x00000000000001ff)
+link('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/ae/tmp_obj_hmIaPd', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/ae/50e5c7f69be643099d90ed6ca7c0fd9501ebf4')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/ae/tmp_obj_hmIaPd')
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/9b', 0x00000000000001ff)
+link('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/9b/tmp_obj_pgJfOg', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/9b/c0a7d7ee5a737162b293167b49366def09affd')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/9b/tmp_obj_pgJfOg')
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/90', 0x00000000000001ff)
+link('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/90/tmp_obj_w2F2pa', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/90/5ec3ba4b2d8685d0e4db1e43b3119d48b26773')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/90/tmp_obj_w2F2pa')
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/58', 0x00000000000001ff)
+link('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/58/tmp_obj_4tdDlg', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/58/9f416eade09b9f8b5270160aa64c131abfd03a')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/58/tmp_obj_4tdDlg')
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/df', 0x00000000000001ff)
+link('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/df/tmp_obj_6IQv3i', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/df/d893d7f2956ea2a7aa5527729e4068633faccc')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/df/tmp_obj_6IQv3i')
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/e2', 0x00000000000001ff)
+link('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/e2/tmp_obj_CvTqqm', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/e2/ccafcd3a079d9f70364d52b1f19546f11f4b1e')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/e2/tmp_obj_CvTqqm')
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/b1', 0x00000000000001ff)
+link('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/b1/tmp_obj_oKQJTs', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/b1/e4f61d757c8337a530c5a917f64f8336853e1d')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/b1/tmp_obj_oKQJTs')
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/92', 0x00000000000001ff)
+link('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/92/tmp_obj_al7set', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/92/377ad75d9809ae2693ab3ca953faacfa01649b')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/92/tmp_obj_al7set')
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/shallow.lock', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/shallow')
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/packed-refs.new', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/packed-refs')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/packed-refs.lock')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/refs/tags/v0.2.1.lock')
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/HEAD.lock', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/HEAD')
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/index.lock', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head', 0x00000000000001ff)
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head')
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/HEAD.lock', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/HEAD')
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config')
-chmod('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config')
-chmod('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config')
-chmod('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/t6nrhq1')
-symlink('testing', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/t6nrhq1')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/t6nrhq1')
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config')
-chmod('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config')
-chmod('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config')  Verifying dependencies for wiki2text@#head
+mkdir('/tmp/nimble_3752', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head', 0x00000000000001ff)
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head')
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/HEAD.lock', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/HEAD')
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config')  Verifying dependencies for wiki2text@#head
  Installing wiki2text@#head
    Building wiki2text/wiki2text using c backend
+  Executing "/home/runner/.nimble/bin/nim" c --noNimblePath -d:NimblePkgVersion=0.2.1 -d:release -o:"/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/wiki2text" "/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/wiki2text.nim"
 
-link('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects/pack/tmp_pack_tIVGYW', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects/pack/pack-7d6e02badbacb12cf1cf4d6a29871db4a0333b94.pack')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects/pack/tmp_pack_tIVGYW')
-link('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects/pack/tmp_idx_h68jPX', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects/pack/pack-7d6e02badbacb12cf1cf4d6a29871db4a0333b94.idx')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects/pack/tmp_idx_h68jPX')
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/shallow.lock', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/shallow')
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/packed-refs.new', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/packed-refs')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/packed-refs.lock')
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs/remotes/origin', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/logs', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/logs/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/remotes/origin', 0x00000000000001ff)
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs/remotes/origin/HEAD')
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/HEAD.lock', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/HEAD')
-mkdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/heads', 0x00000000000001ff)
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs/heads/master.lock', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs/heads/master')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/HEAD.lock')
-chmod('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config')
-chmod('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects/pack/pack-7d6e02badbacb12cf1cf4d6a29871db4a0333b94.keep')
-rename('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/index.lock', '/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/index')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/Makefile')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/wiki2text.nim')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/README.md')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/refs/heads')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/refs/tags')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/refs')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/logs/HEAD')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/logs')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/packed-refs')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/HEAD')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/description')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks/update.sample')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks/post-update.sample')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks/pre-merge-commit.sample')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects/pack/pack-244bed77234d797319df30df80456565b15bcb40.pack')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects/pack/pack-244bed77234d797319df30df80456565b15bcb40.idx')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects/pack')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects/info')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/branches')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/index')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/info/exclude')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/info')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/shallow')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/.gitignore')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/wiki2text.nimble')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit/LICENSE.txt')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/Makefile')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/wiki2text.nim')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/README.md')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs/remotes/origin')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs/remotes')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs/heads/master')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs/heads')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs/tags')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/remotes/origin')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/remotes')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/heads/master')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/heads')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/logs/refs')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/logs/HEAD')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/logs')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/packed-refs')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/HEAD')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/description')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/pre-rebase.sample')     Error: Build failed for package: wiki2text
+chmod('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config')
+chmod('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config')
+chmod('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/t7j3ZNL')
+symlink('testing', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/t7j3ZNL')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/t7j3ZNL')
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config')
+chmod('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config')
+chmod('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config')
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/18', 0x00000000000001ff)
+link('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/18/tmp_obj_vmAcDy', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/18/59b9e336c8cdbb698b6b1a24cb077e18c094e5')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/18/tmp_obj_vmAcDy')
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/59', 0x00000000000001ff)
+link('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/59/tmp_obj_zKD2tD', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/59/1c913813aff822a9b9a029751d89101fd9f8a1')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/59/tmp_obj_zKD2tD')
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/90', 0x00000000000001ff)
+link('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/90/tmp_obj_HsajVG', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/90/5ec3ba4b2d8685d0e4db1e43b3119d48b26773')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/90/tmp_obj_HsajVG')
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/58', 0x00000000000001ff)
+link('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/58/tmp_obj_v4sBJH', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/58/9f416eade09b9f8b5270160aa64c131abfd03a')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/58/tmp_obj_v4sBJH')
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/df', 0x00000000000001ff)
+link('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/df/tmp_obj_l7qadL', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/df/d893d7f2956ea2a7aa5527729e4068633faccc')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/df/tmp_obj_l7qadL')
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/bf', 0x00000000000001ff)
+link('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/bf/tmp_obj_rcs4FN', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/bf/62668910ad54e205e6e852005fab679d25d921')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/bf/tmp_obj_rcs4FN')
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/b1', 0x00000000000001ff)
+link('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/b1/tmp_obj_hpjBhQ', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/b1/e4f61d757c8337a530c5a917f64f8336853e1d')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/b1/tmp_obj_hpjBhQ')
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/92', 0x00000000000001ff)
+link('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/92/tmp_obj_D2jeVO', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/92/377ad75d9809ae2693ab3ca953faacfa01649b')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/92/tmp_obj_D2jeVO')
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/shallow.lock', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/shallow')
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/packed-refs.new', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/packed-refs')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/packed-refs.lock')
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/HEAD.lock', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/HEAD')
+mkdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs/heads/master.lock', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs/heads/master')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/HEAD.lock')
+chmod('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config')
+chmod('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config')
+rename('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/index.lock', '/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/index')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/README.md')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/refs/tags')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/refs/heads')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/refs')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/info/exclude')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/info')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/branches')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/logs/HEAD')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/logs')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/description')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks/update.sample')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/shallow')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/index')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/b1/e4f61d757c8337a530c5a917f64f8336853e1d')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/b1')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/info')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/e2/ccafcd3a079d9f70364d52b1f19546f11f4b1e')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/e2')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/ae/50e5c7f69be643099d90ed6ca7c0fd9501ebf4')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/ae')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/9b/c0a7d7ee5a737162b293167b49366def09affd')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/9b')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/df/d893d7f2956ea2a7aa5527729e4068633faccc')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/df')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/58/9f416eade09b9f8b5270160aa64c131abfd03a')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/58')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/92/377ad75d9809ae2693ab3ca953faacfa01649b')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/92')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/pack')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/90/5ec3ba4b2d8685d0e4db1e43b3119d48b26773')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/90')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/packed-refs')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/HEAD')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/wiki2text.nim')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/Makefile')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/wiki2text.nimble')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/LICENSE.txt')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit/.gitignore')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/README.md')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs/remotes')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs/tags')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs/heads/master')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs/heads')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/info/exclude')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/info')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/branches')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/remotes')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/heads')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/logs/refs')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/logs/HEAD')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/logs')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/description')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks/update.sample')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/shallow')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/index')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/b1/e4f61d757c8337a530c5a917f64f8336853e1d')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/b1')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/info')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/df/d893d7f2956ea2a7aa5527729e4068633faccc')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/df')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/bf/62668910ad54e205e6e852005fab679d25d921')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/bf')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/58/9f416eade09b9f8b5270160aa64c131abfd03a')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/58')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/92/377ad75d9809ae2693ab3ca953faacfa01649b')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/92')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/59/1c913813aff822a9b9a029751d89101fd9f8a1')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/59')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/18/59b9e336c8cdbb698b6b1a24cb077e18c094e5')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/18')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/pack')     Error: Build failed for package: wiki2text
         ... Details:
         ... Execution failed with exit code 1
-        ... Command: "/home/runner/.nimble/bin/nim" c --noNimblePath -d:NimblePkgVersion=0.2.1 -d:release -o:"/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/wiki2text" "/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/wiki2text.nim"
-        ... Output: Hint: used config file '/home/runner/.choosenim/toolchains/nim-1.2.0/config/nim.cfg' [Conf]
+        ... Command: "/home/runner/.nimble/bin/nim" c --noNimblePath -d:NimblePkgVersion=0.2.1 -d:release -o:"/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/wiki2text" "/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/wiki2text.nim"
+        ... Output: Hint: used config file '/home/runner/.choosenim/toolchains/nim-1.2.2/config/nim.cfg' [Conf]
         ... Hint: system [Processing]
         ... Hint: widestrs [Processing]
         ... Hint: io [Processing]
@@ -211,8 +291,8 @@ unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/pre-rebas
         ... Hint: times [Processing]
         ... Hint: options [Processing]
         ... Hint: typetraits [Processing]
-        ... /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/wiki2text.nim(10, 50) Warning: Use the 'parseopt' module instead; parseopt2 is deprecated [Deprecated]
-        ... /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/wiki2text.nim(125, 53) Error: type mismatch: got <int>
+        ... /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/wiki2text.nim(10, 50) Warning: Use the 'parseopt' module instead; parseopt2 is deprecated [Deprecated]
+        ... /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/wiki2text.nim(125, 53) Error: type mismatch: got <int>
         ... but expected one of: 
         ... proc `<`(x, y: int): bool
         ...   first type mismatch at position: 2
@@ -223,225 +303,279 @@ unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/pre-rebas
         ... 19 other mismatching symbols have been suppressed; compile with --showAllMismatches:on to see them
         ... expression: <pos
 
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/update.sample')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/post-update.sample')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/pre-merge-commit.sample')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects/pack/pack-7d6e02badbacb12cf1cf4d6a29871db4a0333b94.idx')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects/pack/pack-7d6e02badbacb12cf1cf4d6a29871db4a0333b94.pack')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects/pack')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects/info')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/branches')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/index')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/info/exclude')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/info')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/shallow')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.gitignore')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/wiki2text.nimble')
-unlink('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/LICENSE.txt')
-rmdir('/tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head')
-rmdir('/tmp/nimble_5393')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/90/5ec3ba4b2d8685d0e4db1e43b3119d48b26773')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/90')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/packed-refs')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/HEAD')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/wiki2text.nim')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/Makefile')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/wiki2text.nimble')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/LICENSE.txt')
+unlink('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.gitignore')
+rmdir('/tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head')
+rmdir('/tmp/nimble_3752')
   create directory /tmp
-  create directory /tmp/nimble_5393
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/branches
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/info
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/refs
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/refs/heads
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/refs/tags
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config.lock to config
-  change permissions of /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config.lock to config
-  change permissions of /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config.lock to config
-  change permissions of /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config.lock to config
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/tvP20nt
-  create symbolic link from /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/tvP20nt to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/tvP20nt
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects/pack
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects/info
-  change permissions of /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config.lock to config
-  change permissions of /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config.lock to config
-  change permissions of /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config.lock to config
-  create hard link from /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects/pack/pack-244bed77234d797319df30df80456565b15bcb40.pack to /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects/pack/tmp_pack_bdqOhV
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects/pack/tmp_pack_bdqOhV
-  create hard link from /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects/pack/pack-244bed77234d797319df30df80456565b15bcb40.idx to /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects/pack/tmp_idx_brJ4q1
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects/pack/tmp_idx_brJ4q1
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/shallow.lock to shallow
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/packed-refs.lock
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/refs/tags/v0.2.1.lock
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/logs
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects/pack/pack-244bed77234d797319df30df80456565b15bcb40.keep
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/index.lock to index
+  create directory /tmp/nimble_3752
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/info
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/branches
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/refs
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/refs/heads
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/refs/tags
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config.lock to config
+  change permissions of /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config.lock to config
+  change permissions of /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config.lock to config
+  change permissions of /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config.lock to config
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/twL9YTa
+  create symbolic link from /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/twL9YTa to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/twL9YTa
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/pack
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/info
+  change permissions of /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config.lock to config
+  change permissions of /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config.lock to config
+  change permissions of /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config.lock to config
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/ae
+  create hard link from /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/ae/50e5c7f69be643099d90ed6ca7c0fd9501ebf4 to /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/ae/tmp_obj_hmIaPd
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/ae/tmp_obj_hmIaPd
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/9b
+  create hard link from /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/9b/c0a7d7ee5a737162b293167b49366def09affd to /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/9b/tmp_obj_pgJfOg
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/9b/tmp_obj_pgJfOg
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/90
+  create hard link from /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/90/5ec3ba4b2d8685d0e4db1e43b3119d48b26773 to /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/90/tmp_obj_w2F2pa
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/90/tmp_obj_w2F2pa
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/58
+  create hard link from /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/58/9f416eade09b9f8b5270160aa64c131abfd03a to /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/58/tmp_obj_4tdDlg
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/58/tmp_obj_4tdDlg
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/df
+  create hard link from /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/df/d893d7f2956ea2a7aa5527729e4068633faccc to /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/df/tmp_obj_6IQv3i
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/df/tmp_obj_6IQv3i
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/e2
+  create hard link from /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/e2/ccafcd3a079d9f70364d52b1f19546f11f4b1e to /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/e2/tmp_obj_CvTqqm
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/e2/tmp_obj_CvTqqm
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/b1
+  create hard link from /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/b1/e4f61d757c8337a530c5a917f64f8336853e1d to /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/b1/tmp_obj_oKQJTs
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/b1/tmp_obj_oKQJTs
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/92
+  create hard link from /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/92/377ad75d9809ae2693ab3ca953faacfa01649b to /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/92/tmp_obj_al7set
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/92/tmp_obj_al7set
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/shallow.lock to shallow
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/packed-refs.lock
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/refs/tags/v0.2.1.lock
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/logs
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/index.lock to index
   create directory /tmp
-  create directory /tmp/nimble_5393
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/branches
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/info
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs/heads
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs/tags
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock to config
-  change permissions of /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock to config
-  change permissions of /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock to config
-  change permissions of /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock to config
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/t6nrhq1
-  create symbolic link from /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/t6nrhq1 to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/t6nrhq1
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects/pack
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects/info
-  change permissions of /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock to config
-  change permissions of /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock to config
-  change permissions of /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock to config
-  create hard link from /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects/pack/pack-7d6e02badbacb12cf1cf4d6a29871db4a0333b94.pack to /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects/pack/tmp_pack_tIVGYW
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects/pack/tmp_pack_tIVGYW
-  create hard link from /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects/pack/pack-7d6e02badbacb12cf1cf4d6a29871db4a0333b94.idx to /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects/pack/tmp_idx_h68jPX
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects/pack/tmp_idx_h68jPX
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/shallow.lock to shallow
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/packed-refs.lock
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs/remotes
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs/remotes/origin
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/logs
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/logs/refs
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/remotes
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/remotes/origin
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs/remotes/origin/HEAD.lock to HEAD
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/HEAD.lock to HEAD
-  create directory /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/heads
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs/heads/master.lock to master
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/HEAD.lock
-  change permissions of /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock to config
-  change permissions of /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config.lock to config
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects/pack/pack-7d6e02badbacb12cf1cf4d6a29871db4a0333b94.keep
-  rename /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/index.lock to index
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/Makefile
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/wiki2text.nim
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/README.md
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/refs/heads
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/refs/tags
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/refs
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/config
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/logs/HEAD
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/logs
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/packed-refs
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/HEAD
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/description
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks/update.sample
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks/pre-push.sample
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks/post-update.sample
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/hooks
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects/pack/pack-244bed77234d797319df30df80456565b15bcb40.pack
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects/pack/pack-244bed77234d797319df30df80456565b15bcb40.idx
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects/pack
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects/info
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/objects
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/branches
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/index
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/info/exclude
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/info
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git/shallow
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.git
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/.gitignore
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/wiki2text.nimble
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit/LICENSE.txt
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/Makefile
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/wiki2text.nim
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/README.md
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs/remotes/origin/HEAD
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs/remotes/origin
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs/remotes
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs/heads/master
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs/heads
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs/tags
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/refs
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/config
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/remotes/origin/HEAD
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/remotes/origin
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/remotes
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/heads/master
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/heads
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/logs/refs
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/logs/HEAD
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/logs
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/packed-refs
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/HEAD
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/description
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/update.sample
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/pre-push.sample
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/post-update.sample
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/hooks
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects/pack/pack-7d6e02badbacb12cf1cf4d6a29871db4a0333b94.idx
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects/pack/pack-7d6e02badbacb12cf1cf4d6a29871db4a0333b94.pack
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects/pack
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects/info
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/objects
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/branches
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/index
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/info/exclude
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/info
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git/shallow
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.git
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/.gitignore
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/wiki2text.nimble
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head/LICENSE.txt
-  delete /tmp/nimble_5393/githubcom_rspeerwiki2textgit_#head
-  delete /tmp/nimble_5393
+  create directory /tmp/nimble_3752
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/info
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/branches
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs/heads
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs/tags
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock to config
+  change permissions of /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock to config
+  change permissions of /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock to config
+  change permissions of /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock to config
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/t7j3ZNL
+  create symbolic link from /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/t7j3ZNL to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/t7j3ZNL
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/pack
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/info
+  change permissions of /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock to config
+  change permissions of /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock to config
+  change permissions of /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock to config
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/18
+  create hard link from /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/18/59b9e336c8cdbb698b6b1a24cb077e18c094e5 to /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/18/tmp_obj_vmAcDy
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/18/tmp_obj_vmAcDy
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/59
+  create hard link from /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/59/1c913813aff822a9b9a029751d89101fd9f8a1 to /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/59/tmp_obj_zKD2tD
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/59/tmp_obj_zKD2tD
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/90
+  create hard link from /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/90/5ec3ba4b2d8685d0e4db1e43b3119d48b26773 to /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/90/tmp_obj_HsajVG
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/90/tmp_obj_HsajVG
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/58
+  create hard link from /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/58/9f416eade09b9f8b5270160aa64c131abfd03a to /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/58/tmp_obj_v4sBJH
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/58/tmp_obj_v4sBJH
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/df
+  create hard link from /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/df/d893d7f2956ea2a7aa5527729e4068633faccc to /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/df/tmp_obj_l7qadL
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/df/tmp_obj_l7qadL
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/bf
+  create hard link from /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/bf/62668910ad54e205e6e852005fab679d25d921 to /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/bf/tmp_obj_rcs4FN
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/bf/tmp_obj_rcs4FN
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/b1
+  create hard link from /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/b1/e4f61d757c8337a530c5a917f64f8336853e1d to /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/b1/tmp_obj_hpjBhQ
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/b1/tmp_obj_hpjBhQ
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/92
+  create hard link from /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/92/377ad75d9809ae2693ab3ca953faacfa01649b to /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/92/tmp_obj_D2jeVO
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/92/tmp_obj_D2jeVO
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/shallow.lock to shallow
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/packed-refs.lock
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs/remotes
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs/remotes/origin
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/logs
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/logs/refs
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/remotes
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/heads
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/HEAD.lock
+  change permissions of /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock to config
+  change permissions of /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config.lock to config
+  rename /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/index.lock to index
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/README.md
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/refs/tags
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/refs/heads
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/refs
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/info/exclude
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/info
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/branches
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/logs/HEAD
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/logs
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/description
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks/pre-push.sample
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks/update.sample
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks/post-update.sample
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/hooks
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/shallow
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/config
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/index
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/b1/e4f61d757c8337a530c5a917f64f8336853e1d
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/b1
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/info
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/e2/ccafcd3a079d9f70364d52b1f19546f11f4b1e
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/e2
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/ae/50e5c7f69be643099d90ed6ca7c0fd9501ebf4
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/ae
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/9b/c0a7d7ee5a737162b293167b49366def09affd
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/9b
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/df/d893d7f2956ea2a7aa5527729e4068633faccc
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/df
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/58/9f416eade09b9f8b5270160aa64c131abfd03a
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/58
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/92/377ad75d9809ae2693ab3ca953faacfa01649b
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/92
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/pack
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/90/5ec3ba4b2d8685d0e4db1e43b3119d48b26773
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects/90
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/objects
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/packed-refs
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git/HEAD
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.git
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/wiki2text.nim
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/Makefile
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/wiki2text.nimble
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/LICENSE.txt
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit/.gitignore
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/README.md
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs/remotes/origin
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs/remotes
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs/tags
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs/heads/master
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs/heads
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/refs
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/info/exclude
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/info
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/branches
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/remotes
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/heads/master
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/logs/refs/heads
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/logs/refs
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/logs/HEAD
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/logs
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/description
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks/pre-push.sample
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks/update.sample
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks/post-update.sample
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/hooks
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/shallow
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/config
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/index
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/b1/e4f61d757c8337a530c5a917f64f8336853e1d
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/b1
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/info
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/df/d893d7f2956ea2a7aa5527729e4068633faccc
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/df
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/bf/62668910ad54e205e6e852005fab679d25d921
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/bf
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/58/9f416eade09b9f8b5270160aa64c131abfd03a
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/58
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/92/377ad75d9809ae2693ab3ca953faacfa01649b
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/92
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/59/1c913813aff822a9b9a029751d89101fd9f8a1
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/59
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/18/59b9e336c8cdbb698b6b1a24cb077e18c094e5
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/18
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/pack
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/90/5ec3ba4b2d8685d0e4db1e43b3119d48b26773
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects/90
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/objects
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/packed-refs
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git/HEAD
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.git
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/wiki2text.nim
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/Makefile
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/wiki2text.nimble
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/LICENSE.txt
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head/.gitignore
+  delete /tmp/nimble_3752/githubcom_rspeerwiki2textgit_#head
+  delete /tmp/nimble_3752

@@ -1,318 +1,464 @@
     Reading official package list
 Downloading https://github.com/niv/websocket.nim using git
-    Cloning latest tagged version: 0.4.1
-       Info /tmp/nimble_5598/githubcom_nivwebsocketnim/websocket_5598.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
-  Verifying dependencies for websocket@0.4.1
- Installing websocket@0.4.1
-    Copying file /tmp/nimble_5598/githubcom_nivwebsocketnim/websocket.nim to /home/runner/.nimble/pkgs/websocket-0.4.1/websocket.nim
-    Copying file /tmp/nimble_5598/githubcom_nivwebsocketnim/websocket/shared.nim to /home/runner/.nimble/pkgs/websocket-0.4.1/websocket/shared.nim
-    Copying file /tmp/nimble_5598/githubcom_nivwebsocketnim/websocket/client.nim to /home/runner/.nimble/pkgs/websocket-0.4.1/websocket/client.nim
-    Copying file /tmp/nimble_5598/githubcom_nivwebsocketnim/websocket/private/hex.nim to /home/runner/.nimble/pkgs/websocket-0.4.1/websocket/private/hex.nim
-    Copying file /tmp/nimble_5598/githubcom_nivwebsocketnim/websocket/server.nim to /home/runner/.nimble/pkgs/websocket-0.4.1/websocket/server.nim
-    Copying file /tmp/nimble_5598/githubcom_nivwebsocketnim/websocket.nimble to /home/runner/.nimble/pkgs/websocket-0.4.1/websocket.nimble
-   Success: websocket installed successfully.
-       Info /home/runner/.nimble/pkgs/websocket-0.4.1/websocket_5598.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+    Cloning latest tagged version: 0.5.0
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_5598', 0x00000000000001ff)
-mkdir('/tmp/nimble_5598/githubcom_nivwebsocketnim', 0x00000000000001ff)
-rmdir('/tmp/nimble_5598/githubcom_nivwebsocketnim')
-mkdir('/tmp/nimble_5598/githubcom_nivwebsocketnim', 0x00000000000001ff)
-mkdir('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/HEAD.lock', '/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/HEAD')
-rename('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config.lock', '/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config')
-chmod('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config.lock', '/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config')
-chmod('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config.lock', '/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config')
-chmod('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config.lock', '/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/teOyXoV')
-symlink('testing', '/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/teOyXoV')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/teOyXoV')
-mkdir('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config.lock', '/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config')
-chmod('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config.lock', '/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config')
-chmod('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config.lock', '/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config')
-link('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects/pack/tmp_pack_1u2Ulw', '/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects/pack/pack-9cbd026bc6d20fb6f2bf29a0d9dbfe38fe278f43.pack')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects/pack/tmp_pack_1u2Ulw')
-link('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects/pack/tmp_idx_NfaXVB', '/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects/pack/pack-9cbd026bc6d20fb6f2bf29a0d9dbfe38fe278f43.idx')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects/pack/tmp_idx_NfaXVB')
-rename('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/shallow.lock', '/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/shallow')
-rename('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/packed-refs.new', '/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/packed-refs')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/packed-refs.lock')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/refs/tags/0.4.1.lock')
-mkdir('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/HEAD.lock', '/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/HEAD')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects/pack/pack-9cbd026bc6d20fb6f2bf29a0d9dbfe38fe278f43.keep')
+mkdir('/tmp/nimble_4043', 0x00000000000001ff)
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim', 0x00000000000001ff)
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim')
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim', 0x00000000000001ff)
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/HEAD.lock', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/HEAD')
+rename('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config.lock', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config')
+chmod('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config.lock', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config')
+chmod('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config.lock', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config')
+chmod('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config.lock', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/tOQ5KxE')
+symlink('testing', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/tOQ5KxE')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/tOQ5KxE')
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config.lock', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config')
+chmod('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config.lock', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config')
+chmod('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config.lock', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config')
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/28', 0x00000000000001ff)
+link('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/28/tmp_obj_v5EkQs', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/28/cc44c8defc0b248b3abbc8205759b69a98f7f6')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/28/tmp_obj_v5EkQs')
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/3b', 0x00000000000001ff)
+link('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/3b/tmp_obj_x8x0Nt', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/3b/6238eb2981b9ea7ce7fc3be38d1ee792b1745d')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/3b/tmp_obj_x8x0Nt')
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/cf', 0x00000000000001ff)
+link('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/cf/tmp_obj_PN6X1x', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/cf/b82c26593885b994273913ae76ad4795352341')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/cf/tmp_obj_PN6X1x')
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/39', 0x00000000000001ff)
+link('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/39/tmp_obj_nXslZD', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/39/fe2160c46ead787584b9f7e94b36e57a0be885')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/39/tmp_obj_nXslZD')
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/d0', 0x00000000000001ff)
+link('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/d0/tmp_obj_HZIHrD', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/d0/1be59c9a69f4add1a7f97700e1a35caf2a1c2b')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/d0/tmp_obj_HZIHrD')
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/13', 0x00000000000001ff)
+link('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/13/tmp_obj_TZHaKF', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/13/8c38ac96696db27609316dead03dca8faf0680')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/13/tmp_obj_TZHaKF')
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/65', 0x00000000000001ff)
+link('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/65/tmp_obj_DxFYVH', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/65/7cc2cc38016bd4d66050980663f3d6357769a6')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/65/tmp_obj_DxFYVH')
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/2e', 0x00000000000001ff)
+link('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/2e/tmp_obj_9plcbL', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/2e/b71da3161d6f01498b0f1d0cc9eb6ac3780855')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/2e/tmp_obj_9plcbL')
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/ff', 0x00000000000001ff)
+link('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/ff/tmp_obj_933ykN', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/ff/278cf5cce06ccba60b6284fd6cd070b1bd1d7f')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/ff/tmp_obj_933ykN')
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/58', 0x00000000000001ff)
+link('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/58/tmp_obj_3GZTfQ', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/58/7ba3adc94544b7262a45c388bdaa833109dacf')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/58/tmp_obj_3GZTfQ')
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/35', 0x00000000000001ff)
+link('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/35/tmp_obj_bFqLJR', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/35/b63c9ca097b6727ed9fb09fcf08e1dbc6239bf')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/35/tmp_obj_bFqLJR')
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/4c', 0x00000000000001ff)
+link('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/4c/tmp_obj_jHJPiR', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/4c/29341d3c691415113c11b981bd0c9f0a52d037')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/4c/tmp_obj_jHJPiR')
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/4b', 0x00000000000001ff)
+link('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/4b/tmp_obj_9TMwqT', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/4b/fe055d163a6fe5cb34875209ee8299f09495b8')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/4b/tmp_obj_9TMwqT')
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/02', 0x00000000000001ff)
+link('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/02/tmp_obj_5913NX', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/02/29c128976b6e39405bafaad3b8a8163b23e2a7')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/02/tmp_obj_5913NX')
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/f7', 0x00000000000001ff)       Info /tmp/nimble_4043/githubcom_nivwebsocketnim/websocket_4043.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+  Verifying dependencies for websocket@0.5.0
+ Installing websocket@0.5.0
+    Copying file /tmp/nimble_4043/githubcom_nivwebsocketnim/websocket.nim to /home/runner/.nimble/pkgs/websocket-0.5.0/websocket.nim
+    Copying file /tmp/nimble_4043/githubcom_nivwebsocketnim/websocket/server.nim to /home/runner/.nimble/pkgs/websocket-0.5.0/websocket/server.nim
+    Copying file /tmp/nimble_4043/githubcom_nivwebsocketnim/websocket/client.nim to /home/runner/.nimble/pkgs/websocket-0.5.0/websocket/client.nim
+    Copying file /tmp/nimble_4043/githubcom_nivwebsocketnim/websocket/private/hex.nim to /home/runner/.nimble/pkgs/websocket-0.5.0/websocket/private/hex.nim
+    Copying file /tmp/nimble_4043/githubcom_nivwebsocketnim/websocket/shared.nim to /home/runner/.nimble/pkgs/websocket-0.5.0/websocket/shared.nim
+    Copying file /tmp/nimble_4043/githubcom_nivwebsocketnim/websocket.nimble to /home/runner/.nimble/pkgs/websocket-0.5.0/websocket.nimble
+   Success: websocket installed successfully.
+       Info /home/runner/.nimble/pkgs/websocket-0.5.0/websocket_4043.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+
+link('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/f7/tmp_obj_psMTf0', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/f7/fce2ed1678f42a77e2b97d7515cad3337c6e78')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/f7/tmp_obj_psMTf0')
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/42', 0x00000000000001ff)
+link('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/42/tmp_obj_t6nbw6', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/42/366bd099040b3adce3c1e18b0508f463d5fc58')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/42/tmp_obj_t6nbw6')
+rename('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/shallow.lock', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/shallow')
+rename('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/packed-refs.new', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/packed-refs')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/packed-refs.lock')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/refs/tags/0.5.0.lock')
+mkdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/HEAD.lock', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/HEAD')
 mkdir('examples', 0x00000000000001ff)
 mkdir('websocket', 0x00000000000001ff)
 mkdir('websocket/private', 0x00000000000001ff)
-rename('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/index.lock', '/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/index')
+rename('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/index.lock', '/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/websocket_1911787715', 0x00000000000001ff)
-unlink('/tmp/nimblecache/websocket_1911787715/websocket.ini')
-unlink('/tmp/nimble_5598.out')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/websocket_5598.nims')
+mkdir('/tmp/nimblecache/websocket_350286588', 0x00000000000001ff)
+unlink('/tmp/nimblecache/websocket_350286588/websocket.ini')
+unlink('/tmp/nimble_4043.out')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/websocket_4043.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/websocket-0.4.1', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/websocket-0.5.0', 0x00000000000001ff)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/websocket-0.4.1', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/websocket-0.4.1/websocket.nim', 0x00000000000001a4)
+mkdir('/home/runner/.nimble/pkgs/websocket-0.5.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/websocket-0.5.0/websocket.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/websocket-0.4.1', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/websocket-0.4.1/websocket', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/websocket-0.4.1/websocket/shared.nim', 0x00000000000001a4)
+mkdir('/home/runner/.nimble/pkgs/websocket-0.5.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/websocket-0.5.0/websocket', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/websocket-0.5.0/websocket/server.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/websocket-0.4.1', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/websocket-0.4.1/websocket', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/websocket-0.4.1/websocket/client.nim', 0x00000000000001a4)
+mkdir('/home/runner/.nimble/pkgs/websocket-0.5.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/websocket-0.5.0/websocket', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/websocket-0.5.0/websocket/client.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/websocket-0.4.1', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/websocket-0.4.1/websocket', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/websocket-0.4.1/websocket/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/websocket-0.4.1/websocket/private/hex.nim', 0x00000000000001a4)
+mkdir('/home/runner/.nimble/pkgs/websocket-0.5.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/websocket-0.5.0/websocket', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/websocket-0.5.0/websocket/private', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/websocket-0.5.0/websocket/private/hex.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/websocket-0.4.1', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/websocket-0.4.1/websocket', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/websocket-0.4.1/websocket/server.nim', 0x00000000000001a4)
-chmod('/home/runner/.nimble/pkgs/websocket-0.4.1/websocket.nimble', 0x00000000000001a4)
+mkdir('/home/runner/.nimble/pkgs/websocket-0.5.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/websocket-0.5.0/websocket', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/websocket-0.5.0/websocket/shared.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/websocket-0.5.0/websocket.nimble', 0x00000000000001a4)
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/websocket_2527379825', 0x00000000000001ff)
-unlink('/tmp/nimblecache/websocket_2527379825/websocket.ini')
-unlink('/tmp/nimble_5598.out')
-unlink('/home/runner/.nimble/pkgs/websocket-0.4.1/websocket_5598.nims')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/websocket.nim')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/examples/clientexample.nim')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/examples/serverexample.nim')
-rmdir('/tmp/nimble_5598/githubcom_nivwebsocketnim/examples')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/websocket/shared.nim')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/websocket/client.nim')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/websocket/private/hex.nim')
-rmdir('/tmp/nimble_5598/githubcom_nivwebsocketnim/websocket/private')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/websocket/server.nim')
-rmdir('/tmp/nimble_5598/githubcom_nivwebsocketnim/websocket')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/README.md')
-rmdir('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/refs/heads')
-rmdir('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/refs/tags')
-rmdir('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/refs')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/logs/HEAD')
-rmdir('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/logs')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/packed-refs')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/HEAD')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/description')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks/update.sample')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks/post-update.sample')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks/pre-merge-commit.sample')
-rmdir('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects/pack/pack-9cbd026bc6d20fb6f2bf29a0d9dbfe38fe278f43.pack')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects/pack/pack-9cbd026bc6d20fb6f2bf29a0d9dbfe38fe278f43.idx')
-rmdir('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects/pack')
-rmdir('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects/info')
-rmdir('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects')
-rmdir('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/branches')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/index')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/info/exclude')
-rmdir('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/info')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git/shallow')
-rmdir('/tmp/nimble_5598/githubcom_nivwebsocketnim/.git')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/websocket.nimble')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/.gitignore')
-unlink('/tmp/nimble_5598/githubcom_nivwebsocketnim/LICENCE')
-rmdir('/tmp/nimble_5598/githubcom_nivwebsocketnim')
-rmdir('/tmp/nimble_5598')
+mkdir('/tmp/nimblecache/websocket_64463001', 0x00000000000001ff)
+unlink('/tmp/nimblecache/websocket_64463001/websocket.ini')
+unlink('/tmp/nimble_4043.out')
+unlink('/home/runner/.nimble/pkgs/websocket-0.5.0/websocket_4043.nims')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/README.md')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/refs/tags')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/refs/heads')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/refs')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/info/exclude')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/info')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/branches')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/logs/HEAD')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/logs')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/description')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks/update.sample')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/shallow')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/index')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/2e/b71da3161d6f01498b0f1d0cc9eb6ac3780855')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/2e')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/info')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/f7/fce2ed1678f42a77e2b97d7515cad3337c6e78')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/f7')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/35/b63c9ca097b6727ed9fb09fcf08e1dbc6239bf')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/35')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/13/8c38ac96696db27609316dead03dca8faf0680')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/13')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/58/7ba3adc94544b7262a45c388bdaa833109dacf')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/58')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/39/fe2160c46ead787584b9f7e94b36e57a0be885')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/39')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/4b/fe055d163a6fe5cb34875209ee8299f09495b8')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/4b')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/3b/6238eb2981b9ea7ce7fc3be38d1ee792b1745d')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/3b')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/cf/b82c26593885b994273913ae76ad4795352341')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/cf')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/65/7cc2cc38016bd4d66050980663f3d6357769a6')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/65')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/d0/1be59c9a69f4add1a7f97700e1a35caf2a1c2b')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/d0')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/42/366bd099040b3adce3c1e18b0508f463d5fc58')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/42')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/ff/278cf5cce06ccba60b6284fd6cd070b1bd1d7f')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/ff')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/pack')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/02/29c128976b6e39405bafaad3b8a8163b23e2a7')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/02')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/4c/29341d3c691415113c11b981bd0c9f0a52d037')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/4c')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/28/cc44c8defc0b248b3abbc8205759b69a98f7f6')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/28')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/packed-refs')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git/HEAD')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/.git')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/websocket/server.nim')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/websocket/client.nim')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/websocket/private/hex.nim')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/websocket/private')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/websocket/shared.nim')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/websocket')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/examples/clientexample.nim')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/examples/serverexample.nim')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim/examples')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/LICENCE')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/websocket.nimble')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/.gitignore')
+unlink('/tmp/nimble_4043/githubcom_nivwebsocketnim/websocket.nim')
+rmdir('/tmp/nimble_4043/githubcom_nivwebsocketnim')
+rmdir('/tmp/nimble_4043')
   create directory /tmp
-  create directory /tmp/nimble_5598
-  create directory /tmp/nimble_5598/githubcom_nivwebsocketnim
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim
-  create directory /tmp/nimble_5598/githubcom_nivwebsocketnim
-  create directory /tmp/nimble_5598/githubcom_nivwebsocketnim/.git
-  create directory /tmp/nimble_5598/githubcom_nivwebsocketnim/.git
-  create directory /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks
-  create directory /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/branches
-  create directory /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/info
-  create directory /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/refs
-  create directory /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/refs/heads
-  create directory /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/refs/tags
-  rename /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config.lock to config
-  change permissions of /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config.lock to config
-  change permissions of /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config.lock to config
-  change permissions of /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config.lock to config
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/teOyXoV
-  create symbolic link from /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/teOyXoV to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/teOyXoV
-  create directory /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects
-  create directory /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects/pack
-  create directory /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects/info
-  change permissions of /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config.lock to config
-  change permissions of /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config.lock to config
-  change permissions of /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config.lock to config
-  create hard link from /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects/pack/pack-9cbd026bc6d20fb6f2bf29a0d9dbfe38fe278f43.pack to /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects/pack/tmp_pack_1u2Ulw
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects/pack/tmp_pack_1u2Ulw
-  create hard link from /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects/pack/pack-9cbd026bc6d20fb6f2bf29a0d9dbfe38fe278f43.idx to /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects/pack/tmp_idx_NfaXVB
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects/pack/tmp_idx_NfaXVB
-  rename /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/shallow.lock to shallow
-  rename /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/packed-refs.lock
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/refs/tags/0.4.1.lock
-  create directory /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/logs
-  rename /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects/pack/pack-9cbd026bc6d20fb6f2bf29a0d9dbfe38fe278f43.keep
-  create directory /tmp/nimble_5598/githubcom_nivwebsocketnim/examples
-  create directory /tmp/nimble_5598/githubcom_nivwebsocketnim/websocket
-  create directory /tmp/nimble_5598/githubcom_nivwebsocketnim/websocket/private
-  rename /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/index.lock to index
+  create directory /tmp/nimble_4043
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/info
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/branches
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/refs
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/refs/heads
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/refs/tags
+  rename /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config.lock to config
+  change permissions of /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config.lock to config
+  change permissions of /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config.lock to config
+  change permissions of /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config.lock to config
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/tOQ5KxE
+  create symbolic link from /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/tOQ5KxE to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/tOQ5KxE
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/pack
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/info
+  change permissions of /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config.lock to config
+  change permissions of /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config.lock to config
+  change permissions of /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config.lock to config
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/28
+  create hard link from /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/28/cc44c8defc0b248b3abbc8205759b69a98f7f6 to /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/28/tmp_obj_v5EkQs
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/28/tmp_obj_v5EkQs
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/3b
+  create hard link from /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/3b/6238eb2981b9ea7ce7fc3be38d1ee792b1745d to /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/3b/tmp_obj_x8x0Nt
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/3b/tmp_obj_x8x0Nt
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/cf
+  create hard link from /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/cf/b82c26593885b994273913ae76ad4795352341 to /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/cf/tmp_obj_PN6X1x
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/cf/tmp_obj_PN6X1x
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/39
+  create hard link from /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/39/fe2160c46ead787584b9f7e94b36e57a0be885 to /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/39/tmp_obj_nXslZD
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/39/tmp_obj_nXslZD
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/d0
+  create hard link from /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/d0/1be59c9a69f4add1a7f97700e1a35caf2a1c2b to /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/d0/tmp_obj_HZIHrD
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/d0/tmp_obj_HZIHrD
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/13
+  create hard link from /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/13/8c38ac96696db27609316dead03dca8faf0680 to /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/13/tmp_obj_TZHaKF
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/13/tmp_obj_TZHaKF
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/65
+  create hard link from /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/65/7cc2cc38016bd4d66050980663f3d6357769a6 to /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/65/tmp_obj_DxFYVH
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/65/tmp_obj_DxFYVH
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/2e
+  create hard link from /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/2e/b71da3161d6f01498b0f1d0cc9eb6ac3780855 to /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/2e/tmp_obj_9plcbL
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/2e/tmp_obj_9plcbL
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/ff
+  create hard link from /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/ff/278cf5cce06ccba60b6284fd6cd070b1bd1d7f to /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/ff/tmp_obj_933ykN
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/ff/tmp_obj_933ykN
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/58
+  create hard link from /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/58/7ba3adc94544b7262a45c388bdaa833109dacf to /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/58/tmp_obj_3GZTfQ
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/58/tmp_obj_3GZTfQ
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/35
+  create hard link from /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/35/b63c9ca097b6727ed9fb09fcf08e1dbc6239bf to /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/35/tmp_obj_bFqLJR
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/35/tmp_obj_bFqLJR
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/4c
+  create hard link from /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/4c/29341d3c691415113c11b981bd0c9f0a52d037 to /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/4c/tmp_obj_jHJPiR
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/4c/tmp_obj_jHJPiR
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/4b
+  create hard link from /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/4b/fe055d163a6fe5cb34875209ee8299f09495b8 to /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/4b/tmp_obj_9TMwqT
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/4b/tmp_obj_9TMwqT
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/02
+  create hard link from /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/02/29c128976b6e39405bafaad3b8a8163b23e2a7 to /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/02/tmp_obj_5913NX
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/02/tmp_obj_5913NX
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/f7
+  create hard link from /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/f7/fce2ed1678f42a77e2b97d7515cad3337c6e78 to /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/f7/tmp_obj_psMTf0
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/f7/tmp_obj_psMTf0
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/42
+  create hard link from /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/42/366bd099040b3adce3c1e18b0508f463d5fc58 to /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/42/tmp_obj_t6nbw6
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/42/tmp_obj_t6nbw6
+  rename /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/shallow.lock to shallow
+  rename /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/packed-refs.lock
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/refs/tags/0.5.0.lock
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/logs
+  rename /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/examples
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/websocket
+  create directory /tmp/nimble_4043/githubcom_nivwebsocketnim/websocket/private
+  rename /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/websocket_1911787715
-  delete /tmp/nimblecache/websocket_1911787715/websocket.ini
-  delete /tmp/nimble_5598.out
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/websocket_5598.nims
+  create directory /tmp/nimblecache/websocket_350286588
+  delete /tmp/nimblecache/websocket_350286588/websocket.ini
+  delete /tmp/nimble_4043.out
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/websocket_4043.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/websocket-0.4.1
+  create directory /home/runner/.nimble/pkgs/websocket-0.5.0
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/websocket-0.4.1
-  change permissions of /home/runner/.nimble/pkgs/websocket-0.4.1/websocket.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/websocket-0.5.0
+  change permissions of /home/runner/.nimble/pkgs/websocket-0.5.0/websocket.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/websocket-0.4.1
-  create directory /home/runner/.nimble/pkgs/websocket-0.4.1/websocket
-  change permissions of /home/runner/.nimble/pkgs/websocket-0.4.1/websocket/shared.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/websocket-0.5.0
+  create directory /home/runner/.nimble/pkgs/websocket-0.5.0/websocket
+  change permissions of /home/runner/.nimble/pkgs/websocket-0.5.0/websocket/server.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/websocket-0.4.1
-  create directory /home/runner/.nimble/pkgs/websocket-0.4.1/websocket
-  change permissions of /home/runner/.nimble/pkgs/websocket-0.4.1/websocket/client.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/websocket-0.5.0
+  create directory /home/runner/.nimble/pkgs/websocket-0.5.0/websocket
+  change permissions of /home/runner/.nimble/pkgs/websocket-0.5.0/websocket/client.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/websocket-0.4.1
-  create directory /home/runner/.nimble/pkgs/websocket-0.4.1/websocket
-  create directory /home/runner/.nimble/pkgs/websocket-0.4.1/websocket/private
-  change permissions of /home/runner/.nimble/pkgs/websocket-0.4.1/websocket/private/hex.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/websocket-0.5.0
+  create directory /home/runner/.nimble/pkgs/websocket-0.5.0/websocket
+  create directory /home/runner/.nimble/pkgs/websocket-0.5.0/websocket/private
+  change permissions of /home/runner/.nimble/pkgs/websocket-0.5.0/websocket/private/hex.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/websocket-0.4.1
-  create directory /home/runner/.nimble/pkgs/websocket-0.4.1/websocket
-  change permissions of /home/runner/.nimble/pkgs/websocket-0.4.1/websocket/server.nim to rw-r--r--
-  change permissions of /home/runner/.nimble/pkgs/websocket-0.4.1/websocket.nimble to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/websocket-0.5.0
+  create directory /home/runner/.nimble/pkgs/websocket-0.5.0/websocket
+  change permissions of /home/runner/.nimble/pkgs/websocket-0.5.0/websocket/shared.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/websocket-0.5.0/websocket.nimble to rw-r--r--
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/websocket_2527379825
-  delete /tmp/nimblecache/websocket_2527379825/websocket.ini
-  delete /tmp/nimble_5598.out
-  delete /home/runner/.nimble/pkgs/websocket-0.4.1/websocket_5598.nims
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/websocket.nim
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/examples/clientexample.nim
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/examples/serverexample.nim
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/examples
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/websocket/shared.nim
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/websocket/client.nim
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/websocket/private/hex.nim
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/websocket/private
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/websocket/server.nim
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/websocket
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/README.md
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/refs/heads
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/refs/tags
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/refs
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/config
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/logs/HEAD
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/logs
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/packed-refs
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/HEAD
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/description
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks/update.sample
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks/pre-push.sample
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks/post-update.sample
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/hooks
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects/pack/pack-9cbd026bc6d20fb6f2bf29a0d9dbfe38fe278f43.pack
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects/pack/pack-9cbd026bc6d20fb6f2bf29a0d9dbfe38fe278f43.idx
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects/pack
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects/info
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/objects
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/branches
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/index
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/info/exclude
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/info
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git/shallow
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.git
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/websocket.nimble
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/.gitignore
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim/LICENCE
-  delete /tmp/nimble_5598/githubcom_nivwebsocketnim
-  delete /tmp/nimble_5598
+  create directory /tmp/nimblecache/websocket_64463001
+  delete /tmp/nimblecache/websocket_64463001/websocket.ini
+  delete /tmp/nimble_4043.out
+  delete /home/runner/.nimble/pkgs/websocket-0.5.0/websocket_4043.nims
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/README.md
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/refs/tags
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/refs/heads
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/refs
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/info/exclude
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/info
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/branches
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/logs/HEAD
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/logs
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/description
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks/pre-push.sample
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks/update.sample
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks/post-update.sample
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/hooks
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/shallow
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/config
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/index
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/2e/b71da3161d6f01498b0f1d0cc9eb6ac3780855
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/2e
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/info
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/f7/fce2ed1678f42a77e2b97d7515cad3337c6e78
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/f7
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/35/b63c9ca097b6727ed9fb09fcf08e1dbc6239bf
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/35
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/13/8c38ac96696db27609316dead03dca8faf0680
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/13
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/58/7ba3adc94544b7262a45c388bdaa833109dacf
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/58
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/39/fe2160c46ead787584b9f7e94b36e57a0be885
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/39
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/4b/fe055d163a6fe5cb34875209ee8299f09495b8
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/4b
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/3b/6238eb2981b9ea7ce7fc3be38d1ee792b1745d
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/3b
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/cf/b82c26593885b994273913ae76ad4795352341
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/cf
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/65/7cc2cc38016bd4d66050980663f3d6357769a6
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/65
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/d0/1be59c9a69f4add1a7f97700e1a35caf2a1c2b
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/d0
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/42/366bd099040b3adce3c1e18b0508f463d5fc58
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/42
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/ff/278cf5cce06ccba60b6284fd6cd070b1bd1d7f
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/ff
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/pack
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/02/29c128976b6e39405bafaad3b8a8163b23e2a7
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/02
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/4c/29341d3c691415113c11b981bd0c9f0a52d037
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/4c
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/28/cc44c8defc0b248b3abbc8205759b69a98f7f6
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects/28
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/objects
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/packed-refs
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git/HEAD
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.git
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/websocket/server.nim
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/websocket/client.nim
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/websocket/private/hex.nim
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/websocket/private
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/websocket/shared.nim
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/websocket
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/examples/clientexample.nim
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/examples/serverexample.nim
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/examples
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/LICENCE
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/websocket.nimble
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/.gitignore
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim/websocket.nim
+  delete /tmp/nimble_4043/githubcom_nivwebsocketnim
+  delete /tmp/nimble_4043

@@ -1,72 +1,97 @@
     Reading official package list
 Downloading https://github.com/miere43/nim-registry using git
     Cloning latest tagged version: v0.2.1
-       Info /tmp/nimble_5675/githubcom_miere43nimregistry/winregistry_5675.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /tmp/nimble_5675/githubcom_miere43nimregistry/winregistry_5675.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+       Info /tmp/nimble_4152/githubcom_miere43nimregistry/winregistry_4152.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /tmp/nimble_4152/githubcom_miere43nimregistry/winregistry_4152.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
   Verifying dependencies for winregistry@0.2.1
  Installing winregistry@0.2.1
-    Copying file /tmp/nimble_5675/githubcom_miere43nimregistry/winregistry.nim to /home/runner/.nimble/pkgs/winregistry-0.2.1/winregistry.nim
-    Copying file /tmp/nimble_5675/githubcom_miere43nimregistry/winregistry.nimble to /home/runner/.nimble/pkgs/winregistry-0.2.1/winregistry.nimble
-   Success: winregistry installed successfully.
-       Info /home/runner/.nimble/pkgs/winregistry-0.2.1/winregistry_5675.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /home/runner/.nimble/pkgs/winregistry-0.2.1/winregistry_5675.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_5675', 0x00000000000001ff)
-mkdir('/tmp/nimble_5675/githubcom_miere43nimregistry', 0x00000000000001ff)
-rmdir('/tmp/nimble_5675/githubcom_miere43nimregistry')
-mkdir('/tmp/nimble_5675/githubcom_miere43nimregistry', 0x00000000000001ff)
-mkdir('/tmp/nimble_5675/githubcom_miere43nimregistry/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/HEAD.lock', '/tmp/nimble_5675/githubcom_miere43nimregistry/.git/HEAD')
-rename('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/config.lock', '/tmp/nimble_5675/githubcom_miere43nimregistry/.git/config')
-chmod('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/config.lock', '/tmp/nimble_5675/githubcom_miere43nimregistry/.git/config')
-chmod('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/config.lock', '/tmp/nimble_5675/githubcom_miere43nimregistry/.git/config')
-chmod('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/config.lock', '/tmp/nimble_5675/githubcom_miere43nimregistry/.git/config')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/tJBnAPg')
-symlink('testing', '/tmp/nimble_5675/githubcom_miere43nimregistry/.git/tJBnAPg')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/tJBnAPg')
-mkdir('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/config.lock', '/tmp/nimble_5675/githubcom_miere43nimregistry/.git/config')
-chmod('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/config.lock', '/tmp/nimble_5675/githubcom_miere43nimregistry/.git/config')
-chmod('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/config.lock', '/tmp/nimble_5675/githubcom_miere43nimregistry/.git/config')
-link('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects/pack/tmp_pack_4Hxwwv', '/tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects/pack/pack-7dc1557bc888a5317afc329dff1a894e3abd9032.pack')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects/pack/tmp_pack_4Hxwwv')
-link('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects/pack/tmp_idx_2ggYhy', '/tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects/pack/pack-7dc1557bc888a5317afc329dff1a894e3abd9032.idx')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects/pack/tmp_idx_2ggYhy')
-rename('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/shallow.lock', '/tmp/nimble_5675/githubcom_miere43nimregistry/.git/shallow')
-rename('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/packed-refs.new', '/tmp/nimble_5675/githubcom_miere43nimregistry/.git/packed-refs')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/packed-refs.lock')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/refs/tags/v0.2.1.lock')
-mkdir('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/HEAD.lock', '/tmp/nimble_5675/githubcom_miere43nimregistry/.git/HEAD')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects/pack/pack-7dc1557bc888a5317afc329dff1a894e3abd9032.keep')
+mkdir('/tmp/nimble_4152', 0x00000000000001ff)
+mkdir('/tmp/nimble_4152/githubcom_miere43nimregistry', 0x00000000000001ff)
+rmdir('/tmp/nimble_4152/githubcom_miere43nimregistry')
+mkdir('/tmp/nimble_4152/githubcom_miere43nimregistry', 0x00000000000001ff)
+mkdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/HEAD.lock', '/tmp/nimble_4152/githubcom_miere43nimregistry/.git/HEAD')
+rename('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/config.lock', '/tmp/nimble_4152/githubcom_miere43nimregistry/.git/config')
+chmod('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/config.lock', '/tmp/nimble_4152/githubcom_miere43nimregistry/.git/config')
+chmod('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/config.lock', '/tmp/nimble_4152/githubcom_miere43nimregistry/.git/config')
+chmod('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/config.lock', '/tmp/nimble_4152/githubcom_miere43nimregistry/.git/config')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/tInkRGc')
+symlink('testing', '/tmp/nimble_4152/githubcom_miere43nimregistry/.git/tInkRGc')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/tInkRGc')
+mkdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/config.lock', '/tmp/nimble_4152/githubcom_miere43nimregistry/.git/config')
+chmod('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/config.lock', '/tmp/nimble_4152/githubcom_miere43nimregistry/.git/config')
+chmod('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/config.lock', '/tmp/nimble_4152/githubcom_miere43nimregistry/.git/config')
+mkdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/43', 0x00000000000001ff)
+link('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/43/tmp_obj_URosRy', '/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/43/da083bbc19099bcfa95d024d5cc9e64109c4ba')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/43/tmp_obj_URosRy')
+mkdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/06', 0x00000000000001ff)
+link('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/06/tmp_obj_iIticC', '/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/06/ccbd56bedbc541feb3f8380d420a04b4cf8aa8')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/06/tmp_obj_iIticC')
+mkdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/46', 0x00000000000001ff)
+link('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/46/tmp_obj_orfeHA', '/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/46/cf3127a4daa45fec4e6722f31b545f2b1e7351')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/46/tmp_obj_orfeHA')
+mkdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/fd', 0x00000000000001ff)
+link('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/fd/tmp_obj_auWF9C', '/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/fd/366be95875482042ebd7cc5eea222dd71c4985')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/fd/tmp_obj_auWF9C')
+mkdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/42', 0x00000000000001ff)
+link('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/42/tmp_obj_oTbB5E', '/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/42/7d70fbdfc8b022705dc7f053ddad02006e8686')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/42/tmp_obj_oTbB5E')
+mkdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/04', 0x00000000000001ff)
+link('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/04/tmp_obj_MPDteI', '/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/04/d17a0cbe4d1a682530a8a4f549eda1d125e5d9')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/04/tmp_obj_MPDteI')
+mkdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/4e', 0x00000000000001ff)
+link('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/4e/tmp_obj_WEHpVK', '/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/4e/6b6dbe8970905ec11ab26e3d35339f5d15f892')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/4e/tmp_obj_WEHpVK')
+mkdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/89', 0x00000000000001ff)
+link('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/89/tmp_obj_kXEgQN', '/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/89/4f0bfa950e5225a06a5b0dc0a2f894ce2cc379')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/89/tmp_obj_kXEgQN')
+mkdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/22', 0x00000000000001ff)
+link('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/22/tmp_obj_uIgnLR', '/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/22/a458a59566a3fa996001cc9a3f6716fe1a845e')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/22/tmp_obj_uIgnLR')
+mkdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/fb', 0x00000000000001ff)
+link('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/fb/tmp_obj_uyBKyU', '/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/fb/a3d9e8e1dc515ce5583919d771a54aad917807')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/fb/tmp_obj_uyBKyU')
+rename('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/shallow.lock', '/tmp/nimble_4152/githubcom_miere43nimregistry/.git/shallow')
+rename('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/packed-refs.new', '/tmp/nimble_4152/githubcom_miere43nimregistry/.git/packed-refs')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/packed-refs.lock')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/refs/tags/v0.2.1.lock')
+mkdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/HEAD.lock', '/tmp/nimble_4152/githubcom_miere43nimregistry/.git/HEAD')
 mkdir('doc', 0x00000000000001ff)
-rename('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/index.lock', '/tmp/nimble_5675/githubcom_miere43nimregistry/.git/index')
+rename('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/index.lock', '/tmp/nimble_4152/githubcom_miere43nimregistry/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/winregistry_1779752968', 0x00000000000001ff)
-unlink('/tmp/nimblecache/winregistry_1779752968/winregistry.ini')
-unlink('/tmp/nimble_5675.out')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/winregistry_5675.nims')
+mkdir('/tmp/nimblecache/winregistry_1405663058', 0x00000000000001ff)
+unlink('/tmp/nimblecache/winregistry_1405663058/winregistry.ini')
+unlink('/tmp/nimble_4152.out')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/winregistry_4152.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)    Copying file /tmp/nimble_4152/githubcom_miere43nimregistry/winregistry.nim to /home/runner/.nimble/pkgs/winregistry-0.2.1/winregistry.nim
+    Copying file /tmp/nimble_4152/githubcom_miere43nimregistry/winregistry.nimble to /home/runner/.nimble/pkgs/winregistry-0.2.1/winregistry.nimble
+   Success: winregistry installed successfully.
+       Info /home/runner/.nimble/pkgs/winregistry-0.2.1/winregistry_4152.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /home/runner/.nimble/pkgs/winregistry-0.2.1/winregistry_4152.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/winregistry-0.2.1', 0x00000000000001ff)
 mkdir('/home', 0x00000000000001ff)
@@ -80,105 +105,148 @@ mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/winregistry_668012758', 0x00000000000001ff)
 unlink('/tmp/nimblecache/winregistry_668012758/winregistry.ini')
-unlink('/tmp/nimble_5675.out')
-unlink('/home/runner/.nimble/pkgs/winregistry-0.2.1/winregistry_5675.nims')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/README.md')
-rmdir('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/refs/heads')
-rmdir('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/refs/tags')
-rmdir('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/refs')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/config')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/logs/HEAD')
-rmdir('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/logs')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/packed-refs')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/HEAD')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/description')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks/update.sample')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks/post-update.sample')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks/pre-merge-commit.sample')
-rmdir('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects/pack/pack-7dc1557bc888a5317afc329dff1a894e3abd9032.pack')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects/pack/pack-7dc1557bc888a5317afc329dff1a894e3abd9032.idx')
-rmdir('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects/pack')
-rmdir('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects/info')
-rmdir('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects')
-rmdir('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/branches')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/index')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/info/exclude')
-rmdir('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/info')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.git/shallow')
-rmdir('/tmp/nimble_5675/githubcom_miere43nimregistry/.git')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.gitignore')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/LICENSE')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/winregistry.nimble')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/winregistry.nim')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/.editorconfig')
-unlink('/tmp/nimble_5675/githubcom_miere43nimregistry/doc/modulespec.rst')
-rmdir('/tmp/nimble_5675/githubcom_miere43nimregistry/doc')
-rmdir('/tmp/nimble_5675/githubcom_miere43nimregistry')
-rmdir('/tmp/nimble_5675')
+unlink('/tmp/nimble_4152.out')
+unlink('/home/runner/.nimble/pkgs/winregistry-0.2.1/winregistry_4152.nims')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/README.md')
+rmdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/refs/tags')
+rmdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/refs/heads')
+rmdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/refs')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/info/exclude')
+rmdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/info')
+rmdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/branches')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/logs/HEAD')
+rmdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/logs')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/description')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks/update.sample')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/shallow')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/config')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/index')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/4e/6b6dbe8970905ec11ab26e3d35339f5d15f892')
+rmdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/4e')
+rmdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/info')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/43/da083bbc19099bcfa95d024d5cc9e64109c4ba')
+rmdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/43')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/04/d17a0cbe4d1a682530a8a4f549eda1d125e5d9')
+rmdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/04')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/fb/a3d9e8e1dc515ce5583919d771a54aad917807')
+rmdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/fb')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/22/a458a59566a3fa996001cc9a3f6716fe1a845e')
+rmdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/22')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/89/4f0bfa950e5225a06a5b0dc0a2f894ce2cc379')
+rmdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/89')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/42/7d70fbdfc8b022705dc7f053ddad02006e8686')
+rmdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/42')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/fd/366be95875482042ebd7cc5eea222dd71c4985')
+rmdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/fd')
+rmdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/pack')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/06/ccbd56bedbc541feb3f8380d420a04b4cf8aa8')
+rmdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/06')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/46/cf3127a4daa45fec4e6722f31b545f2b1e7351')
+rmdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/46')
+rmdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/packed-refs')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.git/HEAD')
+rmdir('/tmp/nimble_4152/githubcom_miere43nimregistry/.git')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/winregistry.nimble')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/doc/modulespec.rst')
+rmdir('/tmp/nimble_4152/githubcom_miere43nimregistry/doc')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/winregistry.nim')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.editorconfig')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/.gitignore')
+unlink('/tmp/nimble_4152/githubcom_miere43nimregistry/LICENSE')
+rmdir('/tmp/nimble_4152/githubcom_miere43nimregistry')
+rmdir('/tmp/nimble_4152')
   create directory /tmp
-  create directory /tmp/nimble_5675
-  create directory /tmp/nimble_5675/githubcom_miere43nimregistry
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry
-  create directory /tmp/nimble_5675/githubcom_miere43nimregistry
-  create directory /tmp/nimble_5675/githubcom_miere43nimregistry/.git
-  create directory /tmp/nimble_5675/githubcom_miere43nimregistry/.git
-  create directory /tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks
-  create directory /tmp/nimble_5675/githubcom_miere43nimregistry/.git/branches
-  create directory /tmp/nimble_5675/githubcom_miere43nimregistry/.git/info
-  create directory /tmp/nimble_5675/githubcom_miere43nimregistry/.git/refs
-  create directory /tmp/nimble_5675/githubcom_miere43nimregistry/.git/refs/heads
-  create directory /tmp/nimble_5675/githubcom_miere43nimregistry/.git/refs/tags
-  rename /tmp/nimble_5675/githubcom_miere43nimregistry/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_5675/githubcom_miere43nimregistry/.git/config.lock to config
-  change permissions of /tmp/nimble_5675/githubcom_miere43nimregistry/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_5675/githubcom_miere43nimregistry/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_5675/githubcom_miere43nimregistry/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5675/githubcom_miere43nimregistry/.git/config.lock to config
-  change permissions of /tmp/nimble_5675/githubcom_miere43nimregistry/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5675/githubcom_miere43nimregistry/.git/config.lock to config
-  change permissions of /tmp/nimble_5675/githubcom_miere43nimregistry/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5675/githubcom_miere43nimregistry/.git/config.lock to config
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/tJBnAPg
-  create symbolic link from /tmp/nimble_5675/githubcom_miere43nimregistry/.git/tJBnAPg to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/tJBnAPg
-  create directory /tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects
-  create directory /tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects/pack
-  create directory /tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects/info
-  change permissions of /tmp/nimble_5675/githubcom_miere43nimregistry/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5675/githubcom_miere43nimregistry/.git/config.lock to config
-  change permissions of /tmp/nimble_5675/githubcom_miere43nimregistry/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5675/githubcom_miere43nimregistry/.git/config.lock to config
-  change permissions of /tmp/nimble_5675/githubcom_miere43nimregistry/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5675/githubcom_miere43nimregistry/.git/config.lock to config
-  create hard link from /tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects/pack/pack-7dc1557bc888a5317afc329dff1a894e3abd9032.pack to /tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects/pack/tmp_pack_4Hxwwv
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects/pack/tmp_pack_4Hxwwv
-  create hard link from /tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects/pack/pack-7dc1557bc888a5317afc329dff1a894e3abd9032.idx to /tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects/pack/tmp_idx_2ggYhy
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects/pack/tmp_idx_2ggYhy
-  rename /tmp/nimble_5675/githubcom_miere43nimregistry/.git/shallow.lock to shallow
-  rename /tmp/nimble_5675/githubcom_miere43nimregistry/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/packed-refs.lock
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/refs/tags/v0.2.1.lock
-  create directory /tmp/nimble_5675/githubcom_miere43nimregistry/.git/logs
-  rename /tmp/nimble_5675/githubcom_miere43nimregistry/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects/pack/pack-7dc1557bc888a5317afc329dff1a894e3abd9032.keep
-  create directory /tmp/nimble_5675/githubcom_miere43nimregistry/doc
-  rename /tmp/nimble_5675/githubcom_miere43nimregistry/.git/index.lock to index
+  create directory /tmp/nimble_4152
+  create directory /tmp/nimble_4152/githubcom_miere43nimregistry
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry
+  create directory /tmp/nimble_4152/githubcom_miere43nimregistry
+  create directory /tmp/nimble_4152/githubcom_miere43nimregistry/.git
+  create directory /tmp/nimble_4152/githubcom_miere43nimregistry/.git
+  create directory /tmp/nimble_4152/githubcom_miere43nimregistry/.git/info
+  create directory /tmp/nimble_4152/githubcom_miere43nimregistry/.git/branches
+  create directory /tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks
+  create directory /tmp/nimble_4152/githubcom_miere43nimregistry/.git/refs
+  create directory /tmp/nimble_4152/githubcom_miere43nimregistry/.git/refs/heads
+  create directory /tmp/nimble_4152/githubcom_miere43nimregistry/.git/refs/tags
+  rename /tmp/nimble_4152/githubcom_miere43nimregistry/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_4152/githubcom_miere43nimregistry/.git/config.lock to config
+  change permissions of /tmp/nimble_4152/githubcom_miere43nimregistry/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_4152/githubcom_miere43nimregistry/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_4152/githubcom_miere43nimregistry/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4152/githubcom_miere43nimregistry/.git/config.lock to config
+  change permissions of /tmp/nimble_4152/githubcom_miere43nimregistry/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4152/githubcom_miere43nimregistry/.git/config.lock to config
+  change permissions of /tmp/nimble_4152/githubcom_miere43nimregistry/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4152/githubcom_miere43nimregistry/.git/config.lock to config
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/tInkRGc
+  create symbolic link from /tmp/nimble_4152/githubcom_miere43nimregistry/.git/tInkRGc to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/tInkRGc
+  create directory /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects
+  create directory /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/pack
+  create directory /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/info
+  change permissions of /tmp/nimble_4152/githubcom_miere43nimregistry/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4152/githubcom_miere43nimregistry/.git/config.lock to config
+  change permissions of /tmp/nimble_4152/githubcom_miere43nimregistry/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4152/githubcom_miere43nimregistry/.git/config.lock to config
+  change permissions of /tmp/nimble_4152/githubcom_miere43nimregistry/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4152/githubcom_miere43nimregistry/.git/config.lock to config
+  create directory /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/43
+  create hard link from /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/43/da083bbc19099bcfa95d024d5cc9e64109c4ba to /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/43/tmp_obj_URosRy
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/43/tmp_obj_URosRy
+  create directory /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/06
+  create hard link from /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/06/ccbd56bedbc541feb3f8380d420a04b4cf8aa8 to /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/06/tmp_obj_iIticC
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/06/tmp_obj_iIticC
+  create directory /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/46
+  create hard link from /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/46/cf3127a4daa45fec4e6722f31b545f2b1e7351 to /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/46/tmp_obj_orfeHA
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/46/tmp_obj_orfeHA
+  create directory /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/fd
+  create hard link from /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/fd/366be95875482042ebd7cc5eea222dd71c4985 to /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/fd/tmp_obj_auWF9C
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/fd/tmp_obj_auWF9C
+  create directory /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/42
+  create hard link from /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/42/7d70fbdfc8b022705dc7f053ddad02006e8686 to /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/42/tmp_obj_oTbB5E
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/42/tmp_obj_oTbB5E
+  create directory /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/04
+  create hard link from /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/04/d17a0cbe4d1a682530a8a4f549eda1d125e5d9 to /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/04/tmp_obj_MPDteI
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/04/tmp_obj_MPDteI
+  create directory /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/4e
+  create hard link from /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/4e/6b6dbe8970905ec11ab26e3d35339f5d15f892 to /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/4e/tmp_obj_WEHpVK
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/4e/tmp_obj_WEHpVK
+  create directory /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/89
+  create hard link from /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/89/4f0bfa950e5225a06a5b0dc0a2f894ce2cc379 to /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/89/tmp_obj_kXEgQN
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/89/tmp_obj_kXEgQN
+  create directory /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/22
+  create hard link from /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/22/a458a59566a3fa996001cc9a3f6716fe1a845e to /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/22/tmp_obj_uIgnLR
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/22/tmp_obj_uIgnLR
+  create directory /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/fb
+  create hard link from /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/fb/a3d9e8e1dc515ce5583919d771a54aad917807 to /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/fb/tmp_obj_uyBKyU
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/fb/tmp_obj_uyBKyU
+  rename /tmp/nimble_4152/githubcom_miere43nimregistry/.git/shallow.lock to shallow
+  rename /tmp/nimble_4152/githubcom_miere43nimregistry/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/packed-refs.lock
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/refs/tags/v0.2.1.lock
+  create directory /tmp/nimble_4152/githubcom_miere43nimregistry/.git/logs
+  rename /tmp/nimble_4152/githubcom_miere43nimregistry/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_4152/githubcom_miere43nimregistry/doc
+  rename /tmp/nimble_4152/githubcom_miere43nimregistry/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/winregistry_1779752968
-  delete /tmp/nimblecache/winregistry_1779752968/winregistry.ini
-  delete /tmp/nimble_5675.out
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/winregistry_5675.nims
+  create directory /tmp/nimblecache/winregistry_1405663058
+  delete /tmp/nimblecache/winregistry_1405663058/winregistry.ini
+  delete /tmp/nimble_4152.out
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/winregistry_4152.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -195,48 +263,66 @@ rmdir('/tmp/nimble_5675')
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/winregistry_668012758
   delete /tmp/nimblecache/winregistry_668012758/winregistry.ini
-  delete /tmp/nimble_5675.out
-  delete /home/runner/.nimble/pkgs/winregistry-0.2.1/winregistry_5675.nims
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/README.md
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/refs/heads
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/refs/tags
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/refs
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/config
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/logs/HEAD
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/logs
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/packed-refs
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/HEAD
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/description
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks/update.sample
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks/pre-push.sample
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks/post-update.sample
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/hooks
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects/pack/pack-7dc1557bc888a5317afc329dff1a894e3abd9032.pack
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects/pack/pack-7dc1557bc888a5317afc329dff1a894e3abd9032.idx
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects/pack
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects/info
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/objects
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/branches
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/index
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/info/exclude
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/info
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git/shallow
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.git
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.gitignore
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/LICENSE
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/winregistry.nimble
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/winregistry.nim
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/.editorconfig
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/doc/modulespec.rst
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry/doc
-  delete /tmp/nimble_5675/githubcom_miere43nimregistry
-  delete /tmp/nimble_5675
+  delete /tmp/nimble_4152.out
+  delete /home/runner/.nimble/pkgs/winregistry-0.2.1/winregistry_4152.nims
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/README.md
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/refs/tags
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/refs/heads
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/refs
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/info/exclude
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/info
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/branches
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/logs/HEAD
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/logs
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/description
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks/pre-push.sample
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks/update.sample
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks/post-update.sample
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/hooks
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/shallow
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/config
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/index
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/4e/6b6dbe8970905ec11ab26e3d35339f5d15f892
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/4e
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/info
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/43/da083bbc19099bcfa95d024d5cc9e64109c4ba
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/43
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/04/d17a0cbe4d1a682530a8a4f549eda1d125e5d9
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/04
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/fb/a3d9e8e1dc515ce5583919d771a54aad917807
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/fb
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/22/a458a59566a3fa996001cc9a3f6716fe1a845e
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/22
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/89/4f0bfa950e5225a06a5b0dc0a2f894ce2cc379
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/89
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/42/7d70fbdfc8b022705dc7f053ddad02006e8686
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/42
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/fd/366be95875482042ebd7cc5eea222dd71c4985
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/fd
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/pack
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/06/ccbd56bedbc541feb3f8380d420a04b4cf8aa8
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/06
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/46/cf3127a4daa45fec4e6722f31b545f2b1e7351
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects/46
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/objects
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/packed-refs
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git/HEAD
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.git
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/winregistry.nimble
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/doc/modulespec.rst
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/doc
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/winregistry.nim
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.editorconfig
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/.gitignore
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry/LICENSE
+  delete /tmp/nimble_4152/githubcom_miere43nimregistry
+  delete /tmp/nimble_4152
