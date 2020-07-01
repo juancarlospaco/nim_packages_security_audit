@@ -1,91 +1,107 @@
     Reading official package list
 Downloading https://github.com/MrJohz/appdirs using git
     Cloning latest tagged version: 0.1.1
-   Warning: Package 'Appdirs' has an incorrect structure. The top level of the package source directory should contain at most one module, named 'Appdirs.nim', but a file named 'appdirs.nim' was found. This will be an error in the future.
-      Hint: If this is the primary source file in the package, rename it to 'Appdirs.nim'. If it's a source file required by the main module, or if it is one of several modules exposed by 'Appdirs', then move it into a 'Appdirs/' subdirectory. If it's a test file or otherwise not required to build the the package 'Appdirs.nim', prevent its installation by adding `skipFiles = @["appdirs.nim"]` to the .nimble file. See https://github.com/nim-lang/nimble#libraries for more info.
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_5411', 0x00000000000001ff)
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs', 0x00000000000001ff)
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs')
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs', 0x00000000000001ff)
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/HEAD.lock', '/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/HEAD')
+rename('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config.lock', '/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config')
+chmod('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config.lock', '/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config')
+chmod('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config.lock', '/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config')
+chmod('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config.lock', '/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/tAR7SZC')
+symlink('testing', '/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/tAR7SZC')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/tAR7SZC')
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config.lock', '/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config')
+chmod('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config.lock', '/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config')
+chmod('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config.lock', '/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config')
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/63', 0x00000000000001ff)
+link('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/63/tmp_obj_TQwMKs', '/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/63/d4fa414d2410d79f86e405b336184b2a75a4ef')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/63/tmp_obj_TQwMKs')
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/ac', 0x00000000000001ff)
+link('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/ac/tmp_obj_pBKvMt', '/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/ac/303e0c49aeabc6259e612a8a35ca86463676dc')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/ac/tmp_obj_pBKvMt')
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/80', 0x00000000000001ff)
+link('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/80/tmp_obj_zWqRqz', '/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/80/60bd0cbc103745c3003e3bb1dcea4a19ae6109')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/80/tmp_obj_zWqRqz')
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/3f', 0x00000000000001ff)
+link('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/3f/tmp_obj_TqpnuD', '/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/3f/9af2d136698d7e360f4ee93e0b6c43ad14194e')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/3f/tmp_obj_TqpnuD')
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/e6', 0x00000000000001ff)
+link('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/e6/tmp_obj_z6vDJI', '/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/e6/1e8a9b8e44cba58fad7d7034e87e9002e7aed8')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/e6/tmp_obj_z6vDJI')
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/1d', 0x00000000000001ff)
+link('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/1d/tmp_obj_JdhbpJ', '/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/1d/ce393be48e5e03076cd74d4f837172837a6650')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/1d/tmp_obj_JdhbpJ')
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/4f', 0x00000000000001ff)
+link('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/4f/tmp_obj_RJH5sO', '/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/4f/526c1f24512e3fb4f3265494f0fe1422838f6d')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/4f/tmp_obj_RJH5sO')
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/29', 0x00000000000001ff)
+link('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/29/tmp_obj_Zxb9wU', '/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/29/fa0911d001bbc7d2d3d072d2e46ff77e4c6e5b')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/29/tmp_obj_Zxb9wU')
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/04', 0x00000000000001ff)
+link('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/04/tmp_obj_jYd6GV', '/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/04/1912366c2fc0b9b6cbda3930ffab5dd7cc8a2d')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/04/tmp_obj_jYd6GV')
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/8a', 0x00000000000001ff)
+link('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/8a/tmp_obj_JRF5QZ', '/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/8a/e959fb597647b6c830152786abce7c8aa224ef')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/8a/tmp_obj_JRF5QZ')
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/ee', 0x00000000000001ff)
+link('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/ee/tmp_obj_vG5PX4', '/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/ee/9a78861c75bbbba43ea8b9da9c4b51126e49e2')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/ee/tmp_obj_vG5PX4')
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/aa', 0x00000000000001ff)
+link('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/aa/tmp_obj_DIIwp9', '/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/aa/d47e838685e3ac48cbf2ff52b16b7724ac0120')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/aa/tmp_obj_DIIwp9')
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/62', 0x00000000000001ff)
+link('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/62/tmp_obj_z0E31e', '/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/62/d1d60a1ff7550b352c0f18a9d7a3dbf38e1f66')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/62/tmp_obj_z0E31e')
+rename('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/shallow.lock', '/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/shallow')
+rename('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/packed-refs.new', '/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/packed-refs')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/packed-refs.lock')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/refs/tags/0.1.1.lock')
+mkdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/HEAD.lock', '/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/HEAD')
+mkdir('docs', 0x00000000000001ff)   Warning: Package 'Appdirs' has an incorrect structure. The top level of the package source directory should contain at most one module, named 'Appdirs.nim', but a file named 'nakefile.nim' was found. This will be an error in the future.
+      Hint: If this is the primary source file in the package, rename it to 'Appdirs.nim'. If it's a source file required by the main module, or if it is one of several modules exposed by 'Appdirs', then move it into a 'Appdirs/' subdirectory. If it's a test file or otherwise not required to build the the package 'Appdirs.nim', prevent its installation by adding `skipFiles = @["nakefile.nim"]` to the .nimble file. See https://github.com/nim-lang/nimble#libraries for more info.
   Verifying dependencies for Appdirs@0.1.1
  Installing Appdirs@0.1.1
-    Copying file /tmp/nimble_4966/githubcom_MrJohzappdirs/appdirs.nim to /home/runner/.nimble/pkgs/Appdirs-0.1.1/appdirs.nim
-    Copying file /tmp/nimble_4966/githubcom_MrJohzappdirs/LICENSE.txt to /home/runner/.nimble/pkgs/Appdirs-0.1.1/LICENSE.txt
-    Copying file /tmp/nimble_4966/githubcom_MrJohzappdirs/appdirs.babel to /home/runner/.nimble/pkgs/Appdirs-0.1.1/appdirs.babel
-    Copying file /tmp/nimble_4966/githubcom_MrJohzappdirs/docs/appdirs.html to /home/runner/.nimble/pkgs/Appdirs-0.1.1/docs/appdirs.html
-    Copying file /tmp/nimble_4966/githubcom_MrJohzappdirs/nakefile.nim to /home/runner/.nimble/pkgs/Appdirs-0.1.1/nakefile.nim
-    Copying file /tmp/nimble_4966/githubcom_MrJohzappdirs/README.md to /home/runner/.nimble/pkgs/Appdirs-0.1.1/README.md
-    Copying file /tmp/nimble_4966/githubcom_MrJohzappdirs/tests/test_appdirs.nim to /home/runner/.nimble/pkgs/Appdirs-0.1.1/tests/test_appdirs.nim
-    Copying file /tmp/nimble_4966/githubcom_MrJohzappdirs/appdirs.babel to /home/runner/.nimble/pkgs/Appdirs-0.1.1/appdirs.babel
+    Copying file /tmp/nimble_5411/githubcom_MrJohzappdirs/docs/appdirs.html to /home/runner/.nimble/pkgs/Appdirs-0.1.1/docs/appdirs.html
+    Copying file /tmp/nimble_5411/githubcom_MrJohzappdirs/README.md to /home/runner/.nimble/pkgs/Appdirs-0.1.1/README.md
+    Copying file /tmp/nimble_5411/githubcom_MrJohzappdirs/appdirs.babel to /home/runner/.nimble/pkgs/Appdirs-0.1.1/appdirs.babel
+    Copying file /tmp/nimble_5411/githubcom_MrJohzappdirs/LICENSE.txt to /home/runner/.nimble/pkgs/Appdirs-0.1.1/LICENSE.txt
+    Copying file /tmp/nimble_5411/githubcom_MrJohzappdirs/nakefile.nim to /home/runner/.nimble/pkgs/Appdirs-0.1.1/nakefile.nim
+    Copying file /tmp/nimble_5411/githubcom_MrJohzappdirs/tests/test_appdirs.nim to /home/runner/.nimble/pkgs/Appdirs-0.1.1/tests/test_appdirs.nim
+    Copying file /tmp/nimble_5411/githubcom_MrJohzappdirs/appdirs.nim to /home/runner/.nimble/pkgs/Appdirs-0.1.1/appdirs.nim
+    Copying file /tmp/nimble_5411/githubcom_MrJohzappdirs/appdirs.babel to /home/runner/.nimble/pkgs/Appdirs-0.1.1/appdirs.babel
    Success: Appdirs installed successfully.
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_4966', 0x00000000000001ff)
-mkdir('/tmp/nimble_4966/githubcom_MrJohzappdirs', 0x00000000000001ff)
-rmdir('/tmp/nimble_4966/githubcom_MrJohzappdirs')
-mkdir('/tmp/nimble_4966/githubcom_MrJohzappdirs', 0x00000000000001ff)
-mkdir('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/HEAD.lock', '/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/HEAD')
-rename('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config.lock', '/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config')
-chmod('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config.lock', '/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config')
-chmod('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config.lock', '/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config')
-chmod('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config.lock', '/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/tUVAUbD')
-symlink('testing', '/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/tUVAUbD')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/tUVAUbD')
-mkdir('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config.lock', '/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config')
-chmod('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config.lock', '/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config')
-chmod('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config.lock', '/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config')
-link('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects/pack/tmp_pack_wLzVA9', '/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects/pack/pack-38063303eb39c0e9263912ea8d95870ceebee7d5.pack')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects/pack/tmp_pack_wLzVA9')
-link('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects/pack/tmp_idx_s3R7mk', '/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects/pack/pack-38063303eb39c0e9263912ea8d95870ceebee7d5.idx')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects/pack/tmp_idx_s3R7mk')
-rename('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/shallow.lock', '/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/shallow')
-rename('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/packed-refs.new', '/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/packed-refs')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/packed-refs.lock')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/refs/tags/0.1.1.lock')
-mkdir('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/HEAD.lock', '/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/HEAD')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects/pack/pack-38063303eb39c0e9263912ea8d95870ceebee7d5.keep')
-mkdir('docs', 0x00000000000001ff)
+
 mkdir('tests', 0x00000000000001ff)
-rename('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/index.lock', '/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/index')
+rename('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/index.lock', '/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/index')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/Appdirs-0.1.1', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/Appdirs-0.1.1', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/Appdirs-0.1.1/appdirs.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/Appdirs-0.1.1', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/Appdirs-0.1.1/LICENSE.txt', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/Appdirs-0.1.1', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/Appdirs-0.1.1/appdirs.babel', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -98,13 +114,25 @@ mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/Appdirs-0.1.1', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/Appdirs-0.1.1/nakefile.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/Appdirs-0.1.1/README.md', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/Appdirs-0.1.1', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/Appdirs-0.1.1/README.md', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/Appdirs-0.1.1/appdirs.babel', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/Appdirs-0.1.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/Appdirs-0.1.1/LICENSE.txt', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/Appdirs-0.1.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/Appdirs-0.1.1/nakefile.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -112,124 +140,170 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/Appdirs-0.1.1', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/Appdirs-0.1.1/tests', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/Appdirs-0.1.1/tests/test_appdirs.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/Appdirs-0.1.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/Appdirs-0.1.1/appdirs.nim', 0x00000000000001a4)
 chmod('/home/runner/.nimble/pkgs/Appdirs-0.1.1/appdirs.babel', 0x00000000000001a4)
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/appdirs.nim')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/LICENSE.txt')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.gitignore')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/appdirs.babel')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/docs/appdirs.html')
-rmdir('/tmp/nimble_4966/githubcom_MrJohzappdirs/docs')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/nakefile.nim')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/HEAD')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/logs/HEAD')
-rmdir('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/logs')
-rmdir('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/branches')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/packed-refs')
-rmdir('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/refs/heads')
-rmdir('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/refs/tags')
-rmdir('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/refs')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks/update.sample')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/index')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/info/exclude')
-rmdir('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/info')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/shallow')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/description')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects/pack/pack-38063303eb39c0e9263912ea8d95870ceebee7d5.pack')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects/pack/pack-38063303eb39c0e9263912ea8d95870ceebee7d5.idx')
-rmdir('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects/pack')
-rmdir('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects/info')
-rmdir('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects')
-rmdir('/tmp/nimble_4966/githubcom_MrJohzappdirs/.git')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/README.md')
-unlink('/tmp/nimble_4966/githubcom_MrJohzappdirs/tests/test_appdirs.nim')
-rmdir('/tmp/nimble_4966/githubcom_MrJohzappdirs/tests')
-rmdir('/tmp/nimble_4966/githubcom_MrJohzappdirs')
-rmdir('/tmp/nimble_4966')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/docs/appdirs.html')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/docs')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/README.md')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/refs/tags')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/refs/heads')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/refs')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/info/exclude')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/info')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/branches')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/logs/HEAD')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/logs')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/description')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks/update.sample')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/shallow')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/index')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/4f/526c1f24512e3fb4f3265494f0fe1422838f6d')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/4f')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/ac/303e0c49aeabc6259e612a8a35ca86463676dc')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/ac')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/info')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/63/d4fa414d2410d79f86e405b336184b2a75a4ef')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/63')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/29/fa0911d001bbc7d2d3d072d2e46ff77e4c6e5b')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/29')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/62/d1d60a1ff7550b352c0f18a9d7a3dbf38e1f66')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/62')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/80/60bd0cbc103745c3003e3bb1dcea4a19ae6109')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/80')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/04/1912366c2fc0b9b6cbda3930ffab5dd7cc8a2d')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/04')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/1d/ce393be48e5e03076cd74d4f837172837a6650')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/1d')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/ee/9a78861c75bbbba43ea8b9da9c4b51126e49e2')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/ee')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/aa/d47e838685e3ac48cbf2ff52b16b7724ac0120')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/aa')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/3f/9af2d136698d7e360f4ee93e0b6c43ad14194e')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/3f')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/pack')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/8a/e959fb597647b6c830152786abce7c8aa224ef')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/8a')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/e6/1e8a9b8e44cba58fad7d7034e87e9002e7aed8')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/e6')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/packed-refs')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git/HEAD')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/.git')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/appdirs.babel')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/LICENSE.txt')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/nakefile.nim')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/tests/test_appdirs.nim')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs/tests')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/appdirs.nim')
+unlink('/tmp/nimble_5411/githubcom_MrJohzappdirs/.gitignore')
+rmdir('/tmp/nimble_5411/githubcom_MrJohzappdirs')
+rmdir('/tmp/nimble_5411')
   create directory /tmp
-  create directory /tmp/nimble_4966
-  create directory /tmp/nimble_4966/githubcom_MrJohzappdirs
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs
-  create directory /tmp/nimble_4966/githubcom_MrJohzappdirs
-  create directory /tmp/nimble_4966/githubcom_MrJohzappdirs/.git
-  create directory /tmp/nimble_4966/githubcom_MrJohzappdirs/.git
-  create directory /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/branches
-  create directory /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks
-  create directory /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/info
-  create directory /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/refs
-  create directory /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/refs/heads
-  create directory /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/refs/tags
-  rename /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config.lock to config
-  change permissions of /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config.lock to config
-  change permissions of /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config.lock to config
-  change permissions of /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config.lock to config
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/tUVAUbD
-  create symbolic link from /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/tUVAUbD to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/tUVAUbD
-  create directory /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects
-  create directory /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects/pack
-  create directory /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects/info
-  change permissions of /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config.lock to config
-  change permissions of /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config.lock to config
-  change permissions of /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config.lock to config
-  create hard link from /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects/pack/pack-38063303eb39c0e9263912ea8d95870ceebee7d5.pack to /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects/pack/tmp_pack_wLzVA9
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects/pack/tmp_pack_wLzVA9
-  create hard link from /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects/pack/pack-38063303eb39c0e9263912ea8d95870ceebee7d5.idx to /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects/pack/tmp_idx_s3R7mk
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects/pack/tmp_idx_s3R7mk
-  rename /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/shallow.lock to shallow
-  rename /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/packed-refs.lock
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/refs/tags/0.1.1.lock
-  create directory /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/logs
-  rename /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects/pack/pack-38063303eb39c0e9263912ea8d95870ceebee7d5.keep
-  create directory /tmp/nimble_4966/githubcom_MrJohzappdirs/docs
-  create directory /tmp/nimble_4966/githubcom_MrJohzappdirs/tests
-  rename /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/index.lock to index
+  create directory /tmp/nimble_5411
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/.git
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/.git
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/info
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/branches
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/refs
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/refs/heads
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/refs/tags
+  rename /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config.lock to config
+  change permissions of /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config.lock to config
+  change permissions of /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config.lock to config
+  change permissions of /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config.lock to config
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/tAR7SZC
+  create symbolic link from /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/tAR7SZC to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/tAR7SZC
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/pack
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/info
+  change permissions of /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config.lock to config
+  change permissions of /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config.lock to config
+  change permissions of /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config.lock to config
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/63
+  create hard link from /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/63/d4fa414d2410d79f86e405b336184b2a75a4ef to /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/63/tmp_obj_TQwMKs
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/63/tmp_obj_TQwMKs
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/ac
+  create hard link from /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/ac/303e0c49aeabc6259e612a8a35ca86463676dc to /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/ac/tmp_obj_pBKvMt
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/ac/tmp_obj_pBKvMt
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/80
+  create hard link from /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/80/60bd0cbc103745c3003e3bb1dcea4a19ae6109 to /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/80/tmp_obj_zWqRqz
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/80/tmp_obj_zWqRqz
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/3f
+  create hard link from /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/3f/9af2d136698d7e360f4ee93e0b6c43ad14194e to /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/3f/tmp_obj_TqpnuD
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/3f/tmp_obj_TqpnuD
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/e6
+  create hard link from /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/e6/1e8a9b8e44cba58fad7d7034e87e9002e7aed8 to /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/e6/tmp_obj_z6vDJI
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/e6/tmp_obj_z6vDJI
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/1d
+  create hard link from /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/1d/ce393be48e5e03076cd74d4f837172837a6650 to /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/1d/tmp_obj_JdhbpJ
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/1d/tmp_obj_JdhbpJ
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/4f
+  create hard link from /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/4f/526c1f24512e3fb4f3265494f0fe1422838f6d to /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/4f/tmp_obj_RJH5sO
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/4f/tmp_obj_RJH5sO
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/29
+  create hard link from /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/29/fa0911d001bbc7d2d3d072d2e46ff77e4c6e5b to /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/29/tmp_obj_Zxb9wU
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/29/tmp_obj_Zxb9wU
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/04
+  create hard link from /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/04/1912366c2fc0b9b6cbda3930ffab5dd7cc8a2d to /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/04/tmp_obj_jYd6GV
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/04/tmp_obj_jYd6GV
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/8a
+  create hard link from /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/8a/e959fb597647b6c830152786abce7c8aa224ef to /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/8a/tmp_obj_JRF5QZ
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/8a/tmp_obj_JRF5QZ
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/ee
+  create hard link from /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/ee/9a78861c75bbbba43ea8b9da9c4b51126e49e2 to /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/ee/tmp_obj_vG5PX4
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/ee/tmp_obj_vG5PX4
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/aa
+  create hard link from /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/aa/d47e838685e3ac48cbf2ff52b16b7724ac0120 to /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/aa/tmp_obj_DIIwp9
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/aa/tmp_obj_DIIwp9
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/62
+  create hard link from /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/62/d1d60a1ff7550b352c0f18a9d7a3dbf38e1f66 to /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/62/tmp_obj_z0E31e
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/62/tmp_obj_z0E31e
+  rename /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/shallow.lock to shallow
+  rename /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/packed-refs.lock
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/refs/tags/0.1.1.lock
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/logs
+  rename /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/docs
+  create directory /tmp/nimble_5411/githubcom_MrJohzappdirs/tests
+  rename /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/index.lock to index
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/Appdirs-0.1.1
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/Appdirs-0.1.1
-  change permissions of /home/runner/.nimble/pkgs/Appdirs-0.1.1/appdirs.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/Appdirs-0.1.1
-  change permissions of /home/runner/.nimble/pkgs/Appdirs-0.1.1/LICENSE.txt to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/Appdirs-0.1.1
-  change permissions of /home/runner/.nimble/pkgs/Appdirs-0.1.1/appdirs.babel to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -242,13 +316,25 @@ rmdir('/tmp/nimble_4966')
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/Appdirs-0.1.1
-  change permissions of /home/runner/.nimble/pkgs/Appdirs-0.1.1/nakefile.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/Appdirs-0.1.1/README.md to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/Appdirs-0.1.1
-  change permissions of /home/runner/.nimble/pkgs/Appdirs-0.1.1/README.md to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/Appdirs-0.1.1/appdirs.babel to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/Appdirs-0.1.1
+  change permissions of /home/runner/.nimble/pkgs/Appdirs-0.1.1/LICENSE.txt to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/Appdirs-0.1.1
+  change permissions of /home/runner/.nimble/pkgs/Appdirs-0.1.1/nakefile.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -256,49 +342,79 @@ rmdir('/tmp/nimble_4966')
   create directory /home/runner/.nimble/pkgs/Appdirs-0.1.1
   create directory /home/runner/.nimble/pkgs/Appdirs-0.1.1/tests
   change permissions of /home/runner/.nimble/pkgs/Appdirs-0.1.1/tests/test_appdirs.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/Appdirs-0.1.1
+  change permissions of /home/runner/.nimble/pkgs/Appdirs-0.1.1/appdirs.nim to rw-r--r--
   change permissions of /home/runner/.nimble/pkgs/Appdirs-0.1.1/appdirs.babel to rw-r--r--
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/appdirs.nim
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/LICENSE.txt
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.gitignore
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/appdirs.babel
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/docs/appdirs.html
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/docs
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/nakefile.nim
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/HEAD
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/config
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/logs/HEAD
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/logs
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/branches
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/packed-refs
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/refs/heads
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/refs/tags
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/refs
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks/pre-push.sample
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks/update.sample
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks/post-update.sample
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/hooks
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/index
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/info/exclude
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/info
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/shallow
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/description
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects/pack/pack-38063303eb39c0e9263912ea8d95870ceebee7d5.pack
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects/pack/pack-38063303eb39c0e9263912ea8d95870ceebee7d5.idx
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects/pack
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects/info
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git/objects
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/.git
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/README.md
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/tests/test_appdirs.nim
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs/tests
-  delete /tmp/nimble_4966/githubcom_MrJohzappdirs
-  delete /tmp/nimble_4966
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/docs/appdirs.html
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/docs
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/README.md
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/refs/tags
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/refs/heads
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/refs
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/info/exclude
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/info
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/branches
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/logs/HEAD
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/logs
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/description
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks/pre-push.sample
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks/update.sample
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks/post-update.sample
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/hooks
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/shallow
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/config
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/index
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/4f/526c1f24512e3fb4f3265494f0fe1422838f6d
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/4f
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/ac/303e0c49aeabc6259e612a8a35ca86463676dc
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/ac
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/info
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/63/d4fa414d2410d79f86e405b336184b2a75a4ef
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/63
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/29/fa0911d001bbc7d2d3d072d2e46ff77e4c6e5b
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/29
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/62/d1d60a1ff7550b352c0f18a9d7a3dbf38e1f66
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/62
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/80/60bd0cbc103745c3003e3bb1dcea4a19ae6109
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/80
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/04/1912366c2fc0b9b6cbda3930ffab5dd7cc8a2d
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/04
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/1d/ce393be48e5e03076cd74d4f837172837a6650
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/1d
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/ee/9a78861c75bbbba43ea8b9da9c4b51126e49e2
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/ee
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/aa/d47e838685e3ac48cbf2ff52b16b7724ac0120
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/aa
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/3f/9af2d136698d7e360f4ee93e0b6c43ad14194e
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/3f
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/pack
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/8a/e959fb597647b6c830152786abce7c8aa224ef
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/8a
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/e6/1e8a9b8e44cba58fad7d7034e87e9002e7aed8
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects/e6
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/objects
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/packed-refs
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git/HEAD
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.git
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/appdirs.babel
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/LICENSE.txt
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/nakefile.nim
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/tests/test_appdirs.nim
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/tests
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/appdirs.nim
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs/.gitignore
+  delete /tmp/nimble_5411/githubcom_MrJohzappdirs
+  delete /tmp/nimble_5411

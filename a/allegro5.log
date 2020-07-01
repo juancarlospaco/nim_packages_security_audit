@@ -1,180 +1,246 @@
     Reading official package list
 Downloading https://github.com/fowlmouth/allegro5 using git
     Cloning latest tagged version: v1.0
-   Warning: Package 'allegro5' has an incorrect structure. It should contain a single directory hierarchy for source files, named 'allegro5', but file 'cam.nim' is in a directory named 'al' instead. This will be an error in the future.
-      Hint: If 'al' contains source files for building 'allegro5', rename it to 'allegro5'. Otherwise, prevent its installation by adding `skipDirs = @["al"]` to the .nimble file.
+   Warning: Package 'allegro5' has an incorrect structure. The top level of the package source directory should contain at most one module, named 'allegro5.nim', but a file named 'al.nim' was found. This will be an error in the future.
+      Hint: If this is the primary source file in the package, rename it to 'allegro5.nim'. If it's a source file required by the main module, or if it is one of several modules exposed by 'allegro5', then move it into a 'allegro5/' subdirectory. If it's a test file or otherwise not required to build the the package 'allegro5.nim', prevent its installation by adding `skipFiles = @["al.nim"]` to the .nimble file. See https://github.com/nim-lang/nimble#libraries for more info.
   Verifying dependencies for allegro5@1.0
  Installing allegro5@1.0
-    Copying file /tmp/nimble_4852/githubcom_fowlmouthallegro5/src/al/cam.nim to /home/runner/.nimble/pkgs/allegro5-1.0/al/cam.nim
-    Copying file /tmp/nimble_4852/githubcom_fowlmouthallegro5/src/al.nim to /home/runner/.nimble/pkgs/allegro5-1.0/al.nim
-    Copying file /tmp/nimble_4852/githubcom_fowlmouthallegro5/allegro5.babel to /home/runner/.nimble/pkgs/allegro5-1.0/allegro5.babel
-   Success: allegro5 installed successfully.
+    Copying file /tmp/nimble_5301/githubcom_fowlmouthallegro5/src/al.nim to /home/runner/.nimble/pkgs/allegro5-1.0/al.nim
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_4852', 0x00000000000001ff)
-mkdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5', 0x00000000000001ff)
-rmdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5')
-mkdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5', 0x00000000000001ff)
-mkdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/HEAD.lock', '/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/HEAD')
-rename('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config.lock', '/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config')
-chmod('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config.lock', '/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config')
-chmod('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config.lock', '/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config')
-chmod('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config.lock', '/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/tIa6HRi')
-symlink('testing', '/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/tIa6HRi')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/tIa6HRi')
-mkdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config.lock', '/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config')
-chmod('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config.lock', '/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config')
-chmod('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config.lock', '/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config')
-link('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects/pack/tmp_pack_hFA1TM', '/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects/pack/pack-be9fdb6f83fc15b4e3b8848bbfdcb667a3ab99a6.pack')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects/pack/tmp_pack_hFA1TM')
-link('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects/pack/tmp_idx_nYUbwV', '/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects/pack/pack-be9fdb6f83fc15b4e3b8848bbfdcb667a3ab99a6.idx')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects/pack/tmp_idx_nYUbwV')
-rename('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/shallow.lock', '/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/shallow')
-rename('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/packed-refs.new', '/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/packed-refs')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/packed-refs.lock')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/refs/tags/v1.0.lock')
-mkdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/HEAD.lock', '/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/HEAD')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects/pack/pack-be9fdb6f83fc15b4e3b8848bbfdcb667a3ab99a6.keep')
+mkdir('/tmp/nimble_5301', 0x00000000000001ff)
+mkdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5', 0x00000000000001ff)
+rmdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5')
+mkdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5', 0x00000000000001ff)
+mkdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/HEAD.lock', '/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/HEAD')
+rename('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config.lock', '/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config')
+chmod('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config.lock', '/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config')
+chmod('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config.lock', '/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config')
+chmod('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config.lock', '/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/tRvSG9B')
+symlink('testing', '/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/tRvSG9B')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/tRvSG9B')
+mkdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config.lock', '/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config')
+chmod('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config.lock', '/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config')
+chmod('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config.lock', '/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config')
+mkdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/54', 0x00000000000001ff)
+link('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/54/tmp_obj_4IzvDE', '/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/54/6f44cebe3b2192ceeb55bb8eb1cb1b44a79c93')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/54/tmp_obj_4IzvDE')
+mkdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/d4', 0x00000000000001ff)
+link('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/d4/tmp_obj_mUeeyJ', '/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/d4/e2396b4dd0ba00f363bfc1896efb1c73e54456')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/d4/tmp_obj_mUeeyJ')
+mkdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/71', 0x00000000000001ff)
+link('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/71/tmp_obj_Wu0tYP', '/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/71/81a3fc34ba1d1224103015616da30f15d4ceb7')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/71/tmp_obj_Wu0tYP')
+mkdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/a5', 0x00000000000001ff)
+link('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/a5/tmp_obj_wLv40T', '/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/a5/dedb04bcba26c3bfce9744a4c43ac2a40a097f')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/a5/tmp_obj_wLv40T')
+mkdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/a3', 0x00000000000001ff)
+link('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/a3/tmp_obj_0Y678V', '/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/a3/8386ea14cc0c77cef855976b42e630f402f381')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/a3/tmp_obj_0Y678V')
+mkdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/92', 0x00000000000001ff)
+link('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/92/tmp_obj_6t1ZR0', '/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/92/befe8e412162b0726046ae0ebaf1a407c7f0c4')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/92/tmp_obj_6t1ZR0')
+mkdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/9a', 0x00000000000001ff)
+link('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/9a/tmp_obj_Cq54s4', '/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/9a/229a04631425e7ed342d49f3a56926b80611b5')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/9a/tmp_obj_Cq54s4')
+mkdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/26', 0x00000000000001ff)
+link('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/26/tmp_obj_EXzcVc', '/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/26/54da3408a14ce165c26b32a59b6080e672ab3f')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/26/tmp_obj_EXzcVc')
+mkdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/b9', 0x00000000000001ff)
+link('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/b9/tmp_obj_mUCCGg', '/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/b9/b62d4c1eb71b98ab31b2b42a21842c6eb6f1e6')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/b9/tmp_obj_mUCCGg')
+rename('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/shallow.lock', '/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/shallow')
+rename('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/packed-refs.new', '/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/packed-refs')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/packed-refs.lock')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/refs/tags/v1.0.lock')
+mkdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/HEAD.lock', '/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/HEAD')
 mkdir('examples', 0x00000000000001ff)
 mkdir('src', 0x00000000000001ff)
 mkdir('src/al', 0x00000000000001ff)
-rename('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/index.lock', '/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/index')
+rename('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/index.lock', '/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/index')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/allegro5-1.0', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/allegro5-1.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/allegro5-1.0/al', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/allegro5-1.0/al/cam.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/allegro5-1.0', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/allegro5-1.0/al.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/allegro5-1.0', 0x00000000000001ff)    Copying file /tmp/nimble_5301/githubcom_fowlmouthallegro5/src/al/cam.nim to /home/runner/.nimble/pkgs/allegro5-1.0/al/cam.nim
+    Copying file /tmp/nimble_5301/githubcom_fowlmouthallegro5/allegro5.babel to /home/runner/.nimble/pkgs/allegro5-1.0/allegro5.babel
+   Success: allegro5 installed successfully.
+
+mkdir('/home/runner/.nimble/pkgs/allegro5-1.0/al', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/allegro5-1.0/al/cam.nim', 0x00000000000001a4)
 chmod('/home/runner/.nimble/pkgs/allegro5-1.0/allegro5.babel', 0x00000000000001a4)
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/examples/skel.nim')
-rmdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5/examples')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/src/al/cam.nim')
-rmdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5/src/al')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/src/al.nim')
-rmdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5/src')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/allegro5.babel')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/HEAD')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/logs/HEAD')
-rmdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/logs')
-rmdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/branches')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/packed-refs')
-rmdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/refs/heads')
-rmdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/refs/tags')
-rmdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/refs')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks/update.sample')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/index')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/info/exclude')
-rmdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/info')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/shallow')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/description')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects/pack/pack-be9fdb6f83fc15b4e3b8848bbfdcb667a3ab99a6.pack')
-unlink('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects/pack/pack-be9fdb6f83fc15b4e3b8848bbfdcb667a3ab99a6.idx')
-rmdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects/pack')
-rmdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects/info')
-rmdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects')
-rmdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5/.git')
-rmdir('/tmp/nimble_4852/githubcom_fowlmouthallegro5')
-rmdir('/tmp/nimble_4852')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/allegro5.babel')
+rmdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/refs/tags')
+rmdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/refs/heads')
+rmdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/refs')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/info/exclude')
+rmdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/info')
+rmdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/branches')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/logs/HEAD')
+rmdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/logs')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/description')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks/update.sample')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/shallow')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/index')
+rmdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/info')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/a3/8386ea14cc0c77cef855976b42e630f402f381')
+rmdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/a3')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/54/6f44cebe3b2192ceeb55bb8eb1cb1b44a79c93')
+rmdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/54')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/71/81a3fc34ba1d1224103015616da30f15d4ceb7')
+rmdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/71')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/a5/dedb04bcba26c3bfce9744a4c43ac2a40a097f')
+rmdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/a5')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/b9/b62d4c1eb71b98ab31b2b42a21842c6eb6f1e6')
+rmdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/b9')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/92/befe8e412162b0726046ae0ebaf1a407c7f0c4')
+rmdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/92')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/26/54da3408a14ce165c26b32a59b6080e672ab3f')
+rmdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/26')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/9a/229a04631425e7ed342d49f3a56926b80611b5')
+rmdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/9a')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/d4/e2396b4dd0ba00f363bfc1896efb1c73e54456')
+rmdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/d4')
+rmdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/pack')
+rmdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/packed-refs')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/HEAD')
+rmdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/.git')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/src/al.nim')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/src/al/cam.nim')
+rmdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/src/al')
+rmdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/src')
+unlink('/tmp/nimble_5301/githubcom_fowlmouthallegro5/examples/skel.nim')
+rmdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5/examples')
+rmdir('/tmp/nimble_5301/githubcom_fowlmouthallegro5')
+rmdir('/tmp/nimble_5301')
   create directory /tmp
-  create directory /tmp/nimble_4852
-  create directory /tmp/nimble_4852/githubcom_fowlmouthallegro5
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5
-  create directory /tmp/nimble_4852/githubcom_fowlmouthallegro5
-  create directory /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git
-  create directory /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git
-  create directory /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/branches
-  create directory /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks
-  create directory /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/info
-  create directory /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/refs
-  create directory /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/refs/heads
-  create directory /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/refs/tags
-  rename /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config.lock to config
-  change permissions of /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config.lock to config
-  change permissions of /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config.lock to config
-  change permissions of /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config.lock to config
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/tIa6HRi
-  create symbolic link from /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/tIa6HRi to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/tIa6HRi
-  create directory /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects
-  create directory /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects/pack
-  create directory /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects/info
-  change permissions of /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config.lock to config
-  change permissions of /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config.lock to config
-  change permissions of /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config.lock to config
-  create hard link from /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects/pack/pack-be9fdb6f83fc15b4e3b8848bbfdcb667a3ab99a6.pack to /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects/pack/tmp_pack_hFA1TM
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects/pack/tmp_pack_hFA1TM
-  create hard link from /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects/pack/pack-be9fdb6f83fc15b4e3b8848bbfdcb667a3ab99a6.idx to /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects/pack/tmp_idx_nYUbwV
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects/pack/tmp_idx_nYUbwV
-  rename /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/shallow.lock to shallow
-  rename /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/packed-refs.lock
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/refs/tags/v1.0.lock
-  create directory /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/logs
-  rename /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects/pack/pack-be9fdb6f83fc15b4e3b8848bbfdcb667a3ab99a6.keep
-  create directory /tmp/nimble_4852/githubcom_fowlmouthallegro5/examples
-  create directory /tmp/nimble_4852/githubcom_fowlmouthallegro5/src
-  create directory /tmp/nimble_4852/githubcom_fowlmouthallegro5/src/al
-  rename /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/index.lock to index
+  create directory /tmp/nimble_5301
+  create directory /tmp/nimble_5301/githubcom_fowlmouthallegro5
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5
+  create directory /tmp/nimble_5301/githubcom_fowlmouthallegro5
+  create directory /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git
+  create directory /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git
+  create directory /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/info
+  create directory /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/branches
+  create directory /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks
+  create directory /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/refs
+  create directory /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/refs/heads
+  create directory /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/refs/tags
+  rename /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config.lock to config
+  change permissions of /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config.lock to config
+  change permissions of /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config.lock to config
+  change permissions of /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config.lock to config
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/tRvSG9B
+  create symbolic link from /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/tRvSG9B to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/tRvSG9B
+  create directory /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects
+  create directory /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/pack
+  create directory /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/info
+  change permissions of /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config.lock to config
+  change permissions of /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config.lock to config
+  change permissions of /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config.lock to config
+  create directory /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/54
+  create hard link from /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/54/6f44cebe3b2192ceeb55bb8eb1cb1b44a79c93 to /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/54/tmp_obj_4IzvDE
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/54/tmp_obj_4IzvDE
+  create directory /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/d4
+  create hard link from /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/d4/e2396b4dd0ba00f363bfc1896efb1c73e54456 to /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/d4/tmp_obj_mUeeyJ
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/d4/tmp_obj_mUeeyJ
+  create directory /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/71
+  create hard link from /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/71/81a3fc34ba1d1224103015616da30f15d4ceb7 to /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/71/tmp_obj_Wu0tYP
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/71/tmp_obj_Wu0tYP
+  create directory /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/a5
+  create hard link from /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/a5/dedb04bcba26c3bfce9744a4c43ac2a40a097f to /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/a5/tmp_obj_wLv40T
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/a5/tmp_obj_wLv40T
+  create directory /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/a3
+  create hard link from /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/a3/8386ea14cc0c77cef855976b42e630f402f381 to /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/a3/tmp_obj_0Y678V
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/a3/tmp_obj_0Y678V
+  create directory /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/92
+  create hard link from /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/92/befe8e412162b0726046ae0ebaf1a407c7f0c4 to /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/92/tmp_obj_6t1ZR0
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/92/tmp_obj_6t1ZR0
+  create directory /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/9a
+  create hard link from /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/9a/229a04631425e7ed342d49f3a56926b80611b5 to /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/9a/tmp_obj_Cq54s4
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/9a/tmp_obj_Cq54s4
+  create directory /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/26
+  create hard link from /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/26/54da3408a14ce165c26b32a59b6080e672ab3f to /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/26/tmp_obj_EXzcVc
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/26/tmp_obj_EXzcVc
+  create directory /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/b9
+  create hard link from /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/b9/b62d4c1eb71b98ab31b2b42a21842c6eb6f1e6 to /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/b9/tmp_obj_mUCCGg
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/b9/tmp_obj_mUCCGg
+  rename /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/shallow.lock to shallow
+  rename /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/packed-refs.lock
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/refs/tags/v1.0.lock
+  create directory /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/logs
+  rename /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_5301/githubcom_fowlmouthallegro5/examples
+  create directory /tmp/nimble_5301/githubcom_fowlmouthallegro5/src
+  create directory /tmp/nimble_5301/githubcom_fowlmouthallegro5/src/al
+  rename /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/index.lock to index
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/allegro5-1.0
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/allegro5-1.0
+  change permissions of /home/runner/.nimble/pkgs/allegro5-1.0/al.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -182,52 +248,62 @@ rmdir('/tmp/nimble_4852')
   create directory /home/runner/.nimble/pkgs/allegro5-1.0
   create directory /home/runner/.nimble/pkgs/allegro5-1.0/al
   change permissions of /home/runner/.nimble/pkgs/allegro5-1.0/al/cam.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/allegro5-1.0
-  change permissions of /home/runner/.nimble/pkgs/allegro5-1.0/al.nim to rw-r--r--
   change permissions of /home/runner/.nimble/pkgs/allegro5-1.0/allegro5.babel to rw-r--r--
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/examples/skel.nim
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/examples
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/src/al/cam.nim
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/src/al
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/src/al.nim
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/src
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/allegro5.babel
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/HEAD
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/config
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/logs/HEAD
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/logs
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/branches
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/packed-refs
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/refs/heads
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/refs/tags
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/refs
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks/pre-push.sample
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks/update.sample
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks/post-update.sample
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/hooks
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/index
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/info/exclude
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/info
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/shallow
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/description
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects/pack/pack-be9fdb6f83fc15b4e3b8848bbfdcb667a3ab99a6.pack
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects/pack/pack-be9fdb6f83fc15b4e3b8848bbfdcb667a3ab99a6.idx
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects/pack
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects/info
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git/objects
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5/.git
-  delete /tmp/nimble_4852/githubcom_fowlmouthallegro5
-  delete /tmp/nimble_4852
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/allegro5.babel
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/refs/tags
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/refs/heads
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/refs
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/info/exclude
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/info
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/branches
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/logs/HEAD
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/logs
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/description
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks/pre-push.sample
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks/update.sample
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks/post-update.sample
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/hooks
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/shallow
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/config
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/index
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/info
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/a3/8386ea14cc0c77cef855976b42e630f402f381
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/a3
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/54/6f44cebe3b2192ceeb55bb8eb1cb1b44a79c93
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/54
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/71/81a3fc34ba1d1224103015616da30f15d4ceb7
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/71
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/a5/dedb04bcba26c3bfce9744a4c43ac2a40a097f
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/a5
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/b9/b62d4c1eb71b98ab31b2b42a21842c6eb6f1e6
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/b9
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/92/befe8e412162b0726046ae0ebaf1a407c7f0c4
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/92
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/26/54da3408a14ce165c26b32a59b6080e672ab3f
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/26
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/9a/229a04631425e7ed342d49f3a56926b80611b5
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/9a
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/d4/e2396b4dd0ba00f363bfc1896efb1c73e54456
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/d4
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects/pack
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/objects
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/packed-refs
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git/HEAD
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/.git
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/src/al.nim
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/src/al/cam.nim
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/src/al
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/src
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/examples/skel.nim
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5/examples
+  delete /tmp/nimble_5301/githubcom_fowlmouthallegro5
+  delete /tmp/nimble_5301
