@@ -1,86 +1,136 @@
     Reading official package list
 Downloading https://github.com/JohnAD/bson using git
     Cloning latest tagged version: v1.1.2
-       Info /tmp/nimble_16219/githubcom_JohnADbson/bson_16219.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /tmp/nimble_16219/githubcom_JohnADbson/bson_16219.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_16157', 0x00000000000001ff)
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson', 0x00000000000001ff)
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson')
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson', 0x00000000000001ff)
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_16157/githubcom_JohnADbson/.git/HEAD.lock', '/tmp/nimble_16157/githubcom_JohnADbson/.git/HEAD')
+rename('/tmp/nimble_16157/githubcom_JohnADbson/.git/config.lock', '/tmp/nimble_16157/githubcom_JohnADbson/.git/config')
+chmod('/tmp/nimble_16157/githubcom_JohnADbson/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_16157/githubcom_JohnADbson/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_16157/githubcom_JohnADbson/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16157/githubcom_JohnADbson/.git/config.lock', '/tmp/nimble_16157/githubcom_JohnADbson/.git/config')
+chmod('/tmp/nimble_16157/githubcom_JohnADbson/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16157/githubcom_JohnADbson/.git/config.lock', '/tmp/nimble_16157/githubcom_JohnADbson/.git/config')
+chmod('/tmp/nimble_16157/githubcom_JohnADbson/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16157/githubcom_JohnADbson/.git/config.lock', '/tmp/nimble_16157/githubcom_JohnADbson/.git/config')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/tWsm4ka')
+symlink('testing', '/tmp/nimble_16157/githubcom_JohnADbson/.git/tWsm4ka')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/tWsm4ka')
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_16157/githubcom_JohnADbson/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16157/githubcom_JohnADbson/.git/config.lock', '/tmp/nimble_16157/githubcom_JohnADbson/.git/config')
+chmod('/tmp/nimble_16157/githubcom_JohnADbson/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16157/githubcom_JohnADbson/.git/config.lock', '/tmp/nimble_16157/githubcom_JohnADbson/.git/config')
+chmod('/tmp/nimble_16157/githubcom_JohnADbson/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_16157/githubcom_JohnADbson/.git/config.lock', '/tmp/nimble_16157/githubcom_JohnADbson/.git/config')
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9d', 0x00000000000001ff)
+link('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9d/tmp_obj_8vBw62', '/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9d/54157ee9f4a2860582c79f579a9ba7d15f9f59')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9d/tmp_obj_8vBw62')
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/95', 0x00000000000001ff)
+link('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/95/tmp_obj_aPGuQ8', '/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/95/94d3a9f79172eb7ee046798c5edab111c403a8')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/95/tmp_obj_aPGuQ8')
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/25', 0x00000000000001ff)
+link('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/25/tmp_obj_eNiN1a', '/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/25/b6aa1d84bc9189d568fca9727e29f96c9a9ba1')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/25/tmp_obj_eNiN1a')
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ff', 0x00000000000001ff)
+link('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ff/tmp_obj_GLujnc', '/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ff/665e0e66d2b46b7f5a0fa907a240f2c22a20f8')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ff/tmp_obj_GLujnc')
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/1b', 0x00000000000001ff)
+link('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/1b/tmp_obj_I058Ne', '/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/1b/a02f08a6bed243ac258a601fcd09f8586742fc')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/1b/tmp_obj_I058Ne')
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/eb', 0x00000000000001ff)
+link('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/eb/tmp_obj_kQkEag', '/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/eb/64693ef6d61ea8a060c41084129eb47a720142')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/eb/tmp_obj_kQkEag')
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/67', 0x00000000000001ff)
+link('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/67/tmp_obj_1ol5Xb', '/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/67/d9b34c6cecad82ad17197ffa5db4860caf9037')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/67/tmp_obj_1ol5Xb')
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/8b', 0x00000000000001ff)
+link('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/8b/tmp_obj_XgMYme', '/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/8b/23445f4a55ae5f9e38055dec94b27ef2b14150')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/8b/tmp_obj_XgMYme')
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ee', 0x00000000000001ff)
+link('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ee/tmp_obj_N52cVg', '/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ee/0c34439e69530599aa364bafa4c016cac5a151')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ee/tmp_obj_N52cVg')
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/92', 0x00000000000001ff)
+link('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/92/tmp_obj_d5frNh', '/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/92/a62e508151375d3a16f3c014fab7207a990e26')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/92/tmp_obj_d5frNh')
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/18', 0x00000000000001ff)
+link('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/18/tmp_obj_l5bg8m', '/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/18/0738eda84d69f6f4a8a858a0410483a9cd205b')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/18/tmp_obj_l5bg8m')
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9b', 0x00000000000001ff)
+link('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9b/tmp_obj_Ndn1yq', '/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9b/3a678f6dd1ec381d3fff9037046af72c0110be')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9b/tmp_obj_Ndn1yq')
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/04', 0x00000000000001ff)
+link('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/04/tmp_obj_Vtfm5r', '/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/04/9d27b2c5df6b6e943cc51deb89c51c77ead645')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/04/tmp_obj_Vtfm5r')
+link('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/25/tmp_obj_X4Bqmu', '/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/25/abeab4be69192b3447ce79bd98ec98c875bab4')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/25/tmp_obj_X4Bqmu')
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9a', 0x00000000000001ff)
+link('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9a/tmp_obj_JTNPxx', '/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9a/89d3e809dbe534e7b1d18949c36be597fc1c8c')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9a/tmp_obj_JTNPxx')
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/e1', 0x00000000000001ff)
+link('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/e1/tmp_obj_tVYmNB', '/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/e1/e8e3fb07142b5cf3c4bbc9ed130e54d1ef33c8')       Info /tmp/nimble_16157/githubcom_JohnADbson/bson_16157.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /tmp/nimble_16157/githubcom_JohnADbson/bson_16157.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
   Verifying dependencies for bson@1.1.2
  Installing bson@1.1.2
-    Copying file /tmp/nimble_16219/githubcom_JohnADbson/src/bson/marshal.nim to /home/runner/.nimble/pkgs/bson-1.1.2/bson/marshal.nim
-    Copying file /tmp/nimble_16219/githubcom_JohnADbson/src/bson/generators.nim to /home/runner/.nimble/pkgs/bson-1.1.2/bson/generators.nim
-    Copying file /tmp/nimble_16219/githubcom_JohnADbson/src/bson.nim to /home/runner/.nimble/pkgs/bson-1.1.2/bson.nim
-    Copying file /tmp/nimble_16219/githubcom_JohnADbson/bson.nimble to /home/runner/.nimble/pkgs/bson-1.1.2/bson.nimble
+    Copying file /tmp/nimble_16157/githubcom_JohnADbson/src/bson/generators.nim to /home/runner/.nimble/pkgs/bson-1.1.2/bson/generators.nim
+    Copying file /tmp/nimble_16157/githubcom_JohnADbson/src/bson/marshal.nim to /home/runner/.nimble/pkgs/bson-1.1.2/bson/marshal.nim
+    Copying file /tmp/nimble_16157/githubcom_JohnADbson/src/bson.nim to /home/runner/.nimble/pkgs/bson-1.1.2/bson.nim
+    Copying file /tmp/nimble_16157/githubcom_JohnADbson/bson.nimble to /home/runner/.nimble/pkgs/bson-1.1.2/bson.nimble
    Success: bson installed successfully.
-       Info /home/runner/.nimble/pkgs/bson-1.1.2/bson_16219.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /home/runner/.nimble/pkgs/bson-1.1.2/bson_16219.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_16219', 0x00000000000001ff)
-mkdir('/tmp/nimble_16219/githubcom_JohnADbson', 0x00000000000001ff)
-rmdir('/tmp/nimble_16219/githubcom_JohnADbson')
-mkdir('/tmp/nimble_16219/githubcom_JohnADbson', 0x00000000000001ff)
-mkdir('/tmp/nimble_16219/githubcom_JohnADbson/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_16219/githubcom_JohnADbson/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_16219/githubcom_JohnADbson/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_16219/githubcom_JohnADbson/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_16219/githubcom_JohnADbson/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_16219/githubcom_JohnADbson/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_16219/githubcom_JohnADbson/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_16219/githubcom_JohnADbson/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_16219/githubcom_JohnADbson/.git/HEAD.lock', '/tmp/nimble_16219/githubcom_JohnADbson/.git/HEAD')
-rename('/tmp/nimble_16219/githubcom_JohnADbson/.git/config.lock', '/tmp/nimble_16219/githubcom_JohnADbson/.git/config')
-chmod('/tmp/nimble_16219/githubcom_JohnADbson/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_16219/githubcom_JohnADbson/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_16219/githubcom_JohnADbson/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_16219/githubcom_JohnADbson/.git/config.lock', '/tmp/nimble_16219/githubcom_JohnADbson/.git/config')
-chmod('/tmp/nimble_16219/githubcom_JohnADbson/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_16219/githubcom_JohnADbson/.git/config.lock', '/tmp/nimble_16219/githubcom_JohnADbson/.git/config')
-chmod('/tmp/nimble_16219/githubcom_JohnADbson/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_16219/githubcom_JohnADbson/.git/config.lock', '/tmp/nimble_16219/githubcom_JohnADbson/.git/config')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/tTGrZgN')
-symlink('testing', '/tmp/nimble_16219/githubcom_JohnADbson/.git/tTGrZgN')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/tTGrZgN')
-mkdir('/tmp/nimble_16219/githubcom_JohnADbson/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_16219/githubcom_JohnADbson/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_16219/githubcom_JohnADbson/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_16219/githubcom_JohnADbson/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_16219/githubcom_JohnADbson/.git/config.lock', '/tmp/nimble_16219/githubcom_JohnADbson/.git/config')
-chmod('/tmp/nimble_16219/githubcom_JohnADbson/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_16219/githubcom_JohnADbson/.git/config.lock', '/tmp/nimble_16219/githubcom_JohnADbson/.git/config')
-chmod('/tmp/nimble_16219/githubcom_JohnADbson/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_16219/githubcom_JohnADbson/.git/config.lock', '/tmp/nimble_16219/githubcom_JohnADbson/.git/config')
-link('/tmp/nimble_16219/githubcom_JohnADbson/.git/objects/pack/tmp_pack_13eWbq', '/tmp/nimble_16219/githubcom_JohnADbson/.git/objects/pack/pack-e6cbac648de2283a4fbec45a4ef6f03ab0a11090.pack')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/objects/pack/tmp_pack_13eWbq')
-link('/tmp/nimble_16219/githubcom_JohnADbson/.git/objects/pack/tmp_idx_xYlxgF', '/tmp/nimble_16219/githubcom_JohnADbson/.git/objects/pack/pack-e6cbac648de2283a4fbec45a4ef6f03ab0a11090.idx')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/objects/pack/tmp_idx_xYlxgF')
-rename('/tmp/nimble_16219/githubcom_JohnADbson/.git/shallow.lock', '/tmp/nimble_16219/githubcom_JohnADbson/.git/shallow')
-rename('/tmp/nimble_16219/githubcom_JohnADbson/.git/packed-refs.new', '/tmp/nimble_16219/githubcom_JohnADbson/.git/packed-refs')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/packed-refs.lock')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/refs/tags/v1.1.2.lock')
-mkdir('/tmp/nimble_16219/githubcom_JohnADbson/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_16219/githubcom_JohnADbson/.git/HEAD.lock', '/tmp/nimble_16219/githubcom_JohnADbson/.git/HEAD')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/objects/pack/pack-e6cbac648de2283a4fbec45a4ef6f03ab0a11090.keep')
+       Info /home/runner/.nimble/pkgs/bson-1.1.2/bson_16157.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /home/runner/.nimble/pkgs/bson-1.1.2/bson_16157.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/e1/tmp_obj_tVYmNB')
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/e6', 0x00000000000001ff)
+link('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/e6/tmp_obj_noHfQC', '/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/e6/d8f62e4cc0a4140dccdad3aa2b4d268e5618ab')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/e6/tmp_obj_noHfQC')
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/85', 0x00000000000001ff)
+link('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/85/tmp_obj_z6ef6E', '/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/85/bf6c448c110187ab65c0967baf926f70ceb723')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/85/tmp_obj_z6ef6E')
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ec', 0x00000000000001ff)
+link('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ec/tmp_obj_DEZKqH', '/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ec/95fbed0926048e7b69b3fe654168019c6514e1')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ec/tmp_obj_DEZKqH')
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ba', 0x00000000000001ff)
+link('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ba/tmp_obj_V9ccOK', '/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ba/cd417b6619afbfb1d7ec40aec41c58c14e811e')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ba/tmp_obj_V9ccOK')
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/83', 0x00000000000001ff)
+link('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/83/tmp_obj_Lk5hHJ', '/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/83/88eb8f7357f94e3036112d22bacfa2a8743c99')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/83/tmp_obj_Lk5hHJ')
+rename('/tmp/nimble_16157/githubcom_JohnADbson/.git/shallow.lock', '/tmp/nimble_16157/githubcom_JohnADbson/.git/shallow')
+rename('/tmp/nimble_16157/githubcom_JohnADbson/.git/packed-refs.new', '/tmp/nimble_16157/githubcom_JohnADbson/.git/packed-refs')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/packed-refs.lock')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/refs/tags/v1.1.2.lock')
+mkdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_16157/githubcom_JohnADbson/.git/HEAD.lock', '/tmp/nimble_16157/githubcom_JohnADbson/.git/HEAD')
 mkdir('docs', 0x00000000000001ff)
 mkdir('src', 0x00000000000001ff)
 mkdir('src/bson', 0x00000000000001ff)
 mkdir('tests', 0x00000000000001ff)
-rename('/tmp/nimble_16219/githubcom_JohnADbson/.git/index.lock', '/tmp/nimble_16219/githubcom_JohnADbson/.git/index')
+rename('/tmp/nimble_16157/githubcom_JohnADbson/.git/index.lock', '/tmp/nimble_16157/githubcom_JohnADbson/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/bson_3697154402', 0x00000000000001ff)
-unlink('/tmp/nimblecache/bson_3697154402/bson.ini')
-unlink('/tmp/nimble_16219.out')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/bson_16219.nims')
+mkdir('/tmp/nimblecache/bson_3113645914', 0x00000000000001ff)
+unlink('/tmp/nimblecache/bson_3113645914/bson.ini')
+unlink('/tmp/nimble_16157.out')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/bson_16157.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/bson-1.1.2', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/bson-1.1.2', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/bson-1.1.2/bson', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/bson-1.1.2/bson/marshal.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -93,137 +143,233 @@ mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/bson-1.1.2', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/bson-1.1.2/bson', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/bson-1.1.2/bson/marshal.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/bson-1.1.2', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/bson-1.1.2/bson.nim', 0x00000000000001a4)
 chmod('/home/runner/.nimble/pkgs/bson-1.1.2/bson.nimble', 0x00000000000001a4)
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/bson_4280086312', 0x00000000000001ff)
 unlink('/tmp/nimblecache/bson_4280086312/bson.ini')
-unlink('/tmp/nimble_16219.out')
-unlink('/home/runner/.nimble/pkgs/bson-1.1.2/bson_16219.nims')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/src/bson/marshal.nim')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/src/bson/generators.nim')
-rmdir('/tmp/nimble_16219/githubcom_JohnADbson/src/bson')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/src/bson.nim')
-rmdir('/tmp/nimble_16219/githubcom_JohnADbson/src')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.gitignore')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/README.rst')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/LICENSE')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/docnimble.json')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/docs/index.rst')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/docs/bson-ref.rst')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/docs/bson-marshal-ref.rst')
-rmdir('/tmp/nimble_16219/githubcom_JohnADbson/docs')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/HEAD')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/config')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/logs/HEAD')
-rmdir('/tmp/nimble_16219/githubcom_JohnADbson/.git/logs')
-rmdir('/tmp/nimble_16219/githubcom_JohnADbson/.git/branches')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/packed-refs')
-rmdir('/tmp/nimble_16219/githubcom_JohnADbson/.git/refs/heads')
-rmdir('/tmp/nimble_16219/githubcom_JohnADbson/.git/refs/tags')
-rmdir('/tmp/nimble_16219/githubcom_JohnADbson/.git/refs')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/hooks/update.sample')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_16219/githubcom_JohnADbson/.git/hooks')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/index')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/info/exclude')
-rmdir('/tmp/nimble_16219/githubcom_JohnADbson/.git/info')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/shallow')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/description')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/objects/pack/pack-e6cbac648de2283a4fbec45a4ef6f03ab0a11090.idx')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/.git/objects/pack/pack-e6cbac648de2283a4fbec45a4ef6f03ab0a11090.pack')
-rmdir('/tmp/nimble_16219/githubcom_JohnADbson/.git/objects/pack')
-rmdir('/tmp/nimble_16219/githubcom_JohnADbson/.git/objects/info')
-rmdir('/tmp/nimble_16219/githubcom_JohnADbson/.git/objects')
-rmdir('/tmp/nimble_16219/githubcom_JohnADbson/.git')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/bson.nimble')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/tests/tmarshal.nim')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/tests/tjson.nim')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/tests/tbson.nim')
-unlink('/tmp/nimble_16219/githubcom_JohnADbson/tests/nim.cfg')
-rmdir('/tmp/nimble_16219/githubcom_JohnADbson/tests')
-rmdir('/tmp/nimble_16219/githubcom_JohnADbson')
-rmdir('/tmp/nimble_16219')
+unlink('/tmp/nimble_16157.out')
+unlink('/home/runner/.nimble/pkgs/bson-1.1.2/bson_16157.nims')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/docs/bson-marshal-ref.rst')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/docs/index.rst')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/docs/bson-ref.rst')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/docs')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/bson.nimble')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/refs/tags')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/refs/heads')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/refs')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/info/exclude')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/info')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/branches')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/logs/HEAD')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/logs')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/description')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/hooks/update.sample')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/hooks')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/shallow')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/config')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/index')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ec/95fbed0926048e7b69b3fe654168019c6514e1')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ec')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/1b/a02f08a6bed243ac258a601fcd09f8586742fc')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/1b')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9d/54157ee9f4a2860582c79f579a9ba7d15f9f59')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9d')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/info')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/85/bf6c448c110187ab65c0967baf926f70ceb723')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/85')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9b/3a678f6dd1ec381d3fff9037046af72c0110be')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9b')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/e1/e8e3fb07142b5cf3c4bbc9ed130e54d1ef33c8')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/e1')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/67/d9b34c6cecad82ad17197ffa5db4860caf9037')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/67')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/04/9d27b2c5df6b6e943cc51deb89c51c77ead645')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/04')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/92/a62e508151375d3a16f3c014fab7207a990e26')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/92')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/8b/23445f4a55ae5f9e38055dec94b27ef2b14150')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/8b')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ee/0c34439e69530599aa364bafa4c016cac5a151')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ee')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/95/94d3a9f79172eb7ee046798c5edab111c403a8')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/95')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9a/89d3e809dbe534e7b1d18949c36be597fc1c8c')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9a')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/eb/64693ef6d61ea8a060c41084129eb47a720142')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/eb')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ba/cd417b6619afbfb1d7ec40aec41c58c14e811e')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ba')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/25/abeab4be69192b3447ce79bd98ec98c875bab4')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/25/b6aa1d84bc9189d568fca9727e29f96c9a9ba1')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/25')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/18/0738eda84d69f6f4a8a858a0410483a9cd205b')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/18')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ff/665e0e66d2b46b7f5a0fa907a240f2c22a20f8')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ff')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/pack')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/83/88eb8f7357f94e3036112d22bacfa2a8743c99')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/83')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/e6/d8f62e4cc0a4140dccdad3aa2b4d268e5618ab')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects/e6')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git/objects')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/packed-refs')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.git/HEAD')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/.git')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/src/bson/generators.nim')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/src/bson/marshal.nim')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/src/bson')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/src/bson.nim')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/src')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/docnimble.json')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/README.rst')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/tests/tbson.nim')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/tests/tjson.nim')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/tests/tmarshal.nim')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/tests/nim.cfg')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson/tests')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/.gitignore')
+unlink('/tmp/nimble_16157/githubcom_JohnADbson/LICENSE')
+rmdir('/tmp/nimble_16157/githubcom_JohnADbson')
+rmdir('/tmp/nimble_16157')
   create directory /tmp
-  create directory /tmp/nimble_16219
-  create directory /tmp/nimble_16219/githubcom_JohnADbson
-  delete /tmp/nimble_16219/githubcom_JohnADbson
-  create directory /tmp/nimble_16219/githubcom_JohnADbson
-  create directory /tmp/nimble_16219/githubcom_JohnADbson/.git
-  create directory /tmp/nimble_16219/githubcom_JohnADbson/.git
-  create directory /tmp/nimble_16219/githubcom_JohnADbson/.git/branches
-  create directory /tmp/nimble_16219/githubcom_JohnADbson/.git/hooks
-  create directory /tmp/nimble_16219/githubcom_JohnADbson/.git/info
-  create directory /tmp/nimble_16219/githubcom_JohnADbson/.git/refs
-  create directory /tmp/nimble_16219/githubcom_JohnADbson/.git/refs/heads
-  create directory /tmp/nimble_16219/githubcom_JohnADbson/.git/refs/tags
-  rename /tmp/nimble_16219/githubcom_JohnADbson/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_16219/githubcom_JohnADbson/.git/config.lock to config
-  change permissions of /tmp/nimble_16219/githubcom_JohnADbson/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_16219/githubcom_JohnADbson/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_16219/githubcom_JohnADbson/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_16219/githubcom_JohnADbson/.git/config.lock to config
-  change permissions of /tmp/nimble_16219/githubcom_JohnADbson/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_16219/githubcom_JohnADbson/.git/config.lock to config
-  change permissions of /tmp/nimble_16219/githubcom_JohnADbson/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_16219/githubcom_JohnADbson/.git/config.lock to config
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/tTGrZgN
-  create symbolic link from /tmp/nimble_16219/githubcom_JohnADbson/.git/tTGrZgN to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/tTGrZgN
-  create directory /tmp/nimble_16219/githubcom_JohnADbson/.git/objects
-  create directory /tmp/nimble_16219/githubcom_JohnADbson/.git/objects/pack
-  create directory /tmp/nimble_16219/githubcom_JohnADbson/.git/objects/info
-  change permissions of /tmp/nimble_16219/githubcom_JohnADbson/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_16219/githubcom_JohnADbson/.git/config.lock to config
-  change permissions of /tmp/nimble_16219/githubcom_JohnADbson/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_16219/githubcom_JohnADbson/.git/config.lock to config
-  change permissions of /tmp/nimble_16219/githubcom_JohnADbson/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_16219/githubcom_JohnADbson/.git/config.lock to config
-  create hard link from /tmp/nimble_16219/githubcom_JohnADbson/.git/objects/pack/pack-e6cbac648de2283a4fbec45a4ef6f03ab0a11090.pack to /tmp/nimble_16219/githubcom_JohnADbson/.git/objects/pack/tmp_pack_13eWbq
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/objects/pack/tmp_pack_13eWbq
-  create hard link from /tmp/nimble_16219/githubcom_JohnADbson/.git/objects/pack/pack-e6cbac648de2283a4fbec45a4ef6f03ab0a11090.idx to /tmp/nimble_16219/githubcom_JohnADbson/.git/objects/pack/tmp_idx_xYlxgF
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/objects/pack/tmp_idx_xYlxgF
-  rename /tmp/nimble_16219/githubcom_JohnADbson/.git/shallow.lock to shallow
-  rename /tmp/nimble_16219/githubcom_JohnADbson/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/packed-refs.lock
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/refs/tags/v1.1.2.lock
-  create directory /tmp/nimble_16219/githubcom_JohnADbson/.git/logs
-  rename /tmp/nimble_16219/githubcom_JohnADbson/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/objects/pack/pack-e6cbac648de2283a4fbec45a4ef6f03ab0a11090.keep
-  create directory /tmp/nimble_16219/githubcom_JohnADbson/docs
-  create directory /tmp/nimble_16219/githubcom_JohnADbson/src
-  create directory /tmp/nimble_16219/githubcom_JohnADbson/src/bson
-  create directory /tmp/nimble_16219/githubcom_JohnADbson/tests
-  rename /tmp/nimble_16219/githubcom_JohnADbson/.git/index.lock to index
+  create directory /tmp/nimble_16157
+  create directory /tmp/nimble_16157/githubcom_JohnADbson
+  delete /tmp/nimble_16157/githubcom_JohnADbson
+  create directory /tmp/nimble_16157/githubcom_JohnADbson
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/info
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/branches
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/hooks
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/refs
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/refs/heads
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/refs/tags
+  rename /tmp/nimble_16157/githubcom_JohnADbson/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_16157/githubcom_JohnADbson/.git/config.lock to config
+  change permissions of /tmp/nimble_16157/githubcom_JohnADbson/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_16157/githubcom_JohnADbson/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_16157/githubcom_JohnADbson/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16157/githubcom_JohnADbson/.git/config.lock to config
+  change permissions of /tmp/nimble_16157/githubcom_JohnADbson/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16157/githubcom_JohnADbson/.git/config.lock to config
+  change permissions of /tmp/nimble_16157/githubcom_JohnADbson/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16157/githubcom_JohnADbson/.git/config.lock to config
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/tWsm4ka
+  create symbolic link from /tmp/nimble_16157/githubcom_JohnADbson/.git/tWsm4ka to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/tWsm4ka
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/objects
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/pack
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/info
+  change permissions of /tmp/nimble_16157/githubcom_JohnADbson/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16157/githubcom_JohnADbson/.git/config.lock to config
+  change permissions of /tmp/nimble_16157/githubcom_JohnADbson/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16157/githubcom_JohnADbson/.git/config.lock to config
+  change permissions of /tmp/nimble_16157/githubcom_JohnADbson/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_16157/githubcom_JohnADbson/.git/config.lock to config
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9d
+  create hard link from /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9d/54157ee9f4a2860582c79f579a9ba7d15f9f59 to /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9d/tmp_obj_8vBw62
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9d/tmp_obj_8vBw62
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/95
+  create hard link from /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/95/94d3a9f79172eb7ee046798c5edab111c403a8 to /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/95/tmp_obj_aPGuQ8
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/95/tmp_obj_aPGuQ8
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/25
+  create hard link from /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/25/b6aa1d84bc9189d568fca9727e29f96c9a9ba1 to /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/25/tmp_obj_eNiN1a
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/25/tmp_obj_eNiN1a
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ff
+  create hard link from /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ff/665e0e66d2b46b7f5a0fa907a240f2c22a20f8 to /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ff/tmp_obj_GLujnc
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ff/tmp_obj_GLujnc
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/1b
+  create hard link from /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/1b/a02f08a6bed243ac258a601fcd09f8586742fc to /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/1b/tmp_obj_I058Ne
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/1b/tmp_obj_I058Ne
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/eb
+  create hard link from /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/eb/64693ef6d61ea8a060c41084129eb47a720142 to /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/eb/tmp_obj_kQkEag
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/eb/tmp_obj_kQkEag
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/67
+  create hard link from /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/67/d9b34c6cecad82ad17197ffa5db4860caf9037 to /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/67/tmp_obj_1ol5Xb
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/67/tmp_obj_1ol5Xb
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/8b
+  create hard link from /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/8b/23445f4a55ae5f9e38055dec94b27ef2b14150 to /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/8b/tmp_obj_XgMYme
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/8b/tmp_obj_XgMYme
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ee
+  create hard link from /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ee/0c34439e69530599aa364bafa4c016cac5a151 to /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ee/tmp_obj_N52cVg
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ee/tmp_obj_N52cVg
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/92
+  create hard link from /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/92/a62e508151375d3a16f3c014fab7207a990e26 to /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/92/tmp_obj_d5frNh
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/92/tmp_obj_d5frNh
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/18
+  create hard link from /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/18/0738eda84d69f6f4a8a858a0410483a9cd205b to /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/18/tmp_obj_l5bg8m
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/18/tmp_obj_l5bg8m
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9b
+  create hard link from /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9b/3a678f6dd1ec381d3fff9037046af72c0110be to /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9b/tmp_obj_Ndn1yq
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9b/tmp_obj_Ndn1yq
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/04
+  create hard link from /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/04/9d27b2c5df6b6e943cc51deb89c51c77ead645 to /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/04/tmp_obj_Vtfm5r
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/04/tmp_obj_Vtfm5r
+  create hard link from /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/25/abeab4be69192b3447ce79bd98ec98c875bab4 to /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/25/tmp_obj_X4Bqmu
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/25/tmp_obj_X4Bqmu
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9a
+  create hard link from /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9a/89d3e809dbe534e7b1d18949c36be597fc1c8c to /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9a/tmp_obj_JTNPxx
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9a/tmp_obj_JTNPxx
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/e1
+  create hard link from /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/e1/e8e3fb07142b5cf3c4bbc9ed130e54d1ef33c8 to /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/e1/tmp_obj_tVYmNB
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/e1/tmp_obj_tVYmNB
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/e6
+  create hard link from /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/e6/d8f62e4cc0a4140dccdad3aa2b4d268e5618ab to /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/e6/tmp_obj_noHfQC
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/e6/tmp_obj_noHfQC
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/85
+  create hard link from /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/85/bf6c448c110187ab65c0967baf926f70ceb723 to /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/85/tmp_obj_z6ef6E
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/85/tmp_obj_z6ef6E
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ec
+  create hard link from /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ec/95fbed0926048e7b69b3fe654168019c6514e1 to /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ec/tmp_obj_DEZKqH
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ec/tmp_obj_DEZKqH
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ba
+  create hard link from /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ba/cd417b6619afbfb1d7ec40aec41c58c14e811e to /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ba/tmp_obj_V9ccOK
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ba/tmp_obj_V9ccOK
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/83
+  create hard link from /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/83/88eb8f7357f94e3036112d22bacfa2a8743c99 to /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/83/tmp_obj_Lk5hHJ
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/83/tmp_obj_Lk5hHJ
+  rename /tmp/nimble_16157/githubcom_JohnADbson/.git/shallow.lock to shallow
+  rename /tmp/nimble_16157/githubcom_JohnADbson/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/packed-refs.lock
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/refs/tags/v1.1.2.lock
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/.git/logs
+  rename /tmp/nimble_16157/githubcom_JohnADbson/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/docs
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/src
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/src/bson
+  create directory /tmp/nimble_16157/githubcom_JohnADbson/tests
+  rename /tmp/nimble_16157/githubcom_JohnADbson/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/bson_3697154402
-  delete /tmp/nimblecache/bson_3697154402/bson.ini
-  delete /tmp/nimble_16219.out
-  delete /tmp/nimble_16219/githubcom_JohnADbson/bson_16219.nims
+  create directory /tmp/nimblecache/bson_3113645914
+  delete /tmp/nimblecache/bson_3113645914/bson.ini
+  delete /tmp/nimble_16157.out
+  delete /tmp/nimble_16157/githubcom_JohnADbson/bson_16157.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/bson-1.1.2
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/bson-1.1.2
-  create directory /home/runner/.nimble/pkgs/bson-1.1.2/bson
-  change permissions of /home/runner/.nimble/pkgs/bson-1.1.2/bson/marshal.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -236,65 +382,111 @@ rmdir('/tmp/nimble_16219')
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/bson-1.1.2
+  create directory /home/runner/.nimble/pkgs/bson-1.1.2/bson
+  change permissions of /home/runner/.nimble/pkgs/bson-1.1.2/bson/marshal.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/bson-1.1.2
   change permissions of /home/runner/.nimble/pkgs/bson-1.1.2/bson.nim to rw-r--r--
   change permissions of /home/runner/.nimble/pkgs/bson-1.1.2/bson.nimble to rw-r--r--
   create directory /tmp
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/bson_4280086312
   delete /tmp/nimblecache/bson_4280086312/bson.ini
-  delete /tmp/nimble_16219.out
-  delete /home/runner/.nimble/pkgs/bson-1.1.2/bson_16219.nims
-  delete /tmp/nimble_16219/githubcom_JohnADbson/src/bson/marshal.nim
-  delete /tmp/nimble_16219/githubcom_JohnADbson/src/bson/generators.nim
-  delete /tmp/nimble_16219/githubcom_JohnADbson/src/bson
-  delete /tmp/nimble_16219/githubcom_JohnADbson/src/bson.nim
-  delete /tmp/nimble_16219/githubcom_JohnADbson/src
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.gitignore
-  delete /tmp/nimble_16219/githubcom_JohnADbson/README.rst
-  delete /tmp/nimble_16219/githubcom_JohnADbson/LICENSE
-  delete /tmp/nimble_16219/githubcom_JohnADbson/docnimble.json
-  delete /tmp/nimble_16219/githubcom_JohnADbson/docs/index.rst
-  delete /tmp/nimble_16219/githubcom_JohnADbson/docs/bson-ref.rst
-  delete /tmp/nimble_16219/githubcom_JohnADbson/docs/bson-marshal-ref.rst
-  delete /tmp/nimble_16219/githubcom_JohnADbson/docs
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/HEAD
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/config
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/logs/HEAD
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/logs
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/branches
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/packed-refs
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/refs/heads
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/refs/tags
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/refs
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/hooks/pre-push.sample
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/hooks/update.sample
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/hooks/post-update.sample
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/hooks
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/index
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/info/exclude
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/info
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/shallow
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/description
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/objects/pack/pack-e6cbac648de2283a4fbec45a4ef6f03ab0a11090.idx
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/objects/pack/pack-e6cbac648de2283a4fbec45a4ef6f03ab0a11090.pack
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/objects/pack
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/objects/info
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git/objects
-  delete /tmp/nimble_16219/githubcom_JohnADbson/.git
-  delete /tmp/nimble_16219/githubcom_JohnADbson/bson.nimble
-  delete /tmp/nimble_16219/githubcom_JohnADbson/tests/tmarshal.nim
-  delete /tmp/nimble_16219/githubcom_JohnADbson/tests/tjson.nim
-  delete /tmp/nimble_16219/githubcom_JohnADbson/tests/tbson.nim
-  delete /tmp/nimble_16219/githubcom_JohnADbson/tests/nim.cfg
-  delete /tmp/nimble_16219/githubcom_JohnADbson/tests
-  delete /tmp/nimble_16219/githubcom_JohnADbson
-  delete /tmp/nimble_16219
+  delete /tmp/nimble_16157.out
+  delete /home/runner/.nimble/pkgs/bson-1.1.2/bson_16157.nims
+  delete /tmp/nimble_16157/githubcom_JohnADbson/docs/bson-marshal-ref.rst
+  delete /tmp/nimble_16157/githubcom_JohnADbson/docs/index.rst
+  delete /tmp/nimble_16157/githubcom_JohnADbson/docs/bson-ref.rst
+  delete /tmp/nimble_16157/githubcom_JohnADbson/docs
+  delete /tmp/nimble_16157/githubcom_JohnADbson/bson.nimble
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/refs/tags
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/refs/heads
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/refs
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/info/exclude
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/info
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/branches
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/logs/HEAD
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/logs
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/description
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/hooks/pre-push.sample
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/hooks/update.sample
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/hooks/post-update.sample
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/hooks
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/shallow
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/config
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/index
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ec/95fbed0926048e7b69b3fe654168019c6514e1
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ec
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/1b/a02f08a6bed243ac258a601fcd09f8586742fc
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/1b
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9d/54157ee9f4a2860582c79f579a9ba7d15f9f59
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9d
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/info
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/85/bf6c448c110187ab65c0967baf926f70ceb723
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/85
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9b/3a678f6dd1ec381d3fff9037046af72c0110be
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9b
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/e1/e8e3fb07142b5cf3c4bbc9ed130e54d1ef33c8
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/e1
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/67/d9b34c6cecad82ad17197ffa5db4860caf9037
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/67
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/04/9d27b2c5df6b6e943cc51deb89c51c77ead645
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/04
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/92/a62e508151375d3a16f3c014fab7207a990e26
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/92
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/8b/23445f4a55ae5f9e38055dec94b27ef2b14150
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/8b
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ee/0c34439e69530599aa364bafa4c016cac5a151
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ee
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/95/94d3a9f79172eb7ee046798c5edab111c403a8
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/95
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9a/89d3e809dbe534e7b1d18949c36be597fc1c8c
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/9a
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/eb/64693ef6d61ea8a060c41084129eb47a720142
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/eb
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ba/cd417b6619afbfb1d7ec40aec41c58c14e811e
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ba
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/25/abeab4be69192b3447ce79bd98ec98c875bab4
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/25/b6aa1d84bc9189d568fca9727e29f96c9a9ba1
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/25
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/18/0738eda84d69f6f4a8a858a0410483a9cd205b
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/18
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ff/665e0e66d2b46b7f5a0fa907a240f2c22a20f8
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/ff
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/pack
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/83/88eb8f7357f94e3036112d22bacfa2a8743c99
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/83
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/e6/d8f62e4cc0a4140dccdad3aa2b4d268e5618ab
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects/e6
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/objects
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/packed-refs
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git/HEAD
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.git
+  delete /tmp/nimble_16157/githubcom_JohnADbson/src/bson/generators.nim
+  delete /tmp/nimble_16157/githubcom_JohnADbson/src/bson/marshal.nim
+  delete /tmp/nimble_16157/githubcom_JohnADbson/src/bson
+  delete /tmp/nimble_16157/githubcom_JohnADbson/src/bson.nim
+  delete /tmp/nimble_16157/githubcom_JohnADbson/src
+  delete /tmp/nimble_16157/githubcom_JohnADbson/docnimble.json
+  delete /tmp/nimble_16157/githubcom_JohnADbson/README.rst
+  delete /tmp/nimble_16157/githubcom_JohnADbson/tests/tbson.nim
+  delete /tmp/nimble_16157/githubcom_JohnADbson/tests/tjson.nim
+  delete /tmp/nimble_16157/githubcom_JohnADbson/tests/tmarshal.nim
+  delete /tmp/nimble_16157/githubcom_JohnADbson/tests/nim.cfg
+  delete /tmp/nimble_16157/githubcom_JohnADbson/tests
+  delete /tmp/nimble_16157/githubcom_JohnADbson/.gitignore
+  delete /tmp/nimble_16157/githubcom_JohnADbson/LICENSE
+  delete /tmp/nimble_16157/githubcom_JohnADbson
+  delete /tmp/nimble_16157
