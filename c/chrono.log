@@ -1,61 +1,142 @@
     Reading official package list
 Downloading https://github.com/treeform/chrono using git
     Cloning latest tagged version: 0.2.0
-  Verifying dependencies for chrono@0.2.0
- Installing chrono@0.2.0
-    Copying file /tmp/nimble_11728/githubcom_treeformchrono/src/chrono/calendars.nim to /home/runner/.nimble/pkgs/chrono-0.2.0/chrono/calendars.nim
-    Copying file /tmp/nimble_11728/githubcom_treeformchrono/src/chrono/statictz.nim to /home/runner/.nimble/pkgs/chrono-0.2.0/chrono/statictz.nim
-    Copying file /tmp/nimble_11728/githubcom_treeformchrono/src/chrono/timestamps.nim to /home/runner/.nimble/pkgs/chrono-0.2.0/chrono/timestamps.nim
-    Copying file /tmp/nimble_11728/githubcom_treeformchrono/src/chrono/timezones.nim to /home/runner/.nimble/pkgs/chrono-0.2.0/chrono/timezones.nim
-    Copying file /tmp/nimble_11728/githubcom_treeformchrono/src/chrono.nim to /home/runner/.nimble/pkgs/chrono-0.2.0/chrono.nim
-    Copying file /tmp/nimble_11728/githubcom_treeformchrono/chrono.nimble to /home/runner/.nimble/pkgs/chrono-0.2.0/chrono.nimble
-   Success: chrono installed successfully.
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_11728', 0x00000000000001ff)
-mkdir('/tmp/nimble_11728/githubcom_treeformchrono', 0x00000000000001ff)
-rmdir('/tmp/nimble_11728/githubcom_treeformchrono')
-mkdir('/tmp/nimble_11728/githubcom_treeformchrono', 0x00000000000001ff)
-mkdir('/tmp/nimble_11728/githubcom_treeformchrono/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_11728/githubcom_treeformchrono/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_11728/githubcom_treeformchrono/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_11728/githubcom_treeformchrono/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_11728/githubcom_treeformchrono/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_11728/githubcom_treeformchrono/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_11728/githubcom_treeformchrono/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_11728/githubcom_treeformchrono/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_11728/githubcom_treeformchrono/.git/HEAD.lock', '/tmp/nimble_11728/githubcom_treeformchrono/.git/HEAD')
-rename('/tmp/nimble_11728/githubcom_treeformchrono/.git/config.lock', '/tmp/nimble_11728/githubcom_treeformchrono/.git/config')
-chmod('/tmp/nimble_11728/githubcom_treeformchrono/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_11728/githubcom_treeformchrono/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_11728/githubcom_treeformchrono/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_11728/githubcom_treeformchrono/.git/config.lock', '/tmp/nimble_11728/githubcom_treeformchrono/.git/config')
-chmod('/tmp/nimble_11728/githubcom_treeformchrono/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_11728/githubcom_treeformchrono/.git/config.lock', '/tmp/nimble_11728/githubcom_treeformchrono/.git/config')
-chmod('/tmp/nimble_11728/githubcom_treeformchrono/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_11728/githubcom_treeformchrono/.git/config.lock', '/tmp/nimble_11728/githubcom_treeformchrono/.git/config')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/t2yt4Ax')
-symlink('testing', '/tmp/nimble_11728/githubcom_treeformchrono/.git/t2yt4Ax')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/t2yt4Ax')
-mkdir('/tmp/nimble_11728/githubcom_treeformchrono/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_11728/githubcom_treeformchrono/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_11728/githubcom_treeformchrono/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_11728/githubcom_treeformchrono/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_11728/githubcom_treeformchrono/.git/config.lock', '/tmp/nimble_11728/githubcom_treeformchrono/.git/config')
-chmod('/tmp/nimble_11728/githubcom_treeformchrono/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_11728/githubcom_treeformchrono/.git/config.lock', '/tmp/nimble_11728/githubcom_treeformchrono/.git/config')
-chmod('/tmp/nimble_11728/githubcom_treeformchrono/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_11728/githubcom_treeformchrono/.git/config.lock', '/tmp/nimble_11728/githubcom_treeformchrono/.git/config')
-link('/tmp/nimble_11728/githubcom_treeformchrono/.git/objects/pack/tmp_pack_qOaLtE', '/tmp/nimble_11728/githubcom_treeformchrono/.git/objects/pack/pack-4cb52f29e4dd052a476df133f1a7cc38212aaf39.pack')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/objects/pack/tmp_pack_qOaLtE')
-link('/tmp/nimble_11728/githubcom_treeformchrono/.git/objects/pack/tmp_idx_7ulUKa', '/tmp/nimble_11728/githubcom_treeformchrono/.git/objects/pack/pack-4cb52f29e4dd052a476df133f1a7cc38212aaf39.idx')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/objects/pack/tmp_idx_7ulUKa')
-rename('/tmp/nimble_11728/githubcom_treeformchrono/.git/shallow.lock', '/tmp/nimble_11728/githubcom_treeformchrono/.git/shallow')
-rename('/tmp/nimble_11728/githubcom_treeformchrono/.git/packed-refs.new', '/tmp/nimble_11728/githubcom_treeformchrono/.git/packed-refs')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/packed-refs.lock')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/refs/tags/0.2.0.lock')
-mkdir('/tmp/nimble_11728/githubcom_treeformchrono/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_11728/githubcom_treeformchrono/.git/HEAD.lock', '/tmp/nimble_11728/githubcom_treeformchrono/.git/HEAD')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/objects/pack/pack-4cb52f29e4dd052a476df133f1a7cc38212aaf39.keep')
+mkdir('/tmp/nimble_11898', 0x00000000000001ff)
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono', 0x00000000000001ff)
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono', 0x00000000000001ff)
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_11898/githubcom_treeformchrono/.git/HEAD.lock', '/tmp/nimble_11898/githubcom_treeformchrono/.git/HEAD')
+rename('/tmp/nimble_11898/githubcom_treeformchrono/.git/config.lock', '/tmp/nimble_11898/githubcom_treeformchrono/.git/config')
+chmod('/tmp/nimble_11898/githubcom_treeformchrono/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_11898/githubcom_treeformchrono/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_11898/githubcom_treeformchrono/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_11898/githubcom_treeformchrono/.git/config.lock', '/tmp/nimble_11898/githubcom_treeformchrono/.git/config')
+chmod('/tmp/nimble_11898/githubcom_treeformchrono/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_11898/githubcom_treeformchrono/.git/config.lock', '/tmp/nimble_11898/githubcom_treeformchrono/.git/config')
+chmod('/tmp/nimble_11898/githubcom_treeformchrono/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_11898/githubcom_treeformchrono/.git/config.lock', '/tmp/nimble_11898/githubcom_treeformchrono/.git/config')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/tL0RmpN')
+symlink('testing', '/tmp/nimble_11898/githubcom_treeformchrono/.git/tL0RmpN')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/tL0RmpN')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_11898/githubcom_treeformchrono/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_11898/githubcom_treeformchrono/.git/config.lock', '/tmp/nimble_11898/githubcom_treeformchrono/.git/config')
+chmod('/tmp/nimble_11898/githubcom_treeformchrono/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_11898/githubcom_treeformchrono/.git/config.lock', '/tmp/nimble_11898/githubcom_treeformchrono/.git/config')
+chmod('/tmp/nimble_11898/githubcom_treeformchrono/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_11898/githubcom_treeformchrono/.git/config.lock', '/tmp/nimble_11898/githubcom_treeformchrono/.git/config')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/89', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/89/tmp_obj_Q97e19', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/89/7b34e4bfaecd5f42686ea3cb1859ed936e3b09')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/89/tmp_obj_Q97e19')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5c', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5c/tmp_obj_0u8O9d', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5c/9b1664cf91015a78f0b6490160bad473af26d5')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5c/tmp_obj_0u8O9d')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/40', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/40/tmp_obj_s5zbtk', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/40/03ec4bb9401249e516aafa3300eb6449e1cae2')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/40/tmp_obj_s5zbtk')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/37', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/37/tmp_obj_rnZWxe', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/37/6624e901f68ea2b24ab1fcdb55a98fed5d9961')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/37/tmp_obj_rnZWxe')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/7f', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/7f/tmp_obj_DLotwf', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/7f/a3b250b24f9c35696f153663c07c1b4ec1c8a8')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/7f/tmp_obj_DLotwf')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/8e', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/8e/tmp_obj_3ODp7j', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/8e/1ee7c46d6ea70e802f440cc42d7f66c9c51612')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/8e/tmp_obj_3ODp7j')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ba', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ba/tmp_obj_d8erup', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ba/29514da9d724eb8fe0e260826e33d9bfdefe9c')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ba/tmp_obj_d8erup')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/a0', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/a0/tmp_obj_VkMc7t', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/a0/f5e0601c7594fdc4c563a9eaeb2f3878fedfb8')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/a0/tmp_obj_VkMc7t')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/6e', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/6e/tmp_obj_lQzFxv', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/6e/1bfbfb0f5198eaa6208f23b454ce6d9e4cad28')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/6e/tmp_obj_lQzFxv')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/c9', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/c9/tmp_obj_5vptoB', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/c9/6f6805008aa8ad8493c636b3460f091650cf5e')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/c9/tmp_obj_5vptoB')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/87', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/87/tmp_obj_VK91CC', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/87/4482127f8629424e2e66a7c1f73200ba6304c3')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/87/tmp_obj_VK91CC')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/e5', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/e5/tmp_obj_3idQnI', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/e5/fcc4b3aa8f246aa25261606eb928bfb010f710')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/e5/tmp_obj_3idQnI')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/e9', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/e9/tmp_obj_tYLcYJ', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/e9/ee7beb596ca712669a496678f3664dfd0c0bbf')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/e9/tmp_obj_tYLcYJ')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ac', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ac/tmp_obj_v73dhP', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ac/81daea8587b777dcfb21b95723b544f66f0ce0')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ac/tmp_obj_v73dhP')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ad', 0x00000000000001ff)  Verifying dependencies for chrono@0.2.0
+ Installing chrono@0.2.0
+    Copying file /tmp/nimble_11898/githubcom_treeformchrono/src/chrono.nim to /home/runner/.nimble/pkgs/chrono-0.2.0/chrono.nim
+    Copying file /tmp/nimble_11898/githubcom_treeformchrono/src/chrono/timestamps.nim to /home/runner/.nimble/pkgs/chrono-0.2.0/chrono/timestamps.nim
+
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ad/tmp_obj_zrLf3T', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ad/8504a0a2cc191012573fe4b4e53ecbed89d12f')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ad/tmp_obj_zrLf3T')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/8d', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/8d/tmp_obj_HDTzAY', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/8d/ab97032de68274f26be3ce2490448730843d4d')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/8d/tmp_obj_HDTzAY')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/4e', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/4e/tmp_obj_HdAm9Y', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/4e/e73eaf98f86e42f0659fa0de2291a73a06722b')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/4e/tmp_obj_HdAm9Y')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/60', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/60/tmp_obj_9nsJqX', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/60/d47fd4af40551393f0688b9d72e10737a977e7')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/60/tmp_obj_9nsJqX')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5b', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5b/tmp_obj_dSMsg1', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5b/4624a3f0175ed429e5b61e74729b09efd04b97')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5b/tmp_obj_dSMsg1')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/0e', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/0e/tmp_obj_FIAI42', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/0e/fdcd2c569b2825b93e386704fbb6ba17c0213a')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/0e/tmp_obj_FIAI42')
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/4e/tmp_obj_HduRY8', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/4e/aacf8365bdfc183478832426a256dddd36c59c')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/4e/tmp_obj_HduRY8')
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/c9/tmp_obj_DLcxh7', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/c9/e3c4d11854f0fb230e642a06e98016fe904a20')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/c9/tmp_obj_DLcxh7')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/a1', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/a1/tmp_obj_3ciMJ7', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/a1/1920885228a6b999179d08784e41c20b173826')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/a1/tmp_obj_3ciMJ7')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/6c', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/6c/tmp_obj_JekgW9', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/6c/8ba794b35ee62b5c2f04e47245284bd9cea330')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/6c/tmp_obj_JekgW9')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5e', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5e/tmp_obj_pIgW7d', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5e/55d6840ccec7ce5d6a33a92f15995bcb83e4a7')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5e/tmp_obj_pIgW7d')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/30', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/30/tmp_obj_P7Cokh', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/30/0044af7a233ffe30be579b120fa85b0c8323cb')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/30/tmp_obj_P7Cokh')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/69', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/69/tmp_obj_Rw123h', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/69/92a6a5b0e36dab5c3c098ab17053769486a33e')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/69/tmp_obj_Rw123h')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/99', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/99/tmp_obj_IO2NsP', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/99/b6df7aeccaae788a834c5ac641325e171fbac5')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/99/tmp_obj_IO2NsP')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/cf', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/cf/tmp_obj_LmbyK5', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/cf/fcca55a04329eedeb00a57232bf3a5ae95021e')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/cf/tmp_obj_LmbyK5')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/58', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/58/tmp_obj_jMXqhg', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/58/42a4686a1cd2f9a772198fecfde8630a3133f0')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/58/tmp_obj_jMXqhg')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/cd', 0x00000000000001ff)
+link('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/cd/tmp_obj_OOMCoa', '/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/cd/4033b7555c7d6c05798597becabbc3e0ff4f3e')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/cd/tmp_obj_OOMCoa')
+rename('/tmp/nimble_11898/githubcom_treeformchrono/.git/shallow.lock', '/tmp/nimble_11898/githubcom_treeformchrono/.git/shallow')
+rename('/tmp/nimble_11898/githubcom_treeformchrono/.git/packed-refs.new', '/tmp/nimble_11898/githubcom_treeformchrono/.git/packed-refs')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/packed-refs.lock')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/refs/tags/0.2.0.lock')
+mkdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_11898/githubcom_treeformchrono/.git/HEAD.lock', '/tmp/nimble_11898/githubcom_treeformchrono/.git/HEAD')
 mkdir('.github', 0x00000000000001ff)
 mkdir('.github/workflows', 0x00000000000001ff)
 mkdir('docs', 0x00000000000001ff)
@@ -65,18 +146,43 @@ mkdir('tests', 0x00000000000001ff)
 mkdir('tools', 0x00000000000001ff)
 mkdir('tz', 0x00000000000001ff)
 mkdir('tzdata', 0x00000000000001ff)
-rename('/tmp/nimble_11728/githubcom_treeformchrono/.git/index.lock', '/tmp/nimble_11728/githubcom_treeformchrono/.git/index')
+rename('/tmp/nimble_11898/githubcom_treeformchrono/.git/index.lock', '/tmp/nimble_11898/githubcom_treeformchrono/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/chrono_347433135', 0x00000000000001ff)
-unlink('/tmp/nimblecache/chrono_347433135/chrono.ini')
-unlink('/tmp/nimble_11728.out')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/chrono_11728.nims')
+mkdir('/tmp/nimblecache/chrono_1228205724', 0x00000000000001ff)
+unlink('/tmp/nimblecache/chrono_1228205724/chrono.ini')
+unlink('/tmp/nimble_11898.out')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/chrono_11898.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/chrono-0.2.0', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/chrono-0.2.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/chrono-0.2.0/chrono.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/chrono-0.2.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/chrono-0.2.0/chrono', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/chrono-0.2.0/chrono/timestamps.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)    Copying file /tmp/nimble_11898/githubcom_treeformchrono/src/chrono/statictz.nim to /home/runner/.nimble/pkgs/chrono-0.2.0/chrono/statictz.nim
+    Copying file /tmp/nimble_11898/githubcom_treeformchrono/src/chrono/calendars.nim to /home/runner/.nimble/pkgs/chrono-0.2.0/chrono/calendars.nim
+    Copying file /tmp/nimble_11898/githubcom_treeformchrono/src/chrono/timezones.nim to /home/runner/.nimble/pkgs/chrono-0.2.0/chrono/timezones.nim
+    Copying file /tmp/nimble_11898/githubcom_treeformchrono/chrono.nimble to /home/runner/.nimble/pkgs/chrono-0.2.0/chrono.nimble
+   Success: chrono installed successfully.
+
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/chrono-0.2.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/chrono-0.2.0/chrono', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/chrono-0.2.0/chrono/statictz.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -90,161 +196,285 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/chrono-0.2.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/chrono-0.2.0/chrono', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/chrono-0.2.0/chrono/statictz.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/chrono-0.2.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/chrono-0.2.0/chrono', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/chrono-0.2.0/chrono/timestamps.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/chrono-0.2.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/chrono-0.2.0/chrono', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/chrono-0.2.0/chrono/timezones.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/chrono-0.2.0', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/chrono-0.2.0/chrono.nim', 0x00000000000001a4)
 chmod('/home/runner/.nimble/pkgs/chrono-0.2.0/chrono.nimble', 0x00000000000001a4)
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/chrono_1705948417', 0x00000000000001ff)
 unlink('/tmp/nimblecache/chrono_1705948417/chrono.ini')
-unlink('/tmp/nimble_11728.out')
-unlink('/home/runner/.nimble/pkgs/chrono-0.2.0/chrono_11728.nims')
-rmdir('/tmp/nimble_11728/githubcom_treeformchrono/tz')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/src/chrono/calendars.nim')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/src/chrono/statictz.nim')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/src/chrono/timestamps.nim')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/src/chrono/timezones.nim')
-rmdir('/tmp/nimble_11728/githubcom_treeformchrono/src/chrono')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/src/chrono.nim')
-rmdir('/tmp/nimble_11728/githubcom_treeformchrono/src')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/tzdata/dstchanges.csv')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/tzdata/dstchanges.json')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/tzdata/timezones.json')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/tzdata/timezones.csv')
-rmdir('/tmp/nimble_11728/githubcom_treeformchrono/tzdata')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.gitignore')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.github/workflows/build.yml')
-rmdir('/tmp/nimble_11728/githubcom_treeformchrono/.github/workflows')
-rmdir('/tmp/nimble_11728/githubcom_treeformchrono/.github')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/chrono.nimble')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/LICENSE')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/docs/nimdoc.out.css')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/docs/index.html')
-rmdir('/tmp/nimble_11728/githubcom_treeformchrono/docs')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/HEAD')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/config')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/logs/HEAD')
-rmdir('/tmp/nimble_11728/githubcom_treeformchrono/.git/logs')
-rmdir('/tmp/nimble_11728/githubcom_treeformchrono/.git/branches')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/packed-refs')
-rmdir('/tmp/nimble_11728/githubcom_treeformchrono/.git/refs/heads')
-rmdir('/tmp/nimble_11728/githubcom_treeformchrono/.git/refs/tags')
-rmdir('/tmp/nimble_11728/githubcom_treeformchrono/.git/refs')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/hooks/update.sample')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_11728/githubcom_treeformchrono/.git/hooks')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/index')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/info/exclude')
-rmdir('/tmp/nimble_11728/githubcom_treeformchrono/.git/info')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/shallow')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/description')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/objects/pack/pack-4cb52f29e4dd052a476df133f1a7cc38212aaf39.idx')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/.git/objects/pack/pack-4cb52f29e4dd052a476df133f1a7cc38212aaf39.pack')
-rmdir('/tmp/nimble_11728/githubcom_treeformchrono/.git/objects/pack')
-rmdir('/tmp/nimble_11728/githubcom_treeformchrono/.git/objects/info')
-rmdir('/tmp/nimble_11728/githubcom_treeformchrono/.git/objects')
-rmdir('/tmp/nimble_11728/githubcom_treeformchrono/.git')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/tools/generate.nim')
-rmdir('/tmp/nimble_11728/githubcom_treeformchrono/tools')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/README.md')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/tests/test_calendars.nim')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/tests/config.nims')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/tests/test_timezones.nim')
-unlink('/tmp/nimble_11728/githubcom_treeformchrono/tests/test_timestamps.nim')
-rmdir('/tmp/nimble_11728/githubcom_treeformchrono/tests')
-rmdir('/tmp/nimble_11728/githubcom_treeformchrono')
-rmdir('/tmp/nimble_11728')
+unlink('/tmp/nimble_11898.out')
+unlink('/home/runner/.nimble/pkgs/chrono-0.2.0/chrono_11898.nims')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/docs/nimdoc.out.css')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/docs/index.html')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/docs')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/chrono.nimble')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/tzdata/timezones.csv')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/tzdata/dstchanges.json')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/tzdata/dstchanges.csv')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/tzdata/timezones.json')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/tzdata')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/README.md')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.github/workflows/build.yml')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.github/workflows')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.github')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/refs/tags')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/refs/heads')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/refs')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/info/exclude')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/info')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/branches')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/logs/HEAD')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/logs')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/description')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/hooks/update.sample')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/hooks')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/shallow')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/config')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/index')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/99/b6df7aeccaae788a834c5ac641325e171fbac5')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/99')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/60/d47fd4af40551393f0688b9d72e10737a977e7')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/60')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/4e/aacf8365bdfc183478832426a256dddd36c59c')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/4e/e73eaf98f86e42f0659fa0de2291a73a06722b')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/4e')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5c/9b1664cf91015a78f0b6490160bad473af26d5')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5c')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/e9/ee7beb596ca712669a496678f3664dfd0c0bbf')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/e9')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ac/81daea8587b777dcfb21b95723b544f66f0ce0')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ac')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/info')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/87/4482127f8629424e2e66a7c1f73200ba6304c3')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/87')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5b/4624a3f0175ed429e5b61e74729b09efd04b97')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5b')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/c9/e3c4d11854f0fb230e642a06e98016fe904a20')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/c9/6f6805008aa8ad8493c636b3460f091650cf5e')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/c9')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/37/6624e901f68ea2b24ab1fcdb55a98fed5d9961')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/37')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/a0/f5e0601c7594fdc4c563a9eaeb2f3878fedfb8')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/a0')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/58/42a4686a1cd2f9a772198fecfde8630a3133f0')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/58')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/8d/ab97032de68274f26be3ce2490448730843d4d')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/8d')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/69/92a6a5b0e36dab5c3c098ab17053769486a33e')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/69')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/e5/fcc4b3aa8f246aa25261606eb928bfb010f710')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/e5')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/30/0044af7a233ffe30be579b120fa85b0c8323cb')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/30')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ad/8504a0a2cc191012573fe4b4e53ecbed89d12f')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ad')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/8e/1ee7c46d6ea70e802f440cc42d7f66c9c51612')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/8e')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5e/55d6840ccec7ce5d6a33a92f15995bcb83e4a7')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5e')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/cf/fcca55a04329eedeb00a57232bf3a5ae95021e')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/cf')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/40/03ec4bb9401249e516aafa3300eb6449e1cae2')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/40')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/cd/4033b7555c7d6c05798597becabbc3e0ff4f3e')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/cd')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/89/7b34e4bfaecd5f42686ea3cb1859ed936e3b09')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/89')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/0e/fdcd2c569b2825b93e386704fbb6ba17c0213a')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/0e')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ba/29514da9d724eb8fe0e260826e33d9bfdefe9c')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ba')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/pack')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/6c/8ba794b35ee62b5c2f04e47245284bd9cea330')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/6c')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/6e/1bfbfb0f5198eaa6208f23b454ce6d9e4cad28')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/6e')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/a1/1920885228a6b999179d08784e41c20b173826')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/a1')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/7f/a3b250b24f9c35696f153663c07c1b4ec1c8a8')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects/7f')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git/objects')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/packed-refs')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.git/HEAD')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/.git')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/src/chrono.nim')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/src/chrono/timestamps.nim')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/src/chrono/statictz.nim')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/src/chrono/calendars.nim')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/src/chrono/timezones.nim')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/src/chrono')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/src')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/tz')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/tests/config.nims')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/tests/test_calendars.nim')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/tests/test_timestamps.nim')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/tests/test_timezones.nim')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/tests')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/tools/generate.nim')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono/tools')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/.gitignore')
+unlink('/tmp/nimble_11898/githubcom_treeformchrono/LICENSE')
+rmdir('/tmp/nimble_11898/githubcom_treeformchrono')
+rmdir('/tmp/nimble_11898')
   create directory /tmp
-  create directory /tmp/nimble_11728
-  create directory /tmp/nimble_11728/githubcom_treeformchrono
-  delete /tmp/nimble_11728/githubcom_treeformchrono
-  create directory /tmp/nimble_11728/githubcom_treeformchrono
-  create directory /tmp/nimble_11728/githubcom_treeformchrono/.git
-  create directory /tmp/nimble_11728/githubcom_treeformchrono/.git
-  create directory /tmp/nimble_11728/githubcom_treeformchrono/.git/branches
-  create directory /tmp/nimble_11728/githubcom_treeformchrono/.git/hooks
-  create directory /tmp/nimble_11728/githubcom_treeformchrono/.git/info
-  create directory /tmp/nimble_11728/githubcom_treeformchrono/.git/refs
-  create directory /tmp/nimble_11728/githubcom_treeformchrono/.git/refs/heads
-  create directory /tmp/nimble_11728/githubcom_treeformchrono/.git/refs/tags
-  rename /tmp/nimble_11728/githubcom_treeformchrono/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_11728/githubcom_treeformchrono/.git/config.lock to config
-  change permissions of /tmp/nimble_11728/githubcom_treeformchrono/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_11728/githubcom_treeformchrono/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_11728/githubcom_treeformchrono/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_11728/githubcom_treeformchrono/.git/config.lock to config
-  change permissions of /tmp/nimble_11728/githubcom_treeformchrono/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_11728/githubcom_treeformchrono/.git/config.lock to config
-  change permissions of /tmp/nimble_11728/githubcom_treeformchrono/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_11728/githubcom_treeformchrono/.git/config.lock to config
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/t2yt4Ax
-  create symbolic link from /tmp/nimble_11728/githubcom_treeformchrono/.git/t2yt4Ax to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/t2yt4Ax
-  create directory /tmp/nimble_11728/githubcom_treeformchrono/.git/objects
-  create directory /tmp/nimble_11728/githubcom_treeformchrono/.git/objects/pack
-  create directory /tmp/nimble_11728/githubcom_treeformchrono/.git/objects/info
-  change permissions of /tmp/nimble_11728/githubcom_treeformchrono/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_11728/githubcom_treeformchrono/.git/config.lock to config
-  change permissions of /tmp/nimble_11728/githubcom_treeformchrono/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_11728/githubcom_treeformchrono/.git/config.lock to config
-  change permissions of /tmp/nimble_11728/githubcom_treeformchrono/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_11728/githubcom_treeformchrono/.git/config.lock to config
-  create hard link from /tmp/nimble_11728/githubcom_treeformchrono/.git/objects/pack/pack-4cb52f29e4dd052a476df133f1a7cc38212aaf39.pack to /tmp/nimble_11728/githubcom_treeformchrono/.git/objects/pack/tmp_pack_qOaLtE
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/objects/pack/tmp_pack_qOaLtE
-  create hard link from /tmp/nimble_11728/githubcom_treeformchrono/.git/objects/pack/pack-4cb52f29e4dd052a476df133f1a7cc38212aaf39.idx to /tmp/nimble_11728/githubcom_treeformchrono/.git/objects/pack/tmp_idx_7ulUKa
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/objects/pack/tmp_idx_7ulUKa
-  rename /tmp/nimble_11728/githubcom_treeformchrono/.git/shallow.lock to shallow
-  rename /tmp/nimble_11728/githubcom_treeformchrono/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/packed-refs.lock
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/refs/tags/0.2.0.lock
-  create directory /tmp/nimble_11728/githubcom_treeformchrono/.git/logs
-  rename /tmp/nimble_11728/githubcom_treeformchrono/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/objects/pack/pack-4cb52f29e4dd052a476df133f1a7cc38212aaf39.keep
-  create directory /tmp/nimble_11728/githubcom_treeformchrono/.github
-  create directory /tmp/nimble_11728/githubcom_treeformchrono/.github/workflows
-  create directory /tmp/nimble_11728/githubcom_treeformchrono/docs
-  create directory /tmp/nimble_11728/githubcom_treeformchrono/src
-  create directory /tmp/nimble_11728/githubcom_treeformchrono/src/chrono
-  create directory /tmp/nimble_11728/githubcom_treeformchrono/tests
-  create directory /tmp/nimble_11728/githubcom_treeformchrono/tools
-  create directory /tmp/nimble_11728/githubcom_treeformchrono/tz
-  create directory /tmp/nimble_11728/githubcom_treeformchrono/tzdata
-  rename /tmp/nimble_11728/githubcom_treeformchrono/.git/index.lock to index
+  create directory /tmp/nimble_11898
+  create directory /tmp/nimble_11898/githubcom_treeformchrono
+  delete /tmp/nimble_11898/githubcom_treeformchrono
+  create directory /tmp/nimble_11898/githubcom_treeformchrono
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/info
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/branches
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/hooks
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/refs
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/refs/heads
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/refs/tags
+  rename /tmp/nimble_11898/githubcom_treeformchrono/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_11898/githubcom_treeformchrono/.git/config.lock to config
+  change permissions of /tmp/nimble_11898/githubcom_treeformchrono/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_11898/githubcom_treeformchrono/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_11898/githubcom_treeformchrono/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_11898/githubcom_treeformchrono/.git/config.lock to config
+  change permissions of /tmp/nimble_11898/githubcom_treeformchrono/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_11898/githubcom_treeformchrono/.git/config.lock to config
+  change permissions of /tmp/nimble_11898/githubcom_treeformchrono/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_11898/githubcom_treeformchrono/.git/config.lock to config
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/tL0RmpN
+  create symbolic link from /tmp/nimble_11898/githubcom_treeformchrono/.git/tL0RmpN to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/tL0RmpN
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/pack
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/info
+  change permissions of /tmp/nimble_11898/githubcom_treeformchrono/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_11898/githubcom_treeformchrono/.git/config.lock to config
+  change permissions of /tmp/nimble_11898/githubcom_treeformchrono/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_11898/githubcom_treeformchrono/.git/config.lock to config
+  change permissions of /tmp/nimble_11898/githubcom_treeformchrono/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_11898/githubcom_treeformchrono/.git/config.lock to config
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/89
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/89/7b34e4bfaecd5f42686ea3cb1859ed936e3b09 to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/89/tmp_obj_Q97e19
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/89/tmp_obj_Q97e19
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5c
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5c/9b1664cf91015a78f0b6490160bad473af26d5 to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5c/tmp_obj_0u8O9d
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5c/tmp_obj_0u8O9d
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/40
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/40/03ec4bb9401249e516aafa3300eb6449e1cae2 to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/40/tmp_obj_s5zbtk
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/40/tmp_obj_s5zbtk
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/37
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/37/6624e901f68ea2b24ab1fcdb55a98fed5d9961 to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/37/tmp_obj_rnZWxe
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/37/tmp_obj_rnZWxe
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/7f
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/7f/a3b250b24f9c35696f153663c07c1b4ec1c8a8 to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/7f/tmp_obj_DLotwf
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/7f/tmp_obj_DLotwf
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/8e
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/8e/1ee7c46d6ea70e802f440cc42d7f66c9c51612 to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/8e/tmp_obj_3ODp7j
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/8e/tmp_obj_3ODp7j
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ba
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ba/29514da9d724eb8fe0e260826e33d9bfdefe9c to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ba/tmp_obj_d8erup
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ba/tmp_obj_d8erup
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/a0
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/a0/f5e0601c7594fdc4c563a9eaeb2f3878fedfb8 to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/a0/tmp_obj_VkMc7t
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/a0/tmp_obj_VkMc7t
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/6e
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/6e/1bfbfb0f5198eaa6208f23b454ce6d9e4cad28 to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/6e/tmp_obj_lQzFxv
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/6e/tmp_obj_lQzFxv
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/c9
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/c9/6f6805008aa8ad8493c636b3460f091650cf5e to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/c9/tmp_obj_5vptoB
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/c9/tmp_obj_5vptoB
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/87
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/87/4482127f8629424e2e66a7c1f73200ba6304c3 to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/87/tmp_obj_VK91CC
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/87/tmp_obj_VK91CC
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/e5
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/e5/fcc4b3aa8f246aa25261606eb928bfb010f710 to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/e5/tmp_obj_3idQnI
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/e5/tmp_obj_3idQnI
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/e9
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/e9/ee7beb596ca712669a496678f3664dfd0c0bbf to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/e9/tmp_obj_tYLcYJ
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/e9/tmp_obj_tYLcYJ
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ac
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ac/81daea8587b777dcfb21b95723b544f66f0ce0 to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ac/tmp_obj_v73dhP
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ac/tmp_obj_v73dhP
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ad
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ad/8504a0a2cc191012573fe4b4e53ecbed89d12f to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ad/tmp_obj_zrLf3T
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ad/tmp_obj_zrLf3T
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/8d
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/8d/ab97032de68274f26be3ce2490448730843d4d to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/8d/tmp_obj_HDTzAY
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/8d/tmp_obj_HDTzAY
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/4e
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/4e/e73eaf98f86e42f0659fa0de2291a73a06722b to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/4e/tmp_obj_HdAm9Y
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/4e/tmp_obj_HdAm9Y
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/60
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/60/d47fd4af40551393f0688b9d72e10737a977e7 to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/60/tmp_obj_9nsJqX
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/60/tmp_obj_9nsJqX
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5b
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5b/4624a3f0175ed429e5b61e74729b09efd04b97 to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5b/tmp_obj_dSMsg1
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5b/tmp_obj_dSMsg1
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/0e
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/0e/fdcd2c569b2825b93e386704fbb6ba17c0213a to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/0e/tmp_obj_FIAI42
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/0e/tmp_obj_FIAI42
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/4e/aacf8365bdfc183478832426a256dddd36c59c to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/4e/tmp_obj_HduRY8
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/4e/tmp_obj_HduRY8
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/c9/e3c4d11854f0fb230e642a06e98016fe904a20 to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/c9/tmp_obj_DLcxh7
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/c9/tmp_obj_DLcxh7
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/a1
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/a1/1920885228a6b999179d08784e41c20b173826 to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/a1/tmp_obj_3ciMJ7
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/a1/tmp_obj_3ciMJ7
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/6c
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/6c/8ba794b35ee62b5c2f04e47245284bd9cea330 to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/6c/tmp_obj_JekgW9
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/6c/tmp_obj_JekgW9
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5e
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5e/55d6840ccec7ce5d6a33a92f15995bcb83e4a7 to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5e/tmp_obj_pIgW7d
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5e/tmp_obj_pIgW7d
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/30
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/30/0044af7a233ffe30be579b120fa85b0c8323cb to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/30/tmp_obj_P7Cokh
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/30/tmp_obj_P7Cokh
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/69
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/69/92a6a5b0e36dab5c3c098ab17053769486a33e to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/69/tmp_obj_Rw123h
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/69/tmp_obj_Rw123h
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/99
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/99/b6df7aeccaae788a834c5ac641325e171fbac5 to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/99/tmp_obj_IO2NsP
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/99/tmp_obj_IO2NsP
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/cf
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/cf/fcca55a04329eedeb00a57232bf3a5ae95021e to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/cf/tmp_obj_LmbyK5
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/cf/tmp_obj_LmbyK5
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/58
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/58/42a4686a1cd2f9a772198fecfde8630a3133f0 to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/58/tmp_obj_jMXqhg
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/58/tmp_obj_jMXqhg
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/cd
+  create hard link from /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/cd/4033b7555c7d6c05798597becabbc3e0ff4f3e to /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/cd/tmp_obj_OOMCoa
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/cd/tmp_obj_OOMCoa
+  rename /tmp/nimble_11898/githubcom_treeformchrono/.git/shallow.lock to shallow
+  rename /tmp/nimble_11898/githubcom_treeformchrono/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/packed-refs.lock
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/refs/tags/0.2.0.lock
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.git/logs
+  rename /tmp/nimble_11898/githubcom_treeformchrono/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.github
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/.github/workflows
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/docs
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/src
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/src/chrono
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/tests
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/tools
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/tz
+  create directory /tmp/nimble_11898/githubcom_treeformchrono/tzdata
+  rename /tmp/nimble_11898/githubcom_treeformchrono/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/chrono_347433135
-  delete /tmp/nimblecache/chrono_347433135/chrono.ini
-  delete /tmp/nimble_11728.out
-  delete /tmp/nimble_11728/githubcom_treeformchrono/chrono_11728.nims
+  create directory /tmp/nimblecache/chrono_1228205724
+  delete /tmp/nimblecache/chrono_1228205724/chrono.ini
+  delete /tmp/nimble_11898.out
+  delete /tmp/nimble_11898/githubcom_treeformchrono/chrono_11898.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -255,15 +485,7 @@ rmdir('/tmp/nimble_11728')
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/chrono-0.2.0
-  create directory /home/runner/.nimble/pkgs/chrono-0.2.0/chrono
-  change permissions of /home/runner/.nimble/pkgs/chrono-0.2.0/chrono/calendars.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/chrono-0.2.0
-  create directory /home/runner/.nimble/pkgs/chrono-0.2.0/chrono
-  change permissions of /home/runner/.nimble/pkgs/chrono-0.2.0/chrono/statictz.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/chrono-0.2.0/chrono.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -277,82 +499,148 @@ rmdir('/tmp/nimble_11728')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/chrono-0.2.0
   create directory /home/runner/.nimble/pkgs/chrono-0.2.0/chrono
-  change permissions of /home/runner/.nimble/pkgs/chrono-0.2.0/chrono/timezones.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/chrono-0.2.0/chrono/statictz.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/chrono-0.2.0
-  change permissions of /home/runner/.nimble/pkgs/chrono-0.2.0/chrono.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/chrono-0.2.0/chrono
+  change permissions of /home/runner/.nimble/pkgs/chrono-0.2.0/chrono/calendars.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/chrono-0.2.0
+  create directory /home/runner/.nimble/pkgs/chrono-0.2.0/chrono
+  change permissions of /home/runner/.nimble/pkgs/chrono-0.2.0/chrono/timezones.nim to rw-r--r--
   change permissions of /home/runner/.nimble/pkgs/chrono-0.2.0/chrono.nimble to rw-r--r--
   create directory /tmp
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/chrono_1705948417
   delete /tmp/nimblecache/chrono_1705948417/chrono.ini
-  delete /tmp/nimble_11728.out
-  delete /home/runner/.nimble/pkgs/chrono-0.2.0/chrono_11728.nims
-  delete /tmp/nimble_11728/githubcom_treeformchrono/tz
-  delete /tmp/nimble_11728/githubcom_treeformchrono/src/chrono/calendars.nim
-  delete /tmp/nimble_11728/githubcom_treeformchrono/src/chrono/statictz.nim
-  delete /tmp/nimble_11728/githubcom_treeformchrono/src/chrono/timestamps.nim
-  delete /tmp/nimble_11728/githubcom_treeformchrono/src/chrono/timezones.nim
-  delete /tmp/nimble_11728/githubcom_treeformchrono/src/chrono
-  delete /tmp/nimble_11728/githubcom_treeformchrono/src/chrono.nim
-  delete /tmp/nimble_11728/githubcom_treeformchrono/src
-  delete /tmp/nimble_11728/githubcom_treeformchrono/tzdata/dstchanges.csv
-  delete /tmp/nimble_11728/githubcom_treeformchrono/tzdata/dstchanges.json
-  delete /tmp/nimble_11728/githubcom_treeformchrono/tzdata/timezones.json
-  delete /tmp/nimble_11728/githubcom_treeformchrono/tzdata/timezones.csv
-  delete /tmp/nimble_11728/githubcom_treeformchrono/tzdata
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.gitignore
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.github/workflows/build.yml
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.github/workflows
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.github
-  delete /tmp/nimble_11728/githubcom_treeformchrono/chrono.nimble
-  delete /tmp/nimble_11728/githubcom_treeformchrono/LICENSE
-  delete /tmp/nimble_11728/githubcom_treeformchrono/docs/nimdoc.out.css
-  delete /tmp/nimble_11728/githubcom_treeformchrono/docs/index.html
-  delete /tmp/nimble_11728/githubcom_treeformchrono/docs
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/HEAD
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/config
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/logs/HEAD
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/logs
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/branches
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/packed-refs
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/refs/heads
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/refs/tags
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/refs
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/hooks/pre-push.sample
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/hooks/update.sample
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/hooks/post-update.sample
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/hooks
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/index
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/info/exclude
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/info
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/shallow
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/description
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/objects/pack/pack-4cb52f29e4dd052a476df133f1a7cc38212aaf39.idx
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/objects/pack/pack-4cb52f29e4dd052a476df133f1a7cc38212aaf39.pack
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/objects/pack
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/objects/info
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git/objects
-  delete /tmp/nimble_11728/githubcom_treeformchrono/.git
-  delete /tmp/nimble_11728/githubcom_treeformchrono/tools/generate.nim
-  delete /tmp/nimble_11728/githubcom_treeformchrono/tools
-  delete /tmp/nimble_11728/githubcom_treeformchrono/README.md
-  delete /tmp/nimble_11728/githubcom_treeformchrono/tests/test_calendars.nim
-  delete /tmp/nimble_11728/githubcom_treeformchrono/tests/config.nims
-  delete /tmp/nimble_11728/githubcom_treeformchrono/tests/test_timezones.nim
-  delete /tmp/nimble_11728/githubcom_treeformchrono/tests/test_timestamps.nim
-  delete /tmp/nimble_11728/githubcom_treeformchrono/tests
-  delete /tmp/nimble_11728/githubcom_treeformchrono
-  delete /tmp/nimble_11728
+  delete /tmp/nimble_11898.out
+  delete /home/runner/.nimble/pkgs/chrono-0.2.0/chrono_11898.nims
+  delete /tmp/nimble_11898/githubcom_treeformchrono/docs/nimdoc.out.css
+  delete /tmp/nimble_11898/githubcom_treeformchrono/docs/index.html
+  delete /tmp/nimble_11898/githubcom_treeformchrono/docs
+  delete /tmp/nimble_11898/githubcom_treeformchrono/chrono.nimble
+  delete /tmp/nimble_11898/githubcom_treeformchrono/tzdata/timezones.csv
+  delete /tmp/nimble_11898/githubcom_treeformchrono/tzdata/dstchanges.json
+  delete /tmp/nimble_11898/githubcom_treeformchrono/tzdata/dstchanges.csv
+  delete /tmp/nimble_11898/githubcom_treeformchrono/tzdata/timezones.json
+  delete /tmp/nimble_11898/githubcom_treeformchrono/tzdata
+  delete /tmp/nimble_11898/githubcom_treeformchrono/README.md
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.github/workflows/build.yml
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.github/workflows
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.github
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/refs/tags
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/refs/heads
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/refs
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/info/exclude
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/info
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/branches
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/logs/HEAD
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/logs
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/description
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/hooks/pre-push.sample
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/hooks/update.sample
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/hooks/post-update.sample
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/hooks
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/shallow
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/config
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/index
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/99/b6df7aeccaae788a834c5ac641325e171fbac5
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/99
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/60/d47fd4af40551393f0688b9d72e10737a977e7
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/60
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/4e/aacf8365bdfc183478832426a256dddd36c59c
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/4e/e73eaf98f86e42f0659fa0de2291a73a06722b
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/4e
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5c/9b1664cf91015a78f0b6490160bad473af26d5
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5c
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/e9/ee7beb596ca712669a496678f3664dfd0c0bbf
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/e9
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ac/81daea8587b777dcfb21b95723b544f66f0ce0
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ac
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/info
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/87/4482127f8629424e2e66a7c1f73200ba6304c3
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/87
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5b/4624a3f0175ed429e5b61e74729b09efd04b97
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5b
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/c9/e3c4d11854f0fb230e642a06e98016fe904a20
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/c9/6f6805008aa8ad8493c636b3460f091650cf5e
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/c9
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/37/6624e901f68ea2b24ab1fcdb55a98fed5d9961
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/37
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/a0/f5e0601c7594fdc4c563a9eaeb2f3878fedfb8
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/a0
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/58/42a4686a1cd2f9a772198fecfde8630a3133f0
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/58
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/8d/ab97032de68274f26be3ce2490448730843d4d
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/8d
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/69/92a6a5b0e36dab5c3c098ab17053769486a33e
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/69
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/e5/fcc4b3aa8f246aa25261606eb928bfb010f710
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/e5
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/30/0044af7a233ffe30be579b120fa85b0c8323cb
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/30
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ad/8504a0a2cc191012573fe4b4e53ecbed89d12f
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ad
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/8e/1ee7c46d6ea70e802f440cc42d7f66c9c51612
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/8e
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5e/55d6840ccec7ce5d6a33a92f15995bcb83e4a7
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/5e
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/cf/fcca55a04329eedeb00a57232bf3a5ae95021e
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/cf
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/40/03ec4bb9401249e516aafa3300eb6449e1cae2
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/40
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/cd/4033b7555c7d6c05798597becabbc3e0ff4f3e
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/cd
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/89/7b34e4bfaecd5f42686ea3cb1859ed936e3b09
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/89
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/0e/fdcd2c569b2825b93e386704fbb6ba17c0213a
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/0e
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ba/29514da9d724eb8fe0e260826e33d9bfdefe9c
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/ba
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/pack
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/6c/8ba794b35ee62b5c2f04e47245284bd9cea330
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/6c
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/6e/1bfbfb0f5198eaa6208f23b454ce6d9e4cad28
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/6e
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/a1/1920885228a6b999179d08784e41c20b173826
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/a1
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/7f/a3b250b24f9c35696f153663c07c1b4ec1c8a8
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects/7f
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/objects
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/packed-refs
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git/HEAD
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.git
+  delete /tmp/nimble_11898/githubcom_treeformchrono/src/chrono.nim
+  delete /tmp/nimble_11898/githubcom_treeformchrono/src/chrono/timestamps.nim
+  delete /tmp/nimble_11898/githubcom_treeformchrono/src/chrono/statictz.nim
+  delete /tmp/nimble_11898/githubcom_treeformchrono/src/chrono/calendars.nim
+  delete /tmp/nimble_11898/githubcom_treeformchrono/src/chrono/timezones.nim
+  delete /tmp/nimble_11898/githubcom_treeformchrono/src/chrono
+  delete /tmp/nimble_11898/githubcom_treeformchrono/src
+  delete /tmp/nimble_11898/githubcom_treeformchrono/tz
+  delete /tmp/nimble_11898/githubcom_treeformchrono/tests/config.nims
+  delete /tmp/nimble_11898/githubcom_treeformchrono/tests/test_calendars.nim
+  delete /tmp/nimble_11898/githubcom_treeformchrono/tests/test_timestamps.nim
+  delete /tmp/nimble_11898/githubcom_treeformchrono/tests/test_timezones.nim
+  delete /tmp/nimble_11898/githubcom_treeformchrono/tests
+  delete /tmp/nimble_11898/githubcom_treeformchrono/tools/generate.nim
+  delete /tmp/nimble_11898/githubcom_treeformchrono/tools
+  delete /tmp/nimble_11898/githubcom_treeformchrono/.gitignore
+  delete /tmp/nimble_11898/githubcom_treeformchrono/LICENSE
+  delete /tmp/nimble_11898/githubcom_treeformchrono
+  delete /tmp/nimble_11898

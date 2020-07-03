@@ -1,98 +1,127 @@
     Reading official package list
 Downloading https://github.com/samdmarshall/libclang-nim using git
     Cloning latest tagged version: v0.59
-       Info /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/clang_22413.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/clang_22413.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
-   Warning: Package 'clang' has an incorrect structure. It should contain a single directory hierarchy for source files, named 'clang', but file 'CXErrorCode.nim' is in a directory named 'clangpkg' instead. This will be an error in the future.
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_22304', 0x00000000000001ff)
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim', 0x00000000000001ff)
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim')
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim', 0x00000000000001ff)
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/HEAD.lock', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/HEAD')
+rename('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config.lock', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config')
+chmod('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config.lock', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config')
+chmod('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config.lock', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config')
+chmod('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config.lock', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/tlNKSiI')
+symlink('testing', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/tlNKSiI')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/tlNKSiI')
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config.lock', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config')
+chmod('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config.lock', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config')
+chmod('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config.lock', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config')
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/75', 0x00000000000001ff)
+link('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/75/tmp_obj_1OdcRc', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/75/9bc380b211e5ca389fc4da203cd55321e662ea')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/75/tmp_obj_1OdcRc')
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/d6', 0x00000000000001ff)
+link('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/d6/tmp_obj_5YbnKh', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/d6/5caf4d01a2500a121e8f1241bb53b74114fe7a')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/d6/tmp_obj_5YbnKh')
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/10', 0x00000000000001ff)
+link('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/10/tmp_obj_XO6XRn', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/10/7cf0b4cbfbaffd79b565a4cae2d469a59f913c')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/10/tmp_obj_XO6XRn')
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/72', 0x00000000000001ff)
+link('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/72/tmp_obj_tFbdzo', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/72/70099b121d8c45e191eb64c90dd3375b9b2d13')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/72/tmp_obj_tFbdzo')
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/5b', 0x00000000000001ff)
+link('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/5b/tmp_obj_HesyZu', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/5b/175d9be204013fe0f14853b59517610d412a5b')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/5b/tmp_obj_HesyZu')
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/e1', 0x00000000000001ff)
+link('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/e1/tmp_obj_Ly3qWy', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/e1/b5b9b3cf2345b10ce2f1a2d191604c1f433917')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/e1/tmp_obj_Ly3qWy')
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/e2', 0x00000000000001ff)
+link('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/e2/tmp_obj_hhyfAA', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/e2/e7765d86ea80035fc6deb5e18fcd53660cf616')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/e2/tmp_obj_hhyfAA')
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/b9', 0x00000000000001ff)
+link('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/b9/tmp_obj_hFeXIF', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/b9/c94edf6c9367c65f644b7d1f18bb01b4dfd5cf')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/b9/tmp_obj_hFeXIF')
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/05', 0x00000000000001ff)
+link('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/05/tmp_obj_dFzLVJ', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/05/bbfa9cb08841360733e56d0d990edb8377aaa9')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/05/tmp_obj_dFzLVJ')
+link('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/75/tmp_obj_FPbgxO', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/75/031bb1e8a38ab3ca83533d9477a22fad9fef1c')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/75/tmp_obj_FPbgxO')
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/63', 0x00000000000001ff)
+link('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/63/tmp_obj_1qfhwW', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/63/63693604a3abee624abb05b4729297396ade45')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/63/tmp_obj_1qfhwW')
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/b4', 0x00000000000001ff)
+link('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/b4/tmp_obj_NPR43X', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/b4/8c5203eac840097605b6ad141fd0fe3ec3aa07')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/b4/tmp_obj_NPR43X')
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/42', 0x00000000000001ff)       Info /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/clang_22304.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/clang_22304.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+   Warning: Package 'clang' has an incorrect structure. It should contain a single directory hierarchy for source files, named 'clang', but file 'FatalErrorHandler.nim' is in a directory named 'clangpkg' instead. This will be an error in the future.
       Hint: If 'clangpkg' contains source files for building 'clang', rename it to 'clang'. Otherwise, prevent its installation by adding `skipDirs = @["clangpkg"]` to the .nimble file.
   Verifying dependencies for clang@0.59
  Installing clang@0.59
-    Copying file /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clang.nim to /home/runner/.nimble/pkgs/clang-0.59/clang.nim
-    Copying file /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clangpkg/CXErrorCode.nim to /home/runner/.nimble/pkgs/clang-0.59/clangpkg/CXErrorCode.nim
-    Copying file /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clangpkg/CXCompilationDatabase.nim to /home/runner/.nimble/pkgs/clang-0.59/clangpkg/CXCompilationDatabase.nim
-    Copying file /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clangpkg/Index.nim to /home/runner/.nimble/pkgs/clang-0.59/clangpkg/Index.nim
-    Copying file /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clangpkg/Documentation.nim to /home/runner/.nimble/pkgs/clang-0.59/clangpkg/Documentation.nim
-    Copying file /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clangpkg/CXString.nim to /home/runner/.nimble/pkgs/clang-0.59/clangpkg/CXString.nim
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_22413', 0x00000000000001ff)
-mkdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim', 0x00000000000001ff)
-rmdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim')
-mkdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim', 0x00000000000001ff)
-mkdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/HEAD.lock', '/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/HEAD')
-rename('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config.lock', '/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config')
-chmod('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config.lock', '/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config')
-chmod('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config.lock', '/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config')
-chmod('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config.lock', '/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/tWljvEm')
-symlink('testing', '/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/tWljvEm')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/tWljvEm')
-mkdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config.lock', '/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config')
-chmod('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config.lock', '/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config')
-chmod('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config.lock', '/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config')
-link('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects/pack/tmp_pack_jJ03zh', '/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects/pack/pack-24932116eb96ac5b33083f1d9cb33a32cabf5f16.pack')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects/pack/tmp_pack_jJ03zh')
-link('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects/pack/tmp_idx_RimkpD', '/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects/pack/pack-24932116eb96ac5b33083f1d9cb33a32cabf5f16.idx')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects/pack/tmp_idx_RimkpD')
-rename('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/shallow.lock', '/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/shallow')
-rename('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/packed-refs.new', '/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/packed-refs')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/packed-refs.lock')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/refs/tags/v0.59.lock')
-mkdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/HEAD.lock', '/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/HEAD')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects/pack/pack-24932116eb96ac5b33083f1d9cb33a32cabf5f16.keep')
+    Copying file /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clangpkg/FatalErrorHandler.nim to /home/runner/.nimble/pkgs/clang-0.59/clangpkg/FatalErrorHandler.nim
+    Copying file /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clangpkg/Index.nim to /home/runner/.nimble/pkgs/clang-0.59/clangpkg/Index.nim
+    Copying file /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clangpkg/BuildSystem.nim to /home/runner/.nimble/pkgs/clang-0.59/clangpkg/BuildSystem.nim
+    Copying file /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clangpkg/CXErrorCode.nim to /home/runner/.nimble/pkgs/clang-0.59/clangpkg/CXErrorCode.nim
+    Copying file /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clangpkg/Documentation.nim to /home/runner/.nimble/pkgs/clang-0.59/clangpkg/Documentation.nim
+    Copying file /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clangpkg/CXString.nim to /home/runner/.nimble/pkgs/clang-0.59/clangpkg/CXString.nim
+    Copying file /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clangpkg/CXCompilationDatabase.nim to /home/runner/.nimble/pkgs/clang-0.59/clangpkg/CXCompilationDatabase.nim
+    Copying file /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clang.nim to /home/runner/.nimble/pkgs/clang-0.59/clang.nim
+    Copying file /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/clang.nimble to /home/runner/.nimble/pkgs/clang-0.59/clang.nimble
+   Success: clang installed successfully.
+       Info /home/runner/.nimble/pkgs/clang-0.59/clang_22304.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /home/runner/.nimble/pkgs/clang-0.59/clang_22304.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+
+link('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/42/tmp_obj_BNb822', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/42/02f4abae894175180b917d8d4c8a86a13d6359')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/42/tmp_obj_BNb822')
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/37', 0x00000000000001ff)
+link('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/37/tmp_obj_1abl1b', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/37/bf5958397e066b1150e86c9a17e4dcf1d43e9f')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/37/tmp_obj_1abl1b')
+rename('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/shallow.lock', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/shallow')
+rename('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/packed-refs.new', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/packed-refs')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/packed-refs.lock')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/refs/tags/v0.59.lock')
+mkdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/HEAD.lock', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/HEAD')
 mkdir('src', 0x00000000000001ff)
 mkdir('src/clangpkg', 0x00000000000001ff)
-rename('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/index.lock', '/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/index')
+rename('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/index.lock', '/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/clang_2507461605', 0x00000000000001ff)
-unlink('/tmp/nimblecache/clang_2507461605/clang.ini')
-unlink('/tmp/nimble_22413.out')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/clang_22413.nims')
+mkdir('/tmp/nimblecache/clang_4198311935', 0x00000000000001ff)
+unlink('/tmp/nimblecache/clang_4198311935/clang.ini')
+unlink('/tmp/nimble_22304.out')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/clang_22304.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/clang-0.59', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/clang-0.59', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/clang-0.59/clang.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/clang-0.59', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/clang-0.59/clangpkg', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/clang-0.59/clangpkg/CXErrorCode.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/clang-0.59', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/clang-0.59/clangpkg', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/clang-0.59/clangpkg/CXCompilationDatabase.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/clang-0.59/clangpkg/FatalErrorHandler.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -100,6 +129,20 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/clang-0.59', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/clang-0.59/clangpkg', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/clang-0.59/clangpkg/Index.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/clang-0.59', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/clang-0.59/clangpkg', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/clang-0.59/clangpkg/BuildSystem.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/clang-0.59', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/clang-0.59/clangpkg', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/clang-0.59/clangpkg/CXErrorCode.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -115,159 +158,200 @@ mkdir('/home/runner/.nimble/pkgs/clang-0.59', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/clang-0.59/clangpkg', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/clang-0.59/clangpkg/CXString.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)    Copying file /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clangpkg/FatalErrorHandler.nim to /home/runner/.nimble/pkgs/clang-0.59/clangpkg/FatalErrorHandler.nim
-    Copying file /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clangpkg/BuildSystem.nim to /home/runner/.nimble/pkgs/clang-0.59/clangpkg/BuildSystem.nim
-    Copying file /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/clang.nimble to /home/runner/.nimble/pkgs/clang-0.59/clang.nimble
-   Success: clang installed successfully.
-       Info /home/runner/.nimble/pkgs/clang-0.59/clang_22413.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /home/runner/.nimble/pkgs/clang-0.59/clang_22413.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
-
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/clang-0.59', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/clang-0.59/clangpkg', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/clang-0.59/clangpkg/FatalErrorHandler.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/clang-0.59', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/clang-0.59/clangpkg', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/clang-0.59/clangpkg/BuildSystem.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/clang-0.59/clangpkg/CXCompilationDatabase.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/clang-0.59', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/clang-0.59/clang.nim', 0x00000000000001a4)
 chmod('/home/runner/.nimble/pkgs/clang-0.59/clang.nimble', 0x00000000000001a4)
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/clang_936355423', 0x00000000000001ff)
 unlink('/tmp/nimblecache/clang_936355423/clang.ini')
-unlink('/tmp/nimble_22413.out')
-unlink('/home/runner/.nimble/pkgs/clang-0.59/clang_22413.nims')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clang.nim')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clangpkg/CXErrorCode.nim')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clangpkg/CXCompilationDatabase.nim')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clangpkg/Index.nim')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clangpkg/Documentation.nim')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clangpkg/CXString.nim')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clangpkg/FatalErrorHandler.nim')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clangpkg/BuildSystem.nim')
-rmdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clangpkg')
-rmdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/HEAD')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/logs/HEAD')
-rmdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/logs')
-rmdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/branches')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/packed-refs')
-rmdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/refs/heads')
-rmdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/refs/tags')
-rmdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/refs')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks/update.sample')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/index')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/info/exclude')
-rmdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/info')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/shallow')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/description')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects/pack/pack-24932116eb96ac5b33083f1d9cb33a32cabf5f16.idx')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects/pack/pack-24932116eb96ac5b33083f1d9cb33a32cabf5f16.pack')
-rmdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects/pack')
-rmdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects/info')
-rmdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects')
-rmdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/readme.rst')
-unlink('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim/clang.nimble')
-rmdir('/tmp/nimble_22413/githubcom_samdmarshalllibclangnim')
-rmdir('/tmp/nimble_22413')
+unlink('/tmp/nimble_22304.out')
+unlink('/home/runner/.nimble/pkgs/clang-0.59/clang_22304.nims')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/refs/tags')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/refs/heads')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/refs')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/info/exclude')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/info')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/branches')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/logs/HEAD')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/logs')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/description')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks/update.sample')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/shallow')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/index')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/10/7cf0b4cbfbaffd79b565a4cae2d469a59f913c')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/10')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/info')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/e2/e7765d86ea80035fc6deb5e18fcd53660cf616')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/e2')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/63/63693604a3abee624abb05b4729297396ade45')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/63')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/5b/175d9be204013fe0f14853b59517610d412a5b')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/5b')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/72/70099b121d8c45e191eb64c90dd3375b9b2d13')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/72')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/37/bf5958397e066b1150e86c9a17e4dcf1d43e9f')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/37')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/d6/5caf4d01a2500a121e8f1241bb53b74114fe7a')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/d6')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/05/bbfa9cb08841360733e56d0d990edb8377aaa9')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/05')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/b4/8c5203eac840097605b6ad141fd0fe3ec3aa07')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/b4')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/e1/b5b9b3cf2345b10ce2f1a2d191604c1f433917')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/e1')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/b9/c94edf6c9367c65f644b7d1f18bb01b4dfd5cf')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/b9')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/42/02f4abae894175180b917d8d4c8a86a13d6359')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/42')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/75/9bc380b211e5ca389fc4da203cd55321e662ea')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/75/031bb1e8a38ab3ca83533d9477a22fad9fef1c')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/75')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/pack')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/packed-refs')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/HEAD')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clangpkg/FatalErrorHandler.nim')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clangpkg/Index.nim')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clangpkg/BuildSystem.nim')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clangpkg/CXErrorCode.nim')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clangpkg/Documentation.nim')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clangpkg/CXString.nim')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clangpkg/CXCompilationDatabase.nim')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clangpkg')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clang.nim')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/readme.rst')
+unlink('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim/clang.nimble')
+rmdir('/tmp/nimble_22304/githubcom_samdmarshalllibclangnim')
+rmdir('/tmp/nimble_22304')
   create directory /tmp
-  create directory /tmp/nimble_22413
-  create directory /tmp/nimble_22413/githubcom_samdmarshalllibclangnim
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim
-  create directory /tmp/nimble_22413/githubcom_samdmarshalllibclangnim
-  create directory /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git
-  create directory /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git
-  create directory /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/branches
-  create directory /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks
-  create directory /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/info
-  create directory /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/refs
-  create directory /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/refs/heads
-  create directory /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/refs/tags
-  rename /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config.lock to config
-  change permissions of /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config.lock to config
-  change permissions of /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config.lock to config
-  change permissions of /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config.lock to config
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/tWljvEm
-  create symbolic link from /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/tWljvEm to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/tWljvEm
-  create directory /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects
-  create directory /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects/pack
-  create directory /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects/info
-  change permissions of /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config.lock to config
-  change permissions of /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config.lock to config
-  change permissions of /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config.lock to config
-  create hard link from /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects/pack/pack-24932116eb96ac5b33083f1d9cb33a32cabf5f16.pack to /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects/pack/tmp_pack_jJ03zh
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects/pack/tmp_pack_jJ03zh
-  create hard link from /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects/pack/pack-24932116eb96ac5b33083f1d9cb33a32cabf5f16.idx to /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects/pack/tmp_idx_RimkpD
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects/pack/tmp_idx_RimkpD
-  rename /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/shallow.lock to shallow
-  rename /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/packed-refs.lock
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/refs/tags/v0.59.lock
-  create directory /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/logs
-  rename /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects/pack/pack-24932116eb96ac5b33083f1d9cb33a32cabf5f16.keep
-  create directory /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src
-  create directory /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clangpkg
-  rename /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/index.lock to index
+  create directory /tmp/nimble_22304
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/info
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/branches
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/refs
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/refs/heads
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/refs/tags
+  rename /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config.lock to config
+  change permissions of /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config.lock to config
+  change permissions of /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config.lock to config
+  change permissions of /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config.lock to config
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/tlNKSiI
+  create symbolic link from /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/tlNKSiI to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/tlNKSiI
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/pack
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/info
+  change permissions of /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config.lock to config
+  change permissions of /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config.lock to config
+  change permissions of /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config.lock to config
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/75
+  create hard link from /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/75/9bc380b211e5ca389fc4da203cd55321e662ea to /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/75/tmp_obj_1OdcRc
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/75/tmp_obj_1OdcRc
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/d6
+  create hard link from /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/d6/5caf4d01a2500a121e8f1241bb53b74114fe7a to /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/d6/tmp_obj_5YbnKh
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/d6/tmp_obj_5YbnKh
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/10
+  create hard link from /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/10/7cf0b4cbfbaffd79b565a4cae2d469a59f913c to /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/10/tmp_obj_XO6XRn
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/10/tmp_obj_XO6XRn
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/72
+  create hard link from /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/72/70099b121d8c45e191eb64c90dd3375b9b2d13 to /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/72/tmp_obj_tFbdzo
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/72/tmp_obj_tFbdzo
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/5b
+  create hard link from /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/5b/175d9be204013fe0f14853b59517610d412a5b to /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/5b/tmp_obj_HesyZu
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/5b/tmp_obj_HesyZu
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/e1
+  create hard link from /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/e1/b5b9b3cf2345b10ce2f1a2d191604c1f433917 to /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/e1/tmp_obj_Ly3qWy
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/e1/tmp_obj_Ly3qWy
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/e2
+  create hard link from /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/e2/e7765d86ea80035fc6deb5e18fcd53660cf616 to /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/e2/tmp_obj_hhyfAA
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/e2/tmp_obj_hhyfAA
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/b9
+  create hard link from /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/b9/c94edf6c9367c65f644b7d1f18bb01b4dfd5cf to /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/b9/tmp_obj_hFeXIF
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/b9/tmp_obj_hFeXIF
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/05
+  create hard link from /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/05/bbfa9cb08841360733e56d0d990edb8377aaa9 to /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/05/tmp_obj_dFzLVJ
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/05/tmp_obj_dFzLVJ
+  create hard link from /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/75/031bb1e8a38ab3ca83533d9477a22fad9fef1c to /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/75/tmp_obj_FPbgxO
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/75/tmp_obj_FPbgxO
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/63
+  create hard link from /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/63/63693604a3abee624abb05b4729297396ade45 to /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/63/tmp_obj_1qfhwW
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/63/tmp_obj_1qfhwW
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/b4
+  create hard link from /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/b4/8c5203eac840097605b6ad141fd0fe3ec3aa07 to /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/b4/tmp_obj_NPR43X
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/b4/tmp_obj_NPR43X
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/42
+  create hard link from /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/42/02f4abae894175180b917d8d4c8a86a13d6359 to /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/42/tmp_obj_BNb822
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/42/tmp_obj_BNb822
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/37
+  create hard link from /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/37/bf5958397e066b1150e86c9a17e4dcf1d43e9f to /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/37/tmp_obj_1abl1b
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/37/tmp_obj_1abl1b
+  rename /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/shallow.lock to shallow
+  rename /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/packed-refs.lock
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/refs/tags/v0.59.lock
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/logs
+  rename /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src
+  create directory /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clangpkg
+  rename /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/clang_2507461605
-  delete /tmp/nimblecache/clang_2507461605/clang.ini
-  delete /tmp/nimble_22413.out
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/clang_22413.nims
+  create directory /tmp/nimblecache/clang_4198311935
+  delete /tmp/nimblecache/clang_4198311935/clang.ini
+  delete /tmp/nimble_22304.out
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/clang_22304.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/clang-0.59
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/clang-0.59
-  change permissions of /home/runner/.nimble/pkgs/clang-0.59/clang.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/clang-0.59
   create directory /home/runner/.nimble/pkgs/clang-0.59/clangpkg
-  change permissions of /home/runner/.nimble/pkgs/clang-0.59/clangpkg/CXErrorCode.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/clang-0.59
-  create directory /home/runner/.nimble/pkgs/clang-0.59/clangpkg
-  change permissions of /home/runner/.nimble/pkgs/clang-0.59/clangpkg/CXCompilationDatabase.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/clang-0.59/clangpkg/FatalErrorHandler.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -275,6 +359,20 @@ rmdir('/tmp/nimble_22413')
   create directory /home/runner/.nimble/pkgs/clang-0.59
   create directory /home/runner/.nimble/pkgs/clang-0.59/clangpkg
   change permissions of /home/runner/.nimble/pkgs/clang-0.59/clangpkg/Index.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/clang-0.59
+  create directory /home/runner/.nimble/pkgs/clang-0.59/clangpkg
+  change permissions of /home/runner/.nimble/pkgs/clang-0.59/clangpkg/BuildSystem.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/clang-0.59
+  create directory /home/runner/.nimble/pkgs/clang-0.59/clangpkg
+  change permissions of /home/runner/.nimble/pkgs/clang-0.59/clangpkg/CXErrorCode.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -295,65 +393,89 @@ rmdir('/tmp/nimble_22413')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/clang-0.59
   create directory /home/runner/.nimble/pkgs/clang-0.59/clangpkg
-  change permissions of /home/runner/.nimble/pkgs/clang-0.59/clangpkg/FatalErrorHandler.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/clang-0.59/clangpkg/CXCompilationDatabase.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/clang-0.59
-  create directory /home/runner/.nimble/pkgs/clang-0.59/clangpkg
-  change permissions of /home/runner/.nimble/pkgs/clang-0.59/clangpkg/BuildSystem.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/clang-0.59/clang.nim to rw-r--r--
   change permissions of /home/runner/.nimble/pkgs/clang-0.59/clang.nimble to rw-r--r--
   create directory /tmp
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/clang_936355423
   delete /tmp/nimblecache/clang_936355423/clang.ini
-  delete /tmp/nimble_22413.out
-  delete /home/runner/.nimble/pkgs/clang-0.59/clang_22413.nims
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clang.nim
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clangpkg/CXErrorCode.nim
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clangpkg/CXCompilationDatabase.nim
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clangpkg/Index.nim
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clangpkg/Documentation.nim
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clangpkg/CXString.nim
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clangpkg/FatalErrorHandler.nim
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clangpkg/BuildSystem.nim
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src/clangpkg
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/src
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/HEAD
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/config
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/logs/HEAD
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/logs
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/branches
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/packed-refs
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/refs/heads
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/refs/tags
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/refs
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks/pre-push.sample
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks/update.sample
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks/post-update.sample
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/hooks
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/index
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/info/exclude
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/info
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/shallow
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/description
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects/pack/pack-24932116eb96ac5b33083f1d9cb33a32cabf5f16.idx
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects/pack/pack-24932116eb96ac5b33083f1d9cb33a32cabf5f16.pack
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects/pack
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects/info
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git/objects
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/.git
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/readme.rst
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim/clang.nimble
-  delete /tmp/nimble_22413/githubcom_samdmarshalllibclangnim
-  delete /tmp/nimble_22413
+  delete /tmp/nimble_22304.out
+  delete /home/runner/.nimble/pkgs/clang-0.59/clang_22304.nims
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/refs/tags
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/refs/heads
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/refs
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/info/exclude
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/info
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/branches
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/logs/HEAD
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/logs
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/description
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks/pre-push.sample
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks/update.sample
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks/post-update.sample
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/hooks
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/shallow
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/config
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/index
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/10/7cf0b4cbfbaffd79b565a4cae2d469a59f913c
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/10
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/info
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/e2/e7765d86ea80035fc6deb5e18fcd53660cf616
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/e2
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/63/63693604a3abee624abb05b4729297396ade45
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/63
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/5b/175d9be204013fe0f14853b59517610d412a5b
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/5b
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/72/70099b121d8c45e191eb64c90dd3375b9b2d13
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/72
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/37/bf5958397e066b1150e86c9a17e4dcf1d43e9f
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/37
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/d6/5caf4d01a2500a121e8f1241bb53b74114fe7a
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/d6
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/05/bbfa9cb08841360733e56d0d990edb8377aaa9
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/05
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/b4/8c5203eac840097605b6ad141fd0fe3ec3aa07
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/b4
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/e1/b5b9b3cf2345b10ce2f1a2d191604c1f433917
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/e1
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/b9/c94edf6c9367c65f644b7d1f18bb01b4dfd5cf
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/b9
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/42/02f4abae894175180b917d8d4c8a86a13d6359
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/42
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/75/9bc380b211e5ca389fc4da203cd55321e662ea
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/75/031bb1e8a38ab3ca83533d9477a22fad9fef1c
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/75
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects/pack
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/objects
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/packed-refs
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git/HEAD
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/.git
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clangpkg/FatalErrorHandler.nim
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clangpkg/Index.nim
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clangpkg/BuildSystem.nim
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clangpkg/CXErrorCode.nim
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clangpkg/Documentation.nim
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clangpkg/CXString.nim
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clangpkg/CXCompilationDatabase.nim
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clangpkg
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src/clang.nim
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/src
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/readme.rst
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim/clang.nimble
+  delete /tmp/nimble_22304/githubcom_samdmarshalllibclangnim
+  delete /tmp/nimble_22304

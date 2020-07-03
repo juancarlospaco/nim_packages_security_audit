@@ -1,74 +1,74 @@
     Reading official package list
 Downloading https://github.com/c-blake/cligen.git using git
     Cloning latest tagged version: v1.0.0
-       Info /tmp/nimble_6528/githubcom_cblakecligengit/cligen_6528.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+       Info /tmp/nimble_6626/githubcom_cblakecligengit/cligen_6626.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
   Verifying dependencies for cligen@1.0.0
  Installing cligen@1.0.0
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/tab.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/tab.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/argcvt.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/argcvt.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/humanUt.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/humanUt.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/textUt.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/textUt.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/mslice.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mslice.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/clCfgInit.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/clCfgInit.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/trie.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/trie.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/sysUt.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/sysUt.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/argcvt.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/argcvt.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/macUt.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/macUt.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/syntaxHelp.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/syntaxHelp.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/humanUt.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/humanUt.nim
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_6528', 0x00000000000001ff)
-mkdir('/tmp/nimble_6528/githubcom_cblakecligengit', 0x00000000000001ff)
-rmdir('/tmp/nimble_6528/githubcom_cblakecligengit')
-mkdir('/tmp/nimble_6528/githubcom_cblakecligengit', 0x00000000000001ff)
-mkdir('/tmp/nimble_6528/githubcom_cblakecligengit/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_6528/githubcom_cblakecligengit/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_6528/githubcom_cblakecligengit/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_6528/githubcom_cblakecligengit/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_6528/githubcom_cblakecligengit/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_6528/githubcom_cblakecligengit/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_6528/githubcom_cblakecligengit/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_6528/githubcom_cblakecligengit/.git/HEAD.lock', '/tmp/nimble_6528/githubcom_cblakecligengit/.git/HEAD')
-rename('/tmp/nimble_6528/githubcom_cblakecligengit/.git/config.lock', '/tmp/nimble_6528/githubcom_cblakecligengit/.git/config')
-chmod('/tmp/nimble_6528/githubcom_cblakecligengit/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_6528/githubcom_cblakecligengit/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_6528/githubcom_cblakecligengit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_6528/githubcom_cblakecligengit/.git/config.lock', '/tmp/nimble_6528/githubcom_cblakecligengit/.git/config')
-chmod('/tmp/nimble_6528/githubcom_cblakecligengit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_6528/githubcom_cblakecligengit/.git/config.lock', '/tmp/nimble_6528/githubcom_cblakecligengit/.git/config')
-chmod('/tmp/nimble_6528/githubcom_cblakecligengit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_6528/githubcom_cblakecligengit/.git/config.lock', '/tmp/nimble_6528/githubcom_cblakecligengit/.git/config')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/theOAji')
-symlink('testing', '/tmp/nimble_6528/githubcom_cblakecligengit/.git/theOAji')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/theOAji')
-mkdir('/tmp/nimble_6528/githubcom_cblakecligengit/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_6528/githubcom_cblakecligengit/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_6528/githubcom_cblakecligengit/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_6528/githubcom_cblakecligengit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_6528/githubcom_cblakecligengit/.git/config.lock', '/tmp/nimble_6528/githubcom_cblakecligengit/.git/config')
-chmod('/tmp/nimble_6528/githubcom_cblakecligengit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_6528/githubcom_cblakecligengit/.git/config.lock', '/tmp/nimble_6528/githubcom_cblakecligengit/.git/config')
-chmod('/tmp/nimble_6528/githubcom_cblakecligengit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_6528/githubcom_cblakecligengit/.git/config.lock', '/tmp/nimble_6528/githubcom_cblakecligengit/.git/config')
-link('/tmp/nimble_6528/githubcom_cblakecligengit/.git/objects/pack/tmp_pack_SF7Qdg', '/tmp/nimble_6528/githubcom_cblakecligengit/.git/objects/pack/pack-dce576a9028a8173fb757abd10c9cd26655fe8c5.pack')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/objects/pack/tmp_pack_SF7Qdg')
-link('/tmp/nimble_6528/githubcom_cblakecligengit/.git/objects/pack/tmp_idx_x76qdy', '/tmp/nimble_6528/githubcom_cblakecligengit/.git/objects/pack/pack-dce576a9028a8173fb757abd10c9cd26655fe8c5.idx')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/objects/pack/tmp_idx_x76qdy')
-rename('/tmp/nimble_6528/githubcom_cblakecligengit/.git/shallow.lock', '/tmp/nimble_6528/githubcom_cblakecligengit/.git/shallow')
-rename('/tmp/nimble_6528/githubcom_cblakecligengit/.git/packed-refs.new', '/tmp/nimble_6528/githubcom_cblakecligengit/.git/packed-refs')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/packed-refs.lock')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/refs/tags/v1.0.0.lock')
-mkdir('/tmp/nimble_6528/githubcom_cblakecligengit/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_6528/githubcom_cblakecligengit/.git/HEAD.lock', '/tmp/nimble_6528/githubcom_cblakecligengit/.git/HEAD')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/objects/pack/pack-dce576a9028a8173fb757abd10c9cd26655fe8c5.keep')
+mkdir('/tmp/nimble_6626', 0x00000000000001ff)
+mkdir('/tmp/nimble_6626/githubcom_cblakecligengit', 0x00000000000001ff)
+rmdir('/tmp/nimble_6626/githubcom_cblakecligengit')
+mkdir('/tmp/nimble_6626/githubcom_cblakecligengit', 0x00000000000001ff)
+mkdir('/tmp/nimble_6626/githubcom_cblakecligengit/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_6626/githubcom_cblakecligengit/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6626/githubcom_cblakecligengit/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6626/githubcom_cblakecligengit/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6626/githubcom_cblakecligengit/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_6626/githubcom_cblakecligengit/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_6626/githubcom_cblakecligengit/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_6626/githubcom_cblakecligengit/.git/HEAD.lock', '/tmp/nimble_6626/githubcom_cblakecligengit/.git/HEAD')
+rename('/tmp/nimble_6626/githubcom_cblakecligengit/.git/config.lock', '/tmp/nimble_6626/githubcom_cblakecligengit/.git/config')
+chmod('/tmp/nimble_6626/githubcom_cblakecligengit/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_6626/githubcom_cblakecligengit/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_6626/githubcom_cblakecligengit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6626/githubcom_cblakecligengit/.git/config.lock', '/tmp/nimble_6626/githubcom_cblakecligengit/.git/config')
+chmod('/tmp/nimble_6626/githubcom_cblakecligengit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6626/githubcom_cblakecligengit/.git/config.lock', '/tmp/nimble_6626/githubcom_cblakecligengit/.git/config')
+chmod('/tmp/nimble_6626/githubcom_cblakecligengit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6626/githubcom_cblakecligengit/.git/config.lock', '/tmp/nimble_6626/githubcom_cblakecligengit/.git/config')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/tC6d3T2')
+symlink('testing', '/tmp/nimble_6626/githubcom_cblakecligengit/.git/tC6d3T2')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/tC6d3T2')
+mkdir('/tmp/nimble_6626/githubcom_cblakecligengit/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_6626/githubcom_cblakecligengit/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_6626/githubcom_cblakecligengit/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_6626/githubcom_cblakecligengit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6626/githubcom_cblakecligengit/.git/config.lock', '/tmp/nimble_6626/githubcom_cblakecligengit/.git/config')
+chmod('/tmp/nimble_6626/githubcom_cblakecligengit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6626/githubcom_cblakecligengit/.git/config.lock', '/tmp/nimble_6626/githubcom_cblakecligengit/.git/config')
+chmod('/tmp/nimble_6626/githubcom_cblakecligengit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6626/githubcom_cblakecligengit/.git/config.lock', '/tmp/nimble_6626/githubcom_cblakecligengit/.git/config')
+link('/tmp/nimble_6626/githubcom_cblakecligengit/.git/objects/pack/tmp_pack_6DKaRo', '/tmp/nimble_6626/githubcom_cblakecligengit/.git/objects/pack/pack-d6c67488643828f76545f0d7d34359d0cd66532f.pack')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/objects/pack/tmp_pack_6DKaRo')
+link('/tmp/nimble_6626/githubcom_cblakecligengit/.git/objects/pack/tmp_idx_eSPMKL', '/tmp/nimble_6626/githubcom_cblakecligengit/.git/objects/pack/pack-d6c67488643828f76545f0d7d34359d0cd66532f.idx')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/objects/pack/tmp_idx_eSPMKL')
+rename('/tmp/nimble_6626/githubcom_cblakecligengit/.git/shallow.lock', '/tmp/nimble_6626/githubcom_cblakecligengit/.git/shallow')
+rename('/tmp/nimble_6626/githubcom_cblakecligengit/.git/packed-refs.new', '/tmp/nimble_6626/githubcom_cblakecligengit/.git/packed-refs')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/packed-refs.lock')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/refs/tags/v1.0.0.lock')
+mkdir('/tmp/nimble_6626/githubcom_cblakecligengit/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_6626/githubcom_cblakecligengit/.git/HEAD.lock', '/tmp/nimble_6626/githubcom_cblakecligengit/.git/HEAD')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/objects/pack/pack-d6c67488643828f76545f0d7d34359d0cd66532f.keep')
 mkdir('cligen', 0x00000000000001ff)
 mkdir('configs', 0x00000000000001ff)
 mkdir('docs', 0x00000000000001ff)
 mkdir('examples', 0x00000000000001ff)
 mkdir('test', 0x00000000000001ff)
-rename('/tmp/nimble_6528/githubcom_cblakecligengit/.git/index.lock', '/tmp/nimble_6528/githubcom_cblakecligengit/.git/index')
+rename('/tmp/nimble_6626/githubcom_cblakecligengit/.git/index.lock', '/tmp/nimble_6626/githubcom_cblakecligengit/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/cligen_1438603377', 0x00000000000001ff)
-unlink('/tmp/nimblecache/cligen_1438603377/cligen.ini')
-unlink('/tmp/nimble_6528.out')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen_6528.nims')
+mkdir('/tmp/nimblecache/cligen_1680869522', 0x00000000000001ff)
+unlink('/tmp/nimblecache/cligen_1680869522/cligen.ini')
+unlink('/tmp/nimble_6626.out')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen_6626.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -86,7 +86,14 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/tab.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/trie.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/sysUt.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -100,118 +107,7 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/humanUt.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/textUt.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mslice.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/clCfgInit.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/sysUt.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/sysUt.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/tern.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/tern.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/posixUt.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/posixUt.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/mergeCfgEnv.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mergeCfgEnv.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/unixUt.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/unixUt.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/mergeCfgEnvMulti.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mergeCfgEnvMulti.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/helpTmpl.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/helpTmpl.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/mfile.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mfile.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/osUt.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/osUt.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/trie.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/trie.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/syntaxHelp.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/syntaxHelp.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/fileUt.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/fileUt.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/magic.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/magic.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/abbrev.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/abbrev.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/strUt.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/strUt.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/macUt.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/macUt.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/parseopt3.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/parseopt3.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/gcarc.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/gcarc.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/clCfgToml.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/clCfgToml.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/mergeCfgEnvMulMul.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mergeCfgEnvMulMul.nim
-
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/sysUt.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/tern.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/posixUt.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mergeCfgEnv.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/unixUt.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mergeCfgEnvMulti.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/helpTmpl.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mfile.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/osUt.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/trie.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/macUt.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -225,42 +121,48 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/humanUt.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/mergeCfgEnv.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mergeCfgEnv.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/mfile.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mfile.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/fileUt.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/fileUt.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/gcarc.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/gcarc.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/strUt.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/strUt.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/cfUt.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/cfUt.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/statx.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/statx.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/mslice.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mslice.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/mergeCfgEnvMulMul.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mergeCfgEnvMulMul.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/tern.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/tern.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/unixUt.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/unixUt.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/parseopt3.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/parseopt3.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/tab.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/tab.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/helpTmpl.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/helpTmpl.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/magic.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/magic.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/textUt.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/textUt.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/clCfgToml.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/clCfgToml.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/mergeCfgEnvMulti.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mergeCfgEnvMulti.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/osUt.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/osUt.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/clCfgInit.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/clCfgInit.nim
+
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mergeCfgEnv.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mfile.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/fileUt.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/magic.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/abbrev.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/strUt.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/macUt.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/parseopt3.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -274,21 +176,16 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/clCfgToml.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/strUt.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mergeCfgEnvMulMul.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/cfUt.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/statx.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/statx.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen/cfUt.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/cfUt.nim
-    Copying file /tmp/nimble_6528/githubcom_cblakecligengit/cligen.nimble to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen.nimble
-   Success: cligen installed successfully.
-       Info /home/runner/.nimble/pkgs/cligen-1.0.0/cligen_6528.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
-
+mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
@@ -300,229 +197,332 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/cfUt.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mslice.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mergeCfgEnvMulMul.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/tern.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/unixUt.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/parseopt3.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/tab.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/helpTmpl.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/magic.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/textUt.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/clCfgToml.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mergeCfgEnvMulti.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/osUt.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/clCfgInit.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/abbrev.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/abbrev.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen/posixUt.nim to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/posixUt.nim
+    Copying file /tmp/nimble_6626/githubcom_cblakecligengit/cligen.nimble to /home/runner/.nimble/pkgs/cligen-1.0.0/cligen.nimble
+   Success: cligen installed successfully.
+       Info /home/runner/.nimble/pkgs/cligen-1.0.0/cligen_6626.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/abbrev.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen/posixUt.nim', 0x00000000000001a4)
 chmod('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen.nimble', 0x00000000000001a4)
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/cligen_653939757', 0x00000000000001ff)
 unlink('/tmp/nimblecache/cligen_653939757/cligen.ini')
-unlink('/tmp/nimble_6528.out')
-unlink('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen_6528.nims')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/examples/newest.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/examples/dups.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/examples/cols.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/examples/nim.cfg')
-rmdir('/tmp/nimble_6528/githubcom_cblakecligengit/examples')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.gitignore')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/configs/config')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/configs/README.md')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/configs/config.toml')
-rmdir('/tmp/nimble_6528/githubcom_cblakecligengit/configs')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/MOTIVATION.md')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/DETAILS.md')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/LICENSE')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.gitattributes')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen.nimble')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/docs/parseopt3.html')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/docs/argcvt.html')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/docs/cligen.html')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/docs/nimdoc.out.css')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/docs/index.html')
-rmdir('/tmp/nimble_6528/githubcom_cblakecligengit/docs')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/RELEASE-NOTES.md')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/HEAD')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/config')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/logs/HEAD')
-rmdir('/tmp/nimble_6528/githubcom_cblakecligengit/.git/logs')
-rmdir('/tmp/nimble_6528/githubcom_cblakecligengit/.git/branches')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/packed-refs')
-rmdir('/tmp/nimble_6528/githubcom_cblakecligengit/.git/refs/heads')
-rmdir('/tmp/nimble_6528/githubcom_cblakecligengit/.git/refs/tags')
-rmdir('/tmp/nimble_6528/githubcom_cblakecligengit/.git/refs')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks/update.sample')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/index')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/info/exclude')
-rmdir('/tmp/nimble_6528/githubcom_cblakecligengit/.git/info')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/shallow')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/description')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/objects/pack/pack-dce576a9028a8173fb757abd10c9cd26655fe8c5.idx')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/.git/objects/pack/pack-dce576a9028a8173fb757abd10c9cd26655fe8c5.pack')
-rmdir('/tmp/nimble_6528/githubcom_cblakecligengit/.git/objects/pack')
-rmdir('/tmp/nimble_6528/githubcom_cblakecligengit/.git/objects/info')
-rmdir('/tmp/nimble_6528/githubcom_cblakecligengit/.git/objects')
-rmdir('/tmp/nimble_6528/githubcom_cblakecligengit/.git')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test.sh')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/doc.sh')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/ref')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/ImplicitDefault.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/UserAliases.cf')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/CustomType.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/CustomCmdName.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/Version.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/UserAliases.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/MandatoryNoPos.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/TwoNondefaultedSeq.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/ReturnNonIntNoAuto.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/DistinctInt.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/DupShort.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/ReturnNonInt.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/MultMultMult.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/ReturnEmpty.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/FullyAutoMulti.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/UserDispIdCollide.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/ReturnInt.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/InitTup.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/External.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/AllSetTypes.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/PassValuesMulti.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/NoShort.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/EchoResult.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/SetByParse.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/MultiFlag.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/SubScope.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/PerParam.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/Version.cf')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/ResultInt.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/SeqInt.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/HashSets.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/ReturnString.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/SemiAutoMulti.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/FancyRepeats2.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/toimport.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/FullyAutoMulti.cf')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/HelpTabCols.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/OneCharParams.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/AllSeqTypes.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/QualifiedSym.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/InitOb.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/AllTypes.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/QualifiedMulti.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/FancyRepeats.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/InitObRef.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/DetectSet.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/TwoNondefaultedSeqSwap.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/ManualMulti.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/MultiMulti.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/ParseOnly.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/OmitInHelpTable.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/InitObPtr.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/SemiMultMult.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/StroppedParams.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/BlockedShort.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/PassValues.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/Suppress.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/NoPositional.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/ListDecl.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/Enums.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/Mandatory.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/OneCharLong.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/EarlySeq.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/test/nim.cfg')
-rmdir('/tmp/nimble_6528/githubcom_cblakecligengit/test')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/README.md')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/tab.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/argcvt.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/humanUt.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/textUt.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/mslice.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/clCfgInit.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/sysUt.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/tern.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/posixUt.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/mergeCfgEnv.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/unixUt.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/mergeCfgEnvMulti.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/helpTmpl.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/mfile.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/osUt.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/trie.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/syntaxHelp.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/fileUt.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/magic.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/abbrev.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/strUt.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/macUt.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/parseopt3.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/gcarc.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/clCfgToml.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/mergeCfgEnvMulMul.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/statx.nim')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/cligen/cfUt.nim')
-rmdir('/tmp/nimble_6528/githubcom_cblakecligengit/cligen')
-unlink('/tmp/nimble_6528/githubcom_cblakecligengit/TODO.md')
-rmdir('/tmp/nimble_6528/githubcom_cblakecligengit')
-rmdir('/tmp/nimble_6528')
+unlink('/tmp/nimble_6626.out')
+unlink('/home/runner/.nimble/pkgs/cligen-1.0.0/cligen_6626.nims')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/docs/parseopt3.html')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/docs/cligen.html')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/docs/nimdoc.out.css')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/docs/argcvt.html')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/docs/index.html')
+rmdir('/tmp/nimble_6626/githubcom_cblakecligengit/docs')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/README.md')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/trie.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/sysUt.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/argcvt.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/macUt.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/syntaxHelp.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/humanUt.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/mergeCfgEnv.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/mfile.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/fileUt.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/gcarc.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/strUt.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/cfUt.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/statx.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/mslice.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/mergeCfgEnvMulMul.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/tern.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/unixUt.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/parseopt3.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/tab.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/helpTmpl.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/magic.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/textUt.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/clCfgToml.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/mergeCfgEnvMulti.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/osUt.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/clCfgInit.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/abbrev.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen/posixUt.nim')
+rmdir('/tmp/nimble_6626/githubcom_cblakecligengit/cligen')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/configs/README.md')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/configs/config')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/configs/config.toml')
+rmdir('/tmp/nimble_6626/githubcom_cblakecligengit/configs')
+rmdir('/tmp/nimble_6626/githubcom_cblakecligengit/.git/refs/tags')
+rmdir('/tmp/nimble_6626/githubcom_cblakecligengit/.git/refs/heads')
+rmdir('/tmp/nimble_6626/githubcom_cblakecligengit/.git/refs')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/info/exclude')
+rmdir('/tmp/nimble_6626/githubcom_cblakecligengit/.git/info')
+rmdir('/tmp/nimble_6626/githubcom_cblakecligengit/.git/branches')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/logs/HEAD')
+rmdir('/tmp/nimble_6626/githubcom_cblakecligengit/.git/logs')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/description')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks/update.sample')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/shallow')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/config')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/index')
+rmdir('/tmp/nimble_6626/githubcom_cblakecligengit/.git/objects/info')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/objects/pack/pack-d6c67488643828f76545f0d7d34359d0cd66532f.idx')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/objects/pack/pack-d6c67488643828f76545f0d7d34359d0cd66532f.pack')
+rmdir('/tmp/nimble_6626/githubcom_cblakecligengit/.git/objects/pack')
+rmdir('/tmp/nimble_6626/githubcom_cblakecligengit/.git/objects')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/packed-refs')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.git/HEAD')
+rmdir('/tmp/nimble_6626/githubcom_cblakecligengit/.git')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/TODO.md')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/MOTIVATION.md')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/examples/newest.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/examples/dups.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/examples/nim.cfg')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/examples/cols.nim')
+rmdir('/tmp/nimble_6626/githubcom_cblakecligengit/examples')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/doc.sh')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/cligen.nimble')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/RELEASE-NOTES.md')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/OmitInHelpTable.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/UserDispIdCollide.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/ref')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/HelpTabCols.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/PassValues.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/InitOb.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/AllSeqTypes.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/DupShort.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/FullyAutoMulti.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/Enums.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/StroppedParams.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/FancyRepeats.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/BlockedShort.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/OneCharParams.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/MandatoryNoPos.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/Mandatory.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/NoShort.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/UserAliases.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/ReturnEmpty.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/ResultInt.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/DetectSet.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/ManualMulti.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/Version.cf')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/MultMultMult.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/ParseOnly.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/AllTypes.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/InitObRef.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/NoPositional.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/CustomCmdName.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/ReturnString.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/DistinctInt.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/FullyAutoMulti.cf')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/SemiMultMult.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/ListDecl.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/External.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/OneCharLong.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/EarlySeq.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/SemiAutoMulti.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/MultiFlag.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/HashSets.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/toimport.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/SubScope.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/EchoResult.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/QualifiedSym.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/PerParam.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/ReturnInt.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/ImplicitDefault.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/TwoNondefaultedSeq.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/QualifiedMulti.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/CustomType.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/SetByParse.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/InitTup.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/MultiMulti.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/nim.cfg')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/PassValuesMulti.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/ReturnNonInt.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/Suppress.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/SeqInt.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/UserAliases.cf')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/FancyRepeats2.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/TwoNondefaultedSeqSwap.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/Version.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/AllSetTypes.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/ReturnNonIntNoAuto.nim')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test/InitObPtr.nim')
+rmdir('/tmp/nimble_6626/githubcom_cblakecligengit/test')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.gitattributes')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/DETAILS.md')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/test.sh')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/.gitignore')
+unlink('/tmp/nimble_6626/githubcom_cblakecligengit/LICENSE')
+rmdir('/tmp/nimble_6626/githubcom_cblakecligengit')
+rmdir('/tmp/nimble_6626')
   create directory /tmp
-  create directory /tmp/nimble_6528
-  create directory /tmp/nimble_6528/githubcom_cblakecligengit
-  delete /tmp/nimble_6528/githubcom_cblakecligengit
-  create directory /tmp/nimble_6528/githubcom_cblakecligengit
-  create directory /tmp/nimble_6528/githubcom_cblakecligengit/.git
-  create directory /tmp/nimble_6528/githubcom_cblakecligengit/.git
-  create directory /tmp/nimble_6528/githubcom_cblakecligengit/.git/branches
-  create directory /tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks
-  create directory /tmp/nimble_6528/githubcom_cblakecligengit/.git/info
-  create directory /tmp/nimble_6528/githubcom_cblakecligengit/.git/refs
-  create directory /tmp/nimble_6528/githubcom_cblakecligengit/.git/refs/heads
-  create directory /tmp/nimble_6528/githubcom_cblakecligengit/.git/refs/tags
-  rename /tmp/nimble_6528/githubcom_cblakecligengit/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_6528/githubcom_cblakecligengit/.git/config.lock to config
-  change permissions of /tmp/nimble_6528/githubcom_cblakecligengit/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_6528/githubcom_cblakecligengit/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_6528/githubcom_cblakecligengit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_6528/githubcom_cblakecligengit/.git/config.lock to config
-  change permissions of /tmp/nimble_6528/githubcom_cblakecligengit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_6528/githubcom_cblakecligengit/.git/config.lock to config
-  change permissions of /tmp/nimble_6528/githubcom_cblakecligengit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_6528/githubcom_cblakecligengit/.git/config.lock to config
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/theOAji
-  create symbolic link from /tmp/nimble_6528/githubcom_cblakecligengit/.git/theOAji to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/theOAji
-  create directory /tmp/nimble_6528/githubcom_cblakecligengit/.git/objects
-  create directory /tmp/nimble_6528/githubcom_cblakecligengit/.git/objects/pack
-  create directory /tmp/nimble_6528/githubcom_cblakecligengit/.git/objects/info
-  change permissions of /tmp/nimble_6528/githubcom_cblakecligengit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_6528/githubcom_cblakecligengit/.git/config.lock to config
-  change permissions of /tmp/nimble_6528/githubcom_cblakecligengit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_6528/githubcom_cblakecligengit/.git/config.lock to config
-  change permissions of /tmp/nimble_6528/githubcom_cblakecligengit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_6528/githubcom_cblakecligengit/.git/config.lock to config
-  create hard link from /tmp/nimble_6528/githubcom_cblakecligengit/.git/objects/pack/pack-dce576a9028a8173fb757abd10c9cd26655fe8c5.pack to /tmp/nimble_6528/githubcom_cblakecligengit/.git/objects/pack/tmp_pack_SF7Qdg
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/objects/pack/tmp_pack_SF7Qdg
-  create hard link from /tmp/nimble_6528/githubcom_cblakecligengit/.git/objects/pack/pack-dce576a9028a8173fb757abd10c9cd26655fe8c5.idx to /tmp/nimble_6528/githubcom_cblakecligengit/.git/objects/pack/tmp_idx_x76qdy
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/objects/pack/tmp_idx_x76qdy
-  rename /tmp/nimble_6528/githubcom_cblakecligengit/.git/shallow.lock to shallow
-  rename /tmp/nimble_6528/githubcom_cblakecligengit/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/packed-refs.lock
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/refs/tags/v1.0.0.lock
-  create directory /tmp/nimble_6528/githubcom_cblakecligengit/.git/logs
-  rename /tmp/nimble_6528/githubcom_cblakecligengit/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/objects/pack/pack-dce576a9028a8173fb757abd10c9cd26655fe8c5.keep
-  create directory /tmp/nimble_6528/githubcom_cblakecligengit/cligen
-  create directory /tmp/nimble_6528/githubcom_cblakecligengit/configs
-  create directory /tmp/nimble_6528/githubcom_cblakecligengit/docs
-  create directory /tmp/nimble_6528/githubcom_cblakecligengit/examples
-  create directory /tmp/nimble_6528/githubcom_cblakecligengit/test
-  rename /tmp/nimble_6528/githubcom_cblakecligengit/.git/index.lock to index
+  create directory /tmp/nimble_6626
+  create directory /tmp/nimble_6626/githubcom_cblakecligengit
+  delete /tmp/nimble_6626/githubcom_cblakecligengit
+  create directory /tmp/nimble_6626/githubcom_cblakecligengit
+  create directory /tmp/nimble_6626/githubcom_cblakecligengit/.git
+  create directory /tmp/nimble_6626/githubcom_cblakecligengit/.git
+  create directory /tmp/nimble_6626/githubcom_cblakecligengit/.git/info
+  create directory /tmp/nimble_6626/githubcom_cblakecligengit/.git/branches
+  create directory /tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks
+  create directory /tmp/nimble_6626/githubcom_cblakecligengit/.git/refs
+  create directory /tmp/nimble_6626/githubcom_cblakecligengit/.git/refs/heads
+  create directory /tmp/nimble_6626/githubcom_cblakecligengit/.git/refs/tags
+  rename /tmp/nimble_6626/githubcom_cblakecligengit/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_6626/githubcom_cblakecligengit/.git/config.lock to config
+  change permissions of /tmp/nimble_6626/githubcom_cblakecligengit/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_6626/githubcom_cblakecligengit/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_6626/githubcom_cblakecligengit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6626/githubcom_cblakecligengit/.git/config.lock to config
+  change permissions of /tmp/nimble_6626/githubcom_cblakecligengit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6626/githubcom_cblakecligengit/.git/config.lock to config
+  change permissions of /tmp/nimble_6626/githubcom_cblakecligengit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6626/githubcom_cblakecligengit/.git/config.lock to config
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/tC6d3T2
+  create symbolic link from /tmp/nimble_6626/githubcom_cblakecligengit/.git/tC6d3T2 to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/tC6d3T2
+  create directory /tmp/nimble_6626/githubcom_cblakecligengit/.git/objects
+  create directory /tmp/nimble_6626/githubcom_cblakecligengit/.git/objects/pack
+  create directory /tmp/nimble_6626/githubcom_cblakecligengit/.git/objects/info
+  change permissions of /tmp/nimble_6626/githubcom_cblakecligengit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6626/githubcom_cblakecligengit/.git/config.lock to config
+  change permissions of /tmp/nimble_6626/githubcom_cblakecligengit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6626/githubcom_cblakecligengit/.git/config.lock to config
+  change permissions of /tmp/nimble_6626/githubcom_cblakecligengit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6626/githubcom_cblakecligengit/.git/config.lock to config
+  create hard link from /tmp/nimble_6626/githubcom_cblakecligengit/.git/objects/pack/pack-d6c67488643828f76545f0d7d34359d0cd66532f.pack to /tmp/nimble_6626/githubcom_cblakecligengit/.git/objects/pack/tmp_pack_6DKaRo
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/objects/pack/tmp_pack_6DKaRo
+  create hard link from /tmp/nimble_6626/githubcom_cblakecligengit/.git/objects/pack/pack-d6c67488643828f76545f0d7d34359d0cd66532f.idx to /tmp/nimble_6626/githubcom_cblakecligengit/.git/objects/pack/tmp_idx_eSPMKL
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/objects/pack/tmp_idx_eSPMKL
+  rename /tmp/nimble_6626/githubcom_cblakecligengit/.git/shallow.lock to shallow
+  rename /tmp/nimble_6626/githubcom_cblakecligengit/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/packed-refs.lock
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/refs/tags/v1.0.0.lock
+  create directory /tmp/nimble_6626/githubcom_cblakecligengit/.git/logs
+  rename /tmp/nimble_6626/githubcom_cblakecligengit/.git/HEAD.lock to HEAD
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/objects/pack/pack-d6c67488643828f76545f0d7d34359d0cd66532f.keep
+  create directory /tmp/nimble_6626/githubcom_cblakecligengit/cligen
+  create directory /tmp/nimble_6626/githubcom_cblakecligengit/configs
+  create directory /tmp/nimble_6626/githubcom_cblakecligengit/docs
+  create directory /tmp/nimble_6626/githubcom_cblakecligengit/examples
+  create directory /tmp/nimble_6626/githubcom_cblakecligengit/test
+  rename /tmp/nimble_6626/githubcom_cblakecligengit/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/cligen_1438603377
-  delete /tmp/nimblecache/cligen_1438603377/cligen.ini
-  delete /tmp/nimble_6528.out
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen_6528.nims
+  create directory /tmp/nimblecache/cligen_1680869522
+  delete /tmp/nimblecache/cligen_1680869522/cligen.ini
+  delete /tmp/nimble_6626.out
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen_6626.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -540,42 +540,7 @@ rmdir('/tmp/nimble_6528')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/cligen-1.0.0
   create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
-  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/tab.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
-  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/argcvt.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
-  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/humanUt.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
-  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/textUt.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
-  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mslice.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
-  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/clCfgInit.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/trie.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -589,98 +554,7 @@ rmdir('/tmp/nimble_6528')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/cligen-1.0.0
   create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
-  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/tern.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
-  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/posixUt.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
-  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mergeCfgEnv.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
-  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/unixUt.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
-  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mergeCfgEnvMulti.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
-  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/helpTmpl.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
-  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mfile.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
-  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/osUt.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
-  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/trie.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
-  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/syntaxHelp.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
-  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/fileUt.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
-  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/magic.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
-  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/abbrev.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
-  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
-  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/strUt.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/argcvt.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -694,7 +568,35 @@ rmdir('/tmp/nimble_6528')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/cligen-1.0.0
   create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
-  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/parseopt3.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/syntaxHelp.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
+  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/humanUt.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
+  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mergeCfgEnv.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
+  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mfile.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
+  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/fileUt.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -708,14 +610,14 @@ rmdir('/tmp/nimble_6528')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/cligen-1.0.0
   create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
-  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/clCfgToml.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/strUt.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/cligen-1.0.0
   create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
-  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mergeCfgEnvMulMul.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/cfUt.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -729,168 +631,266 @@ rmdir('/tmp/nimble_6528')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/cligen-1.0.0
   create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
-  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/cfUt.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mslice.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
+  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mergeCfgEnvMulMul.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
+  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/tern.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
+  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/unixUt.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
+  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/parseopt3.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
+  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/tab.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
+  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/helpTmpl.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
+  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/magic.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
+  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/textUt.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
+  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/clCfgToml.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
+  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/mergeCfgEnvMulti.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
+  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/osUt.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
+  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/clCfgInit.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
+  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/abbrev.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0
+  create directory /home/runner/.nimble/pkgs/cligen-1.0.0/cligen
+  change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen/posixUt.nim to rw-r--r--
   change permissions of /home/runner/.nimble/pkgs/cligen-1.0.0/cligen.nimble to rw-r--r--
   create directory /tmp
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/cligen_653939757
   delete /tmp/nimblecache/cligen_653939757/cligen.ini
-  delete /tmp/nimble_6528.out
-  delete /home/runner/.nimble/pkgs/cligen-1.0.0/cligen_6528.nims
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/examples/newest.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/examples/dups.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/examples/cols.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/examples/nim.cfg
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/examples
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.gitignore
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/configs/config
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/configs/README.md
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/configs/config.toml
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/configs
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/MOTIVATION.md
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/DETAILS.md
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/LICENSE
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.gitattributes
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen.nimble
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/docs/parseopt3.html
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/docs/argcvt.html
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/docs/cligen.html
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/docs/nimdoc.out.css
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/docs/index.html
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/docs
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/RELEASE-NOTES.md
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/HEAD
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/config
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/logs/HEAD
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/logs
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/branches
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/packed-refs
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/refs/heads
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/refs/tags
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/refs
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks/pre-push.sample
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks/update.sample
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks/post-update.sample
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/hooks
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/index
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/info/exclude
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/info
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/shallow
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/description
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/objects/pack/pack-dce576a9028a8173fb757abd10c9cd26655fe8c5.idx
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/objects/pack/pack-dce576a9028a8173fb757abd10c9cd26655fe8c5.pack
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/objects/pack
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/objects/info
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git/objects
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/.git
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test.sh
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/doc.sh
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/ref
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/ImplicitDefault.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/UserAliases.cf
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/CustomType.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/CustomCmdName.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/Version.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/UserAliases.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/MandatoryNoPos.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/TwoNondefaultedSeq.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/ReturnNonIntNoAuto.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/DistinctInt.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/DupShort.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/ReturnNonInt.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/MultMultMult.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/ReturnEmpty.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/FullyAutoMulti.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/UserDispIdCollide.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/ReturnInt.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/InitTup.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/External.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/AllSetTypes.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/PassValuesMulti.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/NoShort.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/EchoResult.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/SetByParse.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/MultiFlag.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/SubScope.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/PerParam.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/Version.cf
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/ResultInt.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/SeqInt.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/HashSets.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/ReturnString.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/SemiAutoMulti.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/FancyRepeats2.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/toimport.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/FullyAutoMulti.cf
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/HelpTabCols.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/OneCharParams.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/AllSeqTypes.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/QualifiedSym.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/InitOb.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/AllTypes.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/QualifiedMulti.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/FancyRepeats.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/InitObRef.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/DetectSet.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/TwoNondefaultedSeqSwap.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/ManualMulti.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/MultiMulti.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/ParseOnly.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/OmitInHelpTable.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/InitObPtr.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/SemiMultMult.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/StroppedParams.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/BlockedShort.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/PassValues.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/Suppress.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/NoPositional.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/ListDecl.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/Enums.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/Mandatory.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/OneCharLong.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/EarlySeq.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test/nim.cfg
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/test
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/README.md
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/tab.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/argcvt.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/humanUt.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/textUt.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/mslice.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/clCfgInit.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/sysUt.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/tern.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/posixUt.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/mergeCfgEnv.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/unixUt.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/mergeCfgEnvMulti.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/helpTmpl.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/mfile.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/osUt.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/trie.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/syntaxHelp.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/fileUt.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/magic.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/abbrev.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/strUt.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/macUt.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/parseopt3.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/gcarc.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/clCfgToml.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/mergeCfgEnvMulMul.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/statx.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen/cfUt.nim
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/cligen
-  delete /tmp/nimble_6528/githubcom_cblakecligengit/TODO.md
-  delete /tmp/nimble_6528/githubcom_cblakecligengit
-  delete /tmp/nimble_6528
+  delete /tmp/nimble_6626.out
+  delete /home/runner/.nimble/pkgs/cligen-1.0.0/cligen_6626.nims
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/docs/parseopt3.html
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/docs/cligen.html
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/docs/nimdoc.out.css
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/docs/argcvt.html
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/docs/index.html
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/docs
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/README.md
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/trie.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/sysUt.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/argcvt.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/macUt.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/syntaxHelp.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/humanUt.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/mergeCfgEnv.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/mfile.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/fileUt.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/gcarc.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/strUt.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/cfUt.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/statx.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/mslice.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/mergeCfgEnvMulMul.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/tern.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/unixUt.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/parseopt3.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/tab.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/helpTmpl.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/magic.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/textUt.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/clCfgToml.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/mergeCfgEnvMulti.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/osUt.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/clCfgInit.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/abbrev.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen/posixUt.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/configs/README.md
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/configs/config
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/configs/config.toml
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/configs
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/refs/tags
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/refs/heads
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/refs
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/info/exclude
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/info
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/branches
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/logs/HEAD
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/logs
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/description
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks/pre-push.sample
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks/update.sample
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks/post-update.sample
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/hooks
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/shallow
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/config
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/index
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/objects/info
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/objects/pack/pack-d6c67488643828f76545f0d7d34359d0cd66532f.idx
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/objects/pack/pack-d6c67488643828f76545f0d7d34359d0cd66532f.pack
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/objects/pack
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/objects
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/packed-refs
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git/HEAD
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.git
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/TODO.md
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/MOTIVATION.md
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/examples/newest.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/examples/dups.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/examples/nim.cfg
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/examples/cols.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/examples
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/doc.sh
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/cligen.nimble
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/RELEASE-NOTES.md
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/OmitInHelpTable.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/UserDispIdCollide.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/ref
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/HelpTabCols.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/PassValues.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/InitOb.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/AllSeqTypes.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/DupShort.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/FullyAutoMulti.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/Enums.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/StroppedParams.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/FancyRepeats.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/BlockedShort.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/OneCharParams.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/MandatoryNoPos.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/Mandatory.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/NoShort.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/UserAliases.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/ReturnEmpty.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/ResultInt.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/DetectSet.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/ManualMulti.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/Version.cf
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/MultMultMult.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/ParseOnly.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/AllTypes.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/InitObRef.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/NoPositional.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/CustomCmdName.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/ReturnString.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/DistinctInt.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/FullyAutoMulti.cf
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/SemiMultMult.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/ListDecl.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/External.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/OneCharLong.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/EarlySeq.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/SemiAutoMulti.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/MultiFlag.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/HashSets.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/toimport.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/SubScope.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/EchoResult.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/QualifiedSym.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/PerParam.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/ReturnInt.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/ImplicitDefault.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/TwoNondefaultedSeq.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/QualifiedMulti.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/CustomType.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/SetByParse.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/InitTup.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/MultiMulti.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/nim.cfg
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/PassValuesMulti.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/ReturnNonInt.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/Suppress.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/SeqInt.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/UserAliases.cf
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/FancyRepeats2.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/TwoNondefaultedSeqSwap.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/Version.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/AllSetTypes.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/ReturnNonIntNoAuto.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test/InitObPtr.nim
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.gitattributes
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/DETAILS.md
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/test.sh
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/.gitignore
+  delete /tmp/nimble_6626/githubcom_cblakecligengit/LICENSE
+  delete /tmp/nimble_6626/githubcom_cblakecligengit
+  delete /tmp/nimble_6626

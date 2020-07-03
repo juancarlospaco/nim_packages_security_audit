@@ -1,72 +1,97 @@
     Reading official package list
 Downloading https://github.com/makingspace/nim_consul using git
     Cloning latest tagged version: 0.0.1
-       Info /tmp/nimble_12657/githubcom_makingspacenimconsul/consul_12657.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /tmp/nimble_12657/githubcom_makingspacenimconsul/consul_12657.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
-  Verifying dependencies for consul@0.0.1
- Installing consul@0.0.1
-    Copying file /tmp/nimble_12657/githubcom_makingspacenimconsul/src/consul/kv.nim to /home/runner/.nimble/pkgs/consul-0.0.1/consul/kv.nim
-    Copying file /tmp/nimble_12657/githubcom_makingspacenimconsul/src/consul.nim to /home/runner/.nimble/pkgs/consul-0.0.1/consul.nim
-    Copying file /tmp/nimble_12657/githubcom_makingspacenimconsul/consul.nimble to /home/runner/.nimble/pkgs/consul-0.0.1/consul.nimble
-   Success: consul installed successfully.
-       Info /home/runner/.nimble/pkgs/consul-0.0.1/consul_12657.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /home/runner/.nimble/pkgs/consul-0.0.1/consul_12657.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_12657', 0x00000000000001ff)
-mkdir('/tmp/nimble_12657/githubcom_makingspacenimconsul', 0x00000000000001ff)
-rmdir('/tmp/nimble_12657/githubcom_makingspacenimconsul')
-mkdir('/tmp/nimble_12657/githubcom_makingspacenimconsul', 0x00000000000001ff)
-mkdir('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/HEAD.lock', '/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/HEAD')
-rename('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config.lock', '/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config')
-chmod('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config.lock', '/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config')
-chmod('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config.lock', '/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config')
-chmod('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config.lock', '/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/t69ZXpF')
-symlink('testing', '/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/t69ZXpF')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/t69ZXpF')
-mkdir('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config.lock', '/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config')
-chmod('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config.lock', '/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config')
-chmod('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config.lock', '/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config')
-link('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects/pack/tmp_pack_Lq4ICJ', '/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects/pack/pack-a8db49ff1c212113fa8c5ab358dd3ae43aa7bf15.pack')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects/pack/tmp_pack_Lq4ICJ')
-link('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects/pack/tmp_idx_7VQYKU', '/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects/pack/pack-a8db49ff1c212113fa8c5ab358dd3ae43aa7bf15.idx')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects/pack/tmp_idx_7VQYKU')
-rename('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/shallow.lock', '/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/shallow')
-rename('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/packed-refs.new', '/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/packed-refs')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/packed-refs.lock')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/refs/tags/0.0.1.lock')
-mkdir('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/HEAD.lock', '/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/HEAD')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects/pack/pack-a8db49ff1c212113fa8c5ab358dd3ae43aa7bf15.keep')
+mkdir('/tmp/nimble_12804', 0x00000000000001ff)
+mkdir('/tmp/nimble_12804/githubcom_makingspacenimconsul', 0x00000000000001ff)
+rmdir('/tmp/nimble_12804/githubcom_makingspacenimconsul')
+mkdir('/tmp/nimble_12804/githubcom_makingspacenimconsul', 0x00000000000001ff)
+mkdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/HEAD.lock', '/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/HEAD')
+rename('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config.lock', '/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config')
+chmod('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config.lock', '/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config')
+chmod('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config.lock', '/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config')
+chmod('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config.lock', '/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/tyEzWzZ')
+symlink('testing', '/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/tyEzWzZ')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/tyEzWzZ')
+mkdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config.lock', '/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config')
+chmod('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config.lock', '/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config')
+chmod('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config.lock', '/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config')
+mkdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/af', 0x00000000000001ff)
+link('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/af/tmp_obj_sUVpXs', '/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/af/eea4310cf4875e1982628ee79a85c45d8ed78e')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/af/tmp_obj_sUVpXs')
+mkdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/ba', 0x00000000000001ff)
+link('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/ba/tmp_obj_Am6ELy', '/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/ba/189a813e7bd7d52bc7a760168621fa1e67b440')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/ba/tmp_obj_Am6ELy')
+mkdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/2e', 0x00000000000001ff)
+link('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/2e/tmp_obj_kSGXsC', '/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/2e/55f12c8c4a751d23ab24a8cd11fe8620ced36f')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/2e/tmp_obj_kSGXsC')
+mkdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/cc', 0x00000000000001ff)
+link('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/cc/tmp_obj_eFJJzI', '/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/cc/944f58b88f49b88b7cb880563c63e0a96b36aa')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/cc/tmp_obj_eFJJzI')
+mkdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/ed', 0x00000000000001ff)
+link('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/ed/tmp_obj_qzXHTJ', '/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/ed/5fb326d240e3b0e2f1defec5f793171d56d0c4')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/ed/tmp_obj_qzXHTJ')
+mkdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/4d', 0x00000000000001ff)
+link('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/4d/tmp_obj_4FG4jM', '/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/4d/1f3a14d7d7485981535491dc93385211764fdd')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/4d/tmp_obj_4FG4jM')
+mkdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/9f', 0x00000000000001ff)
+link('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/9f/tmp_obj_KfWOTR', '/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/9f/5112d03ab20df4bffa90dfc1d05faf2d2e2faf')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/9f/tmp_obj_KfWOTR')
+mkdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/06', 0x00000000000001ff)
+link('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/06/tmp_obj_OZQM9S', '/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/06/250e553315ce899684c9c7d8ba78ce690f5854')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/06/tmp_obj_OZQM9S')
+mkdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/df', 0x00000000000001ff)
+link('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/df/tmp_obj_WdgJCZ', '/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/df/024814a60b03058165dbd3cee3c05c07372169')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/df/tmp_obj_WdgJCZ')
+mkdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/3b', 0x00000000000001ff)
+link('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/3b/tmp_obj_SL0rcY', '/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/3b/tmp_obj_SL0rcY')
+rename('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/shallow.lock', '/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/shallow')
+rename('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/packed-refs.new', '/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/packed-refs')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/packed-refs.lock')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/refs/tags/0.0.1.lock')
+mkdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/HEAD.lock', '/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/HEAD')
 mkdir('src', 0x00000000000001ff)
 mkdir('src/consul', 0x00000000000001ff)
 mkdir('tests', 0x00000000000001ff)
-rename('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/index.lock', '/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/index')
+rename('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/index.lock', '/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/consul_4192550498', 0x00000000000001ff)
-unlink('/tmp/nimblecache/consul_4192550498/consul.ini')
-unlink('/tmp/nimble_12657.out')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/consul_12657.nims')
+mkdir('/tmp/nimblecache/consul_3784490733', 0x00000000000001ff)       Info /tmp/nimble_12804/githubcom_makingspacenimconsul/consul_12804.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /tmp/nimble_12804/githubcom_makingspacenimconsul/consul_12804.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+  Verifying dependencies for consul@0.0.1
+ Installing consul@0.0.1
+    Copying file /tmp/nimble_12804/githubcom_makingspacenimconsul/src/consul/kv.nim to /home/runner/.nimble/pkgs/consul-0.0.1/consul/kv.nim
+    Copying file /tmp/nimble_12804/githubcom_makingspacenimconsul/src/consul.nim to /home/runner/.nimble/pkgs/consul-0.0.1/consul.nim
+    Copying file /tmp/nimble_12804/githubcom_makingspacenimconsul/consul.nimble to /home/runner/.nimble/pkgs/consul-0.0.1/consul.nimble
+   Success: consul installed successfully.
+       Info /home/runner/.nimble/pkgs/consul-0.0.1/consul_12804.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /home/runner/.nimble/pkgs/consul-0.0.1/consul_12804.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+
+unlink('/tmp/nimblecache/consul_3784490733/consul.ini')
+unlink('/tmp/nimble_12804.out')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/consul_12804.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -90,107 +115,150 @@ mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/consul_2083617404', 0x00000000000001ff)
 unlink('/tmp/nimblecache/consul_2083617404/consul.ini')
-unlink('/tmp/nimble_12657.out')
-unlink('/home/runner/.nimble/pkgs/consul-0.0.1/consul_12657.nims')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/src/consul/kv.nim')
-rmdir('/tmp/nimble_12657/githubcom_makingspacenimconsul/src/consul')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/src/consul.nim')
-rmdir('/tmp/nimble_12657/githubcom_makingspacenimconsul/src')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/consul.nimble')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/HEAD')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/logs/HEAD')
-rmdir('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/logs')
-rmdir('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/branches')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/packed-refs')
-rmdir('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/refs/heads')
-rmdir('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/refs/tags')
-rmdir('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/refs')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks/update.sample')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/index')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/info/exclude')
-rmdir('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/info')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/shallow')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/description')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects/pack/pack-a8db49ff1c212113fa8c5ab358dd3ae43aa7bf15.idx')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects/pack/pack-a8db49ff1c212113fa8c5ab358dd3ae43aa7bf15.pack')
-rmdir('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects/pack')
-rmdir('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects/info')
-rmdir('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects')
-rmdir('/tmp/nimble_12657/githubcom_makingspacenimconsul/.git')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/tests/test1.nim')
-unlink('/tmp/nimble_12657/githubcom_makingspacenimconsul/tests/test1.nims')
-rmdir('/tmp/nimble_12657/githubcom_makingspacenimconsul/tests')
-rmdir('/tmp/nimble_12657/githubcom_makingspacenimconsul')
-rmdir('/tmp/nimble_12657')
+unlink('/tmp/nimble_12804.out')
+unlink('/home/runner/.nimble/pkgs/consul-0.0.1/consul_12804.nims')
+rmdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/refs/tags')
+rmdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/refs/heads')
+rmdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/refs')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/info/exclude')
+rmdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/info')
+rmdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/branches')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/logs/HEAD')
+rmdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/logs')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/description')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks/update.sample')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/shallow')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/index')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/2e/55f12c8c4a751d23ab24a8cd11fe8620ced36f')
+rmdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/2e')
+rmdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/info')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/df/024814a60b03058165dbd3cee3c05c07372169')
+rmdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/df')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/af/eea4310cf4875e1982628ee79a85c45d8ed78e')
+rmdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/af')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/cc/944f58b88f49b88b7cb880563c63e0a96b36aa')
+rmdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/cc')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6')
+rmdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/3b')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/ed/5fb326d240e3b0e2f1defec5f793171d56d0c4')
+rmdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/ed')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/4d/1f3a14d7d7485981535491dc93385211764fdd')
+rmdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/4d')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/ba/189a813e7bd7d52bc7a760168621fa1e67b440')
+rmdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/ba')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/9f/5112d03ab20df4bffa90dfc1d05faf2d2e2faf')
+rmdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/9f')
+rmdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/pack')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/06/250e553315ce899684c9c7d8ba78ce690f5854')
+rmdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/06')
+rmdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/packed-refs')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git/HEAD')
+rmdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/.git')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/src/consul/kv.nim')
+rmdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/src/consul')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/src/consul.nim')
+rmdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/src')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/consul.nimble')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/tests/test1.nims')
+unlink('/tmp/nimble_12804/githubcom_makingspacenimconsul/tests/test1.nim')
+rmdir('/tmp/nimble_12804/githubcom_makingspacenimconsul/tests')
+rmdir('/tmp/nimble_12804/githubcom_makingspacenimconsul')
+rmdir('/tmp/nimble_12804')
   create directory /tmp
-  create directory /tmp/nimble_12657
-  create directory /tmp/nimble_12657/githubcom_makingspacenimconsul
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul
-  create directory /tmp/nimble_12657/githubcom_makingspacenimconsul
-  create directory /tmp/nimble_12657/githubcom_makingspacenimconsul/.git
-  create directory /tmp/nimble_12657/githubcom_makingspacenimconsul/.git
-  create directory /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/branches
-  create directory /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks
-  create directory /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/info
-  create directory /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/refs
-  create directory /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/refs/heads
-  create directory /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/refs/tags
-  rename /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config.lock to config
-  change permissions of /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config.lock to config
-  change permissions of /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config.lock to config
-  change permissions of /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config.lock to config
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/t69ZXpF
-  create symbolic link from /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/t69ZXpF to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/t69ZXpF
-  create directory /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects
-  create directory /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects/pack
-  create directory /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects/info
-  change permissions of /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config.lock to config
-  change permissions of /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config.lock to config
-  change permissions of /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config.lock to config
-  create hard link from /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects/pack/pack-a8db49ff1c212113fa8c5ab358dd3ae43aa7bf15.pack to /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects/pack/tmp_pack_Lq4ICJ
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects/pack/tmp_pack_Lq4ICJ
-  create hard link from /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects/pack/pack-a8db49ff1c212113fa8c5ab358dd3ae43aa7bf15.idx to /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects/pack/tmp_idx_7VQYKU
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects/pack/tmp_idx_7VQYKU
-  rename /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/shallow.lock to shallow
-  rename /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/packed-refs.lock
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/refs/tags/0.0.1.lock
-  create directory /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/logs
-  rename /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects/pack/pack-a8db49ff1c212113fa8c5ab358dd3ae43aa7bf15.keep
-  create directory /tmp/nimble_12657/githubcom_makingspacenimconsul/src
-  create directory /tmp/nimble_12657/githubcom_makingspacenimconsul/src/consul
-  create directory /tmp/nimble_12657/githubcom_makingspacenimconsul/tests
-  rename /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/index.lock to index
+  create directory /tmp/nimble_12804
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul/.git
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul/.git
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/info
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/branches
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/refs
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/refs/heads
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/refs/tags
+  rename /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config.lock to config
+  change permissions of /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config.lock to config
+  change permissions of /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config.lock to config
+  change permissions of /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config.lock to config
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/tyEzWzZ
+  create symbolic link from /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/tyEzWzZ to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/tyEzWzZ
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/pack
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/info
+  change permissions of /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config.lock to config
+  change permissions of /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config.lock to config
+  change permissions of /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config.lock to config
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/af
+  create hard link from /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/af/eea4310cf4875e1982628ee79a85c45d8ed78e to /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/af/tmp_obj_sUVpXs
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/af/tmp_obj_sUVpXs
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/ba
+  create hard link from /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/ba/189a813e7bd7d52bc7a760168621fa1e67b440 to /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/ba/tmp_obj_Am6ELy
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/ba/tmp_obj_Am6ELy
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/2e
+  create hard link from /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/2e/55f12c8c4a751d23ab24a8cd11fe8620ced36f to /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/2e/tmp_obj_kSGXsC
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/2e/tmp_obj_kSGXsC
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/cc
+  create hard link from /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/cc/944f58b88f49b88b7cb880563c63e0a96b36aa to /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/cc/tmp_obj_eFJJzI
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/cc/tmp_obj_eFJJzI
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/ed
+  create hard link from /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/ed/5fb326d240e3b0e2f1defec5f793171d56d0c4 to /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/ed/tmp_obj_qzXHTJ
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/ed/tmp_obj_qzXHTJ
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/4d
+  create hard link from /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/4d/1f3a14d7d7485981535491dc93385211764fdd to /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/4d/tmp_obj_4FG4jM
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/4d/tmp_obj_4FG4jM
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/9f
+  create hard link from /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/9f/5112d03ab20df4bffa90dfc1d05faf2d2e2faf to /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/9f/tmp_obj_KfWOTR
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/9f/tmp_obj_KfWOTR
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/06
+  create hard link from /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/06/250e553315ce899684c9c7d8ba78ce690f5854 to /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/06/tmp_obj_OZQM9S
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/06/tmp_obj_OZQM9S
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/df
+  create hard link from /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/df/024814a60b03058165dbd3cee3c05c07372169 to /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/df/tmp_obj_WdgJCZ
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/df/tmp_obj_WdgJCZ
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/3b
+  create hard link from /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6 to /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/3b/tmp_obj_SL0rcY
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/3b/tmp_obj_SL0rcY
+  rename /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/shallow.lock to shallow
+  rename /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/packed-refs.lock
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/refs/tags/0.0.1.lock
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/logs
+  rename /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul/src
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul/src/consul
+  create directory /tmp/nimble_12804/githubcom_makingspacenimconsul/tests
+  rename /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/consul_4192550498
-  delete /tmp/nimblecache/consul_4192550498/consul.ini
-  delete /tmp/nimble_12657.out
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/consul_12657.nims
+  create directory /tmp/nimblecache/consul_3784490733
+  delete /tmp/nimblecache/consul_3784490733/consul.ini
+  delete /tmp/nimble_12804.out
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/consul_12804.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -214,48 +282,66 @@ rmdir('/tmp/nimble_12657')
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/consul_2083617404
   delete /tmp/nimblecache/consul_2083617404/consul.ini
-  delete /tmp/nimble_12657.out
-  delete /home/runner/.nimble/pkgs/consul-0.0.1/consul_12657.nims
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/src/consul/kv.nim
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/src/consul
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/src/consul.nim
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/src
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/consul.nimble
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/HEAD
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/config
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/logs/HEAD
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/logs
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/branches
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/packed-refs
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/refs/heads
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/refs/tags
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/refs
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks/pre-push.sample
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks/update.sample
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks/post-update.sample
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/hooks
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/index
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/info/exclude
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/info
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/shallow
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/description
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects/pack/pack-a8db49ff1c212113fa8c5ab358dd3ae43aa7bf15.idx
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects/pack/pack-a8db49ff1c212113fa8c5ab358dd3ae43aa7bf15.pack
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects/pack
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects/info
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git/objects
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/.git
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/tests/test1.nim
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/tests/test1.nims
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul/tests
-  delete /tmp/nimble_12657/githubcom_makingspacenimconsul
-  delete /tmp/nimble_12657
+  delete /tmp/nimble_12804.out
+  delete /home/runner/.nimble/pkgs/consul-0.0.1/consul_12804.nims
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/refs/tags
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/refs/heads
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/refs
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/info/exclude
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/info
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/branches
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/logs/HEAD
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/logs
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/description
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks/pre-push.sample
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks/update.sample
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks/post-update.sample
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/hooks
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/shallow
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/config
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/index
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/2e/55f12c8c4a751d23ab24a8cd11fe8620ced36f
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/2e
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/info
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/df/024814a60b03058165dbd3cee3c05c07372169
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/df
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/af/eea4310cf4875e1982628ee79a85c45d8ed78e
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/af
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/cc/944f58b88f49b88b7cb880563c63e0a96b36aa
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/cc
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/3b
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/ed/5fb326d240e3b0e2f1defec5f793171d56d0c4
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/ed
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/4d/1f3a14d7d7485981535491dc93385211764fdd
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/4d
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/ba/189a813e7bd7d52bc7a760168621fa1e67b440
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/ba
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/9f/5112d03ab20df4bffa90dfc1d05faf2d2e2faf
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/9f
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/pack
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/06/250e553315ce899684c9c7d8ba78ce690f5854
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects/06
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/objects
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/packed-refs
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git/HEAD
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/.git
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/src/consul/kv.nim
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/src/consul
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/src/consul.nim
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/src
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/consul.nimble
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/tests/test1.nims
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/tests/test1.nim
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul/tests
+  delete /tmp/nimble_12804/githubcom_makingspacenimconsul
+  delete /tmp/nimble_12804
