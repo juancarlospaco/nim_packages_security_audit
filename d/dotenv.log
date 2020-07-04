@@ -1,82 +1,132 @@
     Reading official package list
 Downloading https://github.com/euantorano/dotenv.nim using git
     Cloning latest tagged version: v1.1.1
-  Verifying dependencies for dotenv@1.1.1
- Installing dotenv@1.1.1
-    Copying file /tmp/nimble_6379/githubcom_euantoranodotenvnim/src/dotenv.nim to /home/runner/.nimble/pkgs/dotenv-1.1.1/dotenv.nim
-    Copying file /tmp/nimble_6379/githubcom_euantoranodotenvnim/src/dotenv/private/envparser.nim to /home/runner/.nimble/pkgs/dotenv-1.1.1/dotenv/private/envparser.nim
-    Copying file /tmp/nimble_6379/githubcom_euantoranodotenvnim/dotenv.nimble to /home/runner/.nimble/pkgs/dotenv-1.1.1/dotenv.nimble
-   Success: dotenv installed successfully.
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_6379', 0x00000000000001ff)
-mkdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim', 0x00000000000001ff)
-rmdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim')
-mkdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim', 0x00000000000001ff)
-mkdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/HEAD.lock', '/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/HEAD')
-rename('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config.lock', '/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config')
-chmod('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config.lock', '/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config')
-chmod('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config.lock', '/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config')
-chmod('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config.lock', '/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/tTokqtY')
-symlink('testing', '/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/tTokqtY')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/tTokqtY')
-mkdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config.lock', '/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config')
-chmod('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config.lock', '/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config')
-chmod('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config.lock', '/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config')
-link('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects/pack/tmp_pack_xsjQmi', '/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects/pack/pack-91eaf1a79bd57c04d5c94de82eb9f5deb5a773c1.pack')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects/pack/tmp_pack_xsjQmi')
-link('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects/pack/tmp_idx_gptgQj', '/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects/pack/pack-91eaf1a79bd57c04d5c94de82eb9f5deb5a773c1.idx')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects/pack/tmp_idx_gptgQj')
-rename('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/shallow.lock', '/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/shallow')
-rename('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/packed-refs.new', '/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/packed-refs')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/packed-refs.lock')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/refs/tags/v1.1.1.lock')
-mkdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/HEAD.lock', '/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/HEAD')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects/pack/pack-91eaf1a79bd57c04d5c94de82eb9f5deb5a773c1.keep')
+mkdir('/tmp/nimble_6417', 0x00000000000001ff)
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim', 0x00000000000001ff)
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim')
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim', 0x00000000000001ff)
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/HEAD.lock', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/HEAD')
+rename('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config.lock', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config')
+chmod('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config.lock', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config')
+chmod('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config.lock', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config')
+chmod('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config.lock', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/t2vHcaL')
+symlink('testing', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/t2vHcaL')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/t2vHcaL')
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config.lock', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config')
+chmod('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config.lock', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config')
+chmod('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config.lock', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config')
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/08', 0x00000000000001ff)
+link('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/08/tmp_obj_f8bV4h', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/08/b82a6bda7b893832e5305b4e8a7d37ff87b3a3')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/08/tmp_obj_f8bV4h')
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/9f', 0x00000000000001ff)
+link('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/9f/tmp_obj_PkNfLn', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/9f/3c41cf2ec5952a70f84ffde0fa4d795baf90b5')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/9f/tmp_obj_PkNfLn')
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/47', 0x00000000000001ff)
+link('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/47/tmp_obj_96ILZr', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/47/60ef5abf530e37ad798897765a743e8bbdce0e')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/47/tmp_obj_96ILZr')
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ad', 0x00000000000001ff)
+link('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ad/tmp_obj_bmGSbt', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ad/7b8828d9dc310654bafd06def7a062088f4c65')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ad/tmp_obj_bmGSbt')
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/9c', 0x00000000000001ff)
+link('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/9c/tmp_obj_RVfRfx', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/9c/dd7381f59af65ba374964ca3ef96fb5c981e70')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/9c/tmp_obj_RVfRfx')
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/55', 0x00000000000001ff)
+link('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/55/tmp_obj_DKzkpz', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/55/052ce69ecf128a52c245e123e1293d4cd2799e')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/55/tmp_obj_DKzkpz')
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/52', 0x00000000000001ff)
+link('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/52/tmp_obj_PquqYA', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/52/c74fc3c1cf329548cbac2177e767daec6930fe')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/52/tmp_obj_PquqYA')
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/f0', 0x00000000000001ff)
+link('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/f0/tmp_obj_LmrvXG', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/f0/7c24b032d9ebd38cab086caabdec843fd55586')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/f0/tmp_obj_LmrvXG')
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/22', 0x00000000000001ff)
+link('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/22/tmp_obj_p9RpZK', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/22/90ae7eafcd1b7ba1bb71007e53e688493d681e')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/22/tmp_obj_p9RpZK')
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/31', 0x00000000000001ff)
+link('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/31/tmp_obj_Xeqi1M', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/31/babbc71ed6540fd9db7b40a00b1af543f86032')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/31/tmp_obj_Xeqi1M')
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/48', 0x00000000000001ff)
+link('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/48/tmp_obj_j8oSvO', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/48/9f011c79f2e7d22ac1a12874f1f80700295314')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/48/tmp_obj_j8oSvO')
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/46', 0x00000000000001ff)
+link('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/46/tmp_obj_Jx3LbU', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/46/502edd6ba67c86e0a2b73046e0a7d3d183571c')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/46/tmp_obj_Jx3LbU')
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/a8', 0x00000000000001ff)
+link('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/a8/tmp_obj_7NZonX', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/a8/9629236b190398743de7c733eaa3523c2e26c8')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/a8/tmp_obj_7NZonX')
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/da', 0x00000000000001ff)  Verifying dependencies for dotenv@1.1.1
+ Installing dotenv@1.1.1
+    Copying file /tmp/nimble_6417/githubcom_euantoranodotenvnim/src/dotenv/private/envparser.nim to /home/runner/.nimble/pkgs/dotenv-1.1.1/dotenv/private/envparser.nim
+    Copying file /tmp/nimble_6417/githubcom_euantoranodotenvnim/src/dotenv.nim to /home/runner/.nimble/pkgs/dotenv-1.1.1/dotenv.nim
+    Copying file /tmp/nimble_6417/githubcom_euantoranodotenvnim/dotenv.nimble to /home/runner/.nimble/pkgs/dotenv-1.1.1/dotenv.nimble
+   Success: dotenv installed successfully.
+
+link('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/da/tmp_obj_Z3zerX', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/da/99cb1b16ca0ef5577b0cf44e149c0daf326f9d')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/da/tmp_obj_Z3zerX')
+link('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/22/tmp_obj_Rf2QB3', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/22/2c60df9f041ab9f3e16f3c7e6bb0ba2d828244')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/22/tmp_obj_Rf2QB3')
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/8a', 0x00000000000001ff)
+link('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/8a/tmp_obj_hHnCo8', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/8a/fb07146d25eb919c9ff203677fc957bb0474b8')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/8a/tmp_obj_hHnCo8')
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ec', 0x00000000000001ff)
+link('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ec/tmp_obj_pDVj78', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ec/cbb3c8cd40e3c885c19a97d109c9a7812a8c51')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ec/tmp_obj_pDVj78')
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/94', 0x00000000000001ff)
+link('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/94/tmp_obj_zOcbvf', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/94/e3068039fa25c3146d47c24bc96b6ebb990b8e')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/94/tmp_obj_zOcbvf')
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/65', 0x00000000000001ff)
+link('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/65/tmp_obj_fIC3eg', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/65/b28cfbbdbe8fc8f47cdf5f85f8c228e0198e6c')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/65/tmp_obj_fIC3eg')
+link('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ad/tmp_obj_64YXBa', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ad/c8733e7defcf6daef325aaf00815485f8c9c39')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ad/tmp_obj_64YXBa')
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/07', 0x00000000000001ff)
+link('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/07/tmp_obj_cAhivg', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/07/d0466e45a05ad2907a09d50f61ae5a7244c52e')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/07/tmp_obj_cAhivg')
+rename('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/shallow.lock', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/shallow')
+rename('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/packed-refs.new', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/packed-refs')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/packed-refs.lock')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/refs/tags/v1.1.1.lock')
+mkdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/HEAD.lock', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/HEAD')
 mkdir('.circleci', 0x00000000000001ff)
 mkdir('docs', 0x00000000000001ff)
 mkdir('src', 0x00000000000001ff)
 mkdir('src/dotenv', 0x00000000000001ff)
 mkdir('src/dotenv/private', 0x00000000000001ff)
 mkdir('tests', 0x00000000000001ff)
-rename('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/index.lock', '/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/index')
+rename('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/index.lock', '/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/dotenv_3865068509', 0x00000000000001ff)
-unlink('/tmp/nimblecache/dotenv_3865068509/dotenv.ini')
-unlink('/tmp/nimble_6379.out')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/dotenv_6379.nims')
+mkdir('/tmp/nimblecache/dotenv_2616407821', 0x00000000000001ff)
+unlink('/tmp/nimblecache/dotenv_2616407821/dotenv.ini')
+unlink('/tmp/nimble_6417.out')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/dotenv_6417.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/dotenv-1.1.1', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/dotenv-1.1.1', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/dotenv-1.1.1/dotenv.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -85,137 +135,231 @@ mkdir('/home/runner/.nimble/pkgs/dotenv-1.1.1', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/dotenv-1.1.1/dotenv', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/dotenv-1.1.1/dotenv/private', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/dotenv-1.1.1/dotenv/private/envparser.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/dotenv-1.1.1', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/dotenv-1.1.1/dotenv.nim', 0x00000000000001a4)
 chmod('/home/runner/.nimble/pkgs/dotenv-1.1.1/dotenv.nimble', 0x00000000000001a4)
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/dotenv_3693148459', 0x00000000000001ff)
 unlink('/tmp/nimblecache/dotenv_3693148459/dotenv.ini')
-unlink('/tmp/nimble_6379.out')
-unlink('/home/runner/.nimble/pkgs/dotenv-1.1.1/dotenv_6379.nims')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/src/dotenv.nim')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/src/dotenv/private/envparser.nim')
-rmdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/src/dotenv/private')
-rmdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/src/dotenv')
-rmdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/src')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.editorconfig')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.gitignore')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.circleci/config.yml')
-rmdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.circleci')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/LICENSE')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/docs/dotenv.html')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/docs/dotenv.idx')
-rmdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/docs')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/HEAD')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/logs/HEAD')
-rmdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/logs')
-rmdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/branches')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/packed-refs')
-rmdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/refs/heads')
-rmdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/refs/tags')
-rmdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/refs')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks/update.sample')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/index')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/info/exclude')
-rmdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/info')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/shallow')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/description')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects/pack/pack-91eaf1a79bd57c04d5c94de82eb9f5deb5a773c1.pack')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects/pack/pack-91eaf1a79bd57c04d5c94de82eb9f5deb5a773c1.idx')
-rmdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects/pack')
-rmdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects/info')
-rmdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects')
-rmdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.git')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/dotenv.nimble')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/README.md')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/.env.example')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/tests/main.nim')
-unlink('/tmp/nimble_6379/githubcom_euantoranodotenvnim/tests/nim.cfg')
-rmdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim/tests')
-rmdir('/tmp/nimble_6379/githubcom_euantoranodotenvnim')
-rmdir('/tmp/nimble_6379')
+unlink('/tmp/nimble_6417.out')
+unlink('/home/runner/.nimble/pkgs/dotenv-1.1.1/dotenv_6417.nims')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/docs/dotenv.idx')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/docs/dotenv.html')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/docs')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/README.md')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/refs/tags')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/refs/heads')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/refs')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/info/exclude')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/info')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/branches')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/logs/HEAD')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/logs')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/description')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks/update.sample')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/shallow')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/index')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ec/cbb3c8cd40e3c885c19a97d109c9a7812a8c51')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ec')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/31/babbc71ed6540fd9db7b40a00b1af543f86032')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/31')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/94/e3068039fa25c3146d47c24bc96b6ebb990b8e')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/94')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/9c/dd7381f59af65ba374964ca3ef96fb5c981e70')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/9c')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/info')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/08/b82a6bda7b893832e5305b4e8a7d37ff87b3a3')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/08')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/48/9f011c79f2e7d22ac1a12874f1f80700295314')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/48')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/47/60ef5abf530e37ad798897765a743e8bbdce0e')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/47')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/f0/7c24b032d9ebd38cab086caabdec843fd55586')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/f0')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/07/d0466e45a05ad2907a09d50f61ae5a7244c52e')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/07')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ad/c8733e7defcf6daef325aaf00815485f8c9c39')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ad/7b8828d9dc310654bafd06def7a062088f4c65')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ad')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/a8/9629236b190398743de7c733eaa3523c2e26c8')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/a8')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/52/c74fc3c1cf329548cbac2177e767daec6930fe')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/52')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/da/99cb1b16ca0ef5577b0cf44e149c0daf326f9d')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/da')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/65/b28cfbbdbe8fc8f47cdf5f85f8c228e0198e6c')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/65')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/22/2c60df9f041ab9f3e16f3c7e6bb0ba2d828244')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/22/90ae7eafcd1b7ba1bb71007e53e688493d681e')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/22')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/55/052ce69ecf128a52c245e123e1293d4cd2799e')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/55')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/9f/3c41cf2ec5952a70f84ffde0fa4d795baf90b5')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/9f')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/pack')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/46/502edd6ba67c86e0a2b73046e0a7d3d183571c')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/46')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/8a/fb07146d25eb919c9ff203677fc957bb0474b8')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/8a')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/packed-refs')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/HEAD')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.git')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.circleci/config.yml')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.circleci')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/src/dotenv/private/envparser.nim')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/src/dotenv/private')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/src/dotenv')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/src/dotenv.nim')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/src')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/dotenv.nimble')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.editorconfig')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.env.example')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/tests/nim.cfg')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/tests/main.nim')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim/tests')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/.gitignore')
+unlink('/tmp/nimble_6417/githubcom_euantoranodotenvnim/LICENSE')
+rmdir('/tmp/nimble_6417/githubcom_euantoranodotenvnim')
+rmdir('/tmp/nimble_6417')
   create directory /tmp
-  create directory /tmp/nimble_6379
-  create directory /tmp/nimble_6379/githubcom_euantoranodotenvnim
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim
-  create directory /tmp/nimble_6379/githubcom_euantoranodotenvnim
-  create directory /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git
-  create directory /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git
-  create directory /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/branches
-  create directory /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks
-  create directory /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/info
-  create directory /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/refs
-  create directory /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/refs/heads
-  create directory /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/refs/tags
-  rename /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config.lock to config
-  change permissions of /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config.lock to config
-  change permissions of /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config.lock to config
-  change permissions of /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config.lock to config
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/tTokqtY
-  create symbolic link from /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/tTokqtY to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/tTokqtY
-  create directory /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects
-  create directory /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects/pack
-  create directory /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects/info
-  change permissions of /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config.lock to config
-  change permissions of /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config.lock to config
-  change permissions of /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config.lock to config
-  create hard link from /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects/pack/pack-91eaf1a79bd57c04d5c94de82eb9f5deb5a773c1.pack to /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects/pack/tmp_pack_xsjQmi
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects/pack/tmp_pack_xsjQmi
-  create hard link from /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects/pack/pack-91eaf1a79bd57c04d5c94de82eb9f5deb5a773c1.idx to /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects/pack/tmp_idx_gptgQj
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects/pack/tmp_idx_gptgQj
-  rename /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/shallow.lock to shallow
-  rename /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/packed-refs.lock
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/refs/tags/v1.1.1.lock
-  create directory /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/logs
-  rename /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects/pack/pack-91eaf1a79bd57c04d5c94de82eb9f5deb5a773c1.keep
-  create directory /tmp/nimble_6379/githubcom_euantoranodotenvnim/.circleci
-  create directory /tmp/nimble_6379/githubcom_euantoranodotenvnim/docs
-  create directory /tmp/nimble_6379/githubcom_euantoranodotenvnim/src
-  create directory /tmp/nimble_6379/githubcom_euantoranodotenvnim/src/dotenv
-  create directory /tmp/nimble_6379/githubcom_euantoranodotenvnim/src/dotenv/private
-  create directory /tmp/nimble_6379/githubcom_euantoranodotenvnim/tests
-  rename /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/index.lock to index
+  create directory /tmp/nimble_6417
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/info
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/branches
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/refs
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/refs/heads
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/refs/tags
+  rename /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config.lock to config
+  change permissions of /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config.lock to config
+  change permissions of /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config.lock to config
+  change permissions of /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config.lock to config
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/t2vHcaL
+  create symbolic link from /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/t2vHcaL to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/t2vHcaL
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/pack
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/info
+  change permissions of /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config.lock to config
+  change permissions of /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config.lock to config
+  change permissions of /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config.lock to config
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/08
+  create hard link from /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/08/b82a6bda7b893832e5305b4e8a7d37ff87b3a3 to /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/08/tmp_obj_f8bV4h
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/08/tmp_obj_f8bV4h
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/9f
+  create hard link from /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/9f/3c41cf2ec5952a70f84ffde0fa4d795baf90b5 to /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/9f/tmp_obj_PkNfLn
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/9f/tmp_obj_PkNfLn
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/47
+  create hard link from /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/47/60ef5abf530e37ad798897765a743e8bbdce0e to /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/47/tmp_obj_96ILZr
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/47/tmp_obj_96ILZr
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ad
+  create hard link from /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ad/7b8828d9dc310654bafd06def7a062088f4c65 to /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ad/tmp_obj_bmGSbt
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ad/tmp_obj_bmGSbt
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/9c
+  create hard link from /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/9c/dd7381f59af65ba374964ca3ef96fb5c981e70 to /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/9c/tmp_obj_RVfRfx
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/9c/tmp_obj_RVfRfx
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/55
+  create hard link from /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/55/052ce69ecf128a52c245e123e1293d4cd2799e to /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/55/tmp_obj_DKzkpz
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/55/tmp_obj_DKzkpz
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/52
+  create hard link from /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/52/c74fc3c1cf329548cbac2177e767daec6930fe to /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/52/tmp_obj_PquqYA
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/52/tmp_obj_PquqYA
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/f0
+  create hard link from /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/f0/7c24b032d9ebd38cab086caabdec843fd55586 to /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/f0/tmp_obj_LmrvXG
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/f0/tmp_obj_LmrvXG
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/22
+  create hard link from /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/22/90ae7eafcd1b7ba1bb71007e53e688493d681e to /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/22/tmp_obj_p9RpZK
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/22/tmp_obj_p9RpZK
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/31
+  create hard link from /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/31/babbc71ed6540fd9db7b40a00b1af543f86032 to /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/31/tmp_obj_Xeqi1M
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/31/tmp_obj_Xeqi1M
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/48
+  create hard link from /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/48/9f011c79f2e7d22ac1a12874f1f80700295314 to /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/48/tmp_obj_j8oSvO
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/48/tmp_obj_j8oSvO
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/46
+  create hard link from /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/46/502edd6ba67c86e0a2b73046e0a7d3d183571c to /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/46/tmp_obj_Jx3LbU
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/46/tmp_obj_Jx3LbU
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/a8
+  create hard link from /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/a8/9629236b190398743de7c733eaa3523c2e26c8 to /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/a8/tmp_obj_7NZonX
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/a8/tmp_obj_7NZonX
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/da
+  create hard link from /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/da/99cb1b16ca0ef5577b0cf44e149c0daf326f9d to /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/da/tmp_obj_Z3zerX
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/da/tmp_obj_Z3zerX
+  create hard link from /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/22/2c60df9f041ab9f3e16f3c7e6bb0ba2d828244 to /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/22/tmp_obj_Rf2QB3
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/22/tmp_obj_Rf2QB3
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/8a
+  create hard link from /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/8a/fb07146d25eb919c9ff203677fc957bb0474b8 to /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/8a/tmp_obj_hHnCo8
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/8a/tmp_obj_hHnCo8
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ec
+  create hard link from /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ec/cbb3c8cd40e3c885c19a97d109c9a7812a8c51 to /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ec/tmp_obj_pDVj78
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ec/tmp_obj_pDVj78
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/94
+  create hard link from /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/94/e3068039fa25c3146d47c24bc96b6ebb990b8e to /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/94/tmp_obj_zOcbvf
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/94/tmp_obj_zOcbvf
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/65
+  create hard link from /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/65/b28cfbbdbe8fc8f47cdf5f85f8c228e0198e6c to /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/65/tmp_obj_fIC3eg
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/65/tmp_obj_fIC3eg
+  create hard link from /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ad/c8733e7defcf6daef325aaf00815485f8c9c39 to /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ad/tmp_obj_64YXBa
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ad/tmp_obj_64YXBa
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/07
+  create hard link from /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/07/d0466e45a05ad2907a09d50f61ae5a7244c52e to /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/07/tmp_obj_cAhivg
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/07/tmp_obj_cAhivg
+  rename /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/shallow.lock to shallow
+  rename /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/packed-refs.lock
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/refs/tags/v1.1.1.lock
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/logs
+  rename /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/.circleci
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/docs
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/src
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/src/dotenv
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/src/dotenv/private
+  create directory /tmp/nimble_6417/githubcom_euantoranodotenvnim/tests
+  rename /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/dotenv_3865068509
-  delete /tmp/nimblecache/dotenv_3865068509/dotenv.ini
-  delete /tmp/nimble_6379.out
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/dotenv_6379.nims
+  create directory /tmp/nimblecache/dotenv_2616407821
+  delete /tmp/nimblecache/dotenv_2616407821/dotenv.ini
+  delete /tmp/nimble_6417.out
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/dotenv_6417.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/dotenv-1.1.1
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/dotenv-1.1.1
-  change permissions of /home/runner/.nimble/pkgs/dotenv-1.1.1/dotenv.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -224,64 +368,108 @@ rmdir('/tmp/nimble_6379')
   create directory /home/runner/.nimble/pkgs/dotenv-1.1.1/dotenv
   create directory /home/runner/.nimble/pkgs/dotenv-1.1.1/dotenv/private
   change permissions of /home/runner/.nimble/pkgs/dotenv-1.1.1/dotenv/private/envparser.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/dotenv-1.1.1
+  change permissions of /home/runner/.nimble/pkgs/dotenv-1.1.1/dotenv.nim to rw-r--r--
   change permissions of /home/runner/.nimble/pkgs/dotenv-1.1.1/dotenv.nimble to rw-r--r--
   create directory /tmp
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/dotenv_3693148459
   delete /tmp/nimblecache/dotenv_3693148459/dotenv.ini
-  delete /tmp/nimble_6379.out
-  delete /home/runner/.nimble/pkgs/dotenv-1.1.1/dotenv_6379.nims
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/src/dotenv.nim
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/src/dotenv/private/envparser.nim
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/src/dotenv/private
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/src/dotenv
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/src
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.editorconfig
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.gitignore
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.circleci/config.yml
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.circleci
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/LICENSE
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/docs/dotenv.html
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/docs/dotenv.idx
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/docs
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/HEAD
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/config
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/logs/HEAD
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/logs
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/branches
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/packed-refs
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/refs/heads
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/refs/tags
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/refs
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks/pre-push.sample
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks/update.sample
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks/post-update.sample
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/hooks
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/index
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/info/exclude
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/info
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/shallow
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/description
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects/pack/pack-91eaf1a79bd57c04d5c94de82eb9f5deb5a773c1.pack
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects/pack/pack-91eaf1a79bd57c04d5c94de82eb9f5deb5a773c1.idx
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects/pack
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects/info
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git/objects
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.git
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/dotenv.nimble
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/README.md
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/.env.example
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/tests/main.nim
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/tests/nim.cfg
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim/tests
-  delete /tmp/nimble_6379/githubcom_euantoranodotenvnim
-  delete /tmp/nimble_6379
+  delete /tmp/nimble_6417.out
+  delete /home/runner/.nimble/pkgs/dotenv-1.1.1/dotenv_6417.nims
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/docs/dotenv.idx
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/docs/dotenv.html
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/docs
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/README.md
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/refs/tags
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/refs/heads
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/refs
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/info/exclude
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/info
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/branches
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/logs/HEAD
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/logs
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/description
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks/pre-push.sample
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks/update.sample
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks/post-update.sample
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/hooks
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/shallow
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/config
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/index
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ec/cbb3c8cd40e3c885c19a97d109c9a7812a8c51
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ec
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/31/babbc71ed6540fd9db7b40a00b1af543f86032
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/31
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/94/e3068039fa25c3146d47c24bc96b6ebb990b8e
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/94
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/9c/dd7381f59af65ba374964ca3ef96fb5c981e70
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/9c
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/info
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/08/b82a6bda7b893832e5305b4e8a7d37ff87b3a3
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/08
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/48/9f011c79f2e7d22ac1a12874f1f80700295314
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/48
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/47/60ef5abf530e37ad798897765a743e8bbdce0e
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/47
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/f0/7c24b032d9ebd38cab086caabdec843fd55586
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/f0
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/07/d0466e45a05ad2907a09d50f61ae5a7244c52e
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/07
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ad/c8733e7defcf6daef325aaf00815485f8c9c39
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ad/7b8828d9dc310654bafd06def7a062088f4c65
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/ad
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/a8/9629236b190398743de7c733eaa3523c2e26c8
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/a8
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/52/c74fc3c1cf329548cbac2177e767daec6930fe
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/52
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/da/99cb1b16ca0ef5577b0cf44e149c0daf326f9d
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/da
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/65/b28cfbbdbe8fc8f47cdf5f85f8c228e0198e6c
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/65
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/22/2c60df9f041ab9f3e16f3c7e6bb0ba2d828244
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/22/90ae7eafcd1b7ba1bb71007e53e688493d681e
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/22
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/55/052ce69ecf128a52c245e123e1293d4cd2799e
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/55
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/9f/3c41cf2ec5952a70f84ffde0fa4d795baf90b5
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/9f
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/pack
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/46/502edd6ba67c86e0a2b73046e0a7d3d183571c
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/46
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/8a/fb07146d25eb919c9ff203677fc957bb0474b8
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects/8a
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/objects
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/packed-refs
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git/HEAD
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.git
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.circleci/config.yml
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.circleci
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/src/dotenv/private/envparser.nim
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/src/dotenv/private
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/src/dotenv
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/src/dotenv.nim
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/src
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/dotenv.nimble
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.editorconfig
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.env.example
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/tests/nim.cfg
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/tests/main.nim
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/tests
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/.gitignore
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim/LICENSE
+  delete /tmp/nimble_6417/githubcom_euantoranodotenvnim
+  delete /tmp/nimble_6417
