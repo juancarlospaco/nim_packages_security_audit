@@ -1,70 +1,93 @@
     Reading official package list
 Downloading https://github.com/rosado/edn.nim using git
     Cloning latest tagged version: 0.2.1
-       Info /tmp/nimble_8981/githubcom_rosadoednnim/edn_8981.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /tmp/nimble_8981/githubcom_rosadoednnim/edn_8981.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+       Info /tmp/nimble_8845/githubcom_rosadoednnim/edn_8845.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /tmp/nimble_8845/githubcom_rosadoednnim/edn_8845.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
   Verifying dependencies for edn@0.2.1
  Installing edn@0.2.1
-    Copying file /tmp/nimble_8981/githubcom_rosadoednnim/src/edn.nim to /home/runner/.nimble/pkgs/edn-0.2.1/edn.nim
-    Copying file /tmp/nimble_8981/githubcom_rosadoednnim/edn.nimble to /home/runner/.nimble/pkgs/edn-0.2.1/edn.nimble
+    Copying file /tmp/nimble_8845/githubcom_rosadoednnim/src/edn.nim to /home/runner/.nimble/pkgs/edn-0.2.1/edn.nim
+    Copying file /tmp/nimble_8845/githubcom_rosadoednnim/edn.nimble to /home/runner/.nimble/pkgs/edn-0.2.1/edn.nimble
    Success: edn installed successfully.
-       Info /home/runner/.nimble/pkgs/edn-0.2.1/edn_8981.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /home/runner/.nimble/pkgs/edn-0.2.1/edn_8981.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_8981', 0x00000000000001ff)
-mkdir('/tmp/nimble_8981/githubcom_rosadoednnim', 0x00000000000001ff)
-rmdir('/tmp/nimble_8981/githubcom_rosadoednnim')
-mkdir('/tmp/nimble_8981/githubcom_rosadoednnim', 0x00000000000001ff)
-mkdir('/tmp/nimble_8981/githubcom_rosadoednnim/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_8981/githubcom_rosadoednnim/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_8981/githubcom_rosadoednnim/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_8981/githubcom_rosadoednnim/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_8981/githubcom_rosadoednnim/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_8981/githubcom_rosadoednnim/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_8981/githubcom_rosadoednnim/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_8981/githubcom_rosadoednnim/.git/HEAD.lock', '/tmp/nimble_8981/githubcom_rosadoednnim/.git/HEAD')
-rename('/tmp/nimble_8981/githubcom_rosadoednnim/.git/config.lock', '/tmp/nimble_8981/githubcom_rosadoednnim/.git/config')
-chmod('/tmp/nimble_8981/githubcom_rosadoednnim/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_8981/githubcom_rosadoednnim/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_8981/githubcom_rosadoednnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8981/githubcom_rosadoednnim/.git/config.lock', '/tmp/nimble_8981/githubcom_rosadoednnim/.git/config')
-chmod('/tmp/nimble_8981/githubcom_rosadoednnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8981/githubcom_rosadoednnim/.git/config.lock', '/tmp/nimble_8981/githubcom_rosadoednnim/.git/config')
-chmod('/tmp/nimble_8981/githubcom_rosadoednnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8981/githubcom_rosadoednnim/.git/config.lock', '/tmp/nimble_8981/githubcom_rosadoednnim/.git/config')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/tDzw8kF')
-symlink('testing', '/tmp/nimble_8981/githubcom_rosadoednnim/.git/tDzw8kF')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/tDzw8kF')
-mkdir('/tmp/nimble_8981/githubcom_rosadoednnim/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_8981/githubcom_rosadoednnim/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_8981/githubcom_rosadoednnim/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_8981/githubcom_rosadoednnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8981/githubcom_rosadoednnim/.git/config.lock', '/tmp/nimble_8981/githubcom_rosadoednnim/.git/config')
-chmod('/tmp/nimble_8981/githubcom_rosadoednnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8981/githubcom_rosadoednnim/.git/config.lock', '/tmp/nimble_8981/githubcom_rosadoednnim/.git/config')
-chmod('/tmp/nimble_8981/githubcom_rosadoednnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_8981/githubcom_rosadoednnim/.git/config.lock', '/tmp/nimble_8981/githubcom_rosadoednnim/.git/config')
-link('/tmp/nimble_8981/githubcom_rosadoednnim/.git/objects/pack/tmp_pack_mhJ8fO', '/tmp/nimble_8981/githubcom_rosadoednnim/.git/objects/pack/pack-a97797cb5ebd93907b60d96de8511186a5a2e286.pack')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/objects/pack/tmp_pack_mhJ8fO')
-link('/tmp/nimble_8981/githubcom_rosadoednnim/.git/objects/pack/tmp_idx_oi7C9X', '/tmp/nimble_8981/githubcom_rosadoednnim/.git/objects/pack/pack-a97797cb5ebd93907b60d96de8511186a5a2e286.idx')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/objects/pack/tmp_idx_oi7C9X')
-rename('/tmp/nimble_8981/githubcom_rosadoednnim/.git/shallow.lock', '/tmp/nimble_8981/githubcom_rosadoednnim/.git/shallow')
-rename('/tmp/nimble_8981/githubcom_rosadoednnim/.git/packed-refs.new', '/tmp/nimble_8981/githubcom_rosadoednnim/.git/packed-refs')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/packed-refs.lock')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/refs/tags/0.2.1.lock')
-mkdir('/tmp/nimble_8981/githubcom_rosadoednnim/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_8981/githubcom_rosadoednnim/.git/HEAD.lock', '/tmp/nimble_8981/githubcom_rosadoednnim/.git/HEAD')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/objects/pack/pack-a97797cb5ebd93907b60d96de8511186a5a2e286.keep')
+mkdir('/tmp/nimble_8845', 0x00000000000001ff)
+mkdir('/tmp/nimble_8845/githubcom_rosadoednnim', 0x00000000000001ff)
+rmdir('/tmp/nimble_8845/githubcom_rosadoednnim')
+mkdir('/tmp/nimble_8845/githubcom_rosadoednnim', 0x00000000000001ff)
+mkdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_8845/githubcom_rosadoednnim/.git/HEAD.lock', '/tmp/nimble_8845/githubcom_rosadoednnim/.git/HEAD')
+rename('/tmp/nimble_8845/githubcom_rosadoednnim/.git/config.lock', '/tmp/nimble_8845/githubcom_rosadoednnim/.git/config')
+chmod('/tmp/nimble_8845/githubcom_rosadoednnim/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_8845/githubcom_rosadoednnim/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_8845/githubcom_rosadoednnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8845/githubcom_rosadoednnim/.git/config.lock', '/tmp/nimble_8845/githubcom_rosadoednnim/.git/config')
+chmod('/tmp/nimble_8845/githubcom_rosadoednnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8845/githubcom_rosadoednnim/.git/config.lock', '/tmp/nimble_8845/githubcom_rosadoednnim/.git/config')
+chmod('/tmp/nimble_8845/githubcom_rosadoednnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8845/githubcom_rosadoednnim/.git/config.lock', '/tmp/nimble_8845/githubcom_rosadoednnim/.git/config')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/tKBLF51')
+symlink('testing', '/tmp/nimble_8845/githubcom_rosadoednnim/.git/tKBLF51')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/tKBLF51')
+mkdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_8845/githubcom_rosadoednnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8845/githubcom_rosadoednnim/.git/config.lock', '/tmp/nimble_8845/githubcom_rosadoednnim/.git/config')
+chmod('/tmp/nimble_8845/githubcom_rosadoednnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8845/githubcom_rosadoednnim/.git/config.lock', '/tmp/nimble_8845/githubcom_rosadoednnim/.git/config')
+chmod('/tmp/nimble_8845/githubcom_rosadoednnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_8845/githubcom_rosadoednnim/.git/config.lock', '/tmp/nimble_8845/githubcom_rosadoednnim/.git/config')
+mkdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/4c', 0x00000000000001ff)
+link('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/4c/tmp_obj_oOkJxR', '/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/4c/da60880e108f0cb7efe1c209308f2db03267d9')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/4c/tmp_obj_oOkJxR')
+mkdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/32', 0x00000000000001ff)
+link('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/32/tmp_obj_keVMLW', '/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/32/d2ab615311416e330e1377c31426d00dc9df04')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/32/tmp_obj_keVMLW')
+mkdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/c9', 0x00000000000001ff)
+link('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/c9/tmp_obj_i58FZX', '/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/c9/7efa255ea983a3ec6a0e1a2c57839f53846546')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/c9/tmp_obj_i58FZX')
+mkdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/17', 0x00000000000001ff)
+link('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/17/tmp_obj_mvv3U2', '/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/17/d251b180f4fea889588db6e09f82584d4afcca')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/17/tmp_obj_mvv3U2')
+mkdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/49', 0x00000000000001ff)
+link('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/49/tmp_obj_OtdmF8', '/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/49/6ee2ca6a2f08396a4076fe43dedf3dc0da8b6d')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/49/tmp_obj_OtdmF8')
+mkdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/2f', 0x00000000000001ff)
+link('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/2f/tmp_obj_GLUOxd', '/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/2f/ac6f5f2d45c6b578f9adad592ec7a50ad700dc')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/2f/tmp_obj_GLUOxd')
+mkdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/9c', 0x00000000000001ff)
+link('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/9c/tmp_obj_CfNAii', '/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/9c/7734c6c4f475bb9dd66b30e106204e548aec8c')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/9c/tmp_obj_CfNAii')
+mkdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/80', 0x00000000000001ff)
+link('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/80/tmp_obj_5NxrMa', '/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/80/d3234c1b894f0deb9a9cce62b029bd95a90eed')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/80/tmp_obj_5NxrMa')
+mkdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/3b', 0x00000000000001ff)
+link('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/3b/tmp_obj_hC0aof', '/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/3b/tmp_obj_hC0aof')
+mkdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/85', 0x00000000000001ff)
+link('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/85/tmp_obj_LlkNil', '/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/85/5343dbdd73decb86251808f5552f787628b6a5')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/85/tmp_obj_LlkNil')
+rename('/tmp/nimble_8845/githubcom_rosadoednnim/.git/shallow.lock', '/tmp/nimble_8845/githubcom_rosadoednnim/.git/shallow')
+rename('/tmp/nimble_8845/githubcom_rosadoednnim/.git/packed-refs.new', '/tmp/nimble_8845/githubcom_rosadoednnim/.git/packed-refs')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/packed-refs.lock')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/refs/tags/0.2.1.lock')
+mkdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_8845/githubcom_rosadoednnim/.git/HEAD.lock', '/tmp/nimble_8845/githubcom_rosadoednnim/.git/HEAD')
 mkdir('src', 0x00000000000001ff)
 mkdir('tests', 0x00000000000001ff)
-rename('/tmp/nimble_8981/githubcom_rosadoednnim/.git/index.lock', '/tmp/nimble_8981/githubcom_rosadoednnim/.git/index')
+rename('/tmp/nimble_8845/githubcom_rosadoednnim/.git/index.lock', '/tmp/nimble_8845/githubcom_rosadoednnim/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/edn_50590719', 0x00000000000001ff)
-unlink('/tmp/nimblecache/edn_50590719/edn.ini')
-unlink('/tmp/nimble_8981.out')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/edn_8981.nims')
+mkdir('/tmp/nimblecache/edn_973249551', 0x00000000000001ff)
+unlink('/tmp/nimblecache/edn_973249551/edn.ini')
+unlink('/tmp/nimble_8845.out')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/edn_8845.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -77,110 +100,155 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/edn-0.2.1', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/edn-0.2.1/edn.nim', 0x00000000000001a4)
 chmod('/home/runner/.nimble/pkgs/edn-0.2.1/edn.nimble', 0x00000000000001a4)
-mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp', 0x00000000000001ff)       Info /home/runner/.nimble/pkgs/edn-0.2.1/edn_8845.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /home/runner/.nimble/pkgs/edn-0.2.1/edn_8845.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/edn_1756627817', 0x00000000000001ff)
 unlink('/tmp/nimblecache/edn_1756627817/edn.ini')
-unlink('/tmp/nimble_8981.out')
-unlink('/home/runner/.nimble/pkgs/edn-0.2.1/edn_8981.nims')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/src/edn.nim')
-rmdir('/tmp/nimble_8981/githubcom_rosadoednnim/src')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.gitignore')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/HEAD')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/config')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/logs/HEAD')
-rmdir('/tmp/nimble_8981/githubcom_rosadoednnim/.git/logs')
-rmdir('/tmp/nimble_8981/githubcom_rosadoednnim/.git/branches')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/packed-refs')
-rmdir('/tmp/nimble_8981/githubcom_rosadoednnim/.git/refs/heads')
-rmdir('/tmp/nimble_8981/githubcom_rosadoednnim/.git/refs/tags')
-rmdir('/tmp/nimble_8981/githubcom_rosadoednnim/.git/refs')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks/update.sample')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/index')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/info/exclude')
-rmdir('/tmp/nimble_8981/githubcom_rosadoednnim/.git/info')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/shallow')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/description')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/objects/pack/pack-a97797cb5ebd93907b60d96de8511186a5a2e286.idx')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/.git/objects/pack/pack-a97797cb5ebd93907b60d96de8511186a5a2e286.pack')
-rmdir('/tmp/nimble_8981/githubcom_rosadoednnim/.git/objects/pack')
-rmdir('/tmp/nimble_8981/githubcom_rosadoednnim/.git/objects/info')
-rmdir('/tmp/nimble_8981/githubcom_rosadoednnim/.git/objects')
-rmdir('/tmp/nimble_8981/githubcom_rosadoednnim/.git')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/README.md')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/edn.nimble')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/tests/test.nim')
-unlink('/tmp/nimble_8981/githubcom_rosadoednnim/tests/config.nims')
-rmdir('/tmp/nimble_8981/githubcom_rosadoednnim/tests')
-rmdir('/tmp/nimble_8981/githubcom_rosadoednnim')
-rmdir('/tmp/nimble_8981')
+unlink('/tmp/nimble_8845.out')
+unlink('/home/runner/.nimble/pkgs/edn-0.2.1/edn_8845.nims')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/README.md')
+rmdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/refs/tags')
+rmdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/refs/heads')
+rmdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/refs')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/info/exclude')
+rmdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/info')
+rmdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/branches')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/logs/HEAD')
+rmdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/logs')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/description')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks/update.sample')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/shallow')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/config')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/index')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/9c/7734c6c4f475bb9dd66b30e106204e548aec8c')
+rmdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/9c')
+rmdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/info')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/85/5343dbdd73decb86251808f5552f787628b6a5')
+rmdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/85')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/c9/7efa255ea983a3ec6a0e1a2c57839f53846546')
+rmdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/c9')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/17/d251b180f4fea889588db6e09f82584d4afcca')
+rmdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/17')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/32/d2ab615311416e330e1377c31426d00dc9df04')
+rmdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/32')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/80/d3234c1b894f0deb9a9cce62b029bd95a90eed')
+rmdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/80')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/2f/ac6f5f2d45c6b578f9adad592ec7a50ad700dc')
+rmdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/2f')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6')
+rmdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/3b')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/49/6ee2ca6a2f08396a4076fe43dedf3dc0da8b6d')
+rmdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/49')
+rmdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/pack')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/4c/da60880e108f0cb7efe1c209308f2db03267d9')
+rmdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/4c')
+rmdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git/objects')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/packed-refs')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.git/HEAD')
+rmdir('/tmp/nimble_8845/githubcom_rosadoednnim/.git')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/src/edn.nim')
+rmdir('/tmp/nimble_8845/githubcom_rosadoednnim/src')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/edn.nimble')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/tests/config.nims')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/tests/test.nim')
+rmdir('/tmp/nimble_8845/githubcom_rosadoednnim/tests')
+unlink('/tmp/nimble_8845/githubcom_rosadoednnim/.gitignore')
+rmdir('/tmp/nimble_8845/githubcom_rosadoednnim')
+rmdir('/tmp/nimble_8845')
   create directory /tmp
-  create directory /tmp/nimble_8981
-  create directory /tmp/nimble_8981/githubcom_rosadoednnim
-  delete /tmp/nimble_8981/githubcom_rosadoednnim
-  create directory /tmp/nimble_8981/githubcom_rosadoednnim
-  create directory /tmp/nimble_8981/githubcom_rosadoednnim/.git
-  create directory /tmp/nimble_8981/githubcom_rosadoednnim/.git
-  create directory /tmp/nimble_8981/githubcom_rosadoednnim/.git/branches
-  create directory /tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks
-  create directory /tmp/nimble_8981/githubcom_rosadoednnim/.git/info
-  create directory /tmp/nimble_8981/githubcom_rosadoednnim/.git/refs
-  create directory /tmp/nimble_8981/githubcom_rosadoednnim/.git/refs/heads
-  create directory /tmp/nimble_8981/githubcom_rosadoednnim/.git/refs/tags
-  rename /tmp/nimble_8981/githubcom_rosadoednnim/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_8981/githubcom_rosadoednnim/.git/config.lock to config
-  change permissions of /tmp/nimble_8981/githubcom_rosadoednnim/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_8981/githubcom_rosadoednnim/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_8981/githubcom_rosadoednnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8981/githubcom_rosadoednnim/.git/config.lock to config
-  change permissions of /tmp/nimble_8981/githubcom_rosadoednnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8981/githubcom_rosadoednnim/.git/config.lock to config
-  change permissions of /tmp/nimble_8981/githubcom_rosadoednnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8981/githubcom_rosadoednnim/.git/config.lock to config
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/tDzw8kF
-  create symbolic link from /tmp/nimble_8981/githubcom_rosadoednnim/.git/tDzw8kF to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/tDzw8kF
-  create directory /tmp/nimble_8981/githubcom_rosadoednnim/.git/objects
-  create directory /tmp/nimble_8981/githubcom_rosadoednnim/.git/objects/pack
-  create directory /tmp/nimble_8981/githubcom_rosadoednnim/.git/objects/info
-  change permissions of /tmp/nimble_8981/githubcom_rosadoednnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8981/githubcom_rosadoednnim/.git/config.lock to config
-  change permissions of /tmp/nimble_8981/githubcom_rosadoednnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8981/githubcom_rosadoednnim/.git/config.lock to config
-  change permissions of /tmp/nimble_8981/githubcom_rosadoednnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_8981/githubcom_rosadoednnim/.git/config.lock to config
-  create hard link from /tmp/nimble_8981/githubcom_rosadoednnim/.git/objects/pack/pack-a97797cb5ebd93907b60d96de8511186a5a2e286.pack to /tmp/nimble_8981/githubcom_rosadoednnim/.git/objects/pack/tmp_pack_mhJ8fO
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/objects/pack/tmp_pack_mhJ8fO
-  create hard link from /tmp/nimble_8981/githubcom_rosadoednnim/.git/objects/pack/pack-a97797cb5ebd93907b60d96de8511186a5a2e286.idx to /tmp/nimble_8981/githubcom_rosadoednnim/.git/objects/pack/tmp_idx_oi7C9X
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/objects/pack/tmp_idx_oi7C9X
-  rename /tmp/nimble_8981/githubcom_rosadoednnim/.git/shallow.lock to shallow
-  rename /tmp/nimble_8981/githubcom_rosadoednnim/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/packed-refs.lock
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/refs/tags/0.2.1.lock
-  create directory /tmp/nimble_8981/githubcom_rosadoednnim/.git/logs
-  rename /tmp/nimble_8981/githubcom_rosadoednnim/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/objects/pack/pack-a97797cb5ebd93907b60d96de8511186a5a2e286.keep
-  create directory /tmp/nimble_8981/githubcom_rosadoednnim/src
-  create directory /tmp/nimble_8981/githubcom_rosadoednnim/tests
-  rename /tmp/nimble_8981/githubcom_rosadoednnim/.git/index.lock to index
+  create directory /tmp/nimble_8845
+  create directory /tmp/nimble_8845/githubcom_rosadoednnim
+  delete /tmp/nimble_8845/githubcom_rosadoednnim
+  create directory /tmp/nimble_8845/githubcom_rosadoednnim
+  create directory /tmp/nimble_8845/githubcom_rosadoednnim/.git
+  create directory /tmp/nimble_8845/githubcom_rosadoednnim/.git
+  create directory /tmp/nimble_8845/githubcom_rosadoednnim/.git/info
+  create directory /tmp/nimble_8845/githubcom_rosadoednnim/.git/branches
+  create directory /tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks
+  create directory /tmp/nimble_8845/githubcom_rosadoednnim/.git/refs
+  create directory /tmp/nimble_8845/githubcom_rosadoednnim/.git/refs/heads
+  create directory /tmp/nimble_8845/githubcom_rosadoednnim/.git/refs/tags
+  rename /tmp/nimble_8845/githubcom_rosadoednnim/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_8845/githubcom_rosadoednnim/.git/config.lock to config
+  change permissions of /tmp/nimble_8845/githubcom_rosadoednnim/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_8845/githubcom_rosadoednnim/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_8845/githubcom_rosadoednnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8845/githubcom_rosadoednnim/.git/config.lock to config
+  change permissions of /tmp/nimble_8845/githubcom_rosadoednnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8845/githubcom_rosadoednnim/.git/config.lock to config
+  change permissions of /tmp/nimble_8845/githubcom_rosadoednnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8845/githubcom_rosadoednnim/.git/config.lock to config
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/tKBLF51
+  create symbolic link from /tmp/nimble_8845/githubcom_rosadoednnim/.git/tKBLF51 to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/tKBLF51
+  create directory /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects
+  create directory /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/pack
+  create directory /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/info
+  change permissions of /tmp/nimble_8845/githubcom_rosadoednnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8845/githubcom_rosadoednnim/.git/config.lock to config
+  change permissions of /tmp/nimble_8845/githubcom_rosadoednnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8845/githubcom_rosadoednnim/.git/config.lock to config
+  change permissions of /tmp/nimble_8845/githubcom_rosadoednnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_8845/githubcom_rosadoednnim/.git/config.lock to config
+  create directory /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/4c
+  create hard link from /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/4c/da60880e108f0cb7efe1c209308f2db03267d9 to /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/4c/tmp_obj_oOkJxR
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/4c/tmp_obj_oOkJxR
+  create directory /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/32
+  create hard link from /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/32/d2ab615311416e330e1377c31426d00dc9df04 to /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/32/tmp_obj_keVMLW
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/32/tmp_obj_keVMLW
+  create directory /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/c9
+  create hard link from /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/c9/7efa255ea983a3ec6a0e1a2c57839f53846546 to /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/c9/tmp_obj_i58FZX
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/c9/tmp_obj_i58FZX
+  create directory /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/17
+  create hard link from /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/17/d251b180f4fea889588db6e09f82584d4afcca to /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/17/tmp_obj_mvv3U2
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/17/tmp_obj_mvv3U2
+  create directory /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/49
+  create hard link from /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/49/6ee2ca6a2f08396a4076fe43dedf3dc0da8b6d to /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/49/tmp_obj_OtdmF8
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/49/tmp_obj_OtdmF8
+  create directory /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/2f
+  create hard link from /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/2f/ac6f5f2d45c6b578f9adad592ec7a50ad700dc to /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/2f/tmp_obj_GLUOxd
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/2f/tmp_obj_GLUOxd
+  create directory /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/9c
+  create hard link from /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/9c/7734c6c4f475bb9dd66b30e106204e548aec8c to /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/9c/tmp_obj_CfNAii
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/9c/tmp_obj_CfNAii
+  create directory /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/80
+  create hard link from /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/80/d3234c1b894f0deb9a9cce62b029bd95a90eed to /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/80/tmp_obj_5NxrMa
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/80/tmp_obj_5NxrMa
+  create directory /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/3b
+  create hard link from /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6 to /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/3b/tmp_obj_hC0aof
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/3b/tmp_obj_hC0aof
+  create directory /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/85
+  create hard link from /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/85/5343dbdd73decb86251808f5552f787628b6a5 to /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/85/tmp_obj_LlkNil
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/85/tmp_obj_LlkNil
+  rename /tmp/nimble_8845/githubcom_rosadoednnim/.git/shallow.lock to shallow
+  rename /tmp/nimble_8845/githubcom_rosadoednnim/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/packed-refs.lock
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/refs/tags/0.2.1.lock
+  create directory /tmp/nimble_8845/githubcom_rosadoednnim/.git/logs
+  rename /tmp/nimble_8845/githubcom_rosadoednnim/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_8845/githubcom_rosadoednnim/src
+  create directory /tmp/nimble_8845/githubcom_rosadoednnim/tests
+  rename /tmp/nimble_8845/githubcom_rosadoednnim/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/edn_50590719
-  delete /tmp/nimblecache/edn_50590719/edn.ini
-  delete /tmp/nimble_8981.out
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/edn_8981.nims
+  create directory /tmp/nimblecache/edn_973249551
+  delete /tmp/nimblecache/edn_973249551/edn.ini
+  delete /tmp/nimble_8845.out
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/edn_8845.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -197,48 +265,66 @@ rmdir('/tmp/nimble_8981')
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/edn_1756627817
   delete /tmp/nimblecache/edn_1756627817/edn.ini
-  delete /tmp/nimble_8981.out
-  delete /home/runner/.nimble/pkgs/edn-0.2.1/edn_8981.nims
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/src/edn.nim
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/src
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.gitignore
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/HEAD
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/config
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/logs/HEAD
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/logs
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/branches
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/packed-refs
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/refs/heads
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/refs/tags
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/refs
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks/pre-push.sample
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks/update.sample
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks/post-update.sample
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/hooks
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/index
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/info/exclude
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/info
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/shallow
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/description
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/objects/pack/pack-a97797cb5ebd93907b60d96de8511186a5a2e286.idx
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/objects/pack/pack-a97797cb5ebd93907b60d96de8511186a5a2e286.pack
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/objects/pack
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/objects/info
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git/objects
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/.git
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/README.md
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/edn.nimble
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/tests/test.nim
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/tests/config.nims
-  delete /tmp/nimble_8981/githubcom_rosadoednnim/tests
-  delete /tmp/nimble_8981/githubcom_rosadoednnim
-  delete /tmp/nimble_8981
+  delete /tmp/nimble_8845.out
+  delete /home/runner/.nimble/pkgs/edn-0.2.1/edn_8845.nims
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/README.md
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/refs/tags
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/refs/heads
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/refs
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/info/exclude
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/info
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/branches
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/logs/HEAD
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/logs
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/description
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks/pre-push.sample
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks/update.sample
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks/post-update.sample
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/hooks
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/shallow
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/config
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/index
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/9c/7734c6c4f475bb9dd66b30e106204e548aec8c
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/9c
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/info
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/85/5343dbdd73decb86251808f5552f787628b6a5
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/85
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/c9/7efa255ea983a3ec6a0e1a2c57839f53846546
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/c9
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/17/d251b180f4fea889588db6e09f82584d4afcca
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/17
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/32/d2ab615311416e330e1377c31426d00dc9df04
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/32
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/80/d3234c1b894f0deb9a9cce62b029bd95a90eed
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/80
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/2f/ac6f5f2d45c6b578f9adad592ec7a50ad700dc
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/2f
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/3b
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/49/6ee2ca6a2f08396a4076fe43dedf3dc0da8b6d
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/49
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/pack
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/4c/da60880e108f0cb7efe1c209308f2db03267d9
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects/4c
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/objects
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/packed-refs
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git/HEAD
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.git
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/src/edn.nim
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/src
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/edn.nimble
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/tests/config.nims
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/tests/test.nim
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/tests
+  delete /tmp/nimble_8845/githubcom_rosadoednnim/.gitignore
+  delete /tmp/nimble_8845/githubcom_rosadoednnim
+  delete /tmp/nimble_8845
