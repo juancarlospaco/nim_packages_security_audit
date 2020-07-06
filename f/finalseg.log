@@ -1,82 +1,168 @@
     Reading official package list
 Downloading https://github.com/bung87/finalseg using git
-       Info /tmp/nimble_16888/githubcom_bung87finalseg/finalseg_16888.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /tmp/nimble_16888/githubcom_bung87finalseg/finalseg_16888.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
-  Verifying dependencies for finalseg@0.1.0
- Installing finalseg@0.1.0
-    Copying file /tmp/nimble_16888/githubcom_bung87finalseg/src/finalseg/prob_start.nim to /home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg/prob_start.nim
-    Copying file /tmp/nimble_16888/githubcom_bung87finalseg/src/finalseg/prob_emit.nim to /home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg/prob_emit.nim
-    Copying file /tmp/nimble_16888/githubcom_bung87finalseg/src/finalseg/prob_trans.nim to /home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg/prob_trans.nim
-    Copying file /tmp/nimble_16888/githubcom_bung87finalseg/src/finalseg.nim to /home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg.nim
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_16888', 0x00000000000001ff)
-mkdir('/tmp/nimble_16888/githubcom_bung87finalseg', 0x00000000000001ff)
-rmdir('/tmp/nimble_16888/githubcom_bung87finalseg')
-mkdir('/tmp/nimble_16888/githubcom_bung87finalseg', 0x00000000000001ff)
-mkdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_16888/githubcom_bung87finalseg/.git/HEAD.lock', '/tmp/nimble_16888/githubcom_bung87finalseg/.git/HEAD')
-rename('/tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock', '/tmp/nimble_16888/githubcom_bung87finalseg/.git/config')
-chmod('/tmp/nimble_16888/githubcom_bung87finalseg/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_16888/githubcom_bung87finalseg/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock', '/tmp/nimble_16888/githubcom_bung87finalseg/.git/config')
-chmod('/tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock', '/tmp/nimble_16888/githubcom_bung87finalseg/.git/config')
-chmod('/tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock', '/tmp/nimble_16888/githubcom_bung87finalseg/.git/config')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/tBnLpfX')
-symlink('testing', '/tmp/nimble_16888/githubcom_bung87finalseg/.git/tBnLpfX')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/tBnLpfX')
-mkdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock', '/tmp/nimble_16888/githubcom_bung87finalseg/.git/config')
-chmod('/tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock', '/tmp/nimble_16888/githubcom_bung87finalseg/.git/config')
-chmod('/tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock', '/tmp/nimble_16888/githubcom_bung87finalseg/.git/config')
-link('/tmp/nimble_16888/githubcom_bung87finalseg/.git/objects/pack/tmp_pack_oKjcBd', '/tmp/nimble_16888/githubcom_bung87finalseg/.git/objects/pack/pack-474c2129fc2e97fa982c100b8a1ccc73c4962da7.pack')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/objects/pack/tmp_pack_oKjcBd')
-link('/tmp/nimble_16888/githubcom_bung87finalseg/.git/objects/pack/tmp_idx_v7JjHS', '/tmp/nimble_16888/githubcom_bung87finalseg/.git/objects/pack/pack-474c2129fc2e97fa982c100b8a1ccc73c4962da7.idx')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/objects/pack/tmp_idx_v7JjHS')
-rename('/tmp/nimble_16888/githubcom_bung87finalseg/.git/shallow.lock', '/tmp/nimble_16888/githubcom_bung87finalseg/.git/shallow')
-rename('/tmp/nimble_16888/githubcom_bung87finalseg/.git/packed-refs.new', '/tmp/nimble_16888/githubcom_bung87finalseg/.git/packed-refs')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/packed-refs.lock')
-mkdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/refs/remotes/origin', 0x00000000000001ff)
-mkdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/logs', 0x00000000000001ff)
-mkdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/logs/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/logs/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/logs/refs/remotes/origin', 0x00000000000001ff)
-rename('/tmp/nimble_16888/githubcom_bung87finalseg/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_16888/githubcom_bung87finalseg/.git/refs/remotes/origin/HEAD')
-rename('/tmp/nimble_16888/githubcom_bung87finalseg/.git/HEAD.lock', '/tmp/nimble_16888/githubcom_bung87finalseg/.git/HEAD')
-mkdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/logs/refs/heads', 0x00000000000001ff)
-rename('/tmp/nimble_16888/githubcom_bung87finalseg/.git/refs/heads/master.lock', '/tmp/nimble_16888/githubcom_bung87finalseg/.git/refs/heads/master')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/HEAD.lock')
-chmod('/tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock', '/tmp/nimble_16888/githubcom_bung87finalseg/.git/config')
-chmod('/tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock', '/tmp/nimble_16888/githubcom_bung87finalseg/.git/config')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/objects/pack/pack-474c2129fc2e97fa982c100b8a1ccc73c4962da7.keep')
+mkdir('/tmp/nimble_15597', 0x00000000000001ff)
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg', 0x00000000000001ff)
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg')
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg', 0x00000000000001ff)
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_15597/githubcom_bung87finalseg/.git/HEAD.lock', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/HEAD')
+rename('/tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/config')
+chmod('/tmp/nimble_15597/githubcom_bung87finalseg/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_15597/githubcom_bung87finalseg/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/config')
+chmod('/tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/config')
+chmod('/tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/config')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/tBr0JFs')
+symlink('testing', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/tBr0JFs')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/tBr0JFs')
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/config')
+chmod('/tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/config')
+chmod('/tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/config')
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/1d', 0x00000000000001ff)
+link('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/1d/tmp_obj_Gw3g3y', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/1d/64099e14488bd02ce08cccd657bebec4a2a9fb')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/1d/tmp_obj_Gw3g3y')
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/16', 0x00000000000001ff)
+link('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/16/tmp_obj_wFYmTA', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/16/e7125aa42639c642e0e5138d72484931196a7f')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/16/tmp_obj_wFYmTA')
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/58', 0x00000000000001ff)
+link('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/58/tmp_obj_40YFDF', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/58/b48353809e44ff54a198bcaf916600d7622c00')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/58/tmp_obj_40YFDF')
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/71', 0x00000000000001ff)
+link('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/71/tmp_obj_wpsCpK', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/71/266fbefc1df6596f15d3cd5cd89f79557dc77d')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/71/tmp_obj_wpsCpK')
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/5b', 0x00000000000001ff)
+link('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/5b/tmp_obj_8kCR7N', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/5b/6e8992e891e9379c7fcd9cc8124ec2ca503843')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/5b/tmp_obj_8kCR7N')
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/10', 0x00000000000001ff)
+link('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/10/tmp_obj_0wUeVS', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/10/40fd65f5a0811da79b905c9e5e56db3ee0db5e')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/10/tmp_obj_0wUeVS')
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/9d', 0x00000000000001ff)
+link('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/9d/tmp_obj_cF30dZ', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/9d/0a9794801a38181e06e777b561220de18f92d0')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/9d/tmp_obj_cF30dZ')
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/da', 0x00000000000001ff)
+link('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/da/tmp_obj_m0Fgk4', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/da/7e887b1c8531d7b2a1e730d0f4d66455988c7f')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/da/tmp_obj_m0Fgk4')
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/34', 0x00000000000001ff)
+link('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/34/tmp_obj_msuju5', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/34/81bb7ac28ec996c6c83d6de813347c30380e09')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/34/tmp_obj_msuju5')
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/9c', 0x00000000000001ff)
+link('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/9c/tmp_obj_agpScb', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/9c/52fc94ba8c3ba2e8666164d32f299d26db04c6')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/9c/tmp_obj_agpScb')
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/5d', 0x00000000000001ff)
+link('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/5d/tmp_obj_kNZ9rb', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/5d/169909ba358e081deb7a40d72065e0972c00c6')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/5d/tmp_obj_kNZ9rb')
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/e8', 0x00000000000001ff)
+link('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/e8/tmp_obj_kOoc19', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/e8/434335a84a5e657af9ff674251e045f462a516')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/e8/tmp_obj_kOoc19')
+link('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/34/tmp_obj_VjgRXn', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/34/4f6f36ac9688a260ec55eb416ec6b09d6bbe3e')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/34/tmp_obj_VjgRXn')
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/4a', 0x00000000000001ff)
+link('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/4a/tmp_obj_vEd9Do', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/4a/f68a0c15c4a0bbf41b6baafe870b9847dccf58')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/4a/tmp_obj_vEd9Do')
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/02', 0x00000000000001ff)
+link('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/02/tmp_obj_5Y8vbr', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/02/76c0d0949f8ca0cde84c2b49aa7828d4105163')       Info /tmp/nimble_15597/githubcom_bung87finalseg/finalseg_15597.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /tmp/nimble_15597/githubcom_bung87finalseg/finalseg_15597.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+  Verifying dependencies for finalseg@0.1.0
+    Reading official package list
+   Checking for regex@any version
+      Info: Dependency on regex@any version already satisfied
+  Verifying dependencies for regex@0.15.0
+    Reading official package list
+   Checking for unicodedb@>= 0.7.2
+      Info: Dependency on unicodedb@>= 0.7.2 already satisfied
+  Verifying dependencies for unicodedb@0.9.0
+    Reading official package list
+   Checking for unicodeplus@>= 0.5.0
+      Info: Dependency on unicodeplus@>= 0.5.0 already satisfied
+  Verifying dependencies for unicodeplus@0.8.0
+    Reading official package list
+   Checking for unicodedb@>= 0.8
+      Info: Dependency on unicodedb@>= 0.8 already satisfied
+  Verifying dependencies for unicodedb@0.9.0
+    Reading official package list
+   Checking for segmentation@>= 0.1
+      Info: Dependency on segmentation@>= 0.1 already satisfied
+  Verifying dependencies for segmentation@0.1.0
+    Reading official package list
+   Checking for unicodedb@>= 0.8.0
+      Info: Dependency on unicodedb@>= 0.8.0 already satisfied
+  Verifying dependencies for unicodedb@0.9.0
+ Installing finalseg@0.1.0
+    Copying file /tmp/nimble_15597/githubcom_bung87finalseg/src/finalseg.nim.cfg to /home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg.nim.cfg
+    Copying file /tmp/nimble_15597/githubcom_bung87finalseg/src/finalseg.nim to /home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg.nim
+    Copying file /tmp/nimble_15597/githubcom_bung87finalseg/src/finalseg/prob_emit.nim to /home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg/prob_emit.nim
+    Copying file /tmp/nimble_15597/githubcom_bung87finalseg/src/finalseg/prob_trans.nim to /home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg/prob_trans.nim
+    Copying file /tmp/nimble_15597/githubcom_bung87finalseg/src/finalseg/prob_start.nim to /home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg/prob_start.nim
+    Copying file /tmp/nimble_15597/githubcom_bung87finalseg/finalseg.nimble to /home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg.nimble
+   Success: finalseg installed successfully.
+       Info /home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg_15597.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg_15597.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/02/tmp_obj_5Y8vbr')
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/e6', 0x00000000000001ff)
+link('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/e6/tmp_obj_nEBsIw', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/e6/985bc0d72f36571406e2d5aa91dd4249139a3a')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/e6/tmp_obj_nEBsIw')
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/c7', 0x00000000000001ff)
+link('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/c7/tmp_obj_rMYE3y', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/c7/549875dfadc33b9525c7c797ddbb9dd796e2e3')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/c7/tmp_obj_rMYE3y')
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/3b', 0x00000000000001ff)
+link('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/3b/tmp_obj_Jl0k6B', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/3b/tmp_obj_Jl0k6B')
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/1f', 0x00000000000001ff)
+link('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/1f/tmp_obj_9AfufE', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/1f/3971c834e7a98f715dd75f04c1e18982cda51f')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/1f/tmp_obj_9AfufE')
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/ac', 0x00000000000001ff)
+link('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/ac/tmp_obj_va0zLF', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/ac/52fb869e354f6f4e1c005f1097bf7889030b40')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/ac/tmp_obj_va0zLF')
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/43', 0x00000000000001ff)
+link('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/43/tmp_obj_rBLO6y', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/43/60f6e8dd4bb9bc969713b6bce0cc46e9b245a0')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/43/tmp_obj_rBLO6y')
+rename('/tmp/nimble_15597/githubcom_bung87finalseg/.git/shallow.lock', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/shallow')
+rename('/tmp/nimble_15597/githubcom_bung87finalseg/.git/packed-refs.new', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/packed-refs')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/packed-refs.lock')
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_15597/githubcom_bung87finalseg/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_15597/githubcom_bung87finalseg/.git/HEAD.lock', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/HEAD')
+mkdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_15597/githubcom_bung87finalseg/.git/refs/heads/master.lock', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/refs/heads/master')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/HEAD.lock')
+chmod('/tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/config')
+chmod('/tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/config')
 mkdir('scripts', 0x00000000000001ff)
 mkdir('src', 0x00000000000001ff)
 mkdir('src/finalseg', 0x00000000000001ff)
 mkdir('tests', 0x00000000000001ff)
-rename('/tmp/nimble_16888/githubcom_bung87finalseg/.git/index.lock', '/tmp/nimble_16888/githubcom_bung87finalseg/.git/index')
+rename('/tmp/nimble_15597/githubcom_bung87finalseg/.git/index.lock', '/tmp/nimble_15597/githubcom_bung87finalseg/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/finalseg_512358943', 0x00000000000001ff)
-unlink('/tmp/nimblecache/finalseg_512358943/finalseg.ini')
-unlink('/tmp/nimble_16888.out')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/finalseg_16888.nims')
+mkdir('/tmp/nimblecache/finalseg_3901914924', 0x00000000000001ff)
+unlink('/tmp/nimblecache/finalseg_3901914924/finalseg.ini')
+unlink('/tmp/nimble_15597.out')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/finalseg_15597.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -87,8 +173,13 @@ mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/finalseg-0.1.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg/prob_start.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg.nim.cfg', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/finalseg-0.1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -108,150 +199,244 @@ mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/finalseg-0.1.0', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg.nim', 0x00000000000001a4)    Copying file /tmp/nimble_16888/githubcom_bung87finalseg/finalseg.nimble to /home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg.nimble
-   Success: finalseg installed successfully.
-       Info /home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg_16888.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg_16888.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
-
+mkdir('/home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg/prob_start.nim', 0x00000000000001a4)
 chmod('/home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg.nimble', 0x00000000000001a4)
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/finalseg_1788569907', 0x00000000000001ff)
 unlink('/tmp/nimblecache/finalseg_1788569907/finalseg.ini')
-unlink('/tmp/nimble_16888.out')
-unlink('/home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg_16888.nims')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/finalseg.nimble')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/src/finalseg/prob_start.nim')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/src/finalseg/prob_emit.nim')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/src/finalseg/prob_trans.nim')
-rmdir('/tmp/nimble_16888/githubcom_bung87finalseg/src/finalseg')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/src/finalseg.nim')
-rmdir('/tmp/nimble_16888/githubcom_bung87finalseg/src')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.gitignore')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/scripts/gen_prob_json.py')
-rmdir('/tmp/nimble_16888/githubcom_bung87finalseg/scripts')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/HEAD')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/config')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/logs/HEAD')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/logs/refs/heads/master')
-rmdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/logs/refs/heads')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/logs/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/logs/refs/remotes/origin')
-rmdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/logs/refs/remotes')
-rmdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/logs/refs')
-rmdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/logs')
-rmdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/branches')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/packed-refs')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/refs/heads/master')
-rmdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/refs/heads')
-rmdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/refs/tags')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/refs/remotes/origin')
-rmdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/refs/remotes')
-rmdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/refs')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks/update.sample')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/index')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/info/exclude')
-rmdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/info')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/shallow')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/description')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/objects/pack/pack-474c2129fc2e97fa982c100b8a1ccc73c4962da7.pack')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/.git/objects/pack/pack-474c2129fc2e97fa982c100b8a1ccc73c4962da7.idx')
-rmdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/objects/pack')
-rmdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/objects/info')
-rmdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git/objects')
-rmdir('/tmp/nimble_16888/githubcom_bung87finalseg/.git')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/README.md')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/tests/test2.nims')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/tests/test1.nim')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/tests/weicheng.utf8')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/tests/speed.py')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/tests/test1.nims')
-unlink('/tmp/nimble_16888/githubcom_bung87finalseg/tests/test2.nim')
-rmdir('/tmp/nimble_16888/githubcom_bung87finalseg/tests')
-rmdir('/tmp/nimble_16888/githubcom_bung87finalseg')
-rmdir('/tmp/nimble_16888')
+unlink('/tmp/nimble_15597.out')
+unlink('/home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg_15597.nims')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/scripts/gen_prob_json.py')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/scripts')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/README.md')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/finalseg.nimble')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/refs/remotes')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/refs/tags')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/refs/heads/master')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/refs/heads')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/refs')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/info/exclude')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/info')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/branches')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/logs/refs/remotes')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/logs/refs/heads')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/logs/refs')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/logs/HEAD')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/logs')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/description')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks/update.sample')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/shallow')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/config')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/index')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/10/40fd65f5a0811da79b905c9e5e56db3ee0db5e')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/10')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/9d/0a9794801a38181e06e777b561220de18f92d0')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/9d')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/ac/52fb869e354f6f4e1c005f1097bf7889030b40')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/ac')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/9c/52fc94ba8c3ba2e8666164d32f299d26db04c6')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/9c')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/info')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/5b/6e8992e891e9379c7fcd9cc8124ec2ca503843')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/5b')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/c7/549875dfadc33b9525c7c797ddbb9dd796e2e3')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/c7')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/43/60f6e8dd4bb9bc969713b6bce0cc46e9b245a0')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/43')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/58/b48353809e44ff54a198bcaf916600d7622c00')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/58')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/71/266fbefc1df6596f15d3cd5cd89f79557dc77d')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/71')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/1d/64099e14488bd02ce08cccd657bebec4a2a9fb')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/1d')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/3b')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/4a/f68a0c15c4a0bbf41b6baafe870b9847dccf58')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/4a')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/34/81bb7ac28ec996c6c83d6de813347c30380e09')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/34/4f6f36ac9688a260ec55eb416ec6b09d6bbe3e')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/34')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/16/e7125aa42639c642e0e5138d72484931196a7f')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/16')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/5d/169909ba358e081deb7a40d72065e0972c00c6')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/5d')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/da/7e887b1c8531d7b2a1e730d0f4d66455988c7f')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/da')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/e8/434335a84a5e657af9ff674251e045f462a516')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/e8')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/1f/3971c834e7a98f715dd75f04c1e18982cda51f')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/1f')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/pack')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/02/76c0d0949f8ca0cde84c2b49aa7828d4105163')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/02')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/e6/985bc0d72f36571406e2d5aa91dd4249139a3a')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/e6')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git/objects')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/packed-refs')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.git/HEAD')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/.git')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/src/finalseg.nim.cfg')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/src/finalseg.nim')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/src/finalseg/prob_emit.nim')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/src/finalseg/prob_trans.nim')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/src/finalseg/prob_start.nim')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/src/finalseg')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/src')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/tests/weicheng.utf8')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/tests/test2.nims')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/tests/test2.nim')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/tests/test1.nims')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/tests/speed.py')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/tests/test1.nim')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg/tests')
+unlink('/tmp/nimble_15597/githubcom_bung87finalseg/.gitignore')
+rmdir('/tmp/nimble_15597/githubcom_bung87finalseg')
+rmdir('/tmp/nimble_15597')
   create directory /tmp
-  create directory /tmp/nimble_16888
-  create directory /tmp/nimble_16888/githubcom_bung87finalseg
-  delete /tmp/nimble_16888/githubcom_bung87finalseg
-  create directory /tmp/nimble_16888/githubcom_bung87finalseg
-  create directory /tmp/nimble_16888/githubcom_bung87finalseg/.git
-  create directory /tmp/nimble_16888/githubcom_bung87finalseg/.git
-  create directory /tmp/nimble_16888/githubcom_bung87finalseg/.git/branches
-  create directory /tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks
-  create directory /tmp/nimble_16888/githubcom_bung87finalseg/.git/info
-  create directory /tmp/nimble_16888/githubcom_bung87finalseg/.git/refs
-  create directory /tmp/nimble_16888/githubcom_bung87finalseg/.git/refs/heads
-  create directory /tmp/nimble_16888/githubcom_bung87finalseg/.git/refs/tags
-  rename /tmp/nimble_16888/githubcom_bung87finalseg/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock to config
-  change permissions of /tmp/nimble_16888/githubcom_bung87finalseg/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_16888/githubcom_bung87finalseg/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock to config
-  change permissions of /tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock to config
-  change permissions of /tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock to config
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/tBnLpfX
-  create symbolic link from /tmp/nimble_16888/githubcom_bung87finalseg/.git/tBnLpfX to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/tBnLpfX
-  create directory /tmp/nimble_16888/githubcom_bung87finalseg/.git/objects
-  create directory /tmp/nimble_16888/githubcom_bung87finalseg/.git/objects/pack
-  create directory /tmp/nimble_16888/githubcom_bung87finalseg/.git/objects/info
-  change permissions of /tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock to config
-  change permissions of /tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock to config
-  change permissions of /tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock to config
-  create hard link from /tmp/nimble_16888/githubcom_bung87finalseg/.git/objects/pack/pack-474c2129fc2e97fa982c100b8a1ccc73c4962da7.pack to /tmp/nimble_16888/githubcom_bung87finalseg/.git/objects/pack/tmp_pack_oKjcBd
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/objects/pack/tmp_pack_oKjcBd
-  create hard link from /tmp/nimble_16888/githubcom_bung87finalseg/.git/objects/pack/pack-474c2129fc2e97fa982c100b8a1ccc73c4962da7.idx to /tmp/nimble_16888/githubcom_bung87finalseg/.git/objects/pack/tmp_idx_v7JjHS
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/objects/pack/tmp_idx_v7JjHS
-  rename /tmp/nimble_16888/githubcom_bung87finalseg/.git/shallow.lock to shallow
-  rename /tmp/nimble_16888/githubcom_bung87finalseg/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/packed-refs.lock
-  create directory /tmp/nimble_16888/githubcom_bung87finalseg/.git/refs/remotes
-  create directory /tmp/nimble_16888/githubcom_bung87finalseg/.git/refs/remotes/origin
-  create directory /tmp/nimble_16888/githubcom_bung87finalseg/.git/logs
-  create directory /tmp/nimble_16888/githubcom_bung87finalseg/.git/logs/refs
-  create directory /tmp/nimble_16888/githubcom_bung87finalseg/.git/logs/refs/remotes
-  create directory /tmp/nimble_16888/githubcom_bung87finalseg/.git/logs/refs/remotes/origin
-  rename /tmp/nimble_16888/githubcom_bung87finalseg/.git/refs/remotes/origin/HEAD.lock to HEAD
-  rename /tmp/nimble_16888/githubcom_bung87finalseg/.git/HEAD.lock to HEAD
-  create directory /tmp/nimble_16888/githubcom_bung87finalseg/.git/logs/refs/heads
-  rename /tmp/nimble_16888/githubcom_bung87finalseg/.git/refs/heads/master.lock to master
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/HEAD.lock
-  change permissions of /tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock to config
-  change permissions of /tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_16888/githubcom_bung87finalseg/.git/config.lock to config
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/objects/pack/pack-474c2129fc2e97fa982c100b8a1ccc73c4962da7.keep
-  create directory /tmp/nimble_16888/githubcom_bung87finalseg/scripts
-  create directory /tmp/nimble_16888/githubcom_bung87finalseg/src
-  create directory /tmp/nimble_16888/githubcom_bung87finalseg/src/finalseg
-  create directory /tmp/nimble_16888/githubcom_bung87finalseg/tests
-  rename /tmp/nimble_16888/githubcom_bung87finalseg/.git/index.lock to index
+  create directory /tmp/nimble_15597
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg
+  delete /tmp/nimble_15597/githubcom_bung87finalseg
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/info
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/branches
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/refs
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/refs/heads
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/refs/tags
+  rename /tmp/nimble_15597/githubcom_bung87finalseg/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock to config
+  change permissions of /tmp/nimble_15597/githubcom_bung87finalseg/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_15597/githubcom_bung87finalseg/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock to config
+  change permissions of /tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock to config
+  change permissions of /tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock to config
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/tBr0JFs
+  create symbolic link from /tmp/nimble_15597/githubcom_bung87finalseg/.git/tBr0JFs to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/tBr0JFs
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/pack
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/info
+  change permissions of /tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock to config
+  change permissions of /tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock to config
+  change permissions of /tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock to config
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/1d
+  create hard link from /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/1d/64099e14488bd02ce08cccd657bebec4a2a9fb to /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/1d/tmp_obj_Gw3g3y
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/1d/tmp_obj_Gw3g3y
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/16
+  create hard link from /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/16/e7125aa42639c642e0e5138d72484931196a7f to /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/16/tmp_obj_wFYmTA
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/16/tmp_obj_wFYmTA
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/58
+  create hard link from /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/58/b48353809e44ff54a198bcaf916600d7622c00 to /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/58/tmp_obj_40YFDF
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/58/tmp_obj_40YFDF
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/71
+  create hard link from /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/71/266fbefc1df6596f15d3cd5cd89f79557dc77d to /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/71/tmp_obj_wpsCpK
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/71/tmp_obj_wpsCpK
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/5b
+  create hard link from /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/5b/6e8992e891e9379c7fcd9cc8124ec2ca503843 to /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/5b/tmp_obj_8kCR7N
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/5b/tmp_obj_8kCR7N
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/10
+  create hard link from /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/10/40fd65f5a0811da79b905c9e5e56db3ee0db5e to /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/10/tmp_obj_0wUeVS
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/10/tmp_obj_0wUeVS
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/9d
+  create hard link from /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/9d/0a9794801a38181e06e777b561220de18f92d0 to /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/9d/tmp_obj_cF30dZ
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/9d/tmp_obj_cF30dZ
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/da
+  create hard link from /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/da/7e887b1c8531d7b2a1e730d0f4d66455988c7f to /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/da/tmp_obj_m0Fgk4
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/da/tmp_obj_m0Fgk4
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/34
+  create hard link from /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/34/81bb7ac28ec996c6c83d6de813347c30380e09 to /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/34/tmp_obj_msuju5
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/34/tmp_obj_msuju5
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/9c
+  create hard link from /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/9c/52fc94ba8c3ba2e8666164d32f299d26db04c6 to /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/9c/tmp_obj_agpScb
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/9c/tmp_obj_agpScb
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/5d
+  create hard link from /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/5d/169909ba358e081deb7a40d72065e0972c00c6 to /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/5d/tmp_obj_kNZ9rb
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/5d/tmp_obj_kNZ9rb
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/e8
+  create hard link from /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/e8/434335a84a5e657af9ff674251e045f462a516 to /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/e8/tmp_obj_kOoc19
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/e8/tmp_obj_kOoc19
+  create hard link from /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/34/4f6f36ac9688a260ec55eb416ec6b09d6bbe3e to /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/34/tmp_obj_VjgRXn
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/34/tmp_obj_VjgRXn
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/4a
+  create hard link from /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/4a/f68a0c15c4a0bbf41b6baafe870b9847dccf58 to /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/4a/tmp_obj_vEd9Do
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/4a/tmp_obj_vEd9Do
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/02
+  create hard link from /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/02/76c0d0949f8ca0cde84c2b49aa7828d4105163 to /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/02/tmp_obj_5Y8vbr
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/02/tmp_obj_5Y8vbr
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/e6
+  create hard link from /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/e6/985bc0d72f36571406e2d5aa91dd4249139a3a to /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/e6/tmp_obj_nEBsIw
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/e6/tmp_obj_nEBsIw
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/c7
+  create hard link from /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/c7/549875dfadc33b9525c7c797ddbb9dd796e2e3 to /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/c7/tmp_obj_rMYE3y
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/c7/tmp_obj_rMYE3y
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/3b
+  create hard link from /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6 to /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/3b/tmp_obj_Jl0k6B
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/3b/tmp_obj_Jl0k6B
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/1f
+  create hard link from /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/1f/3971c834e7a98f715dd75f04c1e18982cda51f to /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/1f/tmp_obj_9AfufE
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/1f/tmp_obj_9AfufE
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/ac
+  create hard link from /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/ac/52fb869e354f6f4e1c005f1097bf7889030b40 to /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/ac/tmp_obj_va0zLF
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/ac/tmp_obj_va0zLF
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/43
+  create hard link from /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/43/60f6e8dd4bb9bc969713b6bce0cc46e9b245a0 to /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/43/tmp_obj_rBLO6y
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/43/tmp_obj_rBLO6y
+  rename /tmp/nimble_15597/githubcom_bung87finalseg/.git/shallow.lock to shallow
+  rename /tmp/nimble_15597/githubcom_bung87finalseg/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/packed-refs.lock
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/refs/remotes
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/refs/remotes/origin
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/logs
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/logs/refs
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/logs/refs/remotes
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_15597/githubcom_bung87finalseg/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_15597/githubcom_bung87finalseg/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/.git/logs/refs/heads
+  rename /tmp/nimble_15597/githubcom_bung87finalseg/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/HEAD.lock
+  change permissions of /tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock to config
+  change permissions of /tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_15597/githubcom_bung87finalseg/.git/config.lock to config
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/scripts
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/src
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/src/finalseg
+  create directory /tmp/nimble_15597/githubcom_bung87finalseg/tests
+  rename /tmp/nimble_15597/githubcom_bung87finalseg/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/finalseg_512358943
-  delete /tmp/nimblecache/finalseg_512358943/finalseg.ini
-  delete /tmp/nimble_16888.out
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/finalseg_16888.nims
+  create directory /tmp/nimblecache/finalseg_3901914924
+  delete /tmp/nimblecache/finalseg_3901914924/finalseg.ini
+  delete /tmp/nimble_15597.out
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/finalseg_15597.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -262,8 +447,13 @@ rmdir('/tmp/nimble_16888')
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/finalseg-0.1.0
-  create directory /home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg
-  change permissions of /home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg/prob_start.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg.nim.cfg to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/finalseg-0.1.0
+  change permissions of /home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -283,74 +473,115 @@ rmdir('/tmp/nimble_16888')
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/finalseg-0.1.0
-  change permissions of /home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg
+  change permissions of /home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg/prob_start.nim to rw-r--r--
   change permissions of /home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg.nimble to rw-r--r--
   create directory /tmp
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/finalseg_1788569907
   delete /tmp/nimblecache/finalseg_1788569907/finalseg.ini
-  delete /tmp/nimble_16888.out
-  delete /home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg_16888.nims
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/finalseg.nimble
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/src/finalseg/prob_start.nim
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/src/finalseg/prob_emit.nim
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/src/finalseg/prob_trans.nim
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/src/finalseg
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/src/finalseg.nim
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/src
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.gitignore
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/scripts/gen_prob_json.py
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/scripts
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/HEAD
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/config
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/logs/HEAD
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/logs/refs/heads/master
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/logs/refs/heads
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/logs/refs/remotes/origin/HEAD
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/logs/refs/remotes/origin
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/logs/refs/remotes
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/logs/refs
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/logs
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/branches
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/packed-refs
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/refs/heads/master
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/refs/heads
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/refs/tags
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/refs/remotes/origin/HEAD
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/refs/remotes/origin
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/refs/remotes
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/refs
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks/pre-push.sample
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks/update.sample
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks/post-update.sample
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/hooks
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/index
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/info/exclude
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/info
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/shallow
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/description
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/objects/pack/pack-474c2129fc2e97fa982c100b8a1ccc73c4962da7.pack
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/objects/pack/pack-474c2129fc2e97fa982c100b8a1ccc73c4962da7.idx
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/objects/pack
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/objects/info
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git/objects
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/.git
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/README.md
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/tests/test2.nims
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/tests/test1.nim
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/tests/weicheng.utf8
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/tests/speed.py
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/tests/test1.nims
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/tests/test2.nim
-  delete /tmp/nimble_16888/githubcom_bung87finalseg/tests
-  delete /tmp/nimble_16888/githubcom_bung87finalseg
-  delete /tmp/nimble_16888
+  delete /tmp/nimble_15597.out
+  delete /home/runner/.nimble/pkgs/finalseg-0.1.0/finalseg_15597.nims
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/scripts/gen_prob_json.py
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/scripts
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/README.md
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/finalseg.nimble
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/refs/remotes/origin
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/refs/remotes
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/refs/tags
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/refs/heads/master
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/refs/heads
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/refs
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/info/exclude
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/info
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/branches
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/logs/refs/remotes
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/logs/refs/heads/master
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/logs/refs/heads
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/logs/refs
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/logs/HEAD
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/logs
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/description
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks/pre-push.sample
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks/update.sample
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks/post-update.sample
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/hooks
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/shallow
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/config
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/index
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/10/40fd65f5a0811da79b905c9e5e56db3ee0db5e
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/10
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/9d/0a9794801a38181e06e777b561220de18f92d0
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/9d
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/ac/52fb869e354f6f4e1c005f1097bf7889030b40
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/ac
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/9c/52fc94ba8c3ba2e8666164d32f299d26db04c6
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/9c
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/info
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/5b/6e8992e891e9379c7fcd9cc8124ec2ca503843
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/5b
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/c7/549875dfadc33b9525c7c797ddbb9dd796e2e3
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/c7
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/43/60f6e8dd4bb9bc969713b6bce0cc46e9b245a0
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/43
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/58/b48353809e44ff54a198bcaf916600d7622c00
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/58
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/71/266fbefc1df6596f15d3cd5cd89f79557dc77d
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/71
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/1d/64099e14488bd02ce08cccd657bebec4a2a9fb
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/1d
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/3b
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/4a/f68a0c15c4a0bbf41b6baafe870b9847dccf58
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/4a
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/34/81bb7ac28ec996c6c83d6de813347c30380e09
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/34/4f6f36ac9688a260ec55eb416ec6b09d6bbe3e
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/34
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/16/e7125aa42639c642e0e5138d72484931196a7f
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/16
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/5d/169909ba358e081deb7a40d72065e0972c00c6
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/5d
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/da/7e887b1c8531d7b2a1e730d0f4d66455988c7f
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/da
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/e8/434335a84a5e657af9ff674251e045f462a516
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/e8
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/1f/3971c834e7a98f715dd75f04c1e18982cda51f
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/1f
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/pack
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/02/76c0d0949f8ca0cde84c2b49aa7828d4105163
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/02
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/e6/985bc0d72f36571406e2d5aa91dd4249139a3a
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects/e6
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/objects
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/packed-refs
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git/HEAD
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.git
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/src/finalseg.nim.cfg
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/src/finalseg.nim
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/src/finalseg/prob_emit.nim
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/src/finalseg/prob_trans.nim
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/src/finalseg/prob_start.nim
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/src/finalseg
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/src
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/tests/weicheng.utf8
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/tests/test2.nims
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/tests/test2.nim
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/tests/test1.nims
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/tests/speed.py
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/tests/test1.nim
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/tests
+  delete /tmp/nimble_15597/githubcom_bung87finalseg/.gitignore
+  delete /tmp/nimble_15597/githubcom_bung87finalseg
+  delete /tmp/nimble_15597

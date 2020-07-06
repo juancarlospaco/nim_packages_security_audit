@@ -1,79 +1,92 @@
     Reading official package list
 Downloading https://github.com/jackvandrunen/findtests using git
-       Info /tmp/nimble_14940/githubcom_jackvandrunenfindtests/findtests_14940.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /tmp/nimble_14940/githubcom_jackvandrunenfindtests/findtests_14940.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
-  Verifying dependencies for findtests@0.1.0
- Installing findtests@0.1.0
-    Copying file /tmp/nimble_14940/githubcom_jackvandrunenfindtests/findtests.nim to /home/runner/.nimble/pkgs/findtests-0.1.0/findtests.nim
-    Copying file /tmp/nimble_14940/githubcom_jackvandrunenfindtests/findtests.nimble to /home/runner/.nimble/pkgs/findtests-0.1.0/findtests.nimble
-   Success: findtests installed successfully.
-       Info /home/runner/.nimble/pkgs/findtests-0.1.0/findtests_14940.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /home/runner/.nimble/pkgs/findtests-0.1.0/findtests_14940.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_14940', 0x00000000000001ff)
-mkdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests', 0x00000000000001ff)
-rmdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests')
-mkdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests', 0x00000000000001ff)
-mkdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/HEAD.lock', '/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/HEAD')
-rename('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock', '/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config')
-chmod('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock', '/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config')
-chmod('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock', '/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config')
-chmod('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock', '/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/tb5HzrJ')
-symlink('testing', '/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/tb5HzrJ')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/tb5HzrJ')
-mkdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock', '/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config')
-chmod('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock', '/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config')
-chmod('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock', '/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config')
-link('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects/pack/tmp_pack_LKTNU9', '/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects/pack/pack-a4d47f980148ab1fa684b6b02580f906f9b4dae2.pack')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects/pack/tmp_pack_LKTNU9')
-link('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects/pack/tmp_idx_urAcZb', '/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects/pack/pack-a4d47f980148ab1fa684b6b02580f906f9b4dae2.idx')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects/pack/tmp_idx_urAcZb')
-rename('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/shallow.lock', '/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/shallow')
-rename('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/packed-refs.new', '/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/packed-refs')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/packed-refs.lock')
-mkdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs/remotes/origin', 0x00000000000001ff)
-mkdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/logs', 0x00000000000001ff)
-mkdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/logs/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/logs/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/logs/refs/remotes/origin', 0x00000000000001ff)
-rename('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs/remotes/origin/HEAD')
-rename('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/HEAD.lock', '/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/HEAD')
-mkdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/logs/refs/heads', 0x00000000000001ff)
-rename('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs/heads/master.lock', '/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs/heads/master')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/HEAD.lock')
-chmod('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock', '/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config')
-chmod('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock', '/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects/pack/pack-a4d47f980148ab1fa684b6b02580f906f9b4dae2.keep')
-rename('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/index.lock', '/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/index')
+mkdir('/tmp/nimble_13481', 0x00000000000001ff)
+mkdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests', 0x00000000000001ff)
+rmdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests')
+mkdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests', 0x00000000000001ff)
+mkdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/HEAD.lock', '/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/HEAD')
+rename('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock', '/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config')
+chmod('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock', '/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config')
+chmod('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock', '/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config')
+chmod('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock', '/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/tRRfJQ5')
+symlink('testing', '/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/tRRfJQ5')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/tRRfJQ5')
+mkdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock', '/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config')
+chmod('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock', '/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config')
+chmod('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock', '/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config')
+mkdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/e2', 0x00000000000001ff)
+link('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/e2/tmp_obj_3lQb5y', '/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/e2/1fa80cf5c41d77f975614f394f1a0eac538d17')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/e2/tmp_obj_3lQb5y')
+mkdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/bc', 0x00000000000001ff)
+link('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/bc/tmp_obj_dl1iHA', '/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/bc/f4f4cb9d1170c0f739d2257c095e4afb10bec1')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/bc/tmp_obj_dl1iHA')
+mkdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/66', 0x00000000000001ff)
+link('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/66/tmp_obj_LClzSG', '/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/66/ae3b9c81c93f813af6019569ca828eb512b452')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/66/tmp_obj_LClzSG')
+mkdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/d7', 0x00000000000001ff)
+link('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/d7/tmp_obj_P25gQK', '/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/d7/1b20551f576376a6a17556fccedc4973c2dd66')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/d7/tmp_obj_P25gQK')
+mkdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/57', 0x00000000000001ff)
+link('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/57/tmp_obj_xrxekO', '/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/57/483ec4fde2325f168ca4862b1004b41664a224')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/57/tmp_obj_xrxekO')
+mkdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/f7', 0x00000000000001ff)
+link('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/f7/tmp_obj_7Fr64T', '/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/f7/4defaf3dd1653ac5101c8b26aa244066fd20c7')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/f7/tmp_obj_7Fr64T')
+rename('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/shallow.lock', '/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/shallow')
+rename('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/packed-refs.new', '/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/packed-refs')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/packed-refs.lock')
+mkdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/HEAD.lock', '/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/HEAD')
+mkdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs/heads/master.lock', '/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs/heads/master')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/HEAD.lock')
+chmod('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock', '/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config')
+chmod('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock', '/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config')
+rename('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/index.lock', '/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/findtests_2308857445', 0x00000000000001ff)
-unlink('/tmp/nimblecache/findtests_2308857445/findtests.ini')
-unlink('/tmp/nimble_14940.out')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/findtests_14940.nims')
+mkdir('/tmp/nimblecache/findtests_2813958370', 0x00000000000001ff)       Info /tmp/nimble_13481/githubcom_jackvandrunenfindtests/findtests_13481.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /tmp/nimble_13481/githubcom_jackvandrunenfindtests/findtests_13481.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+  Verifying dependencies for findtests@0.1.0
+ Installing findtests@0.1.0
+    Copying file /tmp/nimble_13481/githubcom_jackvandrunenfindtests/findtests.nim to /home/runner/.nimble/pkgs/findtests-0.1.0/findtests.nim
+    Copying file /tmp/nimble_13481/githubcom_jackvandrunenfindtests/findtests.nimble to /home/runner/.nimble/pkgs/findtests-0.1.0/findtests.nimble
+   Success: findtests installed successfully.
+       Info /home/runner/.nimble/pkgs/findtests-0.1.0/findtests_13481.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
+        ... /home/runner/.nimble/pkgs/findtests-0.1.0/findtests_13481.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
+
+unlink('/tmp/nimblecache/findtests_2813958370/findtests.ini')
+unlink('/tmp/nimble_13481.out')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/findtests_13481.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -90,122 +103,145 @@ mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/findtests_150140110', 0x00000000000001ff)
 unlink('/tmp/nimblecache/findtests_150140110/findtests.ini')
-unlink('/tmp/nimble_14940.out')
-unlink('/home/runner/.nimble/pkgs/findtests-0.1.0/findtests_14940.nims')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/findtests.nim')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/findtests.nimble')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/LICENSE')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/HEAD')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/logs/HEAD')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/logs/refs/heads/master')
-rmdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/logs/refs/heads')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/logs/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/logs/refs/remotes/origin')
-rmdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/logs/refs/remotes')
-rmdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/logs/refs')
-rmdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/logs')
-rmdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/branches')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/packed-refs')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs/heads/master')
-rmdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs/heads')
-rmdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs/tags')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs/remotes/origin')
-rmdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs/remotes')
-rmdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks/update.sample')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/index')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/info/exclude')
-rmdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/info')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/shallow')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/description')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects/pack/pack-a4d47f980148ab1fa684b6b02580f906f9b4dae2.pack')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects/pack/pack-a4d47f980148ab1fa684b6b02580f906f9b4dae2.idx')
-rmdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects/pack')
-rmdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects/info')
-rmdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects')
-rmdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git')
-unlink('/tmp/nimble_14940/githubcom_jackvandrunenfindtests/README.md')
-rmdir('/tmp/nimble_14940/githubcom_jackvandrunenfindtests')
-rmdir('/tmp/nimble_14940')
+unlink('/tmp/nimble_13481.out')
+unlink('/home/runner/.nimble/pkgs/findtests-0.1.0/findtests_13481.nims')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/README.md')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs/remotes')
+rmdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs/tags')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs/heads/master')
+rmdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs/heads')
+rmdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/info/exclude')
+rmdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/info')
+rmdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/branches')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/logs/refs/remotes')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/logs/refs/heads')
+rmdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/logs/refs')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/logs/HEAD')
+rmdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/logs')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/description')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks/update.sample')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/shallow')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/index')
+rmdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/info')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/e2/1fa80cf5c41d77f975614f394f1a0eac538d17')
+rmdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/e2')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/f7/4defaf3dd1653ac5101c8b26aa244066fd20c7')
+rmdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/f7')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/66/ae3b9c81c93f813af6019569ca828eb512b452')
+rmdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/66')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/57/483ec4fde2325f168ca4862b1004b41664a224')
+rmdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/57')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/bc/f4f4cb9d1170c0f739d2257c095e4afb10bec1')
+rmdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/bc')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/d7/1b20551f576376a6a17556fccedc4973c2dd66')
+rmdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/d7')
+rmdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/pack')
+rmdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/packed-refs')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/HEAD')
+rmdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/findtests.nim')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/findtests.nimble')
+unlink('/tmp/nimble_13481/githubcom_jackvandrunenfindtests/LICENSE')
+rmdir('/tmp/nimble_13481/githubcom_jackvandrunenfindtests')
+rmdir('/tmp/nimble_13481')
   create directory /tmp
-  create directory /tmp/nimble_14940
-  create directory /tmp/nimble_14940/githubcom_jackvandrunenfindtests
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests
-  create directory /tmp/nimble_14940/githubcom_jackvandrunenfindtests
-  create directory /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git
-  create directory /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git
-  create directory /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/branches
-  create directory /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks
-  create directory /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/info
-  create directory /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs
-  create directory /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs/heads
-  create directory /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs/tags
-  rename /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock to config
-  change permissions of /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock to config
-  change permissions of /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock to config
-  change permissions of /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock to config
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/tb5HzrJ
-  create symbolic link from /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/tb5HzrJ to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/tb5HzrJ
-  create directory /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects
-  create directory /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects/pack
-  create directory /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects/info
-  change permissions of /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock to config
-  change permissions of /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock to config
-  change permissions of /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock to config
-  create hard link from /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects/pack/pack-a4d47f980148ab1fa684b6b02580f906f9b4dae2.pack to /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects/pack/tmp_pack_LKTNU9
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects/pack/tmp_pack_LKTNU9
-  create hard link from /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects/pack/pack-a4d47f980148ab1fa684b6b02580f906f9b4dae2.idx to /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects/pack/tmp_idx_urAcZb
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects/pack/tmp_idx_urAcZb
-  rename /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/shallow.lock to shallow
-  rename /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/packed-refs.lock
-  create directory /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs/remotes
-  create directory /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs/remotes/origin
-  create directory /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/logs
-  create directory /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/logs/refs
-  create directory /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/logs/refs/remotes
-  create directory /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/logs/refs/remotes/origin
-  rename /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs/remotes/origin/HEAD.lock to HEAD
-  rename /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/HEAD.lock to HEAD
-  create directory /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/logs/refs/heads
-  rename /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs/heads/master.lock to master
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/HEAD.lock
-  change permissions of /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock to config
-  change permissions of /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config.lock to config
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects/pack/pack-a4d47f980148ab1fa684b6b02580f906f9b4dae2.keep
-  rename /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/index.lock to index
+  create directory /tmp/nimble_13481
+  create directory /tmp/nimble_13481/githubcom_jackvandrunenfindtests
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests
+  create directory /tmp/nimble_13481/githubcom_jackvandrunenfindtests
+  create directory /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git
+  create directory /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git
+  create directory /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/info
+  create directory /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/branches
+  create directory /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks
+  create directory /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs
+  create directory /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs/heads
+  create directory /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs/tags
+  rename /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock to config
+  change permissions of /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock to config
+  change permissions of /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock to config
+  change permissions of /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock to config
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/tRRfJQ5
+  create symbolic link from /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/tRRfJQ5 to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/tRRfJQ5
+  create directory /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects
+  create directory /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/pack
+  create directory /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/info
+  change permissions of /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock to config
+  change permissions of /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock to config
+  change permissions of /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock to config
+  create directory /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/e2
+  create hard link from /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/e2/1fa80cf5c41d77f975614f394f1a0eac538d17 to /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/e2/tmp_obj_3lQb5y
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/e2/tmp_obj_3lQb5y
+  create directory /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/bc
+  create hard link from /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/bc/f4f4cb9d1170c0f739d2257c095e4afb10bec1 to /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/bc/tmp_obj_dl1iHA
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/bc/tmp_obj_dl1iHA
+  create directory /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/66
+  create hard link from /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/66/ae3b9c81c93f813af6019569ca828eb512b452 to /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/66/tmp_obj_LClzSG
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/66/tmp_obj_LClzSG
+  create directory /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/d7
+  create hard link from /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/d7/1b20551f576376a6a17556fccedc4973c2dd66 to /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/d7/tmp_obj_P25gQK
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/d7/tmp_obj_P25gQK
+  create directory /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/57
+  create hard link from /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/57/483ec4fde2325f168ca4862b1004b41664a224 to /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/57/tmp_obj_xrxekO
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/57/tmp_obj_xrxekO
+  create directory /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/f7
+  create hard link from /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/f7/4defaf3dd1653ac5101c8b26aa244066fd20c7 to /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/f7/tmp_obj_7Fr64T
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/f7/tmp_obj_7Fr64T
+  rename /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/shallow.lock to shallow
+  rename /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/packed-refs.lock
+  create directory /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs/remotes
+  create directory /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs/remotes/origin
+  create directory /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/logs
+  create directory /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/logs/refs
+  create directory /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/logs/refs/remotes
+  create directory /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/logs/refs/heads
+  rename /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/HEAD.lock
+  change permissions of /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock to config
+  change permissions of /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config.lock to config
+  rename /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/findtests_2308857445
-  delete /tmp/nimblecache/findtests_2308857445/findtests.ini
-  delete /tmp/nimble_14940.out
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/findtests_14940.nims
+  create directory /tmp/nimblecache/findtests_2813958370
+  delete /tmp/nimblecache/findtests_2813958370/findtests.ini
+  delete /tmp/nimble_13481.out
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/findtests_13481.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -222,54 +258,64 @@ rmdir('/tmp/nimble_14940')
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/findtests_150140110
   delete /tmp/nimblecache/findtests_150140110/findtests.ini
-  delete /tmp/nimble_14940.out
-  delete /home/runner/.nimble/pkgs/findtests-0.1.0/findtests_14940.nims
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/findtests.nim
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/findtests.nimble
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/LICENSE
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/HEAD
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/config
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/logs/HEAD
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/logs/refs/heads/master
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/logs/refs/heads
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/logs/refs/remotes/origin/HEAD
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/logs/refs/remotes/origin
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/logs/refs/remotes
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/logs/refs
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/logs
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/branches
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/packed-refs
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs/heads/master
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs/heads
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs/tags
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs/remotes/origin/HEAD
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs/remotes/origin
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs/remotes
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/refs
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks/pre-push.sample
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks/update.sample
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks/post-update.sample
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/hooks
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/index
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/info/exclude
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/info
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/shallow
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/description
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects/pack/pack-a4d47f980148ab1fa684b6b02580f906f9b4dae2.pack
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects/pack/pack-a4d47f980148ab1fa684b6b02580f906f9b4dae2.idx
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects/pack
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects/info
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git/objects
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/.git
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests/README.md
-  delete /tmp/nimble_14940/githubcom_jackvandrunenfindtests
-  delete /tmp/nimble_14940
+  delete /tmp/nimble_13481.out
+  delete /home/runner/.nimble/pkgs/findtests-0.1.0/findtests_13481.nims
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/README.md
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs/remotes/origin
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs/remotes
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs/tags
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs/heads/master
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs/heads
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/refs
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/info/exclude
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/info
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/branches
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/logs/refs/remotes
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/logs/refs/heads/master
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/logs/refs/heads
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/logs/refs
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/logs/HEAD
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/logs
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/description
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks/pre-push.sample
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks/update.sample
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks/post-update.sample
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/hooks
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/shallow
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/config
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/index
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/info
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/e2/1fa80cf5c41d77f975614f394f1a0eac538d17
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/e2
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/f7/4defaf3dd1653ac5101c8b26aa244066fd20c7
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/f7
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/66/ae3b9c81c93f813af6019569ca828eb512b452
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/66
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/57/483ec4fde2325f168ca4862b1004b41664a224
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/57
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/bc/f4f4cb9d1170c0f739d2257c095e4afb10bec1
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/bc
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/d7/1b20551f576376a6a17556fccedc4973c2dd66
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/d7
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects/pack
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/objects
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/packed-refs
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git/HEAD
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/.git
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/findtests.nim
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/findtests.nimble
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests/LICENSE
+  delete /tmp/nimble_13481/githubcom_jackvandrunenfindtests
+  delete /tmp/nimble_13481
