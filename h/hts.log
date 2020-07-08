@@ -1,61 +1,324 @@
     Reading official package list
 Downloading https://github.com/brentp/hts-nim using git
-    Cloning latest tagged version: v0.3.8
-  Verifying dependencies for hts@0.3.8
- Installing hts@0.3.8
-    Copying file /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bam.nim to /home/runner/.nimble/pkgs/hts-0.3.8/hts/bam.nim
-    Copying file /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/value.nim to /home/runner/.nimble/pkgs/hts-0.3.8/hts/value.nim
-    Copying file /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bgzf.nim to /home/runner/.nimble/pkgs/hts-0.3.8/hts/bgzf.nim
-    Copying file /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/utils.nim to /home/runner/.nimble/pkgs/hts-0.3.8/hts/utils.nim
-    Copying file /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/fai.nim to /home/runner/.nimble/pkgs/hts-0.3.8/hts/fai.nim
-    Copying file /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/vcf.nim to /home/runner/.nimble/pkgs/hts-0.3.8/hts/vcf.nim
-    Copying file /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bgzf/bgzi.nim to /home/runner/.nimble/pkgs/hts-0.3.8/hts/bgzf/bgzi.nim
+    Cloning latest tagged version: v0.3.10
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_4591', 0x00000000000001ff)
-mkdir('/tmp/nimble_4591/githubcom_brentphtsnim', 0x00000000000001ff)
-rmdir('/tmp/nimble_4591/githubcom_brentphtsnim')
-mkdir('/tmp/nimble_4591/githubcom_brentphtsnim', 0x00000000000001ff)
-mkdir('/tmp/nimble_4591/githubcom_brentphtsnim/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_4591/githubcom_brentphtsnim/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4591/githubcom_brentphtsnim/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4591/githubcom_brentphtsnim/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4591/githubcom_brentphtsnim/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_4591/githubcom_brentphtsnim/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_4591/githubcom_brentphtsnim/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_4591/githubcom_brentphtsnim/.git/HEAD.lock', '/tmp/nimble_4591/githubcom_brentphtsnim/.git/HEAD')
-rename('/tmp/nimble_4591/githubcom_brentphtsnim/.git/config.lock', '/tmp/nimble_4591/githubcom_brentphtsnim/.git/config')
-chmod('/tmp/nimble_4591/githubcom_brentphtsnim/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_4591/githubcom_brentphtsnim/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_4591/githubcom_brentphtsnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4591/githubcom_brentphtsnim/.git/config.lock', '/tmp/nimble_4591/githubcom_brentphtsnim/.git/config')
-chmod('/tmp/nimble_4591/githubcom_brentphtsnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4591/githubcom_brentphtsnim/.git/config.lock', '/tmp/nimble_4591/githubcom_brentphtsnim/.git/config')
-chmod('/tmp/nimble_4591/githubcom_brentphtsnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4591/githubcom_brentphtsnim/.git/config.lock', '/tmp/nimble_4591/githubcom_brentphtsnim/.git/config')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/tsACZTE')
-symlink('testing', '/tmp/nimble_4591/githubcom_brentphtsnim/.git/tsACZTE')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/tsACZTE')
-mkdir('/tmp/nimble_4591/githubcom_brentphtsnim/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_4591/githubcom_brentphtsnim/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_4591/githubcom_brentphtsnim/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_4591/githubcom_brentphtsnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4591/githubcom_brentphtsnim/.git/config.lock', '/tmp/nimble_4591/githubcom_brentphtsnim/.git/config')
-chmod('/tmp/nimble_4591/githubcom_brentphtsnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4591/githubcom_brentphtsnim/.git/config.lock', '/tmp/nimble_4591/githubcom_brentphtsnim/.git/config')
-chmod('/tmp/nimble_4591/githubcom_brentphtsnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4591/githubcom_brentphtsnim/.git/config.lock', '/tmp/nimble_4591/githubcom_brentphtsnim/.git/config')
-link('/tmp/nimble_4591/githubcom_brentphtsnim/.git/objects/pack/tmp_pack_AButhn', '/tmp/nimble_4591/githubcom_brentphtsnim/.git/objects/pack/pack-893251cb676a0ee70cdbe02d4da38cefe2369086.pack')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/objects/pack/tmp_pack_AButhn')
-link('/tmp/nimble_4591/githubcom_brentphtsnim/.git/objects/pack/tmp_idx_MaVguv', '/tmp/nimble_4591/githubcom_brentphtsnim/.git/objects/pack/pack-893251cb676a0ee70cdbe02d4da38cefe2369086.idx')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/objects/pack/tmp_idx_MaVguv')
-rename('/tmp/nimble_4591/githubcom_brentphtsnim/.git/shallow.lock', '/tmp/nimble_4591/githubcom_brentphtsnim/.git/shallow')
-rename('/tmp/nimble_4591/githubcom_brentphtsnim/.git/packed-refs.new', '/tmp/nimble_4591/githubcom_brentphtsnim/.git/packed-refs')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/packed-refs.lock')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/refs/tags/v0.3.8.lock')
-mkdir('/tmp/nimble_4591/githubcom_brentphtsnim/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_4591/githubcom_brentphtsnim/.git/HEAD.lock', '/tmp/nimble_4591/githubcom_brentphtsnim/.git/HEAD')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/objects/pack/pack-893251cb676a0ee70cdbe02d4da38cefe2369086.keep')
+mkdir('/tmp/nimble_4813', 0x00000000000001ff)
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim', 0x00000000000001ff)
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim', 0x00000000000001ff)
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_4813/githubcom_brentphtsnim/.git/HEAD.lock', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/HEAD')
+rename('/tmp/nimble_4813/githubcom_brentphtsnim/.git/config.lock', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/config')
+chmod('/tmp/nimble_4813/githubcom_brentphtsnim/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_4813/githubcom_brentphtsnim/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_4813/githubcom_brentphtsnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4813/githubcom_brentphtsnim/.git/config.lock', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/config')
+chmod('/tmp/nimble_4813/githubcom_brentphtsnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4813/githubcom_brentphtsnim/.git/config.lock', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/config')
+chmod('/tmp/nimble_4813/githubcom_brentphtsnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4813/githubcom_brentphtsnim/.git/config.lock', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/config')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/tDuwlQj')
+symlink('testing', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/tDuwlQj')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/tDuwlQj')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_4813/githubcom_brentphtsnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4813/githubcom_brentphtsnim/.git/config.lock', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/config')
+chmod('/tmp/nimble_4813/githubcom_brentphtsnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4813/githubcom_brentphtsnim/.git/config.lock', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/config')
+chmod('/tmp/nimble_4813/githubcom_brentphtsnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4813/githubcom_brentphtsnim/.git/config.lock', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/config')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/fd', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/fd/tmp_obj_5B4HT7', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/fd/ffeb96218b3953ca884a5af5aa694745bd4196')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/fd/tmp_obj_5B4HT7')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/84', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/84/tmp_obj_32mQQa', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/84/78f1544466a48d4d4a4b1e3ace5960d1889e68')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/84/tmp_obj_32mQQa')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/74', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/74/tmp_obj_hGNrrb', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/74/f4550322d0601990ffb0e4b35b4ea0e4122012')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/74/tmp_obj_hGNrrb')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ac', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ac/tmp_obj_JUp5Xa', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ac/38a0f29ee73ae14039d7fc54fa5d045dc8fc02')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ac/tmp_obj_JUp5Xa')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/40', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/40/tmp_obj_ndlXAc', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/40/9762e37b6510e9cdc5832814b0525b32705739')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/40/tmp_obj_ndlXAc')
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ac/tmp_obj_LpZZni', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ac/96863d6d5e70c2edabf4d4d9708c75e704399b')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ac/tmp_obj_LpZZni')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8/tmp_obj_OCxama', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8/4e72305a2fb11c2b5deea2b8dc98e9c7ac3ccd')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8/tmp_obj_OCxama')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/6d', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/6d/tmp_obj_6B0n4f', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/6d/dbdee7dd29e1d378470869da899f4cd95d8a85')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/6d/tmp_obj_6B0n4f')
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8/tmp_obj_kBajmi', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8/6094bd9a746139b2294b13bc09697352cc0365')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8/tmp_obj_kBajmi')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/fc', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/fc/tmp_obj_i47nhm', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/fc/418f3094d92efcb32fcaaf23c0666827f0e89a')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/fc/tmp_obj_i47nhm')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/44', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/44/tmp_obj_WGfXRr', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/44/16e43946299f91acfe7a932d3f21d73aa6e8eb')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/44/tmp_obj_WGfXRr')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/06', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/06/tmp_obj_CagJBw', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/06/b576561c77d488bed350200ce7733edea97132')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/06/tmp_obj_CagJBw')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2e', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2e/tmp_obj_iwuEvy', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2e/196dba79e009556348679f8139c5f38d81ecef')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2e/tmp_obj_iwuEvy')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/12', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/12/tmp_obj_ALfVqD', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/12/e29d3fa7e32f537800c6d956fbc1f2fecb7007')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/12/tmp_obj_ALfVqD')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0c', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0c/tmp_obj_sTlBoH', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0c/bd6a21551f424b15ff2b780151707078a214b7')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0c/tmp_obj_sTlBoH')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/58', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/58/tmp_obj_oBzibM', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/58/e5f53884f20e535a8ed7cb9a29671ec3134c06')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/58/tmp_obj_oBzibM')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/55', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/55/tmp_obj_0sRkOR', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/55/3bde54d209e6349967ec1f10a1880fd6430eab')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/55/tmp_obj_0sRkOR')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f6', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f6/tmp_obj_qGb9MQ', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f6/1fe25d601569718e795c2c8bf96fa5349e80e7')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f6/tmp_obj_qGb9MQ')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ee', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ee/tmp_obj_aSB33U', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ee/0a83a19b619c8f15a003c680d220628f822099')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ee/tmp_obj_aSB33U')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ae', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ae/tmp_obj_cxmfX1', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ae/2303d59794f389728b44826a2837e33c8a5f38')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ae/tmp_obj_cxmfX1')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9f', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9f/tmp_obj_aE6Er6', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9f/11ac04f0ecdb0e1530f50b5fe4b07b7a6f95d6')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9f/tmp_obj_aE6Er6')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/07', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/07/tmp_obj_Anpqpb', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/07/5632eb7bdebff3b963b3ab75ee4108009c5a60')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/07/tmp_obj_Anpqpb')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/c1', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/c1/tmp_obj_QHRjic', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/c1/8e1d8d0938bad3f080e36dfc2b4d0d7cce8903')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/c1/tmp_obj_QHRjic')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/7e', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/7e/tmp_obj_CyGKii', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/7e/d588f2370eb78637f971de8e5a1f5f5d626878')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/7e/tmp_obj_CyGKii')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e6', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e6/tmp_obj_pPstga', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e6/tmp_obj_pPstga')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/78', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/78/tmp_obj_zqnUHg', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/78/8eaeb32e8da9ce5100cfd839db05e5015e23b2')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/78/tmp_obj_zqnUHg')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0b', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0b/tmp_obj_xVHeRe', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0b/063ff3d4b0953a14b6e06ba4a723bff2660966')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0b/tmp_obj_xVHeRe')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0a', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0a/tmp_obj_pt1Yqh', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0a/3f28146cc76ef6a8fb6cabd6a039879b4ca74c')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0a/tmp_obj_pt1Yqh')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2b', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2b/tmp_obj_9kDUan', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2b/d939367c00ea2564e02894a09fe326ba18805a')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2b/tmp_obj_9kDUan')
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f6/tmp_obj_tjLNto', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f6/cb6750745bea2454bc566a190222664bde0163')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f6/tmp_obj_tjLNto')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/63', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/63/tmp_obj_RrDoCq', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/63/4df9e769c4cdcd7ab355375396f8ce0ef59e84')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/63/tmp_obj_RrDoCq')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/3e', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/3e/tmp_obj_F3xKMy', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/3e/2c7d2cfda17b7708e147bf758adc4708e73b37')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/3e/tmp_obj_F3xKMy')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/72', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/72/tmp_obj_FBXiOD', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/72/b6734abefba2881ccfc75bc9ad0c63fa602bbd')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/72/tmp_obj_FBXiOD')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/4e', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/4e/tmp_obj_HON2rE', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/4e/e73eaf98f86e42f0659fa0de2291a73a06722b')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/4e/tmp_obj_HON2rE')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/97', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/97/tmp_obj_dzZIcF', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/97/2ea74789d6e2700f09fe17222ebf3f9e7e2171')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/97/tmp_obj_dzZIcF')
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0a/tmp_obj_hLETkL', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0a/ad772bafed1adb24af1854ca87de8863174493')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0a/tmp_obj_hLETkL')
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2b/tmp_obj_lXJrMQ', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2b/bb7f3e8a1113a93acaafb5b53ce885735cd9e7')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2b/tmp_obj_lXJrMQ')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/10', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/10/tmp_obj_vsLjhX', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/10/cc10f65199d2f60a8c66a2fd9fc5695026a701')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/10/tmp_obj_vsLjhX')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/5c', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/5c/tmp_obj_FppyTW', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/5c/d61c5f5c84a113223e935ad698b660d02427d0')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/5c/tmp_obj_FppyTW')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/56', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/56/tmp_obj_F9oW9Z', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/56/3f51a8b2767055c0ba5c645d8ad05c8a678652')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/56/tmp_obj_F9oW9Z')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/61', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/61/tmp_obj_xZP3p6', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/61/29aefd8edd0282ee955ee83bd60ab8b71d9ffe')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/61/tmp_obj_xZP3p6')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/6e', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/6e/tmp_obj_BxAHSa', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/6e/884fdb1fe3bd5543916b86b5f3c7fc5fe2c2ca')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/6e/tmp_obj_BxAHSa')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/67', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/67/tmp_obj_DecKZd', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/67/9eb391edac4a1337c878e07c0f811810880aa2')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/67/tmp_obj_DecKZd')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/8f', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/8f/tmp_obj_pfQaIk', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/8f/c511c2b4ea3c0467c107fee0613d7df0d8891a')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/8f/tmp_obj_pfQaIk')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/62', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/62/tmp_obj_KbdITb', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/62/0915c78fcc9b47c04195ab3809dda016b8c9f1')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/62/tmp_obj_KbdITb')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b5', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b5/tmp_obj_OFncme', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b5/5dda96e537766012ef2b7bced245e29939fd45')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b5/tmp_obj_OFncme')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ba', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ba/tmp_obj_6qzssi', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ba/ef7435ce089835a0279ef34ee32f8d66e49310')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ba/tmp_obj_6qzssi')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/af', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/af/tmp_obj_WDGngn', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/af/5654f98a506c0e59ff24c427fe29af882979b4')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/af/tmp_obj_WDGngn')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/bf', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/bf/tmp_obj_os77zq', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/bf/9d6aac94345db88406c69de9b86f205998b8c2')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/bf/tmp_obj_os77zq')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/93', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/93/tmp_obj_el6Hew', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/93/085f29feffc6e526a03079000dc73f968e0995')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/93/tmp_obj_el6Hew')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/65', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/65/tmp_obj_cSrEvA', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/65/ae1db6343acdb73ca949fe25524da4fd8cac7f')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/65/tmp_obj_cSrEvA')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/79', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/79/tmp_obj_4rIMwG', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/79/a42235f42a3e344c69305945c22dd880d39d6e')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/79/tmp_obj_4rIMwG')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cd', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cd/tmp_obj_mf3ccH', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cd/6bc1b84bec2ccc57e69e1dc4b6535647cc2efe')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cd/tmp_obj_mf3ccH')
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8/tmp_obj_8rdnBL', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8/7c6e0663657eeed28184a356d2b11b779bbe79')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8/tmp_obj_8rdnBL')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/86', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/86/tmp_obj_0hSzwP', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/86/0e0a2a68f50895d1a69550ce37a24acc712109')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/86/tmp_obj_0hSzwP')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/98', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/98/tmp_obj_yNLIgR', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/98/141321e9e0cc95c22edae068cfb775ca28d953')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/98/tmp_obj_yNLIgR')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d0', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d0/tmp_obj_UMVibV', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d0/3a640752fe39a6e87725c56418703d8dc15afa')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d0/tmp_obj_UMVibV')
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/55/tmp_obj_4l3IG1', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/55/ed5fc127783255198f028cac7907da14f3d87f')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/55/tmp_obj_4l3IG1')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13/tmp_obj_7y6uOo', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13/0b586475ea23ac8311964098e8aec3d08210bc')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13/tmp_obj_7y6uOo')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e3', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e3/tmp_obj_jnBpPv', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e3/9600ac5abc8fa51f97c1da4552a0f0d0158bad')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e3/tmp_obj_jnBpPv')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/5e', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/5e/tmp_obj_F0tYuv', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/5e/26471a5ab97c1c928b7302190c8ceabeb40f0f')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/5e/tmp_obj_F0tYuv')
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13/tmp_obj_L7tVhv', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13/570ce0399d9122cef259b6ab10305b833e2ac0')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13/tmp_obj_L7tVhv')
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/86/tmp_obj_FwQZfw', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/86/2af694603d239f86ccfeebd85563d82ebd5958')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/86/tmp_obj_FwQZfw')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/7b', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/7b/tmp_obj_lMFHWv', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/7b/f218885cf3a23d6d3f07ececad481db8bb188d')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/7b/tmp_obj_lMFHWv')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d8', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d8/tmp_obj_vV1daz', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d8/235aaffb06ad9d164670e5ca019b3fd432a077')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d8/tmp_obj_vV1daz')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9e', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9e/tmp_obj_rjV1Sy', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9e/d936eb39420daae869c7e641c870eb12dddc26')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9e/tmp_obj_rjV1Sy')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9b', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9b/tmp_obj_38BXPz', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9b/aa519fb11cfb065190df50db25548d6c1ea2de')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9b/tmp_obj_38BXPz')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d3', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d3/tmp_obj_tqWa0x', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d3/a29053a17574986601deff63df1e9c95047f05')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d3/tmp_obj_tqWa0x')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/60', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/60/tmp_obj_Lrkdmy', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/60/7dfc38458f342b5a91381bf5c65ef54328da2d')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/60/tmp_obj_Lrkdmy')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9a', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9a/tmp_obj_dKIixB', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9a/b95300e088ad3736df3909f64d8bbd7c4e56de')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9a/tmp_obj_dKIixB')
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13/tmp_obj_xkQnlB', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13/c3f47f79ee2382fd7c9c849287bc1aa13e49ac')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13/tmp_obj_xkQnlB')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/47', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/47/tmp_obj_xIwPdC', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/47/deb79a638e9344195df145ad45a31a2c7db3b6')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/47/tmp_obj_xIwPdC')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/4f', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/4f/tmp_obj_RU3BYB', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/4f/0be5265c72b411059577c249e5cfdbde457ebf')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/4f/tmp_obj_RU3BYB')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f9', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f9/tmp_obj_XDNucA', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f9/05a59fa01d6bbbe059bf6debb0167394ad9ac4')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f9/tmp_obj_XDNucA')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cb', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cb/tmp_obj_3OvFXA', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cb/4662a8037c5f4b6da3ecc5579bdc11ddddd62d')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cb/tmp_obj_3OvFXA')
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/67/tmp_obj_hECfCA', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/67/13c41d26a0211b02edbffe240caac266c961fa')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/67/tmp_obj_hECfCA')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/1c', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/1c/tmp_obj_b74ZID', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/1c/4ccdd3aade047956bc3fd0881fec9ff442dcba')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/1c/tmp_obj_b74ZID')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e1', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e1/tmp_obj_ZczQbE', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e1/2e61304b5d70e8d6ba8d9391405ba8a2693452')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e1/tmp_obj_ZczQbE')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/1b', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/1b/tmp_obj_B6Bs5C', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/1b/ebf27cad556268c84a7d7e1a22e68c2e3587fd')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/1b/tmp_obj_B6Bs5C')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/68', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/68/tmp_obj_ZkdvVF', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/68/d5c1111327328bcffcacb763b03fb9a9df7c94')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/68/tmp_obj_ZkdvVF')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/16', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/16/tmp_obj_95s4OG', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/16/4c0ac27729530971c927237eb291ed5039269f')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/16/tmp_obj_95s4OG')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/bc', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/bc/tmp_obj_AJwTZ1', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/bc/1d7e94d87f09145c920581cc39921ac26a03d9')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/bc/tmp_obj_AJwTZ1')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cc', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cc/tmp_obj_n7a8se', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cc/4660f9b6807c0eb896a2e1521a90dea62b4021')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cc/tmp_obj_n7a8se')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/c5', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/c5/tmp_obj_pY9fer', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/c5/ad8ea961ba56589eb65484a876b2cafce84171')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/c5/tmp_obj_pY9fer')
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/61/tmp_obj_XrQ0It', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/61/cb7c15bf18d425a483efa40b84d6e7bf829591')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/61/tmp_obj_XrQ0It')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/50', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/50/tmp_obj_7y9n4y', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/50/17a42e074c6cf309f64893ad8479f3694808d7')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/50/tmp_obj_7y9n4y')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/8e', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/8e/tmp_obj_F2HWsA', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/8e/df154635ce8c0594f3f8460263342fae6c02e7')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/8e/tmp_obj_F2HWsA')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2d', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2d/tmp_obj_hIRjbD', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2d/a916711c908b7f348441e3b47ad8a4f968da21')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2d/tmp_obj_hIRjbD')
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/07/tmp_obj_t6o2fF', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/07/44178d1f7681cbf2ba9bcb2994f3ce1fec2805')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/07/tmp_obj_t6o2fF')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2c', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2c/tmp_obj_NaWgUK', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2c/663a5e6817849d41d162ba880eb52d88c4cf23')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2c/tmp_obj_NaWgUK')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d7', 0x00000000000001ff)
+link('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d7/tmp_obj_lwMc9L', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d7/7adbbef63e909bdf215bcffda40cf6e2fc0dcc')  Verifying dependencies for hts@0.3.10
+ Installing hts@0.3.10
+    Copying file /tmp/nimble_4813/githubcom_brentphtsnim/src/hts.nim to /home/runner/.nimble/pkgs/hts-0.3.10/hts.nim
+    Copying file /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/csi.nim to /home/runner/.nimble/pkgs/hts-0.3.10/hts/csi.nim
+    Copying file /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/files.nim to /home/runner/.nimble/pkgs/hts-0.3.10/hts/files.nim
+    Copying file /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/vcf.nim to /home/runner/.nimble/pkgs/hts-0.3.10/hts/vcf.nim
+    Copying file /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bgzf/bgzi.nim to /home/runner/.nimble/pkgs/hts-0.3.10/hts/bgzf/bgzi.nim
+    Copying file /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/private/hts_concat.nim to /home/runner/.nimble/pkgs/hts-0.3.10/hts/private/hts_concat.nim
+    Copying file /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/private/hts_concat.h to /home/runner/.nimble/pkgs/hts-0.3.10/hts/private/hts_concat.h
+    Copying file /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bam.nim to /home/runner/.nimble/pkgs/hts-0.3.10/hts/bam.nim
+    Copying file /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/utils.nim to /home/runner/.nimble/pkgs/hts-0.3.10/hts/utils.nim
+    Copying file /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/simpleoption.nim to /home/runner/.nimble/pkgs/hts-0.3.10/hts/simpleoption.nim
+    Copying file /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/value.nim to /home/runner/.nimble/pkgs/hts-0.3.10/hts/value.nim
+    Copying file /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bam/enums.nim to /home/runner/.nimble/pkgs/hts-0.3.10/hts/bam/enums.nim
+    Copying file /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bam/auxtags.nim to /home/runner/.nimble/pkgs/hts-0.3.10/hts/bam/auxtags.nim
+    Copying file /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bam/cigar.nim to /home/runner/.nimble/pkgs/hts-0.3.10/hts/bam/cigar.nim
+    Copying file /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bam/flag.nim to /home/runner/.nimble/pkgs/hts-0.3.10/hts/bam/flag.nim
+
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d7/tmp_obj_lwMc9L')
+rename('/tmp/nimble_4813/githubcom_brentphtsnim/.git/shallow.lock', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/shallow')
+rename('/tmp/nimble_4813/githubcom_brentphtsnim/.git/packed-refs.new', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/packed-refs')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/packed-refs.lock')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/refs/tags/v0.3.10.lock')
+mkdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_4813/githubcom_brentphtsnim/.git/HEAD.lock', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/HEAD')
 mkdir('docker', 0x00000000000001ff)
 mkdir('docs', 0x00000000000001ff)
 mkdir('docs/hts', 0x00000000000001ff)
@@ -67,625 +330,1206 @@ mkdir('src/hts/bgzf', 0x00000000000001ff)
 mkdir('src/hts/private', 0x00000000000001ff)
 mkdir('tests', 0x00000000000001ff)
 mkdir('tests/test_files', 0x00000000000001ff)
-rename('/tmp/nimble_4591/githubcom_brentphtsnim/.git/index.lock', '/tmp/nimble_4591/githubcom_brentphtsnim/.git/index')
+rename('/tmp/nimble_4813/githubcom_brentphtsnim/.git/index.lock', '/tmp/nimble_4813/githubcom_brentphtsnim/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/hts_2076980062', 0x00000000000001ff)
-unlink('/tmp/nimblecache/hts_2076980062/hts.ini')
-unlink('/tmp/nimble_4591.out')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/hts_4591.nims')
+mkdir('/tmp/nimblecache/hts_3387468205', 0x00000000000001ff)
+unlink('/tmp/nimblecache/hts_3387468205/hts.ini')
+unlink('/tmp/nimble_4813.out')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/hts_4813.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10', 0x00000000000001ff)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8/hts', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/hts-0.3.8/hts/bam.nim', 0x00000000000001a4)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/hts-0.3.10/hts.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8/hts', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/hts-0.3.8/hts/value.nim', 0x00000000000001a4)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10/hts', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/hts-0.3.10/hts/csi.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8/hts', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/hts-0.3.8/hts/bgzf.nim', 0x00000000000001a4)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10/hts', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/hts-0.3.10/hts/files.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8/hts', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/hts-0.3.8/hts/utils.nim', 0x00000000000001a4)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10/hts', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/hts-0.3.10/hts/vcf.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8/hts', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/hts-0.3.8/hts/fai.nim', 0x00000000000001a4)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10/hts', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10/hts/bgzf', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/hts-0.3.10/hts/bgzf/bgzi.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8/hts', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/hts-0.3.8/hts/vcf.nim', 0x00000000000001a4)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10/hts', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10/hts/private', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/hts-0.3.10/hts/private/hts_concat.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8/hts', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8/hts/bgzf', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/hts-0.3.8/hts/bgzf/bgzi.nim', 0x00000000000001a4)    Copying file /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/private/hts_concat.nim to /home/runner/.nimble/pkgs/hts-0.3.8/hts/private/hts_concat.nim
-    Copying file /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/private/hts_concat.h to /home/runner/.nimble/pkgs/hts-0.3.8/hts/private/hts_concat.h
-    Copying file /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/files.nim to /home/runner/.nimble/pkgs/hts-0.3.8/hts/files.nim
-    Copying file /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/stats.nim to /home/runner/.nimble/pkgs/hts-0.3.8/hts/stats.nim
-    Copying file /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/simpleoption.nim to /home/runner/.nimble/pkgs/hts-0.3.8/hts/simpleoption.nim
-    Copying file /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bam/flag.nim to /home/runner/.nimble/pkgs/hts-0.3.8/hts/bam/flag.nim
-    Copying file /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bam/enums.nim to /home/runner/.nimble/pkgs/hts-0.3.8/hts/bam/enums.nim
-    Copying file /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bam/cigar.nim to /home/runner/.nimble/pkgs/hts-0.3.8/hts/bam/cigar.nim
-    Copying file /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bam/auxtags.nim to /home/runner/.nimble/pkgs/hts-0.3.8/hts/bam/auxtags.nim
-    Copying file /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/csi.nim to /home/runner/.nimble/pkgs/hts-0.3.8/hts/csi.nim
-    Copying file /tmp/nimble_4591/githubcom_brentphtsnim/src/hts.nim to /home/runner/.nimble/pkgs/hts-0.3.8/hts.nim
-    Copying file /tmp/nimble_4591/githubcom_brentphtsnim/hts.nimble to /home/runner/.nimble/pkgs/hts-0.3.8/hts.nimble
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10/hts', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10/hts/private', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/hts-0.3.10/hts/private/hts_concat.h', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10/hts', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/hts-0.3.10/hts/bam.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10/hts', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/hts-0.3.10/hts/utils.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10/hts', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/hts-0.3.10/hts/simpleoption.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10/hts', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/hts-0.3.10/hts/value.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10/hts', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10/hts/bam', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/hts-0.3.10/hts/bam/enums.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10/hts', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10/hts/bam', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/hts-0.3.10/hts/bam/auxtags.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10/hts', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10/hts/bam', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/hts-0.3.10/hts/bam/cigar.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10/hts', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10/hts/bam', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/hts-0.3.10/hts/bam/flag.nim', 0x00000000000001a4)    Copying file /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/stats.nim to /home/runner/.nimble/pkgs/hts-0.3.10/hts/stats.nim
+    Copying file /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/fai.nim to /home/runner/.nimble/pkgs/hts-0.3.10/hts/fai.nim
+    Copying file /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bgzf.nim to /home/runner/.nimble/pkgs/hts-0.3.10/hts/bgzf.nim
+    Copying file /tmp/nimble_4813/githubcom_brentphtsnim/hts.nimble to /home/runner/.nimble/pkgs/hts-0.3.10/hts.nimble
    Success: hts installed successfully.
 
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8/hts', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8/hts/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/hts-0.3.8/hts/private/hts_concat.nim', 0x00000000000001a4)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10/hts', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/hts-0.3.10/hts/stats.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8/hts', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8/hts/private', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/hts-0.3.8/hts/private/hts_concat.h', 0x00000000000001a4)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10/hts', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/hts-0.3.10/hts/fai.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8/hts', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/hts-0.3.8/hts/files.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8/hts', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/hts-0.3.8/hts/stats.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8/hts', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/hts-0.3.8/hts/simpleoption.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8/hts', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8/hts/bam', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/hts-0.3.8/hts/bam/flag.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8/hts', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8/hts/bam', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/hts-0.3.8/hts/bam/enums.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8/hts', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8/hts/bam', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/hts-0.3.8/hts/bam/cigar.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8/hts', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8/hts/bam', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/hts-0.3.8/hts/bam/auxtags.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8/hts', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/hts-0.3.8/hts/csi.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hts-0.3.8', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/hts-0.3.8/hts.nim', 0x00000000000001a4)
-chmod('/home/runner/.nimble/pkgs/hts-0.3.8/hts.nimble', 0x00000000000001a4)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hts-0.3.10/hts', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/hts-0.3.10/hts/bgzf.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/hts-0.3.10/hts.nimble', 0x00000000000001a4)
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/hts_3968919147', 0x00000000000001ff)
-unlink('/tmp/nimblecache/hts_3968919147/hts.ini')
-unlink('/tmp/nimble_4591.out')
-unlink('/home/runner/.nimble/pkgs/hts-0.3.8/hts_4591.nims')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bam.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/src/hts/value.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bgzf.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/src/hts/utils.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/src/hts/fai.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/src/hts/vcf.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bgzf/bgzi.nim')
-rmdir('/tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bgzf')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/src/hts/private/hts_concat.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/src/hts/private/hts_concat.h')
-rmdir('/tmp/nimble_4591/githubcom_brentphtsnim/src/hts/private')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/src/hts/files.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/src/hts/stats.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/src/hts/simpleoption.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bam/flag.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bam/enums.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bam/cigar.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bam/auxtags.nim')
-rmdir('/tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bam')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/src/hts/csi.nim')
-rmdir('/tmp/nimble_4591/githubcom_brentphtsnim/src/hts')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/src/hts.nim')
-rmdir('/tmp/nimble_4591/githubcom_brentphtsnim/src')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.gitignore')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/Dockerfile')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/scripts/simple-install.sh')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/scripts/install.sh')
-rmdir('/tmp/nimble_4591/githubcom_brentphtsnim/scripts')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/hts.nimble')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.dockerignore')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/LICENSE')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.travis.yml')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/CHANGES.md')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/docs/.nojekyll')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/docs/style.css')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/docs/hts/simpleoption.html')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/docs/hts/csi.html')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/docs/hts/bam.html')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/docs/hts/bgzf.html')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/docs/hts/nimdoc.css')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/docs/hts/vcf.html')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/docs/hts/utils.html')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/docs/hts/nimdoc.out.css')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/docs/hts/fai.html')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/docs/hts/value.html')
-rmdir('/tmp/nimble_4591/githubcom_brentphtsnim/docs/hts')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/docs/index.html')
-rmdir('/tmp/nimble_4591/githubcom_brentphtsnim/docs')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/Dockerfile.musl-hts-nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/HEAD')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/config')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/logs/HEAD')
-rmdir('/tmp/nimble_4591/githubcom_brentphtsnim/.git/logs')
-rmdir('/tmp/nimble_4591/githubcom_brentphtsnim/.git/branches')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/packed-refs')
-rmdir('/tmp/nimble_4591/githubcom_brentphtsnim/.git/refs/heads')
-rmdir('/tmp/nimble_4591/githubcom_brentphtsnim/.git/refs/tags')
-rmdir('/tmp/nimble_4591/githubcom_brentphtsnim/.git/refs')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks/update.sample')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/index')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/info/exclude')
-rmdir('/tmp/nimble_4591/githubcom_brentphtsnim/.git/info')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/shallow')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/description')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/objects/pack/pack-893251cb676a0ee70cdbe02d4da38cefe2369086.idx')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/.git/objects/pack/pack-893251cb676a0ee70cdbe02d4da38cefe2369086.pack')
-rmdir('/tmp/nimble_4591/githubcom_brentphtsnim/.git/objects/pack')
-rmdir('/tmp/nimble_4591/githubcom_brentphtsnim/.git/objects/info')
-rmdir('/tmp/nimble_4591/githubcom_brentphtsnim/.git/objects')
-rmdir('/tmp/nimble_4591/githubcom_brentphtsnim/.git')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/docker/nsb.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/docker/docker.nim.cfg')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/docker/hts_nim_static_builder.nim')
-rmdir('/tmp/nimble_4591/githubcom_brentphtsnim/docker')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/README.md')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/aa.fa.fai')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/test.vcf.gz')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/test.bcf.csi')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/sa.sam')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/HG02002.bam')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/htstest.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/csq-bug.vcf.gz')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/all.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/other-for-test.bcf.csi')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/statstests.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/HG02002.bam.bai')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/unknown-alts.vcf')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/test.bcf')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/sa.bam')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/bamtest.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/cigartest.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/vcfiso.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/bgzftest.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/test_files/simple.tsv.gz.csi')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/test_files/simple.tsv.gz')
-rmdir('/tmp/nimble_4591/githubcom_brentphtsnim/tests/test_files')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/sample.fa')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/vcftest.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/run.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/gzip-err.gz')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/auxtest.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/test_readme.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/test_files.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/faitest.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/sa.bam.bai')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/decomposed.vcf')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/flagtest.nim')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/aa.fa')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/test.vcf.gz.tbi')
-unlink('/tmp/nimble_4591/githubcom_brentphtsnim/tests/nim.cfg')
-rmdir('/tmp/nimble_4591/githubcom_brentphtsnim/tests')
-rmdir('/tmp/nimble_4591/githubcom_brentphtsnim')
-rmdir('/tmp/nimble_4591')
+mkdir('/tmp/nimblecache/hts_1141290684', 0x00000000000001ff)
+unlink('/tmp/nimblecache/hts_1141290684/hts.ini')
+unlink('/tmp/nimble_4813.out')
+unlink('/home/runner/.nimble/pkgs/hts-0.3.10/hts_4813.nims')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/docs/style.css')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/docs/hts/vcf.html')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/docs/hts/nimdoc.out.css')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/docs/hts/bam.html')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/docs/hts/utils.html')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/docs/hts/value.html')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/docs/hts/bgzf.html')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/docs/hts/fai.html')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/docs/hts/simpleoption.html')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/docs/hts/nimdoc.css')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/docs/hts/csi.html')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/docs/hts')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/docs/index.html')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/docs/.nojekyll')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/docs')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/Dockerfile')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/hts.nimble')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/scripts/simple-install.sh')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/scripts/install.sh')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/scripts')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/Dockerfile.musl-hts-nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/README.md')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/refs/tags')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/refs/heads')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/refs')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/info/exclude')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/info')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/branches')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/logs/HEAD')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/logs')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/description')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks/update.sample')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/shallow')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/config')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/index')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/79/a42235f42a3e344c69305945c22dd880d39d6e')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/79')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/10/cc10f65199d2f60a8c66a2fd9fc5695026a701')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/10')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0c/bd6a21551f424b15ff2b780151707078a214b7')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0c')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/97/2ea74789d6e2700f09fe17222ebf3f9e7e2171')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/97')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/4f/0be5265c72b411059577c249e5cfdbde457ebf')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/4f')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/60/7dfc38458f342b5a91381bf5c65ef54328da2d')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/60')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/4e/e73eaf98f86e42f0659fa0de2291a73a06722b')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/4e')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/5c/d61c5f5c84a113223e935ad698b660d02427d0')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/5c')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b5/5dda96e537766012ef2b7bced245e29939fd45')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b5')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/6d/dbdee7dd29e1d378470869da899f4cd95d8a85')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/6d')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/93/085f29feffc6e526a03079000dc73f968e0995')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/93')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/61/29aefd8edd0282ee955ee83bd60ab8b71d9ffe')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/61/cb7c15bf18d425a483efa40b84d6e7bf829591')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/61')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/1b/ebf27cad556268c84a7d7e1a22e68c2e3587fd')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/1b')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ac/96863d6d5e70c2edabf4d4d9708c75e704399b')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ac/38a0f29ee73ae14039d7fc54fa5d045dc8fc02')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ac')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2e/196dba79e009556348679f8139c5f38d81ecef')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2e')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/info')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/fc/418f3094d92efcb32fcaaf23c0666827f0e89a')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/fc')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/63/4df9e769c4cdcd7ab355375396f8ce0ef59e84')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/63')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d8/235aaffb06ad9d164670e5ca019b3fd432a077')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d8')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e3/9600ac5abc8fa51f97c1da4552a0f0d0158bad')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e3')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ae/2303d59794f389728b44826a2837e33c8a5f38')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ae')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/72/b6734abefba2881ccfc75bc9ad0c63fa602bbd')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/72')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/c5/ad8ea961ba56589eb65484a876b2cafce84171')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/c5')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9b/aa519fb11cfb065190df50db25548d6c1ea2de')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9b')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/47/deb79a638e9344195df145ad45a31a2c7db3b6')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/47')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/af/5654f98a506c0e59ff24c427fe29af882979b4')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/af')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/8f/c511c2b4ea3c0467c107fee0613d7df0d8891a')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/8f')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/50/17a42e074c6cf309f64893ad8479f3694808d7')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/50')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/84/78f1544466a48d4d4a4b1e3ace5960d1889e68')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/84')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/c1/8e1d8d0938bad3f080e36dfc2b4d0d7cce8903')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/c1')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13/570ce0399d9122cef259b6ab10305b833e2ac0')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13/0b586475ea23ac8311964098e8aec3d08210bc')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13/c3f47f79ee2382fd7c9c849287bc1aa13e49ac')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/bf/9d6aac94345db88406c69de9b86f205998b8c2')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/bf')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/62/0915c78fcc9b47c04195ab3809dda016b8c9f1')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/62')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/58/e5f53884f20e535a8ed7cb9a29671ec3134c06')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/58')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d3/a29053a17574986601deff63df1e9c95047f05')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d3')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/07/5632eb7bdebff3b963b3ab75ee4108009c5a60')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/07/44178d1f7681cbf2ba9bcb2994f3ce1fec2805')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/07')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/78/8eaeb32e8da9ce5100cfd839db05e5015e23b2')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/78')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e1/2e61304b5d70e8d6ba8d9391405ba8a2693452')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e1')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/67/9eb391edac4a1337c878e07c0f811810880aa2')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/67/13c41d26a0211b02edbffe240caac266c961fa')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/67')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/68/d5c1111327328bcffcacb763b03fb9a9df7c94')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/68')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cc/4660f9b6807c0eb896a2e1521a90dea62b4021')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cc')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cb/4662a8037c5f4b6da3ecc5579bdc11ddddd62d')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cb')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0b/063ff3d4b0953a14b6e06ba4a723bff2660966')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0b')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/bc/1d7e94d87f09145c920581cc39921ac26a03d9')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/bc')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0a/3f28146cc76ef6a8fb6cabd6a039879b4ca74c')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0a/ad772bafed1adb24af1854ca87de8863174493')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0a')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/98/141321e9e0cc95c22edae068cfb775ca28d953')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/98')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/1c/4ccdd3aade047956bc3fd0881fec9ff442dcba')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/1c')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/3e/2c7d2cfda17b7708e147bf758adc4708e73b37')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/3e')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/8e/df154635ce8c0594f3f8460263342fae6c02e7')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/8e')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/7b/f218885cf3a23d6d3f07ececad481db8bb188d')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/7b')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ee/0a83a19b619c8f15a003c680d220628f822099')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ee')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9a/b95300e088ad3736df3909f64d8bbd7c4e56de')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9a')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/16/4c0ac27729530971c927237eb291ed5039269f')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/16')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/5e/26471a5ab97c1c928b7302190c8ceabeb40f0f')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/5e')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d7/7adbbef63e909bdf215bcffda40cf6e2fc0dcc')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d7')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f6/1fe25d601569718e795c2c8bf96fa5349e80e7')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f6/cb6750745bea2454bc566a190222664bde0163')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f6')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f9/05a59fa01d6bbbe059bf6debb0167394ad9ac4')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f9')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/86/2af694603d239f86ccfeebd85563d82ebd5958')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/86/0e0a2a68f50895d1a69550ce37a24acc712109')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/86')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9e/d936eb39420daae869c7e641c870eb12dddc26')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9e')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/65/ae1db6343acdb73ca949fe25524da4fd8cac7f')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/65')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/40/9762e37b6510e9cdc5832814b0525b32705739')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/40')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cd/6bc1b84bec2ccc57e69e1dc4b6535647cc2efe')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cd')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8/4e72305a2fb11c2b5deea2b8dc98e9c7ac3ccd')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8/6094bd9a746139b2294b13bc09697352cc0365')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8/7c6e0663657eeed28184a356d2b11b779bbe79')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/56/3f51a8b2767055c0ba5c645d8ad05c8a678652')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/56')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d0/3a640752fe39a6e87725c56418703d8dc15afa')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d0')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ba/ef7435ce089835a0279ef34ee32f8d66e49310')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ba')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/55/3bde54d209e6349967ec1f10a1880fd6430eab')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/55/ed5fc127783255198f028cac7907da14f3d87f')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/55')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/12/e29d3fa7e32f537800c6d956fbc1f2fecb7007')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/12')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/74/f4550322d0601990ffb0e4b35b4ea0e4122012')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/74')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2b/d939367c00ea2564e02894a09fe326ba18805a')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2b/bb7f3e8a1113a93acaafb5b53ce885735cd9e7')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2b')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2c/663a5e6817849d41d162ba880eb52d88c4cf23')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2c')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/fd/ffeb96218b3953ca884a5af5aa694745bd4196')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/fd')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/7e/d588f2370eb78637f971de8e5a1f5f5d626878')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/7e')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9f/11ac04f0ecdb0e1530f50b5fe4b07b7a6f95d6')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9f')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/pack')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2d/a916711c908b7f348441e3b47ad8a4f968da21')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2d')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/06/b576561c77d488bed350200ce7733edea97132')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/06')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/6e/884fdb1fe3bd5543916b86b5f3c7fc5fe2c2ca')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/6e')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/44/16e43946299f91acfe7a932d3f21d73aa6e8eb')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/44')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e6')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git/objects')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/packed-refs')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.git/HEAD')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/.git')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/src/hts.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/src/hts/csi.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/src/hts/files.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/src/hts/vcf.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bgzf/bgzi.nim')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bgzf')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/src/hts/private/hts_concat.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/src/hts/private/hts_concat.h')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/src/hts/private')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bam.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/src/hts/utils.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/src/hts/simpleoption.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/src/hts/value.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bam/enums.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bam/auxtags.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bam/cigar.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bam/flag.nim')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bam')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/src/hts/stats.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/src/hts/fai.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bgzf.nim')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/src/hts')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/src')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.travis.yml')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/docker/docker.nim.cfg')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/docker/hts_nim_static_builder.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/docker/nsb.nim')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/docker')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/statstests.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/other-for-test.bcf.csi')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/run.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/gzip-err.gz')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/decomposed.vcf')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/vcftest.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/all.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/HG02002.bam.bai')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/faitest.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/bgzftest.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/sa.bam')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/sample.fa')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/test.vcf.gz.tbi')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/test.bcf')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/test.vcf.gz')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/bamtest.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/flagtest.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/cigartest.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/sa.sam')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/test_files/simple.tsv.gz.csi')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/test_files/simple.tsv.gz')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/tests/test_files')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/vcfiso.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/test_files.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/htstest.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/HG02002.bam')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/unknown-alts.vcf')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/csq-bug.vcf.gz')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/nim.cfg')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/test.bcf.csi')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/aa.fa')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/sa.bam.bai')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/test_readme.nim')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/aa.fa.fai')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/tests/auxtest.nim')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim/tests')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.dockerignore')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/.gitignore')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/CHANGES.md')
+unlink('/tmp/nimble_4813/githubcom_brentphtsnim/LICENSE')
+rmdir('/tmp/nimble_4813/githubcom_brentphtsnim')
+rmdir('/tmp/nimble_4813')
   create directory /tmp
-  create directory /tmp/nimble_4591
-  create directory /tmp/nimble_4591/githubcom_brentphtsnim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim
-  create directory /tmp/nimble_4591/githubcom_brentphtsnim
-  create directory /tmp/nimble_4591/githubcom_brentphtsnim/.git
-  create directory /tmp/nimble_4591/githubcom_brentphtsnim/.git
-  create directory /tmp/nimble_4591/githubcom_brentphtsnim/.git/branches
-  create directory /tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks
-  create directory /tmp/nimble_4591/githubcom_brentphtsnim/.git/info
-  create directory /tmp/nimble_4591/githubcom_brentphtsnim/.git/refs
-  create directory /tmp/nimble_4591/githubcom_brentphtsnim/.git/refs/heads
-  create directory /tmp/nimble_4591/githubcom_brentphtsnim/.git/refs/tags
-  rename /tmp/nimble_4591/githubcom_brentphtsnim/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_4591/githubcom_brentphtsnim/.git/config.lock to config
-  change permissions of /tmp/nimble_4591/githubcom_brentphtsnim/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_4591/githubcom_brentphtsnim/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_4591/githubcom_brentphtsnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4591/githubcom_brentphtsnim/.git/config.lock to config
-  change permissions of /tmp/nimble_4591/githubcom_brentphtsnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4591/githubcom_brentphtsnim/.git/config.lock to config
-  change permissions of /tmp/nimble_4591/githubcom_brentphtsnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4591/githubcom_brentphtsnim/.git/config.lock to config
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/tsACZTE
-  create symbolic link from /tmp/nimble_4591/githubcom_brentphtsnim/.git/tsACZTE to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/tsACZTE
-  create directory /tmp/nimble_4591/githubcom_brentphtsnim/.git/objects
-  create directory /tmp/nimble_4591/githubcom_brentphtsnim/.git/objects/pack
-  create directory /tmp/nimble_4591/githubcom_brentphtsnim/.git/objects/info
-  change permissions of /tmp/nimble_4591/githubcom_brentphtsnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4591/githubcom_brentphtsnim/.git/config.lock to config
-  change permissions of /tmp/nimble_4591/githubcom_brentphtsnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4591/githubcom_brentphtsnim/.git/config.lock to config
-  change permissions of /tmp/nimble_4591/githubcom_brentphtsnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4591/githubcom_brentphtsnim/.git/config.lock to config
-  create hard link from /tmp/nimble_4591/githubcom_brentphtsnim/.git/objects/pack/pack-893251cb676a0ee70cdbe02d4da38cefe2369086.pack to /tmp/nimble_4591/githubcom_brentphtsnim/.git/objects/pack/tmp_pack_AButhn
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/objects/pack/tmp_pack_AButhn
-  create hard link from /tmp/nimble_4591/githubcom_brentphtsnim/.git/objects/pack/pack-893251cb676a0ee70cdbe02d4da38cefe2369086.idx to /tmp/nimble_4591/githubcom_brentphtsnim/.git/objects/pack/tmp_idx_MaVguv
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/objects/pack/tmp_idx_MaVguv
-  rename /tmp/nimble_4591/githubcom_brentphtsnim/.git/shallow.lock to shallow
-  rename /tmp/nimble_4591/githubcom_brentphtsnim/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/packed-refs.lock
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/refs/tags/v0.3.8.lock
-  create directory /tmp/nimble_4591/githubcom_brentphtsnim/.git/logs
-  rename /tmp/nimble_4591/githubcom_brentphtsnim/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/objects/pack/pack-893251cb676a0ee70cdbe02d4da38cefe2369086.keep
-  create directory /tmp/nimble_4591/githubcom_brentphtsnim/docker
-  create directory /tmp/nimble_4591/githubcom_brentphtsnim/docs
-  create directory /tmp/nimble_4591/githubcom_brentphtsnim/docs/hts
-  create directory /tmp/nimble_4591/githubcom_brentphtsnim/scripts
-  create directory /tmp/nimble_4591/githubcom_brentphtsnim/src
-  create directory /tmp/nimble_4591/githubcom_brentphtsnim/src/hts
-  create directory /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bam
-  create directory /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bgzf
-  create directory /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/private
-  create directory /tmp/nimble_4591/githubcom_brentphtsnim/tests
-  create directory /tmp/nimble_4591/githubcom_brentphtsnim/tests/test_files
-  rename /tmp/nimble_4591/githubcom_brentphtsnim/.git/index.lock to index
+  create directory /tmp/nimble_4813
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/info
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/branches
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/refs
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/refs/heads
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/refs/tags
+  rename /tmp/nimble_4813/githubcom_brentphtsnim/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_4813/githubcom_brentphtsnim/.git/config.lock to config
+  change permissions of /tmp/nimble_4813/githubcom_brentphtsnim/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_4813/githubcom_brentphtsnim/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_4813/githubcom_brentphtsnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4813/githubcom_brentphtsnim/.git/config.lock to config
+  change permissions of /tmp/nimble_4813/githubcom_brentphtsnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4813/githubcom_brentphtsnim/.git/config.lock to config
+  change permissions of /tmp/nimble_4813/githubcom_brentphtsnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4813/githubcom_brentphtsnim/.git/config.lock to config
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/tDuwlQj
+  create symbolic link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/tDuwlQj to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/tDuwlQj
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/pack
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/info
+  change permissions of /tmp/nimble_4813/githubcom_brentphtsnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4813/githubcom_brentphtsnim/.git/config.lock to config
+  change permissions of /tmp/nimble_4813/githubcom_brentphtsnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4813/githubcom_brentphtsnim/.git/config.lock to config
+  change permissions of /tmp/nimble_4813/githubcom_brentphtsnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4813/githubcom_brentphtsnim/.git/config.lock to config
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/fd
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/fd/ffeb96218b3953ca884a5af5aa694745bd4196 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/fd/tmp_obj_5B4HT7
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/fd/tmp_obj_5B4HT7
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/84
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/84/78f1544466a48d4d4a4b1e3ace5960d1889e68 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/84/tmp_obj_32mQQa
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/84/tmp_obj_32mQQa
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/74
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/74/f4550322d0601990ffb0e4b35b4ea0e4122012 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/74/tmp_obj_hGNrrb
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/74/tmp_obj_hGNrrb
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ac
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ac/38a0f29ee73ae14039d7fc54fa5d045dc8fc02 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ac/tmp_obj_JUp5Xa
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ac/tmp_obj_JUp5Xa
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/40
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/40/9762e37b6510e9cdc5832814b0525b32705739 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/40/tmp_obj_ndlXAc
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/40/tmp_obj_ndlXAc
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ac/96863d6d5e70c2edabf4d4d9708c75e704399b to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ac/tmp_obj_LpZZni
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ac/tmp_obj_LpZZni
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8/4e72305a2fb11c2b5deea2b8dc98e9c7ac3ccd to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8/tmp_obj_OCxama
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8/tmp_obj_OCxama
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/6d
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/6d/dbdee7dd29e1d378470869da899f4cd95d8a85 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/6d/tmp_obj_6B0n4f
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/6d/tmp_obj_6B0n4f
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8/6094bd9a746139b2294b13bc09697352cc0365 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8/tmp_obj_kBajmi
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8/tmp_obj_kBajmi
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/fc
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/fc/418f3094d92efcb32fcaaf23c0666827f0e89a to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/fc/tmp_obj_i47nhm
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/fc/tmp_obj_i47nhm
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/44
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/44/16e43946299f91acfe7a932d3f21d73aa6e8eb to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/44/tmp_obj_WGfXRr
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/44/tmp_obj_WGfXRr
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/06
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/06/b576561c77d488bed350200ce7733edea97132 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/06/tmp_obj_CagJBw
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/06/tmp_obj_CagJBw
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2e
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2e/196dba79e009556348679f8139c5f38d81ecef to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2e/tmp_obj_iwuEvy
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2e/tmp_obj_iwuEvy
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/12
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/12/e29d3fa7e32f537800c6d956fbc1f2fecb7007 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/12/tmp_obj_ALfVqD
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/12/tmp_obj_ALfVqD
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0c
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0c/bd6a21551f424b15ff2b780151707078a214b7 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0c/tmp_obj_sTlBoH
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0c/tmp_obj_sTlBoH
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/58
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/58/e5f53884f20e535a8ed7cb9a29671ec3134c06 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/58/tmp_obj_oBzibM
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/58/tmp_obj_oBzibM
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/55
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/55/3bde54d209e6349967ec1f10a1880fd6430eab to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/55/tmp_obj_0sRkOR
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/55/tmp_obj_0sRkOR
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f6
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f6/1fe25d601569718e795c2c8bf96fa5349e80e7 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f6/tmp_obj_qGb9MQ
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f6/tmp_obj_qGb9MQ
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ee
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ee/0a83a19b619c8f15a003c680d220628f822099 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ee/tmp_obj_aSB33U
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ee/tmp_obj_aSB33U
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ae
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ae/2303d59794f389728b44826a2837e33c8a5f38 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ae/tmp_obj_cxmfX1
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ae/tmp_obj_cxmfX1
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9f
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9f/11ac04f0ecdb0e1530f50b5fe4b07b7a6f95d6 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9f/tmp_obj_aE6Er6
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9f/tmp_obj_aE6Er6
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/07
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/07/5632eb7bdebff3b963b3ab75ee4108009c5a60 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/07/tmp_obj_Anpqpb
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/07/tmp_obj_Anpqpb
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/c1
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/c1/8e1d8d0938bad3f080e36dfc2b4d0d7cce8903 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/c1/tmp_obj_QHRjic
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/c1/tmp_obj_QHRjic
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/7e
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/7e/d588f2370eb78637f971de8e5a1f5f5d626878 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/7e/tmp_obj_CyGKii
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/7e/tmp_obj_CyGKii
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e6
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e6/tmp_obj_pPstga
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e6/tmp_obj_pPstga
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/78
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/78/8eaeb32e8da9ce5100cfd839db05e5015e23b2 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/78/tmp_obj_zqnUHg
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/78/tmp_obj_zqnUHg
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0b
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0b/063ff3d4b0953a14b6e06ba4a723bff2660966 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0b/tmp_obj_xVHeRe
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0b/tmp_obj_xVHeRe
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0a
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0a/3f28146cc76ef6a8fb6cabd6a039879b4ca74c to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0a/tmp_obj_pt1Yqh
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0a/tmp_obj_pt1Yqh
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2b
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2b/d939367c00ea2564e02894a09fe326ba18805a to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2b/tmp_obj_9kDUan
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2b/tmp_obj_9kDUan
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f6/cb6750745bea2454bc566a190222664bde0163 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f6/tmp_obj_tjLNto
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f6/tmp_obj_tjLNto
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/63
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/63/4df9e769c4cdcd7ab355375396f8ce0ef59e84 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/63/tmp_obj_RrDoCq
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/63/tmp_obj_RrDoCq
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/3e
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/3e/2c7d2cfda17b7708e147bf758adc4708e73b37 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/3e/tmp_obj_F3xKMy
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/3e/tmp_obj_F3xKMy
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/72
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/72/b6734abefba2881ccfc75bc9ad0c63fa602bbd to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/72/tmp_obj_FBXiOD
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/72/tmp_obj_FBXiOD
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/4e
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/4e/e73eaf98f86e42f0659fa0de2291a73a06722b to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/4e/tmp_obj_HON2rE
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/4e/tmp_obj_HON2rE
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/97
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/97/2ea74789d6e2700f09fe17222ebf3f9e7e2171 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/97/tmp_obj_dzZIcF
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/97/tmp_obj_dzZIcF
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0a/ad772bafed1adb24af1854ca87de8863174493 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0a/tmp_obj_hLETkL
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0a/tmp_obj_hLETkL
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2b/bb7f3e8a1113a93acaafb5b53ce885735cd9e7 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2b/tmp_obj_lXJrMQ
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2b/tmp_obj_lXJrMQ
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/10
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/10/cc10f65199d2f60a8c66a2fd9fc5695026a701 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/10/tmp_obj_vsLjhX
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/10/tmp_obj_vsLjhX
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/5c
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/5c/d61c5f5c84a113223e935ad698b660d02427d0 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/5c/tmp_obj_FppyTW
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/5c/tmp_obj_FppyTW
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/56
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/56/3f51a8b2767055c0ba5c645d8ad05c8a678652 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/56/tmp_obj_F9oW9Z
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/56/tmp_obj_F9oW9Z
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/61
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/61/29aefd8edd0282ee955ee83bd60ab8b71d9ffe to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/61/tmp_obj_xZP3p6
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/61/tmp_obj_xZP3p6
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/6e
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/6e/884fdb1fe3bd5543916b86b5f3c7fc5fe2c2ca to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/6e/tmp_obj_BxAHSa
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/6e/tmp_obj_BxAHSa
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/67
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/67/9eb391edac4a1337c878e07c0f811810880aa2 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/67/tmp_obj_DecKZd
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/67/tmp_obj_DecKZd
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/8f
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/8f/c511c2b4ea3c0467c107fee0613d7df0d8891a to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/8f/tmp_obj_pfQaIk
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/8f/tmp_obj_pfQaIk
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/62
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/62/0915c78fcc9b47c04195ab3809dda016b8c9f1 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/62/tmp_obj_KbdITb
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/62/tmp_obj_KbdITb
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b5
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b5/5dda96e537766012ef2b7bced245e29939fd45 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b5/tmp_obj_OFncme
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b5/tmp_obj_OFncme
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ba
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ba/ef7435ce089835a0279ef34ee32f8d66e49310 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ba/tmp_obj_6qzssi
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ba/tmp_obj_6qzssi
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/af
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/af/5654f98a506c0e59ff24c427fe29af882979b4 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/af/tmp_obj_WDGngn
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/af/tmp_obj_WDGngn
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/bf
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/bf/9d6aac94345db88406c69de9b86f205998b8c2 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/bf/tmp_obj_os77zq
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/bf/tmp_obj_os77zq
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/93
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/93/085f29feffc6e526a03079000dc73f968e0995 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/93/tmp_obj_el6Hew
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/93/tmp_obj_el6Hew
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/65
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/65/ae1db6343acdb73ca949fe25524da4fd8cac7f to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/65/tmp_obj_cSrEvA
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/65/tmp_obj_cSrEvA
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/79
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/79/a42235f42a3e344c69305945c22dd880d39d6e to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/79/tmp_obj_4rIMwG
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/79/tmp_obj_4rIMwG
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cd
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cd/6bc1b84bec2ccc57e69e1dc4b6535647cc2efe to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cd/tmp_obj_mf3ccH
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cd/tmp_obj_mf3ccH
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8/7c6e0663657eeed28184a356d2b11b779bbe79 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8/tmp_obj_8rdnBL
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8/tmp_obj_8rdnBL
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/86
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/86/0e0a2a68f50895d1a69550ce37a24acc712109 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/86/tmp_obj_0hSzwP
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/86/tmp_obj_0hSzwP
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/98
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/98/141321e9e0cc95c22edae068cfb775ca28d953 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/98/tmp_obj_yNLIgR
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/98/tmp_obj_yNLIgR
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d0
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d0/3a640752fe39a6e87725c56418703d8dc15afa to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d0/tmp_obj_UMVibV
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d0/tmp_obj_UMVibV
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/55/ed5fc127783255198f028cac7907da14f3d87f to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/55/tmp_obj_4l3IG1
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/55/tmp_obj_4l3IG1
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13/0b586475ea23ac8311964098e8aec3d08210bc to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13/tmp_obj_7y6uOo
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13/tmp_obj_7y6uOo
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e3
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e3/9600ac5abc8fa51f97c1da4552a0f0d0158bad to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e3/tmp_obj_jnBpPv
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e3/tmp_obj_jnBpPv
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/5e
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/5e/26471a5ab97c1c928b7302190c8ceabeb40f0f to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/5e/tmp_obj_F0tYuv
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/5e/tmp_obj_F0tYuv
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13/570ce0399d9122cef259b6ab10305b833e2ac0 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13/tmp_obj_L7tVhv
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13/tmp_obj_L7tVhv
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/86/2af694603d239f86ccfeebd85563d82ebd5958 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/86/tmp_obj_FwQZfw
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/86/tmp_obj_FwQZfw
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/7b
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/7b/f218885cf3a23d6d3f07ececad481db8bb188d to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/7b/tmp_obj_lMFHWv
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/7b/tmp_obj_lMFHWv
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d8
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d8/235aaffb06ad9d164670e5ca019b3fd432a077 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d8/tmp_obj_vV1daz
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d8/tmp_obj_vV1daz
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9e
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9e/d936eb39420daae869c7e641c870eb12dddc26 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9e/tmp_obj_rjV1Sy
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9e/tmp_obj_rjV1Sy
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9b
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9b/aa519fb11cfb065190df50db25548d6c1ea2de to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9b/tmp_obj_38BXPz
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9b/tmp_obj_38BXPz
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d3
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d3/a29053a17574986601deff63df1e9c95047f05 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d3/tmp_obj_tqWa0x
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d3/tmp_obj_tqWa0x
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/60
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/60/7dfc38458f342b5a91381bf5c65ef54328da2d to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/60/tmp_obj_Lrkdmy
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/60/tmp_obj_Lrkdmy
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9a
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9a/b95300e088ad3736df3909f64d8bbd7c4e56de to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9a/tmp_obj_dKIixB
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9a/tmp_obj_dKIixB
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13/c3f47f79ee2382fd7c9c849287bc1aa13e49ac to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13/tmp_obj_xkQnlB
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13/tmp_obj_xkQnlB
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/47
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/47/deb79a638e9344195df145ad45a31a2c7db3b6 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/47/tmp_obj_xIwPdC
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/47/tmp_obj_xIwPdC
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/4f
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/4f/0be5265c72b411059577c249e5cfdbde457ebf to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/4f/tmp_obj_RU3BYB
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/4f/tmp_obj_RU3BYB
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f9
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f9/05a59fa01d6bbbe059bf6debb0167394ad9ac4 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f9/tmp_obj_XDNucA
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f9/tmp_obj_XDNucA
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cb
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cb/4662a8037c5f4b6da3ecc5579bdc11ddddd62d to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cb/tmp_obj_3OvFXA
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cb/tmp_obj_3OvFXA
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/67/13c41d26a0211b02edbffe240caac266c961fa to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/67/tmp_obj_hECfCA
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/67/tmp_obj_hECfCA
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/1c
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/1c/4ccdd3aade047956bc3fd0881fec9ff442dcba to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/1c/tmp_obj_b74ZID
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/1c/tmp_obj_b74ZID
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e1
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e1/2e61304b5d70e8d6ba8d9391405ba8a2693452 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e1/tmp_obj_ZczQbE
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e1/tmp_obj_ZczQbE
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/1b
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/1b/ebf27cad556268c84a7d7e1a22e68c2e3587fd to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/1b/tmp_obj_B6Bs5C
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/1b/tmp_obj_B6Bs5C
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/68
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/68/d5c1111327328bcffcacb763b03fb9a9df7c94 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/68/tmp_obj_ZkdvVF
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/68/tmp_obj_ZkdvVF
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/16
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/16/4c0ac27729530971c927237eb291ed5039269f to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/16/tmp_obj_95s4OG
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/16/tmp_obj_95s4OG
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/bc
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/bc/1d7e94d87f09145c920581cc39921ac26a03d9 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/bc/tmp_obj_AJwTZ1
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/bc/tmp_obj_AJwTZ1
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cc
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cc/4660f9b6807c0eb896a2e1521a90dea62b4021 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cc/tmp_obj_n7a8se
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cc/tmp_obj_n7a8se
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/c5
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/c5/ad8ea961ba56589eb65484a876b2cafce84171 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/c5/tmp_obj_pY9fer
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/c5/tmp_obj_pY9fer
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/61/cb7c15bf18d425a483efa40b84d6e7bf829591 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/61/tmp_obj_XrQ0It
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/61/tmp_obj_XrQ0It
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/50
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/50/17a42e074c6cf309f64893ad8479f3694808d7 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/50/tmp_obj_7y9n4y
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/50/tmp_obj_7y9n4y
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/8e
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/8e/df154635ce8c0594f3f8460263342fae6c02e7 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/8e/tmp_obj_F2HWsA
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/8e/tmp_obj_F2HWsA
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2d
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2d/a916711c908b7f348441e3b47ad8a4f968da21 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2d/tmp_obj_hIRjbD
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2d/tmp_obj_hIRjbD
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/07/44178d1f7681cbf2ba9bcb2994f3ce1fec2805 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/07/tmp_obj_t6o2fF
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/07/tmp_obj_t6o2fF
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2c
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2c/663a5e6817849d41d162ba880eb52d88c4cf23 to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2c/tmp_obj_NaWgUK
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2c/tmp_obj_NaWgUK
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d7
+  create hard link from /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d7/7adbbef63e909bdf215bcffda40cf6e2fc0dcc to /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d7/tmp_obj_lwMc9L
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d7/tmp_obj_lwMc9L
+  rename /tmp/nimble_4813/githubcom_brentphtsnim/.git/shallow.lock to shallow
+  rename /tmp/nimble_4813/githubcom_brentphtsnim/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/packed-refs.lock
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/refs/tags/v0.3.10.lock
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/.git/logs
+  rename /tmp/nimble_4813/githubcom_brentphtsnim/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/docker
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/docs
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/docs/hts
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/scripts
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/src
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/src/hts
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bam
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bgzf
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/private
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/tests
+  create directory /tmp/nimble_4813/githubcom_brentphtsnim/tests/test_files
+  rename /tmp/nimble_4813/githubcom_brentphtsnim/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/hts_2076980062
-  delete /tmp/nimblecache/hts_2076980062/hts.ini
-  delete /tmp/nimble_4591.out
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/hts_4591.nims
+  create directory /tmp/nimblecache/hts_3387468205
+  delete /tmp/nimblecache/hts_3387468205/hts.ini
+  delete /tmp/nimble_4813.out
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/hts_4813.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8/hts
-  change permissions of /home/runner/.nimble/pkgs/hts-0.3.8/hts/bam.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10
+  change permissions of /home/runner/.nimble/pkgs/hts-0.3.10/hts.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8/hts
-  change permissions of /home/runner/.nimble/pkgs/hts-0.3.8/hts/value.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10/hts
+  change permissions of /home/runner/.nimble/pkgs/hts-0.3.10/hts/csi.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8/hts
-  change permissions of /home/runner/.nimble/pkgs/hts-0.3.8/hts/bgzf.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10/hts
+  change permissions of /home/runner/.nimble/pkgs/hts-0.3.10/hts/files.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8/hts
-  change permissions of /home/runner/.nimble/pkgs/hts-0.3.8/hts/utils.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10/hts
+  change permissions of /home/runner/.nimble/pkgs/hts-0.3.10/hts/vcf.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8/hts
-  change permissions of /home/runner/.nimble/pkgs/hts-0.3.8/hts/fai.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10/hts
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10/hts/bgzf
+  change permissions of /home/runner/.nimble/pkgs/hts-0.3.10/hts/bgzf/bgzi.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8/hts
-  change permissions of /home/runner/.nimble/pkgs/hts-0.3.8/hts/vcf.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10/hts
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10/hts/private
+  change permissions of /home/runner/.nimble/pkgs/hts-0.3.10/hts/private/hts_concat.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8/hts
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8/hts/bgzf
-  change permissions of /home/runner/.nimble/pkgs/hts-0.3.8/hts/bgzf/bgzi.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10/hts
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10/hts/private
+  change permissions of /home/runner/.nimble/pkgs/hts-0.3.10/hts/private/hts_concat.h to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8/hts
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8/hts/private
-  change permissions of /home/runner/.nimble/pkgs/hts-0.3.8/hts/private/hts_concat.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10/hts
+  change permissions of /home/runner/.nimble/pkgs/hts-0.3.10/hts/bam.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8/hts
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8/hts/private
-  change permissions of /home/runner/.nimble/pkgs/hts-0.3.8/hts/private/hts_concat.h to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10/hts
+  change permissions of /home/runner/.nimble/pkgs/hts-0.3.10/hts/utils.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8/hts
-  change permissions of /home/runner/.nimble/pkgs/hts-0.3.8/hts/files.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10/hts
+  change permissions of /home/runner/.nimble/pkgs/hts-0.3.10/hts/simpleoption.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8/hts
-  change permissions of /home/runner/.nimble/pkgs/hts-0.3.8/hts/stats.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10/hts
+  change permissions of /home/runner/.nimble/pkgs/hts-0.3.10/hts/value.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8/hts
-  change permissions of /home/runner/.nimble/pkgs/hts-0.3.8/hts/simpleoption.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10/hts
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10/hts/bam
+  change permissions of /home/runner/.nimble/pkgs/hts-0.3.10/hts/bam/enums.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8/hts
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8/hts/bam
-  change permissions of /home/runner/.nimble/pkgs/hts-0.3.8/hts/bam/flag.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10/hts
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10/hts/bam
+  change permissions of /home/runner/.nimble/pkgs/hts-0.3.10/hts/bam/auxtags.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8/hts
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8/hts/bam
-  change permissions of /home/runner/.nimble/pkgs/hts-0.3.8/hts/bam/enums.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10/hts
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10/hts/bam
+  change permissions of /home/runner/.nimble/pkgs/hts-0.3.10/hts/bam/cigar.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8/hts
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8/hts/bam
-  change permissions of /home/runner/.nimble/pkgs/hts-0.3.8/hts/bam/cigar.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10/hts
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10/hts/bam
+  change permissions of /home/runner/.nimble/pkgs/hts-0.3.10/hts/bam/flag.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8/hts
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8/hts/bam
-  change permissions of /home/runner/.nimble/pkgs/hts-0.3.8/hts/bam/auxtags.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10/hts
+  change permissions of /home/runner/.nimble/pkgs/hts-0.3.10/hts/stats.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8/hts
-  change permissions of /home/runner/.nimble/pkgs/hts-0.3.8/hts/csi.nim to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10/hts
+  change permissions of /home/runner/.nimble/pkgs/hts-0.3.10/hts/fai.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/hts-0.3.8
-  change permissions of /home/runner/.nimble/pkgs/hts-0.3.8/hts.nim to rw-r--r--
-  change permissions of /home/runner/.nimble/pkgs/hts-0.3.8/hts.nimble to rw-r--r--
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10
+  create directory /home/runner/.nimble/pkgs/hts-0.3.10/hts
+  change permissions of /home/runner/.nimble/pkgs/hts-0.3.10/hts/bgzf.nim to rw-r--r--
+  change permissions of /home/runner/.nimble/pkgs/hts-0.3.10/hts.nimble to rw-r--r--
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/hts_3968919147
-  delete /tmp/nimblecache/hts_3968919147/hts.ini
-  delete /tmp/nimble_4591.out
-  delete /home/runner/.nimble/pkgs/hts-0.3.8/hts_4591.nims
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bam.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/value.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bgzf.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/utils.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/fai.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/vcf.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bgzf/bgzi.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bgzf
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/private/hts_concat.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/private/hts_concat.h
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/private
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/files.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/stats.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/simpleoption.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bam/flag.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bam/enums.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bam/cigar.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bam/auxtags.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/bam
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/src/hts/csi.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/src/hts
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/src/hts.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/src
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.gitignore
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/Dockerfile
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/scripts/simple-install.sh
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/scripts/install.sh
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/scripts
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/hts.nimble
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.dockerignore
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/LICENSE
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.travis.yml
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/CHANGES.md
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/docs/.nojekyll
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/docs/style.css
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/docs/hts/simpleoption.html
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/docs/hts/csi.html
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/docs/hts/bam.html
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/docs/hts/bgzf.html
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/docs/hts/nimdoc.css
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/docs/hts/vcf.html
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/docs/hts/utils.html
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/docs/hts/nimdoc.out.css
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/docs/hts/fai.html
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/docs/hts/value.html
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/docs/hts
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/docs/index.html
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/docs
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/Dockerfile.musl-hts-nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/HEAD
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/config
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/logs/HEAD
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/logs
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/branches
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/packed-refs
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/refs/heads
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/refs/tags
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/refs
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks/pre-push.sample
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks/update.sample
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks/post-update.sample
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/hooks
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/index
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/info/exclude
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/info
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/shallow
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/description
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/objects/pack/pack-893251cb676a0ee70cdbe02d4da38cefe2369086.idx
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/objects/pack/pack-893251cb676a0ee70cdbe02d4da38cefe2369086.pack
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/objects/pack
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/objects/info
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git/objects
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/.git
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/docker/nsb.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/docker/docker.nim.cfg
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/docker/hts_nim_static_builder.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/docker
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/README.md
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/aa.fa.fai
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/test.vcf.gz
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/test.bcf.csi
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/sa.sam
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/HG02002.bam
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/htstest.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/csq-bug.vcf.gz
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/all.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/other-for-test.bcf.csi
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/statstests.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/HG02002.bam.bai
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/unknown-alts.vcf
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/test.bcf
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/sa.bam
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/bamtest.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/cigartest.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/vcfiso.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/bgzftest.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/test_files/simple.tsv.gz.csi
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/test_files/simple.tsv.gz
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/test_files
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/sample.fa
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/vcftest.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/run.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/gzip-err.gz
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/auxtest.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/test_readme.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/test_files.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/faitest.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/sa.bam.bai
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/decomposed.vcf
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/flagtest.nim
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/aa.fa
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/test.vcf.gz.tbi
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests/nim.cfg
-  delete /tmp/nimble_4591/githubcom_brentphtsnim/tests
-  delete /tmp/nimble_4591/githubcom_brentphtsnim
-  delete /tmp/nimble_4591
+  create directory /tmp/nimblecache/hts_1141290684
+  delete /tmp/nimblecache/hts_1141290684/hts.ini
+  delete /tmp/nimble_4813.out
+  delete /home/runner/.nimble/pkgs/hts-0.3.10/hts_4813.nims
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/docs/style.css
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/docs/hts/vcf.html
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/docs/hts/nimdoc.out.css
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/docs/hts/bam.html
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/docs/hts/utils.html
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/docs/hts/value.html
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/docs/hts/bgzf.html
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/docs/hts/fai.html
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/docs/hts/simpleoption.html
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/docs/hts/nimdoc.css
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/docs/hts/csi.html
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/docs/hts
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/docs/index.html
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/docs/.nojekyll
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/docs
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/Dockerfile
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/hts.nimble
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/scripts/simple-install.sh
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/scripts/install.sh
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/scripts
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/Dockerfile.musl-hts-nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/README.md
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/refs/tags
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/refs/heads
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/refs
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/info/exclude
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/info
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/branches
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/logs/HEAD
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/logs
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/description
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks/pre-push.sample
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks/update.sample
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks/post-update.sample
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/hooks
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/shallow
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/config
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/index
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/79/a42235f42a3e344c69305945c22dd880d39d6e
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/79
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/10/cc10f65199d2f60a8c66a2fd9fc5695026a701
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/10
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0c/bd6a21551f424b15ff2b780151707078a214b7
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0c
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/97/2ea74789d6e2700f09fe17222ebf3f9e7e2171
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/97
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/4f/0be5265c72b411059577c249e5cfdbde457ebf
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/4f
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/60/7dfc38458f342b5a91381bf5c65ef54328da2d
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/60
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/4e/e73eaf98f86e42f0659fa0de2291a73a06722b
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/4e
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/5c/d61c5f5c84a113223e935ad698b660d02427d0
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/5c
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b5/5dda96e537766012ef2b7bced245e29939fd45
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b5
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/6d/dbdee7dd29e1d378470869da899f4cd95d8a85
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/6d
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/93/085f29feffc6e526a03079000dc73f968e0995
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/93
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/61/29aefd8edd0282ee955ee83bd60ab8b71d9ffe
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/61/cb7c15bf18d425a483efa40b84d6e7bf829591
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/61
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/1b/ebf27cad556268c84a7d7e1a22e68c2e3587fd
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/1b
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ac/96863d6d5e70c2edabf4d4d9708c75e704399b
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ac/38a0f29ee73ae14039d7fc54fa5d045dc8fc02
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ac
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2e/196dba79e009556348679f8139c5f38d81ecef
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2e
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/info
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/fc/418f3094d92efcb32fcaaf23c0666827f0e89a
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/fc
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/63/4df9e769c4cdcd7ab355375396f8ce0ef59e84
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/63
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d8/235aaffb06ad9d164670e5ca019b3fd432a077
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d8
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e3/9600ac5abc8fa51f97c1da4552a0f0d0158bad
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e3
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ae/2303d59794f389728b44826a2837e33c8a5f38
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ae
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/72/b6734abefba2881ccfc75bc9ad0c63fa602bbd
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/72
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/c5/ad8ea961ba56589eb65484a876b2cafce84171
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/c5
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9b/aa519fb11cfb065190df50db25548d6c1ea2de
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9b
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/47/deb79a638e9344195df145ad45a31a2c7db3b6
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/47
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/af/5654f98a506c0e59ff24c427fe29af882979b4
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/af
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/8f/c511c2b4ea3c0467c107fee0613d7df0d8891a
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/8f
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/50/17a42e074c6cf309f64893ad8479f3694808d7
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/50
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/84/78f1544466a48d4d4a4b1e3ace5960d1889e68
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/84
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/c1/8e1d8d0938bad3f080e36dfc2b4d0d7cce8903
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/c1
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13/570ce0399d9122cef259b6ab10305b833e2ac0
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13/0b586475ea23ac8311964098e8aec3d08210bc
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13/c3f47f79ee2382fd7c9c849287bc1aa13e49ac
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/13
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/bf/9d6aac94345db88406c69de9b86f205998b8c2
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/bf
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/62/0915c78fcc9b47c04195ab3809dda016b8c9f1
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/62
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/58/e5f53884f20e535a8ed7cb9a29671ec3134c06
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/58
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d3/a29053a17574986601deff63df1e9c95047f05
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d3
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/07/5632eb7bdebff3b963b3ab75ee4108009c5a60
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/07/44178d1f7681cbf2ba9bcb2994f3ce1fec2805
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/07
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/78/8eaeb32e8da9ce5100cfd839db05e5015e23b2
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/78
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e1/2e61304b5d70e8d6ba8d9391405ba8a2693452
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e1
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/67/9eb391edac4a1337c878e07c0f811810880aa2
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/67/13c41d26a0211b02edbffe240caac266c961fa
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/67
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/68/d5c1111327328bcffcacb763b03fb9a9df7c94
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/68
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cc/4660f9b6807c0eb896a2e1521a90dea62b4021
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cc
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cb/4662a8037c5f4b6da3ecc5579bdc11ddddd62d
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cb
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0b/063ff3d4b0953a14b6e06ba4a723bff2660966
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0b
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/bc/1d7e94d87f09145c920581cc39921ac26a03d9
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/bc
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0a/3f28146cc76ef6a8fb6cabd6a039879b4ca74c
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0a/ad772bafed1adb24af1854ca87de8863174493
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/0a
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/98/141321e9e0cc95c22edae068cfb775ca28d953
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/98
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/1c/4ccdd3aade047956bc3fd0881fec9ff442dcba
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/1c
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/3e/2c7d2cfda17b7708e147bf758adc4708e73b37
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/3e
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/8e/df154635ce8c0594f3f8460263342fae6c02e7
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/8e
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/7b/f218885cf3a23d6d3f07ececad481db8bb188d
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/7b
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ee/0a83a19b619c8f15a003c680d220628f822099
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ee
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9a/b95300e088ad3736df3909f64d8bbd7c4e56de
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9a
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/16/4c0ac27729530971c927237eb291ed5039269f
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/16
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/5e/26471a5ab97c1c928b7302190c8ceabeb40f0f
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/5e
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d7/7adbbef63e909bdf215bcffda40cf6e2fc0dcc
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d7
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f6/1fe25d601569718e795c2c8bf96fa5349e80e7
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f6/cb6750745bea2454bc566a190222664bde0163
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f6
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f9/05a59fa01d6bbbe059bf6debb0167394ad9ac4
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/f9
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/86/2af694603d239f86ccfeebd85563d82ebd5958
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/86/0e0a2a68f50895d1a69550ce37a24acc712109
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/86
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9e/d936eb39420daae869c7e641c870eb12dddc26
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9e
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/65/ae1db6343acdb73ca949fe25524da4fd8cac7f
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/65
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/40/9762e37b6510e9cdc5832814b0525b32705739
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/40
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cd/6bc1b84bec2ccc57e69e1dc4b6535647cc2efe
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/cd
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8/4e72305a2fb11c2b5deea2b8dc98e9c7ac3ccd
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8/6094bd9a746139b2294b13bc09697352cc0365
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8/7c6e0663657eeed28184a356d2b11b779bbe79
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/b8
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/56/3f51a8b2767055c0ba5c645d8ad05c8a678652
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/56
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d0/3a640752fe39a6e87725c56418703d8dc15afa
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/d0
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ba/ef7435ce089835a0279ef34ee32f8d66e49310
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/ba
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/55/3bde54d209e6349967ec1f10a1880fd6430eab
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/55/ed5fc127783255198f028cac7907da14f3d87f
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/55
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/12/e29d3fa7e32f537800c6d956fbc1f2fecb7007
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/12
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/74/f4550322d0601990ffb0e4b35b4ea0e4122012
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/74
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2b/d939367c00ea2564e02894a09fe326ba18805a
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2b/bb7f3e8a1113a93acaafb5b53ce885735cd9e7
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2b
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2c/663a5e6817849d41d162ba880eb52d88c4cf23
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2c
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/fd/ffeb96218b3953ca884a5af5aa694745bd4196
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/fd
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/7e/d588f2370eb78637f971de8e5a1f5f5d626878
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/7e
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9f/11ac04f0ecdb0e1530f50b5fe4b07b7a6f95d6
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/9f
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/pack
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2d/a916711c908b7f348441e3b47ad8a4f968da21
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/2d
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/06/b576561c77d488bed350200ce7733edea97132
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/06
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/6e/884fdb1fe3bd5543916b86b5f3c7fc5fe2c2ca
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/6e
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/44/16e43946299f91acfe7a932d3f21d73aa6e8eb
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/44
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects/e6
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/objects
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/packed-refs
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git/HEAD
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.git
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/src/hts.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/csi.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/files.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/vcf.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bgzf/bgzi.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bgzf
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/private/hts_concat.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/private/hts_concat.h
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/private
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bam.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/utils.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/simpleoption.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/value.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bam/enums.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bam/auxtags.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bam/cigar.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bam/flag.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bam
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/stats.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/fai.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/src/hts/bgzf.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/src/hts
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/src
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.travis.yml
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/docker/docker.nim.cfg
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/docker/hts_nim_static_builder.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/docker/nsb.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/docker
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/statstests.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/other-for-test.bcf.csi
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/run.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/gzip-err.gz
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/decomposed.vcf
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/vcftest.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/all.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/HG02002.bam.bai
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/faitest.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/bgzftest.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/sa.bam
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/sample.fa
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/test.vcf.gz.tbi
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/test.bcf
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/test.vcf.gz
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/bamtest.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/flagtest.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/cigartest.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/sa.sam
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/test_files/simple.tsv.gz.csi
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/test_files/simple.tsv.gz
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/test_files
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/vcfiso.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/test_files.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/htstest.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/HG02002.bam
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/unknown-alts.vcf
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/csq-bug.vcf.gz
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/nim.cfg
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/test.bcf.csi
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/aa.fa
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/sa.bam.bai
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/test_readme.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/aa.fa.fai
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests/auxtest.nim
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/tests
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.dockerignore
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/.gitignore
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/CHANGES.md
+  delete /tmp/nimble_4813/githubcom_brentphtsnim/LICENSE
+  delete /tmp/nimble_4813/githubcom_brentphtsnim
+  delete /tmp/nimble_4813

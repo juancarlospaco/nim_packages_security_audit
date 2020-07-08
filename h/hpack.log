@@ -1,79 +1,204 @@
     Reading official package list
 Downloading https://github.com/nitely/nim-hpack using git
     Cloning latest tagged version: v0.2.0
-  Verifying dependencies for hpack@0.2.0
- Installing hpack@0.2.0
-    Copying file /tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack/huffman_data.nim to /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/huffman_data.nim
-    Copying file /tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack/huffman_encoder.nim to /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/huffman_encoder.nim
-    Copying file /tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack/hcollections.nim to /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/hcollections.nim
-    Copying file /tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack/headers_data.nim to /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/headers_data.nim
-    Copying file /tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack/huffman_decoder.nim to /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/huffman_decoder.nim
-    Copying file /tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack/encoder.nim to /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/encoder.nim
-    Copying file /tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack/exceptions.nim to /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/exceptions.nim
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_6515', 0x00000000000001ff)
-mkdir('/tmp/nimble_6515/githubcom_nitelynimhpack', 0x00000000000001ff)
-rmdir('/tmp/nimble_6515/githubcom_nitelynimhpack')
-mkdir('/tmp/nimble_6515/githubcom_nitelynimhpack', 0x00000000000001ff)
-mkdir('/tmp/nimble_6515/githubcom_nitelynimhpack/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/HEAD.lock', '/tmp/nimble_6515/githubcom_nitelynimhpack/.git/HEAD')
-rename('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/config.lock', '/tmp/nimble_6515/githubcom_nitelynimhpack/.git/config')
-chmod('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/config.lock', '/tmp/nimble_6515/githubcom_nitelynimhpack/.git/config')
-chmod('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/config.lock', '/tmp/nimble_6515/githubcom_nitelynimhpack/.git/config')
-chmod('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/config.lock', '/tmp/nimble_6515/githubcom_nitelynimhpack/.git/config')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/t48N1l6')
-symlink('testing', '/tmp/nimble_6515/githubcom_nitelynimhpack/.git/t48N1l6')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/t48N1l6')
-mkdir('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/config.lock', '/tmp/nimble_6515/githubcom_nitelynimhpack/.git/config')
-chmod('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/config.lock', '/tmp/nimble_6515/githubcom_nitelynimhpack/.git/config')
-chmod('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/config.lock', '/tmp/nimble_6515/githubcom_nitelynimhpack/.git/config')
-link('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects/pack/tmp_pack_oLjjPB', '/tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects/pack/pack-7bc035fccf2c8fe6d1b5821eef12d61a640d5459.pack')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects/pack/tmp_pack_oLjjPB')
-link('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects/pack/tmp_idx_46tquY', '/tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects/pack/pack-7bc035fccf2c8fe6d1b5821eef12d61a640d5459.idx')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects/pack/tmp_idx_46tquY')
-rename('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/shallow.lock', '/tmp/nimble_6515/githubcom_nitelynimhpack/.git/shallow')
-rename('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/packed-refs.new', '/tmp/nimble_6515/githubcom_nitelynimhpack/.git/packed-refs')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/packed-refs.lock')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/refs/tags/v0.2.0.lock')
-mkdir('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/HEAD.lock', '/tmp/nimble_6515/githubcom_nitelynimhpack/.git/HEAD')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects/pack/pack-7bc035fccf2c8fe6d1b5821eef12d61a640d5459.keep')
+mkdir('/tmp/nimble_6805', 0x00000000000001ff)
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack', 0x00000000000001ff)
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack', 0x00000000000001ff)
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/HEAD.lock', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/HEAD')
+rename('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/config.lock', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/config')
+chmod('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/config.lock', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/config')
+chmod('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/config.lock', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/config')
+chmod('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/config.lock', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/config')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/tt0XfC8')
+symlink('testing', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/tt0XfC8')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/tt0XfC8')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/config.lock', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/config')
+chmod('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/config.lock', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/config')
+chmod('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/config.lock', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/config')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/af', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/af/tmp_obj_TWt7O7', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/af/d0f2911e1d268c3f45bf24f024dd1c2ff765e0')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/af/tmp_obj_TWt7O7')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/59', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/59/tmp_obj_1yDlsb', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/59/2e38cae1e2f26ab374028b0518f675d9286f66')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/59/tmp_obj_1yDlsb')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/52', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/52/tmp_obj_3R8Gvg', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/52/b9511d54a8f62cc0d32cd65f810d238e0a2fd5')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/52/tmp_obj_3R8Gvg')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/81', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/81/tmp_obj_mt66de', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/81/9248c8f38db37c73d60f8bbd6b4c300b4ec039')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/81/tmp_obj_mt66de')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/be', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/be/tmp_obj_aPO2tf', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/be/67af540eaa21b033632180cf8e6a01c2306899')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/be/tmp_obj_aPO2tf')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/37', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/37/tmp_obj_wiOThk', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/37/d671fbf4dda2de265fc0333fef993780d711f1')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/37/tmp_obj_wiOThk')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/6f', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/6f/tmp_obj_2KMz3o', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/6f/c91001d6291e622f2d60b20171fae4c1fa6e08')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/6f/tmp_obj_2KMz3o')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/cf', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/cf/tmp_obj_Kde4Qt', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/cf/26f73d85310d918332dcdf9e59b054b40a6475')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/cf/tmp_obj_Kde4Qt')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/44', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/44/tmp_obj_swg4nz', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/44/ca87f8b1fe9f451aa8d421818b9ec98df7cf85')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/44/tmp_obj_swg4nz')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/ae', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/ae/tmp_obj_EiumtE', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/ae/b8230151b129bba56c1d2496eaf289683fb097')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/ae/tmp_obj_EiumtE')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/a1', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/a1/tmp_obj_WLICoI', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/a1/4277965d2453118b03a96de96b745af58f4864')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/a1/tmp_obj_WLICoI')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/a2', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/a2/tmp_obj_mzv8gK', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/a2/e4f944dadc4d01820de061dc1403fde31c32c6')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/a2/tmp_obj_mzv8gK')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/36', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/36/tmp_obj_Mu2rIO', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/36/f3fe5aa1b4c3bcbd0f518cce2041827362edd8')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/36/tmp_obj_Mu2rIO')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/50', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/50/tmp_obj_wq4h5U', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/50/0b244f5b1c6ecb446b6a38eefbe6998dd3c72e')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/50/tmp_obj_wq4h5U')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/7f', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/7f/tmp_obj_64rSU5', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/7f/cda391141db536e5fca2bd789832814ee3832b')  Verifying dependencies for hpack@0.2.0
+ Installing hpack@0.2.0
+    Copying file /tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack/huffman_encoder.nim to /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/huffman_encoder.nim
+
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/7f/tmp_obj_64rSU5')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/82', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/82/tmp_obj_yJlc8c', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/82/8eb306ca681bf65322f681bbb2e665158ff676')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/82/tmp_obj_yJlc8c')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/02', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/02/tmp_obj_81DN6g', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/02/37085c9e317f036f1c30fd2278bebfae9ac0f6')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/02/tmp_obj_81DN6g')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/f7', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/f7/tmp_obj_9FMxve', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/f7/fa2ccc309383c08bde7d3a714df9ab381642f1')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/f7/tmp_obj_9FMxve')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/e1', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/e1/tmp_obj_15tWSj', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/e1/158d0f7051922074da88a8686e80d6683006d3')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/e1/tmp_obj_15tWSj')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/60', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/60/tmp_obj_9BGD9o', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/60/1c0323c34ad85e9479309fe16559c32d73820c')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/60/tmp_obj_9BGD9o')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/15', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/15/tmp_obj_7etIMt', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/15/a2cc7522fe1cd910b503037440fc0da16fcc9d')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/15/tmp_obj_7etIMt')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/88', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/88/tmp_obj_fVQGwy', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/88/175cbcf88930432826b9078a721b33477e50f7')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/88/tmp_obj_fVQGwy')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/d2', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/d2/tmp_obj_t43WrD', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/d2/a5c1361a6cee06c682061c0c49d360904386af')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/d2/tmp_obj_t43WrD')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/ed', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/ed/tmp_obj_jF7r4G', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/ed/3d6e9f032a0eea14bb7ca7c64462ba9a5bfc29')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/ed/tmp_obj_jF7r4G')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/6a', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/6a/tmp_obj_RosNNL', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/6a/2747792cbd75c92c0c4986ddd67fd7e2bce0b8')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/6a/tmp_obj_RosNNL')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/b9', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/b9/tmp_obj_151zoS', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/b9/263a05d88fedfb89edd257d98525f443b5d5bf')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/b9/tmp_obj_151zoS')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/0c', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/0c/tmp_obj_BqtBcX', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/0c/1830eb2f7c3318516e8162ca471b560402a192')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/0c/tmp_obj_BqtBcX')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/4d', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/4d/tmp_obj_znUx70', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/4d/780e39a0b16057817ab84303e2497766ca15ab')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/4d/tmp_obj_znUx70')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/73', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/73/tmp_obj_jrqFI5', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/73/ba73622cbe05707b31337ca16f49c0b744fac7')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/73/tmp_obj_jrqFI5')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/df', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/df/tmp_obj_F4G4Wc', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/df/a94b0edbe48ca66614da90ca9d42064ae7b6a3')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/df/tmp_obj_F4G4Wc')
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/50/tmp_obj_pkzGRd', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/50/c84ddbe4f863ab80e6d28b756c23cef56bbd82')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/50/tmp_obj_pkzGRd')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/85', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/85/tmp_obj_QxCawb', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/85/bf6c448c110187ab65c0967baf926f70ceb723')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/85/tmp_obj_QxCawb')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/c6', 0x00000000000001ff)
+link('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/c6/tmp_obj_chKXhg', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/c6/e2732f3f3a4f94f23827891ec9bd0f868669ce')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/c6/tmp_obj_chKXhg')
+rename('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/shallow.lock', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/shallow')
+rename('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/packed-refs.new', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/packed-refs')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/packed-refs.lock')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/refs/tags/v0.2.0.lock')
+mkdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/HEAD.lock', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/HEAD')
 mkdir('docs', 0x00000000000001ff)
 mkdir('docs/hpack', 0x00000000000001ff)
 mkdir('gen', 0x00000000000001ff)
 mkdir('src', 0x00000000000001ff)
 mkdir('src/hpack', 0x00000000000001ff)
 mkdir('tests', 0x00000000000001ff)
-rename('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/index.lock', '/tmp/nimble_6515/githubcom_nitelynimhpack/.git/index')
+rename('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/index.lock', '/tmp/nimble_6805/githubcom_nitelynimhpack/.git/index')
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/hpack_942030155', 0x00000000000001ff)
-unlink('/tmp/nimblecache/hpack_942030155/hpack.ini')
-unlink('/tmp/nimble_6515.out')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/hpack_6515.nims')
+mkdir('/tmp/nimblecache/hpack_1465742911', 0x00000000000001ff)
+unlink('/tmp/nimblecache/hpack_1465742911/hpack.ini')
+unlink('/tmp/nimble_6805.out')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/hpack_6805.nims')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/hpack-0.2.0', 0x00000000000001ff)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hpack-0.2.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hpack-0.2.0/hpack', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/hpack-0.2.0/hpack/huffman_encoder.nim', 0x00000000000001a4)    Copying file /tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack/exceptions.nim to /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/exceptions.nim
+    Copying file /tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack/decoder.nim to /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/decoder.nim
+    Copying file /tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack/encoder.nim to /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/encoder.nim
+    Copying file /tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack/huffman_data.nim to /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/huffman_data.nim
+    Copying file /tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack/huffman_decoder.nim to /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/huffman_decoder.nim
+    Copying file /tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack/hcollections.nim to /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/hcollections.nim
+    Copying file /tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack/headers_data.nim to /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/headers_data.nim
+    Copying file /tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack.nim to /home/runner/.nimble/pkgs/hpack-0.2.0/hpack.nim
+    Copying file /tmp/nimble_6805/githubcom_nitelynimhpack/hpack.nimble to /home/runner/.nimble/pkgs/hpack-0.2.0/hpack.nimble
+   Success: hpack installed successfully.
+
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hpack-0.2.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hpack-0.2.0/hpack', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/hpack-0.2.0/hpack/exceptions.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hpack-0.2.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hpack-0.2.0/hpack', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/hpack-0.2.0/hpack/decoder.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hpack-0.2.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/hpack-0.2.0/hpack', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/hpack-0.2.0/hpack/encoder.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -87,7 +212,7 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/hpack-0.2.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/hpack-0.2.0/hpack', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/hpack-0.2.0/hpack/huffman_encoder.nim', 0x00000000000001a4)
+chmod('/home/runner/.nimble/pkgs/hpack-0.2.0/hpack/huffman_decoder.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -107,183 +232,300 @@ mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/hpack-0.2.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hpack-0.2.0/hpack', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/hpack-0.2.0/hpack/huffman_decoder.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hpack-0.2.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hpack-0.2.0/hpack', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/hpack-0.2.0/hpack/encoder.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hpack-0.2.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hpack-0.2.0/hpack', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/hpack-0.2.0/hpack/exceptions.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)    Copying file /tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack/decoder.nim to /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/decoder.nim
-    Copying file /tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack.nim to /home/runner/.nimble/pkgs/hpack-0.2.0/hpack.nim
-    Copying file /tmp/nimble_6515/githubcom_nitelynimhpack/hpack.nimble to /home/runner/.nimble/pkgs/hpack-0.2.0/hpack.nimble
-   Success: hpack installed successfully.
-
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hpack-0.2.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hpack-0.2.0/hpack', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/hpack-0.2.0/hpack/decoder.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/hpack-0.2.0', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/hpack-0.2.0/hpack.nim', 0x00000000000001a4)
 chmod('/home/runner/.nimble/pkgs/hpack-0.2.0/hpack.nimble', 0x00000000000001a4)
 mkdir('/tmp', 0x00000000000001ff)
 mkdir('/tmp/nimblecache', 0x00000000000001ff)
 mkdir('/tmp/nimblecache/hpack_3292552696', 0x00000000000001ff)
 unlink('/tmp/nimblecache/hpack_3292552696/hpack.ini')
-unlink('/tmp/nimble_6515.out')
-unlink('/home/runner/.nimble/pkgs/hpack-0.2.0/hpack_6515.nims')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack/huffman_data.nim')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack/huffman_encoder.nim')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack/hcollections.nim')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack/headers_data.nim')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack/huffman_decoder.nim')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack/encoder.nim')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack/exceptions.nim')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack/decoder.nim')
-rmdir('/tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack.nim')
-rmdir('/tmp/nimble_6515/githubcom_nitelynimhpack/src')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.gitignore')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/hpack.nimble')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/CHANGELOG.md')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/LICENSE')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/docs/hpack/huffman_decoder.html')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/docs/hpack/exceptions.html')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/docs/hpack/hcollections.html')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/docs/hpack/huffman_encoder.html')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/docs/hpack/encoder.html')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/docs/hpack/decoder.html')
-rmdir('/tmp/nimble_6515/githubcom_nitelynimhpack/docs/hpack')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/docs/index.html')
-rmdir('/tmp/nimble_6515/githubcom_nitelynimhpack/docs')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/HEAD')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/config')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/logs/HEAD')
-rmdir('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/logs')
-rmdir('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/branches')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/packed-refs')
-rmdir('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/refs/heads')
-rmdir('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/refs/tags')
-rmdir('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/refs')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks/update.sample')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/index')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/info/exclude')
-rmdir('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/info')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/shallow')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/description')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects/pack/pack-7bc035fccf2c8fe6d1b5821eef12d61a640d5459.idx')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects/pack/pack-7bc035fccf2c8fe6d1b5821eef12d61a640d5459.pack')
-rmdir('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects/pack')
-rmdir('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects/info')
-rmdir('/tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects')
-rmdir('/tmp/nimble_6515/githubcom_nitelynimhpack/.git')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/gen/static_table.nim')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/gen/huffman.nim')
-rmdir('/tmp/nimble_6515/githubcom_nitelynimhpack/gen')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/README.md')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/tests/tests.nim')
-unlink('/tmp/nimble_6515/githubcom_nitelynimhpack/tests/nim.cfg')
-rmdir('/tmp/nimble_6515/githubcom_nitelynimhpack/tests')
-rmdir('/tmp/nimble_6515/githubcom_nitelynimhpack')
-rmdir('/tmp/nimble_6515')
+unlink('/tmp/nimble_6805.out')
+unlink('/home/runner/.nimble/pkgs/hpack-0.2.0/hpack_6805.nims')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/docs/hpack/encoder.html')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/docs/hpack/exceptions.html')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/docs/hpack/huffman_encoder.html')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/docs/hpack/huffman_decoder.html')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/docs/hpack/decoder.html')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/docs/hpack/hcollections.html')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/docs/hpack')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/docs/index.html')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/docs')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/gen/huffman.nim')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/gen/static_table.nim')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/gen')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/README.md')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/refs/tags')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/refs/heads')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/refs')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/info/exclude')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/info')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/branches')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/logs/HEAD')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/logs')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/description')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks/update.sample')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/shallow')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/config')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/index')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/0c/1830eb2f7c3318516e8162ca471b560402a192')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/0c')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/60/1c0323c34ad85e9479309fe16559c32d73820c')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/60')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/6f/c91001d6291e622f2d60b20171fae4c1fa6e08')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/6f')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/15/a2cc7522fe1cd910b503037440fc0da16fcc9d')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/15')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/82/8eb306ca681bf65322f681bbb2e665158ff676')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/82')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/info')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/c6/e2732f3f3a4f94f23827891ec9bd0f868669ce')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/c6')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/ae/b8230151b129bba56c1d2496eaf289683fb097')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/ae')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/a2/e4f944dadc4d01820de061dc1403fde31c32c6')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/a2')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/85/bf6c448c110187ab65c0967baf926f70ceb723')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/85')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/f7/fa2ccc309383c08bde7d3a714df9ab381642f1')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/f7')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/be/67af540eaa21b033632180cf8e6a01c2306899')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/be')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/df/a94b0edbe48ca66614da90ca9d42064ae7b6a3')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/df')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/af/d0f2911e1d268c3f45bf24f024dd1c2ff765e0')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/af')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/50/0b244f5b1c6ecb446b6a38eefbe6998dd3c72e')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/50/c84ddbe4f863ab80e6d28b756c23cef56bbd82')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/50')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/37/d671fbf4dda2de265fc0333fef993780d711f1')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/37')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/81/9248c8f38db37c73d60f8bbd6b4c300b4ec039')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/81')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/73/ba73622cbe05707b31337ca16f49c0b744fac7')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/73')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/36/f3fe5aa1b4c3bcbd0f518cce2041827362edd8')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/36')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/e1/158d0f7051922074da88a8686e80d6683006d3')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/e1')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/b9/263a05d88fedfb89edd257d98525f443b5d5bf')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/b9')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/59/2e38cae1e2f26ab374028b0518f675d9286f66')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/59')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/ed/3d6e9f032a0eea14bb7ca7c64462ba9a5bfc29')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/ed')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/52/b9511d54a8f62cc0d32cd65f810d238e0a2fd5')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/52')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/4d/780e39a0b16057817ab84303e2497766ca15ab')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/4d')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/cf/26f73d85310d918332dcdf9e59b054b40a6475')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/cf')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/d2/a5c1361a6cee06c682061c0c49d360904386af')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/d2')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/88/175cbcf88930432826b9078a721b33477e50f7')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/88')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/6a/2747792cbd75c92c0c4986ddd67fd7e2bce0b8')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/6a')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/pack')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/02/37085c9e317f036f1c30fd2278bebfae9ac0f6')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/02')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/44/ca87f8b1fe9f451aa8d421818b9ec98df7cf85')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/44')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/a1/4277965d2453118b03a96de96b745af58f4864')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/a1')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/7f/cda391141db536e5fca2bd789832814ee3832b')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/7f')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/packed-refs')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.git/HEAD')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/.git')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack/huffman_encoder.nim')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack/exceptions.nim')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack/decoder.nim')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack/encoder.nim')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack/huffman_data.nim')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack/huffman_decoder.nim')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack/hcollections.nim')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack/headers_data.nim')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack.nim')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/src')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/CHANGELOG.md')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/hpack.nimble')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/tests/tests.nim')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/tests/nim.cfg')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack/tests')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/.gitignore')
+unlink('/tmp/nimble_6805/githubcom_nitelynimhpack/LICENSE')
+rmdir('/tmp/nimble_6805/githubcom_nitelynimhpack')
+rmdir('/tmp/nimble_6805')
   create directory /tmp
-  create directory /tmp/nimble_6515
-  create directory /tmp/nimble_6515/githubcom_nitelynimhpack
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack
-  create directory /tmp/nimble_6515/githubcom_nitelynimhpack
-  create directory /tmp/nimble_6515/githubcom_nitelynimhpack/.git
-  create directory /tmp/nimble_6515/githubcom_nitelynimhpack/.git
-  create directory /tmp/nimble_6515/githubcom_nitelynimhpack/.git/branches
-  create directory /tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks
-  create directory /tmp/nimble_6515/githubcom_nitelynimhpack/.git/info
-  create directory /tmp/nimble_6515/githubcom_nitelynimhpack/.git/refs
-  create directory /tmp/nimble_6515/githubcom_nitelynimhpack/.git/refs/heads
-  create directory /tmp/nimble_6515/githubcom_nitelynimhpack/.git/refs/tags
-  rename /tmp/nimble_6515/githubcom_nitelynimhpack/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_6515/githubcom_nitelynimhpack/.git/config.lock to config
-  change permissions of /tmp/nimble_6515/githubcom_nitelynimhpack/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_6515/githubcom_nitelynimhpack/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_6515/githubcom_nitelynimhpack/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_6515/githubcom_nitelynimhpack/.git/config.lock to config
-  change permissions of /tmp/nimble_6515/githubcom_nitelynimhpack/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_6515/githubcom_nitelynimhpack/.git/config.lock to config
-  change permissions of /tmp/nimble_6515/githubcom_nitelynimhpack/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_6515/githubcom_nitelynimhpack/.git/config.lock to config
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/t48N1l6
-  create symbolic link from /tmp/nimble_6515/githubcom_nitelynimhpack/.git/t48N1l6 to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/t48N1l6
-  create directory /tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects
-  create directory /tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects/pack
-  create directory /tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects/info
-  change permissions of /tmp/nimble_6515/githubcom_nitelynimhpack/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_6515/githubcom_nitelynimhpack/.git/config.lock to config
-  change permissions of /tmp/nimble_6515/githubcom_nitelynimhpack/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_6515/githubcom_nitelynimhpack/.git/config.lock to config
-  change permissions of /tmp/nimble_6515/githubcom_nitelynimhpack/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_6515/githubcom_nitelynimhpack/.git/config.lock to config
-  create hard link from /tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects/pack/pack-7bc035fccf2c8fe6d1b5821eef12d61a640d5459.pack to /tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects/pack/tmp_pack_oLjjPB
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects/pack/tmp_pack_oLjjPB
-  create hard link from /tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects/pack/pack-7bc035fccf2c8fe6d1b5821eef12d61a640d5459.idx to /tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects/pack/tmp_idx_46tquY
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects/pack/tmp_idx_46tquY
-  rename /tmp/nimble_6515/githubcom_nitelynimhpack/.git/shallow.lock to shallow
-  rename /tmp/nimble_6515/githubcom_nitelynimhpack/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/packed-refs.lock
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/refs/tags/v0.2.0.lock
-  create directory /tmp/nimble_6515/githubcom_nitelynimhpack/.git/logs
-  rename /tmp/nimble_6515/githubcom_nitelynimhpack/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects/pack/pack-7bc035fccf2c8fe6d1b5821eef12d61a640d5459.keep
-  create directory /tmp/nimble_6515/githubcom_nitelynimhpack/docs
-  create directory /tmp/nimble_6515/githubcom_nitelynimhpack/docs/hpack
-  create directory /tmp/nimble_6515/githubcom_nitelynimhpack/gen
-  create directory /tmp/nimble_6515/githubcom_nitelynimhpack/src
-  create directory /tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack
-  create directory /tmp/nimble_6515/githubcom_nitelynimhpack/tests
-  rename /tmp/nimble_6515/githubcom_nitelynimhpack/.git/index.lock to index
+  create directory /tmp/nimble_6805
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/info
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/branches
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/refs
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/refs/heads
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/refs/tags
+  rename /tmp/nimble_6805/githubcom_nitelynimhpack/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_6805/githubcom_nitelynimhpack/.git/config.lock to config
+  change permissions of /tmp/nimble_6805/githubcom_nitelynimhpack/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_6805/githubcom_nitelynimhpack/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_6805/githubcom_nitelynimhpack/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6805/githubcom_nitelynimhpack/.git/config.lock to config
+  change permissions of /tmp/nimble_6805/githubcom_nitelynimhpack/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6805/githubcom_nitelynimhpack/.git/config.lock to config
+  change permissions of /tmp/nimble_6805/githubcom_nitelynimhpack/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6805/githubcom_nitelynimhpack/.git/config.lock to config
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/tt0XfC8
+  create symbolic link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/tt0XfC8 to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/tt0XfC8
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/pack
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/info
+  change permissions of /tmp/nimble_6805/githubcom_nitelynimhpack/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6805/githubcom_nitelynimhpack/.git/config.lock to config
+  change permissions of /tmp/nimble_6805/githubcom_nitelynimhpack/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6805/githubcom_nitelynimhpack/.git/config.lock to config
+  change permissions of /tmp/nimble_6805/githubcom_nitelynimhpack/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_6805/githubcom_nitelynimhpack/.git/config.lock to config
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/af
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/af/d0f2911e1d268c3f45bf24f024dd1c2ff765e0 to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/af/tmp_obj_TWt7O7
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/af/tmp_obj_TWt7O7
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/59
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/59/2e38cae1e2f26ab374028b0518f675d9286f66 to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/59/tmp_obj_1yDlsb
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/59/tmp_obj_1yDlsb
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/52
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/52/b9511d54a8f62cc0d32cd65f810d238e0a2fd5 to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/52/tmp_obj_3R8Gvg
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/52/tmp_obj_3R8Gvg
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/81
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/81/9248c8f38db37c73d60f8bbd6b4c300b4ec039 to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/81/tmp_obj_mt66de
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/81/tmp_obj_mt66de
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/be
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/be/67af540eaa21b033632180cf8e6a01c2306899 to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/be/tmp_obj_aPO2tf
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/be/tmp_obj_aPO2tf
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/37
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/37/d671fbf4dda2de265fc0333fef993780d711f1 to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/37/tmp_obj_wiOThk
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/37/tmp_obj_wiOThk
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/6f
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/6f/c91001d6291e622f2d60b20171fae4c1fa6e08 to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/6f/tmp_obj_2KMz3o
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/6f/tmp_obj_2KMz3o
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/cf
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/cf/26f73d85310d918332dcdf9e59b054b40a6475 to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/cf/tmp_obj_Kde4Qt
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/cf/tmp_obj_Kde4Qt
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/44
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/44/ca87f8b1fe9f451aa8d421818b9ec98df7cf85 to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/44/tmp_obj_swg4nz
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/44/tmp_obj_swg4nz
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/ae
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/ae/b8230151b129bba56c1d2496eaf289683fb097 to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/ae/tmp_obj_EiumtE
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/ae/tmp_obj_EiumtE
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/a1
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/a1/4277965d2453118b03a96de96b745af58f4864 to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/a1/tmp_obj_WLICoI
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/a1/tmp_obj_WLICoI
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/a2
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/a2/e4f944dadc4d01820de061dc1403fde31c32c6 to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/a2/tmp_obj_mzv8gK
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/a2/tmp_obj_mzv8gK
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/36
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/36/f3fe5aa1b4c3bcbd0f518cce2041827362edd8 to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/36/tmp_obj_Mu2rIO
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/36/tmp_obj_Mu2rIO
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/50
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/50/0b244f5b1c6ecb446b6a38eefbe6998dd3c72e to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/50/tmp_obj_wq4h5U
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/50/tmp_obj_wq4h5U
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/7f
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/7f/cda391141db536e5fca2bd789832814ee3832b to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/7f/tmp_obj_64rSU5
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/7f/tmp_obj_64rSU5
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/82
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/82/8eb306ca681bf65322f681bbb2e665158ff676 to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/82/tmp_obj_yJlc8c
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/82/tmp_obj_yJlc8c
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/02
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/02/37085c9e317f036f1c30fd2278bebfae9ac0f6 to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/02/tmp_obj_81DN6g
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/02/tmp_obj_81DN6g
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/f7
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/f7/fa2ccc309383c08bde7d3a714df9ab381642f1 to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/f7/tmp_obj_9FMxve
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/f7/tmp_obj_9FMxve
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/e1
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/e1/158d0f7051922074da88a8686e80d6683006d3 to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/e1/tmp_obj_15tWSj
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/e1/tmp_obj_15tWSj
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/60
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/60/1c0323c34ad85e9479309fe16559c32d73820c to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/60/tmp_obj_9BGD9o
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/60/tmp_obj_9BGD9o
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/15
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/15/a2cc7522fe1cd910b503037440fc0da16fcc9d to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/15/tmp_obj_7etIMt
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/15/tmp_obj_7etIMt
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/88
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/88/175cbcf88930432826b9078a721b33477e50f7 to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/88/tmp_obj_fVQGwy
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/88/tmp_obj_fVQGwy
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/d2
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/d2/a5c1361a6cee06c682061c0c49d360904386af to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/d2/tmp_obj_t43WrD
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/d2/tmp_obj_t43WrD
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/ed
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/ed/3d6e9f032a0eea14bb7ca7c64462ba9a5bfc29 to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/ed/tmp_obj_jF7r4G
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/ed/tmp_obj_jF7r4G
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/6a
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/6a/2747792cbd75c92c0c4986ddd67fd7e2bce0b8 to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/6a/tmp_obj_RosNNL
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/6a/tmp_obj_RosNNL
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/b9
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/b9/263a05d88fedfb89edd257d98525f443b5d5bf to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/b9/tmp_obj_151zoS
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/b9/tmp_obj_151zoS
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/0c
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/0c/1830eb2f7c3318516e8162ca471b560402a192 to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/0c/tmp_obj_BqtBcX
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/0c/tmp_obj_BqtBcX
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/4d
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/4d/780e39a0b16057817ab84303e2497766ca15ab to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/4d/tmp_obj_znUx70
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/4d/tmp_obj_znUx70
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/73
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/73/ba73622cbe05707b31337ca16f49c0b744fac7 to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/73/tmp_obj_jrqFI5
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/73/tmp_obj_jrqFI5
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/df
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/df/a94b0edbe48ca66614da90ca9d42064ae7b6a3 to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/df/tmp_obj_F4G4Wc
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/df/tmp_obj_F4G4Wc
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/50/c84ddbe4f863ab80e6d28b756c23cef56bbd82 to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/50/tmp_obj_pkzGRd
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/50/tmp_obj_pkzGRd
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/85
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/85/bf6c448c110187ab65c0967baf926f70ceb723 to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/85/tmp_obj_QxCawb
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/85/tmp_obj_QxCawb
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/c6
+  create hard link from /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/c6/e2732f3f3a4f94f23827891ec9bd0f868669ce to /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/c6/tmp_obj_chKXhg
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/c6/tmp_obj_chKXhg
+  rename /tmp/nimble_6805/githubcom_nitelynimhpack/.git/shallow.lock to shallow
+  rename /tmp/nimble_6805/githubcom_nitelynimhpack/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/packed-refs.lock
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/refs/tags/v0.2.0.lock
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/.git/logs
+  rename /tmp/nimble_6805/githubcom_nitelynimhpack/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/docs
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/docs/hpack
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/gen
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/src
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack
+  create directory /tmp/nimble_6805/githubcom_nitelynimhpack/tests
+  rename /tmp/nimble_6805/githubcom_nitelynimhpack/.git/index.lock to index
   create directory /tmp
   create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/hpack_942030155
-  delete /tmp/nimblecache/hpack_942030155/hpack.ini
-  delete /tmp/nimble_6515.out
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/hpack_6515.nims
+  create directory /tmp/nimblecache/hpack_1465742911
+  delete /tmp/nimblecache/hpack_1465742911/hpack.ini
+  delete /tmp/nimble_6805.out
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/hpack_6805.nims
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/hpack-0.2.0
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/hpack-0.2.0
-  create directory /home/runner/.nimble/pkgs/hpack-0.2.0/hpack
-  change permissions of /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/huffman_data.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -291,34 +533,6 @@ rmdir('/tmp/nimble_6515')
   create directory /home/runner/.nimble/pkgs/hpack-0.2.0
   create directory /home/runner/.nimble/pkgs/hpack-0.2.0/hpack
   change permissions of /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/huffman_encoder.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/hpack-0.2.0
-  create directory /home/runner/.nimble/pkgs/hpack-0.2.0/hpack
-  change permissions of /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/hcollections.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/hpack-0.2.0
-  create directory /home/runner/.nimble/pkgs/hpack-0.2.0/hpack
-  change permissions of /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/headers_data.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/hpack-0.2.0
-  create directory /home/runner/.nimble/pkgs/hpack-0.2.0/hpack
-  change permissions of /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/huffman_decoder.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/hpack-0.2.0
-  create directory /home/runner/.nimble/pkgs/hpack-0.2.0/hpack
-  change permissions of /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/encoder.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -338,77 +552,175 @@ rmdir('/tmp/nimble_6515')
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/hpack-0.2.0
+  create directory /home/runner/.nimble/pkgs/hpack-0.2.0/hpack
+  change permissions of /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/encoder.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/hpack-0.2.0
+  create directory /home/runner/.nimble/pkgs/hpack-0.2.0/hpack
+  change permissions of /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/huffman_data.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/hpack-0.2.0
+  create directory /home/runner/.nimble/pkgs/hpack-0.2.0/hpack
+  change permissions of /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/huffman_decoder.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/hpack-0.2.0
+  create directory /home/runner/.nimble/pkgs/hpack-0.2.0/hpack
+  change permissions of /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/hcollections.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/hpack-0.2.0
+  create directory /home/runner/.nimble/pkgs/hpack-0.2.0/hpack
+  change permissions of /home/runner/.nimble/pkgs/hpack-0.2.0/hpack/headers_data.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/hpack-0.2.0
   change permissions of /home/runner/.nimble/pkgs/hpack-0.2.0/hpack.nim to rw-r--r--
   change permissions of /home/runner/.nimble/pkgs/hpack-0.2.0/hpack.nimble to rw-r--r--
   create directory /tmp
   create directory /tmp/nimblecache
   create directory /tmp/nimblecache/hpack_3292552696
   delete /tmp/nimblecache/hpack_3292552696/hpack.ini
-  delete /tmp/nimble_6515.out
-  delete /home/runner/.nimble/pkgs/hpack-0.2.0/hpack_6515.nims
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack/huffman_data.nim
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack/huffman_encoder.nim
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack/hcollections.nim
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack/headers_data.nim
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack/huffman_decoder.nim
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack/encoder.nim
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack/exceptions.nim
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack/decoder.nim
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/src/hpack.nim
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/src
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.gitignore
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/hpack.nimble
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/CHANGELOG.md
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/LICENSE
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/docs/hpack/huffman_decoder.html
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/docs/hpack/exceptions.html
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/docs/hpack/hcollections.html
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/docs/hpack/huffman_encoder.html
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/docs/hpack/encoder.html
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/docs/hpack/decoder.html
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/docs/hpack
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/docs/index.html
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/docs
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/HEAD
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/config
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/logs/HEAD
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/logs
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/branches
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/packed-refs
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/refs/heads
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/refs/tags
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/refs
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks/pre-push.sample
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks/update.sample
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks/post-update.sample
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/hooks
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/index
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/info/exclude
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/info
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/shallow
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/description
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects/pack/pack-7bc035fccf2c8fe6d1b5821eef12d61a640d5459.idx
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects/pack/pack-7bc035fccf2c8fe6d1b5821eef12d61a640d5459.pack
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects/pack
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects/info
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git/objects
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/.git
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/gen/static_table.nim
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/gen/huffman.nim
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/gen
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/README.md
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/tests/tests.nim
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/tests/nim.cfg
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack/tests
-  delete /tmp/nimble_6515/githubcom_nitelynimhpack
-  delete /tmp/nimble_6515
+  delete /tmp/nimble_6805.out
+  delete /home/runner/.nimble/pkgs/hpack-0.2.0/hpack_6805.nims
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/docs/hpack/encoder.html
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/docs/hpack/exceptions.html
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/docs/hpack/huffman_encoder.html
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/docs/hpack/huffman_decoder.html
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/docs/hpack/decoder.html
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/docs/hpack/hcollections.html
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/docs/hpack
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/docs/index.html
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/docs
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/gen/huffman.nim
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/gen/static_table.nim
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/gen
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/README.md
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/refs/tags
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/refs/heads
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/refs
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/info/exclude
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/info
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/branches
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/logs/HEAD
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/logs
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/description
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks/pre-push.sample
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks/update.sample
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks/post-update.sample
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/hooks
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/shallow
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/config
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/index
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/0c/1830eb2f7c3318516e8162ca471b560402a192
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/0c
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/60/1c0323c34ad85e9479309fe16559c32d73820c
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/60
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/6f/c91001d6291e622f2d60b20171fae4c1fa6e08
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/6f
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/15/a2cc7522fe1cd910b503037440fc0da16fcc9d
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/15
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/82/8eb306ca681bf65322f681bbb2e665158ff676
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/82
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/info
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/c6/e2732f3f3a4f94f23827891ec9bd0f868669ce
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/c6
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/ae/b8230151b129bba56c1d2496eaf289683fb097
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/ae
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/a2/e4f944dadc4d01820de061dc1403fde31c32c6
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/a2
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/85/bf6c448c110187ab65c0967baf926f70ceb723
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/85
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/f7/fa2ccc309383c08bde7d3a714df9ab381642f1
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/f7
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/be/67af540eaa21b033632180cf8e6a01c2306899
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/be
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/df/a94b0edbe48ca66614da90ca9d42064ae7b6a3
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/df
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/af/d0f2911e1d268c3f45bf24f024dd1c2ff765e0
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/af
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/50/0b244f5b1c6ecb446b6a38eefbe6998dd3c72e
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/50/c84ddbe4f863ab80e6d28b756c23cef56bbd82
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/50
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/37/d671fbf4dda2de265fc0333fef993780d711f1
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/37
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/81/9248c8f38db37c73d60f8bbd6b4c300b4ec039
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/81
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/73/ba73622cbe05707b31337ca16f49c0b744fac7
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/73
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/36/f3fe5aa1b4c3bcbd0f518cce2041827362edd8
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/36
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/e1/158d0f7051922074da88a8686e80d6683006d3
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/e1
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/b9/263a05d88fedfb89edd257d98525f443b5d5bf
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/b9
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/59/2e38cae1e2f26ab374028b0518f675d9286f66
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/59
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/ed/3d6e9f032a0eea14bb7ca7c64462ba9a5bfc29
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/ed
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/52/b9511d54a8f62cc0d32cd65f810d238e0a2fd5
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/52
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/4d/780e39a0b16057817ab84303e2497766ca15ab
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/4d
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/cf/26f73d85310d918332dcdf9e59b054b40a6475
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/cf
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/d2/a5c1361a6cee06c682061c0c49d360904386af
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/d2
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/88/175cbcf88930432826b9078a721b33477e50f7
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/88
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/6a/2747792cbd75c92c0c4986ddd67fd7e2bce0b8
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/6a
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/pack
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/02/37085c9e317f036f1c30fd2278bebfae9ac0f6
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/02
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/44/ca87f8b1fe9f451aa8d421818b9ec98df7cf85
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/44
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/a1/4277965d2453118b03a96de96b745af58f4864
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/a1
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/7f/cda391141db536e5fca2bd789832814ee3832b
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects/7f
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/objects
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/packed-refs
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git/HEAD
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.git
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack/huffman_encoder.nim
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack/exceptions.nim
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack/decoder.nim
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack/encoder.nim
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack/huffman_data.nim
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack/huffman_decoder.nim
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack/hcollections.nim
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack/headers_data.nim
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/src/hpack.nim
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/src
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/CHANGELOG.md
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/hpack.nimble
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/tests/tests.nim
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/tests/nim.cfg
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/tests
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/.gitignore
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack/LICENSE
+  delete /tmp/nimble_6805/githubcom_nitelynimhpack
+  delete /tmp/nimble_6805
