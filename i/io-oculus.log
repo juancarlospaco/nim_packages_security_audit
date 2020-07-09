@@ -1,77 +1,132 @@
     Reading official package list
 Downloading https://github.com/nimious/io-oculus.git using git
-   Warning: Package 'oculus' has an incorrect structure. The top level of the package source directory should contain at most one module, named 'oculus.nim', but a file named 'ovr.nim' was found. This will be an error in the future.
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_4504', 0x00000000000001ff)
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit', 0x00000000000001ff)
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit')
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit', 0x00000000000001ff)
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/HEAD.lock', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/HEAD')
+rename('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config')
+chmod('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config')
+chmod('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config')
+chmod('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/tZgIWLx')
+symlink('testing', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/tZgIWLx')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/tZgIWLx')
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config')
+chmod('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config')
+chmod('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config')
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/4b', 0x00000000000001ff)
+link('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/4b/tmp_obj_aXgMDQ', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/4b/4ae34c5269e345cbebc9d13bb971fdb481426e')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/4b/tmp_obj_aXgMDQ')
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/c2', 0x00000000000001ff)
+link('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/c2/tmp_obj_KfDBiX', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/c2/c4710fc523b471cc2f413ce8174b34692ae577')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/c2/tmp_obj_KfDBiX')
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/84', 0x00000000000001ff)
+link('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/84/tmp_obj_qhbuvX', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/84/7ef2c2fcf30d2c8a434abc95f7875e6659a5c2')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/84/tmp_obj_qhbuvX')
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/d0', 0x00000000000001ff)
+link('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/d0/tmp_obj_gIncp4', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/d0/fd0d3cda1d249e9034568fe4e73250c4689f29')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/d0/tmp_obj_gIncp4')
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/4c', 0x00000000000001ff)
+link('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/4c/tmp_obj_QG3I64', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/4c/2da77108e084ecbdcbcff6e2dad9a919d5f524')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/4c/tmp_obj_QG3I64')
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/a0', 0x00000000000001ff)
+link('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/a0/tmp_obj_KPHuG9', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/a0/441bd511a5e864ac46c0eeef0aeae6d446ee06')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/a0/tmp_obj_KPHuG9')
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/74', 0x00000000000001ff)
+link('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/74/tmp_obj_ruuIVU', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/74/86ac6f442959803f38bf9a4b9d7fd6f77d4721')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/74/tmp_obj_ruuIVU')
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/b4', 0x00000000000001ff)
+link('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/b4/tmp_obj_BjyUS1', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/b4/b0d06b8b045af0a7ee17d873bcc186e2a92f20')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/b4/tmp_obj_BjyUS1')
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/2b', 0x00000000000001ff)
+link('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/2b/tmp_obj_Bdpl85', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/2b/19c1b258fb403426687dd612a2cd9cc2539849')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/2b/tmp_obj_Bdpl85')
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/bd', 0x00000000000001ff)
+link('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/bd/tmp_obj_FzJSc5', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/bd/46748246b3e2866fc83cfe0c6857b200aa9d47')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/bd/tmp_obj_FzJSc5')
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/36', 0x00000000000001ff)
+link('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/36/tmp_obj_LahVF7', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/36/02d682be709549f94441d998a20be6bce18728')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/36/tmp_obj_LahVF7')
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/f8', 0x00000000000001ff)
+link('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/f8/tmp_obj_tpRXic', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/f8/ae529942f42250d4790ca0d29c4b10584b9b86')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/f8/tmp_obj_tpRXic')
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/42', 0x00000000000001ff)
+link('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/42/tmp_obj_HqOTwe', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/42/160c149fc96042e6fd96e44e2a62ea467e8d4c')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/42/tmp_obj_HqOTwe')
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/16', 0x00000000000001ff)
+link('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/16/tmp_obj_NDdkNk', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/16/eac3b58304a510211b71deaf1fad0904bc7380')   Warning: Package 'oculus' has an incorrect structure. The top level of the package source directory should contain at most one module, named 'oculus.nim', but a file named 'ovr.nim' was found. This will be an error in the future.
       Hint: If this is the primary source file in the package, rename it to 'oculus.nim'. If it's a source file required by the main module, or if it is one of several modules exposed by 'oculus', then move it into a 'oculus/' subdirectory. If it's a test file or otherwise not required to build the the package 'oculus.nim', prevent its installation by adding `skipFiles = @["ovr.nim"]` to the .nimble file. See https://github.com/nim-lang/nimble#libraries for more info.
   Verifying dependencies for oculus@1.0
  Installing oculus@1.0
-    Copying file /tmp/nimble_3876/githubcom_nimiousiooculusgit/src/ovr.nim to /home/runner/.nimble/pkgs/oculus-1.0/ovr.nim
-    Copying file /tmp/nimble_3876/githubcom_nimiousiooculusgit/src/ovrcapi.nim to /home/runner/.nimble/pkgs/oculus-1.0/ovrcapi.nim
-    Copying file /tmp/nimble_3876/githubcom_nimiousiooculusgit/src/ovrversion.nim to /home/runner/.nimble/pkgs/oculus-1.0/ovrversion.nim
-    Copying file /tmp/nimble_3876/githubcom_nimiousiooculusgit/src/ovrcapikeys.nim to /home/runner/.nimble/pkgs/oculus-1.0/ovrcapikeys.nim
-    Copying file /tmp/nimble_3876/githubcom_nimiousiooculusgit/oculus.nimble to /home/runner/.nimble/pkgs/oculus-1.0/oculus.nimble
+    Copying file /tmp/nimble_4504/githubcom_nimiousiooculusgit/src/ovr.nim to /home/runner/.nimble/pkgs/oculus-1.0/ovr.nim
+    Copying file /tmp/nimble_4504/githubcom_nimiousiooculusgit/src/ovrversion.nim to /home/runner/.nimble/pkgs/oculus-1.0/ovrversion.nim
+    Copying file /tmp/nimble_4504/githubcom_nimiousiooculusgit/src/ovrcapikeys.nim to /home/runner/.nimble/pkgs/oculus-1.0/ovrcapikeys.nim
+    Copying file /tmp/nimble_4504/githubcom_nimiousiooculusgit/src/ovrcapi.nim to /home/runner/.nimble/pkgs/oculus-1.0/ovrcapi.nim
+    Copying file /tmp/nimble_4504/githubcom_nimiousiooculusgit/oculus.nimble to /home/runner/.nimble/pkgs/oculus-1.0/oculus.nimble
    Success: oculus installed successfully.
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_3876', 0x00000000000001ff)
-mkdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit', 0x00000000000001ff)
-rmdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit')
-mkdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit', 0x00000000000001ff)
-mkdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/HEAD.lock', '/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/HEAD')
-rename('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock', '/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config')
-chmod('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock', '/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config')
-chmod('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock', '/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config')
-chmod('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock', '/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/tHtWp8i')
-symlink('testing', '/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/tHtWp8i')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/tHtWp8i')
-mkdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock', '/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config')
-chmod('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock', '/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config')
-chmod('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock', '/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config')
-link('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects/pack/tmp_pack_vD3p6l', '/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects/pack/pack-6028d8879d545ed2d6bf266a597e39bb3119aa4f.pack')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects/pack/tmp_pack_vD3p6l')
-link('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects/pack/tmp_idx_E8wC6G', '/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects/pack/pack-6028d8879d545ed2d6bf266a597e39bb3119aa4f.idx')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects/pack/tmp_idx_E8wC6G')
-rename('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/shallow.lock', '/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/shallow')
-rename('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/packed-refs.new', '/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/packed-refs')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/packed-refs.lock')
-mkdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs/remotes/origin', 0x00000000000001ff)
-mkdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/logs', 0x00000000000001ff)
-mkdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/logs/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/logs/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/logs/refs/remotes/origin', 0x00000000000001ff)
-rename('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs/remotes/origin/HEAD')
-rename('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/HEAD.lock', '/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/HEAD')
-mkdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/logs/refs/heads', 0x00000000000001ff)
-rename('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs/heads/master.lock', '/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs/heads/master')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/HEAD.lock')
-chmod('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock', '/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config')
-chmod('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock', '/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects/pack/pack-6028d8879d545ed2d6bf266a597e39bb3119aa4f.keep')
+
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/16/tmp_obj_NDdkNk')
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/43', 0x00000000000001ff)
+link('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/43/tmp_obj_2Z4Dfe', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/43/ef750104c6f95ade448c5db1dbfa753bc9a358')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/43/tmp_obj_2Z4Dfe')
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/e9', 0x00000000000001ff)
+link('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/e9/tmp_obj_KMeYKg', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/e9/2bde369b1647cc93f5414e392a2a148dd85963')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/e9/tmp_obj_KMeYKg')
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/58', 0x00000000000001ff)
+link('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/58/tmp_obj_KCVCji', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/58/984ce9414f9eeaade455e35d2f07aabf5b0de6')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/58/tmp_obj_KCVCji')
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/d3', 0x00000000000001ff)
+link('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/d3/tmp_obj_u8JgWn', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/d3/2ff86ea9fca8749a54b29226949179cbefcea8')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/d3/tmp_obj_u8JgWn')
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/70', 0x00000000000001ff)
+link('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/70/tmp_obj_qiipTr', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/70/d7f6b56ca64028e4fb5ebb012a688dd83e1046')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/70/tmp_obj_qiipTr')
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/5d', 0x00000000000001ff)
+link('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/5d/tmp_obj_mQQ54s', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/5d/597aefa1c07f4e747ce8818f440a33bd707cd2')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/5d/tmp_obj_mQQ54s')
+rename('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/shallow.lock', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/shallow')
+rename('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/packed-refs.new', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/packed-refs')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/packed-refs.lock')
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/HEAD.lock', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/HEAD')
+mkdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs/heads/master.lock', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs/heads/master')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/HEAD.lock')
+chmod('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config')
+chmod('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config')
 mkdir('docs', 0x00000000000001ff)
 mkdir('examples', 0x00000000000001ff)
 mkdir('src', 0x00000000000001ff)
-rename('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/index.lock', '/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/index')
+rename('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/index.lock', '/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/index')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -88,12 +143,6 @@ mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/oculus-1.0', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/oculus-1.0/ovrcapi.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/oculus-1.0', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/oculus-1.0/ovrversion.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
@@ -101,132 +150,231 @@ mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/oculus-1.0', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/oculus-1.0/ovrcapikeys.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/oculus-1.0', 0x00000000000001ff)
+chmod('/home/runner/.nimble/pkgs/oculus-1.0/ovrcapi.nim', 0x00000000000001a4)
 chmod('/home/runner/.nimble/pkgs/oculus-1.0/oculus.nimble', 0x00000000000001a4)
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/examples/ovr_logger_example.nim')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/examples/ovr_details_example.nim')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/examples/nim.cfg')
-rmdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/examples')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/nimdoc.cfg')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/src/ovr.nim')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/src/ovrcapi.nim')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/src/ovrversion.nim')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/src/ovrcapikeys.nim')
-rmdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/src')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.gitignore')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/oculus.nimble')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/LICENSE')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/docs/logo.png')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/docs/oculus.html')
-rmdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/docs')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/HEAD')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/logs/HEAD')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/logs/refs/heads/master')
-rmdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/logs/refs/heads')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/logs/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/logs/refs/remotes/origin')
-rmdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/logs/refs/remotes')
-rmdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/logs/refs')
-rmdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/logs')
-rmdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/branches')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/packed-refs')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs/heads/master')
-rmdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs/heads')
-rmdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs/tags')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs/remotes/origin')
-rmdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs/remotes')
-rmdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks/update.sample')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/index')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/info/exclude')
-rmdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/info')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/shallow')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/description')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects/pack/pack-6028d8879d545ed2d6bf266a597e39bb3119aa4f.idx')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects/pack/pack-6028d8879d545ed2d6bf266a597e39bb3119aa4f.pack')
-rmdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects/pack')
-rmdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects/info')
-rmdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects')
-rmdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit/.git')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/README.md')
-unlink('/tmp/nimble_3876/githubcom_nimiousiooculusgit/nim.cfg')
-rmdir('/tmp/nimble_3876/githubcom_nimiousiooculusgit')
-rmdir('/tmp/nimble_3876')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/docs/logo.png')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/docs/oculus.html')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/docs')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/README.md')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs/remotes')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs/tags')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs/heads/master')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs/heads')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/info/exclude')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/info')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/branches')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/logs/refs/remotes')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/logs/refs/heads')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/logs/refs')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/logs/HEAD')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/logs')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/description')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks/update.sample')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/shallow')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/index')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/e9/2bde369b1647cc93f5414e392a2a148dd85963')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/e9')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/info')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/70/d7f6b56ca64028e4fb5ebb012a688dd83e1046')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/70')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/84/7ef2c2fcf30d2c8a434abc95f7875e6659a5c2')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/84')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/43/ef750104c6f95ade448c5db1dbfa753bc9a358')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/43')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/a0/441bd511a5e864ac46c0eeef0aeae6d446ee06')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/a0')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/58/984ce9414f9eeaade455e35d2f07aabf5b0de6')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/58')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/36/02d682be709549f94441d998a20be6bce18728')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/36')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/d3/2ff86ea9fca8749a54b29226949179cbefcea8')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/d3')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/4b/4ae34c5269e345cbebc9d13bb971fdb481426e')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/4b')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/b4/b0d06b8b045af0a7ee17d873bcc186e2a92f20')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/b4')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/c2/c4710fc523b471cc2f413ce8174b34692ae577')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/c2')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/16/eac3b58304a510211b71deaf1fad0904bc7380')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/16')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/5d/597aefa1c07f4e747ce8818f440a33bd707cd2')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/5d')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/f8/ae529942f42250d4790ca0d29c4b10584b9b86')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/f8')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/d0/fd0d3cda1d249e9034568fe4e73250c4689f29')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/d0')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/74/86ac6f442959803f38bf9a4b9d7fd6f77d4721')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/74')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/2b/19c1b258fb403426687dd612a2cd9cc2539849')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/2b')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/42/160c149fc96042e6fd96e44e2a62ea467e8d4c')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/42')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/pack')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/4c/2da77108e084ecbdcbcff6e2dad9a919d5f524')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/4c')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/bd/46748246b3e2866fc83cfe0c6857b200aa9d47')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/bd')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/packed-refs')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/HEAD')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.git')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/src/ovr.nim')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/src/ovrversion.nim')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/src/ovrcapikeys.nim')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/src/ovrcapi.nim')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/src')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/nimdoc.cfg')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/examples/ovr_logger_example.nim')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/examples/ovr_details_example.nim')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/examples/nim.cfg')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit/examples')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/oculus.nimble')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/nim.cfg')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/.gitignore')
+unlink('/tmp/nimble_4504/githubcom_nimiousiooculusgit/LICENSE')
+rmdir('/tmp/nimble_4504/githubcom_nimiousiooculusgit')
+rmdir('/tmp/nimble_4504')
   create directory /tmp
-  create directory /tmp/nimble_3876
-  create directory /tmp/nimble_3876/githubcom_nimiousiooculusgit
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit
-  create directory /tmp/nimble_3876/githubcom_nimiousiooculusgit
-  create directory /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git
-  create directory /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git
-  create directory /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/branches
-  create directory /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks
-  create directory /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/info
-  create directory /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs
-  create directory /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs/heads
-  create directory /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs/tags
-  rename /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock to config
-  change permissions of /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock to config
-  change permissions of /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock to config
-  change permissions of /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock to config
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/tHtWp8i
-  create symbolic link from /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/tHtWp8i to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/tHtWp8i
-  create directory /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects
-  create directory /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects/pack
-  create directory /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects/info
-  change permissions of /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock to config
-  change permissions of /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock to config
-  change permissions of /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock to config
-  create hard link from /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects/pack/pack-6028d8879d545ed2d6bf266a597e39bb3119aa4f.pack to /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects/pack/tmp_pack_vD3p6l
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects/pack/tmp_pack_vD3p6l
-  create hard link from /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects/pack/pack-6028d8879d545ed2d6bf266a597e39bb3119aa4f.idx to /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects/pack/tmp_idx_E8wC6G
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects/pack/tmp_idx_E8wC6G
-  rename /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/shallow.lock to shallow
-  rename /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/packed-refs.lock
-  create directory /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs/remotes
-  create directory /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs/remotes/origin
-  create directory /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/logs
-  create directory /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/logs/refs
-  create directory /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/logs/refs/remotes
-  create directory /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/logs/refs/remotes/origin
-  rename /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs/remotes/origin/HEAD.lock to HEAD
-  rename /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/HEAD.lock to HEAD
-  create directory /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/logs/refs/heads
-  rename /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs/heads/master.lock to master
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/HEAD.lock
-  change permissions of /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock to config
-  change permissions of /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config.lock to config
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects/pack/pack-6028d8879d545ed2d6bf266a597e39bb3119aa4f.keep
-  create directory /tmp/nimble_3876/githubcom_nimiousiooculusgit/docs
-  create directory /tmp/nimble_3876/githubcom_nimiousiooculusgit/examples
-  create directory /tmp/nimble_3876/githubcom_nimiousiooculusgit/src
-  rename /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/index.lock to index
+  create directory /tmp/nimble_4504
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/info
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/branches
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs/heads
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs/tags
+  rename /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock to config
+  change permissions of /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock to config
+  change permissions of /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock to config
+  change permissions of /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock to config
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/tZgIWLx
+  create symbolic link from /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/tZgIWLx to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/tZgIWLx
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/pack
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/info
+  change permissions of /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock to config
+  change permissions of /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock to config
+  change permissions of /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock to config
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/4b
+  create hard link from /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/4b/4ae34c5269e345cbebc9d13bb971fdb481426e to /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/4b/tmp_obj_aXgMDQ
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/4b/tmp_obj_aXgMDQ
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/c2
+  create hard link from /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/c2/c4710fc523b471cc2f413ce8174b34692ae577 to /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/c2/tmp_obj_KfDBiX
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/c2/tmp_obj_KfDBiX
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/84
+  create hard link from /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/84/7ef2c2fcf30d2c8a434abc95f7875e6659a5c2 to /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/84/tmp_obj_qhbuvX
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/84/tmp_obj_qhbuvX
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/d0
+  create hard link from /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/d0/fd0d3cda1d249e9034568fe4e73250c4689f29 to /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/d0/tmp_obj_gIncp4
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/d0/tmp_obj_gIncp4
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/4c
+  create hard link from /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/4c/2da77108e084ecbdcbcff6e2dad9a919d5f524 to /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/4c/tmp_obj_QG3I64
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/4c/tmp_obj_QG3I64
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/a0
+  create hard link from /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/a0/441bd511a5e864ac46c0eeef0aeae6d446ee06 to /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/a0/tmp_obj_KPHuG9
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/a0/tmp_obj_KPHuG9
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/74
+  create hard link from /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/74/86ac6f442959803f38bf9a4b9d7fd6f77d4721 to /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/74/tmp_obj_ruuIVU
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/74/tmp_obj_ruuIVU
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/b4
+  create hard link from /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/b4/b0d06b8b045af0a7ee17d873bcc186e2a92f20 to /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/b4/tmp_obj_BjyUS1
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/b4/tmp_obj_BjyUS1
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/2b
+  create hard link from /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/2b/19c1b258fb403426687dd612a2cd9cc2539849 to /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/2b/tmp_obj_Bdpl85
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/2b/tmp_obj_Bdpl85
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/bd
+  create hard link from /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/bd/46748246b3e2866fc83cfe0c6857b200aa9d47 to /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/bd/tmp_obj_FzJSc5
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/bd/tmp_obj_FzJSc5
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/36
+  create hard link from /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/36/02d682be709549f94441d998a20be6bce18728 to /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/36/tmp_obj_LahVF7
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/36/tmp_obj_LahVF7
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/f8
+  create hard link from /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/f8/ae529942f42250d4790ca0d29c4b10584b9b86 to /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/f8/tmp_obj_tpRXic
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/f8/tmp_obj_tpRXic
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/42
+  create hard link from /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/42/160c149fc96042e6fd96e44e2a62ea467e8d4c to /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/42/tmp_obj_HqOTwe
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/42/tmp_obj_HqOTwe
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/16
+  create hard link from /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/16/eac3b58304a510211b71deaf1fad0904bc7380 to /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/16/tmp_obj_NDdkNk
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/16/tmp_obj_NDdkNk
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/43
+  create hard link from /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/43/ef750104c6f95ade448c5db1dbfa753bc9a358 to /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/43/tmp_obj_2Z4Dfe
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/43/tmp_obj_2Z4Dfe
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/e9
+  create hard link from /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/e9/2bde369b1647cc93f5414e392a2a148dd85963 to /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/e9/tmp_obj_KMeYKg
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/e9/tmp_obj_KMeYKg
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/58
+  create hard link from /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/58/984ce9414f9eeaade455e35d2f07aabf5b0de6 to /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/58/tmp_obj_KCVCji
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/58/tmp_obj_KCVCji
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/d3
+  create hard link from /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/d3/2ff86ea9fca8749a54b29226949179cbefcea8 to /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/d3/tmp_obj_u8JgWn
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/d3/tmp_obj_u8JgWn
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/70
+  create hard link from /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/70/d7f6b56ca64028e4fb5ebb012a688dd83e1046 to /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/70/tmp_obj_qiipTr
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/70/tmp_obj_qiipTr
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/5d
+  create hard link from /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/5d/597aefa1c07f4e747ce8818f440a33bd707cd2 to /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/5d/tmp_obj_mQQ54s
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/5d/tmp_obj_mQQ54s
+  rename /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/shallow.lock to shallow
+  rename /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/packed-refs.lock
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs/remotes
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs/remotes/origin
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/logs
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/logs/refs
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/logs/refs/remotes
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/logs/refs/heads
+  rename /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/HEAD.lock
+  change permissions of /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock to config
+  change permissions of /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config.lock to config
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/docs
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/examples
+  create directory /tmp/nimble_4504/githubcom_nimiousiooculusgit/src
+  rename /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/index.lock to index
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -243,12 +391,6 @@ rmdir('/tmp/nimble_3876')
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/oculus-1.0
-  change permissions of /home/runner/.nimble/pkgs/oculus-1.0/ovrcapi.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/oculus-1.0
   change permissions of /home/runner/.nimble/pkgs/oculus-1.0/ovrversion.nim to rw-r--r--
   create directory /home
   create directory /home/runner
@@ -256,67 +398,111 @@ rmdir('/tmp/nimble_3876')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/oculus-1.0
   change permissions of /home/runner/.nimble/pkgs/oculus-1.0/ovrcapikeys.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/oculus-1.0
+  change permissions of /home/runner/.nimble/pkgs/oculus-1.0/ovrcapi.nim to rw-r--r--
   change permissions of /home/runner/.nimble/pkgs/oculus-1.0/oculus.nimble to rw-r--r--
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/examples/ovr_logger_example.nim
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/examples/ovr_details_example.nim
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/examples/nim.cfg
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/examples
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/nimdoc.cfg
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/src/ovr.nim
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/src/ovrcapi.nim
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/src/ovrversion.nim
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/src/ovrcapikeys.nim
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/src
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.gitignore
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/oculus.nimble
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/LICENSE
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/docs/logo.png
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/docs/oculus.html
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/docs
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/HEAD
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/config
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/logs/HEAD
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/logs/refs/heads/master
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/logs/refs/heads
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/logs/refs/remotes/origin/HEAD
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/logs/refs/remotes/origin
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/logs/refs/remotes
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/logs/refs
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/logs
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/branches
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/packed-refs
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs/heads/master
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs/heads
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs/tags
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs/remotes/origin/HEAD
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs/remotes/origin
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs/remotes
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/refs
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks/pre-push.sample
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks/update.sample
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks/post-update.sample
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/hooks
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/index
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/info/exclude
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/info
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/shallow
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/description
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects/pack/pack-6028d8879d545ed2d6bf266a597e39bb3119aa4f.idx
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects/pack/pack-6028d8879d545ed2d6bf266a597e39bb3119aa4f.pack
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects/pack
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects/info
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git/objects
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/.git
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/README.md
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit/nim.cfg
-  delete /tmp/nimble_3876/githubcom_nimiousiooculusgit
-  delete /tmp/nimble_3876
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/docs/logo.png
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/docs/oculus.html
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/docs
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/README.md
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs/remotes/origin
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs/remotes
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs/tags
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs/heads/master
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs/heads
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/refs
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/info/exclude
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/info
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/branches
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/logs/refs/remotes
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/logs/refs/heads/master
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/logs/refs/heads
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/logs/refs
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/logs/HEAD
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/logs
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/description
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks/pre-push.sample
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks/update.sample
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks/post-update.sample
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/hooks
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/shallow
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/config
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/index
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/e9/2bde369b1647cc93f5414e392a2a148dd85963
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/e9
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/info
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/70/d7f6b56ca64028e4fb5ebb012a688dd83e1046
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/70
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/84/7ef2c2fcf30d2c8a434abc95f7875e6659a5c2
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/84
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/43/ef750104c6f95ade448c5db1dbfa753bc9a358
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/43
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/a0/441bd511a5e864ac46c0eeef0aeae6d446ee06
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/a0
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/58/984ce9414f9eeaade455e35d2f07aabf5b0de6
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/58
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/36/02d682be709549f94441d998a20be6bce18728
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/36
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/d3/2ff86ea9fca8749a54b29226949179cbefcea8
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/d3
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/4b/4ae34c5269e345cbebc9d13bb971fdb481426e
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/4b
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/b4/b0d06b8b045af0a7ee17d873bcc186e2a92f20
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/b4
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/c2/c4710fc523b471cc2f413ce8174b34692ae577
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/c2
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/16/eac3b58304a510211b71deaf1fad0904bc7380
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/16
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/5d/597aefa1c07f4e747ce8818f440a33bd707cd2
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/5d
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/f8/ae529942f42250d4790ca0d29c4b10584b9b86
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/f8
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/d0/fd0d3cda1d249e9034568fe4e73250c4689f29
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/d0
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/74/86ac6f442959803f38bf9a4b9d7fd6f77d4721
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/74
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/2b/19c1b258fb403426687dd612a2cd9cc2539849
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/2b
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/42/160c149fc96042e6fd96e44e2a62ea467e8d4c
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/42
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/pack
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/4c/2da77108e084ecbdcbcff6e2dad9a919d5f524
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/4c
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/bd/46748246b3e2866fc83cfe0c6857b200aa9d47
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects/bd
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/objects
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/packed-refs
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git/HEAD
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.git
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/src/ovr.nim
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/src/ovrversion.nim
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/src/ovrcapikeys.nim
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/src/ovrcapi.nim
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/src
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/nimdoc.cfg
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/examples/ovr_logger_example.nim
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/examples/ovr_details_example.nim
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/examples/nim.cfg
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/examples
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/oculus.nimble
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/nim.cfg
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/.gitignore
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit/LICENSE
+  delete /tmp/nimble_4504/githubcom_nimiousiooculusgit
+  delete /tmp/nimble_4504
