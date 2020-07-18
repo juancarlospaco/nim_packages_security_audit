@@ -4,83 +4,83 @@ Downloading https://github.com/def-/rsvg using git
       Hint: If this is the primary source file in the package, rename it to 'rsvg.nim'. If it's a source file required by the main module, or if it is one of several modules exposed by 'rsvg', then move it into a 'rsvg/' subdirectory. If it's a test file or otherwise not required to build the the package 'rsvg.nim', prevent its installation by adding `skipFiles = @["rsvgcairo.nim"]` to the .nimble file. See https://github.com/nim-lang/nimble#libraries for more info.
   Verifying dependencies for rsvg@0.1
  Installing rsvg@0.1
-    Copying file /tmp/nimble_4191/githubcom_defrsvg/src/rsvgcairo.nim to /home/runner/.nimble/pkgs/rsvg-0.1/rsvgcairo.nim
-    Copying file /tmp/nimble_4191/githubcom_defrsvg/src/rsvg.nim to /home/runner/.nimble/pkgs/rsvg-0.1/rsvg.nim
-    Copying file /tmp/nimble_4191/githubcom_defrsvg/rsvg.babel to /home/runner/.nimble/pkgs/rsvg-0.1/rsvg.babel
+    Copying file /tmp/nimble_3917/githubcom_defrsvg/src/rsvgcairo.nim to /home/runner/.nimble/pkgs/rsvg-0.1/rsvgcairo.nim
+    Copying file /tmp/nimble_3917/githubcom_defrsvg/src/rsvg.nim to /home/runner/.nimble/pkgs/rsvg-0.1/rsvg.nim
+    Copying file /tmp/nimble_3917/githubcom_defrsvg/rsvg.babel to /home/runner/.nimble/pkgs/rsvg-0.1/rsvg.babel
    Success: rsvg installed successfully.
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_4191', 0x00000000000001ff)
-mkdir('/tmp/nimble_4191/githubcom_defrsvg', 0x00000000000001ff)
-rmdir('/tmp/nimble_4191/githubcom_defrsvg')
-mkdir('/tmp/nimble_4191/githubcom_defrsvg', 0x00000000000001ff)
-mkdir('/tmp/nimble_4191/githubcom_defrsvg/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_4191/githubcom_defrsvg/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4191/githubcom_defrsvg/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4191/githubcom_defrsvg/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4191/githubcom_defrsvg/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4191/githubcom_defrsvg/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_4191/githubcom_defrsvg/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_4191/githubcom_defrsvg/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_4191/githubcom_defrsvg/.git/HEAD.lock', '/tmp/nimble_4191/githubcom_defrsvg/.git/HEAD')
-rename('/tmp/nimble_4191/githubcom_defrsvg/.git/config.lock', '/tmp/nimble_4191/githubcom_defrsvg/.git/config')
-chmod('/tmp/nimble_4191/githubcom_defrsvg/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_4191/githubcom_defrsvg/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_4191/githubcom_defrsvg/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4191/githubcom_defrsvg/.git/config.lock', '/tmp/nimble_4191/githubcom_defrsvg/.git/config')
-chmod('/tmp/nimble_4191/githubcom_defrsvg/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4191/githubcom_defrsvg/.git/config.lock', '/tmp/nimble_4191/githubcom_defrsvg/.git/config')
-chmod('/tmp/nimble_4191/githubcom_defrsvg/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4191/githubcom_defrsvg/.git/config.lock', '/tmp/nimble_4191/githubcom_defrsvg/.git/config')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/tTMLBXm')
-symlink('testing', '/tmp/nimble_4191/githubcom_defrsvg/.git/tTMLBXm')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/tTMLBXm')
-mkdir('/tmp/nimble_4191/githubcom_defrsvg/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_4191/githubcom_defrsvg/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4191/githubcom_defrsvg/.git/config.lock', '/tmp/nimble_4191/githubcom_defrsvg/.git/config')
-chmod('/tmp/nimble_4191/githubcom_defrsvg/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4191/githubcom_defrsvg/.git/config.lock', '/tmp/nimble_4191/githubcom_defrsvg/.git/config')
-chmod('/tmp/nimble_4191/githubcom_defrsvg/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4191/githubcom_defrsvg/.git/config.lock', '/tmp/nimble_4191/githubcom_defrsvg/.git/config')
-mkdir('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/f0', 0x00000000000001ff)
-link('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/f0/tmp_obj_jVbCr9', '/tmp/nimble_4191/githubcom_defrsvg/.git/objects/f0/5f09bb236914feb2081627633e1dd24fe908f2')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/f0/tmp_obj_jVbCr9')
-mkdir('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/15', 0x00000000000001ff)
-link('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/15/tmp_obj_zV3ZQf', '/tmp/nimble_4191/githubcom_defrsvg/.git/objects/15/5dc9ad0b04a57713431ea56b10b7d171ea9dda')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/15/tmp_obj_zV3ZQf')
-mkdir('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/fc', 0x00000000000001ff)
-link('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/fc/tmp_obj_HzW0Jg', '/tmp/nimble_4191/githubcom_defrsvg/.git/objects/fc/1c240b100e779aa84b61367efa123acdceb304')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/fc/tmp_obj_HzW0Jg')
-mkdir('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/b4', 0x00000000000001ff)
-link('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/b4/tmp_obj_mnjdee', '/tmp/nimble_4191/githubcom_defrsvg/.git/objects/b4/3a70d948aa7a46df76778988a6a1d6c14c57c3')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/b4/tmp_obj_mnjdee')
-mkdir('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/87', 0x00000000000001ff)
-link('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/87/tmp_obj_ulwRUf', '/tmp/nimble_4191/githubcom_defrsvg/.git/objects/87/4365f0566802262e0304d94f0e38e366143ed8')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/87/tmp_obj_ulwRUf')
-mkdir('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/bd', 0x00000000000001ff)
-link('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/bd/tmp_obj_0bpcml', '/tmp/nimble_4191/githubcom_defrsvg/.git/objects/bd/54d66401211b3bb2b0cdceecc212e76a1c522c')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/bd/tmp_obj_0bpcml')
-rename('/tmp/nimble_4191/githubcom_defrsvg/.git/shallow.lock', '/tmp/nimble_4191/githubcom_defrsvg/.git/shallow')
-rename('/tmp/nimble_4191/githubcom_defrsvg/.git/packed-refs.new', '/tmp/nimble_4191/githubcom_defrsvg/.git/packed-refs')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/packed-refs.lock')
-mkdir('/tmp/nimble_4191/githubcom_defrsvg/.git/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_4191/githubcom_defrsvg/.git/refs/remotes/origin', 0x00000000000001ff)
-mkdir('/tmp/nimble_4191/githubcom_defrsvg/.git/logs', 0x00000000000001ff)
-mkdir('/tmp/nimble_4191/githubcom_defrsvg/.git/logs/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_4191/githubcom_defrsvg/.git/logs/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_4191/githubcom_defrsvg/.git/logs/refs/remotes/origin', 0x00000000000001ff)
-rename('/tmp/nimble_4191/githubcom_defrsvg/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_4191/githubcom_defrsvg/.git/refs/remotes/origin/HEAD')
-rename('/tmp/nimble_4191/githubcom_defrsvg/.git/HEAD.lock', '/tmp/nimble_4191/githubcom_defrsvg/.git/HEAD')
-mkdir('/tmp/nimble_4191/githubcom_defrsvg/.git/logs/refs/heads', 0x00000000000001ff)
-rename('/tmp/nimble_4191/githubcom_defrsvg/.git/refs/heads/master.lock', '/tmp/nimble_4191/githubcom_defrsvg/.git/refs/heads/master')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/HEAD.lock')
-chmod('/tmp/nimble_4191/githubcom_defrsvg/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4191/githubcom_defrsvg/.git/config.lock', '/tmp/nimble_4191/githubcom_defrsvg/.git/config')
-chmod('/tmp/nimble_4191/githubcom_defrsvg/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_4191/githubcom_defrsvg/.git/config.lock', '/tmp/nimble_4191/githubcom_defrsvg/.git/config')
+mkdir('/tmp/nimble_3917', 0x00000000000001ff)
+mkdir('/tmp/nimble_3917/githubcom_defrsvg', 0x00000000000001ff)
+rmdir('/tmp/nimble_3917/githubcom_defrsvg')
+mkdir('/tmp/nimble_3917/githubcom_defrsvg', 0x00000000000001ff)
+mkdir('/tmp/nimble_3917/githubcom_defrsvg/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_3917/githubcom_defrsvg/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3917/githubcom_defrsvg/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3917/githubcom_defrsvg/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3917/githubcom_defrsvg/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3917/githubcom_defrsvg/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3917/githubcom_defrsvg/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_3917/githubcom_defrsvg/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_3917/githubcom_defrsvg/.git/HEAD.lock', '/tmp/nimble_3917/githubcom_defrsvg/.git/HEAD')
+rename('/tmp/nimble_3917/githubcom_defrsvg/.git/config.lock', '/tmp/nimble_3917/githubcom_defrsvg/.git/config')
+chmod('/tmp/nimble_3917/githubcom_defrsvg/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_3917/githubcom_defrsvg/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_3917/githubcom_defrsvg/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3917/githubcom_defrsvg/.git/config.lock', '/tmp/nimble_3917/githubcom_defrsvg/.git/config')
+chmod('/tmp/nimble_3917/githubcom_defrsvg/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3917/githubcom_defrsvg/.git/config.lock', '/tmp/nimble_3917/githubcom_defrsvg/.git/config')
+chmod('/tmp/nimble_3917/githubcom_defrsvg/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3917/githubcom_defrsvg/.git/config.lock', '/tmp/nimble_3917/githubcom_defrsvg/.git/config')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/tvUDVN3')
+symlink('testing', '/tmp/nimble_3917/githubcom_defrsvg/.git/tvUDVN3')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/tvUDVN3')
+mkdir('/tmp/nimble_3917/githubcom_defrsvg/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_3917/githubcom_defrsvg/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3917/githubcom_defrsvg/.git/config.lock', '/tmp/nimble_3917/githubcom_defrsvg/.git/config')
+chmod('/tmp/nimble_3917/githubcom_defrsvg/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3917/githubcom_defrsvg/.git/config.lock', '/tmp/nimble_3917/githubcom_defrsvg/.git/config')
+chmod('/tmp/nimble_3917/githubcom_defrsvg/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3917/githubcom_defrsvg/.git/config.lock', '/tmp/nimble_3917/githubcom_defrsvg/.git/config')
+mkdir('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/f0', 0x00000000000001ff)
+link('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/f0/tmp_obj_IK1XyJ', '/tmp/nimble_3917/githubcom_defrsvg/.git/objects/f0/5f09bb236914feb2081627633e1dd24fe908f2')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/f0/tmp_obj_IK1XyJ')
+mkdir('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/15', 0x00000000000001ff)
+link('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/15/tmp_obj_4TiRwO', '/tmp/nimble_3917/githubcom_defrsvg/.git/objects/15/5dc9ad0b04a57713431ea56b10b7d171ea9dda')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/15/tmp_obj_4TiRwO')
+mkdir('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/fc', 0x00000000000001ff)
+link('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/fc/tmp_obj_m782xU', '/tmp/nimble_3917/githubcom_defrsvg/.git/objects/fc/1c240b100e779aa84b61367efa123acdceb304')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/fc/tmp_obj_m782xU')
+mkdir('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/b4', 0x00000000000001ff)
+link('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/b4/tmp_obj_cWRPOY', '/tmp/nimble_3917/githubcom_defrsvg/.git/objects/b4/3a70d948aa7a46df76778988a6a1d6c14c57c3')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/b4/tmp_obj_cWRPOY')
+mkdir('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/87', 0x00000000000001ff)
+link('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/87/tmp_obj_cMsBO3', '/tmp/nimble_3917/githubcom_defrsvg/.git/objects/87/4365f0566802262e0304d94f0e38e366143ed8')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/87/tmp_obj_cMsBO3')
+mkdir('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/bd', 0x00000000000001ff)
+link('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/bd/tmp_obj_oIfnh5', '/tmp/nimble_3917/githubcom_defrsvg/.git/objects/bd/54d66401211b3bb2b0cdceecc212e76a1c522c')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/bd/tmp_obj_oIfnh5')
+rename('/tmp/nimble_3917/githubcom_defrsvg/.git/shallow.lock', '/tmp/nimble_3917/githubcom_defrsvg/.git/shallow')
+rename('/tmp/nimble_3917/githubcom_defrsvg/.git/packed-refs.new', '/tmp/nimble_3917/githubcom_defrsvg/.git/packed-refs')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/packed-refs.lock')
+mkdir('/tmp/nimble_3917/githubcom_defrsvg/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_3917/githubcom_defrsvg/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_3917/githubcom_defrsvg/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3917/githubcom_defrsvg/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3917/githubcom_defrsvg/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_3917/githubcom_defrsvg/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_3917/githubcom_defrsvg/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_3917/githubcom_defrsvg/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_3917/githubcom_defrsvg/.git/HEAD.lock', '/tmp/nimble_3917/githubcom_defrsvg/.git/HEAD')
+mkdir('/tmp/nimble_3917/githubcom_defrsvg/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_3917/githubcom_defrsvg/.git/refs/heads/master.lock', '/tmp/nimble_3917/githubcom_defrsvg/.git/refs/heads/master')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/HEAD.lock')
+chmod('/tmp/nimble_3917/githubcom_defrsvg/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3917/githubcom_defrsvg/.git/config.lock', '/tmp/nimble_3917/githubcom_defrsvg/.git/config')
+chmod('/tmp/nimble_3917/githubcom_defrsvg/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3917/githubcom_defrsvg/.git/config.lock', '/tmp/nimble_3917/githubcom_defrsvg/.git/config')
 mkdir('src', 0x00000000000001ff)
-rename('/tmp/nimble_4191/githubcom_defrsvg/.git/index.lock', '/tmp/nimble_4191/githubcom_defrsvg/.git/index')
+rename('/tmp/nimble_3917/githubcom_defrsvg/.git/index.lock', '/tmp/nimble_3917/githubcom_defrsvg/.git/index')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -99,138 +99,138 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/rsvg-0.1', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/rsvg-0.1/rsvg.nim', 0x00000000000001a4)
 chmod('/home/runner/.nimble/pkgs/rsvg-0.1/rsvg.babel', 0x00000000000001a4)
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_4191/githubcom_defrsvg/.git/refs/remotes/origin')
-rmdir('/tmp/nimble_4191/githubcom_defrsvg/.git/refs/remotes')
-rmdir('/tmp/nimble_4191/githubcom_defrsvg/.git/refs/tags')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/refs/heads/master')
-rmdir('/tmp/nimble_4191/githubcom_defrsvg/.git/refs/heads')
-rmdir('/tmp/nimble_4191/githubcom_defrsvg/.git/refs')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/info/exclude')
-rmdir('/tmp/nimble_4191/githubcom_defrsvg/.git/info')
-rmdir('/tmp/nimble_4191/githubcom_defrsvg/.git/branches')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/logs/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_4191/githubcom_defrsvg/.git/logs/refs/remotes/origin')
-rmdir('/tmp/nimble_4191/githubcom_defrsvg/.git/logs/refs/remotes')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/logs/refs/heads/master')
-rmdir('/tmp/nimble_4191/githubcom_defrsvg/.git/logs/refs/heads')
-rmdir('/tmp/nimble_4191/githubcom_defrsvg/.git/logs/refs')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/logs/HEAD')
-rmdir('/tmp/nimble_4191/githubcom_defrsvg/.git/logs')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/description')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/hooks/update.sample')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_4191/githubcom_defrsvg/.git/hooks')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/shallow')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/config')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/index')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/15/5dc9ad0b04a57713431ea56b10b7d171ea9dda')
-rmdir('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/15')
-rmdir('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/info')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/fc/1c240b100e779aa84b61367efa123acdceb304')
-rmdir('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/fc')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/87/4365f0566802262e0304d94f0e38e366143ed8')
-rmdir('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/87')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/f0/5f09bb236914feb2081627633e1dd24fe908f2')
-rmdir('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/f0')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/b4/3a70d948aa7a46df76778988a6a1d6c14c57c3')
-rmdir('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/b4')
-rmdir('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/pack')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/bd/54d66401211b3bb2b0cdceecc212e76a1c522c')
-rmdir('/tmp/nimble_4191/githubcom_defrsvg/.git/objects/bd')
-rmdir('/tmp/nimble_4191/githubcom_defrsvg/.git/objects')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/packed-refs')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/.git/HEAD')
-rmdir('/tmp/nimble_4191/githubcom_defrsvg/.git')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/src/rsvgcairo.nim')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/src/rsvg.nim')
-rmdir('/tmp/nimble_4191/githubcom_defrsvg/src')
-unlink('/tmp/nimble_4191/githubcom_defrsvg/rsvg.babel')
-rmdir('/tmp/nimble_4191/githubcom_defrsvg')
-rmdir('/tmp/nimble_4191')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_3917/githubcom_defrsvg/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_3917/githubcom_defrsvg/.git/refs/remotes')
+rmdir('/tmp/nimble_3917/githubcom_defrsvg/.git/refs/tags')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/refs/heads/master')
+rmdir('/tmp/nimble_3917/githubcom_defrsvg/.git/refs/heads')
+rmdir('/tmp/nimble_3917/githubcom_defrsvg/.git/refs')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/info/exclude')
+rmdir('/tmp/nimble_3917/githubcom_defrsvg/.git/info')
+rmdir('/tmp/nimble_3917/githubcom_defrsvg/.git/branches')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_3917/githubcom_defrsvg/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_3917/githubcom_defrsvg/.git/logs/refs/remotes')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_3917/githubcom_defrsvg/.git/logs/refs/heads')
+rmdir('/tmp/nimble_3917/githubcom_defrsvg/.git/logs/refs')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/logs/HEAD')
+rmdir('/tmp/nimble_3917/githubcom_defrsvg/.git/logs')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/description')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/hooks/update.sample')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_3917/githubcom_defrsvg/.git/hooks')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/shallow')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/config')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/index')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/15/5dc9ad0b04a57713431ea56b10b7d171ea9dda')
+rmdir('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/15')
+rmdir('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/info')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/fc/1c240b100e779aa84b61367efa123acdceb304')
+rmdir('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/fc')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/87/4365f0566802262e0304d94f0e38e366143ed8')
+rmdir('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/87')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/f0/5f09bb236914feb2081627633e1dd24fe908f2')
+rmdir('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/f0')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/b4/3a70d948aa7a46df76778988a6a1d6c14c57c3')
+rmdir('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/b4')
+rmdir('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/pack')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/bd/54d66401211b3bb2b0cdceecc212e76a1c522c')
+rmdir('/tmp/nimble_3917/githubcom_defrsvg/.git/objects/bd')
+rmdir('/tmp/nimble_3917/githubcom_defrsvg/.git/objects')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/packed-refs')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/.git/HEAD')
+rmdir('/tmp/nimble_3917/githubcom_defrsvg/.git')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/src/rsvgcairo.nim')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/src/rsvg.nim')
+rmdir('/tmp/nimble_3917/githubcom_defrsvg/src')
+unlink('/tmp/nimble_3917/githubcom_defrsvg/rsvg.babel')
+rmdir('/tmp/nimble_3917/githubcom_defrsvg')
+rmdir('/tmp/nimble_3917')
   create directory /tmp
-  create directory /tmp/nimble_4191
-  create directory /tmp/nimble_4191/githubcom_defrsvg
-  delete /tmp/nimble_4191/githubcom_defrsvg
-  create directory /tmp/nimble_4191/githubcom_defrsvg
-  create directory /tmp/nimble_4191/githubcom_defrsvg/.git
-  create directory /tmp/nimble_4191/githubcom_defrsvg/.git
-  create directory /tmp/nimble_4191/githubcom_defrsvg/.git/info
-  create directory /tmp/nimble_4191/githubcom_defrsvg/.git/branches
-  create directory /tmp/nimble_4191/githubcom_defrsvg/.git/hooks
-  create directory /tmp/nimble_4191/githubcom_defrsvg/.git/refs
-  create directory /tmp/nimble_4191/githubcom_defrsvg/.git/refs/heads
-  create directory /tmp/nimble_4191/githubcom_defrsvg/.git/refs/tags
-  rename /tmp/nimble_4191/githubcom_defrsvg/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_4191/githubcom_defrsvg/.git/config.lock to config
-  change permissions of /tmp/nimble_4191/githubcom_defrsvg/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_4191/githubcom_defrsvg/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_4191/githubcom_defrsvg/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4191/githubcom_defrsvg/.git/config.lock to config
-  change permissions of /tmp/nimble_4191/githubcom_defrsvg/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4191/githubcom_defrsvg/.git/config.lock to config
-  change permissions of /tmp/nimble_4191/githubcom_defrsvg/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4191/githubcom_defrsvg/.git/config.lock to config
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/tTMLBXm
-  create symbolic link from /tmp/nimble_4191/githubcom_defrsvg/.git/tTMLBXm to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/tTMLBXm
-  create directory /tmp/nimble_4191/githubcom_defrsvg/.git/objects
-  create directory /tmp/nimble_4191/githubcom_defrsvg/.git/objects/pack
-  create directory /tmp/nimble_4191/githubcom_defrsvg/.git/objects/info
-  change permissions of /tmp/nimble_4191/githubcom_defrsvg/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4191/githubcom_defrsvg/.git/config.lock to config
-  change permissions of /tmp/nimble_4191/githubcom_defrsvg/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4191/githubcom_defrsvg/.git/config.lock to config
-  change permissions of /tmp/nimble_4191/githubcom_defrsvg/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4191/githubcom_defrsvg/.git/config.lock to config
-  create directory /tmp/nimble_4191/githubcom_defrsvg/.git/objects/f0
-  create hard link from /tmp/nimble_4191/githubcom_defrsvg/.git/objects/f0/5f09bb236914feb2081627633e1dd24fe908f2 to /tmp/nimble_4191/githubcom_defrsvg/.git/objects/f0/tmp_obj_jVbCr9
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/objects/f0/tmp_obj_jVbCr9
-  create directory /tmp/nimble_4191/githubcom_defrsvg/.git/objects/15
-  create hard link from /tmp/nimble_4191/githubcom_defrsvg/.git/objects/15/5dc9ad0b04a57713431ea56b10b7d171ea9dda to /tmp/nimble_4191/githubcom_defrsvg/.git/objects/15/tmp_obj_zV3ZQf
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/objects/15/tmp_obj_zV3ZQf
-  create directory /tmp/nimble_4191/githubcom_defrsvg/.git/objects/fc
-  create hard link from /tmp/nimble_4191/githubcom_defrsvg/.git/objects/fc/1c240b100e779aa84b61367efa123acdceb304 to /tmp/nimble_4191/githubcom_defrsvg/.git/objects/fc/tmp_obj_HzW0Jg
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/objects/fc/tmp_obj_HzW0Jg
-  create directory /tmp/nimble_4191/githubcom_defrsvg/.git/objects/b4
-  create hard link from /tmp/nimble_4191/githubcom_defrsvg/.git/objects/b4/3a70d948aa7a46df76778988a6a1d6c14c57c3 to /tmp/nimble_4191/githubcom_defrsvg/.git/objects/b4/tmp_obj_mnjdee
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/objects/b4/tmp_obj_mnjdee
-  create directory /tmp/nimble_4191/githubcom_defrsvg/.git/objects/87
-  create hard link from /tmp/nimble_4191/githubcom_defrsvg/.git/objects/87/4365f0566802262e0304d94f0e38e366143ed8 to /tmp/nimble_4191/githubcom_defrsvg/.git/objects/87/tmp_obj_ulwRUf
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/objects/87/tmp_obj_ulwRUf
-  create directory /tmp/nimble_4191/githubcom_defrsvg/.git/objects/bd
-  create hard link from /tmp/nimble_4191/githubcom_defrsvg/.git/objects/bd/54d66401211b3bb2b0cdceecc212e76a1c522c to /tmp/nimble_4191/githubcom_defrsvg/.git/objects/bd/tmp_obj_0bpcml
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/objects/bd/tmp_obj_0bpcml
-  rename /tmp/nimble_4191/githubcom_defrsvg/.git/shallow.lock to shallow
-  rename /tmp/nimble_4191/githubcom_defrsvg/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/packed-refs.lock
-  create directory /tmp/nimble_4191/githubcom_defrsvg/.git/refs/remotes
-  create directory /tmp/nimble_4191/githubcom_defrsvg/.git/refs/remotes/origin
-  create directory /tmp/nimble_4191/githubcom_defrsvg/.git/logs
-  create directory /tmp/nimble_4191/githubcom_defrsvg/.git/logs/refs
-  create directory /tmp/nimble_4191/githubcom_defrsvg/.git/logs/refs/remotes
-  create directory /tmp/nimble_4191/githubcom_defrsvg/.git/logs/refs/remotes/origin
-  rename /tmp/nimble_4191/githubcom_defrsvg/.git/refs/remotes/origin/HEAD.lock to HEAD
-  rename /tmp/nimble_4191/githubcom_defrsvg/.git/HEAD.lock to HEAD
-  create directory /tmp/nimble_4191/githubcom_defrsvg/.git/logs/refs/heads
-  rename /tmp/nimble_4191/githubcom_defrsvg/.git/refs/heads/master.lock to master
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/HEAD.lock
-  change permissions of /tmp/nimble_4191/githubcom_defrsvg/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4191/githubcom_defrsvg/.git/config.lock to config
-  change permissions of /tmp/nimble_4191/githubcom_defrsvg/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_4191/githubcom_defrsvg/.git/config.lock to config
-  create directory /tmp/nimble_4191/githubcom_defrsvg/src
-  rename /tmp/nimble_4191/githubcom_defrsvg/.git/index.lock to index
+  create directory /tmp/nimble_3917
+  create directory /tmp/nimble_3917/githubcom_defrsvg
+  delete /tmp/nimble_3917/githubcom_defrsvg
+  create directory /tmp/nimble_3917/githubcom_defrsvg
+  create directory /tmp/nimble_3917/githubcom_defrsvg/.git
+  create directory /tmp/nimble_3917/githubcom_defrsvg/.git
+  create directory /tmp/nimble_3917/githubcom_defrsvg/.git/info
+  create directory /tmp/nimble_3917/githubcom_defrsvg/.git/branches
+  create directory /tmp/nimble_3917/githubcom_defrsvg/.git/hooks
+  create directory /tmp/nimble_3917/githubcom_defrsvg/.git/refs
+  create directory /tmp/nimble_3917/githubcom_defrsvg/.git/refs/heads
+  create directory /tmp/nimble_3917/githubcom_defrsvg/.git/refs/tags
+  rename /tmp/nimble_3917/githubcom_defrsvg/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_3917/githubcom_defrsvg/.git/config.lock to config
+  change permissions of /tmp/nimble_3917/githubcom_defrsvg/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_3917/githubcom_defrsvg/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_3917/githubcom_defrsvg/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3917/githubcom_defrsvg/.git/config.lock to config
+  change permissions of /tmp/nimble_3917/githubcom_defrsvg/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3917/githubcom_defrsvg/.git/config.lock to config
+  change permissions of /tmp/nimble_3917/githubcom_defrsvg/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3917/githubcom_defrsvg/.git/config.lock to config
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/tvUDVN3
+  create symbolic link from /tmp/nimble_3917/githubcom_defrsvg/.git/tvUDVN3 to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/tvUDVN3
+  create directory /tmp/nimble_3917/githubcom_defrsvg/.git/objects
+  create directory /tmp/nimble_3917/githubcom_defrsvg/.git/objects/pack
+  create directory /tmp/nimble_3917/githubcom_defrsvg/.git/objects/info
+  change permissions of /tmp/nimble_3917/githubcom_defrsvg/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3917/githubcom_defrsvg/.git/config.lock to config
+  change permissions of /tmp/nimble_3917/githubcom_defrsvg/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3917/githubcom_defrsvg/.git/config.lock to config
+  change permissions of /tmp/nimble_3917/githubcom_defrsvg/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3917/githubcom_defrsvg/.git/config.lock to config
+  create directory /tmp/nimble_3917/githubcom_defrsvg/.git/objects/f0
+  create hard link from /tmp/nimble_3917/githubcom_defrsvg/.git/objects/f0/5f09bb236914feb2081627633e1dd24fe908f2 to /tmp/nimble_3917/githubcom_defrsvg/.git/objects/f0/tmp_obj_IK1XyJ
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/objects/f0/tmp_obj_IK1XyJ
+  create directory /tmp/nimble_3917/githubcom_defrsvg/.git/objects/15
+  create hard link from /tmp/nimble_3917/githubcom_defrsvg/.git/objects/15/5dc9ad0b04a57713431ea56b10b7d171ea9dda to /tmp/nimble_3917/githubcom_defrsvg/.git/objects/15/tmp_obj_4TiRwO
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/objects/15/tmp_obj_4TiRwO
+  create directory /tmp/nimble_3917/githubcom_defrsvg/.git/objects/fc
+  create hard link from /tmp/nimble_3917/githubcom_defrsvg/.git/objects/fc/1c240b100e779aa84b61367efa123acdceb304 to /tmp/nimble_3917/githubcom_defrsvg/.git/objects/fc/tmp_obj_m782xU
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/objects/fc/tmp_obj_m782xU
+  create directory /tmp/nimble_3917/githubcom_defrsvg/.git/objects/b4
+  create hard link from /tmp/nimble_3917/githubcom_defrsvg/.git/objects/b4/3a70d948aa7a46df76778988a6a1d6c14c57c3 to /tmp/nimble_3917/githubcom_defrsvg/.git/objects/b4/tmp_obj_cWRPOY
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/objects/b4/tmp_obj_cWRPOY
+  create directory /tmp/nimble_3917/githubcom_defrsvg/.git/objects/87
+  create hard link from /tmp/nimble_3917/githubcom_defrsvg/.git/objects/87/4365f0566802262e0304d94f0e38e366143ed8 to /tmp/nimble_3917/githubcom_defrsvg/.git/objects/87/tmp_obj_cMsBO3
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/objects/87/tmp_obj_cMsBO3
+  create directory /tmp/nimble_3917/githubcom_defrsvg/.git/objects/bd
+  create hard link from /tmp/nimble_3917/githubcom_defrsvg/.git/objects/bd/54d66401211b3bb2b0cdceecc212e76a1c522c to /tmp/nimble_3917/githubcom_defrsvg/.git/objects/bd/tmp_obj_oIfnh5
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/objects/bd/tmp_obj_oIfnh5
+  rename /tmp/nimble_3917/githubcom_defrsvg/.git/shallow.lock to shallow
+  rename /tmp/nimble_3917/githubcom_defrsvg/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/packed-refs.lock
+  create directory /tmp/nimble_3917/githubcom_defrsvg/.git/refs/remotes
+  create directory /tmp/nimble_3917/githubcom_defrsvg/.git/refs/remotes/origin
+  create directory /tmp/nimble_3917/githubcom_defrsvg/.git/logs
+  create directory /tmp/nimble_3917/githubcom_defrsvg/.git/logs/refs
+  create directory /tmp/nimble_3917/githubcom_defrsvg/.git/logs/refs/remotes
+  create directory /tmp/nimble_3917/githubcom_defrsvg/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_3917/githubcom_defrsvg/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_3917/githubcom_defrsvg/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_3917/githubcom_defrsvg/.git/logs/refs/heads
+  rename /tmp/nimble_3917/githubcom_defrsvg/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/HEAD.lock
+  change permissions of /tmp/nimble_3917/githubcom_defrsvg/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3917/githubcom_defrsvg/.git/config.lock to config
+  change permissions of /tmp/nimble_3917/githubcom_defrsvg/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3917/githubcom_defrsvg/.git/config.lock to config
+  create directory /tmp/nimble_3917/githubcom_defrsvg/src
+  rename /tmp/nimble_3917/githubcom_defrsvg/.git/index.lock to index
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -249,62 +249,62 @@ rmdir('/tmp/nimble_4191')
   create directory /home/runner/.nimble/pkgs/rsvg-0.1
   change permissions of /home/runner/.nimble/pkgs/rsvg-0.1/rsvg.nim to rw-r--r--
   change permissions of /home/runner/.nimble/pkgs/rsvg-0.1/rsvg.babel to rw-r--r--
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/refs/remotes/origin/HEAD
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/refs/remotes/origin
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/refs/remotes
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/refs/tags
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/refs/heads/master
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/refs/heads
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/refs
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/info/exclude
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/info
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/branches
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/logs/refs/remotes/origin/HEAD
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/logs/refs/remotes/origin
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/logs/refs/remotes
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/logs/refs/heads/master
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/logs/refs/heads
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/logs/refs
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/logs/HEAD
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/logs
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/description
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/hooks/pre-push.sample
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/hooks/update.sample
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/hooks/post-update.sample
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/hooks
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/shallow
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/config
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/index
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/objects/15/5dc9ad0b04a57713431ea56b10b7d171ea9dda
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/objects/15
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/objects/info
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/objects/fc/1c240b100e779aa84b61367efa123acdceb304
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/objects/fc
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/objects/87/4365f0566802262e0304d94f0e38e366143ed8
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/objects/87
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/objects/f0/5f09bb236914feb2081627633e1dd24fe908f2
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/objects/f0
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/objects/b4/3a70d948aa7a46df76778988a6a1d6c14c57c3
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/objects/b4
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/objects/pack
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/objects/bd/54d66401211b3bb2b0cdceecc212e76a1c522c
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/objects/bd
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/objects
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/packed-refs
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git/HEAD
-  delete /tmp/nimble_4191/githubcom_defrsvg/.git
-  delete /tmp/nimble_4191/githubcom_defrsvg/src/rsvgcairo.nim
-  delete /tmp/nimble_4191/githubcom_defrsvg/src/rsvg.nim
-  delete /tmp/nimble_4191/githubcom_defrsvg/src
-  delete /tmp/nimble_4191/githubcom_defrsvg/rsvg.babel
-  delete /tmp/nimble_4191/githubcom_defrsvg
-  delete /tmp/nimble_4191
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/refs/remotes/origin
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/refs/remotes
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/refs/tags
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/refs/heads/master
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/refs/heads
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/refs
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/info/exclude
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/info
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/branches
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/logs/refs/remotes
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/logs/refs/heads/master
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/logs/refs/heads
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/logs/refs
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/logs/HEAD
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/logs
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/description
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/hooks/pre-push.sample
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/hooks/update.sample
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/hooks/post-update.sample
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/hooks
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/shallow
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/config
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/index
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/objects/15/5dc9ad0b04a57713431ea56b10b7d171ea9dda
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/objects/15
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/objects/info
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/objects/fc/1c240b100e779aa84b61367efa123acdceb304
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/objects/fc
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/objects/87/4365f0566802262e0304d94f0e38e366143ed8
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/objects/87
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/objects/f0/5f09bb236914feb2081627633e1dd24fe908f2
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/objects/f0
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/objects/b4/3a70d948aa7a46df76778988a6a1d6c14c57c3
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/objects/b4
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/objects/pack
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/objects/bd/54d66401211b3bb2b0cdceecc212e76a1c522c
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/objects/bd
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/objects
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/packed-refs
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git/HEAD
+  delete /tmp/nimble_3917/githubcom_defrsvg/.git
+  delete /tmp/nimble_3917/githubcom_defrsvg/src/rsvgcairo.nim
+  delete /tmp/nimble_3917/githubcom_defrsvg/src/rsvg.nim
+  delete /tmp/nimble_3917/githubcom_defrsvg/src
+  delete /tmp/nimble_3917/githubcom_defrsvg/rsvg.babel
+  delete /tmp/nimble_3917/githubcom_defrsvg
+  delete /tmp/nimble_3917
