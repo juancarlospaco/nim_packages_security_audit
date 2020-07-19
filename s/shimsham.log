@@ -5,57 +5,57 @@ Downloading https://github.com/apense/shimsham using git
       Hint: If 'cityhash' contains source files for building 'ShimSham', rename it to 'ShimSham'. Otherwise, prevent its installation by adding `skipDirs = @["cityhash"]` to the .nimble file.
   Verifying dependencies for ShimSham@0.3.4
  Installing ShimSham@0.3.4
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/cityhash/cityhash.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/cityhash/cityhash.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/cityhash/cityutils.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/cityhash/cityutils.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/cityhash/math.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/cityhash/math.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/sha512/sha512.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/sha512/sha512.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/keccak/keccak.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/keccak/keccak.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/cityhash/cityhash.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/cityhash/cityhash.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/cityhash/cityutils.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/cityhash/cityutils.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/cityhash/math.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/cityhash/math.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/sha512/sha512.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/sha512/sha512.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/keccak/keccak.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/keccak/keccak.nim
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_5551', 0x00000000000001ff)
-mkdir('/tmp/nimble_5551/githubcom_apenseshimsham', 0x00000000000001ff)
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham')
-mkdir('/tmp/nimble_5551/githubcom_apenseshimsham', 0x00000000000001ff)
-mkdir('/tmp/nimble_5551/githubcom_apenseshimsham/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_5551/githubcom_apenseshimsham/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5551/githubcom_apenseshimsham/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5551/githubcom_apenseshimsham/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5551/githubcom_apenseshimsham/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_5551/githubcom_apenseshimsham/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_5551/githubcom_apenseshimsham/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_5551/githubcom_apenseshimsham/.git/HEAD.lock', '/tmp/nimble_5551/githubcom_apenseshimsham/.git/HEAD')
-rename('/tmp/nimble_5551/githubcom_apenseshimsham/.git/config.lock', '/tmp/nimble_5551/githubcom_apenseshimsham/.git/config')
-chmod('/tmp/nimble_5551/githubcom_apenseshimsham/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_5551/githubcom_apenseshimsham/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_5551/githubcom_apenseshimsham/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5551/githubcom_apenseshimsham/.git/config.lock', '/tmp/nimble_5551/githubcom_apenseshimsham/.git/config')
-chmod('/tmp/nimble_5551/githubcom_apenseshimsham/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5551/githubcom_apenseshimsham/.git/config.lock', '/tmp/nimble_5551/githubcom_apenseshimsham/.git/config')
-chmod('/tmp/nimble_5551/githubcom_apenseshimsham/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5551/githubcom_apenseshimsham/.git/config.lock', '/tmp/nimble_5551/githubcom_apenseshimsham/.git/config')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/t4jg3ZK')
-symlink('testing', '/tmp/nimble_5551/githubcom_apenseshimsham/.git/t4jg3ZK')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/t4jg3ZK')
-mkdir('/tmp/nimble_5551/githubcom_apenseshimsham/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_5551/githubcom_apenseshimsham/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_5551/githubcom_apenseshimsham/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_5551/githubcom_apenseshimsham/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5551/githubcom_apenseshimsham/.git/config.lock', '/tmp/nimble_5551/githubcom_apenseshimsham/.git/config')
-chmod('/tmp/nimble_5551/githubcom_apenseshimsham/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5551/githubcom_apenseshimsham/.git/config.lock', '/tmp/nimble_5551/githubcom_apenseshimsham/.git/config')
-chmod('/tmp/nimble_5551/githubcom_apenseshimsham/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5551/githubcom_apenseshimsham/.git/config.lock', '/tmp/nimble_5551/githubcom_apenseshimsham/.git/config')
-link('/tmp/nimble_5551/githubcom_apenseshimsham/.git/objects/pack/tmp_pack_60DBXc', '/tmp/nimble_5551/githubcom_apenseshimsham/.git/objects/pack/pack-8f6d97ebff4eb4b07d5fd3015cae90e46e414124.pack')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/objects/pack/tmp_pack_60DBXc')
-link('/tmp/nimble_5551/githubcom_apenseshimsham/.git/objects/pack/tmp_idx_68Lh8D', '/tmp/nimble_5551/githubcom_apenseshimsham/.git/objects/pack/pack-8f6d97ebff4eb4b07d5fd3015cae90e46e414124.idx')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/objects/pack/tmp_idx_68Lh8D')
-rename('/tmp/nimble_5551/githubcom_apenseshimsham/.git/shallow.lock', '/tmp/nimble_5551/githubcom_apenseshimsham/.git/shallow')
-rename('/tmp/nimble_5551/githubcom_apenseshimsham/.git/packed-refs.new', '/tmp/nimble_5551/githubcom_apenseshimsham/.git/packed-refs')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/packed-refs.lock')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/refs/tags/0.3.4.lock')
-mkdir('/tmp/nimble_5551/githubcom_apenseshimsham/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_5551/githubcom_apenseshimsham/.git/HEAD.lock', '/tmp/nimble_5551/githubcom_apenseshimsham/.git/HEAD')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/objects/pack/pack-8f6d97ebff4eb4b07d5fd3015cae90e46e414124.keep')
+mkdir('/tmp/nimble_5217', 0x00000000000001ff)
+mkdir('/tmp/nimble_5217/githubcom_apenseshimsham', 0x00000000000001ff)
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham')
+mkdir('/tmp/nimble_5217/githubcom_apenseshimsham', 0x00000000000001ff)
+mkdir('/tmp/nimble_5217/githubcom_apenseshimsham/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_5217/githubcom_apenseshimsham/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5217/githubcom_apenseshimsham/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5217/githubcom_apenseshimsham/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5217/githubcom_apenseshimsham/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_5217/githubcom_apenseshimsham/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_5217/githubcom_apenseshimsham/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_5217/githubcom_apenseshimsham/.git/HEAD.lock', '/tmp/nimble_5217/githubcom_apenseshimsham/.git/HEAD')
+rename('/tmp/nimble_5217/githubcom_apenseshimsham/.git/config.lock', '/tmp/nimble_5217/githubcom_apenseshimsham/.git/config')
+chmod('/tmp/nimble_5217/githubcom_apenseshimsham/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_5217/githubcom_apenseshimsham/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_5217/githubcom_apenseshimsham/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5217/githubcom_apenseshimsham/.git/config.lock', '/tmp/nimble_5217/githubcom_apenseshimsham/.git/config')
+chmod('/tmp/nimble_5217/githubcom_apenseshimsham/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5217/githubcom_apenseshimsham/.git/config.lock', '/tmp/nimble_5217/githubcom_apenseshimsham/.git/config')
+chmod('/tmp/nimble_5217/githubcom_apenseshimsham/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5217/githubcom_apenseshimsham/.git/config.lock', '/tmp/nimble_5217/githubcom_apenseshimsham/.git/config')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/tL9Kmrv')
+symlink('testing', '/tmp/nimble_5217/githubcom_apenseshimsham/.git/tL9Kmrv')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/tL9Kmrv')
+mkdir('/tmp/nimble_5217/githubcom_apenseshimsham/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_5217/githubcom_apenseshimsham/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_5217/githubcom_apenseshimsham/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_5217/githubcom_apenseshimsham/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5217/githubcom_apenseshimsham/.git/config.lock', '/tmp/nimble_5217/githubcom_apenseshimsham/.git/config')
+chmod('/tmp/nimble_5217/githubcom_apenseshimsham/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5217/githubcom_apenseshimsham/.git/config.lock', '/tmp/nimble_5217/githubcom_apenseshimsham/.git/config')
+chmod('/tmp/nimble_5217/githubcom_apenseshimsham/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_5217/githubcom_apenseshimsham/.git/config.lock', '/tmp/nimble_5217/githubcom_apenseshimsham/.git/config')
+link('/tmp/nimble_5217/githubcom_apenseshimsham/.git/objects/pack/tmp_pack_2wpqj2', '/tmp/nimble_5217/githubcom_apenseshimsham/.git/objects/pack/pack-8f6d97ebff4eb4b07d5fd3015cae90e46e414124.pack')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/objects/pack/tmp_pack_2wpqj2')
+link('/tmp/nimble_5217/githubcom_apenseshimsham/.git/objects/pack/tmp_idx_DSq8vt', '/tmp/nimble_5217/githubcom_apenseshimsham/.git/objects/pack/pack-8f6d97ebff4eb4b07d5fd3015cae90e46e414124.idx')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/objects/pack/tmp_idx_DSq8vt')
+rename('/tmp/nimble_5217/githubcom_apenseshimsham/.git/shallow.lock', '/tmp/nimble_5217/githubcom_apenseshimsham/.git/shallow')
+rename('/tmp/nimble_5217/githubcom_apenseshimsham/.git/packed-refs.new', '/tmp/nimble_5217/githubcom_apenseshimsham/.git/packed-refs')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/packed-refs.lock')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/refs/tags/0.3.4.lock')
+mkdir('/tmp/nimble_5217/githubcom_apenseshimsham/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_5217/githubcom_apenseshimsham/.git/HEAD.lock', '/tmp/nimble_5217/githubcom_apenseshimsham/.git/HEAD')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/objects/pack/pack-8f6d97ebff4eb4b07d5fd3015cae90e46e414124.keep')
 mkdir('blake2', 0x00000000000001ff)
 mkdir('cityhash', 0x00000000000001ff)
 mkdir('groestl', 0x00000000000001ff)
@@ -84,7 +84,7 @@ mkdir('tiger', 0x00000000000001ff)
 mkdir('tiger/nimcache', 0x00000000000001ff)
 mkdir('whirlpool', 0x00000000000001ff)
 mkdir('whirlpool/nimcache', 0x00000000000001ff)
-rename('/tmp/nimble_5551/githubcom_apenseshimsham/.git/index.lock', '/tmp/nimble_5551/githubcom_apenseshimsham/.git/index')
+rename('/tmp/nimble_5217/githubcom_apenseshimsham/.git/index.lock', '/tmp/nimble_5217/githubcom_apenseshimsham/.git/index')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
@@ -129,25 +129,25 @@ mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/ShimSham-0.3.4', 0x00000000000001ff)    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/tiger/sboxes.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/tiger/sboxes.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/tiger/compress.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/tiger/compress.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/tiger/tiger.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/tiger/tiger.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/README.md to /home/runner/.nimble/pkgs/ShimSham-0.3.4/README.md
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/skein/cpuidtest_deleteme.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/skein/cpuidtest_deleteme.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/skein/ubi.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/skein/ubi.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/skein/copyfunc.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/skein/copyfunc.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/skein/skein.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/skein/skein.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/skein/util.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/skein/util.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/skein/skein_config.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/skein/skein_config.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/skein/threefish/threefish1024.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/skein/threefish/threefish1024.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/skein/threefish/threefish.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/skein/threefish/threefish.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/skein/threefish/threefish512.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/skein/threefish/threefish512.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/skein/threefish/threefish256.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/skein/threefish/threefish256.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/skein/threefish/util.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/skein/threefish/util.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/sha256/sha256.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/sha256/sha256.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/siphash/siphash.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/siphash/siphash.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/siphash/inputtest.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/siphash/inputtest.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/interface.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/interface.nim
+mkdir('/home/runner/.nimble/pkgs/ShimSham-0.3.4', 0x00000000000001ff)    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/tiger/sboxes.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/tiger/sboxes.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/tiger/compress.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/tiger/compress.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/tiger/tiger.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/tiger/tiger.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/README.md to /home/runner/.nimble/pkgs/ShimSham-0.3.4/README.md
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/skein/cpuidtest_deleteme.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/skein/cpuidtest_deleteme.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/skein/ubi.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/skein/ubi.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/skein/copyfunc.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/skein/copyfunc.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/skein/skein.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/skein/skein.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/skein/util.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/skein/util.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/skein/skein_config.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/skein/skein_config.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/skein/threefish/threefish1024.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/skein/threefish/threefish1024.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/skein/threefish/threefish.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/skein/threefish/threefish.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/skein/threefish/threefish512.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/skein/threefish/threefish512.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/skein/threefish/threefish256.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/skein/threefish/threefish256.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/skein/threefish/util.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/skein/threefish/util.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/sha256/sha256.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/sha256/sha256.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/siphash/siphash.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/siphash/siphash.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/siphash/inputtest.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/siphash/inputtest.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/interface.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/interface.nim
 
 mkdir('/home/runner/.nimble/pkgs/ShimSham-0.3.4/tiger', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/ShimSham-0.3.4/tiger/sboxes.nim', 0x00000000000001a4)
@@ -284,24 +284,24 @@ mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/ShimSham-0.3.4', 0x00000000000001ff)    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/jh/simple.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/jh/simple.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/jh/sse2_64.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/jh/sse2_64.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/jh/jh_simple.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/jh/jh_simple.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/groestl/simple.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/groestl/simple.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/groestl/tables.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/groestl/tables.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/groestl/simple64.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/groestl/simple64.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/groestl/simple32.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/groestl/simple32.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/whirlpool/whirlpool.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/whirlpool/whirlpool.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/whirlpool/pool_consts.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/whirlpool/pool_consts.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/rngs/burtlerot/burtlerot.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/burtlerot/burtlerot.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/rngs/mersennetwister.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/mersennetwister.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/rngs/borosh13/borosh13.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/borosh13/borosh13.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/rngs/blumblumshub/blumblumshub.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/blumblumshub/blumblumshub.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/rngs/gfsr/quicktest.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/gfsr/quicktest.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/rngs/gfsr/gfsr4.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/gfsr/gfsr4.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/rngs/coveyou/coveyou.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/coveyou/coveyou.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/rngs/cmwc5/cmwc5.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/cmwc5/cmwc5.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/rngs/rule30/rule30.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/rule30/rule30.nim
+mkdir('/home/runner/.nimble/pkgs/ShimSham-0.3.4', 0x00000000000001ff)    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/jh/simple.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/jh/simple.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/jh/sse2_64.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/jh/sse2_64.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/jh/jh_simple.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/jh/jh_simple.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/groestl/simple.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/groestl/simple.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/groestl/tables.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/groestl/tables.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/groestl/simple64.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/groestl/simple64.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/groestl/simple32.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/groestl/simple32.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/whirlpool/whirlpool.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/whirlpool/whirlpool.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/whirlpool/pool_consts.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/whirlpool/pool_consts.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/rngs/burtlerot/burtlerot.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/burtlerot/burtlerot.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/rngs/mersennetwister.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/mersennetwister.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/rngs/borosh13/borosh13.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/borosh13/borosh13.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/rngs/blumblumshub/blumblumshub.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/blumblumshub/blumblumshub.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/rngs/gfsr/quicktest.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/gfsr/quicktest.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/rngs/gfsr/gfsr4.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/gfsr/gfsr4.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/rngs/coveyou/coveyou.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/coveyou/coveyou.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/rngs/cmwc5/cmwc5.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/cmwc5/cmwc5.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/rngs/rule30/rule30.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/rule30/rule30.nim
 
 mkdir('/home/runner/.nimble/pkgs/ShimSham-0.3.4/jh', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/ShimSham-0.3.4/jh/simple.nim', 0x00000000000001a4)
@@ -436,23 +436,23 @@ mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/ShimSham-0.3.4', 0x00000000000001ff)    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/rngs/mersennetwister/mersennetwister.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/mersennetwister/mersennetwister.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/rngs/mersennetwister/mersennetwister64.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/mersennetwister/mersennetwister64.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/rngs/knuthran/knuthran2.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/knuthran/knuthran2.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/rngs/knuthran/knuthran.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/knuthran/knuthran.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/rngs/fishman/fishman18.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/fishman/fishman18.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/rngs/fishman/fishman2x.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/fishman/fishman2x.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/rngs/fishman/fishman20.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/fishman/fishman20.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/rngs/lcg/lcg32.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/lcg/lcg32.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/rngs/lcg/lcg64.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/lcg/lcg64.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/rngs/well/well512a.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/well/well512a.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/rngs/well/well19937a.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/well/well19937a.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/rngs/well/nim.cfg to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/well/nim.cfg
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/rngs/well/well44497a.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/well/well44497a.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/rngs/well/well1024a.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/well/well1024a.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/rngs/rngs.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/rngs.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/ripemd160/testcase.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/ripemd160/testcase.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/ripemd160/ripemd160.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/ripemd160/ripemd160.nim
+mkdir('/home/runner/.nimble/pkgs/ShimSham-0.3.4', 0x00000000000001ff)    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/rngs/mersennetwister/mersennetwister.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/mersennetwister/mersennetwister.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/rngs/mersennetwister/mersennetwister64.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/mersennetwister/mersennetwister64.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/rngs/knuthran/knuthran2.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/knuthran/knuthran2.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/rngs/knuthran/knuthran.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/knuthran/knuthran.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/rngs/fishman/fishman18.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/fishman/fishman18.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/rngs/fishman/fishman2x.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/fishman/fishman2x.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/rngs/fishman/fishman20.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/fishman/fishman20.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/rngs/lcg/lcg32.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/lcg/lcg32.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/rngs/lcg/lcg64.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/lcg/lcg64.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/rngs/well/well512a.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/well/well512a.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/rngs/well/well19937a.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/well/well19937a.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/rngs/well/nim.cfg to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/well/nim.cfg
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/rngs/well/well44497a.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/well/well44497a.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/rngs/well/well1024a.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/well/well1024a.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/rngs/rngs.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/rngs.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/ripemd160/testcase.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/ripemd160/testcase.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/ripemd160/ripemd160.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/ripemd160/ripemd160.nim
 
 mkdir('/home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/ShimSham-0.3.4/rngs/mersennetwister', 0x00000000000001ff)
@@ -584,15 +584,15 @@ mkdir('/home/runner/.nimble/pkgs/ShimSham-0.3.4/ripemd160', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/ShimSham-0.3.4/ripemd160/ripemd160.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/blake2/wrapping_test.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/blake2/wrapping_test.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/blake2/blocks.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/blake2/blocks.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/blake2/blake2b.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/blake2/blake2b.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/blake2/blake2s.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/blake2/blake2s.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/blake2/consttest.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/blake2/consttest.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/blake2/test.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/blake2/test.nim
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/shimsham.nimble to /home/runner/.nimble/pkgs/ShimSham-0.3.4/shimsham.nimble
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/LICENSE to /home/runner/.nimble/pkgs/ShimSham-0.3.4/LICENSE
-    Copying file /tmp/nimble_5551/githubcom_apenseshimsham/shimsham.nimble to /home/runner/.nimble/pkgs/ShimSham-0.3.4/shimsham.nimble
+mkdir('/home/runner/.nimble', 0x00000000000001ff)    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/blake2/wrapping_test.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/blake2/wrapping_test.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/blake2/blocks.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/blake2/blocks.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/blake2/blake2b.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/blake2/blake2b.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/blake2/blake2s.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/blake2/blake2s.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/blake2/consttest.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/blake2/consttest.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/blake2/test.nim to /home/runner/.nimble/pkgs/ShimSham-0.3.4/blake2/test.nim
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/shimsham.nimble to /home/runner/.nimble/pkgs/ShimSham-0.3.4/shimsham.nimble
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/LICENSE to /home/runner/.nimble/pkgs/ShimSham-0.3.4/LICENSE
+    Copying file /tmp/nimble_5217/githubcom_apenseshimsham/shimsham.nimble to /home/runner/.nimble/pkgs/ShimSham-0.3.4/shimsham.nimble
    Success: ShimSham installed successfully.
 
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
@@ -647,224 +647,224 @@ mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/ShimSham-0.3.4', 0x00000000000001ff)
 chmod('/home/runner/.nimble/pkgs/ShimSham-0.3.4/LICENSE', 0x00000000000001a4)
 chmod('/home/runner/.nimble/pkgs/ShimSham-0.3.4/shimsham.nimble', 0x00000000000001a4)
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/cityhash/cityhash.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/cityhash/cityutils.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/cityhash/math.nim')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/cityhash')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/sha512/sha512.nim')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/sha512')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/keccak/keccak.nim')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/keccak')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/tiger/sboxes.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/tiger/nimcache/compress.c')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/tiger/nimcache/tiger.o')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/tiger/nimcache/tiger.c')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/tiger/nimcache/compress.o')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/tiger/nimcache/sboxes.c')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/tiger/nimcache/sboxes.o')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/tiger/nimcache')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/tiger/compress.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/tiger/tiger.nim')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/tiger')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/README.md')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/.git/refs/tags')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/.git/refs/heads')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/.git/refs')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/info/exclude')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/.git/info')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/.git/branches')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/logs/HEAD')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/.git/logs')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/description')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks/update.sample')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/shallow')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/config')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/index')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/.git/objects/info')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/objects/pack/pack-8f6d97ebff4eb4b07d5fd3015cae90e46e414124.idx')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/objects/pack/pack-8f6d97ebff4eb4b07d5fd3015cae90e46e414124.pack')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/.git/objects/pack')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/.git/objects')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/packed-refs')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.git/HEAD')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/.git')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/skein/cpuidtest_deleteme.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/skein/ubi.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/skein/copyfunc.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/skein/skein.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/skein/util.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/skein/skein_config.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/skein/threefish/threefish1024.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/skein/threefish/threefish.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/skein/threefish/threefish512.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/skein/threefish/threefish256.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/skein/threefish/util.nim')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/skein/threefish')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/skein')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/sha256/sha256.nim')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/sha256')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/siphash/siphash.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/siphash/inputtest.nim')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/siphash')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/interface.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/jh/simple.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/jh/sse2_64.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/jh/jh_simple.nim')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/jh')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/groestl/simple.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/groestl/tables.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/groestl/simple64.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/groestl/simple32.nim')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/groestl')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/whirlpool/nimcache/pool_consts.o')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/whirlpool/nimcache/pool_consts.c')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/whirlpool/nimcache/stdlib_hashes.o')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/whirlpool/nimcache/whirlpool.o')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/whirlpool/nimcache/stdlib_hashes.c')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/whirlpool/nimcache/whirlpool.c')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/whirlpool/nimcache')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/whirlpool/whirlpool.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/whirlpool/pool_consts.nim')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/whirlpool')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/burtlerot/burtlerot.nim')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/burtlerot')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/mersennetwister.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/borosh13/borosh13.nim')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/borosh13')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/blumblumshub/blumblumshub.nim')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/blumblumshub')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/gfsr/quicktest.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/gfsr/gfsr4.nim')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/gfsr')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/coveyou/coveyou.nim')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/coveyou')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/cmwc5/cmwc5.nim')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/cmwc5')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/rule30/rule30.nim')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/rule30')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/mersennetwister/mersennetwister.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/mersennetwister/mersennetwister64.nim')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/mersennetwister')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/knuthran/knuthran2.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/knuthran/knuthran.nim')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/knuthran')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/fishman/fishman18.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/fishman/fishman2x.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/fishman/fishman20.nim')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/fishman')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/lcg/lcg32.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/lcg/lcg64.nim')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/lcg')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/well/well512a.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/well/well19937a.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/well/nim.cfg')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/well/well44497a.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/well/well1024a.nim')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/well')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/rngs/rngs.nim')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/rngs')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/ripemd160/testcase.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/ripemd160/ripemd160.nim')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/ripemd160')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/.gitignore')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/blake2/wrapping_test.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/blake2/blocks.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/blake2/blake2b.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/blake2/blake2s.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/blake2/consttest.nim')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/blake2/test.nim')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham/blake2')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/shimsham.nimble')
-unlink('/tmp/nimble_5551/githubcom_apenseshimsham/LICENSE')
-rmdir('/tmp/nimble_5551/githubcom_apenseshimsham')
-rmdir('/tmp/nimble_5551')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/cityhash/cityhash.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/cityhash/cityutils.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/cityhash/math.nim')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/cityhash')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/sha512/sha512.nim')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/sha512')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/keccak/keccak.nim')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/keccak')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/tiger/sboxes.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/tiger/nimcache/compress.c')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/tiger/nimcache/tiger.o')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/tiger/nimcache/tiger.c')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/tiger/nimcache/compress.o')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/tiger/nimcache/sboxes.c')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/tiger/nimcache/sboxes.o')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/tiger/nimcache')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/tiger/compress.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/tiger/tiger.nim')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/tiger')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/README.md')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/.git/refs/tags')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/.git/refs/heads')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/.git/refs')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/info/exclude')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/.git/info')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/.git/branches')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/logs/HEAD')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/.git/logs')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/description')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks/update.sample')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks/post-update.sample')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/shallow')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/config')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/index')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/.git/objects/info')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/objects/pack/pack-8f6d97ebff4eb4b07d5fd3015cae90e46e414124.idx')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/objects/pack/pack-8f6d97ebff4eb4b07d5fd3015cae90e46e414124.pack')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/.git/objects/pack')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/.git/objects')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/packed-refs')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.git/HEAD')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/.git')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/skein/cpuidtest_deleteme.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/skein/ubi.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/skein/copyfunc.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/skein/skein.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/skein/util.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/skein/skein_config.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/skein/threefish/threefish1024.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/skein/threefish/threefish.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/skein/threefish/threefish512.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/skein/threefish/threefish256.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/skein/threefish/util.nim')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/skein/threefish')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/skein')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/sha256/sha256.nim')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/sha256')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/siphash/siphash.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/siphash/inputtest.nim')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/siphash')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/interface.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/jh/simple.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/jh/sse2_64.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/jh/jh_simple.nim')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/jh')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/groestl/simple.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/groestl/tables.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/groestl/simple64.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/groestl/simple32.nim')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/groestl')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/whirlpool/nimcache/pool_consts.o')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/whirlpool/nimcache/pool_consts.c')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/whirlpool/nimcache/stdlib_hashes.o')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/whirlpool/nimcache/whirlpool.o')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/whirlpool/nimcache/stdlib_hashes.c')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/whirlpool/nimcache/whirlpool.c')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/whirlpool/nimcache')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/whirlpool/whirlpool.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/whirlpool/pool_consts.nim')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/whirlpool')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/burtlerot/burtlerot.nim')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/burtlerot')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/mersennetwister.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/borosh13/borosh13.nim')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/borosh13')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/blumblumshub/blumblumshub.nim')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/blumblumshub')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/gfsr/quicktest.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/gfsr/gfsr4.nim')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/gfsr')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/coveyou/coveyou.nim')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/coveyou')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/cmwc5/cmwc5.nim')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/cmwc5')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/rule30/rule30.nim')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/rule30')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/mersennetwister/mersennetwister.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/mersennetwister/mersennetwister64.nim')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/mersennetwister')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/knuthran/knuthran2.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/knuthran/knuthran.nim')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/knuthran')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/fishman/fishman18.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/fishman/fishman2x.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/fishman/fishman20.nim')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/fishman')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/lcg/lcg32.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/lcg/lcg64.nim')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/lcg')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/well/well512a.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/well/well19937a.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/well/nim.cfg')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/well/well44497a.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/well/well1024a.nim')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/well')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/rngs/rngs.nim')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/rngs')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/ripemd160/testcase.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/ripemd160/ripemd160.nim')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/ripemd160')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/.gitignore')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/blake2/wrapping_test.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/blake2/blocks.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/blake2/blake2b.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/blake2/blake2s.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/blake2/consttest.nim')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/blake2/test.nim')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham/blake2')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/shimsham.nimble')
+unlink('/tmp/nimble_5217/githubcom_apenseshimsham/LICENSE')
+rmdir('/tmp/nimble_5217/githubcom_apenseshimsham')
+rmdir('/tmp/nimble_5217')
   create directory /tmp
-  create directory /tmp/nimble_5551
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham
-  delete /tmp/nimble_5551/githubcom_apenseshimsham
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/.git
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/.git
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/.git/info
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/.git/branches
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/.git/refs
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/.git/refs/heads
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/.git/refs/tags
-  rename /tmp/nimble_5551/githubcom_apenseshimsham/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_5551/githubcom_apenseshimsham/.git/config.lock to config
-  change permissions of /tmp/nimble_5551/githubcom_apenseshimsham/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_5551/githubcom_apenseshimsham/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_5551/githubcom_apenseshimsham/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5551/githubcom_apenseshimsham/.git/config.lock to config
-  change permissions of /tmp/nimble_5551/githubcom_apenseshimsham/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5551/githubcom_apenseshimsham/.git/config.lock to config
-  change permissions of /tmp/nimble_5551/githubcom_apenseshimsham/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5551/githubcom_apenseshimsham/.git/config.lock to config
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/t4jg3ZK
-  create symbolic link from /tmp/nimble_5551/githubcom_apenseshimsham/.git/t4jg3ZK to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/t4jg3ZK
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/.git/objects
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/.git/objects/pack
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/.git/objects/info
-  change permissions of /tmp/nimble_5551/githubcom_apenseshimsham/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5551/githubcom_apenseshimsham/.git/config.lock to config
-  change permissions of /tmp/nimble_5551/githubcom_apenseshimsham/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5551/githubcom_apenseshimsham/.git/config.lock to config
-  change permissions of /tmp/nimble_5551/githubcom_apenseshimsham/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5551/githubcom_apenseshimsham/.git/config.lock to config
-  create hard link from /tmp/nimble_5551/githubcom_apenseshimsham/.git/objects/pack/pack-8f6d97ebff4eb4b07d5fd3015cae90e46e414124.pack to /tmp/nimble_5551/githubcom_apenseshimsham/.git/objects/pack/tmp_pack_60DBXc
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/objects/pack/tmp_pack_60DBXc
-  create hard link from /tmp/nimble_5551/githubcom_apenseshimsham/.git/objects/pack/pack-8f6d97ebff4eb4b07d5fd3015cae90e46e414124.idx to /tmp/nimble_5551/githubcom_apenseshimsham/.git/objects/pack/tmp_idx_68Lh8D
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/objects/pack/tmp_idx_68Lh8D
-  rename /tmp/nimble_5551/githubcom_apenseshimsham/.git/shallow.lock to shallow
-  rename /tmp/nimble_5551/githubcom_apenseshimsham/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/packed-refs.lock
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/refs/tags/0.3.4.lock
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/.git/logs
-  rename /tmp/nimble_5551/githubcom_apenseshimsham/.git/HEAD.lock to HEAD
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/objects/pack/pack-8f6d97ebff4eb4b07d5fd3015cae90e46e414124.keep
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/blake2
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/cityhash
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/groestl
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/jh
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/keccak
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/ripemd160
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/rngs
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/rngs/blumblumshub
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/rngs/borosh13
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/rngs/burtlerot
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/rngs/cmwc5
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/rngs/coveyou
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/rngs/fishman
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/rngs/gfsr
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/rngs/knuthran
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/rngs/lcg
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/rngs/mersennetwister
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/rngs/rule30
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/rngs/well
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/sha256
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/sha512
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/siphash
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/skein
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/skein/threefish
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/tiger
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/tiger/nimcache
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/whirlpool
-  create directory /tmp/nimble_5551/githubcom_apenseshimsham/whirlpool/nimcache
-  rename /tmp/nimble_5551/githubcom_apenseshimsham/.git/index.lock to index
+  create directory /tmp/nimble_5217
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham
+  delete /tmp/nimble_5217/githubcom_apenseshimsham
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/.git
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/.git
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/.git/info
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/.git/branches
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/.git/refs
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/.git/refs/heads
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/.git/refs/tags
+  rename /tmp/nimble_5217/githubcom_apenseshimsham/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_5217/githubcom_apenseshimsham/.git/config.lock to config
+  change permissions of /tmp/nimble_5217/githubcom_apenseshimsham/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_5217/githubcom_apenseshimsham/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_5217/githubcom_apenseshimsham/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5217/githubcom_apenseshimsham/.git/config.lock to config
+  change permissions of /tmp/nimble_5217/githubcom_apenseshimsham/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5217/githubcom_apenseshimsham/.git/config.lock to config
+  change permissions of /tmp/nimble_5217/githubcom_apenseshimsham/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5217/githubcom_apenseshimsham/.git/config.lock to config
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/tL9Kmrv
+  create symbolic link from /tmp/nimble_5217/githubcom_apenseshimsham/.git/tL9Kmrv to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/tL9Kmrv
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/.git/objects
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/.git/objects/pack
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/.git/objects/info
+  change permissions of /tmp/nimble_5217/githubcom_apenseshimsham/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5217/githubcom_apenseshimsham/.git/config.lock to config
+  change permissions of /tmp/nimble_5217/githubcom_apenseshimsham/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5217/githubcom_apenseshimsham/.git/config.lock to config
+  change permissions of /tmp/nimble_5217/githubcom_apenseshimsham/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_5217/githubcom_apenseshimsham/.git/config.lock to config
+  create hard link from /tmp/nimble_5217/githubcom_apenseshimsham/.git/objects/pack/pack-8f6d97ebff4eb4b07d5fd3015cae90e46e414124.pack to /tmp/nimble_5217/githubcom_apenseshimsham/.git/objects/pack/tmp_pack_2wpqj2
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/objects/pack/tmp_pack_2wpqj2
+  create hard link from /tmp/nimble_5217/githubcom_apenseshimsham/.git/objects/pack/pack-8f6d97ebff4eb4b07d5fd3015cae90e46e414124.idx to /tmp/nimble_5217/githubcom_apenseshimsham/.git/objects/pack/tmp_idx_DSq8vt
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/objects/pack/tmp_idx_DSq8vt
+  rename /tmp/nimble_5217/githubcom_apenseshimsham/.git/shallow.lock to shallow
+  rename /tmp/nimble_5217/githubcom_apenseshimsham/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/packed-refs.lock
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/refs/tags/0.3.4.lock
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/.git/logs
+  rename /tmp/nimble_5217/githubcom_apenseshimsham/.git/HEAD.lock to HEAD
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/objects/pack/pack-8f6d97ebff4eb4b07d5fd3015cae90e46e414124.keep
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/blake2
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/cityhash
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/groestl
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/jh
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/keccak
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/ripemd160
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/rngs
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/rngs/blumblumshub
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/rngs/borosh13
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/rngs/burtlerot
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/rngs/cmwc5
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/rngs/coveyou
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/rngs/fishman
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/rngs/gfsr
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/rngs/knuthran
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/rngs/lcg
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/rngs/mersennetwister
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/rngs/rule30
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/rngs/well
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/sha256
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/sha512
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/siphash
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/skein
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/skein/threefish
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/tiger
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/tiger/nimcache
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/whirlpool
+  create directory /tmp/nimble_5217/githubcom_apenseshimsham/whirlpool/nimcache
+  rename /tmp/nimble_5217/githubcom_apenseshimsham/.git/index.lock to index
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -1363,146 +1363,146 @@ rmdir('/tmp/nimble_5551')
   create directory /home/runner/.nimble/pkgs/ShimSham-0.3.4
   change permissions of /home/runner/.nimble/pkgs/ShimSham-0.3.4/LICENSE to rw-r--r--
   change permissions of /home/runner/.nimble/pkgs/ShimSham-0.3.4/shimsham.nimble to rw-r--r--
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/cityhash/cityhash.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/cityhash/cityutils.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/cityhash/math.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/cityhash
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/sha512/sha512.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/sha512
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/keccak/keccak.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/keccak
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/tiger/sboxes.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/tiger/nimcache/compress.c
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/tiger/nimcache/tiger.o
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/tiger/nimcache/tiger.c
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/tiger/nimcache/compress.o
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/tiger/nimcache/sboxes.c
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/tiger/nimcache/sboxes.o
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/tiger/nimcache
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/tiger/compress.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/tiger/tiger.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/tiger
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/README.md
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/refs/tags
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/refs/heads
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/refs
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/info/exclude
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/info
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/branches
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/logs/HEAD
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/logs
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/description
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks/pre-push.sample
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks/update.sample
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks/post-update.sample
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/hooks
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/shallow
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/config
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/index
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/objects/info
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/objects/pack/pack-8f6d97ebff4eb4b07d5fd3015cae90e46e414124.idx
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/objects/pack/pack-8f6d97ebff4eb4b07d5fd3015cae90e46e414124.pack
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/objects/pack
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/objects
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/packed-refs
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git/HEAD
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.git
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/skein/cpuidtest_deleteme.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/skein/ubi.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/skein/copyfunc.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/skein/skein.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/skein/util.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/skein/skein_config.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/skein/threefish/threefish1024.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/skein/threefish/threefish.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/skein/threefish/threefish512.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/skein/threefish/threefish256.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/skein/threefish/util.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/skein/threefish
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/skein
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/sha256/sha256.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/sha256
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/siphash/siphash.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/siphash/inputtest.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/siphash
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/interface.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/jh/simple.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/jh/sse2_64.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/jh/jh_simple.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/jh
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/groestl/simple.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/groestl/tables.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/groestl/simple64.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/groestl/simple32.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/groestl
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/whirlpool/nimcache/pool_consts.o
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/whirlpool/nimcache/pool_consts.c
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/whirlpool/nimcache/stdlib_hashes.o
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/whirlpool/nimcache/whirlpool.o
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/whirlpool/nimcache/stdlib_hashes.c
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/whirlpool/nimcache/whirlpool.c
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/whirlpool/nimcache
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/whirlpool/whirlpool.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/whirlpool/pool_consts.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/whirlpool
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/burtlerot/burtlerot.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/burtlerot
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/mersennetwister.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/borosh13/borosh13.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/borosh13
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/blumblumshub/blumblumshub.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/blumblumshub
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/gfsr/quicktest.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/gfsr/gfsr4.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/gfsr
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/coveyou/coveyou.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/coveyou
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/cmwc5/cmwc5.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/cmwc5
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/rule30/rule30.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/rule30
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/mersennetwister/mersennetwister.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/mersennetwister/mersennetwister64.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/mersennetwister
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/knuthran/knuthran2.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/knuthran/knuthran.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/knuthran
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/fishman/fishman18.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/fishman/fishman2x.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/fishman/fishman20.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/fishman
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/lcg/lcg32.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/lcg/lcg64.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/lcg
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/well/well512a.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/well/well19937a.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/well/nim.cfg
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/well/well44497a.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/well/well1024a.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/well
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs/rngs.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/rngs
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/ripemd160/testcase.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/ripemd160/ripemd160.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/ripemd160
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/.gitignore
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/blake2/wrapping_test.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/blake2/blocks.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/blake2/blake2b.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/blake2/blake2s.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/blake2/consttest.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/blake2/test.nim
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/blake2
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/shimsham.nimble
-  delete /tmp/nimble_5551/githubcom_apenseshimsham/LICENSE
-  delete /tmp/nimble_5551/githubcom_apenseshimsham
-  delete /tmp/nimble_5551
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/cityhash/cityhash.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/cityhash/cityutils.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/cityhash/math.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/cityhash
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/sha512/sha512.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/sha512
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/keccak/keccak.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/keccak
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/tiger/sboxes.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/tiger/nimcache/compress.c
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/tiger/nimcache/tiger.o
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/tiger/nimcache/tiger.c
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/tiger/nimcache/compress.o
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/tiger/nimcache/sboxes.c
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/tiger/nimcache/sboxes.o
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/tiger/nimcache
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/tiger/compress.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/tiger/tiger.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/tiger
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/README.md
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/refs/tags
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/refs/heads
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/refs
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/info/exclude
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/info
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/branches
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/logs/HEAD
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/logs
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/description
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks/pre-push.sample
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks/update.sample
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks/post-update.sample
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/hooks
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/shallow
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/config
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/index
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/objects/info
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/objects/pack/pack-8f6d97ebff4eb4b07d5fd3015cae90e46e414124.idx
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/objects/pack/pack-8f6d97ebff4eb4b07d5fd3015cae90e46e414124.pack
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/objects/pack
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/objects
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/packed-refs
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git/HEAD
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.git
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/skein/cpuidtest_deleteme.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/skein/ubi.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/skein/copyfunc.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/skein/skein.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/skein/util.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/skein/skein_config.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/skein/threefish/threefish1024.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/skein/threefish/threefish.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/skein/threefish/threefish512.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/skein/threefish/threefish256.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/skein/threefish/util.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/skein/threefish
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/skein
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/sha256/sha256.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/sha256
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/siphash/siphash.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/siphash/inputtest.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/siphash
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/interface.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/jh/simple.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/jh/sse2_64.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/jh/jh_simple.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/jh
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/groestl/simple.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/groestl/tables.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/groestl/simple64.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/groestl/simple32.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/groestl
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/whirlpool/nimcache/pool_consts.o
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/whirlpool/nimcache/pool_consts.c
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/whirlpool/nimcache/stdlib_hashes.o
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/whirlpool/nimcache/whirlpool.o
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/whirlpool/nimcache/stdlib_hashes.c
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/whirlpool/nimcache/whirlpool.c
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/whirlpool/nimcache
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/whirlpool/whirlpool.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/whirlpool/pool_consts.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/whirlpool
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/burtlerot/burtlerot.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/burtlerot
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/mersennetwister.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/borosh13/borosh13.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/borosh13
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/blumblumshub/blumblumshub.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/blumblumshub
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/gfsr/quicktest.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/gfsr/gfsr4.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/gfsr
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/coveyou/coveyou.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/coveyou
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/cmwc5/cmwc5.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/cmwc5
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/rule30/rule30.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/rule30
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/mersennetwister/mersennetwister.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/mersennetwister/mersennetwister64.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/mersennetwister
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/knuthran/knuthran2.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/knuthran/knuthran.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/knuthran
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/fishman/fishman18.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/fishman/fishman2x.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/fishman/fishman20.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/fishman
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/lcg/lcg32.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/lcg/lcg64.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/lcg
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/well/well512a.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/well/well19937a.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/well/nim.cfg
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/well/well44497a.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/well/well1024a.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/well
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs/rngs.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/rngs
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/ripemd160/testcase.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/ripemd160/ripemd160.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/ripemd160
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/.gitignore
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/blake2/wrapping_test.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/blake2/blocks.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/blake2/blake2b.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/blake2/blake2s.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/blake2/consttest.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/blake2/test.nim
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/blake2
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/shimsham.nimble
+  delete /tmp/nimble_5217/githubcom_apenseshimsham/LICENSE
+  delete /tmp/nimble_5217/githubcom_apenseshimsham
+  delete /tmp/nimble_5217
