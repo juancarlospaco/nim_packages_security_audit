@@ -1,22 +1,31 @@
     Reading official package list
 Downloading git@github.com:megawac/RingBuffer.nim.git using git
 download.nim(93)         getTagsListRemote
-Error: unhandled exception: Unable to query remote tags for git@github.com:megawac/RingBuffer.nim.git. Git returned: Warning: Permanently added the RSA host key for IP address '140.82.112.3' to the list of known hosts.
+Error: unhandled exception: Unable to query remote tags for git@github.com:megawac/RingBuffer.nim.git. Git returned: Warning: Permanently added the RSA host key for IP address '140.82.113.4' to the list of known hosts.
 git@github.com: Permission denied (publickey).
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
  [OSError]
+open('/workspace/destdir/ssl/openssl.cnf', 0, 0x00000000000001b6)
+open('/home/runner/.config/nimble/nimble.ini', 524288, 0x00000000000001b6)
+open('/home/runner/.config/babel/babel.ini', 524288, 0x00000000000001b6)
+writev(1, 0x00007ffcabf2ad70, 2)
+open('/home/runner/.nimble/packages_official.json', 524288, 0x00000000000001b6)
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_4272', 0x00000000000001ff)
-mkdir('/tmp/nimble_4272/_gitgithubcommegawacRingBuffernimgit', 0x00000000000001ff)
-rmdir('/tmp/nimble_4272/_gitgithubcommegawacRingBuffernimgit')
+mkdir('/tmp/nimble_3593', 0x00000000000001ff)
+mkdir('/tmp/nimble_3593/_gitgithubcommegawacRingBuffernimgit', 0x00000000000001ff)
+writev(1, 0x00007ffcabf2ae30, 2)
+open('/tmp/nimble_3593/_gitgithubcommegawacRingBuffernimgit', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_3593/_gitgithubcommegawacRingBuffernimgit')
 mkdir('/home/runner/.ssh', 0x00000000000001c0)
-rmdir('/tmp/nimble_4272')
+open('/tmp/nimble_3593', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_3593')
+writev(2, 0x00007ffcabf2ab80, 2)
   create directory /tmp
-  create directory /tmp/nimble_4272
-  create directory /tmp/nimble_4272/_gitgithubcommegawacRingBuffernimgit
-  delete /tmp/nimble_4272/_gitgithubcommegawacRingBuffernimgit
+  create directory /tmp/nimble_3593
+  create directory /tmp/nimble_3593/_gitgithubcommegawacRingBuffernimgit
+  delete /tmp/nimble_3593/_gitgithubcommegawacRingBuffernimgit
   create directory /home/runner/.ssh
-  delete /tmp/nimble_4272
+  delete /tmp/nimble_3593

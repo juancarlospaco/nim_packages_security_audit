@@ -1,305 +1,1364 @@
     Reading official package list
 Downloading https://github.com/juancarlospaco/nim-requirementstxt using git
+open('/workspace/destdir/ssl/openssl.cnf', 0, 0x00000000000001b6)
+open('/home/runner/.config/nimble/nimble.ini', 524288, 0x00000000000001b6)
+open('/home/runner/.config/babel/babel.ini', 524288, 0x00000000000001b6)
+writev(1, 0x00007ffe0492e1b0, 2)
+open('/home/runner/.nimble/packages_official.json', 524288, 0x00000000000001b6)
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_12628', 0x00000000000001ff)
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt', 0x00000000000001ff)
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt')
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt', 0x00000000000001ff)
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/HEAD.lock', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/HEAD')
-rename('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config')
-chmod('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config')
-chmod('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config')
-chmod('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/tcCDLtx')
-symlink('testing', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/tcCDLtx')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/tcCDLtx')
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config')
-chmod('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config')
-chmod('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config')
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/62', 0x00000000000001ff)
-link('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/62/tmp_obj_8jjqBn', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/62/b51ba551651038bd720f44322b3cb80bf70594')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/62/tmp_obj_8jjqBn')
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/f9', 0x00000000000001ff)
-link('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/f9/tmp_obj_SZ8Xbp', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/f9/b019d73b7fe5fa8eb494e1417b0825021cfad6')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/f9/tmp_obj_SZ8Xbp')
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/67', 0x00000000000001ff)
-link('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/67/tmp_obj_Eua74u', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/67/d9b34c6cecad82ad17197ffa5db4860caf9037')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/67/tmp_obj_Eua74u')
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/df', 0x00000000000001ff)
-link('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/df/tmp_obj_Kv5kpv', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/df/66393e2cc3ee2863c542a3a7ed65acd1ae7747')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/df/tmp_obj_Kv5kpv')
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/9b', 0x00000000000001ff)
-link('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/9b/tmp_obj_ckOwcB', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/9b/4412dae1cfad24df1b8fce597f90f6b62211f5')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/9b/tmp_obj_ckOwcB')
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/c5', 0x00000000000001ff)
-link('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/c5/tmp_obj_y5k0RG', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/c5/ffc769887c560d89a61504d2736e2b79baa1eb')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/c5/tmp_obj_y5k0RG')
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/f4', 0x00000000000001ff)
-link('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/f4/tmp_obj_yXcgFL', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/f4/dcc43601827ab788c7cb84f44ffbfd868e82b3')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/f4/tmp_obj_yXcgFL')
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/ec', 0x00000000000001ff)
-link('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/ec/tmp_obj_Y4V4iP', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/ec/36c62544545359195f41cd622067fe7fcb085a')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/ec/tmp_obj_Y4V4iP')
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/4e', 0x00000000000001ff)
-link('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/4e/tmp_obj_WTmdRU', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/4e/1d6436bd0f801aef5be285d61c3c6f88ab91a1')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/4e/tmp_obj_WTmdRU')
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/c0', 0x00000000000001ff)
-link('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/c0/tmp_obj_oU1vEX', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/c0/a1f565816cf4601abe5bdc63638c9b6819f1c1')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/c0/tmp_obj_oU1vEX')
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/b1', 0x00000000000001ff)       Info /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/requirementstxt_12628.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/requirementstxt_12628.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
-  Verifying dependencies for requirementstxt@0.1.0
- Installing requirementstxt@0.1.0
-    Copying file /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/src/requirementstxt.nim to /home/runner/.nimble/pkgs/requirementstxt-0.1.0/requirementstxt.nim
-    Copying file /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/requirementstxt.nimble to /home/runner/.nimble/pkgs/requirementstxt-0.1.0/requirementstxt.nimble
-   Success: requirementstxt installed successfully.
-       Info /home/runner/.nimble/pkgs/requirementstxt-0.1.0/requirementstxt_12628.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /home/runner/.nimble/pkgs/requirementstxt-0.1.0/requirementstxt_12628.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
-
-link('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/b1/tmp_obj_IwswV3', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/b1/92fb6ca598391ae84d3b0554ce10948e612889')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/b1/tmp_obj_IwswV3')
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/e8', 0x00000000000001ff)
-link('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/e8/tmp_obj_ijmb08', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/e8/a0e78e3fc3b5f64c1502db6e66ac9388588ce7')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/e8/tmp_obj_ijmb08')
-rename('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/shallow.lock', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/shallow')
-rename('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/packed-refs.new', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/packed-refs')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/packed-refs.lock')
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes/origin', 0x00000000000001ff)
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/logs', 0x00000000000001ff)
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/remotes/origin', 0x00000000000001ff)
-rename('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes/origin/HEAD')
-rename('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/HEAD.lock', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/HEAD')
-mkdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/heads', 0x00000000000001ff)
-rename('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs/heads/master.lock', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs/heads/master')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/HEAD.lock')
-chmod('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config')
-chmod('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config')
+mkdir('/tmp/nimble_10417', 0x00000000000001ff)
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt', 0x00000000000001ff)
+writev(1, 0x00007ffe0492e270, 2)
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt')
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt', 0x00000000000001ff)
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/HEAD.lock', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/HEAD')
+rename('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config')
+chmod('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config')
+chmod('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config')
+chmod('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/tLnKSFq')
+symlink('testing', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/tLnKSFq')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/tLnKSFq')
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config')
+chmod('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config')
+chmod('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config')
+chmod('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config')
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/76', 0x00000000000001ff)
+link('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/76/tmp_obj_Sc9m4Q', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/76/9a099b3e4e512985413c9e2740c81d480381d7')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/76/tmp_obj_Sc9m4Q')
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/ef', 0x00000000000001ff)
+link('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/ef/tmp_obj_GAIpOS', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/ef/a5c3794a864b2dc4b1fdb33e24ad13fb97ab50')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/ef/tmp_obj_GAIpOS')
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/67', 0x00000000000001ff)
+link('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/67/tmp_obj_GIItrV', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/67/d9b34c6cecad82ad17197ffa5db4860caf9037')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/67/tmp_obj_GIItrV')
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/df', 0x00000000000001ff)
+link('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/df/tmp_obj_YlGAfZ', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/df/66393e2cc3ee2863c542a3a7ed65acd1ae7747')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/df/tmp_obj_YlGAfZ')
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/9b', 0x00000000000001ff)
+link('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/9b/tmp_obj_WudTx1', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/9b/4412dae1cfad24df1b8fce597f90f6b62211f5')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/9b/tmp_obj_WudTx1')
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/e2', 0x00000000000001ff)
+link('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/e2/tmp_obj_Q1F2P3', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/e2/7d2fbaf55cbf27e6e67cebaa01a5dc440f6072')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/e2/tmp_obj_Q1F2P3')
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/d2', 0x00000000000001ff)
+link('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/d2/tmp_obj_wLi6g6', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/d2/78b50071872a38bfc7714ca8fdaa82fa58b93a')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/d2/tmp_obj_wLi6g6')
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/15', 0x00000000000001ff)
+link('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/15/tmp_obj_2NrMc7', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/15/1581ea0cd18fd7b7dedb9d9ec7cd66a7b5b7c0')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/15/tmp_obj_2NrMc7')
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/4e', 0x00000000000001ff)
+link('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/4e/tmp_obj_mQZz88', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/4e/1d6436bd0f801aef5be285d61c3c6f88ab91a1')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/4e/tmp_obj_mQZz88')
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/c0', 0x00000000000001ff)
+link('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/c0/tmp_obj_g7D94b', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/c0/a1f565816cf4601abe5bdc63638c9b6819f1c1')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/c0/tmp_obj_g7D94b')
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/b1', 0x00000000000001ff)
+link('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/b1/tmp_obj_u6XrSh', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/b1/92fb6ca598391ae84d3b0554ce10948e612889')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/b1/tmp_obj_u6XrSh')
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/e8', 0x00000000000001ff)
+link('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/e8/tmp_obj_QDXzJj', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/e8/a0e78e3fc3b5f64c1502db6e66ac9388588ce7')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/e8/tmp_obj_QDXzJj')
+rename('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/shallow.lock', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/shallow')
+rename('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/packed-refs.new', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/packed-refs')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/packed-refs.lock')
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/HEAD.lock', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/HEAD')
+mkdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/heads/master.lock', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/heads/master')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/HEAD.lock')
+chmod('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config')
+chmod('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config')
 mkdir('src', 0x00000000000001ff)
 mkdir('tests', 0x00000000000001ff)
-rename('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/index.lock', '/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/index')
+rename('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/index.lock', '/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/index')
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt', 589824, 0x0000000000000000)
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/requirementstxt.nimble', 524288, 0x00000000000001b6)
+open('/etc/localtime', 526336, 0x0000000000000000)
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/requirementstxt_1174403330', 0x00000000000001ff)
-unlink('/tmp/nimblecache/requirementstxt_1174403330/requirementstxt.ini')
-unlink('/tmp/nimble_12628.out')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/requirementstxt_12628.nims')
+mkdir('/tmp/nimblecache-946033505', 0x00000000000001ff)
+mkdir('/tmp/nimblecache-946033505/requirementstxt_1055018808', 0x00000000000001ff)
+open('/tmp/nimblecache-946033505/requirementstxt_1055018808/requirementstxt.nims', 524865, 0x00000000000001b6)
+writev(3, 0x00007ffe0492dc40, 2)
+unlink('/tmp/nimblecache-946033505/requirementstxt_1055018808/requirementstxt.ini')
+open('/tmp/nimblecache-946033505/requirementstxt_1055018808/requirementstxt.nims', 2623488, 0x000000000076b83f)
+open('/tmp/nimblecache-946033505/requirementstxt_1055018808', 2623488, 0x00007ffdf7c27f10)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/nim.cfg', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/nim.cfg', 2623488, 0x0000000000453f15)
+open('/opt/nimble/pkgs/', 589824, 0x0000000000000000)
+open('/opt/nimble/pkgs/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/random_font_color-0.5.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/redissessions-0.2.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/redisclient-0.1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/ringDeque-0.2.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/redpool-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rtree-0.2.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/struct-0.2.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/unicodedb-0.9.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rbtree-0.5.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/unicodeplus-0.8.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/romans-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/cligen-1.2.2/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/glm-1.1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rosencrantz-0.4.3/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rss-1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/redux-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/reactor-0.5.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rbac-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/reactorfuse-0.0.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/nimSHA2-0.1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rainbow-0.2.2/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/regex-0.16.2/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/stew-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/redux_nim-1.0.3/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/react-0.2.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/recaptcha-1.0.3/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/redneck_translator-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/hmac-0.1.9/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rethinkdb-0.2.4/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/scram-0.1.13/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/redisparser-0.1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/RollingHash-0.3.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/docopt-0.6.8/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/eastasianwidth-1.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rect_packer-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/robotparser-1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/Remotery-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/ranges-0.0.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rexpaint-1.0.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rsvg-0.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/react16-0.3.6/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/ris-0.2/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/collections-0.5.2/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/jester-0.5.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/asynctools-#pr_fix_compilation/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/httpbeast-0.2.2/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/segmentation-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rfc3339-0.1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/result-0.2.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/RC4-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/edn-0.2.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/randgen-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/sha1-1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/random-0.5.7/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/zip-0.3.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/redis-0.3.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/config.nims', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x00007ffdf7c27190)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 2623488, 0x00007ffdf7c273f0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffdf7c273f0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffdf7c273f0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/config.nims', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/config.nims', 524288, 0x00000000000001b6)
+open('/home/runner/.config/nim/nim.cfg', 524288, 0x00000000000001b6)
+open('/nim.cfg', 524288, 0x00000000000001b6)
+open('/tmp/nim.cfg', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/nim.cfg', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/requirementstxt_1055018808/nim.cfg', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/requirementstxt_1055018808/requirementstxt.nim.cfg', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/requirementstxt_1055018808/requirementstxt.nims', 2623488, 0x0000000000453f15)
+open('/tmp/nimblecache-946033505/requirementstxt_1055018808/', 589824, 0x0000000000000000)
+open('/tmp/nimblecache-946033505/', 589824, 0x0000000000000000)
+open('/tmp/', 589824, 0x0000000000000000)
+open('/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x00007ffdf7c27200)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 2623488, 0x00007ffdf7c27460)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffdf7c27460)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffdf7c27460)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/requirementstxt_1055018808/requirementstxt.nims', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/requirementstxt_1055018808/requirementstxt.nims', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x00007ffdf7c27b10)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x00007ffdf7c278c0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x00007ffdf7c279d0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x00007ffdf7c26f00)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffdf7c26fd0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x00007ffdf7c26c00)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x00007ffdf7c26ac0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x00007ffdf7c26500)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffdf7c265b0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffdf7c26ac0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/sets.nim', 2623488, 0x00007ffdf7c26a10)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/sets.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/sets.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/sets.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x00007ffdf7c274c0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x00007ffdf7c26c90)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/unicode_ranges.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/unicode_ranges.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/unicode_ranges.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x00007ffdf7c27410)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffdf7c274c0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/tmp/nimblecache-946033505/nimscriptapi_4023663688.nim', 2623488, 0x0000000000453f15)
+open('/tmp/nimblecache-946033505/nimscriptapi_4023663688.nim', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/nimscriptapi_4023663688.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x00007ffdf7c27600)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x00007ffdf7c273b0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 2623488, 0x00007ffdf7c274c0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x00007ffdf7c270f0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x00007ffdf7c26fb0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x00007ffdf7c274c0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim', 2623488, 0x00007ffdf7c274c0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffdf7c26fb0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 2623488, 0x00007ffdf7c26fb0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 2623488, 0x0000000000453f15)  Verifying dependencies for requirementstxt@0.1.0
+
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffdf7c26aa0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 2623488, 0x00007ffdf7c26fb0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim', 2623488, 0x00007ffdf7c26fb0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tableimpl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tableimpl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tableimpl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/hashcommon.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/hashcommon.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/hashcommon.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/os.nim', 2623488, 0x00007ffdf7c27230)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/os.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/os.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/os.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x00007ffdf7c26c70)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffdf7c26d20)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/pathnorm.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/pathnorm.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/pathnorm.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/osseps.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/osseps.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/osseps.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/osseps.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/osseps.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/osseps.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/oserr.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/oserr.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/oserr.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/hashcommon.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim', 2623488, 0x0000000000453f15)
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/requirementstxt.nimble', 2623488, 0x0000000000453f15)
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/requirementstxt.nimble', 524288, 0x00000000000001b6)
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/requirementstxt.nimble', 524288, 0x00000000000001b6)
+open('/tmp/nimble_10417.out', 524865, 0x00000000000001b6)
+writev(5, 0x00007ffdf7c27aa0, 2)
+open('/tmp/nimble_10417.out', 524288, 0x00000000000001b6)
+unlink('/tmp/nimble_10417.out')
+open('/tmp/nimblecache-946033505/requirementstxt_1055018808/requirementstxt.ini', 524865, 0x00000000000001b6)
+writev(3, 0x00007ffe0492dcb0, 2)
+open('/tmp/nimblecache-946033505/requirementstxt_1055018808/requirementstxt.ini', 524288, 0x00000000000001b6)
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/src', 589824, 0x0000000000000000)
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt', 589824, 0x0000000000000000)
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt', 589824, 0x0000000000000000)
+writev(1, 0x00007ffe0492dc30, 2)
+open('/home/runner/.nimble/pkgs', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/glm-1.1.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/glm-1.1.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/recaptcha-1.0.3', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/recaptcha-1.0.3/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/rsvg-0.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rsvg-0.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/unicodedb-0.9.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/unicodedb-0.9.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/collections-0.5.2', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/collections-0.5.2/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/rbtree-0.5.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rbtree-0.5.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/eastasianwidth-1.1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/eastasianwidth-1.1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/zip-0.3.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/zip-0.3.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/sha1-1.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/sha1-1.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/edn-0.2.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/edn-0.2.1/nimblemeta.json', 524288, 0x00000000000001b6) Installing requirementstxt@0.1.0
+
+open('/home/runner/.nimble/pkgs/randgen-0.1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/randgen-0.1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/regex-0.16.2', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/regex-0.16.2/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/RC4-0.1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/RC4-0.1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/redisclient-0.1.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/redisclient-0.1.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/redneck_translator-0.1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/redneck_translator-0.1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/romans-0.1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/romans-0.1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/jester-0.5.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/jester-0.5.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/httpbeast-0.2.2', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/httpbeast-0.2.2/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/scram-0.1.13', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/scram-0.1.13/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/reactorfuse-0.0.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/reactorfuse-0.0.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/rfc3339-0.1.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rfc3339-0.1.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/rtree-0.2.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rtree-0.2.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/redux-0.1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/redux-0.1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/cligen-1.2.2', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/cligen-1.2.2/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/RollingHash-0.3.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/RollingHash-0.3.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/rosencrantz-0.4.3', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rosencrantz-0.4.3/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/random-0.5.7', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/random-0.5.7/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/random_font_color-0.5.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/random_font_color-0.5.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/docopt-0.6.8', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/docopt-0.6.8/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/rbac-0.1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rbac-0.1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/nimSHA2-0.1.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/nimSHA2-0.1.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/hmac-0.1.9', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/hmac-0.1.9/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/redis-0.3.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/redis-0.3.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/rss-1.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rss-1.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/rainbow-0.2.2', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rainbow-0.2.2/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/Remotery-0.1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/Remotery-0.1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/result-0.2.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/result-0.2.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/redissessions-0.2.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/redissessions-0.2.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/redisparser-0.1.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/redisparser-0.1.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/react16-0.3.6', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/react16-0.3.6/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/rethinkdb-0.2.4', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rethinkdb-0.2.4/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/asynctools-#pr_fix_compilation', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/asynctools-#pr_fix_compilation/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/redux_nim-1.0.3', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/redux_nim-1.0.3/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/robotparser-1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/robotparser-1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/stew-0.1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/stew-0.1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/reactor-0.5.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/reactor-0.5.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/ris-0.2', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/ris-0.2/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/ringDeque-0.2.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/ringDeque-0.2.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/redis-#94bcbf1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/redis-#94bcbf1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/rexpaint-1.0.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rexpaint-1.0.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/rect_packer-0.1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rect_packer-0.1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/struct-0.2.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/struct-0.2.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/segmentation-0.1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/segmentation-0.1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/ranges-0.0.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/ranges-0.0.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/redpool-0.1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/redpool-0.1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/react-0.2.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/react-0.2.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/unicodeplus-0.8.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/unicodeplus-0.8.0/nimblemeta.json', 524288, 0x00000000000001b6)
+writev(1, 0x00007ffda51a6cd0, 2)
+writev(1, 0x00007ffda51a6d80, 2)
+writev(1, 0x00007ffda51a6d80, 2)
+writev(1, 0x00007ffda51a6d80, 2)
+writev(1, 0x00007ffe0492e060, 2)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)    Copying file /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/src/requirementstxt.nim to /home/runner/.nimble/pkgs/requirementstxt-0.1.0/requirementstxt.nim
+    Copying file /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/requirementstxt.nimble to /home/runner/.nimble/pkgs/requirementstxt-0.1.0/requirementstxt.nimble
+   Success: requirementstxt installed successfully.
+
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/requirementstxt-0.1.0', 0x00000000000001ff)
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/src', 589824, 0x0000000000000000)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/requirementstxt-0.1.0', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/requirementstxt-0.1.0', 0x00000000000001ff)
+writev(1, 0x00007ffe0492ddd0, 2)
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/src/requirementstxt.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/requirementstxt-0.1.0/requirementstxt.nim', 524865, 0x00000000000001b6)
+writev(5, 0x00007ffe0492dcf0, 2)
 chmod('/home/runner/.nimble/pkgs/requirementstxt-0.1.0/requirementstxt.nim', 0x00000000000001a4)
+writev(1, 0x00007ffe0492e030, 2)
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/requirementstxt.nimble', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/requirementstxt-0.1.0/requirementstxt.nimble', 524865, 0x00000000000001b6)
+writev(4, 0x00007ffe0492df90, 2)
 chmod('/home/runner/.nimble/pkgs/requirementstxt-0.1.0/requirementstxt.nimble', 0x00000000000001a4)
+open('/home/runner/.nimble/pkgs/requirementstxt-0.1.0/nimblemeta.json', 524865, 0x00000000000001b6)
+writev(3, 0x00007ffe0492dec0, 2)
+open('/home/runner/.nimble/nimbledata.json', 524865, 0x00000000000001b6)
+writev(3, 0x00007ffe0492df30, 2)
+writev(1, 0x00007ffe0492e060, 2)
+open('/home/runner/.nimble/pkgs/requirementstxt-0.1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/requirementstxt-0.1.0/requirementstxt.nimble', 524288, 0x00000000000001b6)
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/requirementstxt_1822316984', 0x00000000000001ff)
-unlink('/tmp/nimblecache/requirementstxt_1822316984/requirementstxt.ini')
-unlink('/tmp/nimble_12628.out')
-unlink('/home/runner/.nimble/pkgs/requirementstxt-0.1.0/requirementstxt_12628.nims')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/README.md')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes/origin')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs/tags')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs/heads/master')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs/heads')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/info/exclude')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/info')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/branches')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/remotes/origin')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/remotes')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/heads/master')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/heads')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/logs/HEAD')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/logs')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/description')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks/update.sample')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/shallow')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/index')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/b1/92fb6ca598391ae84d3b0554ce10948e612889')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/b1')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/4e/1d6436bd0f801aef5be285d61c3c6f88ab91a1')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/4e')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/ec/36c62544545359195f41cd622067fe7fcb085a')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/ec')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/info')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/c5/ffc769887c560d89a61504d2736e2b79baa1eb')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/c5')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/9b/4412dae1cfad24df1b8fce597f90f6b62211f5')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/9b')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/df/66393e2cc3ee2863c542a3a7ed65acd1ae7747')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/df')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/c0/a1f565816cf4601abe5bdc63638c9b6819f1c1')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/c0')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/62/b51ba551651038bd720f44322b3cb80bf70594')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/62')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/67/d9b34c6cecad82ad17197ffa5db4860caf9037')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/67')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/f9/b019d73b7fe5fa8eb494e1417b0825021cfad6')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/f9')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/e8/a0e78e3fc3b5f64c1502db6e66ac9388588ce7')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/e8')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/pack')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/f4/dcc43601827ab788c7cb84f44ffbfd868e82b3')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/f4')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/packed-refs')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/HEAD')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/src/requirementstxt.nim')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/src')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/temp.png')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/requirementstxt.nimble')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/tests/requirements.txt')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/tests/test1.nim')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/tests')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.gitignore')
-unlink('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/LICENSE')
-rmdir('/tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt')
-rmdir('/tmp/nimble_12628')
+mkdir('/tmp/nimblecache-946033505', 0x00000000000001ff)
+mkdir('/tmp/nimblecache-946033505/requirementstxt_1832235010', 0x00000000000001ff)
+open('/tmp/nimblecache-946033505/requirementstxt_1832235010/requirementstxt.nims', 524865, 0x00000000000001b6)
+writev(3, 0x00007ffe0492d7d0, 2)
+unlink('/tmp/nimblecache-946033505/requirementstxt_1832235010/requirementstxt.ini')
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/requirementstxt-0.1.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/requirementstxt-0.1.0/pkgs', 0x00000000000001ff)
+open('/tmp/nimblecache-946033505/requirementstxt_1832235010/requirementstxt.nims', 2623488, 0x000000000076b83f)
+open('/tmp/nimblecache-946033505/requirementstxt_1832235010', 2623488, 0x00007ffce67dd120)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/nim.cfg', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/nim.cfg', 2623488, 0x0000000000453f15)
+open('/opt/nimble/pkgs/', 589824, 0x0000000000000000)
+open('/opt/nimble/pkgs/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/random_font_color-0.5.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/redissessions-0.2.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/redisclient-0.1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/ringDeque-0.2.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/redpool-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rtree-0.2.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/struct-0.2.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/unicodedb-0.9.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rbtree-0.5.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/unicodeplus-0.8.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/romans-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/cligen-1.2.2/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/glm-1.1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rosencrantz-0.4.3/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rss-1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/redux-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/reactor-0.5.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rbac-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/reactorfuse-0.0.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/nimSHA2-0.1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rainbow-0.2.2/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/regex-0.16.2/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/stew-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/redux_nim-1.0.3/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/react-0.2.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/recaptcha-1.0.3/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/redneck_translator-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/hmac-0.1.9/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rethinkdb-0.2.4/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/scram-0.1.13/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/requirementstxt-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/RollingHash-0.3.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/docopt-0.6.8/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/eastasianwidth-1.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/redisparser-0.1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rect_packer-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/robotparser-1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/Remotery-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/ranges-0.0.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rexpaint-1.0.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rsvg-0.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/react16-0.3.6/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/ris-0.2/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/collections-0.5.2/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/jester-0.5.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/asynctools-#pr_fix_compilation/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/httpbeast-0.2.2/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/segmentation-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/rfc3339-0.1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/result-0.2.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/RC4-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/edn-0.2.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/randgen-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/sha1-1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/random-0.5.7/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/zip-0.3.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/redis-0.3.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/config.nims', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x00007ffce67dc3a0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 2623488, 0x00007ffce67dc600)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffce67dc600)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffce67dc600)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/config.nims', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/config.nims', 524288, 0x00000000000001b6)
+open('/home/runner/.config/nim/nim.cfg', 524288, 0x00000000000001b6)
+open('/nim.cfg', 524288, 0x00000000000001b6)
+open('/tmp/nim.cfg', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/nim.cfg', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/requirementstxt_1832235010/nim.cfg', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/requirementstxt_1832235010/requirementstxt.nim.cfg', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/requirementstxt_1832235010/requirementstxt.nims', 2623488, 0x0000000000453f15)
+open('/tmp/nimblecache-946033505/requirementstxt_1832235010/', 589824, 0x0000000000000000)
+open('/tmp/nimblecache-946033505/', 589824, 0x0000000000000000)
+open('/tmp/', 589824, 0x0000000000000000)
+open('/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x00007ffce67dc410)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 2623488, 0x00007ffce67dc670)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffce67dc670)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffce67dc670)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/requirementstxt_1832235010/requirementstxt.nims', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/requirementstxt_1832235010/requirementstxt.nims', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x00007ffce67dcd20)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x00007ffce67dcad0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x00007ffce67dcbe0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x00007ffce67dc110)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffce67dc1e0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x00007ffce67dbe10)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x00007ffce67dbcd0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x00007ffce67db710)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffce67db7c0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffce67dbcd0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/sets.nim', 2623488, 0x00007ffce67dbc20)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/sets.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/sets.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/sets.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x00007ffce67dc6d0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x00007ffce67dbea0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/unicode_ranges.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/unicode_ranges.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/unicode_ranges.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x00007ffce67dc620)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffce67dc6d0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/tmp/nimblecache-946033505/nimscriptapi_4023663688.nim', 2623488, 0x0000000000453f15)
+open('/tmp/nimblecache-946033505/nimscriptapi_4023663688.nim', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/nimscriptapi_4023663688.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x00007ffce67dc810)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x00007ffce67dc5c0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 2623488, 0x00007ffce67dc6d0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x00007ffce67dc300)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x00007ffce67dc1c0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x00007ffce67dc6d0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim', 2623488, 0x00007ffce67dc6d0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffce67dc1c0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 2623488, 0x00007ffce67dc1c0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffce67dbcb0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 2623488, 0x00007ffce67dc1c0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim', 2623488, 0x00007ffce67dc1c0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tableimpl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tableimpl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tableimpl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/hashcommon.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/hashcommon.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/hashcommon.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/os.nim', 2623488, 0x00007ffce67dc440)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/os.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/os.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/os.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x00007ffce67dbe80)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffce67dbf30)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/pathnorm.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/pathnorm.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/pathnorm.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/osseps.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/osseps.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/osseps.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/osseps.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/osseps.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/osseps.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/oserr.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/oserr.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/oserr.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/hashcommon.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.nimble/pkgs/requirementstxt-0.1.0/requirementstxt.nimble', 2623488, 0x0000000000453f15)
+open('/home/runner/.nimble/pkgs/requirementstxt-0.1.0/requirementstxt.nimble', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/requirementstxt-0.1.0/requirementstxt.nimble', 524288, 0x00000000000001b6)
+open('/tmp/nimble_10417.out', 524865, 0x00000000000001b6)
+writev(5, 0x00007ffce67dccb0, 2)
+open('/tmp/nimble_10417.out', 524288, 0x00000000000001b6)
+unlink('/tmp/nimble_10417.out')
+open('/tmp/nimblecache-946033505/requirementstxt_1832235010/requirementstxt.ini', 524865, 0x00000000000001b6)
+writev(3, 0x00007ffe0492d840, 2)
+open('/tmp/nimblecache-946033505/requirementstxt_1832235010/requirementstxt.ini', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/requirementstxt-0.1.0/src', 589824, 0x0000000000000000)
+open('/tmp/nimble_10417', 589824, 0x0000000000000000)
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/README.md')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/temp.png')
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/tests', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/tests/test1.nim')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/tests/requirements.txt')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/tests')
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git', 589824, 0x0000000000000000)
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs', 589824, 0x0000000000000000)
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/tags', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/tags')
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes', 589824, 0x0000000000000000)
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes/origin', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes')
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/heads', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/heads/master')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/heads')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/description')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/packed-refs')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/HEAD')
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/info', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/info/exclude')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/info')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/index')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/shallow')
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks/update.sample')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks/fsmonitor-watchman.sample')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks/post-update.sample')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks/commit-msg.sample')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks')
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs', 589824, 0x0000000000000000)
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs', 589824, 0x0000000000000000)
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/remotes', 589824, 0x0000000000000000)
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/remotes/origin', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/remotes')
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/heads', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/heads')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs/HEAD')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs')
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/branches', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/branches')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config')
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects', 589824, 0x0000000000000000)
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/9b', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/9b/4412dae1cfad24df1b8fce597f90f6b62211f5')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/9b')
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/76', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/76/9a099b3e4e512985413c9e2740c81d480381d7')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/76')
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/67', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/67/d9b34c6cecad82ad17197ffa5db4860caf9037')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/67')
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/df', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/df/66393e2cc3ee2863c542a3a7ed65acd1ae7747')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/df')
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/e8', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/e8/a0e78e3fc3b5f64c1502db6e66ac9388588ce7')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/e8')
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/ef', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/ef/a5c3794a864b2dc4b1fdb33e24ad13fb97ab50')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/ef')
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/d2', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/d2/78b50071872a38bfc7714ca8fdaa82fa58b93a')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/d2')
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/e2', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/e2/7d2fbaf55cbf27e6e67cebaa01a5dc440f6072')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/e2')
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/info', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/info')
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/c0', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/c0/a1f565816cf4601abe5bdc63638c9b6819f1c1')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/c0')
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/15', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/15/1581ea0cd18fd7b7dedb9d9ec7cd66a7b5b7c0')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/15')
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/b1', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/b1/92fb6ca598391ae84d3b0554ce10948e612889')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/b1')
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/pack', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/pack')
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/4e', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/4e/1d6436bd0f801aef5be285d61c3c6f88ab91a1')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/4e')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/requirementstxt.nimble')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.gitignore')
+open('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/src', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/src/requirementstxt.nim')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/src')
+unlink('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/LICENSE')
+rmdir('/tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt')
+rmdir('/tmp/nimble_10417')
   create directory /tmp
-  create directory /tmp/nimble_12628
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/info
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/branches
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs/heads
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs/tags
-  rename /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to config
-  change permissions of /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to config
-  change permissions of /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to config
-  change permissions of /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to config
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/tcCDLtx
-  create symbolic link from /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/tcCDLtx to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/tcCDLtx
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/pack
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/info
-  change permissions of /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to config
-  change permissions of /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to config
-  change permissions of /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to config
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/62
-  create hard link from /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/62/b51ba551651038bd720f44322b3cb80bf70594 to /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/62/tmp_obj_8jjqBn
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/62/tmp_obj_8jjqBn
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/f9
-  create hard link from /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/f9/b019d73b7fe5fa8eb494e1417b0825021cfad6 to /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/f9/tmp_obj_SZ8Xbp
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/f9/tmp_obj_SZ8Xbp
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/67
-  create hard link from /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/67/d9b34c6cecad82ad17197ffa5db4860caf9037 to /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/67/tmp_obj_Eua74u
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/67/tmp_obj_Eua74u
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/df
-  create hard link from /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/df/66393e2cc3ee2863c542a3a7ed65acd1ae7747 to /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/df/tmp_obj_Kv5kpv
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/df/tmp_obj_Kv5kpv
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/9b
-  create hard link from /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/9b/4412dae1cfad24df1b8fce597f90f6b62211f5 to /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/9b/tmp_obj_ckOwcB
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/9b/tmp_obj_ckOwcB
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/c5
-  create hard link from /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/c5/ffc769887c560d89a61504d2736e2b79baa1eb to /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/c5/tmp_obj_y5k0RG
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/c5/tmp_obj_y5k0RG
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/f4
-  create hard link from /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/f4/dcc43601827ab788c7cb84f44ffbfd868e82b3 to /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/f4/tmp_obj_yXcgFL
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/f4/tmp_obj_yXcgFL
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/ec
-  create hard link from /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/ec/36c62544545359195f41cd622067fe7fcb085a to /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/ec/tmp_obj_Y4V4iP
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/ec/tmp_obj_Y4V4iP
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/4e
-  create hard link from /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/4e/1d6436bd0f801aef5be285d61c3c6f88ab91a1 to /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/4e/tmp_obj_WTmdRU
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/4e/tmp_obj_WTmdRU
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/c0
-  create hard link from /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/c0/a1f565816cf4601abe5bdc63638c9b6819f1c1 to /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/c0/tmp_obj_oU1vEX
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/c0/tmp_obj_oU1vEX
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/b1
-  create hard link from /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/b1/92fb6ca598391ae84d3b0554ce10948e612889 to /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/b1/tmp_obj_IwswV3
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/b1/tmp_obj_IwswV3
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/e8
-  create hard link from /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/e8/a0e78e3fc3b5f64c1502db6e66ac9388588ce7 to /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/e8/tmp_obj_ijmb08
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/e8/tmp_obj_ijmb08
-  rename /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/shallow.lock to shallow
-  rename /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/packed-refs.lock
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes/origin
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/logs
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/remotes
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/remotes/origin
-  rename /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes/origin/HEAD.lock to HEAD
-  rename /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/HEAD.lock to HEAD
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/heads
-  rename /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs/heads/master.lock to master
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/HEAD.lock
-  change permissions of /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to config
-  change permissions of /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to config
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/src
-  create directory /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/tests
-  rename /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/index.lock to index
+  create directory /tmp/nimble_10417
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/info
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/branches
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/heads
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/tags
+  rename /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to config
+  change permissions of /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to config
+  change permissions of /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to config
+  change permissions of /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to config
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/tLnKSFq
+  create symbolic link from /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/tLnKSFq to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/tLnKSFq
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/pack
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/info
+  change permissions of /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to config
+  change permissions of /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to config
+  change permissions of /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to config
+  change permissions of /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to config
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/76
+  create hard link from /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/76/9a099b3e4e512985413c9e2740c81d480381d7 to /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/76/tmp_obj_Sc9m4Q
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/76/tmp_obj_Sc9m4Q
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/ef
+  create hard link from /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/ef/a5c3794a864b2dc4b1fdb33e24ad13fb97ab50 to /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/ef/tmp_obj_GAIpOS
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/ef/tmp_obj_GAIpOS
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/67
+  create hard link from /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/67/d9b34c6cecad82ad17197ffa5db4860caf9037 to /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/67/tmp_obj_GIItrV
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/67/tmp_obj_GIItrV
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/df
+  create hard link from /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/df/66393e2cc3ee2863c542a3a7ed65acd1ae7747 to /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/df/tmp_obj_YlGAfZ
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/df/tmp_obj_YlGAfZ
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/9b
+  create hard link from /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/9b/4412dae1cfad24df1b8fce597f90f6b62211f5 to /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/9b/tmp_obj_WudTx1
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/9b/tmp_obj_WudTx1
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/e2
+  create hard link from /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/e2/7d2fbaf55cbf27e6e67cebaa01a5dc440f6072 to /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/e2/tmp_obj_Q1F2P3
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/e2/tmp_obj_Q1F2P3
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/d2
+  create hard link from /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/d2/78b50071872a38bfc7714ca8fdaa82fa58b93a to /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/d2/tmp_obj_wLi6g6
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/d2/tmp_obj_wLi6g6
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/15
+  create hard link from /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/15/1581ea0cd18fd7b7dedb9d9ec7cd66a7b5b7c0 to /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/15/tmp_obj_2NrMc7
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/15/tmp_obj_2NrMc7
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/4e
+  create hard link from /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/4e/1d6436bd0f801aef5be285d61c3c6f88ab91a1 to /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/4e/tmp_obj_mQZz88
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/4e/tmp_obj_mQZz88
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/c0
+  create hard link from /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/c0/a1f565816cf4601abe5bdc63638c9b6819f1c1 to /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/c0/tmp_obj_g7D94b
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/c0/tmp_obj_g7D94b
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/b1
+  create hard link from /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/b1/92fb6ca598391ae84d3b0554ce10948e612889 to /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/b1/tmp_obj_u6XrSh
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/b1/tmp_obj_u6XrSh
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/e8
+  create hard link from /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/e8/a0e78e3fc3b5f64c1502db6e66ac9388588ce7 to /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/e8/tmp_obj_QDXzJj
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/e8/tmp_obj_QDXzJj
+  rename /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/shallow.lock to shallow
+  rename /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/packed-refs.lock
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes/origin
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/remotes
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/heads
+  rename /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/HEAD.lock
+  change permissions of /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to config
+  change permissions of /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config.lock to config
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/src
+  create directory /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/tests
+  rename /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/index.lock to index
   create directory /tmp
-  create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/requirementstxt_1174403330
-  delete /tmp/nimblecache/requirementstxt_1174403330/requirementstxt.ini
-  delete /tmp/nimble_12628.out
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/requirementstxt_12628.nims
+  create directory /tmp/nimblecache-946033505
+  create directory /tmp/nimblecache-946033505/requirementstxt_1055018808
+  create file /tmp/nimblecache-946033505/requirementstxt_1055018808/requirementstxt.nims
+  delete /tmp/nimblecache-946033505/requirementstxt_1055018808/requirementstxt.ini
+  create file /tmp/nimble_10417.out
+  delete /tmp/nimble_10417.out
+  create file /tmp/nimblecache-946033505/requirementstxt_1055018808/requirementstxt.ini
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -310,88 +1369,100 @@ rmdir('/tmp/nimble_12628')
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/requirementstxt-0.1.0
+  create file /home/runner/.nimble/pkgs/requirementstxt-0.1.0/requirementstxt.nim
   change permissions of /home/runner/.nimble/pkgs/requirementstxt-0.1.0/requirementstxt.nim to rw-r--r--
+  create file /home/runner/.nimble/pkgs/requirementstxt-0.1.0/requirementstxt.nimble
   change permissions of /home/runner/.nimble/pkgs/requirementstxt-0.1.0/requirementstxt.nimble to rw-r--r--
+  create file /home/runner/.nimble/pkgs/requirementstxt-0.1.0/nimblemeta.json
+  truncate file /home/runner/.nimble/nimbledata.json
   create directory /tmp
-  create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/requirementstxt_1822316984
-  delete /tmp/nimblecache/requirementstxt_1822316984/requirementstxt.ini
-  delete /tmp/nimble_12628.out
-  delete /home/runner/.nimble/pkgs/requirementstxt-0.1.0/requirementstxt_12628.nims
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/README.md
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes/origin/HEAD
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes/origin
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs/tags
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs/heads/master
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs/heads
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/refs
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/info/exclude
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/info
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/branches
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/remotes/origin/HEAD
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/remotes/origin
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/remotes
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/heads/master
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/heads
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/logs/HEAD
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/logs
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/description
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks/pre-push.sample
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks/update.sample
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks/post-update.sample
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/hooks
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/shallow
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/config
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/index
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/b1/92fb6ca598391ae84d3b0554ce10948e612889
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/b1
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/4e/1d6436bd0f801aef5be285d61c3c6f88ab91a1
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/4e
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/ec/36c62544545359195f41cd622067fe7fcb085a
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/ec
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/info
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/c5/ffc769887c560d89a61504d2736e2b79baa1eb
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/c5
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/9b/4412dae1cfad24df1b8fce597f90f6b62211f5
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/9b
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/df/66393e2cc3ee2863c542a3a7ed65acd1ae7747
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/df
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/c0/a1f565816cf4601abe5bdc63638c9b6819f1c1
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/c0
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/62/b51ba551651038bd720f44322b3cb80bf70594
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/62
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/67/d9b34c6cecad82ad17197ffa5db4860caf9037
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/67
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/f9/b019d73b7fe5fa8eb494e1417b0825021cfad6
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/f9
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/e8/a0e78e3fc3b5f64c1502db6e66ac9388588ce7
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/e8
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/pack
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/f4/dcc43601827ab788c7cb84f44ffbfd868e82b3
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects/f4
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/objects
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/packed-refs
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git/HEAD
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.git
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/src/requirementstxt.nim
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/src
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/temp.png
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/requirementstxt.nimble
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/tests/requirements.txt
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/tests/test1.nim
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/tests
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/.gitignore
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt/LICENSE
-  delete /tmp/nimble_12628/githubcom_juancarlospaconimrequirementstxt
-  delete /tmp/nimble_12628
+  create directory /tmp/nimblecache-946033505
+  create directory /tmp/nimblecache-946033505/requirementstxt_1832235010
+  create file /tmp/nimblecache-946033505/requirementstxt_1832235010/requirementstxt.nims
+  delete /tmp/nimblecache-946033505/requirementstxt_1832235010/requirementstxt.ini
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/requirementstxt-0.1.0
+  create directory /home/runner/.nimble/pkgs/requirementstxt-0.1.0/pkgs
+  create file /tmp/nimble_10417.out
+  delete /tmp/nimble_10417.out
+  create file /tmp/nimblecache-946033505/requirementstxt_1832235010/requirementstxt.ini
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/README.md
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/temp.png
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/tests/test1.nim
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/tests/requirements.txt
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/tests
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/tags
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes/origin
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/remotes
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/heads/master
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs/heads
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/refs
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/description
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/packed-refs
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/HEAD
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/info/exclude
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/info
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/index
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/shallow
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks/pre-push.sample
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks/update.sample
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks/post-update.sample
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/hooks
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/remotes
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/heads/master
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs/heads
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs/refs
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs/HEAD
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/logs
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/branches
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/config
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/9b/4412dae1cfad24df1b8fce597f90f6b62211f5
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/9b
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/76/9a099b3e4e512985413c9e2740c81d480381d7
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/76
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/67/d9b34c6cecad82ad17197ffa5db4860caf9037
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/67
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/df/66393e2cc3ee2863c542a3a7ed65acd1ae7747
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/df
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/e8/a0e78e3fc3b5f64c1502db6e66ac9388588ce7
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/e8
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/ef/a5c3794a864b2dc4b1fdb33e24ad13fb97ab50
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/ef
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/d2/78b50071872a38bfc7714ca8fdaa82fa58b93a
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/d2
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/e2/7d2fbaf55cbf27e6e67cebaa01a5dc440f6072
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/e2
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/info
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/c0/a1f565816cf4601abe5bdc63638c9b6819f1c1
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/c0
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/15/1581ea0cd18fd7b7dedb9d9ec7cd66a7b5b7c0
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/15
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/b1/92fb6ca598391ae84d3b0554ce10948e612889
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/b1
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/pack
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/4e/1d6436bd0f801aef5be285d61c3c6f88ab91a1
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects/4e
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git/objects
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.git
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/requirementstxt.nimble
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/.gitignore
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/src/requirementstxt.nim
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/src
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt/LICENSE
+  delete /tmp/nimble_10417/githubcom_juancarlospaconimrequirementstxt
+  delete /tmp/nimble_10417
