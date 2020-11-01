@@ -4,13 +4,22 @@ download.nim(93)         getTagsListRemote
 Error: unhandled exception: Unable to query remote tags for https://github.com/ephja/nim-ao. Git returned: remote: Repository not found.
 fatal: repository 'https://github.com/ephja/nim-ao/' not found
  [OSError]
+open('/workspace/destdir/ssl/openssl.cnf', 0, 0x00000000000001b6)
+open('/home/runner/.config/nimble/nimble.ini', 524288, 0x00000000000001b6)
+open('/home/runner/.config/babel/babel.ini', 524288, 0x00000000000001b6)
+writev(1, 0x00007ffd97acc150, 2)
+open('/home/runner/.nimble/packages_official.json', 524288, 0x00000000000001b6)
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_3713', 0x00000000000001ff)
-mkdir('/tmp/nimble_3713/githubcom_ephjanimao', 0x00000000000001ff)
-rmdir('/tmp/nimble_3713/githubcom_ephjanimao')
-rmdir('/tmp/nimble_3713')
+mkdir('/tmp/nimble_3054', 0x00000000000001ff)
+mkdir('/tmp/nimble_3054/githubcom_ephjanimao', 0x00000000000001ff)
+writev(1, 0x00007ffd97acc210, 2)
+open('/tmp/nimble_3054/githubcom_ephjanimao', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_3054/githubcom_ephjanimao')
+open('/tmp/nimble_3054', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_3054')
+writev(2, 0x00007ffd97acbf60, 2)
   create directory /tmp
-  create directory /tmp/nimble_3713
-  create directory /tmp/nimble_3713/githubcom_ephjanimao
-  delete /tmp/nimble_3713/githubcom_ephjanimao
-  delete /tmp/nimble_3713
+  create directory /tmp/nimble_3054
+  create directory /tmp/nimble_3054/githubcom_ephjanimao
+  delete /tmp/nimble_3054/githubcom_ephjanimao
+  delete /tmp/nimble_3054

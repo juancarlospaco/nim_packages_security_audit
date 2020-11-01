@@ -1,485 +1,1351 @@
     Reading official package list
 Downloading https://github.com/iffy/nim-argparse using git
     Cloning latest tagged version: v0.10.1
+open('/workspace/destdir/ssl/openssl.cnf', 0, 0x00000000000001b6)
+open('/home/runner/.config/nimble/nimble.ini', 524288, 0x00000000000001b6)
+open('/home/runner/.config/babel/babel.ini', 524288, 0x00000000000001b6)
+writev(1, 0x00007fff4e561910, 2)
+open('/home/runner/.nimble/packages_official.json', 524288, 0x00000000000001b6)
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_14181', 0x00000000000001ff)
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse', 0x00000000000001ff)
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse')
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse', 0x00000000000001ff)
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_14181/githubcom_iffynimargparse/.git/HEAD.lock', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/HEAD')
-rename('/tmp/nimble_14181/githubcom_iffynimargparse/.git/config.lock', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/config')
-chmod('/tmp/nimble_14181/githubcom_iffynimargparse/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_14181/githubcom_iffynimargparse/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_14181/githubcom_iffynimargparse/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_14181/githubcom_iffynimargparse/.git/config.lock', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/config')
-chmod('/tmp/nimble_14181/githubcom_iffynimargparse/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_14181/githubcom_iffynimargparse/.git/config.lock', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/config')
-chmod('/tmp/nimble_14181/githubcom_iffynimargparse/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_14181/githubcom_iffynimargparse/.git/config.lock', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/config')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/tqKIs7I')
-symlink('testing', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/tqKIs7I')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/tqKIs7I')
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_14181/githubcom_iffynimargparse/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_14181/githubcom_iffynimargparse/.git/config.lock', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/config')
-chmod('/tmp/nimble_14181/githubcom_iffynimargparse/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_14181/githubcom_iffynimargparse/.git/config.lock', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/config')
-chmod('/tmp/nimble_14181/githubcom_iffynimargparse/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_14181/githubcom_iffynimargparse/.git/config.lock', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/config')
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/a3', 0x00000000000001ff)
-link('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/a3/tmp_obj_s88sy7', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/a3/9ad187bb795132df1150f1276f0d92d1c7d48b')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/a3/tmp_obj_s88sy7')
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/e5', 0x00000000000001ff)
-link('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/e5/tmp_obj_oWLfqc', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/e5/df73e6735436e96d1f5c05f8e81c2423be5645')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/e5/tmp_obj_oWLfqc')
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/46', 0x00000000000001ff)
-link('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/46/tmp_obj_6KGFIg', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/46/422cfe4e63f839295f3ef152d39ca219db89d8')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/46/tmp_obj_6KGFIg')
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/9c', 0x00000000000001ff)
-link('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/9c/tmp_obj_VOfj5b', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/9c/fc858688a8222d07aa8c1b3ebf1a8569951582')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/9c/tmp_obj_VOfj5b')
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/87', 0x00000000000001ff)
-link('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/87/tmp_obj_hMMRad', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/87/55c7bf335eb5a5e2bed94c940ab1ffa568d3c9')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/87/tmp_obj_hMMRad')
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/f7', 0x00000000000001ff)
-link('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/f7/tmp_obj_lk31Lh', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/f7/323bcd28ad743e0ce5621faae820a94d83cf06')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/f7/tmp_obj_lk31Lh')
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/6c', 0x00000000000001ff)
-link('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/6c/tmp_obj_dwFLbn', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/6c/6dd19b64999dab4b0cb26f6ddcf2febd28cb2f')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/6c/tmp_obj_dwFLbn')
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/b8', 0x00000000000001ff)
-link('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/b8/tmp_obj_jrZZas', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/b8/67e17d5c95dc23aa10818359c1b77d31883d93')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/b8/tmp_obj_jrZZas')
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/58', 0x00000000000001ff)
-link('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/58/tmp_obj_nHcTDt', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/58/bca5b7a10934bfb714361d3ae05655f5f366ce')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/58/tmp_obj_nHcTDt')
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/1b', 0x00000000000001ff)
-link('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/1b/tmp_obj_nrozyy', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/1b/6f37f51cf3c74e012b671a69ab694427874c7d')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/1b/tmp_obj_nrozyy')
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/e2', 0x00000000000001ff)
-link('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/e2/tmp_obj_bPj9jD', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/e2/8e993c2e4708779ab8019f97c7e0ca4fc97f45')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/e2/tmp_obj_bPj9jD')
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/fd', 0x00000000000001ff)
-link('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/fd/tmp_obj_Dzsb7G', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/fd/965ab8f26ab0b8139bdbfc67506f9216ad533e')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/fd/tmp_obj_Dzsb7G')
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/a1', 0x00000000000001ff)
-link('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/a1/tmp_obj_frShIL', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/a1/161337ec2898c48d85b2b44ebcfc646b03f50a')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/a1/tmp_obj_frShIL')
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/05', 0x00000000000001ff)
-link('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/05/tmp_obj_7c5ERQ', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/05/89840fbbb3283753435cd511f13fbc3973377d')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/05/tmp_obj_7c5ERQ')       Info /tmp/nimble_14181/githubcom_iffynimargparse/argparse_14181.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /tmp/nimble_14181/githubcom_iffynimargparse/argparse_14181.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
-  Verifying dependencies for argparse@0.10.1
- Installing argparse@0.10.1
-    Copying file /tmp/nimble_14181/githubcom_iffynimargparse/src/argparse/macrohelp.nim to /home/runner/.nimble/pkgs/argparse-0.10.1/argparse/macrohelp.nim
-    Copying file /tmp/nimble_14181/githubcom_iffynimargparse/src/argparse.nim to /home/runner/.nimble/pkgs/argparse-0.10.1/argparse.nim
-    Copying file /tmp/nimble_14181/githubcom_iffynimargparse/argparse.nimble to /home/runner/.nimble/pkgs/argparse-0.10.1/argparse.nimble
-   Success: argparse installed successfully.
-       Info /home/runner/.nimble/pkgs/argparse-0.10.1/argparse_14181.nims(1, 8) Warning: imported and not used: 'system' [UnusedImport]
-        ... /home/runner/.nimble/pkgs/argparse-0.10.1/argparse_14181.nims(5, 22) Warning: imported and not used: 'strutils' [UnusedImport]
-
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/5d', 0x00000000000001ff)
-link('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/5d/tmp_obj_H5Z4YW', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/5d/eb9df3f0999ede42110571a296f47937771508')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/5d/tmp_obj_H5Z4YW')
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/39', 0x00000000000001ff)
-link('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/39/tmp_obj_tSaoz2', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/39/891dfc388e34ef2a106c94f074338e63344c59')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/39/tmp_obj_tSaoz2')
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/2d', 0x00000000000001ff)
-link('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/2d/tmp_obj_zzPkU6', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/2d/19fc766d98a08d9d1437896bfb008a7b15f340')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/2d/tmp_obj_zzPkU6')
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/b3', 0x00000000000001ff)
-link('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/b3/tmp_obj_FgKFrd', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/b3/a8fce4f2f448b8ecda67e2b57e9df008d71615')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/b3/tmp_obj_FgKFrd')
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/7e', 0x00000000000001ff)
-link('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/7e/tmp_obj_T5u6sg', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/7e/c79c6d8661287c14907052dcbb4a3700919bdf')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/7e/tmp_obj_T5u6sg')
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/3b', 0x00000000000001ff)
-link('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/3b/tmp_obj_2LFs2d', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/3b/tmp_obj_2LFs2d')
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/66', 0x00000000000001ff)
-link('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/66/tmp_obj_EhCnSe', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/66/20ce5c8f8a12f8d1ac7bc4ea413c767d0a6ecd')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/66/tmp_obj_EhCnSe')
-rename('/tmp/nimble_14181/githubcom_iffynimargparse/.git/shallow.lock', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/shallow')
-rename('/tmp/nimble_14181/githubcom_iffynimargparse/.git/packed-refs.new', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/packed-refs')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/packed-refs.lock')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/refs/tags/v0.10.1.lock')
-mkdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/logs', 0x00000000000001ff)
-rename('/tmp/nimble_14181/githubcom_iffynimargparse/.git/HEAD.lock', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/HEAD')
+mkdir('/tmp/nimble_9567', 0x00000000000001ff)
+mkdir('/tmp/nimble_9567/githubcom_iffynimargparse', 0x00000000000001ff)
+writev(1, 0x00007fff4e5619d0, 2)
+open('/tmp/nimble_9567/githubcom_iffynimargparse', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_9567/githubcom_iffynimargparse')
+writev(1, 0x00007fff4e561960, 2)
+mkdir('/tmp/nimble_9567/githubcom_iffynimargparse', 0x00000000000001ff)
+mkdir('/tmp/nimble_9567/githubcom_iffynimargparse/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_9567/githubcom_iffynimargparse/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_9567/githubcom_iffynimargparse/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_9567/githubcom_iffynimargparse/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_9567/githubcom_iffynimargparse/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_9567/githubcom_iffynimargparse/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_9567/githubcom_iffynimargparse/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_9567/githubcom_iffynimargparse/.git/HEAD.lock', '/tmp/nimble_9567/githubcom_iffynimargparse/.git/HEAD')
+rename('/tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock', '/tmp/nimble_9567/githubcom_iffynimargparse/.git/config')
+chmod('/tmp/nimble_9567/githubcom_iffynimargparse/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_9567/githubcom_iffynimargparse/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock', '/tmp/nimble_9567/githubcom_iffynimargparse/.git/config')
+chmod('/tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock', '/tmp/nimble_9567/githubcom_iffynimargparse/.git/config')
+chmod('/tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock', '/tmp/nimble_9567/githubcom_iffynimargparse/.git/config')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/tMMOTK3')
+symlink('testing', '/tmp/nimble_9567/githubcom_iffynimargparse/.git/tMMOTK3')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/tMMOTK3')
+mkdir('/tmp/nimble_9567/githubcom_iffynimargparse/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock', '/tmp/nimble_9567/githubcom_iffynimargparse/.git/config')
+chmod('/tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock', '/tmp/nimble_9567/githubcom_iffynimargparse/.git/config')
+chmod('/tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock', '/tmp/nimble_9567/githubcom_iffynimargparse/.git/config')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock')
+chmod('/tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock', '/tmp/nimble_9567/githubcom_iffynimargparse/.git/config')
+link('/tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/pack/tmp_pack_sv0Q41', '/tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/pack/pack-4a2aaeb3aa1057e2a19edc07016283fbce3081c4.pack')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/pack/tmp_pack_sv0Q41')
+link('/tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/pack/tmp_idx_onjc2d', '/tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/pack/pack-4a2aaeb3aa1057e2a19edc07016283fbce3081c4.idx')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/pack/tmp_idx_onjc2d')
+rename('/tmp/nimble_9567/githubcom_iffynimargparse/.git/shallow.lock', '/tmp/nimble_9567/githubcom_iffynimargparse/.git/shallow')
+rename('/tmp/nimble_9567/githubcom_iffynimargparse/.git/packed-refs.new', '/tmp/nimble_9567/githubcom_iffynimargparse/.git/packed-refs')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/packed-refs.lock')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/refs/tags/v0.10.1.lock')
+mkdir('/tmp/nimble_9567/githubcom_iffynimargparse/.git/logs', 0x00000000000001ff)
+rename('/tmp/nimble_9567/githubcom_iffynimargparse/.git/HEAD.lock', '/tmp/nimble_9567/githubcom_iffynimargparse/.git/HEAD')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/pack/pack-4a2aaeb3aa1057e2a19edc07016283fbce3081c4.keep')
 mkdir('.github', 0x00000000000001ff)
 mkdir('.github/workflows', 0x00000000000001ff)
 mkdir('docs', 0x00000000000001ff)
 mkdir('src', 0x00000000000001ff)
 mkdir('src/argparse', 0x00000000000001ff)
 mkdir('tests', 0x00000000000001ff)
-rename('/tmp/nimble_14181/githubcom_iffynimargparse/.git/index.lock', '/tmp/nimble_14181/githubcom_iffynimargparse/.git/index')
+rename('/tmp/nimble_9567/githubcom_iffynimargparse/.git/index.lock', '/tmp/nimble_9567/githubcom_iffynimargparse/.git/index')
+open('/tmp/nimble_9567/githubcom_iffynimargparse', 589824, 0x0000000000000000)
+open('/tmp/nimble_9567/githubcom_iffynimargparse/argparse.nimble', 524288, 0x00000000000001b6)
+open('/etc/localtime', 526336, 0x0000000000000000)
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/argparse_2776627718', 0x00000000000001ff)
-unlink('/tmp/nimblecache/argparse_2776627718/argparse.ini')
-unlink('/tmp/nimble_14181.out')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/argparse_14181.nims')
+mkdir('/tmp/nimblecache-946033505', 0x00000000000001ff)
+mkdir('/tmp/nimblecache-946033505/argparse_3345759754', 0x00000000000001ff)
+open('/tmp/nimblecache-946033505/argparse_3345759754/argparse.nims', 524865, 0x00000000000001b6)
+writev(3, 0x00007fff4e5613a0, 2)
+unlink('/tmp/nimblecache-946033505/argparse_3345759754/argparse.ini')
+open('/tmp/nimblecache-946033505/argparse_3345759754/argparse.nims', 2623488, 0x000000000076b83f)
+open('/tmp/nimblecache-946033505/argparse_3345759754', 2623488, 0x00007ffcf2bac2c0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/nim.cfg', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/nim.cfg', 2623488, 0x0000000000453f15)
+open('/opt/nimble/pkgs/', 589824, 0x0000000000000000)
+open('/opt/nimble/pkgs/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/asciigraph-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/ansiparse-0.2.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/astar-0.6.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/opencl-1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/alea-0.1.5/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/unicodedb-0.9.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/unicodeplus-0.8.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/asyncevents-0.3.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/cairo-1.1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/bearssl-0.1.5/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/ansitohtml-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/AstroNimy-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/bignum-1.0.4/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/dialogs-1.1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/nimcuda-0.1.7/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/nre-2.0.2/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/nimblas-0.2.2/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/uuids-0.1.10/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/arraymancer_vision-0.0.3/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/analytics-0.2.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/gmp-0.2.5/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/stringinterpolation-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/nimcl-0.1.3/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/regex-0.17.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/stew-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/aws_sdk-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/binaryheap-0.1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/avbin_nim-10.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/asyncpythonfile-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/stb_image-2.5/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/asyncpg-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/untar-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/allegro5-1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/mysqlparser-0.2.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/AntTweakBar-1.0.2/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/osinfo-0.3.2/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/Appdirs-0.1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/chronos-2.5.2/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/docopt-0.6.8/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/awk-1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/sph-0.1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/ajax-0.1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/isaac-0.1.3/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/clblast-0.0.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/autome-0.1.2/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/asyncmysql-0.4.3/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/ArrayFireNim-0.2.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/ast_pattern_matching-1.0.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/argon2_bind-0.1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/asynctools-0.1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/arraymancer-0.5.2/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/segmentation-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/asyncdocker-0.3.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/gtk2-1.3/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/random-0.5.7/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/zip-0.3.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/nimlapack-0.2.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/config.nims', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x00007ffcf2bab540)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 2623488, 0x00007ffcf2bab7a0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffcf2bab7a0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffcf2bab7a0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/config.nims', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/config.nims', 524288, 0x00000000000001b6)
+open('/home/runner/.config/nim/nim.cfg', 524288, 0x00000000000001b6)
+open('/nim.cfg', 524288, 0x00000000000001b6)
+open('/tmp/nim.cfg', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/nim.cfg', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/argparse_3345759754/nim.cfg', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/argparse_3345759754/argparse.nim.cfg', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/argparse_3345759754/argparse.nims', 2623488, 0x0000000000453f15)
+open('/tmp/nimblecache-946033505/argparse_3345759754/', 589824, 0x0000000000000000)
+open('/tmp/nimblecache-946033505/', 589824, 0x0000000000000000)
+open('/tmp/', 589824, 0x0000000000000000)
+open('/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x00007ffcf2bab5b0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 2623488, 0x00007ffcf2bab810)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffcf2bab810)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffcf2bab810)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/argparse_3345759754/argparse.nims', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/argparse_3345759754/argparse.nims', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x00007ffcf2babec0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x00007ffcf2babc70)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x00007ffcf2babd80)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x00007ffcf2bab2b0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffcf2bab380)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x00007ffcf2baafb0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x00007ffcf2baae70)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x00007ffcf2baa8b0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffcf2baa960)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffcf2baae70)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/sets.nim', 2623488, 0x00007ffcf2baadc0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/sets.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/sets.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/sets.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x00007ffcf2bab870)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x00007ffcf2bab040)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/unicode_ranges.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/unicode_ranges.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/unicode_ranges.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x00007ffcf2bab7c0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffcf2bab870)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/tmp/nimblecache-946033505/nimscriptapi_3847757198.nim', 2623488, 0x0000000000453f15)
+open('/tmp/nimblecache-946033505/nimscriptapi_3847757198.nim', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/nimscriptapi_3847757198.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x00007ffcf2bab9b0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x00007ffcf2bab760)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 2623488, 0x00007ffcf2bab870)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x00007ffcf2bab4a0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x00007ffcf2bab360)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 2623488, 0x0000000000453f15)  Verifying dependencies for argparse@0.10.1
+
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x00007ffcf2bab870)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim', 2623488, 0x00007ffcf2bab870)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffcf2bab360)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 2623488, 0x00007ffcf2bab360)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffcf2baae50)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 2623488, 0x00007ffcf2bab360)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim', 2623488, 0x00007ffcf2bab360)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tableimpl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tableimpl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tableimpl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/hashcommon.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/hashcommon.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/hashcommon.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/os.nim', 2623488, 0x00007ffcf2bab5e0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/os.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/os.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/os.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x00007ffcf2bab020)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007ffcf2bab0d0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/pathnorm.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/pathnorm.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/pathnorm.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/osseps.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/osseps.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/osseps.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/osseps.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/osseps.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/osseps.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/oserr.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/oserr.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/oserr.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/hashcommon.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim', 2623488, 0x0000000000453f15)
+open('/tmp/nimble_9567/githubcom_iffynimargparse/argparse.nimble', 2623488, 0x0000000000453f15)
+open('/tmp/nimble_9567/githubcom_iffynimargparse/argparse.nimble', 524288, 0x00000000000001b6)
+open('/tmp/nimble_9567/githubcom_iffynimargparse/argparse.nimble', 524288, 0x00000000000001b6)
+open('/tmp/nimble_9567.out', 524865, 0x00000000000001b6)
+writev(5, 0x00007ffcf2babe50, 2)
+open('/tmp/nimble_9567.out', 524288, 0x00000000000001b6)
+unlink('/tmp/nimble_9567.out')
+open('/tmp/nimblecache-946033505/argparse_3345759754/argparse.ini', 524865, 0x00000000000001b6)
+writev(3, 0x00007fff4e561410, 2)
+open('/tmp/nimblecache-946033505/argparse_3345759754/argparse.ini', 524288, 0x00000000000001b6)
+open('/tmp/nimble_9567/githubcom_iffynimargparse/src', 589824, 0x0000000000000000)
+open('/home/runner/.nimble', 2623488, 0x0000000000000000)
+open('/tmp/nimble_9567/githubcom_iffynimargparse/src/argparse', 589824, 0x0000000000000000)
+open('/tmp/nimble_9567/githubcom_iffynimargparse', 589824, 0x0000000000000000)
+open('/tmp/nimble_9567/githubcom_iffynimargparse', 589824, 0x0000000000000000)
+writev(1, 0x00007fff4e561390, 2)
+open('/home/runner/.nimble/pkgs', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/chronos-2.5.2', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/chronos-2.5.2/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/asyncpg-0.1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/asyncpg-0.1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/cairo-1.1.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/cairo-1.1.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/stew-0.1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/stew-0.1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/AntTweakBar-1.0.2', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/AntTweakBar-1.0.2/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/binaryheap-0.1.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/binaryheap-0.1.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/zip-0.3.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/zip-0.3.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/aws_sdk-0.1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/aws_sdk-0.1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/arraymancer-0.5.2', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/arraymancer-0.5.2/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/asyncmysql-0.4.3', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/asyncmysql-0.4.3/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/nimlapack-0.2.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/nimlapack-0.2.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/autome-0.1.2', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/autome-0.1.2/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/asyncdocker-0.3.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/asyncdocker-0.3.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/isaac-0.1.3', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/isaac-0.1.3/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/ansitohtml-0.1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/ansitohtml-0.1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/ast_pattern_matching-1.0.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/ast_pattern_matching-1.0.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/ansiparse-0.2.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/ansiparse-0.2.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/clblast-0.0.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/clblast-0.0.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/bearssl-0.1.5', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/bearssl-0.1.5/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/random-0.5.7', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/random-0.5.7/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/osinfo-0.3.2', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/osinfo-0.3.2/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/unicodeplus-0.8.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/unicodeplus-0.8.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/docopt-0.6.8', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/docopt-0.6.8/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/awk-1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/awk-1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/nimcl-0.1.3', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/nimcl-0.1.3/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/avbin_nim-10.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/avbin_nim-10.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/sph-0.1.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/sph-0.1.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/Appdirs-0.1.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/Appdirs-0.1.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/segmentation-0.1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/segmentation-0.1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/asynctools-0.1.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/asynctools-0.1.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/asyncevents-0.3.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/asyncevents-0.3.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/gtk2-1.3', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/gtk2-1.3/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/unicodedb-0.9.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/unicodedb-0.9.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/stb_image-2.5', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/stb_image-2.5/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/AstroNimy-0.1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/AstroNimy-0.1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/arraymancer_vision-0.0.3', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/arraymancer_vision-0.0.3/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/astar-0.6.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/astar-0.6.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/untar-0.1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/untar-0.1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/bignum-1.0.4', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/bignum-1.0.4/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/alea-0.1.5', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/alea-0.1.5/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/nre-2.0.2', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/nre-2.0.2/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/ArrayFireNim-0.2.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/ArrayFireNim-0.2.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/stringinterpolation-0.1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/stringinterpolation-0.1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/opencl-1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/opencl-1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/argon2_bind-0.1.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/argon2_bind-0.1.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/asyncpythonfile-0.1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/asyncpythonfile-0.1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/dialogs-1.1.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/dialogs-1.1.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/mysqlparser-0.2.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/mysqlparser-0.2.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/gmp-0.2.5', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/gmp-0.2.5/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/uuids-0.1.10', 589824, 0x0000000000000000) Installing argparse@0.10.1
+    Copying file /tmp/nimble_9567/githubcom_iffynimargparse/src/argparse.nim to /home/runner/.nimble/pkgs/argparse-0.10.1/argparse.nim
+    Copying file /tmp/nimble_9567/githubcom_iffynimargparse/src/argparse/macrohelp.nim to /home/runner/.nimble/pkgs/argparse-0.10.1/argparse/macrohelp.nim
+    Copying file /tmp/nimble_9567/githubcom_iffynimargparse/argparse.nimble to /home/runner/.nimble/pkgs/argparse-0.10.1/argparse.nimble
+   Success: argparse installed successfully.
+
+open('/home/runner/.nimble/pkgs/uuids-0.1.10/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/ajax-0.1.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/ajax-0.1.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/asciigraph-0.1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/asciigraph-0.1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/nimcuda-0.1.7', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/nimcuda-0.1.7/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/nimblas-0.2.2', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/nimblas-0.2.2/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/regex-0.17.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/regex-0.17.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/analytics-0.2.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/analytics-0.2.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/allegro5-1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/allegro5-1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+writev(1, 0x00007fff17a31910, 2)
+writev(1, 0x00007fff17a319c0, 2)
+writev(1, 0x00007fff17a319c0, 2)
+writev(1, 0x00007fff17a319c0, 2)
+writev(1, 0x00007fff4e5617c0, 2)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/argparse-0.10.1', 0x00000000000001ff)
+open('/tmp/nimble_9567/githubcom_iffynimargparse/src', 589824, 0x0000000000000000)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/argparse-0.10.1', 0x00000000000001ff)
+writev(1, 0x00007fff4e561530, 2)
+open('/tmp/nimble_9567/githubcom_iffynimargparse/src/argparse.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/argparse-0.10.1/argparse.nim', 524865, 0x00000000000001b6)
+writev(5, 0x00007fff4e561450, 2)
+writev(5, 0x00007fff4e561450, 2)
+writev(5, 0x00007fff4e561450, 2)
+writev(5, 0x00007fff4e561450, 2)
+chmod('/home/runner/.nimble/pkgs/argparse-0.10.1/argparse.nim', 0x00000000000001a4)
+open('/home/runner/.nimble', 2623488, 0x0000000000000000)
+open('/tmp/nimble_9567/githubcom_iffynimargparse/src/argparse', 589824, 0x0000000000000000)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/argparse-0.10.1', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/argparse-0.10.1/argparse', 0x00000000000001ff)
+writev(1, 0x00007fff4e561310, 2)
+open('/tmp/nimble_9567/githubcom_iffynimargparse/src/argparse/macrohelp.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/argparse-0.10.1/argparse/macrohelp.nim', 524865, 0x00000000000001b6)
+writev(6, 0x00007fff4e561230, 2)
 chmod('/home/runner/.nimble/pkgs/argparse-0.10.1/argparse/macrohelp.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/argparse-0.10.1', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/argparse-0.10.1/argparse.nim', 0x00000000000001a4)
+writev(1, 0x00007fff4e561790, 2)
+open('/tmp/nimble_9567/githubcom_iffynimargparse/argparse.nimble', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/argparse-0.10.1/argparse.nimble', 524865, 0x00000000000001b6)
+writev(4, 0x00007fff4e5616f0, 2)
 chmod('/home/runner/.nimble/pkgs/argparse-0.10.1/argparse.nimble', 0x00000000000001a4)
+open('/home/runner/.nimble/pkgs/argparse-0.10.1/nimblemeta.json', 524865, 0x00000000000001b6)
+writev(3, 0x00007fff4e561620, 2)
+open('/home/runner/.nimble/nimbledata.json', 524865, 0x00000000000001b6)
+writev(3, 0x00007fff4e561690, 2)
+writev(1, 0x00007fff4e5617c0, 2)
+open('/home/runner/.nimble/pkgs/argparse-0.10.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/argparse-0.10.1/argparse.nimble', 524288, 0x00000000000001b6)
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimblecache', 0x00000000000001ff)
-mkdir('/tmp/nimblecache/argparse_3777970609', 0x00000000000001ff)
-unlink('/tmp/nimblecache/argparse_3777970609/argparse.ini')
-unlink('/tmp/nimble_14181.out')
-unlink('/home/runner/.nimble/pkgs/argparse-0.10.1/argparse_14181.nims')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/docs/argparse.html')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/docs/macrohelp.html')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/docs')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/README.md')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.github/workflows/main.yml')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.github/workflows')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.github')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/refs/tags')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/refs/heads')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/refs')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/info/exclude')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/info')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/branches')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/logs/HEAD')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/logs')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/description')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks/update.sample')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/shallow')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/config')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/index')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/1b/6f37f51cf3c74e012b671a69ab694427874c7d')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/1b')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/9c/fc858688a8222d07aa8c1b3ebf1a8569951582')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/9c')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/info')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/e2/8e993c2e4708779ab8019f97c7e0ca4fc97f45')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/e2')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/87/55c7bf335eb5a5e2bed94c940ab1ffa568d3c9')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/87')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/a3/9ad187bb795132df1150f1276f0d92d1c7d48b')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/a3')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/f7/323bcd28ad743e0ce5621faae820a94d83cf06')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/f7')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/66/20ce5c8f8a12f8d1ac7bc4ea413c767d0a6ecd')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/66')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/05/89840fbbb3283753435cd511f13fbc3973377d')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/05')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/58/bca5b7a10934bfb714361d3ae05655f5f366ce')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/58')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/39/891dfc388e34ef2a106c94f074338e63344c59')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/39')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/e5/df73e6735436e96d1f5c05f8e81c2423be5645')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/e5')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/b3/a8fce4f2f448b8ecda67e2b57e9df008d71615')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/b3')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/3b')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/5d/eb9df3f0999ede42110571a296f47937771508')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/5d')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/b8/67e17d5c95dc23aa10818359c1b77d31883d93')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/b8')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/fd/965ab8f26ab0b8139bdbfc67506f9216ad533e')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/fd')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/7e/c79c6d8661287c14907052dcbb4a3700919bdf')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/7e')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/pack')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/2d/19fc766d98a08d9d1437896bfb008a7b15f340')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/2d')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/6c/6dd19b64999dab4b0cb26f6ddcf2febd28cb2f')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/6c')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/46/422cfe4e63f839295f3ef152d39ca219db89d8')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/46')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/a1/161337ec2898c48d85b2b44ebcfc646b03f50a')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/a1')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git/objects')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/packed-refs')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.git/HEAD')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/.git')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/src/argparse/macrohelp.nim')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/src/argparse')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/src/.gitignore')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/src/argparse.nim')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/src')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/LICENSE.md')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/builddocs.sh')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/tests/config.nims')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/tests/test1.nim')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse/tests')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/.gitignore')
-unlink('/tmp/nimble_14181/githubcom_iffynimargparse/argparse.nimble')
-rmdir('/tmp/nimble_14181/githubcom_iffynimargparse')
-rmdir('/tmp/nimble_14181')
+mkdir('/tmp/nimblecache-946033505', 0x00000000000001ff)
+mkdir('/tmp/nimblecache-946033505/argparse_3535976517', 0x00000000000001ff)
+open('/tmp/nimblecache-946033505/argparse_3535976517/argparse.nims', 524865, 0x00000000000001b6)
+writev(3, 0x00007fff4e560f30, 2)
+unlink('/tmp/nimblecache-946033505/argparse_3535976517/argparse.ini')
+open('/tmp/nimblecache-946033505/argparse_3535976517/argparse.nims', 2623488, 0x000000000076b83f)
+open('/tmp/nimblecache-946033505/argparse_3535976517', 2623488, 0x00007fffce451e20)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/nim.cfg', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/nim.cfg', 2623488, 0x0000000000453f15)
+open('/opt/nimble/pkgs/', 589824, 0x0000000000000000)
+open('/opt/nimble/pkgs/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/asciigraph-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/ansiparse-0.2.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/astar-0.6.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/opencl-1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/alea-0.1.5/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/unicodedb-0.9.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/unicodeplus-0.8.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/asyncevents-0.3.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/cairo-1.1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/bearssl-0.1.5/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/ansitohtml-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/AstroNimy-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/bignum-1.0.4/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/dialogs-1.1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/nimcuda-0.1.7/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/nre-2.0.2/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/nimblas-0.2.2/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/uuids-0.1.10/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/arraymancer_vision-0.0.3/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/analytics-0.2.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/gmp-0.2.5/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/stringinterpolation-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/nimcl-0.1.3/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/regex-0.17.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/stew-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/aws_sdk-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/binaryheap-0.1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/avbin_nim-10.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/asyncpythonfile-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/stb_image-2.5/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/asyncpg-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/untar-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/argparse-0.10.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/mysqlparser-0.2.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/AntTweakBar-1.0.2/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/osinfo-0.3.2/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/Appdirs-0.1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/allegro5-1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/chronos-2.5.2/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/docopt-0.6.8/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/awk-1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/sph-0.1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/ajax-0.1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/isaac-0.1.3/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/clblast-0.0.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/autome-0.1.2/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/asyncmysql-0.4.3/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/ArrayFireNim-0.2.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/ast_pattern_matching-1.0.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/argon2_bind-0.1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/asynctools-0.1.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/arraymancer-0.5.2/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/segmentation-0.1.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/asyncdocker-0.3.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/gtk2-1.3/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/random-0.5.7/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/zip-0.3.1/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/nimlapack-0.2.0/', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/config.nims', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x00007fffce4510a0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 2623488, 0x00007fffce451300)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007fffce451300)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007fffce451300)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/config.nims', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/config.nims', 524288, 0x00000000000001b6)
+open('/home/runner/.config/nim/nim.cfg', 524288, 0x00000000000001b6)
+open('/nim.cfg', 524288, 0x00000000000001b6)
+open('/tmp/nim.cfg', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/nim.cfg', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/argparse_3535976517/nim.cfg', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/argparse_3535976517/argparse.nim.cfg', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/argparse_3535976517/argparse.nims', 2623488, 0x0000000000453f15)
+open('/tmp/nimblecache-946033505/argparse_3535976517/', 589824, 0x0000000000000000)
+open('/tmp/nimblecache-946033505/', 589824, 0x0000000000000000)
+open('/tmp/', 589824, 0x0000000000000000)
+open('/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x00007fffce451110)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 2623488, 0x00007fffce451370)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007fffce451370)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007fffce451370)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/argparse_3535976517/argparse.nims', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/argparse_3535976517/argparse.nims', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x00007fffce451a20)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x00007fffce4517d0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x00007fffce4518e0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x00007fffce450e10)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007fffce450ee0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x00007fffce450b10)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x00007fffce4509d0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x00007fffce450410)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007fffce4504c0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007fffce4509d0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/sets.nim', 2623488, 0x00007fffce450920)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/sets.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/sets.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/sets.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x00007fffce4513d0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x00007fffce450ba0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/unicode_ranges.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/unicode_ranges.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/unicode_ranges.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x00007fffce451320)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007fffce4513d0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/tmp/nimblecache-946033505/nimscriptapi_3847757198.nim', 2623488, 0x0000000000453f15)
+open('/tmp/nimblecache-946033505/nimscriptapi_3847757198.nim', 524288, 0x00000000000001b6)
+open('/tmp/nimblecache-946033505/nimscriptapi_3847757198.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x00007fffce451510)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x00007fffce4512c0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 2623488, 0x00007fffce4513d0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x00007fffce451000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x00007fffce450ec0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x00007fffce4513d0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim', 2623488, 0x00007fffce4513d0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007fffce450ec0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 2623488, 0x00007fffce450ec0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007fffce4509b0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 2623488, 0x00007fffce450ec0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim', 2623488, 0x00007fffce450ec0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tableimpl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tableimpl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tableimpl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/hashcommon.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/hashcommon.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/hashcommon.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/os.nim', 2623488, 0x00007fffce451140)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/os.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/os.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/os.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x00007fffce450b80)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007fffce450c30)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/pathnorm.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/pathnorm.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/pathnorm.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/osseps.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/osseps.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/osseps.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/osseps.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/osseps.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/osseps.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/oserr.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/oserr.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/includes/oserr.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/hashcommon.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.nimble/pkgs/argparse-0.10.1/argparse.nimble', 2623488, 0x0000000000453f15)
+open('/home/runner/.nimble/pkgs/argparse-0.10.1/argparse.nimble', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/argparse-0.10.1/argparse.nimble', 524288, 0x00000000000001b6)
+open('/tmp/nimble_9567.out', 524865, 0x00000000000001b6)
+writev(5, 0x00007fffce4519b0, 2)
+open('/tmp/nimble_9567.out', 524288, 0x00000000000001b6)
+unlink('/tmp/nimble_9567.out')
+open('/tmp/nimblecache-946033505/argparse_3535976517/argparse.ini', 524865, 0x00000000000001b6)
+writev(3, 0x00007fff4e560fa0, 2)
+open('/tmp/nimblecache-946033505/argparse_3535976517/argparse.ini', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/argparse-0.10.1/src', 589824, 0x0000000000000000)
+open('/tmp/nimble_9567', 589824, 0x0000000000000000)
+open('/tmp/nimble_9567/githubcom_iffynimargparse', 589824, 0x0000000000000000)
+open('/tmp/nimble_9567/githubcom_iffynimargparse/docs', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/docs/argparse.html')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/docs/macrohelp.html')
+rmdir('/tmp/nimble_9567/githubcom_iffynimargparse/docs')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/LICENSE.md')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.gitignore')
+open('/tmp/nimble_9567/githubcom_iffynimargparse/tests', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/tests/config.nims')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/tests/test1.nim')
+rmdir('/tmp/nimble_9567/githubcom_iffynimargparse/tests')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/builddocs.sh')
+open('/tmp/nimble_9567/githubcom_iffynimargparse/.git', 589824, 0x0000000000000000)
+open('/tmp/nimble_9567/githubcom_iffynimargparse/.git/refs', 589824, 0x0000000000000000)
+open('/tmp/nimble_9567/githubcom_iffynimargparse/.git/refs/heads', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_9567/githubcom_iffynimargparse/.git/refs/heads')
+open('/tmp/nimble_9567/githubcom_iffynimargparse/.git/refs/tags', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_9567/githubcom_iffynimargparse/.git/refs/tags')
+rmdir('/tmp/nimble_9567/githubcom_iffynimargparse/.git/refs')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/HEAD')
+open('/tmp/nimble_9567/githubcom_iffynimargparse/.git/logs', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/logs/HEAD')
+rmdir('/tmp/nimble_9567/githubcom_iffynimargparse/.git/logs')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/index')
+open('/tmp/nimble_9567/githubcom_iffynimargparse/.git/branches', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_9567/githubcom_iffynimargparse/.git/branches')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/config')
+open('/tmp/nimble_9567/githubcom_iffynimargparse/.git/objects', 589824, 0x0000000000000000)
+open('/tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/pack', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/pack/pack-4a2aaeb3aa1057e2a19edc07016283fbce3081c4.idx')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/pack/pack-4a2aaeb3aa1057e2a19edc07016283fbce3081c4.pack')
+rmdir('/tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/pack')
+open('/tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/info', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/info')
+rmdir('/tmp/nimble_9567/githubcom_iffynimargparse/.git/objects')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/packed-refs')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/shallow')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/description')
+open('/tmp/nimble_9567/githubcom_iffynimargparse/.git/info', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/info/exclude')
+rmdir('/tmp/nimble_9567/githubcom_iffynimargparse/.git/info')
+open('/tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks/update.sample')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks/post-update.sample')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks/fsmonitor-watchman.sample')
+rmdir('/tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks')
+rmdir('/tmp/nimble_9567/githubcom_iffynimargparse/.git')
+open('/tmp/nimble_9567/githubcom_iffynimargparse/src', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/src/.gitignore')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/src/argparse.nim')
+open('/tmp/nimble_9567/githubcom_iffynimargparse/src/argparse', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/src/argparse/macrohelp.nim')
+rmdir('/tmp/nimble_9567/githubcom_iffynimargparse/src/argparse')
+rmdir('/tmp/nimble_9567/githubcom_iffynimargparse/src')
+open('/tmp/nimble_9567/githubcom_iffynimargparse/.github', 589824, 0x0000000000000000)
+open('/tmp/nimble_9567/githubcom_iffynimargparse/.github/workflows', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/.github/workflows/main.yml')
+rmdir('/tmp/nimble_9567/githubcom_iffynimargparse/.github/workflows')
+rmdir('/tmp/nimble_9567/githubcom_iffynimargparse/.github')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/README.md')
+unlink('/tmp/nimble_9567/githubcom_iffynimargparse/argparse.nimble')
+rmdir('/tmp/nimble_9567/githubcom_iffynimargparse')
+rmdir('/tmp/nimble_9567')
   create directory /tmp
-  create directory /tmp/nimble_14181
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse
-  delete /tmp/nimble_14181/githubcom_iffynimargparse
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/info
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/branches
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/refs
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/refs/heads
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/refs/tags
-  rename /tmp/nimble_14181/githubcom_iffynimargparse/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_14181/githubcom_iffynimargparse/.git/config.lock to config
-  change permissions of /tmp/nimble_14181/githubcom_iffynimargparse/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_14181/githubcom_iffynimargparse/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_14181/githubcom_iffynimargparse/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_14181/githubcom_iffynimargparse/.git/config.lock to config
-  change permissions of /tmp/nimble_14181/githubcom_iffynimargparse/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_14181/githubcom_iffynimargparse/.git/config.lock to config
-  change permissions of /tmp/nimble_14181/githubcom_iffynimargparse/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_14181/githubcom_iffynimargparse/.git/config.lock to config
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/tqKIs7I
-  create symbolic link from /tmp/nimble_14181/githubcom_iffynimargparse/.git/tqKIs7I to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/tqKIs7I
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/pack
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/info
-  change permissions of /tmp/nimble_14181/githubcom_iffynimargparse/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_14181/githubcom_iffynimargparse/.git/config.lock to config
-  change permissions of /tmp/nimble_14181/githubcom_iffynimargparse/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_14181/githubcom_iffynimargparse/.git/config.lock to config
-  change permissions of /tmp/nimble_14181/githubcom_iffynimargparse/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_14181/githubcom_iffynimargparse/.git/config.lock to config
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/a3
-  create hard link from /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/a3/9ad187bb795132df1150f1276f0d92d1c7d48b to /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/a3/tmp_obj_s88sy7
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/a3/tmp_obj_s88sy7
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/e5
-  create hard link from /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/e5/df73e6735436e96d1f5c05f8e81c2423be5645 to /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/e5/tmp_obj_oWLfqc
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/e5/tmp_obj_oWLfqc
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/46
-  create hard link from /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/46/422cfe4e63f839295f3ef152d39ca219db89d8 to /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/46/tmp_obj_6KGFIg
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/46/tmp_obj_6KGFIg
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/9c
-  create hard link from /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/9c/fc858688a8222d07aa8c1b3ebf1a8569951582 to /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/9c/tmp_obj_VOfj5b
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/9c/tmp_obj_VOfj5b
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/87
-  create hard link from /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/87/55c7bf335eb5a5e2bed94c940ab1ffa568d3c9 to /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/87/tmp_obj_hMMRad
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/87/tmp_obj_hMMRad
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/f7
-  create hard link from /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/f7/323bcd28ad743e0ce5621faae820a94d83cf06 to /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/f7/tmp_obj_lk31Lh
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/f7/tmp_obj_lk31Lh
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/6c
-  create hard link from /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/6c/6dd19b64999dab4b0cb26f6ddcf2febd28cb2f to /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/6c/tmp_obj_dwFLbn
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/6c/tmp_obj_dwFLbn
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/b8
-  create hard link from /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/b8/67e17d5c95dc23aa10818359c1b77d31883d93 to /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/b8/tmp_obj_jrZZas
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/b8/tmp_obj_jrZZas
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/58
-  create hard link from /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/58/bca5b7a10934bfb714361d3ae05655f5f366ce to /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/58/tmp_obj_nHcTDt
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/58/tmp_obj_nHcTDt
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/1b
-  create hard link from /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/1b/6f37f51cf3c74e012b671a69ab694427874c7d to /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/1b/tmp_obj_nrozyy
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/1b/tmp_obj_nrozyy
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/e2
-  create hard link from /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/e2/8e993c2e4708779ab8019f97c7e0ca4fc97f45 to /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/e2/tmp_obj_bPj9jD
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/e2/tmp_obj_bPj9jD
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/fd
-  create hard link from /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/fd/965ab8f26ab0b8139bdbfc67506f9216ad533e to /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/fd/tmp_obj_Dzsb7G
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/fd/tmp_obj_Dzsb7G
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/a1
-  create hard link from /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/a1/161337ec2898c48d85b2b44ebcfc646b03f50a to /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/a1/tmp_obj_frShIL
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/a1/tmp_obj_frShIL
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/05
-  create hard link from /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/05/89840fbbb3283753435cd511f13fbc3973377d to /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/05/tmp_obj_7c5ERQ
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/05/tmp_obj_7c5ERQ
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/5d
-  create hard link from /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/5d/eb9df3f0999ede42110571a296f47937771508 to /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/5d/tmp_obj_H5Z4YW
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/5d/tmp_obj_H5Z4YW
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/39
-  create hard link from /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/39/891dfc388e34ef2a106c94f074338e63344c59 to /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/39/tmp_obj_tSaoz2
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/39/tmp_obj_tSaoz2
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/2d
-  create hard link from /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/2d/19fc766d98a08d9d1437896bfb008a7b15f340 to /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/2d/tmp_obj_zzPkU6
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/2d/tmp_obj_zzPkU6
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/b3
-  create hard link from /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/b3/a8fce4f2f448b8ecda67e2b57e9df008d71615 to /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/b3/tmp_obj_FgKFrd
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/b3/tmp_obj_FgKFrd
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/7e
-  create hard link from /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/7e/c79c6d8661287c14907052dcbb4a3700919bdf to /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/7e/tmp_obj_T5u6sg
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/7e/tmp_obj_T5u6sg
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/3b
-  create hard link from /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6 to /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/3b/tmp_obj_2LFs2d
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/3b/tmp_obj_2LFs2d
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/66
-  create hard link from /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/66/20ce5c8f8a12f8d1ac7bc4ea413c767d0a6ecd to /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/66/tmp_obj_EhCnSe
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/66/tmp_obj_EhCnSe
-  rename /tmp/nimble_14181/githubcom_iffynimargparse/.git/shallow.lock to shallow
-  rename /tmp/nimble_14181/githubcom_iffynimargparse/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/packed-refs.lock
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/refs/tags/v0.10.1.lock
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.git/logs
-  rename /tmp/nimble_14181/githubcom_iffynimargparse/.git/HEAD.lock to HEAD
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.github
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/.github/workflows
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/docs
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/src
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/src/argparse
-  create directory /tmp/nimble_14181/githubcom_iffynimargparse/tests
-  rename /tmp/nimble_14181/githubcom_iffynimargparse/.git/index.lock to index
+  create directory /tmp/nimble_9567
+  create directory /tmp/nimble_9567/githubcom_iffynimargparse
+  delete /tmp/nimble_9567/githubcom_iffynimargparse
+  create directory /tmp/nimble_9567/githubcom_iffynimargparse
+  create directory /tmp/nimble_9567/githubcom_iffynimargparse/.git
+  create directory /tmp/nimble_9567/githubcom_iffynimargparse/.git
+  create directory /tmp/nimble_9567/githubcom_iffynimargparse/.git/branches
+  create directory /tmp/nimble_9567/githubcom_iffynimargparse/.git/info
+  create directory /tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks
+  create directory /tmp/nimble_9567/githubcom_iffynimargparse/.git/refs
+  create directory /tmp/nimble_9567/githubcom_iffynimargparse/.git/refs/heads
+  create directory /tmp/nimble_9567/githubcom_iffynimargparse/.git/refs/tags
+  rename /tmp/nimble_9567/githubcom_iffynimargparse/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock to config
+  change permissions of /tmp/nimble_9567/githubcom_iffynimargparse/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_9567/githubcom_iffynimargparse/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock to config
+  change permissions of /tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock to config
+  change permissions of /tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock to config
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/tMMOTK3
+  create symbolic link from /tmp/nimble_9567/githubcom_iffynimargparse/.git/tMMOTK3 to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/tMMOTK3
+  create directory /tmp/nimble_9567/githubcom_iffynimargparse/.git/objects
+  create directory /tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/pack
+  create directory /tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/info
+  change permissions of /tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock to config
+  change permissions of /tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock to config
+  change permissions of /tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock to config
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock
+  change permissions of /tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_9567/githubcom_iffynimargparse/.git/config.lock to config
+  create hard link from /tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/pack/pack-4a2aaeb3aa1057e2a19edc07016283fbce3081c4.pack to /tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/pack/tmp_pack_sv0Q41
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/pack/tmp_pack_sv0Q41
+  create hard link from /tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/pack/pack-4a2aaeb3aa1057e2a19edc07016283fbce3081c4.idx to /tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/pack/tmp_idx_onjc2d
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/pack/tmp_idx_onjc2d
+  rename /tmp/nimble_9567/githubcom_iffynimargparse/.git/shallow.lock to shallow
+  rename /tmp/nimble_9567/githubcom_iffynimargparse/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/packed-refs.lock
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/refs/tags/v0.10.1.lock
+  create directory /tmp/nimble_9567/githubcom_iffynimargparse/.git/logs
+  rename /tmp/nimble_9567/githubcom_iffynimargparse/.git/HEAD.lock to HEAD
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/pack/pack-4a2aaeb3aa1057e2a19edc07016283fbce3081c4.keep
+  create directory /tmp/nimble_9567/githubcom_iffynimargparse/.github
+  create directory /tmp/nimble_9567/githubcom_iffynimargparse/.github/workflows
+  create directory /tmp/nimble_9567/githubcom_iffynimargparse/docs
+  create directory /tmp/nimble_9567/githubcom_iffynimargparse/src
+  create directory /tmp/nimble_9567/githubcom_iffynimargparse/src/argparse
+  create directory /tmp/nimble_9567/githubcom_iffynimargparse/tests
+  rename /tmp/nimble_9567/githubcom_iffynimargparse/.git/index.lock to index
   create directory /tmp
-  create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/argparse_2776627718
-  delete /tmp/nimblecache/argparse_2776627718/argparse.ini
-  delete /tmp/nimble_14181.out
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/argparse_14181.nims
+  create directory /tmp/nimblecache-946033505
+  create directory /tmp/nimblecache-946033505/argparse_3345759754
+  create file /tmp/nimblecache-946033505/argparse_3345759754/argparse.nims
+  delete /tmp/nimblecache-946033505/argparse_3345759754/argparse.ini
+  create file /tmp/nimble_9567.out
+  delete /tmp/nimble_9567.out
+  create file /tmp/nimblecache-946033505/argparse_3345759754/argparse.ini
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/argparse-0.10.1
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/argparse-0.10.1
+  create file /home/runner/.nimble/pkgs/argparse-0.10.1/argparse.nim
+  change permissions of /home/runner/.nimble/pkgs/argparse-0.10.1/argparse.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/argparse-0.10.1
   create directory /home/runner/.nimble/pkgs/argparse-0.10.1/argparse
+  create file /home/runner/.nimble/pkgs/argparse-0.10.1/argparse/macrohelp.nim
   change permissions of /home/runner/.nimble/pkgs/argparse-0.10.1/argparse/macrohelp.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/argparse-0.10.1
-  change permissions of /home/runner/.nimble/pkgs/argparse-0.10.1/argparse.nim to rw-r--r--
+  create file /home/runner/.nimble/pkgs/argparse-0.10.1/argparse.nimble
   change permissions of /home/runner/.nimble/pkgs/argparse-0.10.1/argparse.nimble to rw-r--r--
+  create file /home/runner/.nimble/pkgs/argparse-0.10.1/nimblemeta.json
+  truncate file /home/runner/.nimble/nimbledata.json
   create directory /tmp
-  create directory /tmp/nimblecache
-  create directory /tmp/nimblecache/argparse_3777970609
-  delete /tmp/nimblecache/argparse_3777970609/argparse.ini
-  delete /tmp/nimble_14181.out
-  delete /home/runner/.nimble/pkgs/argparse-0.10.1/argparse_14181.nims
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/docs/argparse.html
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/docs/macrohelp.html
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/docs
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/README.md
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.github/workflows/main.yml
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.github/workflows
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.github
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/refs/tags
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/refs/heads
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/refs
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/info/exclude
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/info
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/branches
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/logs/HEAD
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/logs
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/description
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks/pre-push.sample
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks/update.sample
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks/post-update.sample
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/hooks
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/shallow
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/config
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/index
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/1b/6f37f51cf3c74e012b671a69ab694427874c7d
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/1b
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/9c/fc858688a8222d07aa8c1b3ebf1a8569951582
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/9c
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/info
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/e2/8e993c2e4708779ab8019f97c7e0ca4fc97f45
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/e2
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/87/55c7bf335eb5a5e2bed94c940ab1ffa568d3c9
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/87
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/a3/9ad187bb795132df1150f1276f0d92d1c7d48b
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/a3
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/f7/323bcd28ad743e0ce5621faae820a94d83cf06
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/f7
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/66/20ce5c8f8a12f8d1ac7bc4ea413c767d0a6ecd
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/66
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/05/89840fbbb3283753435cd511f13fbc3973377d
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/05
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/58/bca5b7a10934bfb714361d3ae05655f5f366ce
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/58
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/39/891dfc388e34ef2a106c94f074338e63344c59
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/39
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/e5/df73e6735436e96d1f5c05f8e81c2423be5645
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/e5
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/b3/a8fce4f2f448b8ecda67e2b57e9df008d71615
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/b3
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/3b/b69f82af2b03d759a985634d69563496d956b6
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/3b
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/5d/eb9df3f0999ede42110571a296f47937771508
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/5d
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/b8/67e17d5c95dc23aa10818359c1b77d31883d93
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/b8
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/fd/965ab8f26ab0b8139bdbfc67506f9216ad533e
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/fd
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/7e/c79c6d8661287c14907052dcbb4a3700919bdf
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/7e
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/pack
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/2d/19fc766d98a08d9d1437896bfb008a7b15f340
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/2d
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/6c/6dd19b64999dab4b0cb26f6ddcf2febd28cb2f
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/6c
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/46/422cfe4e63f839295f3ef152d39ca219db89d8
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/46
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/a1/161337ec2898c48d85b2b44ebcfc646b03f50a
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects/a1
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/objects
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/packed-refs
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git/HEAD
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.git
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/src/argparse/macrohelp.nim
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/src/argparse
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/src/.gitignore
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/src/argparse.nim
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/src
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/LICENSE.md
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/builddocs.sh
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/tests/config.nims
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/tests/test1.nim
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/tests
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/.gitignore
-  delete /tmp/nimble_14181/githubcom_iffynimargparse/argparse.nimble
-  delete /tmp/nimble_14181/githubcom_iffynimargparse
-  delete /tmp/nimble_14181
+  create directory /tmp/nimblecache-946033505
+  create directory /tmp/nimblecache-946033505/argparse_3535976517
+  create file /tmp/nimblecache-946033505/argparse_3535976517/argparse.nims
+  delete /tmp/nimblecache-946033505/argparse_3535976517/argparse.ini
+  create file /tmp/nimble_9567.out
+  delete /tmp/nimble_9567.out
+  create file /tmp/nimblecache-946033505/argparse_3535976517/argparse.ini
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/docs/argparse.html
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/docs/macrohelp.html
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/docs
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/LICENSE.md
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.gitignore
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/tests/config.nims
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/tests/test1.nim
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/tests
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/builddocs.sh
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/refs/heads
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/refs/tags
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/refs
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/HEAD
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/logs/HEAD
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/logs
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/index
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/branches
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/config
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/pack/pack-4a2aaeb3aa1057e2a19edc07016283fbce3081c4.idx
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/pack/pack-4a2aaeb3aa1057e2a19edc07016283fbce3081c4.pack
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/pack
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/objects/info
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/objects
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/packed-refs
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/shallow
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/description
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/info/exclude
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/info
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks/pre-push.sample
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks/update.sample
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks/post-update.sample
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git/hooks
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.git
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/src/.gitignore
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/src/argparse.nim
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/src/argparse/macrohelp.nim
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/src/argparse
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/src
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.github/workflows/main.yml
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.github/workflows
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/.github
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/README.md
+  delete /tmp/nimble_9567/githubcom_iffynimargparse/argparse.nimble
+  delete /tmp/nimble_9567/githubcom_iffynimargparse
+  delete /tmp/nimble_9567

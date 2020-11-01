@@ -1,290 +1,618 @@
     Reading official package list
 Downloading https://github.com/ba0f3/anybar.nim using git
   Verifying dependencies for Anybar@0.0.2
- Installing Anybar@0.0.2
-   Building Anybar/anybar using c backend
-  Executing "/home/runner/.nimble/bin/nim" c --noNimblePath -d:NimblePkgVersion=0.0.2 -d:release -o:"/tmp/nimble_5525/githubcom_ba0f3anybarnim/anybar" "/tmp/nimble_5525/githubcom_ba0f3anybarnim/anybar.nim"
+open('/workspace/destdir/ssl/openssl.cnf', 0, 0x00000000000001b6)
+open('/home/runner/.config/nimble/nimble.ini', 524288, 0x00000000000001b6)
+open('/home/runner/.config/babel/babel.ini', 524288, 0x00000000000001b6)
+writev(1, 0x00007ffca5cb1e90, 2)
+open('/home/runner/.nimble/packages_official.json', 524288, 0x00000000000001b6)
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_5525', 0x00000000000001ff)
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim', 0x00000000000001ff)
-rmdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim')
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim', 0x00000000000001ff)
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/HEAD.lock', '/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/HEAD')
-rename('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock', '/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config')
-chmod('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock', '/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config')
-chmod('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock', '/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config')
-chmod('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock', '/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/ta0KzEV')
-symlink('testing', '/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/ta0KzEV')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/ta0KzEV')
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock', '/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config')
-chmod('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock', '/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config')
-chmod('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock', '/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config')
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/b2', 0x00000000000001ff)
-link('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/b2/tmp_obj_d3xZrZ', '/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/b2/82176ebb7f5af32cda3eca66db942cbccac585')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/b2/tmp_obj_d3xZrZ')
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/db', 0x00000000000001ff)
-link('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/db/tmp_obj_hrBPi4', '/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/db/66099c44c6de3c7b60c08406b5c0840bd04fb3')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/db/tmp_obj_hrBPi4')
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/67', 0x00000000000001ff)
-link('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/67/tmp_obj_56Btd8', '/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/67/d9b34c6cecad82ad17197ffa5db4860caf9037')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/67/tmp_obj_56Btd8')
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/a7', 0x00000000000001ff)
-link('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/a7/tmp_obj_lRpT4c', '/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/a7/d4a1632f37113a858e8bd51672bc2b7d796c76')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/a7/tmp_obj_lRpT4c')
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/c9', 0x00000000000001ff)
-link('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/c9/tmp_obj_zY3lRh', '/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/c9/e066214ea2e3406895a687b417714f37c06e0f')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/c9/tmp_obj_zY3lRh')
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/de', 0x00000000000001ff)
-link('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/de/tmp_obj_UXB0tc', '/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/de/c070a06dd62f4190d77ea27db79d890979d8e9')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/de/tmp_obj_UXB0tc')
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/38', 0x00000000000001ff)
-link('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/38/tmp_obj_sncl6g', '/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/38/a91e0d473c972430619fbc499762ddfe2b7087')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/38/tmp_obj_sncl6g')
-rename('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/shallow.lock', '/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/shallow')
-rename('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/packed-refs.new', '/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/packed-refs')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/packed-refs.lock')
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs/remotes/origin', 0x00000000000001ff)
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/logs', 0x00000000000001ff)
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/logs/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/logs/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/logs/refs/remotes/origin', 0x00000000000001ff)
-rename('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs/remotes/origin/HEAD')
-rename('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/HEAD.lock', '/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/HEAD')
-mkdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/logs/refs/heads', 0x00000000000001ff)
-rename('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs/heads/master.lock', '/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs/heads/master')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/HEAD.lock')
-chmod('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock', '/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config')
-chmod('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock', '/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config')
-rename('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/index.lock', '/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/index')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/README.md')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs/remotes/origin')
-rmdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs/remotes')
-rmdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs/tags')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs/heads/master')
-rmdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs/heads')
-rmdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/info/exclude')     Error: Build failed for package: Anybar
-        ... Details:
-        ... Execution failed with exit code 1
-        ... Command: "/home/runner/.nimble/bin/nim" c --noNimblePath -d:NimblePkgVersion=0.0.2 -d:release -o:"/tmp/nimble_5525/githubcom_ba0f3anybarnim/anybar" "/tmp/nimble_5525/githubcom_ba0f3anybarnim/anybar.nim"
-        ... Output: Hint: used config file '/home/runner/.choosenim/toolchains/nim-1.2.4/config/nim.cfg' [Conf]
-        ... Hint: system [Processing]
-        ... Hint: widestrs [Processing]
-        ... Hint: io [Processing]
-        ... Hint: anybar [Processing]
-        ... /tmp/nimble_5525/githubcom_ba0f3anybarnim/anybar.nim(1, 8) Error: cannot open file: rawsockets
+mkdir('/tmp/nimble_4161', 0x00000000000001ff)
+mkdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim', 0x00000000000001ff)
+writev(1, 0x00007ffca5cb1f50, 2)
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim')
+mkdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim', 0x00000000000001ff)
+mkdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/HEAD.lock', '/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/HEAD')
+rename('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock', '/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config')
+chmod('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock', '/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config')
+chmod('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock', '/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config')
+chmod('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock', '/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/t81NVt0')
+symlink('testing', '/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/t81NVt0')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/t81NVt0')
+mkdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock', '/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config')
+chmod('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock', '/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config')
+chmod('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock', '/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock')
+chmod('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock', '/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config')
+link('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/pack/tmp_pack_EE9QnT', '/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/pack/pack-02351bd742479b7a676e6ea19322272c4f2e4815.pack')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/pack/tmp_pack_EE9QnT')
+link('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/pack/tmp_idx_KH1Ip1', '/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/pack/pack-02351bd742479b7a676e6ea19322272c4f2e4815.idx')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/pack/tmp_idx_KH1Ip1')
+rename('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/shallow.lock', '/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/shallow')
+rename('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/packed-refs.new', '/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/packed-refs')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/packed-refs.lock')
+mkdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/HEAD.lock', '/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/HEAD')
+mkdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/heads/master.lock', '/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/heads/master')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/HEAD.lock')
+chmod('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock', '/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config')
+chmod('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock', '/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/pack/pack-02351bd742479b7a676e6ea19322272c4f2e4815.keep')
+rename('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/index.lock', '/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/index')
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim', 589824, 0x0000000000000000)
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim/anybar.nimble', 524288, 0x00000000000001b6)
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim', 589824, 0x0000000000000000)
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim', 589824, 0x0000000000000000)
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim', 589824, 0x0000000000000000)
+writev(1, 0x00007ffca5cb1910, 2)
+open('/home/runner/.nimble/pkgs', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/cairo-1.1.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/cairo-1.1.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/ansitohtml-0.1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/ansitohtml-0.1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/ansiparse-0.2.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/ansiparse-0.2.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/Appdirs-0.1.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/Appdirs-0.1.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/gtk2-1.3', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/gtk2-1.3/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/argon2_bind-0.1.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/argon2_bind-0.1.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/dialogs-1.1.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/dialogs-1.1.1/nimblemeta.json', 524288, 0x00000000000001b6) Installing Anybar@0.0.2
+   Building Anybar/anybar using c backend
+  Executing /home/runner/.nimble/bin/nim c --colors:on --noNimblePath -d:release -d:NimblePkgVersion=0.0.2 -o:/tmp/nimble_4161/githubcom_ba0f3anybarnim/anybar /tmp/nimble_4161/githubcom_ba0f3anybarnim/anybar.nim
 
-rmdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/info')
-rmdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/branches')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/logs/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/logs/refs/remotes/origin')
-rmdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/logs/refs/remotes')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/logs/refs/heads/master')
-rmdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/logs/refs/heads')
-rmdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/logs/refs')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/logs/HEAD')
-rmdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/logs')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/description')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks/update.sample')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/shallow')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/index')
-rmdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/info')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/de/c070a06dd62f4190d77ea27db79d890979d8e9')
-rmdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/de')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/c9/e066214ea2e3406895a687b417714f37c06e0f')
-rmdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/c9')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/67/d9b34c6cecad82ad17197ffa5db4860caf9037')
-rmdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/67')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/a7/d4a1632f37113a858e8bd51672bc2b7d796c76')
-rmdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/a7')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/38/a91e0d473c972430619fbc499762ddfe2b7087')
-rmdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/38')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/b2/82176ebb7f5af32cda3eca66db942cbccac585')
-rmdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/b2')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/db/66099c44c6de3c7b60c08406b5c0840bd04fb3')
-rmdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/db')
-rmdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/pack')
-rmdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/packed-refs')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/HEAD')
-rmdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.git')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/anybar.nim')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/anybar.nimble')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/.gitignore')
-unlink('/tmp/nimble_5525/githubcom_ba0f3anybarnim/LICENSE')
-rmdir('/tmp/nimble_5525/githubcom_ba0f3anybarnim')
-rmdir('/tmp/nimble_5525')
+open('/home/runner/.nimble/pkgs/allegro5-1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/allegro5-1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+writev(1, 0x00007ffd4097e250, 2)
+writev(1, 0x00007ffd4097e300, 2)
+writev(1, 0x00007ffd4097e300, 2)
+writev(1, 0x00007ffd4097e300, 2)
+writev(1, 0x00007ffca5cb1d40, 2)
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim', 589824, 0x0000000000000000)
+writev(1, 0x00007ffca5cb1b50, 2)
+writev(1, 0x00007ffca5cb1af0, 2)
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim/anybar.nim', 2623488, 0x000000000076b83f)
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim', 2623488, 0x00007fffee625c90)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/nim.cfg', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/nim.cfg', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/config.nims', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x00007fffee624f10)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 2623488, 0x00007fffee625170)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 524288, 0x00000000000001b6)
+open('iterators.nim', 2623488, 0x0000000000453f15)
+open('iterators.nim', 2623488, 0x0000000000453f15)
+open('iterators.nim', 2623488, 0x0000000000453f15)
+open('iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007fffee625170)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/nimscript.nim', 524288, 0x00000000000001b6)[1m[0m[32mHint: [0mused config file '/home/runner/.choosenim/toolchains/nim-1.4.0/config/nim.cfg'[36m [Conf][0m
+[1m[0m[32mHint: [0mused config file '/home/runner/.choosenim/toolchains/nim-1.4.0/config/config.nims'[36m [Conf][0m
+.
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007fffee625170)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/config.nims', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/config/config.nims', 524288, 0x00000000000001b6)
+open('/home/runner/.config/nim/nim.cfg', 524288, 0x00000000000001b6)
+open('/nim.cfg', 524288, 0x00000000000001b6)
+open('/tmp/nim.cfg', 524288, 0x00000000000001b6)
+open('/tmp/nimble_4161/nim.cfg', 524288, 0x00000000000001b6)
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim/nim.cfg', 524288, 0x00000000000001b6)
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim/anybar.nim.cfg', 524288, 0x00000000000001b6)
+writev(2, 0x00007fffee625bf0, 2)
+writev(2, 0x00007fffee625c10, 2)
+writev(2, 0x00007fffee625bf0, 2)
+writev(2, 0x00007fffee625c20, 2)
+writev(2, 0x00007fffee625c10, 2)
+writev(2, 0x00007fffee625c20, 2)
+writev(2, 0x00007fffee625bf0, 2)
+writev(2, 0x00007fffee625c20, 2)
+writev(2, 0x00007fffee625c10, 2)
+writev(2, 0x00007fffee625c20, 2)
+writev(2, 0x00007fffee625bf0, 2)
+writev(2, 0x00007fffee625c10, 2)
+writev(2, 0x00007fffee625bf0, 2)
+writev(2, 0x00007fffee625c20, 2)
+writev(2, 0x00007fffee625c10, 2)
+writev(2, 0x00007fffee625c20, 2)
+writev(2, 0x00007fffee625bf0, 2)
+writev(2, 0x00007fffee625c20, 2)
+writev(2, 0x00007fffee625c10, 2)
+writev(2, 0x00007fffee625c20, 2)
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim/anybar.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 2623488, 0x0000000000453f15)
+writev(2, 0x00007fffee625860, 2)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/basic_types.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/arithmetics.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/comparisons.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/hti.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/hti.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/hti.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/exceptions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/setops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/cgprocs.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/cgprocs.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/cgprocs.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memalloc.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators_1.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/ansi_c.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/ansi_c.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/ansi_c.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memory.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memory.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/memory.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/ansi_c.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/atomics.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/atomics.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/atomics.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x00007fffee624e40)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 2623488, 0x00007fffee6250a0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim', 524288, 0x00000000000001b6)
+open('iterators.nim', 2623488, 0x0000000000453f15)
+open('iterators.nim', 2623488, 0x0000000000453f15)
+open('iterators.nim', 2623488, 0x0000000000453f15)
+open('iterators.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_interface.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007fffee6250a0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/excpt.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/excpt.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/excpt.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 2623488, 0x00007fffee624fb0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/miscdollars.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/stacktraces.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/stacktraces.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/stacktraces.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/chcks.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/chcks.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/chcks.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/indexerrors.nim', 2623488, 0x00007fffee625130)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/indexerrors.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/indexerrors.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/indexerrors.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/integerops.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/integerops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/integerops.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dyncalls.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dyncalls.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/dyncalls.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/sets.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/sets.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/sets.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/mmdisp.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/mmdisp.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/mmdisp.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/bitmasks.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/bitmasks.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/bitmasks.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/alloc.nim', 2623488, 0x00007fffee624e30)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/alloc.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/alloc.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/alloc.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/osalloc.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/osalloc.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/osalloc.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/avltree.nim', 2623488, 0x00007fffee624c10)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/avltree.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/avltree.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/avltree.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/cellsets.nim', 2623488, 0x00007fffee624ce0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/cellsets.nim', 2623488, 0x0000000000453f15)...
+[1m/tmp/nimble_4161/githubcom_ba0f3anybarnim/anybar.nim(1, 8) [0m[31mError: [0mcannot open file: rawsockets[36m[0m
+
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/cellsets.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/cellsets.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/cellseqs_v1.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/cellseqs_v1.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/cellseqs_v1.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc.nim', 2623488, 0x00007fffee624e30)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_common.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_common.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/gc_common.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/sysstr.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/sysstr.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/sysstr.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/strmantle.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/strmantle.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/strmantle.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assign.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assign.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/assign.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/seqs_v2_reimpl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/seqs_v2_reimpl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/seqs_v2_reimpl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/repr.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/repr.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/repr.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/deepcopy.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/deepcopy.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/deepcopy.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+writev(2, 0x00007fffee625350, 2)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/widestrs.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/', 589824, 0x0000000000000000)
+writev(2, 0x00007fffee625350, 2)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/io.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/inclrtl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x00007fffee6250a0)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/std/private/since.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/system/formatfloat.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/nimhcr.nim', 2623488, 0x0000000000453f15)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/nimhcr.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.choosenim/toolchains/nim-1.4.0/lib/nimhcr.nim', 524288, 0x00000000000001b6)
+writev(2, 0x00007fffee6258a0, 2)
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim/anybar.nim', 524288, 0x00000000000001b6)
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim/anybar.nim', 524288, 0x00000000000001b6)
+writev(2, 0x00007fffee6255f0, 2)
+writev(2, 0x00007fffee6255c0, 2)
+writev(2, 0x00007fffee6255f0, 2)
+writev(2, 0x00007fffee6255e0, 2)
+writev(2, 0x00007fffee6255c0, 2)
+writev(2, 0x00007fffee6255f0, 2)
+writev(2, 0x00007fffee6255e0, 2)
+writev(2, 0x00007fffee6255f0, 2)
+writev(2, 0x00007fffee6255c0, 2)
+writev(2, 0x00007fffee6255e0, 2)
+writev(2, 0x00007fffee6255f0, 2)
+open('/tmp/nimble_4161', 589824, 0x0000000000000000)
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/anybar.nim')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/anybar.nimble')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.gitignore')
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git', 589824, 0x0000000000000000)
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs', 589824, 0x0000000000000000)
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/heads', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/heads/master')
+rmdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/heads')
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/tags', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/tags')
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/remotes', 589824, 0x0000000000000000)
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/remotes/origin', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/remotes')
+rmdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/HEAD')
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs', 589824, 0x0000000000000000)
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs/refs', 589824, 0x0000000000000000)
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs/refs/heads', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs/refs/heads')
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs/refs/remotes', 589824, 0x0000000000000000)
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs/refs/remotes/origin', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs/refs/remotes')     Error: Build failed for package: Anybar
+        ... Execution failed with exit code 1
+        ... Command: /home/runner/.nimble/bin/nim c --colors:on --noNimblePath -d:release -d:NimblePkgVersion=0.0.2 -o:/tmp/nimble_4161/githubcom_ba0f3anybarnim/anybar /tmp/nimble_4161/githubcom_ba0f3anybarnim/anybar.nim
+
+rmdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs/refs')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs/HEAD')
+rmdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/index')
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/branches', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/branches')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config')
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects', 589824, 0x0000000000000000)
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/pack', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/pack/pack-02351bd742479b7a676e6ea19322272c4f2e4815.pack')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/pack/pack-02351bd742479b7a676e6ea19322272c4f2e4815.idx')
+rmdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/pack')
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/info', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/info')
+rmdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/packed-refs')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/shallow')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/description')
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/info', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/info/exclude')
+rmdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/info')
+open('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks/update.sample')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks/post-update.sample')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks/fsmonitor-watchman.sample')
+rmdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks')
+rmdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim/.git')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/README.md')
+unlink('/tmp/nimble_4161/githubcom_ba0f3anybarnim/LICENSE')
+rmdir('/tmp/nimble_4161/githubcom_ba0f3anybarnim')
+rmdir('/tmp/nimble_4161')
+writev(1, 0x00007ffca5cb2570, 2)
+writev(1, 0x00007ffca5cb2570, 2)
+writev(1, 0x00007ffca5cb2570, 2)
   create directory /tmp
-  create directory /tmp/nimble_5525
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/info
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/branches
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs/heads
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs/tags
-  rename /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock to config
-  change permissions of /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock to config
-  change permissions of /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock to config
-  change permissions of /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock to config
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/ta0KzEV
-  create symbolic link from /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/ta0KzEV to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/ta0KzEV
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/pack
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/info
-  change permissions of /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock to config
-  change permissions of /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock to config
-  change permissions of /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock to config
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/b2
-  create hard link from /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/b2/82176ebb7f5af32cda3eca66db942cbccac585 to /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/b2/tmp_obj_d3xZrZ
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/b2/tmp_obj_d3xZrZ
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/db
-  create hard link from /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/db/66099c44c6de3c7b60c08406b5c0840bd04fb3 to /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/db/tmp_obj_hrBPi4
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/db/tmp_obj_hrBPi4
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/67
-  create hard link from /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/67/d9b34c6cecad82ad17197ffa5db4860caf9037 to /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/67/tmp_obj_56Btd8
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/67/tmp_obj_56Btd8
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/a7
-  create hard link from /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/a7/d4a1632f37113a858e8bd51672bc2b7d796c76 to /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/a7/tmp_obj_lRpT4c
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/a7/tmp_obj_lRpT4c
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/c9
-  create hard link from /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/c9/e066214ea2e3406895a687b417714f37c06e0f to /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/c9/tmp_obj_zY3lRh
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/c9/tmp_obj_zY3lRh
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/de
-  create hard link from /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/de/c070a06dd62f4190d77ea27db79d890979d8e9 to /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/de/tmp_obj_UXB0tc
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/de/tmp_obj_UXB0tc
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/38
-  create hard link from /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/38/a91e0d473c972430619fbc499762ddfe2b7087 to /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/38/tmp_obj_sncl6g
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/38/tmp_obj_sncl6g
-  rename /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/shallow.lock to shallow
-  rename /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/packed-refs.lock
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs/remotes
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs/remotes/origin
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/logs
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/logs/refs
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/logs/refs/remotes
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/logs/refs/remotes/origin
-  rename /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs/remotes/origin/HEAD.lock to HEAD
-  rename /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/HEAD.lock to HEAD
-  create directory /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/logs/refs/heads
-  rename /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs/heads/master.lock to master
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/HEAD.lock
-  change permissions of /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock to config
-  change permissions of /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config.lock to config
-  rename /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/index.lock to index
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/README.md
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs/remotes/origin/HEAD
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs/remotes/origin
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs/remotes
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs/tags
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs/heads/master
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs/heads
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/refs
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/info/exclude
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/info
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/branches
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/logs/refs/remotes/origin/HEAD
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/logs/refs/remotes/origin
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/logs/refs/remotes
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/logs/refs/heads/master
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/logs/refs/heads
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/logs/refs
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/logs/HEAD
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/logs
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/description
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks/pre-push.sample
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks/update.sample
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks/post-update.sample
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/hooks
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/shallow
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/config
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/index
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/info
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/de/c070a06dd62f4190d77ea27db79d890979d8e9
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/de
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/c9/e066214ea2e3406895a687b417714f37c06e0f
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/c9
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/67/d9b34c6cecad82ad17197ffa5db4860caf9037
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/67
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/a7/d4a1632f37113a858e8bd51672bc2b7d796c76
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/a7
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/38/a91e0d473c972430619fbc499762ddfe2b7087
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/38
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/b2/82176ebb7f5af32cda3eca66db942cbccac585
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/b2
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/db/66099c44c6de3c7b60c08406b5c0840bd04fb3
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/db
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects/pack
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/objects
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/packed-refs
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git/HEAD
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.git
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/anybar.nim
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/anybar.nimble
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/.gitignore
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim/LICENSE
-  delete /tmp/nimble_5525/githubcom_ba0f3anybarnim
-  delete /tmp/nimble_5525
+  create directory /tmp/nimble_4161
+  create directory /tmp/nimble_4161/githubcom_ba0f3anybarnim
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim
+  create directory /tmp/nimble_4161/githubcom_ba0f3anybarnim
+  create directory /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git
+  create directory /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git
+  create directory /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/branches
+  create directory /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/info
+  create directory /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks
+  create directory /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs
+  create directory /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/heads
+  create directory /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/tags
+  rename /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock to config
+  change permissions of /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock to config
+  change permissions of /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock to config
+  change permissions of /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock to config
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/t81NVt0
+  create symbolic link from /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/t81NVt0 to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/t81NVt0
+  create directory /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects
+  create directory /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/pack
+  create directory /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/info
+  change permissions of /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock to config
+  change permissions of /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock to config
+  change permissions of /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock to config
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock
+  change permissions of /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock to config
+  create hard link from /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/pack/pack-02351bd742479b7a676e6ea19322272c4f2e4815.pack to /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/pack/tmp_pack_EE9QnT
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/pack/tmp_pack_EE9QnT
+  create hard link from /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/pack/pack-02351bd742479b7a676e6ea19322272c4f2e4815.idx to /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/pack/tmp_idx_KH1Ip1
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/pack/tmp_idx_KH1Ip1
+  rename /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/shallow.lock to shallow
+  rename /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/packed-refs.lock
+  create directory /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/remotes
+  create directory /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/remotes/origin
+  create directory /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs
+  create directory /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs/refs
+  create directory /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs/refs/remotes
+  create directory /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs/refs/heads
+  rename /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/HEAD.lock
+  change permissions of /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock to config
+  change permissions of /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config.lock to config
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/pack/pack-02351bd742479b7a676e6ea19322272c4f2e4815.keep
+  rename /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/index.lock to index
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/anybar.nim
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/anybar.nimble
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.gitignore
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/heads/master
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/heads
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/tags
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/remotes/origin
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs/remotes
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/refs
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/HEAD
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs/refs/heads/master
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs/refs/heads
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs/refs/remotes
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs/refs
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs/HEAD
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/logs
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/index
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/branches
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/config
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/pack/pack-02351bd742479b7a676e6ea19322272c4f2e4815.pack
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/pack/pack-02351bd742479b7a676e6ea19322272c4f2e4815.idx
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/pack
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects/info
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/objects
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/packed-refs
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/shallow
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/description
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/info/exclude
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/info
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks/pre-push.sample
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks/update.sample
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks/post-update.sample
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git/hooks
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/.git
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/README.md
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim/LICENSE
+  delete /tmp/nimble_4161/githubcom_ba0f3anybarnim
+  delete /tmp/nimble_4161

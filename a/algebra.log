@@ -4,13 +4,22 @@ download.nim(93)         getTagsListRemote
 Error: unhandled exception: Unable to query remote tags for https://github.com/ijneb/nim-algebra. Git returned: remote: Repository not found.
 fatal: repository 'https://github.com/ijneb/nim-algebra/' not found
  [OSError]
+open('/workspace/destdir/ssl/openssl.cnf', 0, 0x00000000000001b6)
+open('/home/runner/.config/nimble/nimble.ini', 524288, 0x00000000000001b6)
+open('/home/runner/.config/babel/babel.ini', 524288, 0x00000000000001b6)
+writev(1, 0x00007ffd14e47f50, 2)
+open('/home/runner/.nimble/packages_official.json', 524288, 0x00000000000001b6)
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_14480', 0x00000000000001ff)
-mkdir('/tmp/nimble_14480/githubcom_ijnebnimalgebra', 0x00000000000001ff)
-rmdir('/tmp/nimble_14480/githubcom_ijnebnimalgebra')
-rmdir('/tmp/nimble_14480')
+mkdir('/tmp/nimble_9743', 0x00000000000001ff)
+mkdir('/tmp/nimble_9743/githubcom_ijnebnimalgebra', 0x00000000000001ff)
+writev(1, 0x00007ffd14e48010, 2)
+open('/tmp/nimble_9743/githubcom_ijnebnimalgebra', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_9743/githubcom_ijnebnimalgebra')
+open('/tmp/nimble_9743', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_9743')
+writev(2, 0x00007ffd14e47d60, 2)
   create directory /tmp
-  create directory /tmp/nimble_14480
-  create directory /tmp/nimble_14480/githubcom_ijnebnimalgebra
-  delete /tmp/nimble_14480/githubcom_ijnebnimalgebra
-  delete /tmp/nimble_14480
+  create directory /tmp/nimble_9743
+  create directory /tmp/nimble_9743/githubcom_ijnebnimalgebra
+  delete /tmp/nimble_9743/githubcom_ijnebnimalgebra
+  delete /tmp/nimble_9743
