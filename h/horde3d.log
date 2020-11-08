@@ -1,242 +1,288 @@
     Reading official package list
 Downloading https://github.com/fowlmouth/horde3d using git
-   Warning: Package 'horde3d' has an incorrect structure. It should contain a single directory hierarchy for source files, named 'horde3d', but file 'h3d.nim' is in a directory named 'src' instead. This will be an error in the future.
+   Warning: Package 'horde3d' has an incorrect structure. It should contain a single directory hierarchy for source files, named 'horde3d', but file 'h3d_util.nim' is in a directory named 'src' instead. This will be an error in the future.
       Hint: If 'src' contains source files for building 'horde3d', rename it to 'horde3d'. Otherwise, prevent its installation by adding `skipDirs = @["src"]` to the .nimble file.
   Verifying dependencies for horde3d@1.0
  Installing horde3d@1.0
-    Copying file /tmp/nimble_3339/githubcom_fowlmouthhorde3d/src/h3d.nim to /home/runner/.nimble/pkgs/horde3d-1.0/src/h3d.nim
+open('/workspace/destdir/ssl/openssl.cnf', 0, 0x00000000000001b6)
+open('/home/runner/.config/nimble/nimble.ini', 524288, 0x00000000000001b6)
+open('/home/runner/.config/babel/babel.ini', 524288, 0x00000000000001b6)
+writev(1, 0x00007ffedfa8d0b0, 2)
+open('/home/runner/.nimble/packages_official.json', 524288, 0x00000000000001b6)
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_3339', 0x00000000000001ff)
-mkdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d', 0x00000000000001ff)
-rmdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d')
-mkdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d', 0x00000000000001ff)
-mkdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/HEAD.lock', '/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/HEAD')
-rename('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock', '/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config')
-chmod('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock', '/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config')
-chmod('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock', '/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config')
-chmod('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock', '/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/tTmzV5V')
-symlink('testing', '/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/tTmzV5V')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/tTmzV5V')
-mkdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock', '/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config')
-chmod('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock', '/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config')
-chmod('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock', '/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config')
-mkdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/b5', 0x00000000000001ff)
-link('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/b5/tmp_obj_UOmBrO', '/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/b5/a291c65b9baaa57a4501b36acdf21b94296972')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/b5/tmp_obj_UOmBrO')
-mkdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/22', 0x00000000000001ff)
-link('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/22/tmp_obj_WLGklU', '/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/22/804ce2ac4b20517bc145f8f82247efe77fb71b')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/22/tmp_obj_WLGklU')
-mkdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/28', 0x00000000000001ff)
-link('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/28/tmp_obj_yjot6Y', '/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/28/e6b249b64fd09f21345a04fb2f93741ffa07fa')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/28/tmp_obj_yjot6Y')
-mkdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/e5', 0x00000000000001ff)
-link('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/e5/tmp_obj_STXYuY', '/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/e5/7b23384665222701e3dc738bc539847bbb3bf3')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/e5/tmp_obj_STXYuY')
-link('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/28/tmp_obj_MUrzc1', '/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/28/5a0c90135c48893303d10fe8a47d992db00a36')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/28/tmp_obj_MUrzc1')
-mkdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/75', 0x00000000000001ff)
-link('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/75/tmp_obj_evfPSZ', '/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/75/537ef116e33f81b5122c04cd477192ebf37a31')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/75/tmp_obj_evfPSZ')
-rename('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/shallow.lock', '/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/shallow')
-rename('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/packed-refs.new', '/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/packed-refs')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/packed-refs.lock')
-mkdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs/remotes/origin', 0x00000000000001ff)
-mkdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/logs', 0x00000000000001ff)
-mkdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/logs/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/logs/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/logs/refs/remotes/origin', 0x00000000000001ff)
-rename('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs/remotes/origin/HEAD')
-rename('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/HEAD.lock', '/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/HEAD')
-mkdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/logs/refs/heads', 0x00000000000001ff)
-rename('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs/heads/master.lock', '/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs/heads/master')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/HEAD.lock')
-chmod('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock', '/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config')
-chmod('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock', '/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config')
+mkdir('/tmp/nimble_2643', 0x00000000000001ff)
+mkdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d', 0x00000000000001ff)
+writev(1, 0x00007ffedfa8d170, 2)
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d')
+mkdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d', 0x00000000000001ff)
+mkdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/HEAD.lock', '/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/HEAD')
+rename('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock', '/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config')
+chmod('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock', '/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config')
+chmod('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock', '/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config')
+chmod('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock', '/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/tTgJ9fE')
+symlink('testing', '/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/tTgJ9fE')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/tTgJ9fE')
+mkdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock', '/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config')
+chmod('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock', '/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config')
+chmod('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock', '/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock')
+chmod('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock', '/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config')
+link('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/pack/tmp_pack_QzVtUx', '/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/pack/pack-d6c7deda72cdc753ccaae004906539af5e7a4db0.pack')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/pack/tmp_pack_QzVtUx')
+link('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/pack/tmp_idx_stGaRC', '/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/pack/pack-d6c7deda72cdc753ccaae004906539af5e7a4db0.idx')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/pack/tmp_idx_stGaRC')
+rename('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/shallow.lock', '/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/shallow')
+rename('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/packed-refs.new', '/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/packed-refs')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/packed-refs.lock')
+mkdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/HEAD.lock', '/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/HEAD')
+mkdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/heads/master.lock', '/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/heads/master')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/HEAD.lock')
+chmod('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock', '/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config')
+chmod('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock', '/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/pack/pack-d6c7deda72cdc753ccaae004906539af5e7a4db0.keep')
 mkdir('src', 0x00000000000001ff)
-rename('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/index.lock', '/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/index')
+rename('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/index.lock', '/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/index')
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d', 589824, 0x0000000000000000)
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/horde3d.babel', 524288, 0x00000000000001b6)
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d', 589824, 0x0000000000000000)
+open('/home/runner/.nimble', 2623488, 0x0000000000000000)
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/src', 589824, 0x0000000000000000)
+writev(1, 0x00007ffedfa8cf80, 2)
+writev(1, 0x00007ffedfa8cf80, 2)
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d', 589824, 0x0000000000000000)
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d', 589824, 0x0000000000000000)
+writev(1, 0x00007ffedfa8cb30, 2)
+open('/home/runner/.nimble/pkgs', 589824, 0x0000000000000000)
+writev(1, 0x00007fffd5883700, 2)
+writev(1, 0x00007fffd58837b0, 2)
+writev(1, 0x00007fffd58837b0, 2)
+writev(1, 0x00007fffd58837b0, 2)
+writev(1, 0x00007ffedfa8cf60, 2)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/horde3d-1.0', 0x00000000000001ff)
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d', 589824, 0x0000000000000000)
+open('/home/runner/.nimble', 2623488, 0x0000000000000000)
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/src', 589824, 0x0000000000000000)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/horde3d-1.0', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/horde3d-1.0/src', 0x00000000000001ff)
-chmod('/home/runner/.nimble/pkgs/horde3d-1.0/src/h3d.nim', 0x00000000000001a4)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/horde3d-1.0', 0x00000000000001ff)    Copying file /tmp/nimble_3339/githubcom_fowlmouthhorde3d/src/h3d_util.nim to /home/runner/.nimble/pkgs/horde3d-1.0/src/h3d_util.nim
-    Copying file /tmp/nimble_3339/githubcom_fowlmouthhorde3d/horde3d.babel to /home/runner/.nimble/pkgs/horde3d-1.0/horde3d.babel
-    Copying file /tmp/nimble_3339/githubcom_fowlmouthhorde3d/horde3d.babel to /home/runner/.nimble/pkgs/horde3d-1.0/horde3d.babel
+mkdir('/home/runner/.nimble', 0x00000000000001ff)    Copying file /tmp/nimble_2643/githubcom_fowlmouthhorde3d/src/h3d_util.nim to /home/runner/.nimble/pkgs/horde3d-1.0/src/h3d_util.nim
+    Copying file /tmp/nimble_2643/githubcom_fowlmouthhorde3d/src/h3d.nim to /home/runner/.nimble/pkgs/horde3d-1.0/src/h3d.nim
+    Copying file /tmp/nimble_2643/githubcom_fowlmouthhorde3d/horde3d.babel to /home/runner/.nimble/pkgs/horde3d-1.0/horde3d.babel
+    Copying file /tmp/nimble_2643/githubcom_fowlmouthhorde3d/horde3d.babel to /home/runner/.nimble/pkgs/horde3d-1.0/horde3d.babel
    Success: horde3d installed successfully.
 
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/horde3d-1.0', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/horde3d-1.0/src', 0x00000000000001ff)
+writev(1, 0x00007ffedfa8cab0, 2)
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/src/h3d_util.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/horde3d-1.0/src/h3d_util.nim', 524865, 0x00000000000001b6)
+writev(6, 0x00007ffedfa8c9d0, 2)
 chmod('/home/runner/.nimble/pkgs/horde3d-1.0/src/h3d_util.nim', 0x00000000000001a4)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/horde3d-1.0', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/horde3d-1.0/src', 0x00000000000001ff)
+writev(1, 0x00007ffedfa8cab0, 2)
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/src/h3d.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/horde3d-1.0/src/h3d.nim', 524865, 0x00000000000001b6)
+writev(6, 0x00007ffedfa8c9d0, 2)
+writev(6, 0x00007ffedfa8c9d0, 2)
+chmod('/home/runner/.nimble/pkgs/horde3d-1.0/src/h3d.nim', 0x00000000000001a4)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/horde3d-1.0', 0x00000000000001ff)
+writev(1, 0x00007ffedfa8ccd0, 2)
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/horde3d.babel', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/horde3d-1.0/horde3d.babel', 524865, 0x00000000000001b6)
+writev(5, 0x00007ffedfa8cc30, 2)
 chmod('/home/runner/.nimble/pkgs/horde3d-1.0/horde3d.babel', 0x00000000000001a4)
+writev(1, 0x00007ffedfa8cf30, 2)
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/horde3d.babel', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/horde3d-1.0/horde3d.babel', 524865, 0x00000000000001b6)
+writev(4, 0x00007ffedfa8ce90, 2)
 chmod('/home/runner/.nimble/pkgs/horde3d-1.0/horde3d.babel', 0x00000000000001a4)
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs/remotes/origin')
-rmdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs/remotes')
-rmdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs/tags')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs/heads/master')
-rmdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs/heads')
-rmdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/info/exclude')
-rmdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/info')
-rmdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/branches')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/logs/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/logs/refs/remotes/origin')
-rmdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/logs/refs/remotes')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/logs/refs/heads/master')
-rmdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/logs/refs/heads')
-rmdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/logs/refs')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/logs/HEAD')
-rmdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/logs')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/description')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks/update.sample')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/shallow')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/index')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/b5/a291c65b9baaa57a4501b36acdf21b94296972')
-rmdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/b5')
-rmdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/info')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/e5/7b23384665222701e3dc738bc539847bbb3bf3')
-rmdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/e5')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/22/804ce2ac4b20517bc145f8f82247efe77fb71b')
-rmdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/22')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/75/537ef116e33f81b5122c04cd477192ebf37a31')
-rmdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/75')
-rmdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/pack')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/28/e6b249b64fd09f21345a04fb2f93741ffa07fa')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/28/5a0c90135c48893303d10fe8a47d992db00a36')
-rmdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/28')
-rmdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/packed-refs')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/HEAD')
-rmdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/src/h3d.nim')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/src/h3d_util.nim')
-rmdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/src')
-unlink('/tmp/nimble_3339/githubcom_fowlmouthhorde3d/horde3d.babel')
-rmdir('/tmp/nimble_3339/githubcom_fowlmouthhorde3d')
-rmdir('/tmp/nimble_3339')
+open('/home/runner/.nimble/pkgs/horde3d-1.0/nimblemeta.json', 524865, 0x00000000000001b6)
+writev(3, 0x00007ffedfa8cdc0, 2)
+open('/home/runner/.nimble/nimbledata.json', 524865, 0x00000000000001b6)
+writev(3, 0x00007ffedfa8ce30, 2)
+writev(1, 0x00007ffedfa8cf60, 2)
+open('/home/runner/.nimble/pkgs/horde3d-1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/horde3d-1.0/horde3d.babel', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/horde3d-1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble', 2623488, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/horde3d-1.0/src', 589824, 0x0000000000000000)
+open('/tmp/nimble_2643', 589824, 0x0000000000000000)
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d', 589824, 0x0000000000000000)
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git', 589824, 0x0000000000000000)
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs', 589824, 0x0000000000000000)
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/heads', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/heads/master')
+rmdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/heads')
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/tags', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/tags')
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/remotes', 589824, 0x0000000000000000)
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/remotes/origin', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/remotes')
+rmdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/HEAD')
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs', 589824, 0x0000000000000000)
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs/refs', 589824, 0x0000000000000000)
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs/refs/heads', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs/refs/heads')
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs/refs/remotes', 589824, 0x0000000000000000)
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs/refs/remotes/origin', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs/refs/remotes')
+rmdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs/refs')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs/HEAD')
+rmdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/index')
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/branches', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/branches')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config')
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects', 589824, 0x0000000000000000)
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/pack', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/pack/pack-d6c7deda72cdc753ccaae004906539af5e7a4db0.idx')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/pack/pack-d6c7deda72cdc753ccaae004906539af5e7a4db0.pack')
+rmdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/pack')
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/info', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/info')
+rmdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/packed-refs')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/shallow')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/description')
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/info', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/info/exclude')
+rmdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/info')
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks/update.sample')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks/post-update.sample')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks/fsmonitor-watchman.sample')
+rmdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks')
+rmdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git')
+open('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/src', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/src/h3d_util.nim')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/src/h3d.nim')
+rmdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/src')
+unlink('/tmp/nimble_2643/githubcom_fowlmouthhorde3d/horde3d.babel')
+rmdir('/tmp/nimble_2643/githubcom_fowlmouthhorde3d')
+rmdir('/tmp/nimble_2643')
   create directory /tmp
-  create directory /tmp/nimble_3339
-  create directory /tmp/nimble_3339/githubcom_fowlmouthhorde3d
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d
-  create directory /tmp/nimble_3339/githubcom_fowlmouthhorde3d
-  create directory /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git
-  create directory /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git
-  create directory /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/info
-  create directory /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/branches
-  create directory /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks
-  create directory /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs
-  create directory /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs/heads
-  create directory /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs/tags
-  rename /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock to config
-  change permissions of /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock to config
-  change permissions of /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock to config
-  change permissions of /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock to config
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/tTmzV5V
-  create symbolic link from /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/tTmzV5V to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/tTmzV5V
-  create directory /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects
-  create directory /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/pack
-  create directory /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/info
-  change permissions of /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock to config
-  change permissions of /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock to config
-  change permissions of /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock to config
-  create directory /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/b5
-  create hard link from /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/b5/a291c65b9baaa57a4501b36acdf21b94296972 to /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/b5/tmp_obj_UOmBrO
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/b5/tmp_obj_UOmBrO
-  create directory /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/22
-  create hard link from /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/22/804ce2ac4b20517bc145f8f82247efe77fb71b to /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/22/tmp_obj_WLGklU
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/22/tmp_obj_WLGklU
-  create directory /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/28
-  create hard link from /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/28/e6b249b64fd09f21345a04fb2f93741ffa07fa to /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/28/tmp_obj_yjot6Y
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/28/tmp_obj_yjot6Y
-  create directory /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/e5
-  create hard link from /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/e5/7b23384665222701e3dc738bc539847bbb3bf3 to /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/e5/tmp_obj_STXYuY
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/e5/tmp_obj_STXYuY
-  create hard link from /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/28/5a0c90135c48893303d10fe8a47d992db00a36 to /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/28/tmp_obj_MUrzc1
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/28/tmp_obj_MUrzc1
-  create directory /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/75
-  create hard link from /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/75/537ef116e33f81b5122c04cd477192ebf37a31 to /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/75/tmp_obj_evfPSZ
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/75/tmp_obj_evfPSZ
-  rename /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/shallow.lock to shallow
-  rename /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/packed-refs.lock
-  create directory /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs/remotes
-  create directory /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs/remotes/origin
-  create directory /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/logs
-  create directory /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/logs/refs
-  create directory /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/logs/refs/remotes
-  create directory /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/logs/refs/remotes/origin
-  rename /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs/remotes/origin/HEAD.lock to HEAD
-  rename /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/HEAD.lock to HEAD
-  create directory /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/logs/refs/heads
-  rename /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs/heads/master.lock to master
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/HEAD.lock
-  change permissions of /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock to config
-  change permissions of /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config.lock to config
-  create directory /tmp/nimble_3339/githubcom_fowlmouthhorde3d/src
-  rename /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/index.lock to index
+  create directory /tmp/nimble_2643
+  create directory /tmp/nimble_2643/githubcom_fowlmouthhorde3d
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d
+  create directory /tmp/nimble_2643/githubcom_fowlmouthhorde3d
+  create directory /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git
+  create directory /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git
+  create directory /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/branches
+  create directory /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/info
+  create directory /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks
+  create directory /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs
+  create directory /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/heads
+  create directory /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/tags
+  rename /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock to config
+  change permissions of /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock to config
+  change permissions of /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock to config
+  change permissions of /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock to config
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/tTgJ9fE
+  create symbolic link from /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/tTgJ9fE to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/tTgJ9fE
+  create directory /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects
+  create directory /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/pack
+  create directory /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/info
+  change permissions of /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock to config
+  change permissions of /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock to config
+  change permissions of /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock to config
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock
+  change permissions of /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock to config
+  create hard link from /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/pack/pack-d6c7deda72cdc753ccaae004906539af5e7a4db0.pack to /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/pack/tmp_pack_QzVtUx
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/pack/tmp_pack_QzVtUx
+  create hard link from /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/pack/pack-d6c7deda72cdc753ccaae004906539af5e7a4db0.idx to /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/pack/tmp_idx_stGaRC
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/pack/tmp_idx_stGaRC
+  rename /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/shallow.lock to shallow
+  rename /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/packed-refs.lock
+  create directory /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/remotes
+  create directory /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/remotes/origin
+  create directory /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs
+  create directory /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs/refs
+  create directory /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs/refs/remotes
+  create directory /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs/refs/heads
+  rename /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/HEAD.lock
+  change permissions of /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock to config
+  change permissions of /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config.lock to config
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/pack/pack-d6c7deda72cdc753ccaae004906539af5e7a4db0.keep
+  create directory /tmp/nimble_2643/githubcom_fowlmouthhorde3d/src
+  rename /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/index.lock to index
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -248,76 +294,73 @@ rmdir('/tmp/nimble_3339')
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/horde3d-1.0
   create directory /home/runner/.nimble/pkgs/horde3d-1.0/src
-  change permissions of /home/runner/.nimble/pkgs/horde3d-1.0/src/h3d.nim to rw-r--r--
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgs
-  create directory /home/runner/.nimble/pkgs/horde3d-1.0
-  create directory /home/runner/.nimble/pkgs/horde3d-1.0/src
+  create file /home/runner/.nimble/pkgs/horde3d-1.0/src/h3d_util.nim
   change permissions of /home/runner/.nimble/pkgs/horde3d-1.0/src/h3d_util.nim to rw-r--r--
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/horde3d-1.0
+  create directory /home/runner/.nimble/pkgs/horde3d-1.0/src
+  create file /home/runner/.nimble/pkgs/horde3d-1.0/src/h3d.nim
+  change permissions of /home/runner/.nimble/pkgs/horde3d-1.0/src/h3d.nim to rw-r--r--
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgs
+  create directory /home/runner/.nimble/pkgs/horde3d-1.0
+  create file /home/runner/.nimble/pkgs/horde3d-1.0/horde3d.babel
   change permissions of /home/runner/.nimble/pkgs/horde3d-1.0/horde3d.babel to rw-r--r--
+  truncate file /home/runner/.nimble/pkgs/horde3d-1.0/horde3d.babel
   change permissions of /home/runner/.nimble/pkgs/horde3d-1.0/horde3d.babel to rw-r--r--
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs/remotes/origin/HEAD
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs/remotes/origin
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs/remotes
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs/tags
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs/heads/master
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs/heads
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/refs
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/info/exclude
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/info
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/branches
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/logs/refs/remotes/origin/HEAD
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/logs/refs/remotes/origin
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/logs/refs/remotes
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/logs/refs/heads/master
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/logs/refs/heads
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/logs/refs
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/logs/HEAD
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/logs
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/description
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks/pre-push.sample
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks/update.sample
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks/post-update.sample
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/hooks
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/shallow
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/config
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/index
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/b5/a291c65b9baaa57a4501b36acdf21b94296972
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/b5
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/info
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/e5/7b23384665222701e3dc738bc539847bbb3bf3
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/e5
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/22/804ce2ac4b20517bc145f8f82247efe77fb71b
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/22
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/75/537ef116e33f81b5122c04cd477192ebf37a31
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/75
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/pack
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/28/e6b249b64fd09f21345a04fb2f93741ffa07fa
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/28/5a0c90135c48893303d10fe8a47d992db00a36
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects/28
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/objects
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/packed-refs
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git/HEAD
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/.git
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/src/h3d.nim
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/src/h3d_util.nim
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/src
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d/horde3d.babel
-  delete /tmp/nimble_3339/githubcom_fowlmouthhorde3d
-  delete /tmp/nimble_3339
+  create file /home/runner/.nimble/pkgs/horde3d-1.0/nimblemeta.json
+  create file /home/runner/.nimble/nimbledata.json
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/heads/master
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/heads
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/tags
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/remotes/origin
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs/remotes
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/refs
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/HEAD
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs/refs/heads/master
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs/refs/heads
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs/refs/remotes
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs/refs
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs/HEAD
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/logs
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/index
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/branches
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/config
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/pack/pack-d6c7deda72cdc753ccaae004906539af5e7a4db0.idx
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/pack/pack-d6c7deda72cdc753ccaae004906539af5e7a4db0.pack
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/pack
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects/info
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/objects
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/packed-refs
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/shallow
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/description
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/info/exclude
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/info
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks/pre-push.sample
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks/update.sample
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks/post-update.sample
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git/hooks
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/.git
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/src/h3d_util.nim
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/src/h3d.nim
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/src
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d/horde3d.babel
+  delete /tmp/nimble_2643/githubcom_fowlmouthhorde3d
+  delete /tmp/nimble_2643
