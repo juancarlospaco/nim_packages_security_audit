@@ -1,256 +1,272 @@
     Reading official package list
 Downloading https://github.com/nim-lang/opencl using git
+  Verifying dependencies for opencl@1.0
+ Installing opencl@1.0
+open('/workspace/destdir/ssl/openssl.cnf', 0, 0x00000000000001b6)
+open('/home/runner/.config/nimble/nimble.ini', 524288, 0x00000000000001b6)
+open('/home/runner/.config/babel/babel.ini', 524288, 0x00000000000001b6)
+writev(1, 0x00007ffd6655cdc0, 2)
+open('/home/runner/.nimble/packages_official.json', 524288, 0x00000000000001b6)
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_3606', 0x00000000000001ff)
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl', 0x00000000000001ff)
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl')
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl', 0x00000000000001ff)
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git', 0x00000000000001ff)
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/info/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/branches/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/refs/heads', 0x00000000000001ff)
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/refs/tags', 0x00000000000001ff)
-rename('/tmp/nimble_3606/githubcom_nimlangopencl/.git/HEAD.lock', '/tmp/nimble_3606/githubcom_nimlangopencl/.git/HEAD')
-rename('/tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock', '/tmp/nimble_3606/githubcom_nimlangopencl/.git/config')
-chmod('/tmp/nimble_3606/githubcom_nimlangopencl/.git/config', 0x00000000000081e4)
-chmod('/tmp/nimble_3606/githubcom_nimlangopencl/.git/config', 0x00000000000081a4)
-chmod('/tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock', '/tmp/nimble_3606/githubcom_nimlangopencl/.git/config')
-chmod('/tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock', '/tmp/nimble_3606/githubcom_nimlangopencl/.git/config')
-chmod('/tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock', '/tmp/nimble_3606/githubcom_nimlangopencl/.git/config')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/t7JMaVn')
-symlink('testing', '/tmp/nimble_3606/githubcom_nimlangopencl/.git/t7JMaVn')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/t7JMaVn')
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects', 0x00000000000001ff)
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/pack', 0x00000000000001ff)
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/info', 0x00000000000001ff)
-chmod('/tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock', '/tmp/nimble_3606/githubcom_nimlangopencl/.git/config')
-chmod('/tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock', '/tmp/nimble_3606/githubcom_nimlangopencl/.git/config')
-chmod('/tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock', '/tmp/nimble_3606/githubcom_nimlangopencl/.git/config')
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/ba', 0x00000000000001ff)
-link('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/ba/tmp_obj_zkCANk', '/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/ba/d8d9c13821b21fa95a1dc78d13ecfa51b93944')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/ba/tmp_obj_zkCANk')
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/04', 0x00000000000001ff)
-link('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/04/tmp_obj_zAAFMp', '/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/04/9dcb349e19a5e443466b2c821f6cc0bb3a279c')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/04/tmp_obj_zAAFMp')
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/85', 0x00000000000001ff)
-link('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/85/tmp_obj_XutCEq', '/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/85/3b46db127831eb9f8e8a7a8576e41c98619be4')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/85/tmp_obj_XutCEq')
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/b4', 0x00000000000001ff)
-link('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/b4/tmp_obj_ZJA6lv', '/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/b4/abcaa2aaea7eb76d154bd647c6feeb5b2ada9f')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/b4/tmp_obj_ZJA6lv')
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/db', 0x00000000000001ff)
-link('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/db/tmp_obj_1YJDkA', '/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/db/a1fc0ef117f7d314804a3d4d62d1297513d19c')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/db/tmp_obj_1YJDkA')
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/f5', 0x00000000000001ff)
-link('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/f5/tmp_obj_vYZ1GG', '/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/f5/ab3f6c038609671cad241dbd22228ca73187a1')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/f5/tmp_obj_vYZ1GG')
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/fc', 0x00000000000001ff)
-link('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/fc/tmp_obj_3x3W7K', '/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/fc/d3e31e1598a1c24d744bce990a089045bb91cd')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/fc/tmp_obj_3x3W7K')
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/d2', 0x00000000000001ff)
-link('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/d2/tmp_obj_l7iY5P', '/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/d2/6e35f9de1ba69343f558734c1b5fec4142556d')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/d2/tmp_obj_l7iY5P')
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/39', 0x00000000000001ff)
-link('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/39/tmp_obj_vaU7sU', '/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/39/05a86d54f2ec9ddeac67b9d670ddf777e5ed07')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/39/tmp_obj_vaU7sU')
-rename('/tmp/nimble_3606/githubcom_nimlangopencl/.git/shallow.lock', '/tmp/nimble_3606/githubcom_nimlangopencl/.git/shallow')
-rename('/tmp/nimble_3606/githubcom_nimlangopencl/.git/packed-refs.new', '/tmp/nimble_3606/githubcom_nimlangopencl/.git/packed-refs')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/packed-refs.lock')
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/refs/remotes/origin', 0x00000000000001ff)
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/logs', 0x00000000000001ff)
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/logs/refs', 0x00000000000001ff)
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/logs/refs/remotes', 0x00000000000001ff)
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/logs/refs/remotes/origin', 0x00000000000001ff)
-rename('/tmp/nimble_3606/githubcom_nimlangopencl/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_3606/githubcom_nimlangopencl/.git/refs/remotes/origin/HEAD')
-rename('/tmp/nimble_3606/githubcom_nimlangopencl/.git/HEAD.lock', '/tmp/nimble_3606/githubcom_nimlangopencl/.git/HEAD')
-mkdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/logs/refs/heads', 0x00000000000001ff)
-rename('/tmp/nimble_3606/githubcom_nimlangopencl/.git/refs/heads/master.lock', '/tmp/nimble_3606/githubcom_nimlangopencl/.git/refs/heads/master')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/HEAD.lock')
-chmod('/tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock', '/tmp/nimble_3606/githubcom_nimlangopencl/.git/config')
-chmod('/tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock', 0x00000000000001a4)
-rename('/tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock', '/tmp/nimble_3606/githubcom_nimlangopencl/.git/config')
+mkdir('/tmp/nimble_3292', 0x00000000000001ff)
+mkdir('/tmp/nimble_3292/githubcom_nimlangopencl', 0x00000000000001ff)
+writev(1, 0x00007ffd6655ce80, 2)
+open('/tmp/nimble_3292/githubcom_nimlangopencl', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_3292/githubcom_nimlangopencl')
+mkdir('/tmp/nimble_3292/githubcom_nimlangopencl', 0x00000000000001ff)
+mkdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git', 0x00000000000001ff)
+mkdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/branches/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/info/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/heads', 0x00000000000001ff)
+mkdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/tags', 0x00000000000001ff)
+rename('/tmp/nimble_3292/githubcom_nimlangopencl/.git/HEAD.lock', '/tmp/nimble_3292/githubcom_nimlangopencl/.git/HEAD')
+rename('/tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock', '/tmp/nimble_3292/githubcom_nimlangopencl/.git/config')
+chmod('/tmp/nimble_3292/githubcom_nimlangopencl/.git/config', 0x00000000000081e4)
+chmod('/tmp/nimble_3292/githubcom_nimlangopencl/.git/config', 0x00000000000081a4)
+chmod('/tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock', '/tmp/nimble_3292/githubcom_nimlangopencl/.git/config')
+chmod('/tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock', '/tmp/nimble_3292/githubcom_nimlangopencl/.git/config')
+chmod('/tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock', '/tmp/nimble_3292/githubcom_nimlangopencl/.git/config')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/tfKWghw')
+symlink('testing', '/tmp/nimble_3292/githubcom_nimlangopencl/.git/tfKWghw')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/tfKWghw')
+mkdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/objects', 0x00000000000001ff)
+mkdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/pack', 0x00000000000001ff)
+mkdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/info', 0x00000000000001ff)
+chmod('/tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock', '/tmp/nimble_3292/githubcom_nimlangopencl/.git/config')
+chmod('/tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock', '/tmp/nimble_3292/githubcom_nimlangopencl/.git/config')
+chmod('/tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock', '/tmp/nimble_3292/githubcom_nimlangopencl/.git/config')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock')
+chmod('/tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock', '/tmp/nimble_3292/githubcom_nimlangopencl/.git/config')
+link('/tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/pack/tmp_pack_fBV9j8', '/tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/pack/pack-3716b123d3dcff78617604517b8109b3c8c4d835.pack')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/pack/tmp_pack_fBV9j8')
+link('/tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/pack/tmp_idx_72tx3b', '/tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/pack/pack-3716b123d3dcff78617604517b8109b3c8c4d835.idx')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/pack/tmp_idx_72tx3b')
+rename('/tmp/nimble_3292/githubcom_nimlangopencl/.git/shallow.lock', '/tmp/nimble_3292/githubcom_nimlangopencl/.git/shallow')
+rename('/tmp/nimble_3292/githubcom_nimlangopencl/.git/packed-refs.new', '/tmp/nimble_3292/githubcom_nimlangopencl/.git/packed-refs')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/packed-refs.lock')
+mkdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/remotes/origin', 0x00000000000001ff)
+mkdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/logs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/logs/refs', 0x00000000000001ff)
+mkdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/logs/refs/remotes', 0x00000000000001ff)
+mkdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/logs/refs/remotes/origin', 0x00000000000001ff)
+rename('/tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/remotes/origin/HEAD.lock', '/tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/remotes/origin/HEAD')
+rename('/tmp/nimble_3292/githubcom_nimlangopencl/.git/HEAD.lock', '/tmp/nimble_3292/githubcom_nimlangopencl/.git/HEAD')
+mkdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/logs/refs/heads', 0x00000000000001ff)
+rename('/tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/heads/master.lock', '/tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/heads/master')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/HEAD.lock')
+chmod('/tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock', '/tmp/nimble_3292/githubcom_nimlangopencl/.git/config')
+chmod('/tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock', 0x00000000000001a4)
+rename('/tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock', '/tmp/nimble_3292/githubcom_nimlangopencl/.git/config')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/pack/pack-3716b123d3dcff78617604517b8109b3c8c4d835.keep')
 mkdir('examples', 0x00000000000001ff)
 mkdir('src', 0x00000000000001ff)
-rename('/tmp/nimble_3606/githubcom_nimlangopencl/.git/index.lock', '/tmp/nimble_3606/githubcom_nimlangopencl/.git/index')  Verifying dependencies for opencl@1.0
- Installing opencl@1.0
-    Copying file /tmp/nimble_3606/githubcom_nimlangopencl/src/opencl.nim to /home/runner/.nimble/pkgs/opencl-1.0/opencl.nim
-    Copying file /tmp/nimble_3606/githubcom_nimlangopencl/opencl.nimble to /home/runner/.nimble/pkgs/opencl-1.0/opencl.nimble
+rename('/tmp/nimble_3292/githubcom_nimlangopencl/.git/index.lock', '/tmp/nimble_3292/githubcom_nimlangopencl/.git/index')
+open('/tmp/nimble_3292/githubcom_nimlangopencl', 589824, 0x0000000000000000)
+open('/tmp/nimble_3292/githubcom_nimlangopencl/opencl.nimble', 524288, 0x00000000000001b6)
+open('/tmp/nimble_3292/githubcom_nimlangopencl/src', 589824, 0x0000000000000000)
+open('/tmp/nimble_3292/githubcom_nimlangopencl', 589824, 0x0000000000000000)
+open('/tmp/nimble_3292/githubcom_nimlangopencl', 589824, 0x0000000000000000)
+writev(1, 0x00007ffd6655c840, 2)
+open('/home/runner/.nimble/pkgs', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/opencv-0.1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/opencv-0.1.0/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/opengl-1.2.6', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/opengl-1.2.6/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/x11-1.1', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/x11-1.1/nimblemeta.json', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/optionsutils-1.2.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/optionsutils-1.2.0/nimblemeta.json', 524288, 0x00000000000001b6)
+writev(1, 0x00007ffc21991bc0, 2)
+writev(1, 0x00007ffc21991c70, 2)
+writev(1, 0x00007ffc21991c70, 2)
+writev(1, 0x00007ffc21991c70, 2)
+writev(1, 0x00007ffd6655cc70, 2)
+mkdir('/home', 0x00000000000001ff)
+mkdir('/home/runner', 0x00000000000001ff)
+mkdir('/home/runner/.nimble', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgs/opencl-1.0', 0x00000000000001ff)
+open('/tmp/nimble_3292/githubcom_nimlangopencl/src', 589824, 0x0000000000000000)
+mkdir('/home', 0x00000000000001ff)    Copying file /tmp/nimble_3292/githubcom_nimlangopencl/src/opencl.nim to /home/runner/.nimble/pkgs/opencl-1.0/opencl.nim
+    Copying file /tmp/nimble_3292/githubcom_nimlangopencl/opencl.nimble to /home/runner/.nimble/pkgs/opencl-1.0/opencl.nimble
    Success: opencl installed successfully.
 
-mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.nimble', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgs/opencl-1.0', 0x00000000000001ff)
-mkdir('/home', 0x00000000000001ff)
-mkdir('/home/runner', 0x00000000000001ff)
-mkdir('/home/runner/.nimble', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgs/opencl-1.0', 0x00000000000001ff)
+writev(1, 0x00007ffd6655c9e0, 2)
+open('/tmp/nimble_3292/githubcom_nimlangopencl/src/opencl.nim', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/opencl-1.0/opencl.nim', 524865, 0x00000000000001b6)
+writev(5, 0x00007ffd6655c900, 2)
+writev(5, 0x00007ffd6655c900, 2)
+writev(5, 0x00007ffd6655c900, 2)
+writev(5, 0x00007ffd6655c900, 2)
+writev(5, 0x00007ffd6655c900, 2)
+writev(5, 0x00007ffd6655c900, 2)
 chmod('/home/runner/.nimble/pkgs/opencl-1.0/opencl.nim', 0x00000000000001a4)
+writev(1, 0x00007ffd6655cc40, 2)
+open('/tmp/nimble_3292/githubcom_nimlangopencl/opencl.nimble', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/opencl-1.0/opencl.nimble', 524865, 0x00000000000001b6)
+writev(4, 0x00007ffd6655cba0, 2)
 chmod('/home/runner/.nimble/pkgs/opencl-1.0/opencl.nimble', 0x00000000000001a4)
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/README.md')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/refs/remotes/origin')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/refs/remotes')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/refs/tags')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/refs/heads/master')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/refs/heads')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/refs')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/info/exclude')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/info')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/branches')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/logs/refs/remotes/origin/HEAD')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/logs/refs/remotes/origin')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/logs/refs/remotes')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/logs/refs/heads/master')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/logs/refs/heads')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/logs/refs')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/logs/HEAD')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/logs')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/description')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks/pre-rebase.sample')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks/applypatch-msg.sample')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks/pre-push.sample')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks/pre-merge-commit.sample')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks/pre-receive.sample')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks/update.sample')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks/pre-commit.sample')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks/pre-applypatch.sample')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks/commit-msg.sample')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks/fsmonitor-watchman.sample')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks/prepare-commit-msg.sample')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks/post-update.sample')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/shallow')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/config')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/index')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/f5/ab3f6c038609671cad241dbd22228ca73187a1')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/f5')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/info')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/fc/d3e31e1598a1c24d744bce990a089045bb91cd')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/fc')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/85/3b46db127831eb9f8e8a7a8576e41c98619be4')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/85')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/39/05a86d54f2ec9ddeac67b9d670ddf777e5ed07')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/39')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/b4/abcaa2aaea7eb76d154bd647c6feeb5b2ada9f')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/b4')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/04/9dcb349e19a5e443466b2c821f6cc0bb3a279c')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/04')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/d2/6e35f9de1ba69343f558734c1b5fec4142556d')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/d2')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/db/a1fc0ef117f7d314804a3d4d62d1297513d19c')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/db')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/ba/d8d9c13821b21fa95a1dc78d13ecfa51b93944')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/ba')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/pack')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git/objects')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/packed-refs')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/.git/HEAD')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/.git')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/src/opencl.nim')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/src')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/examples/test.nim')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl/examples')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/opencl.nimble')
-unlink('/tmp/nimble_3606/githubcom_nimlangopencl/LICENSE')
-rmdir('/tmp/nimble_3606/githubcom_nimlangopencl')
-rmdir('/tmp/nimble_3606')
+open('/home/runner/.nimble/pkgs/opencl-1.0/nimblemeta.json', 524865, 0x00000000000001b6)
+writev(3, 0x00007ffd6655cad0, 2)
+open('/home/runner/.nimble/nimbledata.json', 524865, 0x00000000000001b6)
+writev(3, 0x00007ffd6655cb40, 2)
+writev(1, 0x00007ffd6655cc70, 2)
+open('/home/runner/.nimble/pkgs/opencl-1.0', 589824, 0x0000000000000000)
+open('/home/runner/.nimble/pkgs/opencl-1.0/opencl.nimble', 524288, 0x00000000000001b6)
+open('/home/runner/.nimble/pkgs/opencl-1.0/src', 589824, 0x0000000000000000)
+open('/tmp/nimble_3292', 589824, 0x0000000000000000)
+open('/tmp/nimble_3292/githubcom_nimlangopencl', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/opencl.nimble')
+open('/tmp/nimble_3292/githubcom_nimlangopencl/.git', 589824, 0x0000000000000000)
+open('/tmp/nimble_3292/githubcom_nimlangopencl/.git/refs', 589824, 0x0000000000000000)
+open('/tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/heads', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/heads/master')
+rmdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/heads')
+open('/tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/tags', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/tags')
+open('/tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/remotes', 589824, 0x0000000000000000)
+open('/tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/remotes/origin', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/remotes/origin')
+rmdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/remotes')
+rmdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/refs')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/HEAD')
+open('/tmp/nimble_3292/githubcom_nimlangopencl/.git/logs', 589824, 0x0000000000000000)
+open('/tmp/nimble_3292/githubcom_nimlangopencl/.git/logs/refs', 589824, 0x0000000000000000)
+open('/tmp/nimble_3292/githubcom_nimlangopencl/.git/logs/refs/heads', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/logs/refs/heads/master')
+rmdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/logs/refs/heads')
+open('/tmp/nimble_3292/githubcom_nimlangopencl/.git/logs/refs/remotes', 589824, 0x0000000000000000)
+open('/tmp/nimble_3292/githubcom_nimlangopencl/.git/logs/refs/remotes/origin', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/logs/refs/remotes/origin/HEAD')
+rmdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/logs/refs/remotes/origin')
+rmdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/logs/refs/remotes')
+rmdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/logs/refs')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/logs/HEAD')
+rmdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/logs')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/index')
+open('/tmp/nimble_3292/githubcom_nimlangopencl/.git/branches', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/branches')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/config')
+open('/tmp/nimble_3292/githubcom_nimlangopencl/.git/objects', 589824, 0x0000000000000000)
+open('/tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/pack', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/pack/pack-3716b123d3dcff78617604517b8109b3c8c4d835.idx')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/pack/pack-3716b123d3dcff78617604517b8109b3c8c4d835.pack')
+rmdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/pack')
+open('/tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/info', 589824, 0x0000000000000000)
+rmdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/info')
+rmdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/objects')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/packed-refs')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/shallow')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/description')
+open('/tmp/nimble_3292/githubcom_nimlangopencl/.git/info', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/info/exclude')
+rmdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/info')
+open('/tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks/pre-receive.sample')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks/applypatch-msg.sample')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks/commit-msg.sample')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks/pre-commit.sample')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks/pre-push.sample')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks/pre-rebase.sample')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks/pre-merge-commit.sample')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks/prepare-commit-msg.sample')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks/update.sample')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks/pre-applypatch.sample')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks/post-update.sample')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks/fsmonitor-watchman.sample')
+rmdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks')
+rmdir('/tmp/nimble_3292/githubcom_nimlangopencl/.git')
+open('/tmp/nimble_3292/githubcom_nimlangopencl/src', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/src/opencl.nim')
+rmdir('/tmp/nimble_3292/githubcom_nimlangopencl/src')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/README.md')
+open('/tmp/nimble_3292/githubcom_nimlangopencl/examples', 589824, 0x0000000000000000)
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/examples/test.nim')
+rmdir('/tmp/nimble_3292/githubcom_nimlangopencl/examples')
+unlink('/tmp/nimble_3292/githubcom_nimlangopencl/LICENSE')
+rmdir('/tmp/nimble_3292/githubcom_nimlangopencl')
+rmdir('/tmp/nimble_3292')
   create directory /tmp
-  create directory /tmp/nimble_3606
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl
-  delete /tmp/nimble_3606/githubcom_nimlangopencl
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git/info
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git/branches
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git/refs
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git/refs/heads
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git/refs/tags
-  rename /tmp/nimble_3606/githubcom_nimlangopencl/.git/HEAD.lock to HEAD
-  rename /tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock to config
-  change permissions of /tmp/nimble_3606/githubcom_nimlangopencl/.git/config to rwxr--r--
-  change permissions of /tmp/nimble_3606/githubcom_nimlangopencl/.git/config to rw-r--r--
-  change permissions of /tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock to config
-  change permissions of /tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock to config
-  change permissions of /tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock to config
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/t7JMaVn
-  create symbolic link from /tmp/nimble_3606/githubcom_nimlangopencl/.git/t7JMaVn to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/t7JMaVn
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/pack
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/info
-  change permissions of /tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock to config
-  change permissions of /tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock to config
-  change permissions of /tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock to config
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/ba
-  create hard link from /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/ba/d8d9c13821b21fa95a1dc78d13ecfa51b93944 to /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/ba/tmp_obj_zkCANk
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/ba/tmp_obj_zkCANk
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/04
-  create hard link from /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/04/9dcb349e19a5e443466b2c821f6cc0bb3a279c to /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/04/tmp_obj_zAAFMp
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/04/tmp_obj_zAAFMp
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/85
-  create hard link from /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/85/3b46db127831eb9f8e8a7a8576e41c98619be4 to /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/85/tmp_obj_XutCEq
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/85/tmp_obj_XutCEq
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/b4
-  create hard link from /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/b4/abcaa2aaea7eb76d154bd647c6feeb5b2ada9f to /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/b4/tmp_obj_ZJA6lv
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/b4/tmp_obj_ZJA6lv
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/db
-  create hard link from /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/db/a1fc0ef117f7d314804a3d4d62d1297513d19c to /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/db/tmp_obj_1YJDkA
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/db/tmp_obj_1YJDkA
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/f5
-  create hard link from /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/f5/ab3f6c038609671cad241dbd22228ca73187a1 to /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/f5/tmp_obj_vYZ1GG
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/f5/tmp_obj_vYZ1GG
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/fc
-  create hard link from /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/fc/d3e31e1598a1c24d744bce990a089045bb91cd to /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/fc/tmp_obj_3x3W7K
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/fc/tmp_obj_3x3W7K
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/d2
-  create hard link from /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/d2/6e35f9de1ba69343f558734c1b5fec4142556d to /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/d2/tmp_obj_l7iY5P
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/d2/tmp_obj_l7iY5P
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/39
-  create hard link from /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/39/05a86d54f2ec9ddeac67b9d670ddf777e5ed07 to /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/39/tmp_obj_vaU7sU
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/39/tmp_obj_vaU7sU
-  rename /tmp/nimble_3606/githubcom_nimlangopencl/.git/shallow.lock to shallow
-  rename /tmp/nimble_3606/githubcom_nimlangopencl/.git/packed-refs.new to packed-refs
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/packed-refs.lock
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git/refs/remotes
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git/refs/remotes/origin
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git/logs
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git/logs/refs
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git/logs/refs/remotes
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git/logs/refs/remotes/origin
-  rename /tmp/nimble_3606/githubcom_nimlangopencl/.git/refs/remotes/origin/HEAD.lock to HEAD
-  rename /tmp/nimble_3606/githubcom_nimlangopencl/.git/HEAD.lock to HEAD
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/.git/logs/refs/heads
-  rename /tmp/nimble_3606/githubcom_nimlangopencl/.git/refs/heads/master.lock to master
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/HEAD.lock
-  change permissions of /tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock to config
-  change permissions of /tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock to rw-r--r--
-  rename /tmp/nimble_3606/githubcom_nimlangopencl/.git/config.lock to config
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/examples
-  create directory /tmp/nimble_3606/githubcom_nimlangopencl/src
-  rename /tmp/nimble_3606/githubcom_nimlangopencl/.git/index.lock to index
+  create directory /tmp/nimble_3292
+  create directory /tmp/nimble_3292/githubcom_nimlangopencl
+  delete /tmp/nimble_3292/githubcom_nimlangopencl
+  create directory /tmp/nimble_3292/githubcom_nimlangopencl
+  create directory /tmp/nimble_3292/githubcom_nimlangopencl/.git
+  create directory /tmp/nimble_3292/githubcom_nimlangopencl/.git
+  create directory /tmp/nimble_3292/githubcom_nimlangopencl/.git/branches
+  create directory /tmp/nimble_3292/githubcom_nimlangopencl/.git/info
+  create directory /tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks
+  create directory /tmp/nimble_3292/githubcom_nimlangopencl/.git/refs
+  create directory /tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/heads
+  create directory /tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/tags
+  rename /tmp/nimble_3292/githubcom_nimlangopencl/.git/HEAD.lock to HEAD
+  rename /tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock to config
+  change permissions of /tmp/nimble_3292/githubcom_nimlangopencl/.git/config to rwxr--r--
+  change permissions of /tmp/nimble_3292/githubcom_nimlangopencl/.git/config to rw-r--r--
+  change permissions of /tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock to config
+  change permissions of /tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock to config
+  change permissions of /tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock to config
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/tfKWghw
+  create symbolic link from /tmp/nimble_3292/githubcom_nimlangopencl/.git/tfKWghw to /home/runner/work/nim_packages_security_audit/nim_packages_security_audit/testing
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/tfKWghw
+  create directory /tmp/nimble_3292/githubcom_nimlangopencl/.git/objects
+  create directory /tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/pack
+  create directory /tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/info
+  change permissions of /tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock to config
+  change permissions of /tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock to config
+  change permissions of /tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock to config
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock
+  change permissions of /tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock to config
+  create hard link from /tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/pack/pack-3716b123d3dcff78617604517b8109b3c8c4d835.pack to /tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/pack/tmp_pack_fBV9j8
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/pack/tmp_pack_fBV9j8
+  create hard link from /tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/pack/pack-3716b123d3dcff78617604517b8109b3c8c4d835.idx to /tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/pack/tmp_idx_72tx3b
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/pack/tmp_idx_72tx3b
+  rename /tmp/nimble_3292/githubcom_nimlangopencl/.git/shallow.lock to shallow
+  rename /tmp/nimble_3292/githubcom_nimlangopencl/.git/packed-refs.new to packed-refs
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/packed-refs.lock
+  create directory /tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/remotes
+  create directory /tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/remotes/origin
+  create directory /tmp/nimble_3292/githubcom_nimlangopencl/.git/logs
+  create directory /tmp/nimble_3292/githubcom_nimlangopencl/.git/logs/refs
+  create directory /tmp/nimble_3292/githubcom_nimlangopencl/.git/logs/refs/remotes
+  create directory /tmp/nimble_3292/githubcom_nimlangopencl/.git/logs/refs/remotes/origin
+  rename /tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/remotes/origin/HEAD.lock to HEAD
+  rename /tmp/nimble_3292/githubcom_nimlangopencl/.git/HEAD.lock to HEAD
+  create directory /tmp/nimble_3292/githubcom_nimlangopencl/.git/logs/refs/heads
+  rename /tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/heads/master.lock to master
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/HEAD.lock
+  change permissions of /tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock to config
+  change permissions of /tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock to rw-r--r--
+  rename /tmp/nimble_3292/githubcom_nimlangopencl/.git/config.lock to config
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/pack/pack-3716b123d3dcff78617604517b8109b3c8c4d835.keep
+  create directory /tmp/nimble_3292/githubcom_nimlangopencl/examples
+  create directory /tmp/nimble_3292/githubcom_nimlangopencl/src
+  rename /tmp/nimble_3292/githubcom_nimlangopencl/.git/index.lock to index
   create directory /home
   create directory /home/runner
   create directory /home/runner/.nimble
@@ -261,73 +277,61 @@ rmdir('/tmp/nimble_3606')
   create directory /home/runner/.nimble
   create directory /home/runner/.nimble/pkgs
   create directory /home/runner/.nimble/pkgs/opencl-1.0
+  create file /home/runner/.nimble/pkgs/opencl-1.0/opencl.nim
   change permissions of /home/runner/.nimble/pkgs/opencl-1.0/opencl.nim to rw-r--r--
+  create file /home/runner/.nimble/pkgs/opencl-1.0/opencl.nimble
   change permissions of /home/runner/.nimble/pkgs/opencl-1.0/opencl.nimble to rw-r--r--
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/README.md
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/refs/remotes/origin/HEAD
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/refs/remotes/origin
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/refs/remotes
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/refs/tags
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/refs/heads/master
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/refs/heads
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/refs
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/info/exclude
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/info
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/branches
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/logs/refs/remotes/origin/HEAD
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/logs/refs/remotes/origin
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/logs/refs/remotes
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/logs/refs/heads/master
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/logs/refs/heads
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/logs/refs
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/logs/HEAD
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/logs
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/description
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks/pre-rebase.sample
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks/applypatch-msg.sample
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks/pre-push.sample
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks/pre-merge-commit.sample
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks/pre-receive.sample
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks/update.sample
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks/pre-commit.sample
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks/pre-applypatch.sample
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks/commit-msg.sample
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks/fsmonitor-watchman.sample
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks/prepare-commit-msg.sample
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks/post-update.sample
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/hooks
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/shallow
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/config
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/index
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/f5/ab3f6c038609671cad241dbd22228ca73187a1
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/f5
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/info
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/fc/d3e31e1598a1c24d744bce990a089045bb91cd
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/fc
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/85/3b46db127831eb9f8e8a7a8576e41c98619be4
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/85
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/39/05a86d54f2ec9ddeac67b9d670ddf777e5ed07
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/39
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/b4/abcaa2aaea7eb76d154bd647c6feeb5b2ada9f
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/b4
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/04/9dcb349e19a5e443466b2c821f6cc0bb3a279c
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/04
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/d2/6e35f9de1ba69343f558734c1b5fec4142556d
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/d2
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/db/a1fc0ef117f7d314804a3d4d62d1297513d19c
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/db
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/ba/d8d9c13821b21fa95a1dc78d13ecfa51b93944
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/ba
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects/pack
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/objects
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/packed-refs
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git/HEAD
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/.git
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/src/opencl.nim
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/src
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/examples/test.nim
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/examples
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/opencl.nimble
-  delete /tmp/nimble_3606/githubcom_nimlangopencl/LICENSE
-  delete /tmp/nimble_3606/githubcom_nimlangopencl
-  delete /tmp/nimble_3606
+  create file /home/runner/.nimble/pkgs/opencl-1.0/nimblemeta.json
+  truncate file /home/runner/.nimble/nimbledata.json
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/opencl.nimble
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/heads/master
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/heads
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/tags
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/remotes/origin/HEAD
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/remotes/origin
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/refs/remotes
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/refs
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/HEAD
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/logs/refs/heads/master
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/logs/refs/heads
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/logs/refs/remotes/origin/HEAD
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/logs/refs/remotes/origin
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/logs/refs/remotes
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/logs/refs
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/logs/HEAD
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/logs
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/index
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/branches
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/config
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/pack/pack-3716b123d3dcff78617604517b8109b3c8c4d835.idx
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/pack/pack-3716b123d3dcff78617604517b8109b3c8c4d835.pack
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/pack
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/objects/info
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/objects
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/packed-refs
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/shallow
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/description
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/info/exclude
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/info
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks/pre-receive.sample
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks/applypatch-msg.sample
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks/commit-msg.sample
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks/pre-commit.sample
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks/pre-push.sample
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks/pre-rebase.sample
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks/pre-merge-commit.sample
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks/prepare-commit-msg.sample
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks/update.sample
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks/pre-applypatch.sample
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks/post-update.sample
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks/fsmonitor-watchman.sample
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git/hooks
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/.git
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/src/opencl.nim
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/src
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/README.md
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/examples/test.nim
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/examples
+  delete /tmp/nimble_3292/githubcom_nimlangopencl/LICENSE
+  delete /tmp/nimble_3292/githubcom_nimlangopencl
+  delete /tmp/nimble_3292
