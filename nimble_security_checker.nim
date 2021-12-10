@@ -1,13 +1,13 @@
-import os, strutils, json, osproc, times
+import std/[os, strutils, json, osproc, times]
 
 const
   nimInstallCmd = "python3 tracexec.py /bin/bash init.sh -y"
-  checkCmd = "python3 tracexec.py nimble --noColor --verbose --accept install "
+  checkCmd = "python3 tracexec.py nimble --noColor --verbose --accept --noSSLCheck install "
   packages = "https://raw.githubusercontent.com/nim-lang/packages/master/packages.json"
   jsn = staticExec("curl -s " & packages)
 
 let serie = char(parseInt(now().format("d")) + 96)  # Do 1 "serie" per day of month.
-var errors = "exitCode, name\n"
+var errors = "exitCode\tname\n"
 
 
 if serie > 'z':  # if no packages to check, check Choosenim and init.sh
@@ -26,6 +26,9 @@ else:
         echo resultxt
         writeFile(resultxt, audit.output)
       else:
-        errors.add $audit.exitCode & ", " & name & "\n"
+        errors.addInt audit.exitCode
+        errors.add '\t'
+        errors.add name
+        errors.add '\n'
 
 writeFile("errors.csv.log", errors)
