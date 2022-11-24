@@ -14,16 +14,11 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-python@v4
+      with:
+        python-version: 3.10
 
     - name: Update Python PIP
       run: pip install --upgrade --disable-pip-version-check pip python-ptrace==0.9.1
-
-    - name: Cache choosenim
-      id: cache-choosenim
-      uses: actions/cache@v1
-      with:
-        path: ~/.choosenim
-        key: ${{ runner.os }}-choosenim-$CHOOSENIM_CHOOSE_VERSION
 
     - uses: jiro4989/setup-nim-action@v1
       with:
