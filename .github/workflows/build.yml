@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-python@v1
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
 
     - name: Update Python PIP
       run: pip install --upgrade --disable-pip-version-check pip python-ptrace==0.9.1
@@ -23,26 +23,19 @@ jobs:
         path: ~/.choosenim
         key: ${{ runner.os }}-choosenim-$CHOOSENIM_CHOOSE_VERSION
 
-    - uses: jiro4989/setup-nim-action@v1.0.2
+    - uses: jiro4989/setup-nim-action@v1
       with:
         nim-version: "stable"
 
     - name: Nimble Refresh
-      run: |
-        export PATH=$HOME/.nimble/bin:$PATH
-        nimble -y refresh
+      run: nimble --accept --noSSLCheck --noColor refresh
 
     - name: Compile
-      run: |
-        export PATH=$HOME/.nimble/bin:$PATH
-        nim c --panics:on nimble_security_checker.nim
+      run: nim c --panics:on nimble_security_checker.nim
 
     - name: Run
       timeout-minutes: 360  # 360 max
-      run: |
-        export CHOOSENIM_NO_ANALYTICS=1
-        export PATH=$HOME/.nimble/bin:$PATH
-        ./nimble_security_checker
+      run: ./nimble_security_checker
 
     - uses: stefanzweifel/git-auto-commit-action@v4.1.3
       with:
