@@ -1,10 +1,10 @@
 name: Nimble Security Audit
 
-# on:
-#   schedule:
-#     - cron: "0 0 * * 0"  # "0 0 * * *"
+on:
+  schedule:
+    - cron: "0 0 * * 0"  # "0 0 * * *"
 
-on: push
+# on: push
 
 jobs:
   build:
@@ -28,7 +28,7 @@ jobs:
       run: nimble --accept --noSSLCheck --noColor refresh
 
     - name: Compile
-      run: nim c --panics:on nimble_security_checker.nim
+      run: nim c --mm:arc --threads:off --panics:on nimble_security_checker.nim
 
     - name: Run
       timeout-minutes: 360  # 360 max
