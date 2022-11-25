@@ -3,8 +3,8 @@
 - Security Audit on all [Nim](http://nim-lang.org) packages and Nim instalation process, ["Bot"](https://github.com/juancarlospaco/nim_packages_security_audit/actions?query=workflow%3A%22Nimble+Security+Audit%22) powered by [GitHub Actions](https://github.com/features/actions) + [PTrace](https://en.wikipedia.org/wiki/Ptrace), runs all days by Cron per category.
 
 ![](https://img.shields.io/github/languages/top/juancarlospaco/nim_packages_security_audit?style=for-the-badge)
-![](https://img.shields.io/github/stars/juancarlospaco/nim_packages_security_audit?style=for-the-badge "Star webgui on GitHub!")
-![](https://img.shields.io/github/last-commit/juancarlospaco/nim_packages_security_audit?style=for-the-badge "Commits")
+![](https://img.shields.io/github/stars/juancarlospaco/nim_packages_security_audit?style=for-the-badge)
+![](https://img.shields.io/github/last-commit/juancarlospaco/nim_packages_security_audit?style=for-the-badge)
 
 ![](https://raw.githubusercontent.com/juancarlospaco/nim_packages_security_audit/master/robot-nim.png)
 
@@ -78,4 +78,3 @@ You dont, is a *repo bot*.
 
 If you develop some kind of library that does Plotting, Charts, Visualizations on Nim,
 would be nice to have some cool visualizations with the dataset of those audit logs!.
-
