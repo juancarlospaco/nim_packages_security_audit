@@ -5,7 +5,6 @@
 ![](https://img.shields.io/github/languages/top/juancarlospaco/nim_packages_security_audit?style=for-the-badge)
 ![](https://img.shields.io/github/stars/juancarlospaco/nim_packages_security_audit?style=for-the-badge "Star webgui on GitHub!")
 ![](https://img.shields.io/github/last-commit/juancarlospaco/nim_packages_security_audit?style=for-the-badge "Commits")
-![](https://github.com/juancarlospaco/nim_packages_security_audit/workflows/Nimble%20Security%20Audit/badge.svg?branch=master)
 
 ![](https://raw.githubusercontent.com/juancarlospaco/nim_packages_security_audit/master/robot-nim.png)
 
@@ -77,6 +76,6 @@ You dont, is a *repo bot*.
 
 # Help Wanted
 
-If you develop some kind of library that does Plotting, Charts, Visualizations on Nim, 
+If you develop some kind of library that does Plotting, Charts, Visualizations on Nim,
 would be nice to have some cool visualizations with the dataset of those audit logs!.
 
