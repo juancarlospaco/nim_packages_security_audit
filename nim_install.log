@@ -1,23 +1,34 @@
-choosenim-init: Downloading choosenim-0.6.0_linux_amd64
-[36m[1m      Info: [0m[36m[0mVersion 1.2.6 already selected
+choosenim-init: Downloading choosenim-0.8.4_linux_amd64
+[33m[1m    Prompt: [0m[0mCan choosenim record and send anonymised telemetry data? [y/n]
+[33m[1m        ... [0m[0mAnonymous aggregate user analytics allow us to prioritise
+[33m[1m        ... [0m[0mfixes and features based on how, where and when people use Nim.
+[33m[1m        ... [0m[0mFor more details see: https://goo.gl/NzUEPf.
+[33m[1m    Answer: [0m[0mForced Yes
+[36m[1m      Info: [0m[0mVersion 1.6.10 already selected
 choosenim-init: ChooseNim installed in /home/runner/.nimble/bin
 choosenim-init: You must now ensure that the Nimble bin dir is in your PATH.
 choosenim-init: Place the following line in the ~/.profile or ~/.bashrc file.
 choosenim-init:     export PATH=/home/runner/.nimble/bin:$PATH
-fchmodat(-100, '/tmp/choosenim-0.6.0_linux_amd64', 0x00000000000001ed)
+fchmodat(-100, '/tmp/choosenim-0.8.4_linux_amd64', 0x00000000000001ed)
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.choosenim', 0x00000000000001ff)
-rmdir('/tmp/nimble_3297')
+open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
+open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
+open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007fff67094600, 2)
+writev(1, 0x00007fff67094670, 2)
+open('/tmp/nimble_1892', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_1892')
 mkdir('/home', 0x00000000000001ff)
 mkdir('/home/runner', 0x00000000000001ff)
 mkdir('/home/runner/.choosenim', 0x00000000000001ff)
 mkdir('/home/runner/.choosenim/channels', 0x00000000000001ff)
-  change permissions of /tmp/choosenim-0.6.0_linux_amd64 to rwxr-xr-x
+  change permissions of /tmp/choosenim-0.8.4_linux_amd64 to rwxr-xr-x
   create directory /home
   create directory /home/runner
   create directory /home/runner/.choosenim
-  delete /tmp/nimble_3297
+  delete /tmp/nimble_1892
   create directory /home
   create directory /home/runner
   create directory /home/runner/.choosenim
