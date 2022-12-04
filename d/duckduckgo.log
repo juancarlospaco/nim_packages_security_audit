@@ -1,0 +1,24 @@
+    Reading official package list
+Downloading https://git.ozzuu.com/thisago/duckduckgo using git
+download.nim(93)         getTagsListRemote
+Error: unhandled exception: Unable to query remote tags for https://git.ozzuu.com/thisago/duckduckgo. Git returned: fatal: unable to access 'https://git.ozzuu.com/thisago/duckduckgo/': The requested URL returned error: 502
+ [OSError]
+open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
+open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
+open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffcd34cbbe0, 2)
+open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_3176', 0x00000000000001ff)
+mkdir('/tmp/nimble_3176/gitozzuucom_thisagoduckduckgo', 0x00000000000001ff)
+writev(1, 0x00007ffcd34cbca0, 2)
+open('/tmp/nimble_3176/gitozzuucom_thisagoduckduckgo', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_3176/gitozzuucom_thisagoduckduckgo')
+open('/tmp/nimble_3176', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_3176')
+writev(2, 0x00007ffcd34cb9e0, 2)
+  create directory /tmp
+  create directory /tmp/nimble_3176
+  create directory /tmp/nimble_3176/gitozzuucom_thisagoduckduckgo
+  delete /tmp/nimble_3176/gitozzuucom_thisagoduckduckgo
+  delete /tmp/nimble_3176
