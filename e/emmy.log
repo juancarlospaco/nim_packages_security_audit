@@ -1,22 +1,28 @@
     Reading official package list
-Downloading git@github.com:unicredit/emmy.git using git
+Downloading git@github.com:andreaferretti/emmy.git using git
 download.nim(93)         getTagsListRemote
-Error: unhandled exception: Unable to query remote tags for git@github.com:unicredit/emmy.git. Git returned: Warning: Permanently added the RSA host key for IP address '140.82.113.4' to the list of known hosts.
-git@github.com: Permission denied (publickey).
+Error: unhandled exception: Unable to query remote tags for git@github.com:andreaferretti/emmy.git. Git returned: git@github.com: Permission denied (publickey).
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
  [OSError]
+open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
+open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
+open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007fff8d94b560, 2)
+open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_4344', 0x00000000000001ff)
-mkdir('/tmp/nimble_4344/_gitgithubcomunicreditemmygit', 0x00000000000001ff)
-rmdir('/tmp/nimble_4344/_gitgithubcomunicreditemmygit')
-mkdir('/home/runner/.ssh', 0x00000000000001c0)
-rmdir('/tmp/nimble_4344')
+mkdir('/tmp/nimble_2071', 0x00000000000001ff)
+mkdir('/tmp/nimble_2071/_gitgithubcomandreaferrettiemmygit', 0x00000000000001ff)
+writev(1, 0x00007fff8d94b620, 2)
+open('/tmp/nimble_2071/_gitgithubcomandreaferrettiemmygit', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2071/_gitgithubcomandreaferrettiemmygit')
+open('/tmp/nimble_2071', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2071')
+writev(2, 0x00007fff8d94b360, 2)
   create directory /tmp
-  create directory /tmp/nimble_4344
-  create directory /tmp/nimble_4344/_gitgithubcomunicreditemmygit
-  delete /tmp/nimble_4344/_gitgithubcomunicreditemmygit
-  create directory /home/runner/.ssh
-  delete /tmp/nimble_4344
+  create directory /tmp/nimble_2071
+  create directory /tmp/nimble_2071/_gitgithubcomandreaferrettiemmygit
+  delete /tmp/nimble_2071/_gitgithubcomandreaferrettiemmygit
+  delete /tmp/nimble_2071
