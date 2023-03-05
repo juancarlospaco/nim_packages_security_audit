@@ -1,24 +1,17 @@
     Reading official package list
 Downloading https://codeberg.org/eris/nim-eris using git
-download.nim(93)         getTagsListRemote
-Error: unhandled exception: Unable to query remote tags for https://codeberg.org/eris/nim-eris. Git returned: fatal: unable to access 'https://codeberg.org/eris/nim-eris/': SSL: certificate subject name (*.codeberg.page) does not match target host name 'codeberg.org'
- [OSError]
+    Cloning latest tagged version: 20230212
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffc722118f0, 2)
+writev(1, 0x00007ffe44931520, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_2778', 0x00000000000001ff)
-mkdir('/tmp/nimble_2778/codebergorg_erisnimeris', 0x00000000000001ff)
-writev(1, 0x00007ffc722119b0, 2)
-open('/tmp/nimble_2778/codebergorg_erisnimeris', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2778/codebergorg_erisnimeris')
-open('/tmp/nimble_2778', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2778')
-writev(2, 0x00007ffc722116f0, 2)
-  create directory /tmp
-  create directory /tmp/nimble_2778
-  create directory /tmp/nimble_2778/codebergorg_erisnimeris
-  delete /tmp/nimble_2778/codebergorg_erisnimeris
-  delete /tmp/nimble_2778
+mkdir('/tmp/nimble_2433', 0x00000000000001ff)
+mkdir('/tmp/nimble_2433/codebergorg_erisnimeris', 0x00000000000001ff)
+writev(1, 0x00007ffe449315e0, 2)
+open('/tmp/nimble_2433/codebergorg_erisnimeris', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2433/codebergorg_erisnimeris')
+writev(1, 0x00007ffe44931570, 2)
+mkdir(94897351684512, 0x00000000000001ff)
+Error tracing process: readBytes(0x0000564f02eff1a0, 256) error: [Errno 5] Input/output error.
