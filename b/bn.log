@@ -4,13 +4,22 @@ download.nim(93)         getTagsListRemote
 Error: unhandled exception: Unable to query remote tags for https://github.com/MerosCrypto/BN. Git returned: remote: Repository not found.
 fatal: repository 'https://github.com/MerosCrypto/BN/' not found
  [OSError]
+open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
+open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
+open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffdc7548b20, 2)
+open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_8071', 0x00000000000001ff)
-mkdir('/tmp/nimble_8071/githubcom_MerosCryptoBN', 0x00000000000001ff)
-rmdir('/tmp/nimble_8071/githubcom_MerosCryptoBN')
-rmdir('/tmp/nimble_8071')
+mkdir('/tmp/nimble_2334', 0x00000000000001ff)
+mkdir('/tmp/nimble_2334/githubcom_MerosCryptoBN', 0x00000000000001ff)
+writev(1, 0x00007ffdc7548be0, 2)
+open('/tmp/nimble_2334/githubcom_MerosCryptoBN', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2334/githubcom_MerosCryptoBN')
+open('/tmp/nimble_2334', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2334')
+writev(2, 0x00007ffdc7548920, 2)
   create directory /tmp
-  create directory /tmp/nimble_8071
-  create directory /tmp/nimble_8071/githubcom_MerosCryptoBN
-  delete /tmp/nimble_8071/githubcom_MerosCryptoBN
-  delete /tmp/nimble_8071
+  create directory /tmp/nimble_2334
+  create directory /tmp/nimble_2334/githubcom_MerosCryptoBN
+  delete /tmp/nimble_2334/githubcom_MerosCryptoBN
+  delete /tmp/nimble_2334
