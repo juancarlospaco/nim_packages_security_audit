@@ -1,0 +1,24 @@
+    Reading official package list
+Downloading https://codeberg.org/pswilde/Nemini using git
+download.nim(93)         getTagsListRemote
+Error: unhandled exception: Unable to query remote tags for https://codeberg.org/pswilde/Nemini. Git returned: fatal: unable to access 'https://codeberg.org/pswilde/Nemini/': SSL: certificate subject name (*.codeberg.page) does not match target host name 'codeberg.org'
+ [OSError]
+open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
+open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
+open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007fff954d3000, 2)
+open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_6791', 0x00000000000001ff)
+mkdir('/tmp/nimble_6791/codebergorg_pswildeNemini', 0x00000000000001ff)
+writev(1, 0x00007fff954d30c0, 2)
+open('/tmp/nimble_6791/codebergorg_pswildeNemini', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_6791/codebergorg_pswildeNemini')
+open('/tmp/nimble_6791', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_6791')
+writev(2, 0x00007fff954d2e00, 2)
+  create directory /tmp
+  create directory /tmp/nimble_6791
+  create directory /tmp/nimble_6791/codebergorg_pswildeNemini
+  delete /tmp/nimble_6791/codebergorg_pswildeNemini
+  delete /tmp/nimble_6791

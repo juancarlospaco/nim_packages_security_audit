@@ -1,0 +1,25 @@
+    Reading official package list
+Downloading https://github.com/faulander/nimQBittorrent using git
+download.nim(93)         getTagsListRemote
+Error: unhandled exception: Unable to query remote tags for https://github.com/faulander/nimQBittorrent. Git returned: remote: Repository not found.
+fatal: repository 'https://github.com/faulander/nimQBittorrent/' not found
+ [OSError]
+open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
+open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
+open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffe882f3200, 2)
+open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
+mkdir('/tmp', 0x00000000000001ff)
+mkdir('/tmp/nimble_5378', 0x00000000000001ff)
+mkdir('/tmp/nimble_5378/githubcom_faulandernimQBittorrent', 0x00000000000001ff)
+writev(1, 0x00007ffe882f32c0, 2)
+open('/tmp/nimble_5378/githubcom_faulandernimQBittorrent', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_5378/githubcom_faulandernimQBittorrent')
+open('/tmp/nimble_5378', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_5378')
+writev(2, 0x00007ffe882f3000, 2)
+  create directory /tmp
+  create directory /tmp/nimble_5378
+  create directory /tmp/nimble_5378/githubcom_faulandernimQBittorrent
+  delete /tmp/nimble_5378/githubcom_faulandernimQBittorrent
+  delete /tmp/nimble_5378
