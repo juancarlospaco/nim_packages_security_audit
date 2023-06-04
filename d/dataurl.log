@@ -1,24 +1,15 @@
     Reading official package list
 Downloading https://git.ozzuu.com/thisago/dataUrl using git
-download.nim(93)         getTagsListRemote
-Error: unhandled exception: Unable to query remote tags for https://git.ozzuu.com/thisago/dataUrl. Git returned: fatal: unable to access 'https://git.ozzuu.com/thisago/dataUrl/': The requested URL returned error: 502
- [OSError]
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffcec87b690, 2)
+writev(1, 0x00007ffd33d2d680, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
 mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_3163', 0x00000000000001ff)
-mkdir('/tmp/nimble_3163/gitozzuucom_thisagodataUrl', 0x00000000000001ff)
-writev(1, 0x00007ffcec87b750, 2)
-open('/tmp/nimble_3163/gitozzuucom_thisagodataUrl', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_3163/gitozzuucom_thisagodataUrl')
-open('/tmp/nimble_3163', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_3163')
-writev(2, 0x00007ffcec87b490, 2)
-  create directory /tmp
-  create directory /tmp/nimble_3163
-  create directory /tmp/nimble_3163/gitozzuucom_thisagodataUrl
-  delete /tmp/nimble_3163/gitozzuucom_thisagodataUrl
-  delete /tmp/nimble_3163
+mkdir('/tmp/nimble_2741', 0x00000000000001ff)
+mkdir('/tmp/nimble_2741/gitozzuucom_thisagodataUrl', 0x00000000000001ff)
+writev(1, 0x00007ffd33d2d740, 2)
+open('/tmp/nimble_2741/gitozzuucom_thisagodataUrl', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2741/gitozzuucom_thisagodataUrl')
+mkdir(94333930308032, 0x00000000000001ff)
+Error tracing process: readBytes(0x000055cbd46801c0, 256) error: [Errno 5] Input/output error.
