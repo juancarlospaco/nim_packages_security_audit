@@ -1,15 +1,20 @@
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
-Downloading https://mahlon@bitbucket.org/mahlon/nim-mongrel2 using hg
-     Error: Execution failed with exit code 255
-        ... Command: hg clone -r tip https://mahlon@bitbucket.org/mahlon/nim-mongrel2 /tmp/nimble_4292/bitbucketorg_mahlonnimmongrel2
-        ... Output: abort: HTTP Error 404: Not Found
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_4292', 0x00000000000001ff)
-mkdir('/tmp/nimble_4292/bitbucketorg_mahlonnimmongrel2', 0x00000000000001ff)
-rmdir('/tmp/nimble_4292/bitbucketorg_mahlonnimmongrel2')
-rmdir('/tmp/nimble_4292')
-  create directory /tmp
-  create directory /tmp/nimble_4292
-  create directory /tmp/nimble_4292/bitbucketorg_mahlonnimmongrel2
-  delete /tmp/nimble_4292/bitbucketorg_mahlonnimmongrel2
-  delete /tmp/nimble_4292
+Downloading https://github.com/mahlonsmith/nim-mongrel2 using git
+   Warning: The package has no tagged releases, downloading HEAD instead.
+open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
+open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
+open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffc13ad82e0, 2)
+writev(1, 0x00007ffc13ad7bc0, 2)
+open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
+mkdir('/tmp/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2099/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2099/githubcom_mahlonsmithnimmongrel2', 0x00000000000001ff)
+writev(1, 0x00007ffc13ad7b90, 2)
+open('/tmp/nimble_2099/githubcom_mahlonsmithnimmongrel2', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2099/githubcom_mahlonsmithnimmongrel2')
+writev(1, 0x00007ffc13ad7b00, 2)
+mkdir(94173257524400, 0x00000000000001ff)
+Error tracing process: readBytes(0x000055a66b8fe4b0, 256) error: [Errno 5] Input/output error.
