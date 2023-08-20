@@ -1,22 +1,20 @@
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
-Downloading git@github.com:unicredit/nim-teafiles.git using git
-download.nim(93)         getTagsListRemote
-Error: unhandled exception: Unable to query remote tags for git@github.com:unicredit/nim-teafiles.git. Git returned: Warning: Permanently added the RSA host key for IP address '140.82.112.3' to the list of known hosts.
-git@github.com: Permission denied (publickey).
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
- [OSError]
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_4416', 0x00000000000001ff)
-mkdir('/tmp/nimble_4416/_gitgithubcomunicreditnimteafilesgit', 0x00000000000001ff)
-rmdir('/tmp/nimble_4416/_gitgithubcomunicreditnimteafilesgit')
-mkdir('/home/runner/.ssh', 0x00000000000001c0)
-rmdir('/tmp/nimble_4416')
-  create directory /tmp
-  create directory /tmp/nimble_4416
-  create directory /tmp/nimble_4416/_gitgithubcomunicreditnimteafilesgit
-  delete /tmp/nimble_4416/_gitgithubcomunicreditnimteafilesgit
-  create directory /home/runner/.ssh
-  delete /tmp/nimble_4416
+Downloading https://github.com/andreaferretti/nim-teafiles.git using git
+    Cloning latest tagged version: 0.1.5
+open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
+open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
+open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffd7e9ad670, 2)
+writev(1, 0x00007ffd7e9acf50, 2)
+open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
+mkdir('/tmp/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2269/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2269/githubcom_andreaferrettinimteafilesgit', 0x00000000000001ff)
+writev(1, 0x00007ffd7e9acf20, 2)
+open('/tmp/nimble_2269/githubcom_andreaferrettinimteafilesgit', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2269/githubcom_andreaferrettinimteafilesgit')
+writev(1, 0x00007ffd7e9ace90, 2)
+mkdir(94107279381696, 0x00000000000001ff)
+Error tracing process: readBytes(0x000055970ef554c0, 256) error: [Errno 5] Input/output error.
