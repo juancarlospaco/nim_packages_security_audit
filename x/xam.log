@@ -1,24 +1,20 @@
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/j-a-s-d/xam using git
-download.nim(93)         getTagsListRemote
-Error: unhandled exception: Unable to query remote tags for https://github.com/j-a-s-d/xam. Git returned: fatal: unable to access 'https://github.com/j-a-s-d/xam/': Error in the HTTP2 framing layer
- [OSError]
+    Cloning latest tagged version: 1.9.0
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffd927b8c00, 2)
+open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
+writev(1, 0x00007fff20d26b10, 2)
+writev(1, 0x00007fff20d263f0, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_4617', 0x00000000000001ff)
-mkdir('/tmp/nimble_4617/githubcom_jasdxam', 0x00000000000001ff)
-writev(1, 0x00007ffd927b8cc0, 2)
-open('/tmp/nimble_4617/githubcom_jasdxam', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_4617/githubcom_jasdxam')
-open('/tmp/nimble_4617', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_4617')
-writev(2, 0x00007ffd927b8a00, 2)
-  create directory /tmp
-  create directory /tmp/nimble_4617
-  create directory /tmp/nimble_4617/githubcom_jasdxam
-  delete /tmp/nimble_4617/githubcom_jasdxam
-  delete /tmp/nimble_4617
+mkdir('/tmp/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2243/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2243/githubcom_jasdxam', 0x00000000000001ff)
+writev(1, 0x00007fff20d263c0, 2)
+open('/tmp/nimble_2243/githubcom_jasdxam', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2243/githubcom_jasdxam')
+writev(1, 0x00007fff20d26330, 2)
+mkdir(94844855035728, 0x00000000000001ff)
+Error tracing process: readBytes(0x00005642c9e4a750, 256) error: [Errno 5] Input/output error.
