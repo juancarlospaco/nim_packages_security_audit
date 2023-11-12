@@ -1,24 +1,20 @@
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://gitlab.3dicc.com/gokr/lapp.git using git
-download.nim(93)         getTagsListRemote
-Error: unhandled exception: Unable to query remote tags for https://gitlab.3dicc.com/gokr/lapp.git. Git returned: fatal: unable to access 'https://gitlab.3dicc.com/gokr/lapp.git/': server certificate verification failed. CAfile: none CRLfile: none
- [OSError]
+   Warning: The package has no tagged releases, downloading HEAD instead.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
-writev(1, 0x00007fff1d2efaa0, 2)
+open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffd33899080, 2)
+writev(1, 0x00007ffd33898960, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_2118', 0x00000000000001ff)
-mkdir('/tmp/nimble_2118/gitlab3dicccom_gokrlappgit', 0x00000000000001ff)
-writev(1, 0x00007fff1d2efb60, 2)
-open('/tmp/nimble_2118/gitlab3dicccom_gokrlappgit', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2118/gitlab3dicccom_gokrlappgit')
-open('/tmp/nimble_2118', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2118')
-writev(2, 0x00007fff1d2ef8a0, 2)
-  create directory /tmp
-  create directory /tmp/nimble_2118
-  create directory /tmp/nimble_2118/gitlab3dicccom_gokrlappgit
-  delete /tmp/nimble_2118/gitlab3dicccom_gokrlappgit
-  delete /tmp/nimble_2118
+mkdir('/tmp/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2193/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2193/gitlab3dicccom_gokrlappgit', 0x00000000000001ff)
+writev(1, 0x00007ffd33898930, 2)
+open('/tmp/nimble_2193/gitlab3dicccom_gokrlappgit', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2193/gitlab3dicccom_gokrlappgit')
+writev(1, 0x00007ffd338988a0, 2)
+mkdir(94158281159728, 0x00000000000001ff)
+Error tracing process: readBytes(0x000055a2eee6b430, 256) error: [Errno 5] Input/output error.
