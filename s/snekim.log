@@ -1,24 +1,20 @@
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://codeberg.org/annaaurora/snekim using git
-download.nim(93)         getTagsListRemote
-Error: unhandled exception: Unable to query remote tags for https://codeberg.org/annaaurora/snekim. Git returned: fatal: unable to access 'https://codeberg.org/annaaurora/snekim/': SSL: certificate subject name (*.codeberg.page) does not match target host name 'codeberg.org'
- [OSError]
+    Cloning latest tagged version: v1.2.0
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffec0a22960, 2)
+open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffcd1968d10, 2)
+writev(1, 0x00007ffcd19685f0, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_5464', 0x00000000000001ff)
-mkdir('/tmp/nimble_5464/codebergorg_annaaurorasnekim', 0x00000000000001ff)
-writev(1, 0x00007ffec0a22a20, 2)
-open('/tmp/nimble_5464/codebergorg_annaaurorasnekim', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_5464/codebergorg_annaaurorasnekim')
-open('/tmp/nimble_5464', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_5464')
-writev(2, 0x00007ffec0a22760, 2)
-  create directory /tmp
-  create directory /tmp/nimble_5464
-  create directory /tmp/nimble_5464/codebergorg_annaaurorasnekim
-  delete /tmp/nimble_5464/codebergorg_annaaurorasnekim
-  delete /tmp/nimble_5464
+mkdir('/tmp/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5105/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5105/codebergorg_annaaurorasnekim', 0x00000000000001ff)
+writev(1, 0x00007ffcd19685c0, 2)
+open('/tmp/nimble_5105/codebergorg_annaaurorasnekim', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_5105/codebergorg_annaaurorasnekim')
+writev(1, 0x00007ffcd1968530, 2)
+mkdir(94236397433888, 0x00000000000001ff)
+Error tracing process: readBytes(0x000055b51efe7420, 256) error: [Errno 5] Input/output error.
