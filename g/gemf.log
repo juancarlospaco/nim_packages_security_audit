@@ -1,26 +1,35 @@
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://bitbucket.org/abudden/gemf.nim using hg
-     Error: Execution failed with exit code 255
-        ... Command: hg clone -r tip https://bitbucket.org/abudden/gemf.nim /tmp/nimble_2316/bitbucketorg_abuddengemfnim
-        ... Output: abort: HTTP Error 404: Not Found
+tools.nim(62)            tryDoCmdEx
+
+    Error:  Execution of 'hg clone -r tip   https://bitbucket.org/abudden/gemf.nim /tmp/nimble_2373/bitbucketorg_abuddengemfnim' failed with an exit code 255.
+        ... Details: abort: HTTP Error 404: Not Found
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
-writev(1, 0x00007fff5f764360, 2)
+open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffd46082cc0, 2)
+writev(1, 0x00007ffd460825a0, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_2316', 0x00000000000001ff)
-mkdir('/tmp/nimble_2316/bitbucketorg_abuddengemfnim', 0x00000000000001ff)
-writev(1, 0x00007fff5f764420, 2)
-open('/tmp/nimble_2316/bitbucketorg_abuddengemfnim', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2316/bitbucketorg_abuddengemfnim')
-open('/tmp/nimble_2316', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2316')
-writev(1, 0x00007fff5f764a40, 2)
-writev(1, 0x00007fff5f764a40, 2)
-writev(1, 0x00007fff5f764a40, 2)
+mkdir('/tmp/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2373/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2373/bitbucketorg_abuddengemfnim', 0x00000000000001ff)
+writev(1, 0x00007ffd46082570, 2)
+open('/tmp/nimble_2373/bitbucketorg_abuddengemfnim', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2373/bitbucketorg_abuddengemfnim')
+writev(1, 0x00007ffd46082dd0, 2)
+writev(1, 0x00007ffd46082d50, 2)
+writev(1, 0x00007ffd46082d50, 2)
+open('/tmp/nimble_2373', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2373')
+open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
+writev(3, 0x00007ffd46082c20, 2)
+writev(1, 0x00007ffd46082d70, 2)
   create directory /tmp
-  create directory /tmp/nimble_2316
-  create directory /tmp/nimble_2316/bitbucketorg_abuddengemfnim
-  delete /tmp/nimble_2316/bitbucketorg_abuddengemfnim
-  delete /tmp/nimble_2316
+  create directory /tmp/nimble_2373
+  create directory /tmp/nimble_2373/bitbucketorg_abuddengemfnim
+  delete /tmp/nimble_2373/bitbucketorg_abuddengemfnim
+  delete /tmp/nimble_2373
+  truncate file /home/runner/.nimble/nimbledata2.json

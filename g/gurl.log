@@ -1,25 +1,35 @@
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/MaxUNof/gurl using git
-download.nim(93)         getTagsListRemote
-Error: unhandled exception: Unable to query remote tags for https://github.com/MaxUNof/gurl. Git returned: remote: Repository not found.
-fatal: repository 'https://github.com/MaxUNof/gurl/' not found
- [OSError]
+download.nim(81)         getTagsListRemote
+
+    Error:  Unable to query remote tags for https://github.com/MaxUNof/gurl. Git returned: remote: Repository not found.
+        ... fatal: repository 'https://github.com/MaxUNof/gurl/' not found
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
-writev(1, 0x00007fff2905cbc0, 2)
+open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffe6c444450, 2)
+writev(1, 0x00007ffe6c443d30, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_2628', 0x00000000000001ff)
-mkdir('/tmp/nimble_2628/githubcom_MaxUNofgurl', 0x00000000000001ff)
-writev(1, 0x00007fff2905cc80, 2)
-open('/tmp/nimble_2628/githubcom_MaxUNofgurl', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2628/githubcom_MaxUNofgurl')
-open('/tmp/nimble_2628', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2628')
-writev(2, 0x00007fff2905c9c0, 2)
+mkdir('/tmp/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2680/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2680/githubcom_MaxUNofgurl', 0x00000000000001ff)
+writev(1, 0x00007ffe6c443d00, 2)
+open('/tmp/nimble_2680/githubcom_MaxUNofgurl', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2680/githubcom_MaxUNofgurl')
+writev(1, 0x00007ffe6c444560, 2)
+writev(1, 0x00007ffe6c4444e0, 2)
+writev(1, 0x00007ffe6c4444e0, 2)
+open('/tmp/nimble_2680', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2680')
+open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
+writev(3, 0x00007ffe6c4443b0, 2)
+writev(1, 0x00007ffe6c444500, 2)
   create directory /tmp
-  create directory /tmp/nimble_2628
-  create directory /tmp/nimble_2628/githubcom_MaxUNofgurl
-  delete /tmp/nimble_2628/githubcom_MaxUNofgurl
-  delete /tmp/nimble_2628
+  create directory /tmp/nimble_2680
+  create directory /tmp/nimble_2680/githubcom_MaxUNofgurl
+  delete /tmp/nimble_2680/githubcom_MaxUNofgurl
+  delete /tmp/nimble_2680
+  truncate file /home/runner/.nimble/nimbledata2.json
