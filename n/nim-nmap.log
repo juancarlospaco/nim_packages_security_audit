@@ -1,25 +1,35 @@
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/blmvxer/nim-nmap using git
-download.nim(93)         getTagsListRemote
-Error: unhandled exception: Unable to query remote tags for https://github.com/blmvxer/nim-nmap. Git returned: remote: Repository not found.
-fatal: repository 'https://github.com/blmvxer/nim-nmap/' not found
- [OSError]
+download.nim(81)         getTagsListRemote
+
+    Error:  Unable to query remote tags for https://github.com/blmvxer/nim-nmap. Git returned: remote: Repository not found.
+        ... fatal: repository 'https://github.com/blmvxer/nim-nmap/' not found
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffe75dd57e0, 2)
+open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffd7faf7a60, 2)
+writev(1, 0x00007ffd7faf7340, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_4718', 0x00000000000001ff)
-mkdir('/tmp/nimble_4718/githubcom_blmvxernimnmap', 0x00000000000001ff)
-writev(1, 0x00007ffe75dd58a0, 2)
-open('/tmp/nimble_4718/githubcom_blmvxernimnmap', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_4718/githubcom_blmvxernimnmap')
-open('/tmp/nimble_4718', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_4718')
-writev(2, 0x00007ffe75dd55e0, 2)
+mkdir('/tmp/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4536/', 0x00000000000001ff)
+mkdir('/tmp/nimble_4536/githubcom_blmvxernimnmap', 0x00000000000001ff)
+writev(1, 0x00007ffd7faf7310, 2)
+open('/tmp/nimble_4536/githubcom_blmvxernimnmap', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_4536/githubcom_blmvxernimnmap')
+writev(1, 0x00007ffd7faf7b70, 2)
+writev(1, 0x00007ffd7faf7af0, 2)
+writev(1, 0x00007ffd7faf7af0, 2)
+open('/tmp/nimble_4536', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_4536')
+open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
+writev(3, 0x00007ffd7faf79c0, 2)
+writev(1, 0x00007ffd7faf7b10, 2)
   create directory /tmp
-  create directory /tmp/nimble_4718
-  create directory /tmp/nimble_4718/githubcom_blmvxernimnmap
-  delete /tmp/nimble_4718/githubcom_blmvxernimnmap
-  delete /tmp/nimble_4718
+  create directory /tmp/nimble_4536
+  create directory /tmp/nimble_4536/githubcom_blmvxernimnmap
+  delete /tmp/nimble_4536/githubcom_blmvxernimnmap
+  delete /tmp/nimble_4536
+  truncate file /home/runner/.nimble/nimbledata2.json

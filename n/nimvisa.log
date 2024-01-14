@@ -1,17 +1,35 @@
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/leeooox/nimvisa using git
-    Cloning latest tagged version: 0.1.4
+download.nim(81)         getTagsListRemote
+
+    Error:  Unable to query remote tags for https://github.com/leeooox/nimvisa. Git returned: remote: Repository not found.
+        ... fatal: repository 'https://github.com/leeooox/nimvisa/' not found
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffc5e2fbda0, 2)
+open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
+writev(1, 0x00007fffd32115f0, 2)
+writev(1, 0x00007fffd3210ed0, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_5783', 0x00000000000001ff)
-mkdir('/tmp/nimble_5783/githubcom_leeoooxnimvisa', 0x00000000000001ff)
-writev(1, 0x00007ffc5e2fbe60, 2)
-open('/tmp/nimble_5783/githubcom_leeoooxnimvisa', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_5783/githubcom_leeoooxnimvisa')
-writev(1, 0x00007ffc5e2fbdf0, 2)
-mkdir(93912307433904, 0x00000000000001ff)
-Error tracing process: readBytes(0x00005569a9b981b0, 256) error: [Errno 5] Input/output error.
+mkdir('/tmp/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5541/', 0x00000000000001ff)
+mkdir('/tmp/nimble_5541/githubcom_leeoooxnimvisa', 0x00000000000001ff)
+writev(1, 0x00007fffd3210ea0, 2)
+open('/tmp/nimble_5541/githubcom_leeoooxnimvisa', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_5541/githubcom_leeoooxnimvisa')
+writev(1, 0x00007fffd3211700, 2)
+writev(1, 0x00007fffd3211680, 2)
+writev(1, 0x00007fffd3211680, 2)
+open('/tmp/nimble_5541', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_5541')
+open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
+writev(3, 0x00007fffd3211550, 2)
+writev(1, 0x00007fffd32116a0, 2)
+  create directory /tmp
+  create directory /tmp/nimble_5541
+  create directory /tmp/nimble_5541/githubcom_leeoooxnimvisa
+  delete /tmp/nimble_5541/githubcom_leeoooxnimvisa
+  delete /tmp/nimble_5541
+  truncate file /home/runner/.nimble/nimbledata2.json

@@ -1,30 +1,39 @@
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
    Warning: The nim-vorbis package has been renamed to vorbis
     Reading official package list
 Downloading https://bitbucket.org/BitPuffin/nim-vorbis using hg
-     Error: Execution failed with exit code 255
-        ... Command: hg clone -r tip https://bitbucket.org/BitPuffin/nim-vorbis /tmp/nimble_2274/bitbucketorg_BitPuffinnimvorbis
-        ... Output: abort: HTTP Error 404: Not Found
+tools.nim(62)            tryDoCmdEx
+
+    Error:  Execution of 'hg clone -r tip   https://bitbucket.org/BitPuffin/nim-vorbis /tmp/nimble_2377/bitbucketorg_BitPuffinnimvorbis' failed with an exit code 255.
+        ... Details: abort: HTTP Error 404: Not Found
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffd746de210, 2)
+open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
+writev(1, 0x00007fff9d3d83e0, 2)
+writev(1, 0x00007fff9d3d7cc0, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffd746de240, 2)
-writev(1, 0x00007ffd746de160, 2)
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_2274', 0x00000000000001ff)
-mkdir('/tmp/nimble_2274/bitbucketorg_BitPuffinnimvorbis', 0x00000000000001ff)
-writev(1, 0x00007ffd746de2d0, 2)
-open('/tmp/nimble_2274/bitbucketorg_BitPuffinnimvorbis', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2274/bitbucketorg_BitPuffinnimvorbis')
-open('/tmp/nimble_2274', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2274')
-writev(1, 0x00007ffd746de8f0, 2)
-writev(1, 0x00007ffd746de8f0, 2)
-writev(1, 0x00007ffd746de8f0, 2)
+writev(1, 0x00007fff9d3d7c80, 2)
+writev(1, 0x00007fff9d3d7ba0, 2)
+mkdir('/tmp/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2377/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2377/bitbucketorg_BitPuffinnimvorbis', 0x00000000000001ff)
+writev(1, 0x00007fff9d3d7c90, 2)
+open('/tmp/nimble_2377/bitbucketorg_BitPuffinnimvorbis', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2377/bitbucketorg_BitPuffinnimvorbis')
+writev(1, 0x00007fff9d3d84f0, 2)
+writev(1, 0x00007fff9d3d8470, 2)
+writev(1, 0x00007fff9d3d8470, 2)
+open('/tmp/nimble_2377', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2377')
+open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
+writev(3, 0x00007fff9d3d8340, 2)
+writev(1, 0x00007fff9d3d8490, 2)
   create directory /tmp
-  create directory /tmp/nimble_2274
-  create directory /tmp/nimble_2274/bitbucketorg_BitPuffinnimvorbis
-  delete /tmp/nimble_2274/bitbucketorg_BitPuffinnimvorbis
-  delete /tmp/nimble_2274
+  create directory /tmp/nimble_2377
+  create directory /tmp/nimble_2377/bitbucketorg_BitPuffinnimvorbis
+  delete /tmp/nimble_2377/bitbucketorg_BitPuffinnimvorbis
+  delete /tmp/nimble_2377
+  truncate file /home/runner/.nimble/nimbledata2.json
