@@ -1,15 +1,35 @@
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/patrick-skamarak/uf2lib using git
+download.nim(81)         getTagsListRemote
+
+    Error:  Unable to query remote tags for https://github.com/patrick-skamarak/uf2lib. Git returned: remote: Repository not found.
+        ... fatal: repository 'https://github.com/patrick-skamarak/uf2lib/' not found
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffd528e67a0, 2)
+open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffdd7776180, 2)
+writev(1, 0x00007ffdd7775a60, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_2558', 0x00000000000001ff)
-mkdir('/tmp/nimble_2558/githubcom_patrickskamarakuf2lib', 0x00000000000001ff)
-writev(1, 0x00007ffd528e6860, 2)
-open('/tmp/nimble_2558/githubcom_patrickskamarakuf2lib', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2558/githubcom_patrickskamarakuf2lib')
-mkdir(94257287038112, 0x00000000000001ff)
-Error tracing process: readBytes(0x000055b9fc1c84a0, 256) error: [Errno 5] Input/output error.
+mkdir('/tmp/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2572/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2572/githubcom_patrickskamarakuf2lib', 0x00000000000001ff)
+writev(1, 0x00007ffdd7775a30, 2)
+open('/tmp/nimble_2572/githubcom_patrickskamarakuf2lib', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2572/githubcom_patrickskamarakuf2lib')
+writev(1, 0x00007ffdd7776290, 2)
+writev(1, 0x00007ffdd7776210, 2)
+writev(1, 0x00007ffdd7776210, 2)
+open('/tmp/nimble_2572', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2572')
+open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
+writev(3, 0x00007ffdd77760e0, 2)
+writev(1, 0x00007ffdd7776230, 2)
+  create directory /tmp
+  create directory /tmp/nimble_2572
+  create directory /tmp/nimble_2572/githubcom_patrickskamarakuf2lib
+  delete /tmp/nimble_2572/githubcom_patrickskamarakuf2lib
+  delete /tmp/nimble_2572
+  truncate file /home/runner/.nimble/nimbledata2.json
