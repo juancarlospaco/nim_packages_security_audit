@@ -1,25 +1,35 @@
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/minefuto/dotprov using git
-download.nim(93)         getTagsListRemote
-Error: unhandled exception: Unable to query remote tags for https://github.com/minefuto/dotprov. Git returned: remote: Repository not found.
-fatal: repository 'https://github.com/minefuto/dotprov/' not found
- [OSError]
+download.nim(81)         getTagsListRemote
+
+    Error:  Unable to query remote tags for https://github.com/minefuto/dotprov. Git returned: remote: Repository not found.
+        ... fatal: repository 'https://github.com/minefuto/dotprov/' not found
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffef58153f0, 2)
+open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
+writev(1, 0x00007fff274ea2e0, 2)
+writev(1, 0x00007fff274e9bc0, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_2360', 0x00000000000001ff)
-mkdir('/tmp/nimble_2360/githubcom_minefutodotprov', 0x00000000000001ff)
-writev(1, 0x00007ffef58154b0, 2)
-open('/tmp/nimble_2360/githubcom_minefutodotprov', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2360/githubcom_minefutodotprov')
-open('/tmp/nimble_2360', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2360')
-writev(2, 0x00007ffef58151f0, 2)
+mkdir('/tmp/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2518/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2518/githubcom_minefutodotprov', 0x00000000000001ff)
+writev(1, 0x00007fff274e9b90, 2)
+open('/tmp/nimble_2518/githubcom_minefutodotprov', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2518/githubcom_minefutodotprov')
+writev(1, 0x00007fff274ea3f0, 2)
+writev(1, 0x00007fff274ea370, 2)
+writev(1, 0x00007fff274ea370, 2)
+open('/tmp/nimble_2518', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2518')
+open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
+writev(3, 0x00007fff274ea240, 2)
+writev(1, 0x00007fff274ea390, 2)
   create directory /tmp
-  create directory /tmp/nimble_2360
-  create directory /tmp/nimble_2360/githubcom_minefutodotprov
-  delete /tmp/nimble_2360/githubcom_minefutodotprov
-  delete /tmp/nimble_2360
+  create directory /tmp/nimble_2518
+  create directory /tmp/nimble_2518/githubcom_minefutodotprov
+  delete /tmp/nimble_2518/githubcom_minefutodotprov
+  delete /tmp/nimble_2518
+  truncate file /home/runner/.nimble/nimbledata2.json
