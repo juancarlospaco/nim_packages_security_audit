@@ -1,25 +1,35 @@
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/lcrees/romans using git
-download.nim(93)         getTagsListRemote
-Error: unhandled exception: Unable to query remote tags for https://github.com/lcrees/romans. Git returned: remote: Repository not found.
-fatal: repository 'https://github.com/lcrees/romans/' not found
- [OSError]
+download.nim(81)         getTagsListRemote
+
+    Error:  Unable to query remote tags for https://github.com/lcrees/romans. Git returned: remote: Repository not found.
+        ... fatal: repository 'https://github.com/lcrees/romans/' not found
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffcd04e40a0, 2)
+open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffcb819cf40, 2)
+writev(1, 0x00007ffcb819c820, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_2523', 0x00000000000001ff)
-mkdir('/tmp/nimble_2523/githubcom_lcreesromans', 0x00000000000001ff)
-writev(1, 0x00007ffcd04e4160, 2)
-open('/tmp/nimble_2523/githubcom_lcreesromans', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2523/githubcom_lcreesromans')
-open('/tmp/nimble_2523', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2523')
-writev(2, 0x00007ffcd04e3ea0, 2)
+mkdir('/tmp/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2445/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2445/githubcom_lcreesromans', 0x00000000000001ff)
+writev(1, 0x00007ffcb819c7f0, 2)
+open('/tmp/nimble_2445/githubcom_lcreesromans', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2445/githubcom_lcreesromans')
+writev(1, 0x00007ffcb819d050, 2)
+writev(1, 0x00007ffcb819cfd0, 2)
+writev(1, 0x00007ffcb819cfd0, 2)
+open('/tmp/nimble_2445', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2445')
+open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
+writev(3, 0x00007ffcb819cea0, 2)
+writev(1, 0x00007ffcb819cff0, 2)
   create directory /tmp
-  create directory /tmp/nimble_2523
-  create directory /tmp/nimble_2523/githubcom_lcreesromans
-  delete /tmp/nimble_2523/githubcom_lcreesromans
-  delete /tmp/nimble_2523
+  create directory /tmp/nimble_2445
+  create directory /tmp/nimble_2445/githubcom_lcreesromans
+  delete /tmp/nimble_2445/githubcom_lcreesromans
+  delete /tmp/nimble_2445
+  truncate file /home/runner/.nimble/nimbledata2.json
