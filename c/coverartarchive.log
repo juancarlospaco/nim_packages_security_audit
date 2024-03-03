@@ -1,20 +1,35 @@
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/achesak/nim-coverartarchive using git
-   Warning: The package has no tagged releases, downloading HEAD instead.
+download.nim(81)         getTagsListRemote
+
+    Error:  Unable to query remote tags for https://github.com/achesak/nim-coverartarchive. Git returned: remote: Repository not found.
+        ... fatal: repository 'https://github.com/achesak/nim-coverartarchive/' not found
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffee81dc7c0, 2)
-writev(1, 0x00007ffee81dc0a0, 2)
+writev(1, 0x00007ffd128b3be0, 2)
+writev(1, 0x00007ffd128b34c0, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
 mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2281/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2281/githubcom_achesaknimcoverartarchive', 0x00000000000001ff)
-writev(1, 0x00007ffee81dc070, 2)
-open('/tmp/nimble_2281/githubcom_achesaknimcoverartarchive', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2281/githubcom_achesaknimcoverartarchive')
-writev(1, 0x00007ffee81dbfe0, 2)
-mkdir(94545322419472, 0x00000000000001ff)
-Error tracing process: readBytes(0x000055fd0c5ba510, 256) error: [Errno 5] Input/output error.
+mkdir('/tmp/nimble_2219/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2219/githubcom_achesaknimcoverartarchive', 0x00000000000001ff)
+writev(1, 0x00007ffd128b3490, 2)
+open('/tmp/nimble_2219/githubcom_achesaknimcoverartarchive', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2219/githubcom_achesaknimcoverartarchive')
+writev(1, 0x00007ffd128b3cf0, 2)
+writev(1, 0x00007ffd128b3c70, 2)
+writev(1, 0x00007ffd128b3c70, 2)
+open('/tmp/nimble_2219', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2219')
+open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
+writev(3, 0x00007ffd128b3b40, 2)
+writev(1, 0x00007ffd128b3c90, 2)
+  create directory /tmp
+  create directory /tmp/nimble_2219
+  create directory /tmp/nimble_2219/githubcom_achesaknimcoverartarchive
+  delete /tmp/nimble_2219/githubcom_achesaknimcoverartarchive
+  delete /tmp/nimble_2219
+  truncate file /home/runner/.nimble/nimbledata2.json
