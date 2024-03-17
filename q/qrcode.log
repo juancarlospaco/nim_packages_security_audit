@@ -1,20 +1,35 @@
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/achesak/nim-qrcode using git
-   Warning: The package has no tagged releases, downloading HEAD instead.
+download.nim(81)         getTagsListRemote
+
+    Error:  Unable to query remote tags for https://github.com/achesak/nim-qrcode. Git returned: remote: Repository not found.
+        ... fatal: repository 'https://github.com/achesak/nim-qrcode/' not found
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffc967a0990, 2)
-writev(1, 0x00007ffc967a0270, 2)
+writev(1, 0x00007ffd829d7c60, 2)
+writev(1, 0x00007ffd829d7540, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
 mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2146/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2146/githubcom_achesaknimqrcode', 0x00000000000001ff)
-writev(1, 0x00007ffc967a0240, 2)
-open('/tmp/nimble_2146/githubcom_achesaknimqrcode', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2146/githubcom_achesaknimqrcode')
-writev(1, 0x00007ffc967a01b0, 2)
-mkdir(94218186994736, 0x00000000000001ff)
-Error tracing process: readBytes(0x000055b0e1913430, 256) error: [Errno 5] Input/output error.
+mkdir('/tmp/nimble_1991/', 0x00000000000001ff)
+mkdir('/tmp/nimble_1991/githubcom_achesaknimqrcode', 0x00000000000001ff)
+writev(1, 0x00007ffd829d7510, 2)
+open('/tmp/nimble_1991/githubcom_achesaknimqrcode', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_1991/githubcom_achesaknimqrcode')
+writev(1, 0x00007ffd829d7d70, 2)
+writev(1, 0x00007ffd829d7cf0, 2)
+writev(1, 0x00007ffd829d7cf0, 2)
+open('/tmp/nimble_1991', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_1991')
+open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
+writev(3, 0x00007ffd829d7bc0, 2)
+writev(1, 0x00007ffd829d7d10, 2)
+  create directory /tmp
+  create directory /tmp/nimble_1991
+  create directory /tmp/nimble_1991/githubcom_achesaknimqrcode
+  delete /tmp/nimble_1991/githubcom_achesaknimqrcode
+  delete /tmp/nimble_1991
+  truncate file /home/runner/.nimble/nimbledata2.json
