@@ -1,20 +1,35 @@
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/soheil555/nimmicrograd using git
-    Cloning latest tagged version: v0.1.5
+download.nim(81)         getTagsListRemote
+
+    Error:  Unable to query remote tags for https://github.com/soheil555/nimmicrograd. Git returned: remote: Repository not found.
+        ... fatal: repository 'https://github.com/soheil555/nimmicrograd/' not found
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007fff4e5f17d0, 2)
-writev(1, 0x00007fff4e5f10b0, 2)
+writev(1, 0x00007ffdc5921e60, 2)
+writev(1, 0x00007ffdc5921740, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
 mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_6601/', 0x00000000000001ff)
-mkdir('/tmp/nimble_6601/githubcom_soheil555nimmicrograd', 0x00000000000001ff)
-writev(1, 0x00007fff4e5f1080, 2)
-open('/tmp/nimble_6601/githubcom_soheil555nimmicrograd', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_6601/githubcom_soheil555nimmicrograd')
-writev(1, 0x00007fff4e5f0ff0, 2)
-mkdir(94323855885600, 0x00000000000001ff)
-Error tracing process: readBytes(0x000055c97bec8520, 256) error: [Errno 5] Input/output error.
+mkdir('/tmp/nimble_6544/', 0x00000000000001ff)
+mkdir('/tmp/nimble_6544/githubcom_soheil555nimmicrograd', 0x00000000000001ff)
+writev(1, 0x00007ffdc5921710, 2)
+open('/tmp/nimble_6544/githubcom_soheil555nimmicrograd', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_6544/githubcom_soheil555nimmicrograd')
+writev(1, 0x00007ffdc5921f70, 2)
+writev(1, 0x00007ffdc5921ef0, 2)
+writev(1, 0x00007ffdc5921ef0, 2)
+open('/tmp/nimble_6544', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_6544')
+open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
+writev(3, 0x00007ffdc5921dc0, 2)
+writev(1, 0x00007ffdc5921f10, 2)
+  create directory /tmp
+  create directory /tmp/nimble_6544
+  create directory /tmp/nimble_6544/githubcom_soheil555nimmicrograd
+  delete /tmp/nimble_6544/githubcom_soheil555nimmicrograd
+  delete /tmp/nimble_6544
+  truncate file /home/runner/.nimble/nimbledata2.json
