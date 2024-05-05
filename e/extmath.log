@@ -1,20 +1,35 @@
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/achesak/extmath.nim using git
-    Cloning latest tagged version: v1.2
+download.nim(81)         getTagsListRemote
+
+    Error:  Unable to query remote tags for https://github.com/achesak/extmath.nim. Git returned: remote: Repository not found.
+        ... fatal: repository 'https://github.com/achesak/extmath.nim/' not found
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffddcf52310, 2)
-writev(1, 0x00007ffddcf51bf0, 2)
+writev(1, 0x00007ffe2c44afc0, 2)
+writev(1, 0x00007ffe2c44a8a0, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
 mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2273/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2273/githubcom_achesakextmathnim', 0x00000000000001ff)
-writev(1, 0x00007ffddcf51bc0, 2)
-open('/tmp/nimble_2273/githubcom_achesakextmathnim', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2273/githubcom_achesakextmathnim')
-writev(1, 0x00007ffddcf51b30, 2)
-mkdir(94457643156528, 0x00000000000001ff)
-Error tracing process: readBytes(0x000055e8a2444430, 256) error: [Errno 5] Input/output error.
+mkdir('/tmp/nimble_2072/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2072/githubcom_achesakextmathnim', 0x00000000000001ff)
+writev(1, 0x00007ffe2c44a870, 2)
+open('/tmp/nimble_2072/githubcom_achesakextmathnim', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2072/githubcom_achesakextmathnim')
+writev(1, 0x00007ffe2c44b0d0, 2)
+writev(1, 0x00007ffe2c44b050, 2)
+writev(1, 0x00007ffe2c44b050, 2)
+open('/tmp/nimble_2072', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2072')
+open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
+writev(3, 0x00007ffe2c44af20, 2)
+writev(1, 0x00007ffe2c44b070, 2)
+  create directory /tmp
+  create directory /tmp/nimble_2072
+  create directory /tmp/nimble_2072/githubcom_achesakextmathnim
+  delete /tmp/nimble_2072/githubcom_achesakextmathnim
+  delete /tmp/nimble_2072
+  truncate file /home/runner/.nimble/nimbledata2.json
