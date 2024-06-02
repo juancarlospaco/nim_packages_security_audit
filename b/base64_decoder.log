@@ -1,25 +1,35 @@
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/momeemt/base64_cui using git
-download.nim(93)         getTagsListRemote
-Error: unhandled exception: Unable to query remote tags for https://github.com/momeemt/base64_cui. Git returned: remote: Repository not found.
-fatal: repository 'https://github.com/momeemt/base64_cui/' not found
- [OSError]
+download.nim(81)         getTagsListRemote
+
+    Error:  Unable to query remote tags for https://github.com/momeemt/base64_cui. Git returned: remote: Repository not found.
+        ... fatal: repository 'https://github.com/momeemt/base64_cui/' not found
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffc0f085420, 2)
+open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffd8de6d980, 2)
+writev(1, 0x00007ffd8de6d260, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_2887', 0x00000000000001ff)
-mkdir('/tmp/nimble_2887/githubcom_momeemtbase64cui', 0x00000000000001ff)
-writev(1, 0x00007ffc0f0854e0, 2)
-open('/tmp/nimble_2887/githubcom_momeemtbase64cui', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2887/githubcom_momeemtbase64cui')
-open('/tmp/nimble_2887', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2887')
-writev(2, 0x00007ffc0f085220, 2)
+mkdir('/tmp/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2734/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2734/githubcom_momeemtbase64cui', 0x00000000000001ff)
+writev(1, 0x00007ffd8de6d230, 2)
+open('/tmp/nimble_2734/githubcom_momeemtbase64cui', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2734/githubcom_momeemtbase64cui')
+writev(1, 0x00007ffd8de6da90, 2)
+writev(1, 0x00007ffd8de6da10, 2)
+writev(1, 0x00007ffd8de6da10, 2)
+open('/tmp/nimble_2734', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2734')
+open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
+writev(3, 0x00007ffd8de6d8e0, 2)
+writev(1, 0x00007ffd8de6da30, 2)
   create directory /tmp
-  create directory /tmp/nimble_2887
-  create directory /tmp/nimble_2887/githubcom_momeemtbase64cui
-  delete /tmp/nimble_2887/githubcom_momeemtbase64cui
-  delete /tmp/nimble_2887
+  create directory /tmp/nimble_2734
+  create directory /tmp/nimble_2734/githubcom_momeemtbase64cui
+  delete /tmp/nimble_2734/githubcom_momeemtbase64cui
+  delete /tmp/nimble_2734
+  truncate file /home/runner/.nimble/nimbledata2.json

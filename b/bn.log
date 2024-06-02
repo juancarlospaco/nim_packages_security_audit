@@ -1,25 +1,35 @@
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/MerosCrypto/BN using git
-download.nim(93)         getTagsListRemote
-Error: unhandled exception: Unable to query remote tags for https://github.com/MerosCrypto/BN. Git returned: remote: Repository not found.
-fatal: repository 'https://github.com/MerosCrypto/BN/' not found
- [OSError]
+download.nim(81)         getTagsListRemote
+
+    Error:  Unable to query remote tags for https://github.com/MerosCrypto/BN. Git returned: remote: Repository not found.
+        ... fatal: repository 'https://github.com/MerosCrypto/BN/' not found
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffc211415d0, 2)
+open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
+writev(1, 0x00007fffba9d7380, 2)
+writev(1, 0x00007fffba9d6c60, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_2541', 0x00000000000001ff)
-mkdir('/tmp/nimble_2541/githubcom_MerosCryptoBN', 0x00000000000001ff)
-writev(1, 0x00007ffc21141690, 2)
-open('/tmp/nimble_2541/githubcom_MerosCryptoBN', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2541/githubcom_MerosCryptoBN')
-open('/tmp/nimble_2541', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2541')
-writev(2, 0x00007ffc211413d0, 2)
+mkdir('/tmp/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2425/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2425/githubcom_MerosCryptoBN', 0x00000000000001ff)
+writev(1, 0x00007fffba9d6c30, 2)
+open('/tmp/nimble_2425/githubcom_MerosCryptoBN', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2425/githubcom_MerosCryptoBN')
+writev(1, 0x00007fffba9d7490, 2)
+writev(1, 0x00007fffba9d7410, 2)
+writev(1, 0x00007fffba9d7410, 2)
+open('/tmp/nimble_2425', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2425')
+open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
+writev(3, 0x00007fffba9d72e0, 2)
+writev(1, 0x00007fffba9d7430, 2)
   create directory /tmp
-  create directory /tmp/nimble_2541
-  create directory /tmp/nimble_2541/githubcom_MerosCryptoBN
-  delete /tmp/nimble_2541/githubcom_MerosCryptoBN
-  delete /tmp/nimble_2541
+  create directory /tmp/nimble_2425
+  create directory /tmp/nimble_2425/githubcom_MerosCryptoBN
+  delete /tmp/nimble_2425/githubcom_MerosCryptoBN
+  delete /tmp/nimble_2425
+  truncate file /home/runner/.nimble/nimbledata2.json

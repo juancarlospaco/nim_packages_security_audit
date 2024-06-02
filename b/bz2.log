@@ -1,24 +1,20 @@
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://codeberg.org/Yepoleb/nim-bz2.git using git
-download.nim(93)         getTagsListRemote
-Error: unhandled exception: Unable to query remote tags for https://codeberg.org/Yepoleb/nim-bz2.git. Git returned: fatal: unable to access 'https://codeberg.org/Yepoleb/nim-bz2.git/': SSL: certificate subject name (*.codeberg.page) does not match target host name 'codeberg.org'
- [OSError]
+   Warning: The package has no tagged releases, downloading HEAD instead.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffeacc00880, 2)
+open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
+writev(1, 0x00007fffdc6c1a00, 2)
+writev(1, 0x00007fffdc6c12e0, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_3309', 0x00000000000001ff)
-mkdir('/tmp/nimble_3309/codebergorg_Yepolebnimbz2git', 0x00000000000001ff)
-writev(1, 0x00007ffeacc00940, 2)
-open('/tmp/nimble_3309/codebergorg_Yepolebnimbz2git', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_3309/codebergorg_Yepolebnimbz2git')
-open('/tmp/nimble_3309', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_3309')
-writev(2, 0x00007ffeacc00680, 2)
-  create directory /tmp
-  create directory /tmp/nimble_3309
-  create directory /tmp/nimble_3309/codebergorg_Yepolebnimbz2git
-  delete /tmp/nimble_3309/codebergorg_Yepolebnimbz2git
-  delete /tmp/nimble_3309
+mkdir('/tmp/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3123/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3123/codebergorg_Yepolebnimbz2git', 0x00000000000001ff)
+writev(1, 0x00007fffdc6c12b0, 2)
+open('/tmp/nimble_3123/codebergorg_Yepolebnimbz2git', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_3123/codebergorg_Yepolebnimbz2git')
+writev(1, 0x00007fffdc6c1220, 2)
+mkdir(94484954024512, 0x00000000000001ff)
+Error tracing process: readBytes(0x000055eefe1f0a40, 256) error: [Errno 5] Input/output error.
