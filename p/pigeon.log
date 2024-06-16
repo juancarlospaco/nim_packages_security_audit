@@ -1,17 +1,35 @@
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/dizzyliam/pigeon using git
-    Cloning latest tagged version: v0.3.0
+download.nim(81)         getTagsListRemote
+
+    Error:  Unable to query remote tags for https://github.com/dizzyliam/pigeon. Git returned: remote: Repository not found.
+        ... fatal: repository 'https://github.com/dizzyliam/pigeon/' not found
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffca9f8eaa0, 2)
+open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffc2f05c260, 2)
+writev(1, 0x00007ffc2f05bb40, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_3936', 0x00000000000001ff)
-mkdir('/tmp/nimble_3936/githubcom_dizzyliampigeon', 0x00000000000001ff)
-writev(1, 0x00007ffca9f8eb60, 2)
-open('/tmp/nimble_3936/githubcom_dizzyliampigeon', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_3936/githubcom_dizzyliampigeon')
-writev(1, 0x00007ffca9f8eaf0, 2)
-mkdir(93852688265680, 0x00000000000001ff)
-Error tracing process: readBytes(0x0000555bc82531d0, 256) error: [Errno 5] Input/output error.
+mkdir('/tmp/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3761/', 0x00000000000001ff)
+mkdir('/tmp/nimble_3761/githubcom_dizzyliampigeon', 0x00000000000001ff)
+writev(1, 0x00007ffc2f05bb10, 2)
+open('/tmp/nimble_3761/githubcom_dizzyliampigeon', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_3761/githubcom_dizzyliampigeon')
+writev(1, 0x00007ffc2f05c370, 2)
+writev(1, 0x00007ffc2f05c2f0, 2)
+writev(1, 0x00007ffc2f05c2f0, 2)
+open('/tmp/nimble_3761', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_3761')
+open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
+writev(3, 0x00007ffc2f05c1c0, 2)
+writev(1, 0x00007ffc2f05c310, 2)
+  create directory /tmp
+  create directory /tmp/nimble_3761
+  create directory /tmp/nimble_3761/githubcom_dizzyliampigeon
+  delete /tmp/nimble_3761/githubcom_dizzyliampigeon
+  delete /tmp/nimble_3761
+  truncate file /home/runner/.nimble/nimbledata2.json

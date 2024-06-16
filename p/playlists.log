@@ -1,15 +1,35 @@
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/achesak/nim-playlists using git
+download.nim(81)         getTagsListRemote
+
+    Error:  Unable to query remote tags for https://github.com/achesak/nim-playlists. Git returned: remote: Repository not found.
+        ... fatal: repository 'https://github.com/achesak/nim-playlists/' not found
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffea57993a0, 2)
+open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffc30cc72e0, 2)
+writev(1, 0x00007ffc30cc6bc0, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_2443', 0x00000000000001ff)
-mkdir('/tmp/nimble_2443/githubcom_achesaknimplaylists', 0x00000000000001ff)
-writev(1, 0x00007ffea5799460, 2)
-open('/tmp/nimble_2443/githubcom_achesaknimplaylists', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2443/githubcom_achesaknimplaylists')
-mkdir(94840575530160, 0x00000000000001ff)
-Error tracing process: readBytes(0x00005641cad094b0, 256) error: [Errno 5] Input/output error.
+mkdir('/tmp/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2322/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2322/githubcom_achesaknimplaylists', 0x00000000000001ff)
+writev(1, 0x00007ffc30cc6b90, 2)
+open('/tmp/nimble_2322/githubcom_achesaknimplaylists', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2322/githubcom_achesaknimplaylists')
+writev(1, 0x00007ffc30cc73f0, 2)
+writev(1, 0x00007ffc30cc7370, 2)
+writev(1, 0x00007ffc30cc7370, 2)
+open('/tmp/nimble_2322', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2322')
+open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
+writev(3, 0x00007ffc30cc7240, 2)
+writev(1, 0x00007ffc30cc7390, 2)
+  create directory /tmp
+  create directory /tmp/nimble_2322
+  create directory /tmp/nimble_2322/githubcom_achesaknimplaylists
+  delete /tmp/nimble_2322/githubcom_achesaknimplaylists
+  delete /tmp/nimble_2322
+  truncate file /home/runner/.nimble/nimbledata2.json

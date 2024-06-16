@@ -1,15 +1,35 @@
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/achesak/nim-pythonmath using git
+download.nim(81)         getTagsListRemote
+
+    Error:  Unable to query remote tags for https://github.com/achesak/nim-pythonmath. Git returned: remote: Repository not found.
+        ... fatal: repository 'https://github.com/achesak/nim-pythonmath/' not found
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffea277d260, 2)
+open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffcc7262480, 2)
+writev(1, 0x00007ffcc7261d60, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp', 0x00000000000001ff)
-mkdir('/tmp/nimble_2485', 0x00000000000001ff)
-mkdir('/tmp/nimble_2485/githubcom_achesaknimpythonmath', 0x00000000000001ff)
-writev(1, 0x00007ffea277d320, 2)
-open('/tmp/nimble_2485/githubcom_achesaknimpythonmath', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2485/githubcom_achesaknimpythonmath')
-mkdir(94568083322032, 0x00000000000001ff)
-Error tracing process: readBytes(0x00005602590374b0, 256) error: [Errno 5] Input/output error.
+mkdir('/tmp/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2359/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2359/githubcom_achesaknimpythonmath', 0x00000000000001ff)
+writev(1, 0x00007ffcc7261d30, 2)
+open('/tmp/nimble_2359/githubcom_achesaknimpythonmath', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2359/githubcom_achesaknimpythonmath')
+writev(1, 0x00007ffcc7262590, 2)
+writev(1, 0x00007ffcc7262510, 2)
+writev(1, 0x00007ffcc7262510, 2)
+open('/tmp/nimble_2359', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2359')
+open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
+writev(3, 0x00007ffcc72623e0, 2)
+writev(1, 0x00007ffcc7262530, 2)
+  create directory /tmp
+  create directory /tmp/nimble_2359
+  create directory /tmp/nimble_2359/githubcom_achesaknimpythonmath
+  delete /tmp/nimble_2359/githubcom_achesaknimpythonmath
+  delete /tmp/nimble_2359
+  truncate file /home/runner/.nimble/nimbledata2.json
