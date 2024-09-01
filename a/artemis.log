@@ -3,31 +3,32 @@
 Downloading https://git.skylarhill.me/skylar/artemis using git
 download.nim(81)         getTagsListRemote
 
-    Error:  Unable to query remote tags for https://git.skylarhill.me/skylar/artemis. Git returned: fatal: repository 'https://git.skylarhill.me/skylar/artemis/' not found
+    Error:  Unable to query remote tags for https://git.skylarhill.me/skylar/artemis. Git returned: fatal: unable to access 'https://git.skylarhill.me/skylar/artemis/': Failed to connect to git.skylarhill.me port 443 after 134811 ms: Connection timed out
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffc336459a0, 2)
-writev(1, 0x00007ffc33645280, 2)
+writev(1, 0x00007ffdfc2de3d0, 2)
+open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
+writev(1, 0x00007ffdfc2ddaa0, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
 mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_1956/', 0x00000000000001ff)
-mkdir('/tmp/nimble_1956/gitskylarhillme_skylarartemis', 0x00000000000001ff)
-writev(1, 0x00007ffc33645250, 2)
-open('/tmp/nimble_1956/gitskylarhillme_skylarartemis', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_1956/gitskylarhillme_skylarartemis')
-writev(1, 0x00007ffc33645ab0, 2)
-writev(1, 0x00007ffc33645a30, 2)
-open('/tmp/nimble_1956', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_1956')
+mkdir('/tmp/nimble_2285/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2285/gitskylarhillme_skylarartemis', 0x00000000000001ff)
+writev(1, 0x00007ffdfc2dda60, 2)
+open('/tmp/nimble_2285/gitskylarhillme_skylarartemis', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2285/gitskylarhillme_skylarartemis')
+writev(1, 0x00007ffdfc2de4e0, 2)
+writev(1, 0x00007ffdfc2de460, 2)
+open('/tmp/nimble_2285', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2285')
 open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
-writev(3, 0x00007ffc33645900, 2)
-writev(1, 0x00007ffc33645a50, 2)
+writev(3, 0x00007ffdfc2de330, 2)
+writev(1, 0x00007ffdfc2de480, 2)
   create directory /tmp
-  create directory /tmp/nimble_1956
-  create directory /tmp/nimble_1956/gitskylarhillme_skylarartemis
-  delete /tmp/nimble_1956/gitskylarhillme_skylarartemis
-  delete /tmp/nimble_1956
+  create directory /tmp/nimble_2285
+  create directory /tmp/nimble_2285/gitskylarhillme_skylarartemis
+  delete /tmp/nimble_2285/gitskylarhillme_skylarartemis
+  delete /tmp/nimble_2285
   truncate file /home/runner/.nimble/nimbledata2.json
