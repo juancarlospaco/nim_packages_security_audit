@@ -1,20 +1,37 @@
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/achesak/nim-ffbookmarks using git
-   Warning: The package has no tagged releases, downloading HEAD instead.
+download.nim(81)         getTagsListRemote
+
+    Error:  Unable to query remote tags for https://github.com/achesak/nim-ffbookmarks. Git returned: remote: Repository not found.
+        ... fatal: repository 'https://github.com/achesak/nim-ffbookmarks/' not found
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffe033c2b10, 2)
-writev(1, 0x00007ffe033c23f0, 2)
+writev(1, 0x00007fff1e7d45e0, 2)
+open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
+writev(1, 0x00007fff1e7d3210, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
 mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2024/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2024/githubcom_achesaknimffbookmarks', 0x00000000000001ff)
-writev(1, 0x00007ffe033c23c0, 2)
-open('/tmp/nimble_2024/githubcom_achesaknimffbookmarks', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2024/githubcom_achesaknimffbookmarks')
-writev(1, 0x00007ffe033c2330, 2)
-mkdir(94415980704960, 0x00000000000001ff)
-Error tracing process: readBytes(0x000055deeefdb4c0, 256) error: [Errno 5] Input/output error.
+mkdir('/tmp/nimble_2047/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2047/githubcom_achesaknimffbookmarks', 0x00000000000001ff)
+open('/tmp/nimble_2047/githubcom_achesaknimffbookmarks', 622592, 0x0000000000000000)
+writev(1, 0x00007fff1e7d32d0, 2)
+open('/tmp/nimble_2047/githubcom_achesaknimffbookmarks', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2047/githubcom_achesaknimffbookmarks')
+writev(1, 0x00007fff1e7d4770, 2)
+writev(1, 0x00007fff1e7d4640, 2)
+writev(1, 0x00007fff1e7d4640, 2)
+open('/tmp/nimble_2047', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2047')
+open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
+writev(3, 0x00007fff1e7d4640, 2)
+writev(1, 0x00007fff1e7d4630, 2)
+  create directory /tmp
+  create directory /tmp/nimble_2047
+  create directory /tmp/nimble_2047/githubcom_achesaknimffbookmarks
+  delete /tmp/nimble_2047/githubcom_achesaknimffbookmarks
+  delete /tmp/nimble_2047
+  truncate file /home/runner/.nimble/nimbledata2.json
