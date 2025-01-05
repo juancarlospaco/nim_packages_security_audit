@@ -10,26 +10,28 @@ open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffe687c7980, 2)
-writev(1, 0x00007ffe687c7260, 2)
+writev(1, 0x00007ffff073af10, 2)
+open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
+writev(1, 0x00007ffff0739b40, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
 mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2097/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2097/githubcom_achesaknimepub', 0x00000000000001ff)
-writev(1, 0x00007ffe687c7230, 2)
-open('/tmp/nimble_2097/githubcom_achesaknimepub', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2097/githubcom_achesaknimepub')
-writev(1, 0x00007ffe687c7a90, 2)
-writev(1, 0x00007ffe687c7a10, 2)
-writev(1, 0x00007ffe687c7a10, 2)
-open('/tmp/nimble_2097', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2097')
+mkdir('/tmp/nimble_2227/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2227/githubcom_achesaknimepub', 0x00000000000001ff)
+open('/tmp/nimble_2227/githubcom_achesaknimepub', 622592, 0x0000000000000000)
+writev(1, 0x00007ffff0739c00, 2)
+open('/tmp/nimble_2227/githubcom_achesaknimepub', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2227/githubcom_achesaknimepub')
+writev(1, 0x00007ffff073b0a0, 2)
+writev(1, 0x00007ffff073af70, 2)
+writev(1, 0x00007ffff073af70, 2)
+open('/tmp/nimble_2227', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2227')
 open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
-writev(3, 0x00007ffe687c78e0, 2)
-writev(1, 0x00007ffe687c7a30, 2)
+writev(3, 0x00007ffff073af70, 2)
+writev(1, 0x00007ffff073af60, 2)
   create directory /tmp
-  create directory /tmp/nimble_2097
-  create directory /tmp/nimble_2097/githubcom_achesaknimepub
-  delete /tmp/nimble_2097/githubcom_achesaknimepub
-  delete /tmp/nimble_2097
+  create directory /tmp/nimble_2227
+  create directory /tmp/nimble_2227/githubcom_achesaknimepub
+  delete /tmp/nimble_2227/githubcom_achesaknimepub
+  delete /tmp/nimble_2227
   truncate file /home/runner/.nimble/nimbledata2.json
