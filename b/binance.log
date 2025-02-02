@@ -1,20 +1,37 @@
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/Imperator26/binance using git
-    Cloning latest tagged version: v1.0.2
+download.nim(81)         getTagsListRemote
+
+    Error:  Unable to query remote tags for https://github.com/Imperator26/binance. Git returned: remote: Repository not found.
+        ... fatal: repository 'https://github.com/Imperator26/binance/' not found
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007fffb0ec7770, 2)
-writev(1, 0x00007fffb0ec7050, 2)
+writev(1, 0x00007fff64234c00, 2)
+open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
+writev(1, 0x00007fff64233830, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
 mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2388/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2388/githubcom_Imperator26binance', 0x00000000000001ff)
-writev(1, 0x00007fffb0ec7020, 2)
-open('/tmp/nimble_2388/githubcom_Imperator26binance', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2388/githubcom_Imperator26binance')
-writev(1, 0x00007fffb0ec6f90, 2)
-mkdir(93978261566832, 0x00000000000001ff)
-Error tracing process: readBytes(0x0000557904e5b570, 256) error: [Errno 5] Input/output error.
+mkdir('/tmp/nimble_2576/', 0x00000000000001ff)
+mkdir('/tmp/nimble_2576/githubcom_Imperator26binance', 0x00000000000001ff)
+open('/tmp/nimble_2576/githubcom_Imperator26binance', 622592, 0x0000000000000000)
+writev(1, 0x00007fff642338f0, 2)
+open('/tmp/nimble_2576/githubcom_Imperator26binance', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2576/githubcom_Imperator26binance')
+writev(1, 0x00007fff64234d90, 2)
+writev(1, 0x00007fff64234c60, 2)
+writev(1, 0x00007fff64234c60, 2)
+open('/tmp/nimble_2576', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2576')
+open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
+writev(3, 0x00007fff64234c60, 2)
+writev(1, 0x00007fff64234c50, 2)
+  create directory /tmp
+  create directory /tmp/nimble_2576
+  create directory /tmp/nimble_2576/githubcom_Imperator26binance
+  delete /tmp/nimble_2576/githubcom_Imperator26binance
+  delete /tmp/nimble_2576
+  truncate file /home/runner/.nimble/nimbledata2.json
