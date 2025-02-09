@@ -1,3 +1,4 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/andreaferretti/interfaced using git
@@ -5,16 +6,24 @@ Downloading https://github.com/andreaferretti/interfaced using git
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffefa79e720, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffe1513f8c0, 2)
-writev(1, 0x00007ffe1513f1a0, 2)
+writev(1, 0x00007ffefa79e7f0, 2)
+writev(1, 0x00007ffe8703c940, 2)
+writev(1, 0x00007ffe8703c9d0, 2)
+writev(1, 0x00007ffe8703c9d0, 2)
+writev(1, 0x00007ffe8703c9d0, 2)
+writev(1, 0x00007ffefa79d310, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2374/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2374/githubcom_andreaferrettiinterfaced', 0x00000000000001ff)
-writev(1, 0x00007ffe1513f170, 2)
-open('/tmp/nimble_2374/githubcom_andreaferrettiinterfaced', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2374/githubcom_andreaferrettiinterfaced')
-writev(1, 0x00007ffe1513f0e0, 2)
-mkdir(94670867887472, 0x00000000000001ff)
-Error tracing process: readBytes(0x0000561a47737570, 256) error: [Errno 5] Input/output error.
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_andreaferrettiinterfaced', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_andreaferrettiinterfaced', 622592, 0x0000000000000000)
+writev(1, 0x00007ffefa79d400, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_andreaferrettiinterfaced', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_andreaferrettiinterfaced')
+writev(1, 0x00007ffefa79d2f0, 2)
+mkdir(93953727109968, 0x00000000000001ff)
+Error tracing process: readBytes(0x000055734e879b50, 256) error: [Errno 5] Input/output error.

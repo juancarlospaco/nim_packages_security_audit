@@ -1,3 +1,4 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/hmbemba/icecream using git
@@ -5,16 +6,24 @@ Downloading https://github.com/hmbemba/icecream using git
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007fffc2d1c340, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007fffcec7e9f0, 2)
-writev(1, 0x00007fffcec7e2d0, 2)
+writev(1, 0x00007fffc2d1c410, 2)
+writev(1, 0x00007fff6440b570, 2)
+writev(1, 0x00007fff6440b600, 2)
+writev(1, 0x00007fff6440b600, 2)
+writev(1, 0x00007fff6440b600, 2)
+writev(1, 0x00007fffc2d1af30, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2746/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2746/githubcom_hmbembaicecream', 0x00000000000001ff)
-writev(1, 0x00007fffcec7e2a0, 2)
-open('/tmp/nimble_2746/githubcom_hmbembaicecream', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2746/githubcom_hmbembaicecream')
-writev(1, 0x00007fffcec7e210, 2)
-mkdir(94014980138128, 0x00000000000001ff)
-Error tracing process: readBytes(0x00005581917ea490, 256) error: [Errno 5] Input/output error.
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_hmbembaicecream', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_hmbembaicecream', 622592, 0x0000000000000000)
+writev(1, 0x00007fffc2d1b020, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_hmbembaicecream', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_hmbembaicecream')
+writev(1, 0x00007fffc2d1af10, 2)
+mkdir(94083778427120, 0x00000000000001ff)
+Error tracing process: readBytes(0x00005591963138f0, 256) error: [Errno 5] Input/output error.

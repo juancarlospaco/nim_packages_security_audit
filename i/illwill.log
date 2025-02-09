@@ -1,3 +1,4 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/johnnovak/illwill using git
@@ -5,16 +6,24 @@ Downloading https://github.com/johnnovak/illwill using git
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffc063254c0, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007fff75b12300, 2)
-writev(1, 0x00007fff75b11be0, 2)
+writev(1, 0x00007ffc06325590, 2)
+writev(1, 0x00007ffda0933090, 2)
+writev(1, 0x00007ffda0933120, 2)
+writev(1, 0x00007ffda0933120, 2)
+writev(1, 0x00007ffda0933120, 2)
+writev(1, 0x00007ffc063240b0, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2466/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2466/githubcom_johnnovakillwill', 0x00000000000001ff)
-writev(1, 0x00007fff75b11bb0, 2)
-open('/tmp/nimble_2466/githubcom_johnnovakillwill', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2466/githubcom_johnnovakillwill')
-writev(1, 0x00007fff75b11b20, 2)
-mkdir(94417330386064, 0x00000000000001ff)
-Error tracing process: readBytes(0x000055df3f703490, 256) error: [Errno 5] Input/output error.
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_johnnovakillwill', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_johnnovakillwill', 622592, 0x0000000000000000)
+writev(1, 0x00007ffc063241a0, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_johnnovakillwill', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_johnnovakillwill')
+writev(1, 0x00007ffc06324090, 2)
+mkdir(94792501541696, 0x00000000000001ff)
+Error tracing process: readBytes(0x000056369961bb40, 256) error: [Errno 5] Input/output error.
