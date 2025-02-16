@@ -1,3 +1,4 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/paranim/pvim using git
@@ -5,16 +6,24 @@ Downloading https://github.com/paranim/pvim using git
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007fff4c2bef30, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffd89692eb0, 2)
-writev(1, 0x00007ffd89692790, 2)
+writev(1, 0x00007fff4c2bf000, 2)
+writev(1, 0x00007ffe079d45b0, 2)
+writev(1, 0x00007ffe079d4640, 2)
+writev(1, 0x00007ffe079d4640, 2)
+writev(1, 0x00007ffe079d4640, 2)
+writev(1, 0x00007fff4c2bdb20, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3119/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3119/githubcom_paranimpvim', 0x00000000000001ff)
-writev(1, 0x00007ffd89692760, 2)
-open('/tmp/nimble_3119/githubcom_paranimpvim', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_3119/githubcom_paranimpvim')
-writev(1, 0x00007ffd896926d0, 2)
-mkdir(94748371457904, 0x00000000000001ff)
-Error tracing process: readBytes(0x0000562c53061770, 256) error: [Errno 5] Input/output error.
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_paranimpvim', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_paranimpvim', 622592, 0x0000000000000000)
+writev(1, 0x00007fff4c2bdc10, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_paranimpvim', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_paranimpvim')
+writev(1, 0x00007fff4c2bdb00, 2)
+mkdir(94150470904128, 0x00000000000001ff)
+Error tracing process: readBytes(0x000055a11d5fa940, 256) error: [Errno 5] Input/output error.

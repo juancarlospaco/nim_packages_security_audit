@@ -1,3 +1,4 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/pietroppeter/p5nim using git
@@ -5,16 +6,24 @@ Downloading https://github.com/pietroppeter/p5nim using git
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007fff3009c100, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007fff577a8e10, 2)
-writev(1, 0x00007fff577a86f0, 2)
+writev(1, 0x00007fff3009c1d0, 2)
+writev(1, 0x00007fff56406c10, 2)
+writev(1, 0x00007fff56406ca0, 2)
+writev(1, 0x00007fff56406ca0, 2)
+writev(1, 0x00007fff56406ca0, 2)
+writev(1, 0x00007fff3009acf0, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2645/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2645/githubcom_pietroppeterp5nim', 0x00000000000001ff)
-writev(1, 0x00007fff577a86c0, 2)
-open('/tmp/nimble_2645/githubcom_pietroppeterp5nim', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2645/githubcom_pietroppeterp5nim')
-writev(1, 0x00007fff577a8630, 2)
-mkdir(94165523678352, 0x00000000000001ff)
-Error tracing process: readBytes(0x000055a49e96c490, 256) error: [Errno 5] Input/output error.
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_pietroppeterp5nim', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_pietroppeterp5nim', 622592, 0x0000000000000000)
+writev(1, 0x00007fff3009ade0, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_pietroppeterp5nim', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_pietroppeterp5nim')
+writev(1, 0x00007fff3009acd0, 2)
+mkdir(94793536596720, 0x00000000000001ff)
+Error tracing process: readBytes(0x00005636d7136af0, 256) error: [Errno 5] Input/output error.

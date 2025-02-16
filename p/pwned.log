@@ -1,3 +1,4 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/dom96/pwned using git
@@ -5,16 +6,24 @@ Downloading https://github.com/dom96/pwned using git
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffdf8220640, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007fff0c6d2cd0, 2)
-writev(1, 0x00007fff0c6d25b0, 2)
+writev(1, 0x00007ffdf8220710, 2)
+writev(1, 0x00007ffe02e7ec40, 2)
+writev(1, 0x00007ffe02e7ecd0, 2)
+writev(1, 0x00007ffe02e7ecd0, 2)
+writev(1, 0x00007ffe02e7ecd0, 2)
+writev(1, 0x00007ffdf821f230, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2658/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2658/githubcom_dom96pwned', 0x00000000000001ff)
-writev(1, 0x00007fff0c6d2580, 2)
-open('/tmp/nimble_2658/githubcom_dom96pwned', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2658/githubcom_dom96pwned')
-writev(1, 0x00007fff0c6d24f0, 2)
-mkdir(94829741545328, 0x00000000000001ff)
-Error tracing process: readBytes(0x0000563f450f1770, 256) error: [Errno 5] Input/output error.
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_dom96pwned', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_dom96pwned', 622592, 0x0000000000000000)
+writev(1, 0x00007ffdf821f320, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_dom96pwned', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_dom96pwned')
+writev(1, 0x00007ffdf821f210, 2)
+mkdir(94662059690304, 0x00000000000001ff)
+Error tracing process: readBytes(0x000056183a710940, 256) error: [Errno 5] Input/output error.

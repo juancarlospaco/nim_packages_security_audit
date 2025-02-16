@@ -1,3 +1,4 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/nim-lang/python using git
@@ -5,16 +6,24 @@ Downloading https://github.com/nim-lang/python using git
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffd889b0c10, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffc8abd46f0, 2)
-writev(1, 0x00007ffc8abd3fd0, 2)
+writev(1, 0x00007ffd889b0ce0, 2)
+writev(1, 0x00007ffe14a9a910, 2)
+writev(1, 0x00007ffe14a9a9a0, 2)
+writev(1, 0x00007ffe14a9a9a0, 2)
+writev(1, 0x00007ffe14a9a9a0, 2)
+writev(1, 0x00007ffd889af800, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2061/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2061/githubcom_nimlangpython', 0x00000000000001ff)
-writev(1, 0x00007ffc8abd3fa0, 2)
-open('/tmp/nimble_2061/githubcom_nimlangpython', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2061/githubcom_nimlangpython')
-writev(1, 0x00007ffc8abd3f10, 2)
-mkdir(94519501198480, 0x00000000000001ff)
-Error tracing process: readBytes(0x000055f7094b1490, 256) error: [Errno 5] Input/output error.
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_nimlangpython', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_nimlangpython', 622592, 0x0000000000000000)
+writev(1, 0x00007ffd889af8f0, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_nimlangpython', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_nimlangpython')
+writev(1, 0x00007ffd889af7e0, 2)
+mkdir(93926733678832, 0x00000000000001ff)
+Error tracing process: readBytes(0x0000556d059888f0, 256) error: [Errno 5] Input/output error.

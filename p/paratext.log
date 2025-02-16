@@ -1,3 +1,4 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/paranim/paratext using git
@@ -5,16 +6,24 @@ Downloading https://github.com/paranim/paratext using git
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffd8cc6eda0, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffc1cea8c20, 2)
-writev(1, 0x00007ffc1cea8500, 2)
+writev(1, 0x00007ffd8cc6ee70, 2)
+writev(1, 0x00007fff73c0b870, 2)
+writev(1, 0x00007fff73c0b900, 2)
+writev(1, 0x00007fff73c0b900, 2)
+writev(1, 0x00007fff73c0b900, 2)
+writev(1, 0x00007ffd8cc6d990, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3107/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3107/githubcom_paranimparatext', 0x00000000000001ff)
-writev(1, 0x00007ffc1cea84d0, 2)
-open('/tmp/nimble_3107/githubcom_paranimparatext', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_3107/githubcom_paranimparatext')
-writev(1, 0x00007ffc1cea8440, 2)
-mkdir(93858725049488, 0x00000000000001ff)
-Error tracing process: readBytes(0x0000555d2ff73490, 256) error: [Errno 5] Input/output error.
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_paranimparatext', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_paranimparatext', 622592, 0x0000000000000000)
+writev(1, 0x00007ffd8cc6da80, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_paranimparatext', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_paranimparatext')
+writev(1, 0x00007ffd8cc6d970, 2)
+mkdir(94645061515584, 0x00000000000001ff)
+Error tracing process: readBytes(0x0000561445457940, 256) error: [Errno 5] Input/output error.

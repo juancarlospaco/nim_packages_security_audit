@@ -1,3 +1,4 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/nim-lang/punycode using git
@@ -5,16 +6,24 @@ Downloading https://github.com/nim-lang/punycode using git
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffc77268400, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffc09c6fa30, 2)
-writev(1, 0x00007ffc09c6f310, 2)
+writev(1, 0x00007ffc772684d0, 2)
+writev(1, 0x00007fffa9758f70, 2)
+writev(1, 0x00007fffa9759000, 2)
+writev(1, 0x00007fffa9759000, 2)
+writev(1, 0x00007fffa9759000, 2)
+writev(1, 0x00007ffc77266ff0, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3771/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3771/githubcom_nimlangpunycode', 0x00000000000001ff)
-writev(1, 0x00007ffc09c6f2e0, 2)
-open('/tmp/nimble_3771/githubcom_nimlangpunycode', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_3771/githubcom_nimlangpunycode')
-writev(1, 0x00007ffc09c6f250, 2)
-mkdir(94251473691792, 0x00000000000001ff)
-Error tracing process: readBytes(0x000055b8a19be490, 256) error: [Errno 5] Input/output error.
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_nimlangpunycode', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_nimlangpunycode', 622592, 0x0000000000000000)
+writev(1, 0x00007ffc772670e0, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_nimlangpunycode', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_nimlangpunycode')
+writev(1, 0x00007ffc77266fd0, 2)
+mkdir(94753282615536, 0x00000000000001ff)
+Error tracing process: readBytes(0x0000562d77c068f0, 256) error: [Errno 5] Input/output error.

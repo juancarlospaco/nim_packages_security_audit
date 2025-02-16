@@ -1,3 +1,4 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/fowlmouth/physfs using git
@@ -5,16 +6,24 @@ Downloading https://github.com/fowlmouth/physfs using git
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffc0822e700, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffd8a9e9a70, 2)
-writev(1, 0x00007ffd8a9e9350, 2)
+writev(1, 0x00007ffc0822e7d0, 2)
+writev(1, 0x00007ffdf9099770, 2)
+writev(1, 0x00007ffdf9099800, 2)
+writev(1, 0x00007ffdf9099800, 2)
+writev(1, 0x00007ffdf9099800, 2)
+writev(1, 0x00007ffc0822d2f0, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2146/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2146/githubcom_fowlmouthphysfs', 0x00000000000001ff)
-writev(1, 0x00007ffd8a9e9320, 2)
-open('/tmp/nimble_2146/githubcom_fowlmouthphysfs', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2146/githubcom_fowlmouthphysfs')
-writev(1, 0x00007ffd8a9e9290, 2)
-mkdir(94137140286608, 0x00000000000001ff)
-Error tracing process: readBytes(0x0000559e02ce9490, 256) error: [Errno 5] Input/output error.
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_fowlmouthphysfs', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_fowlmouthphysfs', 622592, 0x0000000000000000)
+writev(1, 0x00007ffc0822d3e0, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_fowlmouthphysfs', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_fowlmouthphysfs')
+writev(1, 0x00007ffc0822d2d0, 2)
+mkdir(94704226044144, 0x00000000000001ff)
+Error tracing process: readBytes(0x000056220bc088f0, 256) error: [Errno 5] Input/output error.

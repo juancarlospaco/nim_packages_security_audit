@@ -1,3 +1,4 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/treeform/ptest using git
@@ -5,16 +6,24 @@ Downloading https://github.com/treeform/ptest using git
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffce0973170, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007fff51e4f2c0, 2)
-writev(1, 0x00007fff51e4eba0, 2)
+writev(1, 0x00007ffce0973240, 2)
+writev(1, 0x00007ffe0ee4b3d0, 2)
+writev(1, 0x00007ffe0ee4b460, 2)
+writev(1, 0x00007ffe0ee4b460, 2)
+writev(1, 0x00007ffe0ee4b460, 2)
+writev(1, 0x00007ffce0971d60, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3046/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3046/githubcom_treeformptest', 0x00000000000001ff)
-writev(1, 0x00007fff51e4eb70, 2)
-open('/tmp/nimble_3046/githubcom_treeformptest', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_3046/githubcom_treeformptest')
-writev(1, 0x00007fff51e4eae0, 2)
-mkdir(93886250136720, 0x00000000000001ff)
-Error tracing process: readBytes(0x000055639896b490, 256) error: [Errno 5] Input/output error.
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_treeformptest', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_treeformptest', 622592, 0x0000000000000000)
+writev(1, 0x00007ffce0971e50, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_treeformptest', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_treeformptest')
+writev(1, 0x00007ffce0971d40, 2)
+mkdir(94133103929664, 0x00000000000001ff)
+Error tracing process: readBytes(0x0000559d1238a940, 256) error: [Errno 5] Input/output error.
