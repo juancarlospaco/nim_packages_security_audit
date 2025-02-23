@@ -1,3 +1,4 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/codehz/nim-winres using git
@@ -5,17 +6,24 @@ Downloading https://github.com/codehz/nim-winres using git
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffcd66fed80, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007fff1c0a4a40, 2)
-open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
-writev(1, 0x00007fff1c0a41f0, 2)
+writev(1, 0x00007ffcd66fee50, 2)
+writev(1, 0x00007fff2eaeb1d0, 2)
+writev(1, 0x00007fff2eaeb260, 2)
+writev(1, 0x00007fff2eaeb260, 2)
+writev(1, 0x00007fff2eaeb260, 2)
+writev(1, 0x00007ffcd66fd970, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_9364/', 0x00000000000001ff)
-mkdir('/tmp/nimble_9364/githubcom_codehznimwinres', 0x00000000000001ff)
-writev(1, 0x00007fff1c0a41c0, 2)
-open('/tmp/nimble_9364/githubcom_codehznimwinres', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_9364/githubcom_codehznimwinres')
-writev(1, 0x00007fff1c0a4130, 2)
-mkdir(93944425305216, 0x00000000000001ff)
-Error tracing process: readBytes(0x0000557124195480, 256) error: [Errno 5] Input/output error.
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_codehznimwinres', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_codehznimwinres', 622592, 0x0000000000000000)
+writev(1, 0x00007ffcd66fda60, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_codehznimwinres', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_codehznimwinres')
+writev(1, 0x00007ffcd66fd950, 2)
+mkdir(94302519437632, 0x00000000000001ff)
+Error tracing process: readBytes(0x000055c4842c2940, 256) error: [Errno 5] Input/output error.
