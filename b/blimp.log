@@ -1,35 +1,44 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://gitlab.3dicc.com/gokr/blimp.git using git
-download.nim(81)         getTagsListRemote
+download.nim(89)         getTagsListRemote
 
     Error:  Unable to query remote tags for https://gitlab.3dicc.com/gokr/blimp.git. Git returned: fatal: unable to access 'https://gitlab.3dicc.com/gokr/blimp.git/': server certificate verification failed. CAfile: none CRLfile: none
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffc61b1b3e0, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffe66c69db0, 2)
-open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
-writev(1, 0x00007ffe66c689e0, 2)
+writev(1, 0x00007ffc61b1b4b0, 2)
+writev(1, 0x00007ffc9001b800, 2)
+writev(1, 0x00007ffc9001b890, 2)
+writev(1, 0x00007ffc9001b890, 2)
+writev(1, 0x00007ffc9001b890, 2)
+writev(1, 0x00007ffc61b19fd0, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2209/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2209/gitlab3dicccom_gokrblimpgit', 0x00000000000001ff)
-open('/tmp/nimble_2209/gitlab3dicccom_gokrblimpgit', 622592, 0x0000000000000000)
-writev(1, 0x00007ffe66c68aa0, 2)
-open('/tmp/nimble_2209/gitlab3dicccom_gokrblimpgit', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2209/gitlab3dicccom_gokrblimpgit')
-writev(1, 0x00007ffe66c69f40, 2)
-writev(1, 0x00007ffe66c69e10, 2)
-open('/tmp/nimble_2209', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2209')
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/gitlab3dicccom_gokrblimpgit', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/gitlab3dicccom_gokrblimpgit', 622592, 0x0000000000000000)
+writev(1, 0x00007ffc61b1a0c0, 2)
+open('/home/runner/.nimble/pkgcache/gitlab3dicccom_gokrblimpgit', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/gitlab3dicccom_gokrblimpgit')
+writev(1, 0x00007ffc61b1b5d0, 2)
+writev(1, 0x00007ffc61b1b4a0, 2)
+open('/tmp/nimble_2292', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2292')
 open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
-writev(3, 0x00007ffe66c69e10, 2)
-writev(1, 0x00007ffe66c69e00, 2)
-  create directory /tmp
-  create directory /tmp/nimble_2209
-  create directory /tmp/nimble_2209/gitlab3dicccom_gokrblimpgit
-  delete /tmp/nimble_2209/gitlab3dicccom_gokrblimpgit
-  delete /tmp/nimble_2209
+writev(3, 0x00007ffc61b1b4a0, 2)
+writev(1, 0x00007ffc61b1b490, 2)
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgcache
+  create directory /home/runner/.nimble/pkgcache/gitlab3dicccom_gokrblimpgit
+  delete /home/runner/.nimble/pkgcache/gitlab3dicccom_gokrblimpgit
+  delete /tmp/nimble_2292
   truncate file /home/runner/.nimble/nimbledata2.json
