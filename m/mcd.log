@@ -1,3 +1,4 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://gitlab.com/malicious-commit-detector/mcd using git
@@ -5,18 +6,24 @@ Downloading https://gitlab.com/malicious-commit-detector/mcd using git
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffdc481dc20, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffeccc5aa00, 2)
-open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
-writev(1, 0x00007ffeccc59630, 2)
+writev(1, 0x00007ffdc481dcf0, 2)
+writev(1, 0x00007ffd297ac810, 2)
+writev(1, 0x00007ffd297ac8a0, 2)
+writev(1, 0x00007ffd297ac8a0, 2)
+writev(1, 0x00007ffd297ac8a0, 2)
+writev(1, 0x00007ffdc481c810, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3445/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3445/gitlabcom_maliciouscommitdetectormcd', 0x00000000000001ff)
-open('/tmp/nimble_3445/gitlabcom_maliciouscommitdetectormcd', 622592, 0x0000000000000000)
-writev(1, 0x00007ffeccc596f0, 2)
-open('/tmp/nimble_3445/gitlabcom_maliciouscommitdetectormcd', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_3445/gitlabcom_maliciouscommitdetectormcd')
-writev(1, 0x00007ffeccc595e0, 2)
-mkdir(94003843692688, 0x00000000000001ff)
-Error tracing process: readBytes(0x0000557ef9b5f890, 256) error: [Errno 5] Input/output error.
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/gitlabcom_maliciouscommitdetectormcd', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/gitlabcom_maliciouscommitdetectormcd', 622592, 0x0000000000000000)
+writev(1, 0x00007ffdc481c900, 2)
+open('/home/runner/.nimble/pkgcache/gitlabcom_maliciouscommitdetectormcd', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/gitlabcom_maliciouscommitdetectormcd')
+writev(1, 0x00007ffdc481c7f0, 2)
+mkdir(94418707069776, 0x00000000000001ff)
+Error tracing process: readBytes(0x000055df917ebb50, 256) error: [Errno 5] Input/output error.
