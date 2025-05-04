@@ -1,7 +1,8 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/C-NERD/dan_magaji using git
-download.nim(81)         getTagsListRemote
+download.nim(92)         getTagsListRemote
 
     Error:  Unable to query remote tags for https://github.com/C-NERD/dan_magaji. Git returned: remote: Repository not found.
         ... fatal: repository 'https://github.com/C-NERD/dan_magaji/' not found
@@ -9,28 +10,37 @@ download.nim(81)         getTagsListRemote
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffe9ed5f470, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007fff0e54b6e0, 2)
-open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
-writev(1, 0x00007fff0e54adb0, 2)
+writev(1, 0x00007ffe9ed5f540, 2)
+writev(1, 0x00007ffc68cd7c70, 2)
+writev(1, 0x00007ffc68cd7d00, 2)
+writev(1, 0x00007ffc68cd7d00, 2)
+writev(1, 0x00007ffc68cd7d00, 2)
+writev(1, 0x00007ffe9ed5df20, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3424/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3424/githubcom_CNERDdanmagaji', 0x00000000000001ff)
-writev(1, 0x00007fff0e54ad70, 2)
-open('/tmp/nimble_3424/githubcom_CNERDdanmagaji', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_3424/githubcom_CNERDdanmagaji')
-writev(1, 0x00007fff0e54b7f0, 2)
-writev(1, 0x00007fff0e54b770, 2)
-writev(1, 0x00007fff0e54b770, 2)
-open('/tmp/nimble_3424', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_3424')
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_CNERDdanmagaji', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_CNERDdanmagaji', 622592, 0x0000000000000000)
+writev(1, 0x00007ffe9ed5e000, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_CNERDdanmagaji', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_CNERDdanmagaji')
+writev(1, 0x00007ffe9ed5f6c0, 2)
+writev(1, 0x00007ffe9ed5f530, 2)
+writev(1, 0x00007ffe9ed5f530, 2)
+open('/tmp/nimble_3588', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_3588')
 open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
-writev(3, 0x00007fff0e54b640, 2)
-writev(1, 0x00007fff0e54b790, 2)
-  create directory /tmp
-  create directory /tmp/nimble_3424
-  create directory /tmp/nimble_3424/githubcom_CNERDdanmagaji
-  delete /tmp/nimble_3424/githubcom_CNERDdanmagaji
-  delete /tmp/nimble_3424
+writev(3, 0x00007ffe9ed5f590, 2)
+writev(1, 0x00007ffe9ed5f520, 2)
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgcache
+  create directory /home/runner/.nimble/pkgcache/githubcom_CNERDdanmagaji
+  delete /home/runner/.nimble/pkgcache/githubcom_CNERDdanmagaji
+  delete /tmp/nimble_3588
   truncate file /home/runner/.nimble/nimbledata2.json

@@ -1,3 +1,4 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/JeffersonLab/drand48 using git
@@ -5,17 +6,24 @@ Downloading https://github.com/JeffersonLab/drand48 using git
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffd42c695c0, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffdb5a0c0b0, 2)
-open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
-writev(1, 0x00007ffdb5a0b780, 2)
+writev(1, 0x00007ffd42c69690, 2)
+writev(1, 0x00007ffca4af4200, 2)
+writev(1, 0x00007ffca4af4290, 2)
+writev(1, 0x00007ffca4af4290, 2)
+writev(1, 0x00007ffca4af4290, 2)
+writev(1, 0x00007ffd42c68070, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2423/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2423/githubcom_JeffersonLabdrand48', 0x00000000000001ff)
-writev(1, 0x00007ffdb5a0b740, 2)
-open('/tmp/nimble_2423/githubcom_JeffersonLabdrand48', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2423/githubcom_JeffersonLabdrand48')
-writev(1, 0x00007ffdb5a0b6b0, 2)
-mkdir(94592545858960, 0x00000000000001ff)
-Error tracing process: readBytes(0x000056080b182590, 256) error: [Errno 5] Input/output error.
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_JeffersonLabdrand48', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_JeffersonLabdrand48', 622592, 0x0000000000000000)
+writev(1, 0x00007ffd42c68150, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_JeffersonLabdrand48', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_JeffersonLabdrand48')
+writev(1, 0x00007ffd42c68040, 2)
+mkdir(94413587077952, 0x00000000000001ff)
+Error tracing process: readBytes(0x000055de6051db40, 256) error: [Errno 5] Input/output error.

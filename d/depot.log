@@ -1,3 +1,4 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/guzba/depot using git
@@ -5,17 +6,24 @@ Downloading https://github.com/guzba/depot using git
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007fff439842c0, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffd8ba81bc0, 2)
-open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
-writev(1, 0x00007ffd8ba81290, 2)
+writev(1, 0x00007fff43984390, 2)
+writev(1, 0x00007ffdd0b54aa0, 2)
+writev(1, 0x00007ffdd0b54b30, 2)
+writev(1, 0x00007ffdd0b54b30, 2)
+writev(1, 0x00007ffdd0b54b30, 2)
+writev(1, 0x00007fff43982d70, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3251/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3251/githubcom_guzbadepot', 0x00000000000001ff)
-writev(1, 0x00007ffd8ba81250, 2)
-open('/tmp/nimble_3251/githubcom_guzbadepot', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_3251/githubcom_guzbadepot')
-writev(1, 0x00007ffd8ba811c0, 2)
-mkdir(93916857309296, 0x00000000000001ff)
-Error tracing process: readBytes(0x0000556ab8eb1870, 256) error: [Errno 5] Input/output error.
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_guzbadepot', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_guzbadepot', 622592, 0x0000000000000000)
+writev(1, 0x00007fff43982e50, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_guzbadepot', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_guzbadepot')
+writev(1, 0x00007fff43982d40, 2)
+mkdir(94327999203744, 0x00000000000001ff)
+Error tracing process: readBytes(0x000055ca72e289a0, 256) error: [Errno 5] Input/output error.
