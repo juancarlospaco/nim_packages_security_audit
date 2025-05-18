@@ -1,7 +1,8 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/juancarlospaco/redneck-translator using git
-download.nim(81)         getTagsListRemote
+download.nim(92)         getTagsListRemote
 
     Error:  Unable to query remote tags for https://github.com/juancarlospaco/redneck-translator. Git returned: remote: Repository not found.
         ... fatal: repository 'https://github.com/juancarlospaco/redneck-translator/' not found
@@ -9,28 +10,37 @@ download.nim(81)         getTagsListRemote
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffd9acb6f60, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffd87d37850, 2)
-open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
-writev(1, 0x00007ffd87d36f20, 2)
+writev(1, 0x00007ffd9acb7030, 2)
+writev(1, 0x00007ffc26743f60, 2)
+writev(1, 0x00007ffc26743ff0, 2)
+writev(1, 0x00007ffc26743ff0, 2)
+writev(1, 0x00007ffc26743ff0, 2)
+writev(1, 0x00007ffd9acb5a10, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2880/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2880/githubcom_juancarlospacorednecktranslator', 0x00000000000001ff)
-writev(1, 0x00007ffd87d36ee0, 2)
-open('/tmp/nimble_2880/githubcom_juancarlospacorednecktranslator', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2880/githubcom_juancarlospacorednecktranslator')
-writev(1, 0x00007ffd87d37960, 2)
-writev(1, 0x00007ffd87d378e0, 2)
-writev(1, 0x00007ffd87d378e0, 2)
-open('/tmp/nimble_2880', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2880')
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_juancarlospacorednecktranslator', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_juancarlospacorednecktranslator', 622592, 0x0000000000000000)
+writev(1, 0x00007ffd9acb5af0, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_juancarlospacorednecktranslator', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_juancarlospacorednecktranslator')
+writev(1, 0x00007ffd9acb71b0, 2)
+writev(1, 0x00007ffd9acb7020, 2)
+writev(1, 0x00007ffd9acb7020, 2)
+open('/tmp/nimble_3158', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_3158')
 open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
-writev(3, 0x00007ffd87d377b0, 2)
-writev(1, 0x00007ffd87d37900, 2)
-  create directory /tmp
-  create directory /tmp/nimble_2880
-  create directory /tmp/nimble_2880/githubcom_juancarlospacorednecktranslator
-  delete /tmp/nimble_2880/githubcom_juancarlospacorednecktranslator
-  delete /tmp/nimble_2880
+writev(3, 0x00007ffd9acb7080, 2)
+writev(1, 0x00007ffd9acb7010, 2)
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgcache
+  create directory /home/runner/.nimble/pkgcache/githubcom_juancarlospacorednecktranslator
+  delete /home/runner/.nimble/pkgcache/githubcom_juancarlospacorednecktranslator
+  delete /tmp/nimble_3158
   truncate file /home/runner/.nimble/nimbledata2.json

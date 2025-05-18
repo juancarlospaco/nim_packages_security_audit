@@ -1,34 +1,44 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://git.skylarhill.me/skylar/rpgsheet using git
-download.nim(81)         getTagsListRemote
+download.nim(92)         getTagsListRemote
 
-    Error:  Unable to query remote tags for https://git.skylarhill.me/skylar/rpgsheet. Git returned: fatal: unable to access 'https://git.skylarhill.me/skylar/rpgsheet/': Failed to connect to git.skylarhill.me port 443 after 134334 ms: Connection timed out
+    Error:  Unable to query remote tags for https://git.skylarhill.me/skylar/rpgsheet. Git returned: fatal: unable to access 'https://git.skylarhill.me/skylar/rpgsheet/': Could not resolve host: git.skylarhill.me
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffd58899890, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007fffba993340, 2)
-open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
-writev(1, 0x00007fffba992a10, 2)
+writev(1, 0x00007ffd58899960, 2)
+writev(1, 0x00007ffd361c6730, 2)
+writev(1, 0x00007ffd361c67c0, 2)
+writev(1, 0x00007ffd361c67c0, 2)
+writev(1, 0x00007ffd361c67c0, 2)
+writev(1, 0x00007ffd58898340, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2229/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2229/gitskylarhillme_skylarrpgsheet', 0x00000000000001ff)
-writev(1, 0x00007fffba9929d0, 2)
-open('/tmp/nimble_2229/gitskylarhillme_skylarrpgsheet', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2229/gitskylarhillme_skylarrpgsheet')
-writev(1, 0x00007fffba993450, 2)
-writev(1, 0x00007fffba9933d0, 2)
-open('/tmp/nimble_2229', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2229')
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/gitskylarhillme_skylarrpgsheet', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/gitskylarhillme_skylarrpgsheet', 622592, 0x0000000000000000)
+writev(1, 0x00007ffd58898420, 2)
+open('/home/runner/.nimble/pkgcache/gitskylarhillme_skylarrpgsheet', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/gitskylarhillme_skylarrpgsheet')
+writev(1, 0x00007ffd58899ae0, 2)
+writev(1, 0x00007ffd58899950, 2)
+open('/tmp/nimble_2410', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2410')
 open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
-writev(3, 0x00007fffba9932a0, 2)
-writev(1, 0x00007fffba9933f0, 2)
-  create directory /tmp
-  create directory /tmp/nimble_2229
-  create directory /tmp/nimble_2229/gitskylarhillme_skylarrpgsheet
-  delete /tmp/nimble_2229/gitskylarhillme_skylarrpgsheet
-  delete /tmp/nimble_2229
+writev(3, 0x00007ffd588999b0, 2)
+writev(1, 0x00007ffd58899940, 2)
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgcache
+  create directory /home/runner/.nimble/pkgcache/gitskylarhillme_skylarrpgsheet
+  delete /home/runner/.nimble/pkgcache/gitskylarhillme_skylarrpgsheet
+  delete /tmp/nimble_2410
   truncate file /home/runner/.nimble/nimbledata2.json

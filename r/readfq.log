@@ -1,3 +1,4 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/andreas-wilm/nimreadfq using git
@@ -5,17 +6,24 @@ Downloading https://github.com/andreas-wilm/nimreadfq using git
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffcc50be8f0, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffff9b69ed0, 2)
-open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
-writev(1, 0x00007ffff9b695a0, 2)
+writev(1, 0x00007ffcc50be9c0, 2)
+writev(1, 0x00007ffd70d96450, 2)
+writev(1, 0x00007ffd70d964e0, 2)
+writev(1, 0x00007ffd70d964e0, 2)
+writev(1, 0x00007ffd70d964e0, 2)
+writev(1, 0x00007ffcc50bd3a0, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2967/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2967/githubcom_andreaswilmnimreadfq', 0x00000000000001ff)
-writev(1, 0x00007ffff9b69560, 2)
-open('/tmp/nimble_2967/githubcom_andreaswilmnimreadfq', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2967/githubcom_andreaswilmnimreadfq')
-writev(1, 0x00007ffff9b694d0, 2)
-mkdir(93919578121840, 0x00000000000001ff)
-Error tracing process: readBytes(0x0000556b5b176670, 256) error: [Errno 5] Input/output error.
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_andreaswilmnimreadfq', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_andreaswilmnimreadfq', 622592, 0x0000000000000000)
+writev(1, 0x00007ffcc50bd480, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_andreaswilmnimreadfq', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_andreaswilmnimreadfq')
+writev(1, 0x00007ffcc50bd370, 2)
+mkdir(94627578485488, 0x00000000000001ff)
+Error tracing process: readBytes(0x0000561033339af0, 256) error: [Errno 5] Input/output error.
