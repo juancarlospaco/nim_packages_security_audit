@@ -1,7 +1,8 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/davidgarland/nim-hats using git
-download.nim(81)         getTagsListRemote
+download.nim(92)         getTagsListRemote
 
     Error:  Unable to query remote tags for https://github.com/davidgarland/nim-hats. Git returned: remote: Repository not found.
         ... fatal: repository 'https://github.com/davidgarland/nim-hats/' not found
@@ -9,29 +10,37 @@ download.nim(81)         getTagsListRemote
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffd4a9c6f20, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffef243f310, 2)
-open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
-writev(1, 0x00007ffef243df40, 2)
+writev(1, 0x00007ffd4a9c6ff0, 2)
+writev(1, 0x00007fffd8f59330, 2)
+writev(1, 0x00007fffd8f593c0, 2)
+writev(1, 0x00007fffd8f593c0, 2)
+writev(1, 0x00007fffd8f593c0, 2)
+writev(1, 0x00007ffd4a9c59d0, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2703/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2703/githubcom_davidgarlandnimhats', 0x00000000000001ff)
-open('/tmp/nimble_2703/githubcom_davidgarlandnimhats', 622592, 0x0000000000000000)
-writev(1, 0x00007ffef243e000, 2)
-open('/tmp/nimble_2703/githubcom_davidgarlandnimhats', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2703/githubcom_davidgarlandnimhats')
-writev(1, 0x00007ffef243f4a0, 2)
-writev(1, 0x00007ffef243f370, 2)
-writev(1, 0x00007ffef243f370, 2)
-open('/tmp/nimble_2703', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2703')
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_davidgarlandnimhats', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_davidgarlandnimhats', 622592, 0x0000000000000000)
+writev(1, 0x00007ffd4a9c5ab0, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_davidgarlandnimhats', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_davidgarlandnimhats')
+writev(1, 0x00007ffd4a9c7170, 2)
+writev(1, 0x00007ffd4a9c6fe0, 2)
+writev(1, 0x00007ffd4a9c6fe0, 2)
+open('/tmp/nimble_2970', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2970')
 open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
-writev(3, 0x00007ffef243f370, 2)
-writev(1, 0x00007ffef243f360, 2)
-  create directory /tmp
-  create directory /tmp/nimble_2703
-  create directory /tmp/nimble_2703/githubcom_davidgarlandnimhats
-  delete /tmp/nimble_2703/githubcom_davidgarlandnimhats
-  delete /tmp/nimble_2703
+writev(3, 0x00007ffd4a9c7040, 2)
+writev(1, 0x00007ffd4a9c6fd0, 2)
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgcache
+  create directory /home/runner/.nimble/pkgcache/githubcom_davidgarlandnimhats
+  delete /home/runner/.nimble/pkgcache/githubcom_davidgarlandnimhats
+  delete /tmp/nimble_2970
   truncate file /home/runner/.nimble/nimbledata2.json
