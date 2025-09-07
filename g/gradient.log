@@ -1,7 +1,8 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/luminosoda/gradient using git
-download.nim(81)         getTagsListRemote
+download.nim(92)         getTagsListRemote
 
     Error:  Unable to query remote tags for https://github.com/luminosoda/gradient. Git returned: remote: Repository not found.
         ... fatal: repository 'https://github.com/luminosoda/gradient/' not found
@@ -9,28 +10,37 @@ download.nim(81)         getTagsListRemote
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffe7af347b0, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007fff6d5ae040, 2)
-open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
-writev(1, 0x00007fff6d5ad710, 2)
+writev(1, 0x00007ffe7af34880, 2)
+writev(1, 0x00007ffdd695ec70, 2)
+writev(1, 0x00007ffdd695ed00, 2)
+writev(1, 0x00007ffdd695ed00, 2)
+writev(1, 0x00007ffdd695ed00, 2)
+writev(1, 0x00007ffe7af33260, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3006/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3006/githubcom_luminosodagradient', 0x00000000000001ff)
-writev(1, 0x00007fff6d5ad6d0, 2)
-open('/tmp/nimble_3006/githubcom_luminosodagradient', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_3006/githubcom_luminosodagradient')
-writev(1, 0x00007fff6d5ae150, 2)
-writev(1, 0x00007fff6d5ae0d0, 2)
-writev(1, 0x00007fff6d5ae0d0, 2)
-open('/tmp/nimble_3006', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_3006')
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_luminosodagradient', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_luminosodagradient', 622592, 0x0000000000000000)
+writev(1, 0x00007ffe7af33340, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_luminosodagradient', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_luminosodagradient')
+writev(1, 0x00007ffe7af34a00, 2)
+writev(1, 0x00007ffe7af34870, 2)
+writev(1, 0x00007ffe7af34870, 2)
+open('/tmp/nimble_3302', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_3302')
 open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
-writev(3, 0x00007fff6d5adfa0, 2)
-writev(1, 0x00007fff6d5ae0f0, 2)
-  create directory /tmp
-  create directory /tmp/nimble_3006
-  create directory /tmp/nimble_3006/githubcom_luminosodagradient
-  delete /tmp/nimble_3006/githubcom_luminosodagradient
-  delete /tmp/nimble_3006
+writev(3, 0x00007ffe7af348d0, 2)
+writev(1, 0x00007ffe7af34860, 2)
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgcache
+  create directory /home/runner/.nimble/pkgcache/githubcom_luminosodagradient
+  delete /home/runner/.nimble/pkgcache/githubcom_luminosodagradient
+  delete /tmp/nimble_3302
   truncate file /home/runner/.nimble/nimbledata2.json

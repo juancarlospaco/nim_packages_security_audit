@@ -1,3 +1,4 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/attakei/gigi using git
@@ -5,17 +6,24 @@ Downloading https://github.com/attakei/gigi using git
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007fff2e042010, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007fff908b50f0, 2)
-open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
-writev(1, 0x00007fff908b47c0, 2)
+writev(1, 0x00007fff2e0420e0, 2)
+writev(1, 0x00007fffab8771e0, 2)
+writev(1, 0x00007fffab877270, 2)
+writev(1, 0x00007fffab877270, 2)
+writev(1, 0x00007fffab877270, 2)
+writev(1, 0x00007fff2e040ac0, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3120/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3120/githubcom_attakeigigi', 0x00000000000001ff)
-writev(1, 0x00007fff908b4780, 2)
-open('/tmp/nimble_3120/githubcom_attakeigigi', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_3120/githubcom_attakeigigi')
-writev(1, 0x00007fff908b46f0, 2)
-mkdir(94164836984672, 0x00000000000001ff)
-Error tracing process: readBytes(0x000055a475a8a760, 256) error: [Errno 5] Input/output error.
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_attakeigigi', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_attakeigigi', 622592, 0x0000000000000000)
+writev(1, 0x00007fff2e040ba0, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_attakeigigi', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_attakeigigi')
+writev(1, 0x00007fff2e040a90, 2)
+mkdir(93826995796704, 0x00000000000001ff)
+Error tracing process: readBytes(0x00005555ccc13ae0, 256) error: [Errno 5] Input/output error.

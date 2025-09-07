@@ -1,7 +1,8 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/achesak/nim-geonames using git
-download.nim(81)         getTagsListRemote
+download.nim(92)         getTagsListRemote
 
     Error:  Unable to query remote tags for https://github.com/achesak/nim-geonames. Git returned: remote: Repository not found.
         ... fatal: repository 'https://github.com/achesak/nim-geonames/' not found
@@ -9,28 +10,37 @@ download.nim(81)         getTagsListRemote
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffe0c0d8840, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffd0e8b5b50, 2)
-open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
-writev(1, 0x00007ffd0e8b5220, 2)
+writev(1, 0x00007ffe0c0d8910, 2)
+writev(1, 0x00007fff9e38deb0, 2)
+writev(1, 0x00007fff9e38df40, 2)
+writev(1, 0x00007fff9e38df40, 2)
+writev(1, 0x00007fff9e38df40, 2)
+writev(1, 0x00007ffe0c0d72f0, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2242/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2242/githubcom_achesaknimgeonames', 0x00000000000001ff)
-writev(1, 0x00007ffd0e8b51e0, 2)
-open('/tmp/nimble_2242/githubcom_achesaknimgeonames', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2242/githubcom_achesaknimgeonames')
-writev(1, 0x00007ffd0e8b5c60, 2)
-writev(1, 0x00007ffd0e8b5be0, 2)
-writev(1, 0x00007ffd0e8b5be0, 2)
-open('/tmp/nimble_2242', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2242')
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_achesaknimgeonames', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_achesaknimgeonames', 622592, 0x0000000000000000)
+writev(1, 0x00007ffe0c0d73d0, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_achesaknimgeonames', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_achesaknimgeonames')
+writev(1, 0x00007ffe0c0d8a90, 2)
+writev(1, 0x00007ffe0c0d8900, 2)
+writev(1, 0x00007ffe0c0d8900, 2)
+open('/tmp/nimble_2435', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2435')
 open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
-writev(3, 0x00007ffd0e8b5ab0, 2)
-writev(1, 0x00007ffd0e8b5c00, 2)
-  create directory /tmp
-  create directory /tmp/nimble_2242
-  create directory /tmp/nimble_2242/githubcom_achesaknimgeonames
-  delete /tmp/nimble_2242/githubcom_achesaknimgeonames
-  delete /tmp/nimble_2242
+writev(3, 0x00007ffe0c0d8960, 2)
+writev(1, 0x00007ffe0c0d88f0, 2)
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgcache
+  create directory /home/runner/.nimble/pkgcache/githubcom_achesaknimgeonames
+  delete /home/runner/.nimble/pkgcache/githubcom_achesaknimgeonames
+  delete /tmp/nimble_2435
   truncate file /home/runner/.nimble/nimbledata2.json

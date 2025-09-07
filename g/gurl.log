@@ -1,7 +1,8 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/MaxUNof/gurl using git
-download.nim(81)         getTagsListRemote
+download.nim(92)         getTagsListRemote
 
     Error:  Unable to query remote tags for https://github.com/MaxUNof/gurl. Git returned: remote: Repository not found.
         ... fatal: repository 'https://github.com/MaxUNof/gurl/' not found
@@ -9,28 +10,37 @@ download.nim(81)         getTagsListRemote
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffc45780320, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffebc99d050, 2)
-open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
-writev(1, 0x00007ffebc99c720, 2)
+writev(1, 0x00007ffc457803f0, 2)
+writev(1, 0x00007fff77e246a0, 2)
+writev(1, 0x00007fff77e24730, 2)
+writev(1, 0x00007fff77e24730, 2)
+writev(1, 0x00007fff77e24730, 2)
+writev(1, 0x00007ffc4577edd0, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2768/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2768/githubcom_MaxUNofgurl', 0x00000000000001ff)
-writev(1, 0x00007ffebc99c6e0, 2)
-open('/tmp/nimble_2768/githubcom_MaxUNofgurl', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2768/githubcom_MaxUNofgurl')
-writev(1, 0x00007ffebc99d160, 2)
-writev(1, 0x00007ffebc99d0e0, 2)
-writev(1, 0x00007ffebc99d0e0, 2)
-open('/tmp/nimble_2768', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2768')
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_MaxUNofgurl', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_MaxUNofgurl', 622592, 0x0000000000000000)
+writev(1, 0x00007ffc4577eeb0, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_MaxUNofgurl', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_MaxUNofgurl')
+writev(1, 0x00007ffc45780570, 2)
+writev(1, 0x00007ffc457803e0, 2)
+writev(1, 0x00007ffc457803e0, 2)
+open('/tmp/nimble_3030', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_3030')
 open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
-writev(3, 0x00007ffebc99cfb0, 2)
-writev(1, 0x00007ffebc99d100, 2)
-  create directory /tmp
-  create directory /tmp/nimble_2768
-  create directory /tmp/nimble_2768/githubcom_MaxUNofgurl
-  delete /tmp/nimble_2768/githubcom_MaxUNofgurl
-  delete /tmp/nimble_2768
+writev(3, 0x00007ffc45780440, 2)
+writev(1, 0x00007ffc457803d0, 2)
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgcache
+  create directory /home/runner/.nimble/pkgcache/githubcom_MaxUNofgurl
+  delete /home/runner/.nimble/pkgcache/githubcom_MaxUNofgurl
+  delete /tmp/nimble_3030
   truncate file /home/runner/.nimble/nimbledata2.json
