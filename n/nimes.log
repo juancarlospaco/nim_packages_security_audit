@@ -1,3 +1,4 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/def-/nimes using git
@@ -5,17 +6,24 @@ Downloading https://github.com/def-/nimes using git
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffe16235f20, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffd6822ee10, 2)
-open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
-writev(1, 0x00007ffd6822e4e0, 2)
+writev(1, 0x00007ffe16235ff0, 2)
+writev(1, 0x00007ffcee29c560, 2)
+writev(1, 0x00007ffcee29c5f0, 2)
+writev(1, 0x00007ffcee29c5f0, 2)
+writev(1, 0x00007ffcee29c5f0, 2)
+writev(1, 0x00007ffe162349d0, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2815/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2815/githubcom_defnimes', 0x00000000000001ff)
-writev(1, 0x00007ffd6822e4a0, 2)
-open('/tmp/nimble_2815/githubcom_defnimes', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2815/githubcom_defnimes')
-writev(1, 0x00007ffd6822e410, 2)
-mkdir(94631015057248, 0x00000000000001ff)
-Error tracing process: readBytes(0x0000561100098760, 256) error: [Errno 5] Input/output error.
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_defnimes', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_defnimes', 622592, 0x0000000000000000)
+writev(1, 0x00007ffe16234ab0, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_defnimes', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_defnimes')
+writev(1, 0x00007ffe162349a0, 2)
+mkdir(94667123993232, 0x00000000000001ff)
+Error tracing process: readBytes(0x00005619684c2a90, 256) error: [Errno 5] Input/output error.

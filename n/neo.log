@@ -1,3 +1,4 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/andreaferretti/neo using git
@@ -5,17 +6,24 @@ Downloading https://github.com/andreaferretti/neo using git
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffeaac950f0, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffc9cd70770, 2)
-open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
-writev(1, 0x00007ffc9cd6fe40, 2)
+writev(1, 0x00007ffeaac951c0, 2)
+writev(1, 0x00007ffe5f06eb80, 2)
+writev(1, 0x00007ffe5f06ec10, 2)
+writev(1, 0x00007ffe5f06ec10, 2)
+writev(1, 0x00007ffe5f06ec10, 2)
+writev(1, 0x00007ffeaac93ba0, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3629/', 0x00000000000001ff)
-mkdir('/tmp/nimble_3629/githubcom_andreaferrettineo', 0x00000000000001ff)
-writev(1, 0x00007ffc9cd6fe00, 2)
-open('/tmp/nimble_3629/githubcom_andreaferrettineo', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_3629/githubcom_andreaferrettineo')
-writev(1, 0x00007ffc9cd6fd70, 2)
-mkdir(94327326721152, 0x00000000000001ff)
-Error tracing process: readBytes(0x000055ca4acd4480, 256) error: [Errno 5] Input/output error.
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_andreaferrettineo', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_andreaferrettineo', 622592, 0x0000000000000000)
+writev(1, 0x00007ffeaac93c80, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_andreaferrettineo', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_andreaferrettineo')
+writev(1, 0x00007ffeaac93b70, 2)
+mkdir(94552876550976, 0x00000000000001ff)
+Error tracing process: readBytes(0x000055fece9e8b40, 256) error: [Errno 5] Input/output error.

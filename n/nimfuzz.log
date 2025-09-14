@@ -1,3 +1,4 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/apense/nimfuzz using git
@@ -5,17 +6,24 @@ Downloading https://github.com/apense/nimfuzz using git
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffd3f63a280, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffe448f6d70, 2)
-open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
-writev(1, 0x00007ffe448f6440, 2)
+writev(1, 0x00007ffd3f63a350, 2)
+writev(1, 0x00007fff001609d0, 2)
+writev(1, 0x00007fff00160a60, 2)
+writev(1, 0x00007fff00160a60, 2)
+writev(1, 0x00007fff00160a60, 2)
+writev(1, 0x00007ffd3f638d30, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2900/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2900/githubcom_apensenimfuzz', 0x00000000000001ff)
-writev(1, 0x00007ffe448f6400, 2)
-open('/tmp/nimble_2900/githubcom_apensenimfuzz', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2900/githubcom_apensenimfuzz')
-writev(1, 0x00007ffe448f6370, 2)
-mkdir(93970266129536, 0x00000000000001ff)
-Error tracing process: readBytes(0x0000557728550480, 256) error: [Errno 5] Input/output error.
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_apensenimfuzz', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_apensenimfuzz', 622592, 0x0000000000000000)
+writev(1, 0x00007ffd3f638e10, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_apensenimfuzz', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_apensenimfuzz')
+writev(1, 0x00007ffd3f638d00, 2)
+mkdir(94652135668448, 0x00000000000001ff)
+Error tracing process: readBytes(0x00005615eaec7ae0, 256) error: [Errno 5] Input/output error.
