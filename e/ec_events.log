@@ -1,9 +1,10 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
    Warning: The ec_events package has been renamed to mc_events
     Reading official package list
 Downloading https://github.com/MerosCrypto/mc_events using git
-download.nim(81)         getTagsListRemote
+download.nim(92)         getTagsListRemote
 
     Error:  Unable to query remote tags for https://github.com/MerosCrypto/mc_events. Git returned: remote: Repository not found.
         ... fatal: repository 'https://github.com/MerosCrypto/mc_events/' not found
@@ -11,31 +12,39 @@ download.nim(81)         getTagsListRemote
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffe3b1aadd0, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffd16d0ddc0, 2)
-open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
-writev(1, 0x00007ffd16d0c9f0, 2)
+writev(1, 0x00007ffe3b1aaea0, 2)
+writev(1, 0x00007fffb608a010, 2)
+writev(1, 0x00007fffb608a0a0, 2)
+writev(1, 0x00007fffb608a0a0, 2)
+writev(1, 0x00007fffb608a0a0, 2)
+writev(1, 0x00007ffe3b1a9880, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffd16d0c990, 2)
-writev(1, 0x00007ffd16d0c730, 2)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2462/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2462/githubcom_MerosCryptomcevents', 0x00000000000001ff)
-open('/tmp/nimble_2462/githubcom_MerosCryptomcevents', 622592, 0x0000000000000000)
-writev(1, 0x00007ffd16d0cab0, 2)
-open('/tmp/nimble_2462/githubcom_MerosCryptomcevents', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2462/githubcom_MerosCryptomcevents')
-writev(1, 0x00007ffd16d0df50, 2)
-writev(1, 0x00007ffd16d0de20, 2)
-writev(1, 0x00007ffd16d0de20, 2)
-open('/tmp/nimble_2462', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2462')
+writev(1, 0x00007ffe3b1a9820, 2)
+writev(1, 0x00007ffe3b1a95c0, 2)
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_MerosCryptomcevents', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_MerosCryptomcevents', 622592, 0x0000000000000000)
+writev(1, 0x00007ffe3b1a9960, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_MerosCryptomcevents', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_MerosCryptomcevents')
+writev(1, 0x00007ffe3b1ab020, 2)
+writev(1, 0x00007ffe3b1aae90, 2)
+writev(1, 0x00007ffe3b1aae90, 2)
+open('/tmp/nimble_2619', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2619')
 open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
-writev(3, 0x00007ffd16d0de20, 2)
-writev(1, 0x00007ffd16d0de10, 2)
-  create directory /tmp
-  create directory /tmp/nimble_2462
-  create directory /tmp/nimble_2462/githubcom_MerosCryptomcevents
-  delete /tmp/nimble_2462/githubcom_MerosCryptomcevents
-  delete /tmp/nimble_2462
+writev(3, 0x00007ffe3b1aaef0, 2)
+writev(1, 0x00007ffe3b1aae80, 2)
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgcache
+  create directory /home/runner/.nimble/pkgcache/githubcom_MerosCryptomcevents
+  delete /home/runner/.nimble/pkgcache/githubcom_MerosCryptomcevents
+  delete /tmp/nimble_2619
   truncate file /home/runner/.nimble/nimbledata2.json
