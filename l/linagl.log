@@ -1,37 +1,46 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://bitbucket.org/BitPuffin/linagl using hg
-tools.nim(62)            tryDoCmdEx
+tools.nim(63)            tryDoCmdEx
 
-    Error:  Execution of 'hg clone -r tip   https://bitbucket.org/BitPuffin/linagl /tmp/nimble_2248/bitbucketorg_BitPuffinlinagl' failed with an exit code 255.
+    Error:  Execution of 'hg clone -r tip   https://bitbucket.org/BitPuffin/linagl /home/runner/.nimble/pkgcache/bitbucketorg_BitPuffinlinagl' failed with an exit code 255.
         ... Details: abort: HTTP Error 404: Not Found
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffef2a8ab30, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffda041dca0, 2)
-open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
-writev(1, 0x00007ffda041c8d0, 2)
+writev(1, 0x00007ffef2a8ac00, 2)
+writev(1, 0x00007ffc0c00d3c0, 2)
+writev(1, 0x00007ffc0c00d450, 2)
+writev(1, 0x00007ffc0c00d450, 2)
+writev(1, 0x00007ffc0c00d450, 2)
+writev(1, 0x00007ffef2a895e0, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2248/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2248/bitbucketorg_BitPuffinlinagl', 0x00000000000001ff)
-open('/tmp/nimble_2248/bitbucketorg_BitPuffinlinagl', 622592, 0x0000000000000000)
-writev(1, 0x00007ffda041c990, 2)
-open('/tmp/nimble_2248/bitbucketorg_BitPuffinlinagl', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2248/bitbucketorg_BitPuffinlinagl')
-writev(1, 0x00007ffda041de30, 2)
-writev(1, 0x00007ffda041dd00, 2)
-writev(1, 0x00007ffda041dd00, 2)
-open('/tmp/nimble_2248', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2248')
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/bitbucketorg_BitPuffinlinagl', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/bitbucketorg_BitPuffinlinagl', 622592, 0x0000000000000000)
+writev(1, 0x00007ffef2a896c0, 2)
+open('/home/runner/.nimble/pkgcache/bitbucketorg_BitPuffinlinagl', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/bitbucketorg_BitPuffinlinagl')
+writev(1, 0x00007ffef2a8ad80, 2)
+writev(1, 0x00007ffef2a8abf0, 2)
+writev(1, 0x00007ffef2a8abf0, 2)
+open('/tmp/nimble_2399', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2399')
 open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
-writev(3, 0x00007ffda041dd00, 2)
-writev(1, 0x00007ffda041dcf0, 2)
-  create directory /tmp
-  create directory /tmp/nimble_2248
-  create directory /tmp/nimble_2248/bitbucketorg_BitPuffinlinagl
-  delete /tmp/nimble_2248/bitbucketorg_BitPuffinlinagl
-  delete /tmp/nimble_2248
+writev(3, 0x00007ffef2a8ac50, 2)
+writev(1, 0x00007ffef2a8abe0, 2)
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgcache
+  create directory /home/runner/.nimble/pkgcache/bitbucketorg_BitPuffinlinagl
+  delete /home/runner/.nimble/pkgcache/bitbucketorg_BitPuffinlinagl
+  delete /tmp/nimble_2399
   truncate file /home/runner/.nimble/nimbledata2.json

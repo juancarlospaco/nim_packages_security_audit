@@ -1,7 +1,8 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/nimscale/nim-libjwt using git
-download.nim(81)         getTagsListRemote
+download.nim(92)         getTagsListRemote
 
     Error:  Unable to query remote tags for https://github.com/nimscale/nim-libjwt. Git returned: remote: Repository not found.
         ... fatal: repository 'https://github.com/nimscale/nim-libjwt/' not found
@@ -9,29 +10,37 @@ download.nim(81)         getTagsListRemote
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffcc6113b00, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffc775b2840, 2)
-open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
-writev(1, 0x00007ffc775b1470, 2)
+writev(1, 0x00007ffcc6113bd0, 2)
+writev(1, 0x00007ffd15c02890, 2)
+writev(1, 0x00007ffd15c02920, 2)
+writev(1, 0x00007ffd15c02920, 2)
+writev(1, 0x00007ffd15c02920, 2)
+writev(1, 0x00007ffcc61125b0, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2613/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2613/githubcom_nimscalenimlibjwt', 0x00000000000001ff)
-open('/tmp/nimble_2613/githubcom_nimscalenimlibjwt', 622592, 0x0000000000000000)
-writev(1, 0x00007ffc775b1530, 2)
-open('/tmp/nimble_2613/githubcom_nimscalenimlibjwt', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2613/githubcom_nimscalenimlibjwt')
-writev(1, 0x00007ffc775b29d0, 2)
-writev(1, 0x00007ffc775b28a0, 2)
-writev(1, 0x00007ffc775b28a0, 2)
-open('/tmp/nimble_2613', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2613')
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_nimscalenimlibjwt', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_nimscalenimlibjwt', 622592, 0x0000000000000000)
+writev(1, 0x00007ffcc6112690, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_nimscalenimlibjwt', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_nimscalenimlibjwt')
+writev(1, 0x00007ffcc6113d50, 2)
+writev(1, 0x00007ffcc6113bc0, 2)
+writev(1, 0x00007ffcc6113bc0, 2)
+open('/tmp/nimble_2781', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2781')
 open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
-writev(3, 0x00007ffc775b28a0, 2)
-writev(1, 0x00007ffc775b2890, 2)
-  create directory /tmp
-  create directory /tmp/nimble_2613
-  create directory /tmp/nimble_2613/githubcom_nimscalenimlibjwt
-  delete /tmp/nimble_2613/githubcom_nimscalenimlibjwt
-  delete /tmp/nimble_2613
+writev(3, 0x00007ffcc6113c20, 2)
+writev(1, 0x00007ffcc6113bb0, 2)
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgcache
+  create directory /home/runner/.nimble/pkgcache/githubcom_nimscalenimlibjwt
+  delete /home/runner/.nimble/pkgcache/githubcom_nimscalenimlibjwt
+  delete /tmp/nimble_2781
   truncate file /home/runner/.nimble/nimbledata2.json

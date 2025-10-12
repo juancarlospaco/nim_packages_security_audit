@@ -1,22 +1,46 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/m33m33/libsaedea using git
-   Warning: The package has no tagged releases, downloading HEAD instead.
+download.nim(92)         getTagsListRemote
+
+    Error:  Unable to query remote tags for https://github.com/m33m33/libsaedea. Git returned: remote: Repository not found.
+        ... fatal: repository 'https://github.com/m33m33/libsaedea/' not found
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007fffd84144e0, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007fff4875c660, 2)
-open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
-writev(1, 0x00007fff4875b290, 2)
+writev(1, 0x00007fffd84145b0, 2)
+writev(1, 0x00007fff2fa92a80, 2)
+writev(1, 0x00007fff2fa92b10, 2)
+writev(1, 0x00007fff2fa92b10, 2)
+writev(1, 0x00007fff2fa92b10, 2)
+writev(1, 0x00007fffd8412f90, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2204/', 0x00000000000001ff)
-mkdir('/tmp/nimble_2204/githubcom_m33m33libsaedea', 0x00000000000001ff)
-open('/tmp/nimble_2204/githubcom_m33m33libsaedea', 622592, 0x0000000000000000)
-writev(1, 0x00007fff4875b350, 2)
-open('/tmp/nimble_2204/githubcom_m33m33libsaedea', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2204/githubcom_m33m33libsaedea')
-writev(1, 0x00007fff4875b240, 2)
-mkdir(94625488012704, 0x00000000000001ff)
-Error tracing process: readBytes(0x0000560fb69985a0, 256) error: [Errno 5] Input/output error.
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_m33m33libsaedea', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_m33m33libsaedea', 622592, 0x0000000000000000)
+writev(1, 0x00007fffd8413070, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_m33m33libsaedea', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_m33m33libsaedea')
+writev(1, 0x00007fffd8414730, 2)
+writev(1, 0x00007fffd84145a0, 2)
+writev(1, 0x00007fffd84145a0, 2)
+open('/tmp/nimble_2357', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_2357')
+open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
+writev(3, 0x00007fffd8414600, 2)
+writev(1, 0x00007fffd8414590, 2)
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgcache
+  create directory /home/runner/.nimble/pkgcache/githubcom_m33m33libsaedea
+  delete /home/runner/.nimble/pkgcache/githubcom_m33m33libsaedea
+  delete /tmp/nimble_2357
+  truncate file /home/runner/.nimble/nimbledata2.json
