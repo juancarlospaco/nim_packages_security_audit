@@ -1,7 +1,8 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/Skrylar/skyhash using git
-download.nim(81)         getTagsListRemote
+download.nim(92)         getTagsListRemote
 
     Error:  Unable to query remote tags for https://github.com/Skrylar/skyhash. Git returned: remote: Repository not found.
         ... fatal: repository 'https://github.com/Skrylar/skyhash/' not found
@@ -9,29 +10,37 @@ download.nim(81)         getTagsListRemote
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffe6c999270, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffd4ef41ca0, 2)
-open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
-writev(1, 0x00007ffd4ef408d0, 2)
+writev(1, 0x00007ffe6c999340, 2)
+writev(1, 0x00007ffdc66b47d0, 2)
+writev(1, 0x00007ffdc66b4860, 2)
+writev(1, 0x00007ffdc66b4860, 2)
+writev(1, 0x00007ffdc66b4860, 2)
+writev(1, 0x00007ffe6c997d20, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4085/', 0x00000000000001ff)
-mkdir('/tmp/nimble_4085/githubcom_Skrylarskyhash', 0x00000000000001ff)
-open('/tmp/nimble_4085/githubcom_Skrylarskyhash', 622592, 0x0000000000000000)
-writev(1, 0x00007ffd4ef40990, 2)
-open('/tmp/nimble_4085/githubcom_Skrylarskyhash', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_4085/githubcom_Skrylarskyhash')
-writev(1, 0x00007ffd4ef41e30, 2)
-writev(1, 0x00007ffd4ef41d00, 2)
-writev(1, 0x00007ffd4ef41d00, 2)
-open('/tmp/nimble_4085', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_4085')
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_Skrylarskyhash', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_Skrylarskyhash', 622592, 0x0000000000000000)
+writev(1, 0x00007ffe6c997e00, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_Skrylarskyhash', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_Skrylarskyhash')
+writev(1, 0x00007ffe6c9994c0, 2)
+writev(1, 0x00007ffe6c999330, 2)
+writev(1, 0x00007ffe6c999330, 2)
+open('/tmp/nimble_4489', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_4489')
 open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
-writev(3, 0x00007ffd4ef41d00, 2)
-writev(1, 0x00007ffd4ef41cf0, 2)
-  create directory /tmp
-  create directory /tmp/nimble_4085
-  create directory /tmp/nimble_4085/githubcom_Skrylarskyhash
-  delete /tmp/nimble_4085/githubcom_Skrylarskyhash
-  delete /tmp/nimble_4085
+writev(3, 0x00007ffe6c999390, 2)
+writev(1, 0x00007ffe6c999320, 2)
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgcache
+  create directory /home/runner/.nimble/pkgcache/githubcom_Skrylarskyhash
+  delete /home/runner/.nimble/pkgcache/githubcom_Skrylarskyhash
+  delete /tmp/nimble_4489
   truncate file /home/runner/.nimble/nimbledata2.json

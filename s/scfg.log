@@ -1,3 +1,4 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://codeberg.org/xoich/nim-scfg using git
@@ -5,18 +6,24 @@ Downloading https://codeberg.org/xoich/nim-scfg using git
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007fff95c6dcc0, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffc9a23abd0, 2)
-open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
-writev(1, 0x00007ffc9a239800, 2)
+writev(1, 0x00007fff95c6dd90, 2)
+writev(1, 0x00007ffe53a013f0, 2)
+writev(1, 0x00007ffe53a01480, 2)
+writev(1, 0x00007ffe53a01480, 2)
+writev(1, 0x00007ffe53a01480, 2)
+writev(1, 0x00007fff95c6c770, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5177/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5177/codebergorg_xoichnimscfg', 0x00000000000001ff)
-open('/tmp/nimble_5177/codebergorg_xoichnimscfg', 622592, 0x0000000000000000)
-writev(1, 0x00007ffc9a2398c0, 2)
-open('/tmp/nimble_5177/codebergorg_xoichnimscfg', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_5177/codebergorg_xoichnimscfg')
-writev(1, 0x00007ffc9a2397b0, 2)
-mkdir(94430704899488, 0x00000000000001ff)
-Error tracing process: readBytes(0x000055e25c9f15a0, 256) error: [Errno 5] Input/output error.
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/codebergorg_xoichnimscfg', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/codebergorg_xoichnimscfg', 622592, 0x0000000000000000)
+writev(1, 0x00007fff95c6c850, 2)
+open('/home/runner/.nimble/pkgcache/codebergorg_xoichnimscfg', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/codebergorg_xoichnimscfg')
+writev(1, 0x00007fff95c6c740, 2)
+mkdir(93882436229792, 0x00000000000001ff)
+Error tracing process: readBytes(0x00005562b5431aa0, 256) error: [Errno 5] Input/output error.

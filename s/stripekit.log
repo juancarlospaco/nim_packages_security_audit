@@ -1,7 +1,8 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/vfehring/StripeKit using git
-download.nim(81)         getTagsListRemote
+download.nim(92)         getTagsListRemote
 
     Error:  Unable to query remote tags for https://github.com/vfehring/StripeKit. Git returned: remote: Repository not found.
         ... fatal: repository 'https://github.com/vfehring/StripeKit/' not found
@@ -9,29 +10,37 @@ download.nim(81)         getTagsListRemote
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffda7984350, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffd353bdab0, 2)
-open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
-writev(1, 0x00007ffd353bc6e0, 2)
+writev(1, 0x00007ffda7984420, 2)
+writev(1, 0x00007ffe069356e0, 2)
+writev(1, 0x00007ffe06935770, 2)
+writev(1, 0x00007ffe06935770, 2)
+writev(1, 0x00007ffe06935770, 2)
+writev(1, 0x00007ffda7982e00, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5240/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5240/githubcom_vfehringStripeKit', 0x00000000000001ff)
-open('/tmp/nimble_5240/githubcom_vfehringStripeKit', 622592, 0x0000000000000000)
-writev(1, 0x00007ffd353bc7a0, 2)
-open('/tmp/nimble_5240/githubcom_vfehringStripeKit', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_5240/githubcom_vfehringStripeKit')
-writev(1, 0x00007ffd353bdc40, 2)
-writev(1, 0x00007ffd353bdb10, 2)
-writev(1, 0x00007ffd353bdb10, 2)
-open('/tmp/nimble_5240', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_5240')
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_vfehringStripeKit', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_vfehringStripeKit', 622592, 0x0000000000000000)
+writev(1, 0x00007ffda7982ee0, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_vfehringStripeKit', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_vfehringStripeKit')
+writev(1, 0x00007ffda79845a0, 2)
+writev(1, 0x00007ffda7984410, 2)
+writev(1, 0x00007ffda7984410, 2)
+open('/tmp/nimble_5778', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_5778')
 open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
-writev(3, 0x00007ffd353bdb10, 2)
-writev(1, 0x00007ffd353bdb00, 2)
-  create directory /tmp
-  create directory /tmp/nimble_5240
-  create directory /tmp/nimble_5240/githubcom_vfehringStripeKit
-  delete /tmp/nimble_5240/githubcom_vfehringStripeKit
-  delete /tmp/nimble_5240
+writev(3, 0x00007ffda7984470, 2)
+writev(1, 0x00007ffda7984400, 2)
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgcache
+  create directory /home/runner/.nimble/pkgcache/githubcom_vfehringStripeKit
+  delete /home/runner/.nimble/pkgcache/githubcom_vfehringStripeKit
+  delete /tmp/nimble_5778
   truncate file /home/runner/.nimble/nimbledata2.json

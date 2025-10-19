@@ -1,22 +1,46 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/xcodz-dot/sas using git
-    Cloning latest tagged version: 0.1.0
+download.nim(92)         getTagsListRemote
+
+    Error:  Unable to query remote tags for https://github.com/xcodz-dot/sas. Git returned: remote: Repository not found.
+        ... fatal: repository 'https://github.com/xcodz-dot/sas/' not found
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffc0dfab170, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffcecf7e190, 2)
-open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
-writev(1, 0x00007ffcecf7cdc0, 2)
+writev(1, 0x00007ffc0dfab240, 2)
+writev(1, 0x00007fffc3b334b0, 2)
+writev(1, 0x00007fffc3b33540, 2)
+writev(1, 0x00007fffc3b33540, 2)
+writev(1, 0x00007fffc3b33540, 2)
+writev(1, 0x00007ffc0dfa9c20, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5051/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5051/githubcom_xcodzdotsas', 0x00000000000001ff)
-open('/tmp/nimble_5051/githubcom_xcodzdotsas', 622592, 0x0000000000000000)
-writev(1, 0x00007ffcecf7ce80, 2)
-open('/tmp/nimble_5051/githubcom_xcodzdotsas', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_5051/githubcom_xcodzdotsas')
-writev(1, 0x00007ffcecf7cd70, 2)
-mkdir(94904860919904, 0x00000000000001ff)
-Error tracing process: readBytes(0x00005650c285c860, 256) error: [Errno 5] Input/output error.
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_xcodzdotsas', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_xcodzdotsas', 622592, 0x0000000000000000)
+writev(1, 0x00007ffc0dfa9d00, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_xcodzdotsas', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_xcodzdotsas')
+writev(1, 0x00007ffc0dfab3c0, 2)
+writev(1, 0x00007ffc0dfab230, 2)
+writev(1, 0x00007ffc0dfab230, 2)
+open('/tmp/nimble_5579', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_5579')
+open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
+writev(3, 0x00007ffc0dfab290, 2)
+writev(1, 0x00007ffc0dfab220, 2)
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgcache
+  create directory /home/runner/.nimble/pkgcache/githubcom_xcodzdotsas
+  delete /home/runner/.nimble/pkgcache/githubcom_xcodzdotsas
+  delete /tmp/nimble_5579
+  truncate file /home/runner/.nimble/nimbledata2.json

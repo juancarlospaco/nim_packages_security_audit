@@ -1,3 +1,4 @@
+      Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
 Downloading https://github.com/codex-storage/nim-json using git
@@ -5,18 +6,24 @@ Downloading https://github.com/codex-storage/nim-json using git
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
+writev(1, 0x00007ffdc1bb8dd0, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffc1d586610, 2)
-open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
-writev(1, 0x00007ffc1d585240, 2)
+writev(1, 0x00007ffdc1bb8ea0, 2)
+writev(1, 0x00007ffe168e0910, 2)
+writev(1, 0x00007ffe168e09a0, 2)
+writev(1, 0x00007ffe168e09a0, 2)
+writev(1, 0x00007ffe168e09a0, 2)
+writev(1, 0x00007ffdc1bb7880, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/tmp/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5417/', 0x00000000000001ff)
-mkdir('/tmp/nimble_5417/githubcom_codexstoragenimjson', 0x00000000000001ff)
-open('/tmp/nimble_5417/githubcom_codexstoragenimjson', 622592, 0x0000000000000000)
-writev(1, 0x00007ffc1d585300, 2)
-open('/tmp/nimble_5417/githubcom_codexstoragenimjson', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_5417/githubcom_codexstoragenimjson')
-writev(1, 0x00007ffc1d5851f0, 2)
-mkdir(94542065276976, 0x00000000000001ff)
-Error tracing process: readBytes(0x000055fc4a379830, 256) error: [Errno 5] Input/output error.
+mkdir('/home/', 0x00000000000001ff)
+mkdir('/home/runner/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
+mkdir('/home/runner/.nimble/pkgcache/githubcom_codexstoragenimjson', 0x00000000000001ff)
+open('/home/runner/.nimble/pkgcache/githubcom_codexstoragenimjson', 622592, 0x0000000000000000)
+writev(1, 0x00007ffdc1bb7960, 2)
+open('/home/runner/.nimble/pkgcache/githubcom_codexstoragenimjson', 622592, 0x0000000000000000)
+rmdir('/home/runner/.nimble/pkgcache/githubcom_codexstoragenimjson')
+writev(1, 0x00007ffdc1bb7850, 2)
+mkdir(94559076309856, 0x00000000000001ff)
+Error tracing process: readBytes(0x0000560040275b60, 256) error: [Errno 5] Input/output error.
