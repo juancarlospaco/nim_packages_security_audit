@@ -1,46 +1,17 @@
       Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
-    Reading official package list
-Downloading https://github.com/MaxUNof/gurl using git
-download.nim(94)         getTagsListRemote
-
-    Error:  Unable to query remote tags for https://github.com/MaxUNof/gurl . Git returned: remote: Repository not found.
-        ... fatal: repository 'https://github.com/MaxUNof/gurl/' not found
-     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
+    Prompt: No nim version matching 2.2.10. Download it now? -> [forced yes]
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
-writev(1, 0x00007fffaf629570, 2)
+writev(1, 0x00007ffdcd6c3bd0, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007fffaf629640, 2)
-writev(1, 0x00007ffe6d212720, 2)
-writev(1, 0x00007ffe6d2127b0, 2)
-writev(1, 0x00007ffe6d2127b0, 2)
-writev(1, 0x00007ffe6d2127b0, 2)
-writev(1, 0x00007fffaf628050, 2)
-open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/home/', 0x00000000000001ff)
-mkdir('/home/runner/', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgcache/githubcom_MaxUNofgurl', 0x00000000000001ff)
-open('/home/runner/.nimble/pkgcache/githubcom_MaxUNofgurl', 622592, 0x0000000000000000)
-writev(1, 0x00007fffaf6280b0, 2)
-open('/home/runner/.nimble/pkgcache/githubcom_MaxUNofgurl', 622592, 0x0000000000000000)
-rmdir('/home/runner/.nimble/pkgcache/githubcom_MaxUNofgurl')
-writev(1, 0x00007fffaf629760, 2)
-writev(1, 0x00007fffaf629630, 2)
-writev(1, 0x00007fffaf629630, 2)
-open('/tmp/nimble_3042', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_3042')
-open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
-writev(3, 0x00007fffaf629630, 2)
-writev(1, 0x00007fffaf629620, 2)
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgcache
-  create directory /home/runner/.nimble/pkgcache/githubcom_MaxUNofgurl
-  delete /home/runner/.nimble/pkgcache/githubcom_MaxUNofgurl
-  delete /tmp/nimble_3042
-  truncate file /home/runner/.nimble/nimbledata2.json
+writev(1, 0x00007ffdcd6c3ca0, 2)
+open('/home/runner/.nimble/nimbinaries', 622592, 0x0000000000000000)
+open('/home/runner/.nimble', 622592, 0x0000000000000000)
+open('/home/runner/.nimble/official-nim-releases.json', 557056, 0x00000000000001b6)
+open('/home/runner/.nimble/nimbinaries', 622592, 0x0000000000000000)
+writev(1, 0x00007ffdcd6c29d0, 2)
+open('/home/runner/.nimble/official-nim-releases.json', 557056, 0x00000000000001b6)
+unlink(94348841883344)
+Error tracing process: readBytes(0x000055cf4d3496d0, 256) error: [Errno 5] Input/output error.
