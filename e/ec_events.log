@@ -1,50 +1,17 @@
       Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
-    Reading official package list
-   Warning: The ec_events package has been renamed to mc_events
-    Reading official package list
-Downloading https://github.com/MerosCrypto/mc_events using git
-download.nim(94)         getTagsListRemote
-
-    Error:  Unable to query remote tags for https://github.com/MerosCrypto/mc_events . Git returned: remote: Repository not found.
-        ... fatal: repository 'https://github.com/MerosCrypto/mc_events/' not found
-     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
+    Prompt: No nim version matching 2.2.10. Download it now? -> [forced yes]
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffee2350d70, 2)
+writev(1, 0x00007ffe251385e0, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffee2350e40, 2)
-writev(1, 0x00007ffeb86e5970, 2)
-writev(1, 0x00007ffeb86e5a00, 2)
-writev(1, 0x00007ffeb86e5a00, 2)
-writev(1, 0x00007ffeb86e5a00, 2)
-writev(1, 0x00007ffee234f870, 2)
-open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffee234f810, 2)
-writev(1, 0x00007ffee234f5c0, 2)
-mkdir('/home/', 0x00000000000001ff)
-mkdir('/home/runner/', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgcache/githubcom_MerosCryptomcevents', 0x00000000000001ff)
-open('/home/runner/.nimble/pkgcache/githubcom_MerosCryptomcevents', 622592, 0x0000000000000000)
-writev(1, 0x00007ffee234f8b0, 2)
-open('/home/runner/.nimble/pkgcache/githubcom_MerosCryptomcevents', 622592, 0x0000000000000000)
-rmdir('/home/runner/.nimble/pkgcache/githubcom_MerosCryptomcevents')
-writev(1, 0x00007ffee2350f60, 2)
-writev(1, 0x00007ffee2350e30, 2)
-writev(1, 0x00007ffee2350e30, 2)
-open('/tmp/nimble_2821', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2821')
-open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
-writev(3, 0x00007ffee2350e30, 2)
-writev(1, 0x00007ffee2350e20, 2)
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgcache
-  create directory /home/runner/.nimble/pkgcache/githubcom_MerosCryptomcevents
-  delete /home/runner/.nimble/pkgcache/githubcom_MerosCryptomcevents
-  delete /tmp/nimble_2821
-  truncate file /home/runner/.nimble/nimbledata2.json
+writev(1, 0x00007ffe251386b0, 2)
+open('/home/runner/.nimble/nimbinaries', 622592, 0x0000000000000000)
+open('/home/runner/.nimble', 622592, 0x0000000000000000)
+open('/home/runner/.nimble/official-nim-releases.json', 557056, 0x00000000000001b6)
+open('/home/runner/.nimble/nimbinaries', 622592, 0x0000000000000000)
+writev(1, 0x00007ffe251373e0, 2)
+open('/home/runner/.nimble/official-nim-releases.json', 557056, 0x00000000000001b6)
+unlink(94236578965200)
+Error tracing process: readBytes(0x000055b529d066d0, 256) error: [Errno 5] Input/output error.
