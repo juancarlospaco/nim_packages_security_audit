@@ -1,44 +1,17 @@
       Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
-    Reading official package list
-Downloading https://gitlab.3dicc.com/gokr/lapp.git using git
-download.nim(94)         getTagsListRemote
-
-    Error:  Unable to query remote tags for https://gitlab.3dicc.com/gokr/lapp.git . Git returned: fatal: unable to access 'https://gitlab.3dicc.com/gokr/lapp.git/': Failed to connect to gitlab.3dicc.com port 443 after 132717 ms: Couldn't connect to server
-     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
+    Prompt: No nim version matching 2.2.10. Download it now? -> [forced yes]
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffdba3d40e0, 2)
+writev(1, 0x00007ffdd1f28360, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffdba3d41b0, 2)
-writev(1, 0x00007ffda62a4f90, 2)
-writev(1, 0x00007ffda62a5020, 2)
-writev(1, 0x00007ffda62a5020, 2)
-writev(1, 0x00007ffda62a5020, 2)
-writev(1, 0x00007ffdba3d2be0, 2)
-open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/home/', 0x00000000000001ff)
-mkdir('/home/runner/', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgcache/gitlab3dicccom_gokrlappgit', 0x00000000000001ff)
-open('/home/runner/.nimble/pkgcache/gitlab3dicccom_gokrlappgit', 622592, 0x0000000000000000)
-writev(1, 0x00007ffdba3d2c20, 2)
-open('/home/runner/.nimble/pkgcache/gitlab3dicccom_gokrlappgit', 622592, 0x0000000000000000)
-rmdir('/home/runner/.nimble/pkgcache/gitlab3dicccom_gokrlappgit')
-writev(1, 0x00007ffdba3d42d0, 2)
-writev(1, 0x00007ffdba3d41a0, 2)
-open('/tmp/nimble_2650', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2650')
-open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
-writev(3, 0x00007ffdba3d41a0, 2)
-writev(1, 0x00007ffdba3d4190, 2)
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgcache
-  create directory /home/runner/.nimble/pkgcache/gitlab3dicccom_gokrlappgit
-  delete /home/runner/.nimble/pkgcache/gitlab3dicccom_gokrlappgit
-  delete /tmp/nimble_2650
-  truncate file /home/runner/.nimble/nimbledata2.json
+writev(1, 0x00007ffdd1f28430, 2)
+open('/home/runner/.nimble/nimbinaries', 622592, 0x0000000000000000)
+open('/home/runner/.nimble', 622592, 0x0000000000000000)
+open('/home/runner/.nimble/official-nim-releases.json', 557056, 0x00000000000001b6)
+open('/home/runner/.nimble/nimbinaries', 622592, 0x0000000000000000)
+writev(1, 0x00007ffdd1f27160, 2)
+open('/home/runner/.nimble/official-nim-releases.json', 557056, 0x00000000000001b6)
+unlink(94059348883152)
+Error tracing process: readBytes(0x0000558be613f6d0, 256) error: [Errno 5] Input/output error.
