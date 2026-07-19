@@ -1,46 +1,17 @@
       Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
-    Reading official package list
-Downloading https://github.com/achesak/nim-spwd using git
-download.nim(94)         getTagsListRemote
-
-    Error:  Unable to query remote tags for https://github.com/achesak/nim-spwd . Git returned: remote: Repository not found.
-        ... fatal: repository 'https://github.com/achesak/nim-spwd/' not found
-     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
+    Prompt: No nim version matching 2.2.10. Download it now? -> [forced yes]
 open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
 open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffda16fb750, 2)
+writev(1, 0x00007fffe54165b0, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffda16fb820, 2)
-writev(1, 0x00007ffd8a691c20, 2)
-writev(1, 0x00007ffd8a691cb0, 2)
-writev(1, 0x00007ffd8a691cb0, 2)
-writev(1, 0x00007ffd8a691cb0, 2)
-writev(1, 0x00007ffda16fa250, 2)
-open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
-mkdir('/home/', 0x00000000000001ff)
-mkdir('/home/runner/', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
-mkdir('/home/runner/.nimble/pkgcache/githubcom_achesaknimspwd', 0x00000000000001ff)
-open('/home/runner/.nimble/pkgcache/githubcom_achesaknimspwd', 622592, 0x0000000000000000)
-writev(1, 0x00007ffda16fa290, 2)
-open('/home/runner/.nimble/pkgcache/githubcom_achesaknimspwd', 622592, 0x0000000000000000)
-rmdir('/home/runner/.nimble/pkgcache/githubcom_achesaknimspwd')
-writev(1, 0x00007ffda16fb940, 2)
-writev(1, 0x00007ffda16fb810, 2)
-writev(1, 0x00007ffda16fb810, 2)
-open('/tmp/nimble_2838', 622592, 0x0000000000000000)
-rmdir('/tmp/nimble_2838')
-open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
-writev(3, 0x00007ffda16fb810, 2)
-writev(1, 0x00007ffda16fb800, 2)
-  create directory /home
-  create directory /home/runner
-  create directory /home/runner/.nimble
-  create directory /home/runner/.nimble/pkgcache
-  create directory /home/runner/.nimble/pkgcache/githubcom_achesaknimspwd
-  delete /home/runner/.nimble/pkgcache/githubcom_achesaknimspwd
-  delete /tmp/nimble_2838
-  truncate file /home/runner/.nimble/nimbledata2.json
+writev(1, 0x00007fffe5416680, 2)
+open('/home/runner/.nimble/nimbinaries', 622592, 0x0000000000000000)
+open('/home/runner/.nimble', 622592, 0x0000000000000000)
+open('/home/runner/.nimble/official-nim-releases.json', 557056, 0x00000000000001b6)
+open('/home/runner/.nimble/nimbinaries', 622592, 0x0000000000000000)
+writev(1, 0x00007fffe54153b0, 2)
+open('/home/runner/.nimble/official-nim-releases.json', 557056, 0x00000000000001b6)
+unlink(93864831911632)
+Error tracing process: readBytes(0x0000555e9bf686d0, 256) error: [Errno 5] Input/output error.
