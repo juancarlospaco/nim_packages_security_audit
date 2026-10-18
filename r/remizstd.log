@@ -1,19 +1,18 @@
       Info: Package cache path /home/runner/.nimble/pkgcache
      Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been loaded.
     Reading official package list
-Downloading https://gitlab.com/RemiliaScarlet/remizstd/ using git
-    Cloning latest tagged version: v0.1.1
-open('/workspace/destdir/ssl/openssl.cnf', 32768, 0x00000000000001b6)
+   Fetching https://gitlab.com/RemiliaScarlet/remizstd/ using git
+download.nim(214)        getTagsListRemote
+
+    Error:  Unable to query remote tags for https://gitlab.com/RemiliaScarlet/remizstd/ . Git returned: fatal: could not read Username for 'https://gitlab.com': No such device or address
+     Info:  Nimble data file "/home/runner/.nimble/nimbledata2.json" has been saved.
 open('/home/runner/.config/nimble/nimble.ini', 557056, 0x00000000000001b6)
-open('/home/runner/.config/babel/babel.ini', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffff1b4aa80, 2)
+writev(1, 0x00007ffe65e37e40, 2)
 open('/home/runner/.nimble/nimbledata2.json', 557056, 0x00000000000001b6)
-writev(1, 0x00007ffff1b4ab50, 2)
-writev(1, 0x00007fffa374a890, 2)
-writev(1, 0x00007fffa374a920, 2)
-writev(1, 0x00007fffa374a920, 2)
-writev(1, 0x00007fffa374a920, 2)
-writev(1, 0x00007ffff1b49560, 2)
+writev(1, 0x00007ffe65e37f10, 2)
+open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
+open('/home/runner/work/nim_packages_security_audit/nim_packages_security_audit', 622592, 0x0000000000000000)
+writev(1, 0x00007ffe65e36c60, 2)
 open('/home/runner/.nimble/packages_official.json', 557056, 0x00000000000001b6)
 mkdir('/home/', 0x00000000000001ff)
 mkdir('/home/runner/', 0x00000000000001ff)
@@ -21,9 +20,22 @@ mkdir('/home/runner/.nimble/', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgcache/', 0x00000000000001ff)
 mkdir('/home/runner/.nimble/pkgcache/gitlabcom_RemiliaScarletremizstd', 0x00000000000001ff)
 open('/home/runner/.nimble/pkgcache/gitlabcom_RemiliaScarletremizstd', 622592, 0x0000000000000000)
-writev(1, 0x00007ffff1b495c0, 2)
+open('/home/runner/.nimble/pkgcache/gitlabcom_RemiliaScarletremizstd', 622592, 0x0000000000000000)
+writev(1, 0x00007ffe65e36a80, 2)
 open('/home/runner/.nimble/pkgcache/gitlabcom_RemiliaScarletremizstd', 622592, 0x0000000000000000)
 rmdir('/home/runner/.nimble/pkgcache/gitlabcom_RemiliaScarletremizstd')
-writev(1, 0x00007ffff1b494b0, 2)
-mkdir(94707829578640, 0x00000000000001ff)
-Error tracing process: readBytes(0x00005622e28a1b90, 256) error: [Errno 5] Input/output error.
+writev(1, 0x00007ffe65e38070, 2)
+writev(1, 0x00007ffe65e37f00, 2)
+open('/tmp/nimble_3502', 622592, 0x0000000000000000)
+rmdir('/tmp/nimble_3502')
+open('/home/runner/.nimble/nimbledata2.json', 557633, 0x00000000000001b6)
+writev(3, 0x00007ffe65e38020, 2)
+writev(1, 0x00007ffe65e37f00, 2)
+  create directory /home
+  create directory /home/runner
+  create directory /home/runner/.nimble
+  create directory /home/runner/.nimble/pkgcache
+  create directory /home/runner/.nimble/pkgcache/gitlabcom_RemiliaScarletremizstd
+  delete /home/runner/.nimble/pkgcache/gitlabcom_RemiliaScarletremizstd
+  delete /tmp/nimble_3502
+  truncate file /home/runner/.nimble/nimbledata2.json
